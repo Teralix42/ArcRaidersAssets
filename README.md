@@ -1,7 +1,7 @@
 ### [ This is no longer maintained by AstroVal0 ]
  - Main contributors
 	- [Silarious](https://watch.silarious.online)
-	- Teralix
+	- [Teralix](https://github.com/Teralix42)
 	
 Objects folder is all AstroVal0's work, for all uses of those assets please credit AstroVal0.
 

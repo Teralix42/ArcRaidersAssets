@@ -1,7 +1,7 @@
 ### [ This is no longer maintained by AstroVal0 ]
  - Main contributors
-	- [Silarious](https://watch.silarious.online)
 	- [Teralix](https://github.com/Teralix42)
+  	- [Silarious](https://watch.silarious.online)
 	
 Objects folder is all AstroVal0's work, for all uses of those assets please credit AstroVal0.
 
@@ -10,8 +10,10 @@ The .blend files have packed textures and are for versions 5.0 and above, There 
 The goal is to have easy accessible assets for anyone to use.
 
 ## NINJA RIPPER METHODE OUTDATED. USE FMODEL ON GAME PAKS USING [LATEST USMAP](Mappings/)
-As of now(september 2026), for versions 1.46 and up you'll have to build fmodel from source with the newest CUE4Parse version
 
 <sub>Join Blend raiders [Discord Server](https://discord.gg/8xZHEudWN2) for more information and help. More assets, paks and extracts on the [archive](https://drive.google.com/drive/folders/1BSm-QteBKxMn7CyHkg72xkPnjQRQJnJP?usp=sharing)</sub>
 
-![Arc Raiders Queen](queen.png)
+![Arc Raiders Leaper](Examples/Bullcrab_Render.png)
+![Arc Raiders Unrealeased Outfit : Maestro](Examples/Popstar_Render.png)
+![Arc Raiders Unrealeased Outfit : Matador](Examples/Matador_Render.png)
+![Arc Raiders Weapons](Examples/Weapons_Render.png)

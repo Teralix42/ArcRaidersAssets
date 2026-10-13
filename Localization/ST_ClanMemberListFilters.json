@@ -4,7 +4,7 @@
     "Name": "ST_ClanMemberListFilters",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'StringTable'",
-    "Package": "/Game/Pioneer/UI/Localization/ST_ClanMemberListFilters",
+    "Package": "/Game/Pioneer/UI/FrontEnd/Screens/Clans/Localization/ST_ClanMemberListFilters",
     "StringTable": {
       "TableNamespace": "ST_ClanMemberListFilters",
       "KeysToEntries": {
@@ -12,17 +12,7 @@
         "ID_CLAN_MEMBERS_FILTER_ADMINS": "Admins",
         "ID_CLAN_MEMBERS_FILTER_ONLINE": "Online"
       },
-      "KeysToMetaData": {
-        "ID_CLAN_MEMBERS_FILTER_ALL": {
-          "Status": "approved"
-        },
-        "ID_CLAN_MEMBERS_FILTER_ADMINS": {
-          "Status": "approved"
-        },
-        "ID_CLAN_MEMBERS_FILTER_ONLINE": {
-          "Status": "approved"
-        }
-      }
+      "KeysToMetaData": {}
     }
   }
 ]

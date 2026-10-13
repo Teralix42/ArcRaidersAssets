@@ -10,7 +10,7 @@ The .blend files have packed textures and are for versions 5.0 and above, There 
 
 The goal is to have easy accessible assets for anyone to use.
 
-### Last updated item images from 2.0.2
+### Last updated item images from 2.1.0
 
 ## NINJA RIPPER METHODE OUTDATED. USE [FMODEL](https://fmodel.app/) ON GAME PAKS USING [LATEST USMAP](Mappings/)
 

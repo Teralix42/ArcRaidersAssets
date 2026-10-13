@@ -1,0 +1,11 @@
+ARC Raiders 2.0.0 — English
+ST_ClanMemberListFilters
+
+[ID_CLAN_MEMBERS_FILTER_ADMINS]
+Admins
+
+[ID_CLAN_MEMBERS_FILTER_ALL]
+All
+
+[ID_CLAN_MEMBERS_FILTER_ONLINE]
+Online

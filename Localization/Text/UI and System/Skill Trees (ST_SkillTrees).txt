@@ -1,0 +1,89 @@
+ARC Raiders 2.0.0 — English
+ST_SkillTrees
+
+[ID_SKILLTREES_BUTTON_LABEL_CHANGE_CATEGORY]
+Change Category
+
+[ID_SKILLTREES_BUTTON_LABEL_NEXT_CATEGORY]
+Next Category
+
+[ID_SKILLTREES_BUTTON_LABEL_PREVIOUS_CATEGORY]
+Previous Category
+
+[ID_SKILLTREES_CALLOUT_ACQUIRE]
+Acquire
+
+[ID_SKILLTREES_CALLOUT_ACQUIRE_ALT2]
+Acquire Skill
+
+[ID_SKILLTREES_CURRENT_LEVEL]
+Level {0}
+
+[ID_SKILLTREES_GATED_NODES_SUBSET_EXPLANATION]
+Only {0} of these {1} skills can ever be unlocked
+
+[ID_SKILLTREES_LABEL_TIER]
+Tier {0}
+
+[ID_SKILLTREES_LARGER_THAN_99]
+99+
+
+[ID_SKILLTREES_NODE_LOCKED_DESC_INCOMPLETE_PATH]
+No available path
+
+[ID_SKILLTREES_NODE_LOCKED_DESC_POINTS_REQUIREMENT]
+Requires {0} points in {1}
+
+[ID_SKILLTREES_NODE_LOCKED_DESC_PRECEDINGSKILL_REQUIREMENT]
+Requires both parent skills to be unlocked
+
+[ID_SKILLTREES_NUM_POINTS_AVAILABLE]
+{0} {0}|plural(one=Skill Point, few=Skill Points, many=Skill Points, other=Skill Points) Available
+
+[ID_SKILLTREES_RESET_SKILL_TREE]
+Reset Skill Tree
+
+[ID_SKILLTREES_RESET_SKILL_TREE_MODAL_BUTTON_CANCEL]
+Cancel
+
+[ID_SKILLTREES_RESET_SKILL_TREE_MODAL_BUTTON_CONFIRM_RESET]
+Confirm & Reset
+
+[ID_SKILLTREES_RESET_SKILL_TREE_MODAL_BUTTON_RESET]
+Reset
+
+[ID_SKILLTREES_RESET_SKILL_TREE_MODAL_DESCRIPTION]
+This will reset and give back your allocated points in your Skill Tree and allow you to choose your Skills from scratch. Do you want to proceed?
+
+[ID_SKILLTREES_RESET_SKILL_TREE_MODAL_DESCRIPTION_ALT2]
+This will reset and give back {0} allocated points in your Skill Tree and allow you to choose your Skills from scratch. Do you want to proceed?
+
+[ID_SKILLTREES_RESET_SKILL_TREE_MODAL_LABEL_COST]
+Cost
+
+[ID_SKILLTREES_RESET_SKILL_TREE_MODAL_TITLE]
+Reset Your Skills
+
+[ID_SKILLTREES_RESET_SKILL_TREE_TOOLTIP_LABEL_AVAILABLE_SKILL_POINTS]
+Available Skill Points:
+
+[ID_SKILLTREES_RESET_SKILL_TREE_TOOLTIP_LABEL_SKILL_POINTS]
+Skill Points:
+
+[ID_SKILLTREES_SCREEN_TITLE]
+Skill Tree
+
+[ID_SKILLTREES_SKILL_LEVEL]
+Level
+
+[ID_SKILLTREES_SKILL_NAME_TIER]
+{0} (tier {1})
+
+[ID_SKILLTREES_WARNING_ADS]
+Only available while aiming down sight
+
+[ID_SKILLTREES_WARNING_UNARMED]
+Only available while weapon is stowed
+
+[ID_SKILL_TREES_CURRENT_AND_NEXT_LEVEL_XP]
+{0} / {1} XP

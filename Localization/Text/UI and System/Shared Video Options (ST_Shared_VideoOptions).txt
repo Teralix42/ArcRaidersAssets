@@ -1,0 +1,679 @@
+ARC Raiders 2.0.0 — English
+ST_Shared_VideoOptions
+
+[ID_SHARED_VIDEO_OPTION_AIM_DOWN_SIGHT_BLUR]
+Aim Down Sight Blur
+
+[ID_SHARED_VIDEO_OPTION_AIM_DOWN_SIGHT_BLUR_TOOLTIP]
+Enables or disables the blur applied to the first person weapon further away from the reticle when aiming down sights.
+
+[ID_SHARED_VIDEO_OPTION_AMD_ANTILAG2]
+AMD Anti-Lag 2
+
+[ID_SHARED_VIDEO_OPTION_AMD_ANTILAG2_TOOLTIP]
+AMD Radeon Anti-Lag 2 reduces the system latency (the time between user inputs and visual responses) by applying frame alignment between the CPU and GPU jobs. AMD Radeon Anti-Lag 2 works best in GPU-limited scenarios, by preventing CPU work from being queued up while the GPU is busy.
+
+[ID_SHARED_VIDEO_OPTION_ANTI_ALIASING]
+Anti-Aliasing
+
+[ID_SHARED_VIDEO_OPTION_ANTI_ALIASING_TOOLTIP]
+Sets the quality of Temporal Anti-Aliasing Upscaling (TAAU) or Temporal Super-Resolution (TSR).
+
+Has a minor impact on GPU performance in case TAAU or TSR is the selected resolution scaling method.
+
+[ID_SHARED_VIDEO_OPTION_CATEGORY_ADVANCED]
+Advanced
+
+[ID_SHARED_VIDEO_OPTION_CATEGORY_DISPLAY]
+Display
+
+[ID_SHARED_VIDEO_OPTION_CATEGORY_ENERGY_SAVING]
+Energy Saving
+
+[ID_SHARED_VIDEO_OPTION_CATEGORY_GRAPHICS]
+Graphics
+
+[ID_SHARED_VIDEO_OPTION_CATEGORY_QUALITY]
+Quality
+
+[ID_SHARED_VIDEO_OPTION_CATEGORY_RAY_TRACING]
+Ray Tracing
+
+[ID_SHARED_VIDEO_OPTION_CATEGORY_RESOLUTION_SCALING_AA]
+Resolution Scaling & Anti-Aliasing
+
+[ID_SHARED_VIDEO_OPTION_CHROMATIC_ABERRATION]
+Chromatic Aberration
+
+[ID_SHARED_VIDEO_OPTION_CHROMATIC_ABERRATION_TOOLTIP]
+Enables or disables chromatic aberration.
+
+[ID_SHARED_VIDEO_OPTION_CONSOLE_120HZ_MODE]
+120 Hz Mode
+
+[ID_SHARED_VIDEO_OPTION_CONSOLE_120HZ_MODE_TOOLTIP]
+If enabled, the game targets a 120 Hz refresh-rate, at the cost of reduced resolution and graphics quality.
+
+[ID_SHARED_VIDEO_OPTION_DIRECTX_11]
+DirectX 11
+
+[ID_SHARED_VIDEO_OPTION_DIRECTX_12]
+DirectX 12
+
+[ID_SHARED_VIDEO_OPTION_DISABLED]
+Disabled
+
+[ID_SHARED_VIDEO_OPTION_DISPLAY_RESOLUTION]
+Display Resolution
+
+[ID_SHARED_VIDEO_OPTION_DISPLAY_RESOLUTION_LOCKED]
+Display Resolution cannot be changed in Borderless Fullscreen mode.
+
+[ID_SHARED_VIDEO_OPTION_DISPLAY_RESOLUTION_TOOLTIP]
+This is the resolution the game presents its final image at. The user interface is also rendered at this resolution.
+
+In Borderless Fullscreen mode this is locked to your desktop resolution.
+
+In Windowed mode this is going to determine the size of your game window. In this mode you can also resize the game window by dragging its borders.
+
+In Exclusive Fullscreen, this is going to set the resolution of your monitor. Note that in this case, if you choose a different resolution than your desktop resolution, switching applications with Alt+Tab will become slow and stuttery.
+
+[ID_SHARED_VIDEO_OPTION_DISPLAY_RESOLUTION_WINDOWED]
+Display Resolution (Windowed)
+
+[ID_SHARED_VIDEO_OPTION_DLSS_FRAME_GENERATION]
+NVIDIA DLSS Frame Generation
+
+[ID_SHARED_VIDEO_OPTION_DLSS_FRAME_GENERATION_LOCKED]
+NVIDIA DLSS Frame Generation requires "Hardware-accelerated GPU scheduling" enabled in Windows graphics settings.
+
+[ID_SHARED_VIDEO_OPTION_DLSS_FRAME_GENERATION_LOCKED_FRAME_WARP]
+NVIDIA DLSS Frame Generation cannot be used together with NVIDIA Reflex Frame Warp.
+
+[ID_SHARED_VIDEO_OPTION_DLSS_FRAME_GENERATION_RESTART_INFO]
+NVIDIA DLSS Frame Generation requires a restart of the application to take effect
+
+[ID_SHARED_VIDEO_OPTION_DLSS_FRAME_GENERATION_TOOLTIP]
+NVIDIA DLSS Frame Generation boosts frame rates by using AI to render additional frames. 2X is supported on a GeForce RTX 40 Series graphics card or higher, while 3x and 4x are supported on a GeForce RTX 50 Series graphics card.
+
+This feature automatically enables NVIDIA Reflex Low Latency and disables VSync.
+
+[ID_SHARED_VIDEO_OPTION_DYNAMIC]
+Dynamic
+
+[ID_SHARED_VIDEO_OPTION_DYNAMIC_CINEMATIC]
+Dynamic - Cinematic
+
+[ID_SHARED_VIDEO_OPTION_DYNAMIC_EPIC]
+Dynamic - Epic
+
+[ID_SHARED_VIDEO_OPTION_DYNAMIC_HIGH]
+Dynamic - High
+
+[ID_SHARED_VIDEO_OPTION_DYNAMIC_LOW]
+Dynamic - Low
+
+[ID_SHARED_VIDEO_OPTION_DYNAMIC_MEDIUM]
+Dynamic - Medium
+
+[ID_SHARED_VIDEO_OPTION_DYNAMIC_SOFTWARE]
+Dynamic - Software
+
+[ID_SHARED_VIDEO_OPTION_EFFECTS]
+Effects
+
+[ID_SHARED_VIDEO_OPTION_EFFECTS_TOOLTIP]
+Controls quality of effects like Particles, Sub-Surface Scattering and Sky Atmosphere.
+
+Has a moderate impact on GPU performance.
+
+It's recommended to avoid changing this setting when in-game as it may trigger additional shader preloading.
+
+[ID_SHARED_VIDEO_OPTION_ENABLED]
+Enabled
+
+[ID_SHARED_VIDEO_OPTION_ENERGY_SAVING_IDLE]
+Idle Energy Saving
+
+[ID_SHARED_VIDEO_OPTION_ENERGY_SAVING_IDLE_TOOLTIP]
+Limit framerate to spare your PC and save energy when idling in the main menu.
+
+[ID_SHARED_VIDEO_OPTION_ENERGY_SAVING_IDLE_TOOLTIP_CONSOLE]
+Limit framerate and resolution to save energy when idling in the main menu.
+
+[ID_SHARED_VIDEO_OPTION_ENERGY_SAVING_INACTIVE_WINDOW]
+Inactive Window Energy Saving
+
+[ID_SHARED_VIDEO_OPTION_ENERGY_SAVING_INACTIVE_WINDOW_TOOLTIP]
+Limit framerate to spare your PC and save energy when the game window is minimized or unfocused.
+
+[ID_SHARED_VIDEO_OPTION_FIELD_OF_VIEW]
+Field of View
+
+[ID_SHARED_VIDEO_OPTION_FIELD_OF_VIEW_TOOLTIP]
+Adjusts the field of view the game is rendered with. The value corresponds to vertical field of view. The game maintains vertical field of view across different aspect ratios.
+
+Can have a major impact on both GPU and CPU render performance.
+
+[ID_SHARED_VIDEO_OPTION_FIELD_OF_VIEW_TOOLTIP_CONSOLE]
+Adjusts the field of view the game is rendered with. The value corresponds to vertical field of view.
+
+Extreme values can impact performance.
+
+[ID_SHARED_VIDEO_OPTION_FIRST_PERSON_WEAPON_BLUR]
+First-Person Weapon Blur
+
+[ID_SHARED_VIDEO_OPTION_FIRST_PERSON_WEAPON_BLUR_TOOLTIP]
+Enables or disables the subtle blur effect applied to the first person weapon close to the edges of the screen.
+
+[ID_SHARED_VIDEO_OPTION_FOLIAGE]
+Foliage
+
+[ID_SHARED_VIDEO_OPTION_FOLIAGE_TOOLTIP]
+Controls the density of foliage across the levels.
+
+Has a moderate impact on GPU performance, when vegetation is visible on the screen.
+
+[ID_SHARED_VIDEO_OPTION_FPS_LIMIT]
+Frame Rate Limit
+
+[ID_SHARED_VIDEO_OPTION_FPS_LIMIT_LOCKED]
+Frame Rate Limit cannot be used together with Frame Generation techniques.
+
+[ID_SHARED_VIDEO_OPTION_FPS_LIMIT_TOOLTIP]
+Limits the frame rate of the game below this value. The value is in Frames Per Second (FPS).
+
+[ID_SHARED_VIDEO_OPTION_FPS_LIMIT_UNLIMITED]
+Unlimited
+
+[ID_SHARED_VIDEO_OPTION_FSR_FRAME_GENERATION]
+AMD FSR Frame Generation
+
+[ID_SHARED_VIDEO_OPTION_FSR_FRAME_GENERATION_LOCKED_FRAME_WARP]
+AMD FSR Frame Generation cannot be used together with NVIDIA Reflex Frame Warp.
+
+[ID_SHARED_VIDEO_OPTION_FSR_FRAME_GENERATION_RESTART_INFO]
+AMD FSR Frame Generation requires a restart of the application to take effect
+
+[ID_SHARED_VIDEO_OPTION_FSR_FRAME_GENERATION_TOOLTIP]
+AMD FSR Frame Generation increases frame rate by creating additional frames computed from existing inputs.
+
+It is highly recommended to be always running at a minimum of ~60 FPS before frame generation is applied for an optimal high-quality gaming experience and to mitigate any latency introduced by the technology.
+
+This feature can negatively affect performance on CPUs with few cores. A minimum of 8 CPU cores is recommended for running AMD FSR Frame Generation.
+
+[ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_METHOD]
+Global Illumination Method
+
+[ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_METHOD_LUMEN]
+Lumen (Experimental)
+
+[ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_METHOD_RTXGI]
+NVIDIA RTXGI
+
+[ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_METHOD_TOOLTIP]
+Selects the Global Illumination method to be used.
+
+[ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_RESOLUTION]
+Global Illumination Resolution
+
+[ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_RESOLUTION_TOOLTIP]
+Controls the screen-space resolution in which the global illumination is applied to the scene.
+
+Has a moderate impact on GPU performance.
+
+[ID_SHARED_VIDEO_OPTION_GRAPHICS_API]
+Graphics API
+
+[ID_SHARED_VIDEO_OPTION_GRAPHICS_API_TOOLTIP]
+It's recommended to use DirectX 12 when supported, only use DirectX 11 if you notice issues with DirectX 12. Ray tracing features are not available with DirectX 11. Restart is required for changing of this option to take effect.
+
+[ID_SHARED_VIDEO_OPTION_INGAME_LOCKED]
+This setting can only be changed in the Main Menu.
+
+[ID_SHARED_VIDEO_OPTION_LENS_DISTORTION]
+Lens Distortion
+
+[ID_SHARED_VIDEO_OPTION_LENS_DISTORTION_LOCKED]
+Lens Distortion can only be enabled if Post-Processing quality is Medium or higher.
+
+[ID_SHARED_VIDEO_OPTION_LENS_DISTORTION_LOCKED_FRAME_WARP]
+Lens Distortion must be disabled when NVIDIA Reflex Frame Warp is enabled.
+
+[ID_SHARED_VIDEO_OPTION_LENS_DISTORTION_TOOLTIP]
+Enables or disables artistic lens distortion effects, like a subtle refraction towards the edges of the screen and chromatic aberration.
+
+[ID_SHARED_VIDEO_OPTION_LENS_DISTORTION_TOOLTIP_CONSOLE]
+Enables or disables artistic lens distortion effects, like a subtle refraction towards the edges of the screen and chromatic aberration.
+
+[ID_SHARED_VIDEO_OPTION_LENS_FLARES]
+Lens Flares
+
+[ID_SHARED_VIDEO_OPTION_LENS_FLARES_TOOLTIP]
+Enables or disables the lens flare effects.
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR]
+Motion Blur
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_LOCKED]
+Motion Blur can only be enabled if Post-Processing quality is Medium or higher.
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_MODE_FULL]
+Full
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_MODE_TOOLTIP]
+Controls what parts of the screen can have can Motion Blur be applied to.
+
+"Off" option turns Motion Blur off completely,
+"Weapon Only" mode only allows Motion Blur on your first person weapon and hands,
+"Full" mode allows Motion Blur on the whole screen.
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_MODE_WEAPONONLY]
+Weapon Only
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_SCALE]
+Motion Blur Intensity
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_SCALE_LOCKED]
+Motion Blur needs to be enabled to tweak its intensity.
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_SCALE_TOOLTIP]
+Controls the intensity of the Motion Blur effect.
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_TOOLTIP]
+Enables or disables the motion blur effect.
+
+[ID_SHARED_VIDEO_OPTION_MOTION_BLUR_TOOLTIP_CONSOLE]
+Enables or disables the motion blur effect.
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_FRAME_WARP]
+NVIDIA Reflex Frame Warp
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_FRAME_WARP_LOCKED]
+NVIDIA Reflex Frame Warp cannot be used together with Frame Generation techniques.
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_FRAME_WARP_RESTART_INFO]
+NVIDIA Reflex Frame Warp requires a restart of the application to take effect
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_FRAME_WARP_TOOLTIP]
+NVIDIA Reflex Frame Warp reduces latency and improves responsiveness for mouse and camera movements by warping frames to reflect the most up to date mouse position.
+
+This feature automatically enables NVIDIA Reflex Low Latency and disables NVIDIA DLSS Frame Generation and AMD FSR Frame Generation.
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_LOW_LATENCY]
+NVIDIA Reflex Low Latency
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_LOW_LATENCY_BOOST]
+On + Boost
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_LOW_LATENCY_LOCKED]
+NVIDIA Reflex Low Latency must be turned on for NVIDIA DLSS Frame Generation.
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_LOW_LATENCY_LOCKED_FRAME_WARP]
+NVIDIA Reflex Low Latency must be turned on for NVIDIA Reflex Frame Warp.
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_LOW_LATENCY_OFF]
+Off
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_LOW_LATENCY_ON]
+On
+
+[ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_LOW_LATENCY_TOOLTIP]
+NVIDIA Reflex Low Latency reduces PC latency and increases responsiveness by syncing up the CPU and GPU for more efficient rendering.
+
+In Boost mode, NVIDIA Reflex Low Latency will save slightly more latency and attempt to optimize latency in CPU bound cases. This option can slightly decrease FPS and increase GPU power draw.
+
+[ID_SHARED_VIDEO_OPTION_OFF]
+Off
+
+[ID_SHARED_VIDEO_OPTION_ON]
+On
+
+[ID_SHARED_VIDEO_OPTION_OVERALL_QUALITY_LEVEL]
+Overall Quality Level
+
+[ID_SHARED_VIDEO_OPTION_OVERALL_QUALITY_LEVEL_TOOLTIP]
+Chooses the overall quality level for the quality settings below.
+
+It's recommended to avoid changing this setting when in-game as it may trigger additional shader preloading.
+
+[ID_SHARED_VIDEO_OPTION_OVERALL_QUALITY_LEVEL_WITH_CINEMATIC_TOOLTIP]
+Chooses the overall quality level for the quality settings below.
+
+By default, Low, Medium, High or Epic preset is selected based on your hardware capabilities.
+
+"Cinematic" settings greatly prefer visual quality over performance, and are only intended for high-end systems.
+
+It's recommended to avoid changing this setting when in-game as it may trigger additional shader preloading.
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY]
+In-Game Performance Overlay
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_DETAILED]
+Detailed
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_FPS]
+FPS
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_FRAME_TIME]
+Frame Time (ms)
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_FRAME_TIME_CPU_GAME]
+CPU - Game (ms)
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_FRAME_TIME_CPU_RENDER]
+CPU - Render (ms)
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_FRAME_TIME_GPU]
+GPU (ms)
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_GPU_UTILIZATION]
+GPU Utilization
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_SIMPLE]
+Simple
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_TOOLTIP]
+Show performance overlay on the in-game HUD.
+
+"Simple" only adds an FPS counter.
+
+"Detailed" option shows various frame time metrics as well, highlighting the factor your performance is limited by.
+
+If you are limited by "CPU - Game", that means the performance is limited by the game logic update, and lowering graphics settings won't help.
+
+If you are limited by "CPU - Render", try lowering settings that mention CPU rendering performance.
+
+If you are limited by "GPU", try lowering Rendering Resolution, or settings that mention GPU performance.
+
+[ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_TOTAL_LATENCY]
+PC Latency (ms)
+
+[ID_SHARED_VIDEO_OPTION_POST_PROCESSING]
+Post-Processing
+
+[ID_SHARED_VIDEO_OPTION_POST_PROCESSING_TOOLTIP]
+Controls quality of post-processing effects like Motion Blur, Bloom and Lens Flares.
+
+Has a moderate impact on GPU performance.
+
+[ID_SHARED_VIDEO_OPTION_RAY_TRACED_GLOBAL_ILLUMINATION]
+Ray-Traced Global Illumination
+
+[ID_SHARED_VIDEO_OPTION_REFLECTIONS]
+Reflections
+
+[ID_SHARED_VIDEO_OPTION_REFLECTIONS_TOOLTIP]
+Controls quality of reflection effects.
+
+Has a moderate impact on GPU performance.
+
+[ID_SHARED_VIDEO_OPTION_REFRESH_RATE]
+Refresh Rate
+
+[ID_SHARED_VIDEO_OPTION_REFRESH_RATE_TOOLTIP]
+Sets the refresh rate of your monitor, this is only available for Exclusive Fullscreen mode.
+
+[ID_SHARED_VIDEO_OPTION_RENDER_RESOLUTION]
+Render Resolution
+
+[ID_SHARED_VIDEO_OPTION_RENDER_RESOLUTION_LOCKED]
+Render Resolution can only be changed manually with "TAAU" and "TSR" Resolution Scaling Methods. Otherwise it's controlled by the selected quality preset of the selected Resolution Scaling Method.
+
+[ID_SHARED_VIDEO_OPTION_RENDER_RESOLUTION_TOOLTIP]
+This is the resolution the 3D geometry and lighting is rendered at. The image will be temporally upscaled to Upscaled Resolution by the selected Resolution Scaling Method.
+
+Lower rendering resolutions can significantly boost GPU performance at the expense of image quality. Quality presets of various resolution scaling methods correspond to specific resolution scaling percentages.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE]
+Resolution Scale
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE_MODE]
+Render Resolution Scale Mode
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE_MODE_AUTO]
+Auto
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE_MODE_MANUAL]
+Manual
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE_MODE_TOOLTIP]
+Selects how the Render Resolution will be determined.
+
+"Auto" picks resolution scale automatically based on the Upscaled Resolution.
+
+"Manual" lets you tweak the exact resolution value with the Render Resolution slider below.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE_TOOLTIP]
+Controls the amount of resolution scaling to be used with TAAU or TSR. The lower the number, the lower the internal rendering resolution will be, which boosts GPU performance significantly.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_ANTI_ALIASING]
+Anti-Aliasing
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_AUTO]
+Auto
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_BALANCED]
+Balanced
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA]
+NVIDIA DLAA
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA_WITHOUT_NVIDIA]
+DLAA
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS]
+NVIDIA DLSS
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL]
+NVIDIA DLSS Model
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_CNN]
+CNN
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_TOOLTIP]
+Selects which AI model DLSS should use.
+
+"CNN" is the model coming from DLSS 2 and 3 versions. It's a fast and high quality method.
+"Transformer" is the new model introduced in DLSS 4. It's even higher quality, but more GPU intensive.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_TRANSFORMER]
+Transformer
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_QUALITY]
+NVIDIA DLSS Quality
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_SHARPNESS]
+NVIDIA DLSS Sharpness
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_SHARPNESS_TOOLTIP]
+Controls the strength of the sharpening effect of DLSS
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_TOOLTIP]
+DLSS Super Resolution boosts frame rates by rendering fewer pixels and using AI to output high resolution frames.
+
+DLAA is the highest in quality, but it doesn't do any upscaling. The internal rendering resolution decreases (and therefore the GPU performance boost increases) from Quality towards Ultra Performance. "Auto" picks an appropriate preset based on your display resolution.
+
+This feature requires a GeForce RTX graphics card.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_FSR]
+AMD FSR
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_FSR_QUALITY]
+AMD FSR Quality
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_FSR_TOOLTIP]
+AMD FSR boosts frame rates by rendering the game at lower internal resolution and upscaling the result to output high resolution frames.
+
+The internal rendering resolution decreases (and therefore the GPU performance boost increases) gradually from Native AA towards Ultra Performance.
+
+Automatically selects the highest supported version of AMD FSR based on your hardware.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_METHOD]
+Resolution Scaling Method
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_METHOD_TOOLTIP]
+Selects the specific method of resolution scaling and anti-aliasing to be used.
+
+Temporal Anti-Aliasing Upsampling (TAAU) is a lower quality but faster, while
+Temporal Super-Resolution (TSR) is a higher quality but slower resolution scaling method.
+
+Depending on your hardware, additional high quality methods might be available, like NVIDIA DLSS, AMD FSR or Intel XeSS.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_METHOD_TOOLTIP_WITH_NOAA]
+Selects the specific method of resolution scaling and anti-aliasing to be used.
+
+The "No AA" option completely disables anti-aliasing and temporal resolution scaling. Note that this prevents getting the performance benefit of resolution scaling, and will produce a noisier image due to the lack of anti-aliasing.
+
+Temporal Anti-Aliasing Upsampling (TAAU) is a lower quality but faster, while
+Temporal Super-Resolution (TSR) is a higher quality but slower resolution scaling method.
+
+Depending on your hardware, additional high quality methods might be available, like NVIDIA DLSS, AMD FSR or Intel XeSS.
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_NATIVE_AA]
+Native AA
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_NOAA]
+No AA
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_PERFORMANCE]
+Performance
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_QUALITY]
+Quality
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TAAU]
+TAAU
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TSR]
+TSR
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_ULTRA_PERFORMANCE]
+Ultra Performance
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_ULTRA_QUALITY]
+Ultra Quality
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_ULTRA_QUALITY_PLUS]
+Ultra Quality Plus
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_XESS]
+Intel XeSS
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_XESS_QUALITY]
+Intel XeSS Quality
+
+[ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_XESS_TOOLTIP]
+Intel® Xe Super Sampling (XeSS) technology uses AI to deliver more performance with exceptional image quality. XeSS is optimized for Intel® Arc™ GPUs with AI acceleration hardware.
+
+[ID_SHARED_VIDEO_OPTION_RESTART_REQUIRED]
+Restart Required
+
+[ID_SHARED_VIDEO_OPTION_RTXGI]
+NVIDIA RTX Global Illumination
+
+[ID_SHARED_VIDEO_OPTION_RTXGI_LOCKED]
+Dynamic presets can only be enabled if you GPU supports DirectX 12 and hardware-accelerated ray tracing.
+
+[ID_SHARED_VIDEO_OPTION_RTXGI_TOOLTIP]
+NVIDIA RTX Global Illumination calculates bounce lighting across the scene.
+
+"Static" preset uses pre-calculated lighting data, and has the smallest performance cost.
+"Dynamic" presets use real-time ray tracing to update bounce lighting as lighting and environmental changes happen. From "Dynamic - Low" to "Dynamic - Epic", RTXGI traces more and more rays in order to update lighting faster.
+
+Higher "Dynamic" presets have a major impact on GPU performance, and enabling any "Dynamic" mode will have a minor impact on CPU render performance.
+
+[ID_SHARED_VIDEO_OPTION_SHADING]
+Shading
+
+[ID_SHARED_VIDEO_OPTION_SHADOWS]
+Shadows
+
+[ID_SHARED_VIDEO_OPTION_SHADOWS_TOOLTIP]
+Controls quality of shadowing including resolution, filtering, number of dynamic shadows, and shadowing of volumetric fog.
+
+Has a major impact on GPU performance, and a moderate impact on CPU rendering performance.
+
+[ID_SHARED_VIDEO_OPTION_SHARPNESS]
+Sharpness
+
+[ID_SHARED_VIDEO_OPTION_SHARPNESS_TOOLTIP]
+Controls the strength of sharpening applied to the final image.
+
+[ID_SHARED_VIDEO_OPTION_STATIC]
+Static
+
+[ID_SHARED_VIDEO_OPTION_TEXTURE]
+Texture
+
+[ID_SHARED_VIDEO_OPTION_TEXTURE_TOOLTIP]
+Controls the amount of anisotropic texture filtering, and the resolution of terrain textures.
+
+Has a minor impact on video memory and a minor impact on GPU performance.
+
+[ID_SHARED_VIDEO_OPTION_TITLE_GRAPHICS]
+Graphics
+
+[ID_SHARED_VIDEO_OPTION_TITLE_VIDEO]
+Video
+
+[ID_SHARED_VIDEO_OPTION_UPSCALED_RESOLUTION]
+Upscaled Resolution
+
+[ID_SHARED_VIDEO_OPTION_UPSCALED_RESOLUTION_LOCKED_FRAME_WARP]
+Upscaled Resolution must be at 100% when NVIDIA Reflex Frame Warp is enabled.
+
+[ID_SHARED_VIDEO_OPTION_UPSCALED_RESOLUTION_TOOLTIP]
+This is the resolution the rendered frame is upscaled to by the Resolution Scaling Method selected below. Some post-processing effects will be rendered at this resolution.
+
+If Upscaled Resolution and Display Resolution are different, the image will be scaled to match Display Resolution before compositing the user interface.
+
+It's recommended to keep this setting at 100% - same as your Display Resolution - unless you have a very high resolution monitor, and you can't get enough performance boost by lowering the Render Resolution.
+
+[ID_SHARED_VIDEO_OPTION_VIEW_DISTANCE]
+View Distance
+
+[ID_SHARED_VIDEO_OPTION_VIEW_DISTANCE_TOOLTIP]
+Controls how far different objects are drawn, and their level of detail in the distance.
+
+Has a moderate impact on GPU performance and a minor impact on CPU render performance.
+
+[ID_SHARED_VIDEO_OPTION_VIGNETTE]
+Vignette
+
+[ID_SHARED_VIDEO_OPTION_VIGNETTE_TOOLTIP]
+Enables or disables the vignette effect.
+
+[ID_SHARED_VIDEO_OPTION_VSYNC]
+VSync
+
+[ID_SHARED_VIDEO_OPTION_VSYNC_LOCKED]
+VSync cannot be used together with Frame Generation techniques.
+
+[ID_SHARED_VIDEO_OPTION_VSYNC_TOOLTIP]
+Turn VSync on to synchronize the game's frame rate with the refresh rate of your monitor and eliminate screen tearing.
+
+This can introduce some additional input latency and can cause frame stuttering in case the game's frame rate is lower than the monitor refresh rate.
+
+Keep this off for variable refresh-rate displays.
+
+[ID_SHARED_VIDEO_OPTION_WINDOW_MODE]
+Window Mode
+
+[ID_SHARED_VIDEO_OPTION_WINDOW_MODE_FULLSCREEN]
+Exclusive Fullscreen (Not Recommended)
+
+[ID_SHARED_VIDEO_OPTION_WINDOW_MODE_TOOLTIP]
+Controls which window mode the game will use.
+
+In Borderless Fullscreen mode the game will create a full screen window without borders that fits exactly on your monitor. This is the recommended way to play the game full screen.
+
+In Windowed mode the game will run in a resizable window.
+
+In Exclusive Fullscreen mode, the game will take exclusive control over your monitor and its resolution. This is a legacy Windows feature that we do not recommend using. It can cause switching between applications on your PC to become slow and stuttery, while giving no performance benefit on modern Windows versions.
+
+[ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED]
+Windowed
+
+[ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED_FULLSCREEN]
+Borderless Fullscreen

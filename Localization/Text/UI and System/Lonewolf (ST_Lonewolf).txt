@@ -1,0 +1,56 @@
+ARC Raiders 2.0.0 — English
+ST_Lonewolf
+
+[ID_END_OF_ROUND_LONE_WOLF_BONUS]
+Solo vs. Squads Bonus
+
+[ID_END_OF_ROUND_LONE_WOLF_BONUS_ALT]
+Lone Wolf Bonus
+
+[ID_LONE_WOLF_DISABLED_TOOLTIP_COMBO]
+You can only play Solo vs. Squads when you’re not in a party and Fill Squad is turned off.
+
+[ID_LONE_WOLF_DISABLED_TOOLTIP_FILL_SQUAD]
+You can't play Solo vs. Squads while Fill Squad is turned on.
+
+[ID_LONE_WOLF_DISABLED_TOOLTIP_PARTY]
+You can't play Solo vs. Squads while you are in a party.
+
+[ID_LONE_WOLF_ONBOARDING_DESCRIPTION]
+You are now able to take on squads as a solo Raider.
+
+[ID_LONE_WOLF_TITLE]
+Solo vs. Squads
+
+[ID_LONE_WOLF_TITLE_ALT]
+Lone Wolf
+
+[ID_LONE_WOLF_TOOLTIP_DESCRIPTION]
+Face off against squads as a solo Raider. Unlocked at level {0}.
+
+[ID_LONE_WOLF_UNLOCKED_OVERLAY_TITLE]
+Solo vs. Squads unlocked
+
+[ID_LONE_WOLF_UNLOCKED_OVERLAY_TITLE_ALT]
+Lone Wolf unlocked
+
+[ID_MATCHMAKING_EXPLAINER_DUO_ALT]
+Duos vs. Duos
+
+[ID_MATCHMAKING_EXPLAINER_LONE_WOLF]
+Playing Solo vs. Squads
+
+[ID_MATCHMAKING_EXPLAINER_LONE_WOLF_ALT]
+Solo vs. Squads
+
+[ID_MATCHMAKING_EXPLAINER_SOLO]
+Playing as Solo
+
+[ID_MATCHMAKING_EXPLAINER_SOLO_ALT]
+Solo vs. Solos
+
+[ID_MATCHMAKING_EXPLAINER_SQUAD]
+Playing as a Party
+
+[ID_MATCHMAKING_EXPLAINER_SQUAD_ALT]
+Squads vs. Squads

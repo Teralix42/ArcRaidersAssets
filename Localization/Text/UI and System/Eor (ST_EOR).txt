@@ -1,0 +1,677 @@
+ARC Raiders 2.0.0 — English
+ST_EOR
+
+[ASSISTS]
+Assists
+
+[CLUSTER_FLAG_MORE_FORMAT]
++{0} More
+
+[CLUSTER_FLAG_TIMESTAMP_SEPARATOR]
+-
+
+[CONTINUE_TO_EOR]
+Continue to End Of Round
+
+[DAMAGEDEALT]
+Damage dealt
+
+[DEFEAT]
+Knocked out
+
+[DEFEAT_INFO]
+You didn't make it back home this time, Raider!
+
+[EVENT_AIDED_BY_OTHER]
+Aid Received
+
+[EVENT_AIDED_OTHER]
+Aided
+
+[EVENT_AIDED_SELF]
+Aided
+
+[EVENT_ARMOR_REPAIRED]
+Shield Recharged
+
+[EVENT_ARMOR_REPAIRED_BY_OTHER]
+Repaired your Shield
+
+[EVENT_ARMOR_REPAIRED_OTHER]
+Repaired Shield of
+
+[EVENT_DAMAGE_DEALT]
+Dealt Damage
+
+[EVENT_DAMAGE_MITIGATED]
+Damage Deflected
+
+[EVENT_DAMAGE_RECEIVED]
+Received Damage
+
+[EVENT_DAMAGE_SELF]
+Took Damage
+
+[EVENT_DAMAGE_TO_HEALTH]
+Damage to Health
+
+[EVENT_DBNO_BY_OTHER]
+Got downed by
+
+[EVENT_DBNO_OTHER]
+Downed
+
+[EVENT_DBNO_SELF]
+Got downed
+
+[EVENT_DEPLOY]
+Arrived on surface
+
+[EVENT_ELEVATOR_REQUESTED]
+Elevator requested
+
+[EVENT_ELIMINATED_ARC]
+ARC destroyed
+
+[EVENT_ELIMINATED_BY_OTHER]
+Got knocked out by
+
+[EVENT_ELIMINATED_OTHER]
+Knocked out
+
+[EVENT_ELIMINATED_SELF]
+Knocked out
+
+[EVENT_EXTRACTION_REQUESTED]
+Return requested
+
+[EVENT_EXTRACTION_SUCCESSFUL]
+Returned home safely
+
+[EVENT_FOUND_LOOT]
+Loot found
+
+[EVENT_FOUND_QUESTITEM]
+Quest item found
+
+[EVENT_HEALED_BY_OTHER]
+Got healed by
+
+[EVENT_HEALED_OTHER]
+Healed
+
+[EVENT_HEALED_SELF]
+Healed
+
+[EVENT_METRO_REQUESTED]
+Metro requested
+
+[EVENT_PARTSDESTROYED]
+Parts Destroyed
+
+[EVENT_PARTSHIT]
+Hits
+
+[EVENT_PATCHED_SELF]
+Recharged
+
+[EVENT_REVIVED]
+Revived
+
+[EVENT_REVIVED_BY_OTHER]
+Revived by
+
+[EVENT_SPAWNED_IN_SQUAD]
+Deployed together
+
+[EVENT_TOTALARMOR]
+Shield
+
+[EVENT_TOTALHEALTH]
+Health
+
+[EVENT_TOTAL_ARMOR_REPAIRED]
+Total Shield Recharged
+
+[EVENT_TOTAL_DAMAGE]
+Total Damage
+
+[EVENT_TOTAL_DEALT]
+Total Damage Dealt
+
+[EVENT_TOTAL_HEALED]
+Total Healed
+
+[EVENT_TOTAL_RECEIVED]
+Total Damage Received
+
+[FILTER_DAMAGE_DEALT_ARC]
+Dealt damage to ARC
+
+[FILTER_DAMAGE_DEALT_RAIDER]
+Dealt damage to raiders
+
+[FILTER_DAMAGE_RECEIVED_ARC]
+Received damage from ARC
+
+[FILTER_DAMAGE_RECEIVED_RAIDER]
+Received damage from raiders
+
+[FILTER_HIDE]
+Hide Filter
+
+[FILTER_RESET]
+Reset Filter
+
+[FILTER_SHOW]
+Show Filter
+
+[ID_EOR_ARMOR_FORMAT]
+{0} charge
+
+[ID_EOR_BPP]
+Cred
+
+[ID_EOR_CHALLENGES_SUMMARY]
+Feats Completed ({0})
+
+[ID_EOR_CRED_NO_CREDS_NOTICE]
+You’ve reached the Cred limit. Spend Cred on Raider Deck rewards or Shani’s offers.
+
+[ID_EOR_CRED_PARTIAL_CREDS_NOTICE]
+You’ve received partial Creds because you’ve reached the Cred limit during the round.
+
+[ID_EOR_CRED_ROUND_TOTAL]
+Round Total
+
+[ID_EOR_CRED_WALLET]
+Your Creds
+
+[ID_EOR_CRED_XP_BASED_BONUS]
+XP bonus
+
+[ID_EOR_CRED_XP_BONUS]
+Cred from Experience
+
+[ID_EOR_DAMAGE_FORMAT]
+{0} damage
+
+[ID_EOR_DEALT_DAMAGE_TO]
+Dealt damage to
+
+[ID_EOR_DEATHQUOTE_BREATHE]
+“Breathe. Let your body settle into a slower rhythm.” - Meditation Tape
+
+[ID_EOR_DEATHQUOTE_CANTSMELLYOU]
+“ARC can’t smell you when you stand still. But they can still see you and shoot you, so...” - Old Man Ulysses
+
+[ID_EOR_DEATHQUOTE_COMEBACK]
+The universe is just setting you up for an epic comeback.
+
+[ID_EOR_DEATHQUOTE_DONTGIVEUP]
+Doesn’t matter if you’re beaten down, bruised, or bloodied. Raiders don’t give up.
+
+[ID_EOR_DEATHQUOTE_DUSTOFF]
+Dust yourself off, patch together a new gun, and get back out there.
+
+[ID_EOR_DEATHQUOTE_GOODFORBUSINESS]
+“Lots of Raider infighting going on. If nothing else, I guess it’s good for business.” - Tian Wen
+
+[ID_EOR_DEATHQUOTE_INSTYLE]
+At least you went out in style.
+
+[ID_EOR_DEATHQUOTE_LANCESPECIALTY]
+Fixing up Raiders like you is Lance’s speciality.
+
+[ID_EOR_DEATHQUOTE_LAUNDRY]
+“If you have a child, don’t let them become a Raider. It is way too much laundry.” - Someone’s Mom
+
+[ID_EOR_DEATHQUOTE_LEARNINGEXPERIENCE]
+Every failure is a learning experience.
+
+[ID_EOR_DEATHQUOTE_LUCKYSOCKS]
+Maybe you forgot your lucky socks in the wash?
+
+[ID_EOR_DEATHQUOTE_NEXTTIME]
+You’ll get them next time.
+
+[ID_EOR_DEATHQUOTE_ONEARM]
+“We experimented with using ARC parts as full plate armor. Took one magnetic explosive for us to realize that was a mistake.” - Olaf One-Arm (formerly just Olaf)
+
+[ID_EOR_DEATHQUOTE_OPTIMISM]
+Your optimism in the face of empty pockets is your true superpower.
+
+[ID_EOR_DEATHQUOTE_PATIENTZERO]
+"I don't see the problem with eating surface plants, it's probably safe." - Timothy, patient zero for a new disease
+
+[ID_EOR_DEATHQUOTE_PRACTICEROUND]
+It’s fine. That was just a practice round.
+
+[ID_EOR_DEATHQUOTE_RESILIENCE]
+Resilience pays off. Don’t let anyone tell you otherwise.
+
+[ID_EOR_DEATHQUOTE_ROLLAGAIN]
+“Sometimes the dice roll in your favor, and sometimes they don’t. Not much you can do besides roll them again.” - Bilguun
+
+[ID_EOR_DEATHQUOTE_SAFEPOCKET]
+And that’s why you have a Safe Pocket. Backup loot.
+
+[ID_EOR_DEATHQUOTE_SHORTCAREER]
+“If I gave up every time I got shot, I would have had a very short career.” - Veteran Raider
+
+[ID_EOR_DEATHQUOTE_SIXOUTOFTEN]
+“Out of my current clients, seven out of ten of them are still around. Oh. Make that six out of ten.” - Velvet Veracity, Raider Guru
+
+[ID_EOR_DEATHQUOTE_SMOOTHRAIDS]
+“Smooth raids do not make skilled Raiders. But they do involve considerably fewer bullet holes.” - Celeste
+
+[ID_EOR_DEATHQUOTE_SOUVENIR]
+"They clearly liked you and wanted a souvenir."
+
+[ID_EOR_DEATHQUOTE_STATISTICALLY]
+“Statistically, street sweepers have a much lower chance of being shot in the face.” - Unemployed Former Raiders Association
+
+[ID_EOR_DEATHQUOTE_STICKWITHIT]
+“I can’t tell you how many times I came crawling back home with empty pockets. The trick is to stick with it.” - Veteran Raider
+
+[ID_EOR_DEATHQUOTE_STILLTOCOME]
+Your moment to shine is still to come.
+
+[ID_EOR_DEATHQUOTE_UNDERDOG]
+The underdog always wins in the end. Keep going.
+
+[ID_EOR_DEATHQUOTE_VILLAINARC]
+This would be the perfect start to your villain arc.
+
+[ID_EOR_EVENT]
+Event
+
+[ID_EOR_EVENT_DAMAGETYPE_BARONHUSK]
+Baron Husk
+
+[ID_EOR_EVENT_DAMAGETYPE_COLD]
+Frostbite
+
+[ID_EOR_EVENT_DAMAGETYPE_COLD_ALT1]
+Cold
+
+[ID_EOR_EVENT_DAMAGETYPE_COLD_ALT2]
+Frost
+
+[ID_EOR_EVENT_DAMAGETYPE_FALLING]
+Falling
+
+[ID_EOR_EVENT_DAMAGETYPE_FALLING_ALT]
+Fall damage
+
+[ID_EOR_EVENT_DAMAGETYPE_LIGHTNING]
+Lightning
+
+[ID_EOR_EVENT_DAMAGETYPE_MINES]
+Mines
+
+[ID_EOR_EVENT_DAMAGETYPE_QUEENMINE]
+Mine
+
+[ID_EOR_EVENT_DAMAGETYPE_QUEENMINE_ALT1]
+Queen Mine
+
+[ID_EOR_EVENT_DAMAGETYPE_TOXICSWAMP]
+Toxic Gases
+
+[ID_EOR_EVENT_DAMAGETYPE_TOXIC_SWAMP]
+Toxic Swamp
+
+[ID_EOR_EVENT_ENVIRONMENT_DAMAGE]
+Environmental
+
+[ID_EOR_EVENT_ENVIRONMENT_DAMAGE_ALT]
+Environmental Hazard
+
+[ID_EOR_EVENT_ENVIRONMENT_DAMAGE_ALT2]
+Environmental Damage
+
+[ID_EOR_EVENT_FRIENDLY_DAMAGE]
+Friendly Damage
+
+[ID_EOR_EVENT_SURRENDER]
+Surrendered
+
+[ID_EOR_FILTERS]
+Filters
+
+[ID_EOR_FRIEND_REQUEST_MESSAGE]
+A friend request will be sent to {0}
+
+[ID_EOR_GENERIC_XP_BONUS]
+{0} from Experience
+
+[ID_EOR_HEALTH_FORMAT]
+{0} health
+
+[ID_EOR_IN_SQUAD]
+In Squad
+
+[ID_EOR_LEVEL]
+Level {0}
+
+[ID_EOR_MAP_VIEW]
+Change Map View
+
+[ID_EOR_MENU_BATTLEPASS]
+Raider Deck
+
+[ID_EOR_MENU_CHALLENGES]
+Feats
+
+[ID_EOR_MENU_CHARACTER]
+Character
+
+[ID_EOR_MENU_CHARACTER_ALT1]
+Raider
+
+[ID_EOR_MENU_FINDINGS]
+Findings
+
+[ID_EOR_MENU_JOURNEY]
+Journey
+
+[ID_EOR_MENU_LIVEEVENT]
+Live Event
+
+[ID_EOR_MENU_MASTERY]
+Trials
+
+[ID_EOR_MENU_QUESTS]
+Quests
+
+[ID_EOR_MERITS_TOTAL]
+Total Merits
+
+[ID_EOR_MISSING_CATEGORY]
+Missing Category
+
+[ID_EOR_NAVIGATE]
+Navigate
+
+[ID_EOR_NAVIGATE_SHOW]
+Show Event
+
+[ID_EOR_NAVIGATE_ZOOM_CLUSTER]
+Zoom to Events
+
+[ID_EOR_OPTIN_SQUAD]
+Stay with Squad
+
+[ID_EOR_OPTOUT_SQUAD]
+Leave Squad
+
+[ID_EOR_OVERLAY_INTERACTIONS]
+Player Interactions
+
+[ID_EOR_OVERLAY_NO_INTERACTIONS_FOUND]
+No Interactions Found
+
+[ID_EOR_PROXIMITY]
+Proximity
+
+[ID_EOR_QUEST_PROGRESS]
+{0}/{1}
+
+[ID_EOR_QUEST_VISIT_QUESTGIVER]
+Visit {0}
+
+[ID_EOR_RAIDERS_IN_PROXIMITY]
+Raiders Nearby
+
+[ID_EOR_REWARDS]
+Rewards
+
+[ID_EOR_REWARD_PASS_COLLECTED]
+{0} of {1} rewards collected
+
+[ID_EOR_REWARD_PASS_COLLECTED_PREMIUM]
+{0}of {1} premium rewards collected
+
+[ID_EOR_REWARD_PASS_FREE_REWARDS_LABEL]
+Free Rewards:
+
+[ID_EOR_REWARD_PASS_NEW_REWARDS_MULTI]
+New Rewards:
+
+[ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_ALT1_MULTI]
+{0} New Rewards Collected
+
+[ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_ALT1_SINGLE]
+{0} New Reward Collected
+
+[ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_MULTI]
+New Rewards Collected
+
+[ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_SINGLE]
+New Reward Collected
+
+[ID_EOR_REWARD_PASS_NEW_REWARD_SINGLE]
+New Reward:
+
+[ID_EOR_REWARD_PASS_PREMIUM_REWARDS_LABEL]
+Premium Rewards:
+
+[ID_EOR_REWARD_PASS_PREMIUM_WAITING]
+{0} premium rewards waiting
+
+[ID_EOR_REWARD_PASS_PROGRESSED]
+Reward Pass Progressed
+
+[ID_EOR_REWARD_PASS_PROGRESSED_ALT1]
+Reward Pass Progress
+
+[ID_EOR_REWARD_PASS_PROGRESSED_ALT2]
+Progressed Pass
+
+[ID_EOR_REWARD_PASS_PROGRESSED_ALT3]
+Progressed
+
+[ID_EOR_REWARD_PASS_REWARDS_LABEL]
+Rewards:
+
+[ID_EOR_REWARD_PASS_SECTION_TITLE]
+Reward Pass
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS]
+Reward Points Earned:
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT1]
+Reward Points Earned
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT2]
+Total Reward Points Earned
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT3]
+Total:
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT3_1]
+Total
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT4]
+Total Points:
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT4_1]
+Total Points
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT5]
+Total Reward Points:
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT5_1]
+Total Reward Points
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT6]
+Earned Reward Points:
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT7]
+Earned Points:
+
+[ID_EOR_REWARD_PASS_TOTAL_POINTS_ALT7_1]
+Earned Points
+
+[ID_EOR_ROUND_HEADER_EVENTPROGRESSION]
+Event Progression
+
+[ID_EOR_ROUND_HEADER_WINTEREVENT]
+Flickering Flames
+
+[ID_EOR_ROUND_TOTAL]
+Round Total
+
+[ID_EOR_SKILL_POINTS_INCREASE]
+SKILL POINTS +{0}
+
+[ID_EOR_TIME_ON_SURFACE]
+TIME ON SURFACE
+
+[ID_EOR_UNKNOWN_ARC]
+Unknown ARC
+
+[ID_EOR_UNLOAD_AND_CONTINUE_BUTTON]
+Unload and continue
+
+[ID_EOR_VOIP]
+VOIP
+
+[ID_EOR_WIN]
+Win
+
+[ID_EOR_XP_BONUS_ITEM_FORMAT]
+Bonus Item: {0}
+
+[ID_EOR_XP_COUNT]
+{0} XP
+
+[ID_EOR_XP_EXPEDITION_BONUS]
+Active buffs (Expedition)
+
+[ID_EOR_XP_EXTRACTION_BONUS]
+Safe Return Bonus
+
+[ID_EOR_XP_RATIO]
+{0}/{1} XP
+
+[ID_EOR_YOURSELF]
+Yourself
+
+[KILLS]
+Kills
+
+[NEW_REWARD]
+New Reward
+
+[NEXT_SCREEN]
+Skip
+
+[PLACEMENTHEADER]
+Placement
+
+[PLAYERINTERACTION_AIDED_BY_OTHER]
+Aided you
+
+[PLAYERINTERACTION_AIDED_OTHER]
+You aided
+
+[PLAYERINTERACTION_ARMOR_REPAIRED_BY_OTHER]
+Recharged your Shield
+
+[PLAYERINTERACTION_ARMOR_REPAIRED_OTHER]
+Shield recharged by you
+
+[PLAYERINTERACTION_CLOSE_BY]
+Nearby
+
+[PLAYERINTERACTION_DAMAGE_DEALT]
+You damaged
+
+[PLAYERINTERACTION_DAMAGE_RECEIVED]
+Damaged you
+
+[PLAYERINTERACTION_DBNO_BY_OTHER]
+Downed you
+
+[PLAYERINTERACTION_DBNO_OTHER]
+You downed
+
+[PLAYERINTERACTION_ELIMINATED_BY_OTHER]
+Knocked you out
+
+[PLAYERINTERACTION_ELIMINATED_OTHER]
+You knocked out
+
+[PLAYERINTERACTION_EXTRACTION_SUCCESSFUL]
+Returned safely together
+
+[PLAYERINTERACTION_EXTRACTION_SUCCESSFUL_ALT2]
+Returned safely with you
+
+[PLAYERINTERACTION_HEALED_BY_OTHER]
+Healed you
+
+[PLAYERINTERACTION_HEALED_OTHER]
+You healed
+
+[PLAYERINTERACTION_IN_SQUAD]
+In your squad
+
+[PLAYERINTERACTION_IN_SQUAD_ALT2]
+Squad member
+
+[PLAYERINTERACTION_REVIVED]
+You revived
+
+[PLAYERINTERACTION_REVIVED_BY_OTHER]
+Revived you
+
+[PLAYERINTERACTION_VOICECHAT_INPROXIMITY]
+Spoke nearby
+
+[QUOTE01]
+"Thought I hit the jackpot. Turns out, I was the jackpot." - Unlucky Dan
+
+[RETURN_TO_LOBBY]
+Return to Speranza
+
+[REVIVES]
+Revives
+
+[REWARDS]
+Rewards
+
+[REWARD_CHARACTER]
+Character
+
+[REWARD_CURRENCY]
+Currency
+
+[REWARD_SKIN]
+Skin
+
+[SCORE]
+Score
+
+[SESSIONENDS]
+Session ends in
+
+[SQUAD_LEAVE]
+Leave Squad
+
+[SQUAD_STAY]
+Stay in Squad
+
+[SUMMARY_LOOT]
+You returned with:
+
+[TOTALSESSIONSCORE]
+Total session score
+
+[VICTORY]
+Returning To Speranza
+
+[VICTORY_INFO]
+You made it back to Speranza!

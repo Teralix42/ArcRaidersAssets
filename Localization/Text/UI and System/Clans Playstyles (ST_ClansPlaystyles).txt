@@ -1,0 +1,14 @@
+ARC Raiders 2.0.0 — English
+ST_ClansPlaystyles
+
+[ID_CLANS_PLAYSTYLE_ANY]
+Any
+
+[ID_CLANS_PLAYSTYLE_PVE]
+PvE
+
+[ID_CLANS_PLAYSTYLE_PVP]
+PvP
+
+[ID_CLANS_PLAYSTYLE_QUESTS]
+Quests

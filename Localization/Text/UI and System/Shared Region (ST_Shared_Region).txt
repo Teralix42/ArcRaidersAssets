@@ -1,0 +1,23 @@
+ARC Raiders 2.0.0 — English
+ST_Shared_Region
+
+[ID_REGION_ASIA]
+Asia
+
+[ID_REGION_AUTO]
+Automatic
+
+[ID_REGION_BRAZIL]
+South America
+
+[ID_REGION_EUROPE]
+Europe
+
+[ID_REGION_JAPAN]
+Japan
+
+[ID_REGION_NORTH_AMERICA]
+North America
+
+[ID_REGION_OCEANIA]
+Oceania

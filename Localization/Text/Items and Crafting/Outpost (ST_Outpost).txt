@@ -1,0 +1,488 @@
+ARC Raiders 2.0.0 — English
+ST_Outpost
+
+[ID_OUTPOST_ACTION_MENU_HINT]
+More Actions
+
+[ID_OUTPOST_ACTION_MENU_HINT_ALT1]
+Actions
+
+[ID_OUTPOST_BASE_ROOM]
+Base Room
+
+[ID_OUTPOST_BUTTON_BUILD]
+Build
+
+[ID_OUTPOST_BUTTON_CLEAR]
+Clear
+
+[ID_OUTPOST_BUTTON_CLEAR_ALT1]
+Clear All Attached Items
+
+[ID_OUTPOST_BUTTON_DECORATE]
+Decorate
+
+[ID_OUTPOST_BUTTON_EXPAND_OUTPOST]
+Expand Outpost
+
+[ID_OUTPOST_BUTTON_INSPECT_ALT1]
+Take a look
+
+[ID_OUTPOST_BUTTON_INSPECT_ALT2]
+View
+
+[ID_OUTPOST_BUTTON_INSTALL]
+Install
+
+[ID_OUTPOST_BUTTON_INSTALL_ALT1]
+Build
+
+[ID_OUTPOST_BUTTON_INSTALL_FURNITURE]
+Install furniture
+
+[ID_OUTPOST_BUTTON_INSTALL_ITEM]
+Install item
+
+[ID_OUTPOST_BUTTON_MANAGE]
+Manage
+
+[ID_OUTPOST_BUTTON_MOVE]
+Move
+
+[ID_OUTPOST_BUTTON_NEW_ROOM]
+New room
+
+[ID_OUTPOST_BUTTON_PLACE]
+Place
+
+[ID_OUTPOST_BUTTON_PLACE_STASH]
+Placed in your Stash
+
+[ID_OUTPOST_BUTTON_REMOVE]
+Remove
+
+[ID_OUTPOST_BUTTON_SALVAGE]
+Salvage
+
+[ID_OUTPOST_BUTTON_SALVAGE_ALL]
+Salvage all
+
+[ID_OUTPOST_BUTTON_STORE]
+Set Aside
+
+[ID_OUTPOST_BUTTON_STORE_ALT1]
+Store
+
+[ID_OUTPOST_BUTTON_SWAP]
+Swap
+
+[ID_OUTPOST_BUTTON_VISIT]
+Visit
+
+[ID_OUTPOST_BUTTON_VISIT_OUTPOST]
+Visit Your Outpost
+
+[ID_OUTPOST_CATALOGUE_BUTTON]
+Catalogue
+
+[ID_OUTPOST_CATALOGUE_CONFIRM_BUILD]
+Confirm & Build
+
+[ID_OUTPOST_CATALOGUE_EMPTY]
+Nothing available to buy here yet.
+
+[ID_OUTPOST_CATALOGUE_ERROR_NO_FREE_SLOT]
+No free space in your Outpost
+
+[ID_OUTPOST_CATALOGUE_ERROR_NO_SLOT_IN_VIEW]
+No free or compatible slot available
+
+[ID_OUTPOST_CATALOGUE_ERROR_PROCESSING]
+Purchase in progress
+
+[ID_OUTPOST_CATALOGUE_ERROR_PURCHASE_FAILED]
+Purchase failed
+
+[ID_OUTPOST_CATALOGUE_INSTALL_ITEM]
+Install item
+
+[ID_OUTPOST_CATALOGUE_TAB_FURNITURE]
+Furniture
+
+[ID_OUTPOST_CATALOGUE_TAB_STATIONS]
+Stations
+
+[ID_OUTPOST_CHANGE_SLOT]
+Change Slot
+
+[ID_OUTPOST_CHANGE_TAB]
+Change Tab
+
+[ID_OUTPOST_CHANGE_VIEW]
+Change View
+
+[ID_OUTPOST_COMPLETE_RESEARCH]
+Research objective not completed
+
+[ID_OUTPOST_CONTEXT_MENU_BUTTON]
+Options
+
+[ID_OUTPOST_CONTEXT_MENU_INSPECT]
+Inspect
+
+[ID_OUTPOST_CONTEXT_MENU_MOVE]
+Move
+
+[ID_OUTPOST_CONTEXT_MENU_SALVAGE]
+Salvage
+
+[ID_OUTPOST_DISMANTLE_NOTIF_BODY]
+Dismantle and receive these items in return:
+
+[ID_OUTPOST_DISMANTLE_NOTIF_TITLE]
+Dismantle
+
+[ID_OUTPOST_EXPAND_TITLE]
+Expand Outpost
+
+[ID_OUTPOST_EXPAND_TITLE_ALT]
+Outpost Expansion
+
+[ID_OUTPOST_EXPANSION_SELECTED_ROOM]
+Selected: {0}
+
+[ID_OUTPOST_EXPANSION_UPGRADE_FORMAT]
+Can upgrade {0} to level {1}
+
+[ID_OUTPOST_EXPANSION_UPGRADE_ROOM]
+New Outpost room
+
+[ID_OUTPOST_EXPANSION_VARIABLE]
+Expansion {0}
+
+[ID_OUTPOST_FEATURE_DESCRIPTION_LONG]
+A first, experimental step at establishing a Topside presence, your Outpost is a home you may truly make your own. Connected to Speranza by unseen trails, you'll be able to decorate and expand your space, unbound by your neighbors' aesthetic sensibilities or inconsistent bed times. You'll also be able to conduct experimental research too dangerous for the delicate structural integrity of an underground settlement.
+
+[ID_OUTPOST_FEATURE_DESCRIPTION_SHORT]
+Your outpost is a place to decorate and make your own, as well as to conduct experimental research too dangerous for Speranza.
+
+[ID_OUTPOST_FEATURE_TITLE]
+Outpost
+
+[ID_OUTPOST_FREE_CAM]
+Free Cam Mode
+
+[ID_OUTPOST_FURNITURE_COLLECTION_HEADER]
+Designs
+
+[ID_OUTPOST_FURNITURE_LEARNED_NOTIFICATION_HEADER]
+Design learned
+
+[ID_OUTPOST_HINT_NAV_CHANGE_CAMERA]
+Change Camera
+
+[ID_OUTPOST_HINT_NAV_CHANGE_SLOT]
+Change Slot
+
+[ID_OUTPOST_HINT_NAV_CHANGE_VIEW]
+Change View
+
+[ID_OUTPOST_HINT_NAV_FREE_NAVIGATION]
+Free Nav
+
+[ID_OUTPOST_HINT_NAV_FREE_NAVIGATION_ALT1]
+Free Navigation
+
+[ID_OUTPOST_HOLD_LABEL]
+On hold
+
+[ID_OUTPOST_INSTALL_MODULE]
+Install
+
+[ID_OUTPOST_LEVEL_FORMAT]
+Level {0}
+
+[ID_OUTPOST_LEVEL_VARIABLE]
+Level {0}
+
+[ID_OUTPOST_MENU_CATALOGUE]
+Catalogue
+
+[ID_OUTPOST_MENU_DECORATIONS]
+Decorations
+
+[ID_OUTPOST_MENU_DECORATION_SLOTS]
+Attached slots
+
+[ID_OUTPOST_MENU_DECORATION_SLOTS_VARIABLE]
+Attached Slots: {0}
+
+[ID_OUTPOST_MENU_FURNITURE]
+Furniture
+
+[ID_OUTPOST_MENU_FURNITURE_BLUEPRINTS]
+Designs
+
+[ID_OUTPOST_MENU_OUTPOST_STORAGE]
+Outpost Storage
+
+[ID_OUTPOST_MENU_OUTPOST_STORAGE_ALT1]
+Storage
+
+[ID_OUTPOST_MENU_OUTPOST_STORAGE_ALT2]
+On Hand
+
+[ID_OUTPOST_MENU_OUTPOST_STORAGE_ALT3]
+Furniture Storage
+
+[ID_OUTPOST_MENU_ROOM_SELECTION]
+Room Selection
+
+[ID_OUTPOST_MENU_SLOTS]
+Slots
+
+[ID_OUTPOST_MENU_STATIONS]
+Stations
+
+[ID_OUTPOST_MENU_SUBHEADER_IN_INVENTORY]
+In your inventory
+
+[ID_OUTPOST_MENU_SUBHEADER_IN_INVENTORY_WARNING]
+Placing an item in your Outpost will remove it from your Inventory
+
+[ID_OUTPOST_MENU_SUBSLOT]
+Slot
+
+[ID_OUTPOST_MENU_SUBSLOTS]
+Slots
+
+[ID_OUTPOST_MENU_SUBSLOTS_ALT1]
+Spots
+
+[ID_OUTPOST_MENU_SUBSLOTS_ATTACHED]
+Attached slots
+
+[ID_OUTPOST_MENU_SUBSLOT_ALT1]
+Spot
+
+[ID_OUTPOST_MENU_SUBSLOT_ATTACHED]
+Attached slot
+
+[ID_OUTPOST_MODALE_HEADER_FEATURE_UNLOCKED]
+New feature unlocked: Outpost
+
+[ID_OUTPOST_MODAL_SALVAGE_VARIABLE_PLURAL]
+You have selected {0} item(s) to salvage. These are the resources you will get back:
+
+[ID_OUTPOST_MODAL_SALVAGE_VARIABLE_SINGULAR]
+You have selected {0} item to salvage. These are the resources you will get back:
+
+[ID_OUTPOST_MODULES]
+Rooms
+
+[ID_OUTPOST_MODULE_A]
+Signature Room
+
+[ID_OUTPOST_MODULE_A_ALT1]
+Room A
+
+[ID_OUTPOST_MODULE_B]
+Panoramic Room
+
+[ID_OUTPOST_MODULE_B_ALT1]
+Room B
+
+[ID_OUTPOST_MODULE_C]
+Timeless Room
+
+[ID_OUTPOST_MODULE_C_ALT1]
+Room C
+
+[ID_OUTPOST_MODULE_D]
+Alpine Room
+
+[ID_OUTPOST_MODULE_D_ALT1]
+Room D
+
+[ID_OUTPOST_MODULE_E]
+Chalet Room
+
+[ID_OUTPOST_MODULE_E_ALT1]
+Room E
+
+[ID_OUTPOST_MODULE_F]
+Studious Room
+
+[ID_OUTPOST_MODULE_F_ALT1]
+Room F
+
+[ID_OUTPOST_MODULE_G]
+Canopied Room
+
+[ID_OUTPOST_MODULE_G_ALT1]
+Room G
+
+[ID_OUTPOST_MODULE_H]
+Ingenious Room
+
+[ID_OUTPOST_MODULE_H_ALT1]
+Room H
+
+[ID_OUTPOST_ONBOARDING_ACTIONS_MENU]
+Additional actions are available in the More Actions menu.
+
+[ID_OUTPOST_ONBOARDING_ACTIONS_MENU_ALT1]
+Additional actions are available in the Actions menu.
+
+[ID_OUTPOST_ONBOARDING_ATTACHED_SLOTS]
+Some pieces of Furniture come with Attached Slots, allowing you to place smaller decorations or additional pieces of furniture.
+
+[ID_OUTPOST_ONBOARDING_DRAG_AND_DROP]
+You can drag and drop Furniture between compatible Slots.
+
+[ID_OUTPOST_ONBOARDING_MOVE]
+You can move Furniture between compatible Slots.
+
+[ID_OUTPOST_ONBOARDING_OUTPOST_CHANGE_VIEW]
+Use Change View to view a different part of your room.
+
+[ID_OUTPOST_ONBOARDING_OUTPOST_CHANGE_VIEW_ALT1]
+Change Camera to select a different anchor point for your new room.
+
+[ID_OUTPOST_ONBOARDING_OUTPOST_CHANGE_VIEW_ALT2]
+Change view to navigate your Outpost
+
+[ID_OUTPOST_ONBOARDING_OUTPOST_CHANGE_VIEW_ALT3]
+Change camera to navigate your Outpost
+
+[ID_OUTPOST_ONBOARDING_OUTPOST_DESCRIPTION]
+Your Outpost comes with a Base Room, which can be decorated with Furniture and Stations.
+
+[ID_OUTPOST_ONBOARDING_OUTPOST_EXPANSION]
+Your Outpost can be expanded with additional Rooms.
+
+[ID_OUTPOST_ONBOARDING_ROOM_FURNISHING]
+Interact with an empty slot or open your Catalogue to start populating your Outpost to your taste
+
+[ID_OUTPOST_ONBOARDING_ROOM_SLOTS_COMPATIBILITY]
+Furniture and Stations need to be placed in their designated slots.
+
+[ID_OUTPOST_ONBOARDING_STORAGE]
+Up to {0} Furniture or Station items can be placed in your Outpost Storage.
+
+[ID_OUTPOST_ONBOARDING_SWAP]
+You can swap Furniture between compatible Slots.
+
+[ID_OUTPOST_OUTPOST_LEVEL_VARIABLE]
+Outpost Level {0}
+
+[ID_OUTPOST_PROJECT_COMPLETE]
+Outpost Project Complete
+
+[ID_OUTPOST_PROJECT_DESCRIPTION]
+With the Nomads' help, we've identified scattered locations across the Rust Belt that have so far escaped ARC's detection. Daring Raiders may take a first, tentative step towards carving out a small piece of Topside for ourselves.
+
+[ID_OUTPOST_PROJECT_TITLE]
+Outpost Project
+
+[ID_OUTPOST_PROJECT_UNLOCK]
+Unlocks at Level {0}
+
+[ID_OUTPOST_PROMPT_SALVAGE_SUBSLOT]
+Do you also want to salvage sub-slots items?
+
+[ID_OUTPOST_PROMPT_SALVAGE_SUBSLOT_ALT1]
+Do you also want to salvage the attached items?
+
+[ID_OUTPOST_REQUIREMENT]
+Requires Outpost
+
+[ID_OUTPOST_REQUIRES_LEVEL_FORMAT]
+Requires Outpost level {0}
+
+[ID_OUTPOST_ROOMS_INSTALLED]
+Outpost Rooms Installed
+
+[ID_OUTPOST_ROOM_BASE]
+Base Room
+
+[ID_OUTPOST_ROOM_VARIABLE]
+Room {0}
+
+[ID_OUTPOST_SLOT_INDEX]
+Slot {0}
+
+[ID_OUTPOST_STORAGE_BUTTON]
+Put in storage
+
+[ID_OUTPOST_STORAGE_FOCUS_BUTTON]
+Storage
+
+[ID_OUTPOST_STORAGE_HEADER_FORMAT]
+Storage ({0}/{1})
+
+[ID_OUTPOST_SWAP_HINT_DISPLACE_FORMAT]
+{0} will be put in storage
+
+[ID_OUTPOST_SWAP_HINT_STORAGE_FULL]
+Storage is full
+
+[ID_OUTPOST_TAB]
+Outpost
+
+[ID_OUTPOST_TOOLTIP_COMPATIBLE_FURNITURE_BLUEPRINTS]
+Compatible Designs
+
+[ID_OUTPOST_TOOLTIP_FURNITURE_SIZE_LARGE]
+Large
+
+[ID_OUTPOST_TOOLTIP_FURNITURE_SIZE_MEDIUM]
+Medium
+
+[ID_OUTPOST_TOOLTIP_FURNITURE_SIZE_SMALL]
+Small
+
+[ID_OUTPOST_TOOLTIP_INCLUDES_VARIABLE_SLOTS]
+Includes {0} slots
+
+[ID_OUTPOST_TOOLTIP_NOT_COMPATIBLE_WITH_SLOT]
+Not compatible with selected slot
+
+[ID_OUTPOST_TOOLTIP_RESEARCH_STATION_UPGRADE]
+Can upgrade Research Station to Level {0}
+
+[ID_OUTPOST_TOOLTIP_SELECTED_ROOM_VARIABLE]
+Selected: {0}
+
+[ID_OUTPOST_TOOLTIP_SUBSLOT_PLUS_ITEMS]
++{0} item(s)
+
+[ID_OUTPOST_TOOLTIP_WEAPON_BENCH_UPGRADE]
+Can upgrade Gunsmith to Level {0}
+
+[ID_OUTPOST_WARNING_ATTACHED_SENT_TO_STORAGE]
+Items in attached slots will be sent to your Outpost Storage.
+
+[ID_OUTPOST_WARNING_ATTACHED_SENT_TO_STORAGE_ALT1]
+Items attached to this furniture will be sent to your Outpost Storage.
+
+[ID_OUTPOST_WARNING_ATTACHED_TOO_MANY_STORED]
+You have too many items stored. The items attached to this Furniture could not be sent there.
+
+[ID_OUTPOST_WARNING_ATTACHED_TOO_MANY_STORED_ALT1]
+Your Storage is full. Items attached to this Furniture could not be stored away.
+
+[ID_OUTPOST_WARNING_ATTACHED_TOO_MANY_STORED_ALT2]
+Your Outpost Storage is full.
+
+[ID_OUTPOST_WARNING_ATTACHED_TOO_MANY_STORED_ALT3]
+To complete this action, please free up space in your Outpost Storage, or remove attached items manually.
+
+[ID_OUTPOST_WARNING_NO_COMPATIBLE_SLOT]
+No compatible slot available
+
+[ID_OUTPOST_WARNING_NO_FREE_SLOT]
+No free slot available
+
+[ID_OUTPOST_WARNING_ROOMS_CANT_MOVE]
+Once installed, rooms cannot be moved or swapped.

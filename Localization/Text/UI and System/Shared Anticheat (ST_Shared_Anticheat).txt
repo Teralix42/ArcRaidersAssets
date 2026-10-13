@@ -1,0 +1,95 @@
+ARC Raiders 2.0.0 — English
+ST_Shared_Anticheat
+
+[Aimbot]
+An aimbot was detected running on your system.
+
+[AutoClicker]
+'Auto Clicker' was detected running on the system.
+
+[AutoHotkey]
+'AutoHotkey' was detected running on the system.
+
+[CheatEngine]
+'Cheat Engine' was detected running on the system.
+
+[CorruptedMemory]
+A disallowed game process memory modification was detected.
+
+[CorruptedNetworkMessageFlow]
+Integrity checks on messages between the game client and game server failed.
+
+[Crosshair]
+'External Crosshair' was detected running on the system.
+
+[ForbiddenModuleLoaded]
+A disallowed code module was loaded into the game process.
+
+[ForbiddenSystemConfiguration]
+A forbidden operating system configuration was detected.
+
+[ForbiddenToolDetected]
+A disallowed tool was detected running in the system.
+
+[ForbiddenToolDetectedHeader]
+Prohibited Software
+
+[GameFileMismatch]
+A disallowed game file modification was detected.
+
+[GpuProfile]
+Unfair GPU Profile modifications where detected.
+
+[HardwareRestricted]
+Due to violations against our code of conduct, your hardware has been permanently restricted from accessing the game. For more information, please contact Player Support.
+
+[HardwareRestrictedHeader]
+Hardware Restricted
+
+[IntegrityCatalogCertificateRevoked]
+An anti-cheat asset integrity catalog file's certificate has been revoked.
+
+[IntegrityCatalogError]
+An anti-cheat asset integrity catalog file is corrupt or invalid.
+
+[IntegrityCatalogMissingMainExecutable]
+The primary anti-cheat asset integrity catalog does not include an entry for the game's main executable, which is required.
+
+[IntegrityCatalogNotFound]
+An anti-cheat asset integrity catalog file could not be found.
+
+[InternalAntiCheatViolation]
+An internal anti-cheat integrity check failed.
+
+[LighthouseNotInstalled]
+The required lighthouse service is not installed.
+
+[NoHVCI]
+We require you to enable HVCI, which is referred to as 'Memory Integrity' under 'Core Isolation' in Windows Security settings.
+
+[NoSecureBoot]
+We require you to enable SecureBoot & TPM2.0. For more information refer to our FAQ.
+
+[NoSecureBootHeader]
+Secure Boot / TPM 2.0
+
+[NvidiaProfileInspector]
+'NVIDIA Profile Inspector' was detected running on the system.
+
+[RequiredGameFileNotFound]
+A disallowed game file removal was detected.
+
+[Scripting]
+Mouse, keyboard and/or controller scripting was detected.
+
+[ServerKickChatMessage]
+Due to a violation of our fair-play policy, '{0}#{1}' has been removed from the server.
+
+[SystemFileUntrusted]
+A system file failed an integrity check.
+
+[UnknownGameFileForbidden]
+A disallowed game file addition was detected.
+
+[VirtualMachineNotAllowed]
+The game is running inside a disallowed virtual machine.

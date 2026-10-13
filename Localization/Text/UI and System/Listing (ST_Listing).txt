@@ -1,0 +1,11 @@
+ARC Raiders 2.0.0 — English
+ST_Listing
+
+[ID_LISTING_JOIN]
+{0}, {1}
+
+[ID_LISTING_LAST]
+{0}, and {1}
+
+[ID_LISTING_PAIR]
+{0} and {1}

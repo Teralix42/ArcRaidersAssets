@@ -1,0 +1,23 @@
+ARC Raiders 2.0.0 — English
+ST_ScalabilityQualityLevels
+
+[ID_QUALITY_LEVEL_CINAMETIC]
+Cinematic
+
+[ID_QUALITY_LEVEL_CUSTOM]
+Custom
+
+[ID_QUALITY_LEVEL_EPIC]
+Epic
+
+[ID_QUALITY_LEVEL_HIGH]
+High
+
+[ID_QUALITY_LEVEL_LOW]
+Low
+
+[ID_QUALITY_LEVEL_MEDIUM]
+Medium
+
+[ID_QUALITY_LEVEL_OFF]
+Off

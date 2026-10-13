@@ -1,0 +1,86 @@
+ARC Raiders 2.0.0 — English
+ST_Camera
+
+[ID_CAMERA_ACTION_CAPTURE]
+Take Picture
+
+[ID_CAMERA_ACTION_DELETE]
+Delete
+
+[ID_CAMERA_ACTION_UNEQUIP]
+Unequip
+
+[ID_CAMERA_ACTION_VIEW]
+View
+
+[ID_CAMERA_ALBUM_FULL]
+Album full
+
+[ID_CAMERA_CAMERA FULL]
+Camera full
+
+[ID_CAMERA_ITEMDESC_ADVANCEDCAMERA]
+A more advanced camera with a few extra bells and whistles.
+
+[ID_CAMERA_ITEMDESC_CAMERA]
+A simple little camera that gets the job done.
+
+[ID_CAMERA_ITEMNAME_ADVANCEDCAMERA]
+Advanced Camera
+
+[ID_CAMERA_ITEMNAME_CAMERA]
+Basic Camera
+
+[ID_CAMERA_NO_MORE_PICTURES_ALLOWED]
+No more photos allowed
+
+[ID_CAMERA_NO_SPACE]
+No more space
+
+[ID_CAMERA_NO_STORAGE]
+No storage
+
+[ID_CAMERA_NO_STORAGE_DESCRIPTION]
+No more space. Please remove photos to store more images.
+
+[ID_CAMERA_NO_STORAGE_DESCRIPTION_ALT1]
+No more space. Please free up space by removing photos.
+
+[ID_CAMERA_NO_STORAGE_SPACE]
+No more album space
+
+[ID_CAMERA_SELFIEANGLE_CENTER]
+Center
+
+[ID_CAMERA_SELFIEANGLE_LEFT]
+Left Offset
+
+[ID_CAMERA_SELFIEANGLE_RIGHT]
+Right Offset
+
+[ID_CAMERA_SETTING_APERTURE]
+Aperture
+
+[ID_CAMERA_SETTING_AUTO]
+Auto
+
+[ID_CAMERA_SETTING_FILTER]
+Filter
+
+[ID_CAMERA_SETTING_FLASH]
+Flash
+
+[ID_CAMERA_SETTING_FOCUS]
+Focus
+
+[ID_CAMERA_SETTING_MANUAL]
+Manual
+
+[ID_CAMERA_SETTING_SELFIE_MODE]
+Selfie Mode
+
+[ID_CAMERA_SETTING_ZOOM]
+Zoom
+
+[ID_CAMERA_TOGGLE_FLASH]
+Toggle Flash

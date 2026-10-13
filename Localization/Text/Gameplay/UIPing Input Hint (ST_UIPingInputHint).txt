@@ -1,0 +1,26 @@
+ARC Raiders 2.0.0 — English
+ST_UIPingInputHint
+
+[ID_UIPING_ARMORSLOT_EMPTY]
+Request Shield
+
+[ID_UIPING_ARMORSLOT_POPULATED]
+Request Shield Recharger
+
+[ID_UIPING_ITEM_INVENTORY]
+Ping item
+
+[ID_UIPING_ITEM_LOOTCONTAINER]
+Ping item
+
+[ID_UIPING_ITEM_TRACKED]
+Ping item
+
+[ID_UIPING_QUEST_OBJECTIVE]
+Ping quest
+
+[ID_UIPING_WEAPONSLOT_EMPTY]
+Request weapon
+
+[ID_UIPING_WEAPONSLOT_POPULATED]
+Request ammo

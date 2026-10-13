@@ -1,0 +1,520 @@
+ARC Raiders 2.0.0 — English
+ST_Shared_GyroOptions
+
+[ID_OPTION_CONTROLLER_ABSOLUTE]
+Absolute
+
+[ID_OPTION_CONTROLLER_ALWAYS_ON]
+Always On
+
+[ID_OPTION_CONTROLLER_COPY]
+Copy
+
+[ID_OPTION_CONTROLLER_CUSTOM]
+Custom
+
+[ID_OPTION_CONTROLLER_DISABLE_GYRO]
+Disable
+
+[ID_OPTION_CONTROLLER_DOUBLE_TAP]
+Double Tap
+
+[ID_OPTION_CONTROLLER_GYRO]
+Gyro
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION]
+Gyro Acceleration
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_DESCRIPTION]
+With gyro acceleration, sensitivity increases the faster the controller rotates, which allows for sharp turns while maintaining low sensitivity for small and steady adjustments.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_DESCRIPTION_SONY_CERT]
+With acceleration, sensitivity increases the faster the controller rotates, which allows for sharp turns while maintaining low sensitivity for small and steady adjustments.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_DPS]
+Acceleration Upper Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_DPS_DESCRIPTION]
+Sets the upper input threshold in degrees per second at which full acceleration is reached.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_DPS_DESCRIPTION_SONY_CERT]
+Sets the upper input threshold in degrees per second at which full acceleration is reached.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_DPS_SONY_CERT]
+Acceleration Upper Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_SENSITIVITY]
+Acceleration Strength
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_SENSITIVITY_DESCRIPTION]
+The full sensitivity multiplier that can be applied from acceleration, linearly ramps up from the lower to upper acceleration input threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_SENSITIVITY_DESCRIPTION_SONY_CERT]
+The full sensitivity multiplier that can be applied from acceleration, linearly ramps up from the lower to upper acceleration input threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MAX_SENSITIVITY_SONY_CERT]
+Acceleration Strength
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MIN_DPS]
+Acceleration Lower Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MIN_DPS_DESCRIPTION]
+Sets the lower input threshold in degrees per second from which acceleration starts ramping up towards the upper threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MIN_DPS_DESCRIPTION_SONY_CERT]
+Sets the lower input threshold in degrees per second from which acceleration starts ramping up towards the upper threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MIN_DPS_SONY_CERT]
+Acceleration Lower Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MIN_SENSITIVITY]
+Horizontal Min Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MIN_SENSITIVITY_DESCRIPTION]
+Min Sens
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_SONY_CERT]
+Acceleration
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_DPS]
+Vertical Acceleration Upper Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_DPS_DESCRIPTION]
+Sets the upper input threshold in degrees per second at which full vertical acceleration is reached.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_DPS_DESCRIPTION_SONY_CERT]
+Sets the upper input threshold in degrees per second at which full vertical acceleration is reached.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_DPS_SONY_CERT]
+Vertical Acceleration Upper Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_SENSITIVITY]
+Vertical Acceleration Strength
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_SENSITIVITY_DESCRIPTION]
+The full vertical sensitivity multiplier that can be applied from acceleration, linearly ramps up from the lower to upper acceleration input threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_SENSITIVITY_DESCRIPTION_SONY_CERT]
+The full vertical sensitivity multiplier that can be applied from acceleration, linearly ramps up from the lower to upper acceleration input threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MAX_SENSITIVITY_SONY_CERT]
+Vertical Acceleration Strength
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MIN_DPS]
+Vertical Acceleration Lower Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MIN_DPS_DESCRIPTION]
+Sets the lower input threshold in degrees per second from which vertical acceleration starts ramping up towards the upper threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MIN_DPS_DESCRIPTION_SONY_CERT]
+Sets the lower input threshold in degrees per second from which vertical acceleration starts ramping up towards the upper threshold.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MIN_DPS_SONY_CERT]
+Vertical Acceleration Lower Input Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MIN_SENSITIVITY]
+Vertical Min Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MIN_SENSITIVITY_DESCRIPTION]
+Min v Sens
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MODE]
+Override Vertical Acceleration
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MODE_DESCRIPTION]
+Enable if you want separate acceleration settings for the vertical axis.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MODE_DESCRIPTION_SONY_CERT]
+Enable if you want separate acceleration settings for the vertical axis.
+
+[ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MODE_SONY_CERT]
+Override Vertical Acceleration
+
+[ID_OPTION_CONTROLLER_GYRO_ACTIVE_MODE]
+Gyro Active Mode
+
+[ID_OPTION_CONTROLLER_GYRO_ACTIVE_MODE_DESCRIPTION]
+Sets a condition that determines when gyro aiming is active.
+
+[ID_OPTION_CONTROLLER_GYRO_ACTIVE_MODE_DESCRIPTION_SONY_CERT]
+Sets a condition that determines when motion sensor function aiming is active.
+
+[ID_OPTION_CONTROLLER_GYRO_ACTIVE_MODE_SONY_CERT]
+Active Mode
+
+[ID_OPTION_CONTROLLER_GYRO_AIMING]
+Gyro Aiming
+
+[ID_OPTION_CONTROLLER_GYRO_AIMING_DESCRIPTION]
+When enabled, you can look around by physically rotating the controller.
+
+[ID_OPTION_CONTROLLER_GYRO_AIMING_DESCRIPTION_SONY_CERT]
+When enabled, you can look around by physically rotating the controller.
+
+[ID_OPTION_CONTROLLER_GYRO_AIMING_SONY_CERT]
+Aiming
+
+[ID_OPTION_CONTROLLER_GYRO_BEHAVIOR]
+Gyro Behavior
+
+[ID_OPTION_CONTROLLER_GYRO_BEHAVIOR_SONY_CERT]
+Motion Sensor Function Behavior
+
+[ID_OPTION_CONTROLLER_GYRO_DEADZONE]
+Gyro Deadzone
+
+[ID_OPTION_CONTROLLER_GYRO_DEADZONE_SONY_CERT]
+Deadzone
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK]
+Flick Stick
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_DESCRIPTION]
+With Flick Stick, you can’t aim up or down with the look stick. Instead, it lets you snap to face any direction you point the stick in. For instance, to look at what is behind you, simply flick the stick back. When the stick is pulled all the way, you can move it to turn smoothly.
+Flick Stick depends on gyro for vertical aiming and precision. It is also recommended to bind a button for resetting the camera.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_DESCRIPTION_SONY_CERT]
+With Flick Stick, you can’t aim up or down with the look stick. Instead, it lets you snap to face any direction you point the stick in. For instance, to look at what is behind you, simply flick the stick back. When the stick is pulled all the way, you can move it to turn smoothly.
+Flick Stick depends on the motion sensor function for vertical aiming and precision. It is also recommended to bind a button for resetting the camera.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_FOV_SCALING]
+Flick Stick Turning Focal Length Scaling
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_FOV_SCALING_DESCRIPTION]
+Scales the turning sensitivity based on field of view, so that the crosshair moves the same amount of pixels across all zoom levels.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_FOV_SCALING_DESCRIPTION_SONY_CERT]
+Scales the turning sensitivity based on field of view, so that the crosshair moves the same amount of pixels across all zoom levels.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_FOV_SCALING_SONY_CERT]
+Flick Stick Turning Focal Length Scaling
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_FLICK]
+Invert Flick
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_FLICK_DESCRIPTION]
+Inverts the flick functionality, so that you snap to face the opposite of the direction you point the stick in.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_FLICK_DESCRIPTION_SONY_CERT]
+Inverts the flick functionality, so that you snap to face the opposite of the direction you point the stick in.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_FLICK_SONY_CERT]
+Invert Flick
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_TURN]
+Invert Turn
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_TURN_DESCRIPTION]
+Inverts the turning functionality, so that moving the stick clockwise makes you turn to the left instead of right.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_TURN_DESCRIPTION_SONY_CERT]
+Inverts the turning functionality, so that moving the stick clockwise makes you turn to the left instead of right.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_TURN_SONY_CERT]
+Invert Turn
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SMOOTH_THRESHOLD]
+Flick Stick Turn Smoothing Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SMOOTH_THRESHOLD_DESCRIPTION]
+When adjusting with the stick at the outer edge, input under this threshold is averaged to feel smoother and reduce jitter.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SMOOTH_THRESHOLD_DESCRIPTION_SONY_CERT]
+When adjusting with the stick at the outer edge, input under this threshold is averaged to feel smoother and reduce jitter.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SMOOTH_THRESHOLD_SONY_CERT]
+Flick Stick Turn Smoothing Threshold
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SONY_CERT]
+Flick Stick
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_THRESHOLD]
+Flick Deadzone
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_THRESHOLD_DESCRIPTION]
+Sets how far the look stick needs to be pulled in order to flick.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_THRESHOLD_DESCRIPTION_SONY_CERT]
+Sets how far the look stick needs to be pulled in order to flick.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_THRESHOLD_SONY_CERT]
+Flick Deadzone
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TIME]
+Flick to Turn Time
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TIME_DESCRIPTION]
+How long the turn to face the flick direction should take.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TIME_DESCRIPTION_SONY_CERT]
+How long the turn to face the flick direction should take.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TIME_SONY_CERT]
+Flick to Turn Time
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_FORWARD_DEADZONE]
+Flick Forward Angle Deadzone
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_FORWARD_DEADZONE_DESCRIPTION]
+Stick flicks that point forward within this angle will not snap the camera.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_FORWARD_DEADZONE_DESCRIPTION_SONY_CERT]
+Stick flicks that point forward within this angle will not snap the camera.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_FORWARD_DEADZONE_SONY_CERT]
+Flick Forward Angle Deadzone
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_SENSITIVITY]
+Flick Stick Turn Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_SENSITIVITY_DESCRIPTION]
+Scales the turn sensitivity when adjusting with the stick at the outer edge. The default is set to match the movement of the stick.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_SENSITIVITY_DESCRIPTION_SONY_CERT]
+Scales the turn sensitivity when adjusting with the stick at the outer edge. The default is set to match the movement of the stick.
+
+[ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_SENSITIVITY_SONY_CERT]
+Flick Stick Turn Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_FOV_SCALING]
+Gyro Focal Length Scaling
+
+[ID_OPTION_CONTROLLER_GYRO_FOV_SCALING_DESCRIPTION]
+Scales the gyro sensitivity based on field of view, so that the crosshair moves the same amount of pixels across all zoom levels.
+
+[ID_OPTION_CONTROLLER_GYRO_FOV_SCALING_DESCRIPTION_SONY_CERT]
+Scales the sensitivity based on field of view, so that the crosshair moves the same amount of pixels across all zoom levels.
+
+[ID_OPTION_CONTROLLER_GYRO_FOV_SCALING_SONY_CERT]
+Focal Length Scaling
+
+[ID_OPTION_CONTROLLER_GYRO_FUNCTION_SONY_CERT]
+Motion Sensor Function
+
+[ID_OPTION_CONTROLLER_GYRO_HEADER_ACCELERATION]
+Acceleration
+
+[ID_OPTION_CONTROLLER_GYRO_HEADER_FLICK_STICK]
+Flick Stick
+
+[ID_OPTION_CONTROLLER_GYRO_HEADER_INVERT]
+Invert
+
+[ID_OPTION_CONTROLLER_GYRO_HEADER_MODE]
+Mode
+
+[ID_OPTION_CONTROLLER_GYRO_HEADER_SENSITIVITY]
+Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_HEADER_SMOOTHING]
+Smoothing
+
+[ID_OPTION_CONTROLLER_GYRO_HEADER_ZOOM]
+Zoom
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_HORIZONTAL_INPUT]
+Gyro Invert Horizontal Input
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_HORIZONTAL_INPUT_DESCRIPTION]
+Inverts horizontal gyro input so that you look right by rotating left, and left by rotating right.
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_HORIZONTAL_INPUT_DESCRIPTION_SONY_CERT]
+Inverts horizontal input so that you look right by rotating left, and left by rotating right.
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_HORIZONTAL_INPUT_SONY_CERT]
+Invert Horizontal Input
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_ROLL_INPUT]
+Gyro Invert Roll Input
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_ROLL_INPUT_DESCRIPTION]
+Inverts roll gyro input so that rolling to the right turns you left, and rolling to the left turns you right.
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_ROLL_INPUT_DESCRIPTION_SONY_CERT]
+Inverts roll input so that rolling to the right turns you left, and rolling to the left turns you right.
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_ROLL_INPUT_SONY_CERT]
+Invert Roll Input
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_VERTICAL_INPUT]
+Gyro Invert Vertical Input
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_VERTICAL_INPUT_DESCRIPTION]
+Inverts vertical gyro input so that you look up by tilting downwards, and down by tilting upwards.
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_VERTICAL_INPUT_DESCRIPTION_SONY_CERT]
+Inverts vertical motion sensor input so that you look up by tilting downwards, and down by tilting upwards.
+
+[ID_OPTION_CONTROLLER_GYRO_INVERT_VERTICAL_INPUT_SONY_CERT]
+Invert Vertical Input
+
+[ID_OPTION_CONTROLLER_GYRO_ORIENTATION]
+Gyro Orientation
+
+[ID_OPTION_CONTROLLER_GYRO_ORIENTATION_DESCRIPTION]
+Determines whether gyro sideways rotation is always local to the controller, or based on its orientation in the world.
+
+[ID_OPTION_CONTROLLER_GYRO_ORIENTATION_DESCRIPTION_SONY_CERT]
+Determines whether sideways rotation is always local to the controller, or based on its orientation in the world.
+
+[ID_OPTION_CONTROLLER_GYRO_ORIENTIATION_SONY_CERT]
+Orientation
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_HORIZONAL]
+Gyro Sensitivity Horizontal
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_HORIZONAL_SONY_CERT]
+Horizontal Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_HORIZONTAL_DESCRIPTION]
+How quickly you look sideways with gyro aiming.
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_HORIZONTAL_DESCRIPTION_SONY_CERT]
+How quickly you look sideways with motion sensor function aiming.
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_VERTICAL]
+Gyro Sensitivity Vertical
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_VERTICAL_RATIO]
+Gyro Sensitivity Vertical Ratio
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_VERTICAL_RATIO_DESCRIPTION]
+How quickly you look up and down with gyro aiming. This is a ratio of the horizontal sensitivity.
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_VERTICAL_RATIO_DESCRIPTION_SONY_CERT]
+How quickly you look up and down with motion sensor function aiming. This is a ratio of the horizontal sensitivity.
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_VERTICAL_RATIO_SONY_CERT]
+Vertical Ratio Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_VERTICAL_SONY_CERT]
+Vertical Sensitivity
+
+[ID_OPTION_CONTROLLER_GYRO_SMOOTHING]
+Gyro Smoothing
+
+[ID_OPTION_CONTROLLER_GYRO_SMOOTHING_DESCRIPTION]
+Gyro input under this threshold is averaged to feel smoother and reduce jitter.
+
+[ID_OPTION_CONTROLLER_GYRO_SMOOTHING_DESCRIPTION_SONY_CERT]
+Motion sensor function input under this threshold is averaged to feel smoother and reduce jitter.
+
+[ID_OPTION_CONTROLLER_GYRO_SMOOTHING_SONY_CERT]
+Motion Sensor Function Smoothing
+
+[ID_OPTION_CONTROLLER_GYRO_SONY_CERT]
+Motion Sensor Function
+
+[ID_OPTION_CONTROLLER_GYRO_STEADYING]
+Gyro Steadying
+
+[ID_OPTION_CONTROLLER_GYRO_STEADYING_DESCRIPTION]
+Gyro input under this threshold is reduced to stabilize aiming.
+
+[ID_OPTION_CONTROLLER_GYRO_STEADYING_DESCRIPTION_SONY_CERT]
+Motion sensor function input under this threshold is reduced to stabilize aiming.
+
+[ID_OPTION_CONTROLLER_GYRO_STEADYING_SONY_CERT]
+Motion Sensor Function Steadying
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_ABSOLUTE]
+Gyro Vertical Sensitivity Absolute
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_ABSOLUTE_DESCRIPTION]
+How quickly you look up and down with gyro aiming. Not affected by horizontal sensitivity.
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_ABSOLUTE_DESCRIPTION_SONY_CERT]
+How quickly you look up and down with motion sensor function aiming. Not affected by horizontal sensitivity.
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_ABSOLUTE_SONY_CERT]
+Vertical Sensitivity Absolute
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_MODE]
+Gyro Vertical Sensitivity Mode
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_MODE_DESCRIPTION]
+Sets whether vertical sensitivity should be a ratio of the horizontal, or an absolute value.
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_MODE_DESCRIPTION_SONY_CERT]
+Sets whether vertical sensitivity should be a ratio of the horizontal, or an absolute value.
+
+[ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_MODE_SONY_CERT]
+Vertical Sensitivity Mode
+
+[ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER]
+Gyro Zoom Sensitivity Multiplier
+
+[ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_DESCRIPTION]
+How much gyro sensitivity to keep when zooming in.
+
+[ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_DESCRIPTION_SONY_CERT]
+How much sensitivity to keep when zooming in.
+
+[ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_SONY_CERT]
+Zoom Sensitivity Multiplier
+
+[ID_OPTION_CONTROLLER_LOCAL]
+Local
+
+[ID_OPTION_CONTROLLER_LOOK_INPUT_EFFECT_ON_GYRO]
+Look Input Effect on Gyro
+
+[ID_OPTION_CONTROLLER_LOOK_INPUT_EFFECT_ON_GYRO_DESCRIPTION]
+How regular look input should affect gyro, if at all. It can either disable or scale the gyro sensitivity based on the amount of input.
+
+[ID_OPTION_CONTROLLER_LOOK_INPUT_EFFECT_ON_GYRO_DESCRIPTION_SONY_CERT]
+How regular look input should affect the motion sensor function, if at all. It can either disable or scale the motion sensor sensitivity based on the amount of input.
+
+[ID_OPTION_CONTROLLER_LOOK_INPUT_EFFECT_ON_GYRO_SONY_CERT]
+Look Input Effect
+
+[ID_OPTION_CONTROLLER_NEVER_IN_ZOOM]
+Never in Zoom
+
+[ID_OPTION_CONTROLLER_ONLY_IN_ZOOM]
+Only in Zoom
+
+[ID_OPTION_CONTROLLER_OVERRIDE]
+Override
+
+[ID_OPTION_CONTROLLER_PLAYER]
+Player
+
+[ID_OPTION_CONTROLLER_RATIO]
+Ratio
+
+[ID_OPTION_CONTROLLER_SCALE_GYRO]
+Scale
+
+[ID_OPTION_CONTROLLER_USE_ROLL]
+Gyro Local Orientation Use Roll
+
+[ID_OPTION_CONTROLLER_USE_ROLL_ROTATION_DESCRIPTION]
+When enabled, you can look left and right by rolling the controller like a steering wheel.
+
+[ID_OPTION_CONTROLLER_USE_ROLL_SONY_CERT]
+Local Orientation Use Roll
+
+[ID_OPTION_CONTROLLER_WORLD]
+World
+
+[ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO]
+Zoom Input Effect on Gyro
+
+[ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO_SONY_CERT]
+Zoom Input Effect
+
+[ID_OPTION_INPUTACTION_DISABLE_GYRO]
+Disable Gyro (Hold)
+
+[ID_OPTION_INPUTACTION_DISABLE_GYRO_SONY_CERT]
+Disable Motion Sensor Function (Hold)
+
+[ID_OPTION_INPUTACTION_RESET_CAMERA_PITCH]
+Reset Vertical Rotation
+
+[ID_OPTION_INPUTACTION_TOGGLE_GYRO]
+Toggle Gyro
+
+[ID_OPTION_INPUTACTION_TOGGLE_GYRO_SONY_CERT]
+Toggle Motion Sensor Function

@@ -1,0 +1,80 @@
+ARC Raiders 2.0.0 — English
+ST_Trades
+
+[ID_TRADES_JUANITO_DAILYOFFER_PLURAL]
+Daily Offers
+
+[ID_TRADES_JUANITO_DAILYOFFER_SINGULAR]
+Daily Offer
+
+[ID_TRADES_JUANITO_DESCRIPTION]
+Though the fabric walls seem inconspicuous, this curiously-dressed delegation welcomes only those who bring valuable goods to barter with.
+
+[ID_TRADES_JUANITO_ENVOY_NAME_PLURAL]
+Nomadic Envoys
+
+[ID_TRADES_JUANITO_ENVOY_NAME_PLURAL_SINGULAR]
+Nomadic Envoy
+
+[ID_TRADES_JUANITO_LOCATION]
+Rare Finds
+
+[ID_TRADES_JUANITO_LOCATION_ALT1]
+Finds & Curiosities
+
+[ID_TRADES_JUANITO_NAME]
+Durim
+
+[ID_TRADES_JUANITO_NAME_ALT1]
+Zamir
+
+[ID_TRADES_JUANITO_NAME_ALT2]
+Artan
+
+[ID_TRADES_JUANITO_NAME_ALT3]
+Ermal
+
+[ID_TRADES_JUANITO_NAME_ALT4]
+Katri
+
+[ID_TRADES_JUANITO_NAME_ALT5]
+Vasil
+
+[ID_TRADES_JUANITO_OBSCURED_DESCRIPTION]
+A group of curiously-dressed arrivals has been observed on the Piazza, rigging a makeshift shelter from bolts of fabric and braided rope.
+
+[ID_TRADES_JUANITO_OBSCURED_NAME]
+Unknown
+
+[ID_TRADES_JUANITO_OBSCURED_UNLOCKLEVEL]
+Unlocks at level {0}
+
+[ID_TRADES_JUANITO_SUBTITLE]
+New Arrival
+
+[ID_TRADES_JUANITO_SUBTITLE_ALT1]
+Trader Unlocked
+
+[ID_TRADES_MESSAGE_AVAILABLE_STOCK]
+Limited supply: {0} left
+
+[ID_TRADES_MESSAGE_EMPTY_STOCK]
+None left
+
+[ID_TRADES_MESSAGE_EMPTY_STOCK_ALT2]
+All gone
+
+[ID_TRADES_MESSAGE_EMPTY_STOCK_ALT3]
+Supply depleted
+
+[ID_TRADES_MESSAGE_LIMITED_STOCK]
+Limited supply
+
+[ID_TRADES_TITLE_ALWAYS_AVAILABLE]
+Permanent offers
+
+[ID_TRADES_TITLE_LIMITED_OFFERS]
+Limited offers
+
+[ID_TRADES_TITLE_TIMER_INFO]
+Restocks in:

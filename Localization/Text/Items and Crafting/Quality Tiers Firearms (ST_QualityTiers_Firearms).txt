@@ -1,0 +1,17 @@
+ARC Raiders 2.0.0 — English
+ST_QualityTiers_Firearms
+
+[ID_QUALITYTIER_FIREARM_T0]
+Quality Tier: Fragile
+
+[ID_QUALITYTIER_FIREARM_T1]
+Quality Tier: Basic
+
+[ID_QUALITYTIER_FIREARM_T2]
+Quality Tier: Sturdy
+
+[ID_QUALITYTIER_FIREARM_T3]
+Quality Tier: Unyielding
+
+[ID_QUALITYTIER_FIREARM_T4]
+Quality Tier: Superior

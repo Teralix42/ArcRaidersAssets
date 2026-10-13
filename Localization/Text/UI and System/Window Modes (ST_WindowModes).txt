@@ -1,0 +1,11 @@
+ARC Raiders 2.0.0 — English
+ST_WindowModes
+
+[ID_WINDOW_MODE_FULLSCREEN]
+Fullscreen
+
+[ID_WINDOW_MODE_WINDOWED]
+Windowed
+
+[ID_WINDOW_MODE_WINDOWED_FULLSCREEN]
+Windowed fullscreen

@@ -1,0 +1,98 @@
+ARC Raiders 2.0.0 — English
+ST_VideoOptions
+
+[ANTIALIASING]
+Anti Aliasing
+
+[DIRECTX12]
+DirectX 12
+
+[DLSS]
+NVIDIA DLSS
+
+[EFFECTS]
+Effects
+
+[FIELDOFVIEW]
+Field Of View
+
+[FOLIAGE]
+Foliage
+
+[MOTIONBLUR]
+Motion Blur
+
+[NVREFLEX]
+NVIDIA Reflex Low Latency
+
+[NVREFLEX_DISABLED]
+OFF
+
+[NVREFLEX_ENABLED]
+ON
+
+[NVREFLEX_ENABLED_BOOST]
+ON + Boost
+
+[OVERALL_QUALITY]
+Overall Quality Level
+
+[POSTPROCESS]
+Postprocess
+
+[QUALITY_CUSTOM]
+Custom
+
+[QUALITY_EPIC]
+Epic
+
+[QUALITY_HIGH]
+High
+
+[QUALITY_LOW]
+Low
+
+[QUALITY_MEDIUM]
+Medium
+
+[QUALITY_OFF]
+Off
+
+[RAYTRACE_GI]
+Ray Traced Global Illumination
+
+[RESOLUTION]
+Resolution
+
+[RESOLUTION_SCALE]
+Resolution Scale
+
+[RESTART_REQUIRED]
+Change requires restart
+
+[SHADING]
+Shading
+
+[SHADOW]
+Shadow
+
+[TEXTURE]
+Texture
+
+[VIEWDISTANCE]
+View distance
+
+[VSYNC]
+Vertical Sync
+
+[WINDOWMODE]
+Window Mode
+
+[WINDOWMODE_FULLSCREEN]
+Fullscreen
+
+[WINDOWMODE_WINDOWED]
+Windowed
+
+[WINDOWMODE_WINDOWED_FULLSCREEN]
+Windowed Fullscreen

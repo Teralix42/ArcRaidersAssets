@@ -1,0 +1,20 @@
+ARC Raiders 2.0.0 — English
+ST_Rarity
+
+[ID_RARITY_AMPLIFIED]
+Amplified
+
+[RARITY_COMMON]
+Common
+
+[RARITY_EPIC]
+Epic
+
+[RARITY_LEGENDARY]
+Legendary
+
+[RARITY_RARE]
+Rare
+
+[RARITY_UNCOMMON]
+Uncommon

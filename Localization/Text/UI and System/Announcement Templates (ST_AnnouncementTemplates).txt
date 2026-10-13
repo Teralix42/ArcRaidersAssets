@@ -1,0 +1,11 @@
+ARC Raiders 2.0.0 — English
+ST_AnnouncementTemplates
+
+[ID_ANNOUNCEMENT_NEXT_QUESTION]
+Next question
+
+[ID_ANNOUNCEMENT_QUESTION_PROGRESS]
+{0}/{1} questions
+
+[ID_ANNOUNCEMENT_SUBMIT_YOUR_ANSWER]
+Submit your answer

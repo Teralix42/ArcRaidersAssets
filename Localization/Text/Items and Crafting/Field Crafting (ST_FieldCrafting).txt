@@ -1,0 +1,8 @@
+ARC Raiders 2.0.0 — English
+ST_FieldCrafting
+
+[ID_FIELDCRAFTING_CONSUME_RANDOM_WARNING]
+Will consume random available resources.
+
+[ID_FIELDCRAFTING_PLANT_TYPE]
+Plant Material

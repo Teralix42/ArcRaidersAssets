@@ -1,0 +1,14 @@
+ARC Raiders 2.0.0 — English
+ST_Shared
+
+[ID_SHARED_DISABLED]
+Disabled
+
+[ID_SHARED_ENABLED]
+Enabled
+
+[ID_SHARED_HOLD]
+(Hold) {0}
+
+[ID_SHARED_INVALID_DISPLAY_TEXT]
+Invalid

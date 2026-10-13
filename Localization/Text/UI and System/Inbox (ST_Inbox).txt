@@ -1,0 +1,370 @@
+ARC Raiders 2.0.0 — English
+ST_Inbox
+
+[ID_INBOX_ARCHIVE_EMPTY_DESCRIPTION]
+There are no archived messages.
+
+[ID_INBOX_ARCHIVE_EMPTY_TITLE]
+Archive Empty
+
+[ID_INBOX_ARCHIVE_MESSAGE]
+Archive
+
+[ID_INBOX_FILTER_ARCHIVE]
+Archive
+
+[ID_INBOX_FILTER_INBOX]
+Inbox
+
+[ID_INBOX_INBOX]
+Inbox
+
+[ID_INBOX_INBOX_EMPTY_DESCRIPTION]
+There are no messages in the inbox.
+
+[ID_INBOX_INBOX_EMPTY_TITLE]
+Inbox Empty
+
+[ID_INBOX_MESSAGES_MULTIPLE_TITLE]
+{0} Messages
+
+[ID_INBOX_MESSAGES_SINGLE_TITLE]
+1 Message
+
+[ID_INBOX_MESSAGE_ACTION_ARCHIVE]
+Archive
+
+[ID_INBOX_MESSAGE_ACTION_ARCHIVED]
+Archived
+
+[ID_INBOX_MESSAGE_ACTION_ARCHIVE_ALL]
+Archive All
+
+[ID_INBOX_MESSAGE_ACTION_ARCHIVE_ERROR_UNCLAIMED]
+Please claim the message's gift before archiving.
+
+[ID_INBOX_MESSAGE_ACTION_CLAIM]
+Claim
+
+[ID_INBOX_MESSAGE_ACTION_CLAIMED]
+Claimed
+
+[ID_INBOX_MESSAGE_ACTION_CLAIM_ALL]
+Claim All
+
+[ID_INBOX_MESSAGE_ACTION_CLAIM_COMPENSATION_ERROR_FAILED]
+Failed to claim compensation, please try again.
+
+[ID_INBOX_MESSAGE_ACTION_CLAIM_ERROR_FULL_STASH]
+Your stash is full.
+
+[ID_INBOX_MESSAGE_ACTION_CLAIM_ERROR_FULL_STASH_ALT]
+Your stash is full. Free up space to claim your gift.
+
+[ID_INBOX_MESSAGE_ACTION_DELETE]
+Delete
+
+[ID_INBOX_MESSAGE_ACTION_DELETED]
+Deleted
+
+[ID_INBOX_MESSAGE_ACTION_DELETE_ALL]
+Delete All
+
+[ID_INBOX_MESSAGE_ACTION_DELETE_ERROR_UNCLAIMED]
+Please claim the message's gift before deleting.
+
+[ID_INBOX_MESSAGE_ACTION_LINK_DISCORD]
+Link Discord
+
+[ID_INBOX_MESSAGE_ACTION_LINK_DISCORD_BODY]
+Discord + ARC Raiders = ENGAGE! By linking your Discord account and Embark ID you can easily pull in your friends for a round, wherever they are online!
+
+Invite Discord friends to your Party directly from ARC Raiders, even if they’re not yet logged on!
+Your status from ARC Raiders can be shared with your Discord friends, letting them know when you’re ready to team up or still fending off ARC Topside!
+
+[ID_INBOX_MESSAGE_ACTION_UNARCHIVE]
+Unarchive
+
+[ID_INBOX_MESSAGE_CHARGEBACK_PROCESSED_BODY]
+After a thorough investigation, we identified that one or more purchases on your account were made with an invalid or unauthorized payment method. As a result, the items and currency connected to those transactions have been removed. In some cases, this may also lead to a negative currency balance.  This doesn’t necessarily mean you were at fault. Our priority is to resolve these cases fairly and responsibly, and to maintain a healthy environment for all players.  If you have any questions or concerns, our Player Support team is always here to help.
+
+[ID_INBOX_MESSAGE_CHARGEBACK_PROCESSED_TITLE]
+Purchase Rollback
+
+[ID_INBOX_MESSAGE_CHEATER_COMPENSATION_BODY]
+Your items were lost due to unfair play, but we managed to get them back for you! They’re now available for you to claim and take with you on your next journey Topside.  We’re committed to building an environment where gameplay is about skill, teamwork, and fun, not unfair advantages. Thank you for being part of this mission! Together, we’re building ARC Raiders into a fair and fun experience for everyone.
+
+[ID_INBOX_MESSAGE_CHEATER_COMPENSATION_TITLE]
+Items Returned
+
+[ID_INBOX_MESSAGE_CHRISTMAS_2025_BODY]
+Thank you from the **ARC Raiders team** and **Embark Studios** for being a valued part of our community. We'd like to wish you **Happy Holidays**, and hope you enjoy this small **gift** as a token of our appreciation!
+
+[ID_INBOX_MESSAGE_CHRISTMAS_2025_TITLE]
+Happy Holidays!
+
+[ID_INBOX_MESSAGE_COMMUNITYACTIVATION_CTA_BODY]
+Raiders,
+
+When Topside’s threats seem especially daunting, there are few things so reassuring as a loyal squad to have your back. Use these gifts to return the favor the next time you go Topside, or extend an olive branch to any strangers you encounter.
+
+-The ARC Raiders team
+
+[ID_INBOX_MESSAGE_COMMUNITYACTIVATION_CTA_TITLE]
+The Gift of Caring
+
+[ID_INBOX_MESSAGE_COMMUNITYACTIVATION_REWARD_BODY]
+Raiders,
+
+Recently, Topside has seen a marked increase in Raiders banding together; taking on threats with a renewed sense of solidarity and collaboration. Here’s a small gift to help you face your fellow Raiders with that same spirit in the future.
+
+- The ARC Raiders team
+
+[ID_INBOX_MESSAGE_COMMUNITYACTIVATION_REWARD_BODY_ALT1]
+Raiders,
+
+Recently, Topside has seen a marked increase in Raiders banding together; taking on threats with a renewed sense of solidarity and collaboration. Here’s a small gift to help you meet your fellow Raiders with that same spirit in the future.
+
+- The ARC Raiders team
+
+[ID_INBOX_MESSAGE_COMMUNITYACTIVATION_REWARD_TITLE]
+A Token of Friendship
+
+[ID_INBOX_MESSAGE_CROSSPROMOTION_ARC_TO_FINALS_BODY]
+Raiders,
+THE FINALS is a free to play multiplayer FPS from Embark Studios. As an ARC Raiders player, you are eligible to receive the Voltage Marauder outfit set.
+
+Bring a touch of Speranza style into the Arena and let everyone know ARC Raiders sent you!
+
+To receive the outfit just download and launch THE FINALS.
+
+Make sure you log in using your existing Embark ID. The Voltage Marauder set will be granted to your account automatically.
+
+See you Topside...
+And in the Arena!
+
+[ID_INBOX_MESSAGE_CROSSPROMOTION_ARC_TO_FINALS_TITLE]
+Represent ARC Raiders in THE FINALS!
+
+[ID_INBOX_MESSAGE_CROSSPROMOTION_BODY]
+Hey Raider,
+
+**Unlock an exclusive outfit in ARC Raiders** by completing a special Raider contract in THE FINALS, the world's first Dynamism Shooter from Embark Studios!
+
+Be sure to connect to the same EmbarkID in both games.
+
+[ID_INBOX_MESSAGE_CROSSPROMOTION_BUTTON]
+Download THE FINALS
+
+[ID_INBOX_MESSAGE_CROSSPROMOTION_REWARD_BODY]
+Congratulations! As a Rising Star in THE FINALS, you've earned some exclusive rewards:
+- [Outfit] Ryder - Red
+- [Backpack] Salvager - Black
+- [Charm] Soccer Finals Ticket
+
+[ID_INBOX_MESSAGE_CROSSPROMOTION_REWARD_TITLE]
+Reward for a Rising Star
+
+[ID_INBOX_MESSAGE_CROSSPROMOTION_TITLE]
+Can you reach THE FINALS?
+
+[ID_INBOX_MESSAGE_DISPLAY_NAME_UPDATED_BODY]
+We changed your display name to keep it in line with our community guidelines. Thank you  for helping us keep the game welcoming for everyone.  If you have any questions, please contact our Player Support team.
+
+[ID_INBOX_MESSAGE_DISPLAY_NAME_UPDATED_TITLE]
+Display Name Updated
+
+[ID_INBOX_MESSAGE_DOWNTIME_COMPENSATION_BODY]
+We know your experience hasn’t been as smooth as it should be, and we want to thank you for your patience and support. To show our appreciation, we’ve sent a little something your way. It’s waiting for you to claim and enjoy on your next journey Topside.  We’re committed to making ARC Raiders the best experience possible, and we’re grateful to have you with us.
+
+[ID_INBOX_MESSAGE_DOWNTIME_COMPENSATION_TITLE]
+A Gift for You
+
+[ID_INBOX_MESSAGE_EMAIL_VERIFICATION_BODY]
+Your email verification rewards are ready. Claim them now to use in your next adventure topside.  - The ARC Raiders team
+
+[ID_INBOX_MESSAGE_EVENT_REWARD_TITLE]
+Supply Drop
+
+[ID_INBOX_MESSAGE_GIFTS_CLAIMED_STATUS]
+Claimed
+
+[ID_INBOX_MESSAGE_GIFTS_MULTIPLE_CLAIMED_STATUS]
+Gifts Claimed
+
+[ID_INBOX_MESSAGE_GIFTS_MULTIPLE_STATUS]
+Gifts
+
+[ID_INBOX_MESSAGE_GIFTS_SINGLE_CLAIMED_STATUS]
+Gift Claimed
+
+[ID_INBOX_MESSAGE_GIFTS_SINGLE_STATUS]
+Gift
+
+[ID_INBOX_MESSAGE_MAINTENANCE_COMPLETE_BODY]
+Maintenance is now finished and ARC Raiders is back online! The latest improvements are live, bringing you a more enjoyable experience.  P.S. Topside is waiting!
+
+[ID_INBOX_MESSAGE_MAINTENANCE_COMPLETE_TITLE]
+Maintenance Complete
+
+[ID_INBOX_MESSAGE_MAINTENANCE_IN_PROGRESS_BODY]
+ARC Raiders is currently undergoing scheduled maintenance, and the game will be unavailable during this time.  Our goal is always to create the best possible experience every time you set out for Topside.
+
+[ID_INBOX_MESSAGE_MAINTENANCE_IN_PROGRESS_TITLE]
+Scheduled Maintenance in Progress
+
+[ID_INBOX_MESSAGE_ONE_MILLION_DISCORD_BODY]
+We are blown away to see so many of you sharing your feedback, reporting issues and chatting. To celebrate, we are sending Toy Robot Backpack Charm to everyone who connected their Discord to Embark ID.
+
+The ARC Raiders Team
+
+[ID_INBOX_MESSAGE_ONE_MILLION_DISCORD_TITLE]
+1 Million Raiders on Discord
+
+[ID_INBOX_MESSAGE_PENALIZATION_LEVEL_1_BODY]
+Raider!
+We’ve detected activity on your account that appears to involve potential exploit use. Consider this a warning and know that continued use of exploits could lead to a suspension. 
+Taking advantage of exploits has a real impact on the game’s economy and the way the community experiences ARC Raiders. It is our goal to fix these issues as soon as possible to restore balance. Please report them in the dedicated channels.
+Read more on arcraiders.com/news.
+The ARC Raiders Team
+
+[ID_INBOX_MESSAGE_PENALIZATION_LEVEL_1_TITLE]
+Fair Play Reminder
+
+[ID_INBOX_MESSAGE_PENALIZATION_LEVEL_2_BODY]
+Raider!
+We’ve confirmed exploit use on your account. Since use of exploits violates our Terms of Service and End User License Agreement, we have taken measures by removing a portion of your Coins. Continuing use of exploits could lead to account suspension.
+Taking advantage of exploits has a real impact on the game’s economy and the way the community experiences ARC Raiders. It is our goal to fix these issues as soon as possible to restore balance. Please report them in the dedicated channels.
+Read more on arcraiders.com/news.
+The ARC Raiders Team
+
+[ID_INBOX_MESSAGE_PENALIZATION_LEVEL_2_TITLE]
+Exploit Use Detected
+
+[ID_INBOX_MESSAGE_PERMANENT_BAN_BODY]
+Your account has been permanently suspended due to severe violations of our code of conduct. This action is final and your access to the game will not be restored.  If you have questions about your account, please contact our Player Support team.
+
+[ID_INBOX_MESSAGE_PERMANENT_BAN_TITLE]
+Permanent Account Suspension
+
+[ID_INBOX_MESSAGE_REFUND_PROCESSED_BODY]
+It looks like your payment provider has processed a refund for one or more of your purchases. As a result, the related items are no longer available on your account. In some cases, this may also lead to a negative currency balance.  If you have any questions about this change, or need assistance with your account, our Player Support team is always here to help.
+
+[ID_INBOX_MESSAGE_REFUND_PROCESSED_TITLE]
+Purchase Refunded
+
+[ID_INBOX_MESSAGE_REPORT_ACTION_TAKEN_BODY]
+Your recent report resulted in action against a player. Together, we’re making ARC Raiders a fair and fun experience for everyone. Your contribution means a lot. Thank you.
+
+[ID_INBOX_MESSAGE_REPORT_ACTION_TAKEN_TITLE]
+Thank you for looking out!
+
+[ID_INBOX_MESSAGE_REPORT_RECEIVED_BODY]
+Thank you for taking the time to report. Every action like this helps make ARC Raiders better for everyone.
+
+[ID_INBOX_MESSAGE_REPORT_RECEIVED_TITLE]
+Report Received!
+
+[ID_INBOX_MESSAGE_SERVERSLAMENDING_BODY]
+Hey Raider,
+
+Thank you for participating in the Server Slam. The playtest will end on the 19th of October.
+
+Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
+
+In the meantime, check out [Season 8 on THE FINALS](TheFinals), the world's first Dynamism Shooter!
+
+[ID_INBOX_MESSAGE_SERVERSLAMENDING_BODY_ALT1]
+Thank you, Raider.
+
+The playtest will end on the 19th of October.
+
+Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
+
+While you wait, [THE FINALS](TheFinals) is free to play. Enter the Arena, Contestant! The World is watching!
+
+[ID_INBOX_MESSAGE_SERVERSLAMENDING_TITLE]
+Thank you for playing!
+
+[ID_INBOX_MESSAGE_SERVERSLAMENDING_TITLE_ALT1]
+Server Slam Ending Soon!
+
+[ID_INBOX_MESSAGE_SERVERSLAMENDING_TITLE_ALT2]
+Server Slam Ending on the 19th of October
+
+[ID_INBOX_MESSAGE_SERVER_CRASH_COMPENSATION_BODY]
+Hello Raider,
+
+It looks like you ran into some unexpected technical interference topside. Don’t worry, Scrappy managed to recover your belongings and bring them back safely to Speranza.
+
+Claim them here and they’ll be waiting in your stash.
+
+[ID_INBOX_MESSAGE_SERVER_CRASH_COMPENSATION_TITLE]
+Items Recovered After Disruption
+
+[ID_INBOX_MESSAGE_SSOT_REWARDS_BODY]
+Good news, Raider!  Since you’ve made a mark for yourself in Server Slam, we’re sending you a supply drop to help you in your future adventures topside.  Thank you for helping this community thrive.  - The ARC Raiders team
+
+[ID_INBOX_MESSAGE_TEMPORARY_SUSPENSION_BODY]
+Your account has been temporarily suspended due to a violation of our code of conduct. During this period, you will not be able to access ARC Raiders. Your account will be reinstated once the suspension has ended.  If you have any questions about this action or believe it was made in error, please contact our Player Support team.
+
+[ID_INBOX_MESSAGE_TEMPORARY_SUSPENSION_TITLE]
+Temporary Account Suspension
+
+[ID_INBOX_MESSAGE_TEN_MILLION_PLAYERS_BODY]
+It's been a hell of a ride so far, and we're celebrating a huge milestone... 10 million Raiders in the Rust Belt!
+
+We're proud and humbled by your love for ARC Raiders. There's so much more exciting content to come, so we hope you stay for the journey.
+
+You're one of the first 10 million, so here's something to show for it.
+
+
+See you Topside, Raiders.
+
+The ARC Raiders Team
+
+[ID_INBOX_MESSAGE_TEN_MILLION_PLAYERS_TITLE]
+10 Million Raiders!
+
+[ID_INBOX_MESSAGE_TRIALS_COMPENSATION_BODY]
+Hey Raider,
+
+It looks like some of your Trials progress was lost during some unexpected technical interference Topside. Don't worry, we know you would have climbed the ranks anyway, so here are some additional seasonal rewards.
+
+Claim them here.
+
+[ID_INBOX_MESSAGE_TRIALS_COMPENSATION_TITLE]
+Compensation for Trials Disruption
+
+[ID_INBOX_MESSAGE_TT1_REWARDS_BODY]
+Good news, Raider!  Since you’ve made a mark for yourself in Tech Test 1, we’re sending you a supply drop to help you in your future adventures topside.  Thank you for helping this community thrive.  - The ARC Raiders team
+
+[ID_INBOX_MESSAGE_TT2_REWARDS_BODY]
+Good news, Raider!  Since you’ve made a mark for yourself in Tech Test 2, we’re sending you a supply drop to help you in your future adventures topside.  Thank you for helping this community thrive.  - The ARC Raiders team
+
+[ID_INBOX_MESSAGE_TWITCH_DROPS_BODY]
+Your Twitch Drop rewards are ready. Claim them now to use in your next adventure topside.  - The ARC Raiders team
+
+[ID_INBOX_MESSAGE_VALENTINE_2026_BODY]
+Hey Raider,
+
+Today, Speranzans celebrate the companions that always have their back - and so do we. Mark the occasion with a gift from us: 'Bonded Bolts', Speranza's emblem of shared resistance.
+
+Stay safe,
+
+The ARC Raiders Team
+
+[ID_INBOX_MESSAGE_VALENTINE_2026_TITLE]
+Bonded Bolts free gift
+
+[ID_INBOX_NEW_MESSAGE]
+New message
+
+[ID_INBOX_NO_MESSAGES]
+Inbox Empty
+
+[ID_INBOX_NO_MESSAGES_DETAILS]
+There are no messages in the inbox
+
+[ID_INBOX_TOOLTIP_DESCRIPTION]
+Messages from Embark

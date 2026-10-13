@@ -1,0 +1,96 @@
+ARC Raiders 2.0.0 — English
+ST_NexonService
+
+[ID_NEXONSERVICE_DISCONNECT_GUSS]
+Failed to connect to the server.
+
+[ID_NEXONSERVICE_DISCONNECT_GUSS_MESSAGE]
+Please restart the game to continue.
+
+[ID_NEXONSERVICE_DISCONNECT_GUSS_TITLE]
+Game Restart Required
+
+[ID_NEXONSERVICE_IMMERSIONPREVENTION]
+You have been playing for {0} {0}|plural(one=hour,other=hours). Excessive gameplay may interfere with your daily life.
+
+[ID_NEXONSERVICE_KR_LEGAL_WITHDRAW]
+The purchased item can be canceled from your Inbox within 7 days.
+
+[ID_NEXONSERVICE_MESSAGE_ACTION_CONFIRM_PURCHASE]
+Confirm Purchase
+
+[ID_NEXONSERVICE_MESSAGE_ACTION_DELETE_ERROR_HAS_PENDING]
+You have a pending purchase. Please complete or cancel it before deleting.
+
+[ID_NEXONSERVICE_MESSAGE_ACTION_WITHDRAW_PURCHASE]
+Cancel Purchase
+
+[ID_NEXONSERVICE_MESSAGE_CLAIM_ALL_NOT_AVAILABLE_FOR_PENDING_PURCHASE]
+Nexon purchased items cannot be claimed with [Claim All]. Please claim them individually.
+
+[ID_NEXONSERVICE_MESSAGE_CLAIM_PURCHASED_PRODUCT_FAILED]
+Failed to claim the purchased item.
+
+[ID_NEXONSERVICE_MESSAGE_PURCHASED_PRODUCT_BODY]
+Your item has arrived. Press [Confirm Purchase] to claim it.
+
+You may cancel within 7 days of purchase.
+
+[ID_NEXONSERVICE_MESSAGE_PURCHASED_PRODUCT_BODY_ITEMTITLE]
+Item Name: **{0}**
+
+[ID_NEXONSERVICE_MESSAGE_PURCHASED_PRODUCT_TITLE]
+Your item has arrived.
+
+[ID_NEXONSERVICE_MESSAGE_PURCHASE_STATUS]
+Purchase
+
+[ID_NEXONSERVICE_MESSAGE_WITHDRAW_FAILED_EXPIRED]
+The cancellation period has expired.
+
+[ID_NEXONSERVICE_MESSAGE_WITHDRAW_PURCHASED_PRODUCT_FAILED]
+Failed to process the refund.
+
+[ID_NEXONSERVICE_MESSAGE_WITHDRAW_PURCHASED_PRODUCT_SUCCESS]
+Purchase successfully canceled.
+
+[ID_NEXONSERVICE_PCCAFE_BENEFITS]
+PC Café Benefits
+
+[ID_NEXONSERVICE_PCCAFE_BONUS]
+Active Buff (PC Café)
+
+[ID_NEXONSERVICE_PRODUCT_PENDING_CLAIM]
+Pending Claim
+
+[ID_NEXONSERVICE_PURCHASE_CONFIRM_MESSAGE]
+Do you want to confirm this purchase?
+Once confirmed, this purchase cannot be canceled.
+
+[ID_NEXONSERVICE_RATINGSCREEN_BODY]
+This game is rated 15+. Content may not be suitable for players under 15.
+
+[ID_NEXONSERVICE_SELECTIVE_SHUTDOWN_QUIT_DESC]
+Game access has been blocked due to the Game Time Selection System.
+
+[ID_NEXONSERVICE_SELECTIVE_SHUTDOWN_WARNING]
+Game access is unavailable from {0} due to the Game Time Selection System.
+
+[ID_NEXONSERVICE_STORE_ITEM_PENDING_CLAIM]
+This item is pending claim.
+
+[ID_NEXONSERVICE_STORE_PURCHASE_COMPLETE_TITLE]
+Purchase Complete
+
+[ID_NEXONSERVICE_STORE_PURCHASE_COMPLETE_TO_INBOX]
+Purchase completed. You can check the item in your Inbox.
+
+[ID_NEXONSERVICE_TERMS_AGREEMENT_REQUIRED]
+Please agree to the Terms of Service to continue.
+
+[ID_NEXONSERVICE_WITHDRAW_CONFIRM_MESSAGE]
+Do you want to cancel this purchase?
+If you cancel, the item will no longer be available.
+
+[ID_NEXON_SERVICE_NEXON]
+Nexon

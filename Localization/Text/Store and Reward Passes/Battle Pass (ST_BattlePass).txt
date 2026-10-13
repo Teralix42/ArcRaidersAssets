@@ -1,0 +1,746 @@
+ARC Raiders 2.0.0 — English
+ST_BattlePass
+
+[ID_BATTLEPASS]
+Raider Deck
+
+[ID_BATTLEPASS_ACCESS_PREMIUM_PASS]
+Access to Premium Pass
+
+[ID_BATTLEPASS_ACCESS_PREMIUM_TRACK]
+Access to Premium Track
+
+[ID_BATTLEPASS_ACTIVE_PASS_ACTIVATED]
+Activated
+
+[ID_BATTLEPASS_ACTIVE_PASS_ACTIVATED_ALT1]
+Activated:
+
+[ID_BATTLEPASS_ACTIVE_PASS_ACTIVATED_ALT2]
+Activated: {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_ACTIVATED_ALT3]
+Activated {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_ACTIVE]
+Currently Active
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_ACTIVE_ALT1]
+Currently Active:
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_ACTIVE_ALT2]
+Currently Active: {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_ACTIVE_ALT3]
+Currently Active {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_PROGRESSING]
+Currently Progressing
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_PROGRESSING_ALT1]
+Currently Progressing:
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_PROGRESSING_ALT2]
+Currently Progressing {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_PROGRESSING_ALT3]
+Currently Progressing: {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_DISCLAIMER]
+You are currently progressing on the {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_DISCLAIMER_ALT1]
+You are currently progressing: {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_DISCLAIMER_ALT2]
+Your Reward Points are currently progressing the {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_DISCLAIMER_ALT3]
+Your Reward Points are currently progressing: {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_PROGRESSING]
+Progressing
+
+[ID_BATTLEPASS_ACTIVE_PASS_PROGRESSING_ALT1]
+Progressing:
+
+[ID_BATTLEPASS_ACTIVE_PASS_PROGRESSING_ALT2]
+Progressing: {0}
+
+[ID_BATTLEPASS_ACTIVE_PASS_PROGRESSING_ALT3]
+Progressing {0}
+
+[ID_BATTLEPASS_BACKALLEYMARKET]
+Back-Alley Market
+
+[ID_BATTLEPASS_BINDING_OPEN_BATTLEPASS]
+Open Raider Deck
+
+[ID_BATTLEPASS_BLACK_MARKET]
+Black Market
+
+[ID_BATTLEPASS_BUTTON_PURCHASE]
+Purchase
+
+[ID_BATTLEPASS_BUTTON_UNLOCK]
+Unlock
+
+[ID_BATTLEPASS_CARD_FROZEN_TRAIL_HEADER]
+Frozen Trail
+
+[ID_BATTLEPASS_CARD_FROZEN_TRAIL_HEADER_LONG]
+Frozen Trail Reward Pass
+
+[ID_BATTLEPASS_CARD_FROZEN_TRAIL_HEADER_PREMIUM]
+Frozen Trail Premium Reward Pass
+
+[ID_BATTLEPASS_CARD_FROZEN_TRAIL_HEADER_PREMIUM_ALT1]
+Frozen Trail (Premium)
+
+[ID_BATTLEPASS_CARD_LEGACY_PASS_HEADER]
+Legacy Pass
+
+[ID_BATTLEPASS_CARD_LEGACY_PASS_HEADER_ALT1]
+Legacy Reward Pass
+
+[ID_BATTLEPASS_CARD_PREMIUM_REWARD_PASS]
+Premium Reward Pass
+
+[ID_BATTLEPASS_CARD_PREMIUM_SUBHEADER]
+Premium
+
+[ID_BATTLEPASS_CARD_PREMIUM_SUBHEADER_ALT1]
+Premium Pass
+
+[ID_BATTLEPASS_CARD_STARTER_PASS_HEADER]
+Starter Pass
+
+[ID_BATTLEPASS_CARD_STARTER_PASS_HEADER_ALT1]
+Starter Reward Pass
+
+[ID_BATTLEPASS_CARD_STATE_COMPLETED]
+Completed
+
+[ID_BATTLEPASS_CARD_STATE_PAUSED]
+Paused
+
+[ID_BATTLEPASS_CLAIM]
+Claim for {0} Cred
+
+[ID_BATTLEPASS_CLAIMED]
+Claimed
+
+[ID_BATTLEPASS_CLAIMED_COUNT]
+{0}/{1} Claimed
+
+[ID_BATTLEPASS_COMPLETE_CTA_REWARD_PASSES]
+Go to Reward Passes
+
+[ID_BATTLEPASS_COMPLETE_CTA_REWARD_PASSES_ALT]
+Reward Passes
+
+[ID_BATTLEPASS_COMPLETE_CTA_VIEW_ACTIVE_PASS]
+View Active Pass
+
+[ID_BATTLEPASS_COMPLETE_EYEBROW]
+Reward Pass
+
+[ID_BATTLEPASS_COMPLETE_FREE_REWARDS]
+Free Rewards
+
+[ID_BATTLEPASS_COMPLETE_FREE_REWARDS_ALT1]
+Free Rewards Collected
+
+[ID_BATTLEPASS_COMPLETE_FREE_REWARDS_COUNT]
+{0} of {1} free rewards collected
+
+[ID_BATTLEPASS_COMPLETE_FREE_REWARDS_COUNT_ALT1]
+Free Rewards Collected: {0}
+
+[ID_BATTLEPASS_COMPLETE_FREE_REWARDS_COUNT_ALT2]
+Free Rewards: {0}
+
+[ID_BATTLEPASS_COMPLETE_HEADING_FROZEN_TRAIL]
+Frozen Trail Reward Pass completed
+
+[ID_BATTLEPASS_COMPLETE_HEADING_FROZEN_TRAIL_FREE]
+Frozen Trail Reward Pass - Free Track
+
+[ID_BATTLEPASS_COMPLETE_HEADING_FROZEN_TRAIL_PREMIUM]
+Frozen Trail Premium Pass
+
+[ID_BATTLEPASS_COMPLETE_HEADING_LEGACY]
+Legacy Reward Pass completed
+
+[ID_BATTLEPASS_COMPLETE_PREMIUM_REWARDS_AVAILABLE]
+Premium Rewards Available
+
+[ID_BATTLEPASS_COMPLETE_PREMIUM_REWARDS_AVAILABLE_ALT1]
+Premium Rewards Available to Collect
+
+[ID_BATTLEPASS_COMPLETE_PREMIUM_REWARDS_AVAILABLE_ALT2]
+Premium Rewards Collected
+
+[ID_BATTLEPASS_COMPLETE_PREMIUM_REWARDS_COUNT]
+{0} of {1} premium rewards collected
+
+[ID_BATTLEPASS_COMPLETE_PREMIUM_REWARDS_COUNT_ALT1]
+Premium Rewards Collected: {0}
+
+[ID_BATTLEPASS_COMPLETE_PREMIUM_REWARDS_COUNT_ALT2]
+Premium Rewards: {0}
+
+[ID_BATTLEPASS_COMPLETE_PREMIUM_REWARDS_WAITING]
+{0} premium rewards waiting. Upgrade to collect them all instantly.
+
+[ID_BATTLEPASS_COMPLETE_REWARDS_COUNT]
+Rewards collected: {0}/{1}
+
+[ID_BATTLEPASS_COMPLETE_REWARDS_COUNT_ALT1]
+Rewards Collected
+
+[ID_BATTLEPASS_COMPLETE_REWARDS_COUNT_ALT2]
+{0} of {1} rewards collected
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_PASS]
+Next Pass Activated
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_PASS_ALT1]
+Feats Now Progress
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_PASS_ALT2]
+Completed Feats now progress {0}
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_PASS_ALT3]
+Reward Points now progress {0}
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_PASS_ALT4]
+Active Now:
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_XP]
+All passes completed: Reward Points converted to XP
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT1]
+Completed Feats now gives you XP
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT2]
+Completing Daily Feats now grant XP.
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT3]
+All Reward Passes are completed. Completing feats now gives you XP.
+
+[ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT4]
+Any Reward Points earned convert now into XP.
+
+[ID_BATTLEPASS_COMPLETE_UPGRADE_INFO]
+Upgrade your pass anytime to unlock all remaining rewards.
+
+[ID_BATTLEPASS_COMPLETE_UPGRADE_INFO_ALT1]
+You can still upgrade this pass anytime to collect all remaining rewards.
+
+[ID_BATTLEPASS_COMPLETE_UPGRADE_INFO_ALT2]
+You can still upgrade this pass anytime to unlock and collect additional rewards.
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_HEADER]
+An Update on Cred
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_HEADER_ALT1]
+Update to Cred & Raider Deck in October
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_HEADER_ALT2]
+Cred Expires in October
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_HEADER_ALT3]
+Cred Is Changing
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_HEADER_ALT4]
+Retiring Cred
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_HEADER_ALT5]
+Changes to Cred Currency
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB1_DESC]
+We are retiring Cred as a currency, as we'll be introducing a more expansive reward system launching with the Frozen Trail update.
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB1_DESC_CLAIMEDREWARDS]
+You will keep any rewards you have already claimed at the time of the update.
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB1_DESC_OTHERREWARDS]
+All existing Raider Deck rewards will also be available in the new system.
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB1_HEADER]
+What is happening to Cred?
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB2_DESC]
+Any Cred remaining on your account will expire with the Frozen Trail update, so please be sure to spend your Cred with Shani or on any remaining Raider Deck rewards.
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB2_DESC_ALT1]
+Any Cred remaining on your account will expire with the Frozen Trail update.
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB2_HEADER]
+What happens if I do not spend my remaining Cred?
+
+[ID_BATTLEPASS_CRED_ANNOUNCEMENT_SUB2_HEADER_ALT1]
+What happens if I have Cred left over?
+
+[ID_BATTLEPASS_CTA_ACTIVATE]
+Activate Pass
+
+[ID_BATTLEPASS_CTA_ACTIVATE_ALT1]
+Activate
+
+[ID_BATTLEPASS_CTA_EXPLORE_PREMIUM_BUTTON]
+Explore Premium
+
+[ID_BATTLEPASS_CTA_UPGRADE]
+Upgrade Options
+
+[ID_BATTLEPASS_CTA_UPGRADE_BUTTON]
+Upgrade
+
+[ID_BATTLEPASS_CTA_UPGRADE_BUTTON_ALT2]
+Pass Upgrade
+
+[ID_BATTLEPASS_CTA_UPGRADE_PREMIUM_BUTTON]
+Upgrade Premium
+
+[ID_BATTLEPASS_CTA_UPGRADE_PREMIUM_BUTTON_ALT2]
+Upgrade to Premium
+
+[ID_BATTLEPASS_CURRENCY]
+Currency
+
+[ID_BATTLEPASS_DLC_BANNER]
+Get the unique Renzo outfit with the Frozen Trail Collector Set
+
+[ID_BATTLEPASS_EARN_MORE]
+Earn another <currency id="cred" amount="{0}"/> to unlock
+
+[ID_BATTLEPASS_FEATS_WEEKLY_BONUS_HEADER]
+Weekly Bonus
+
+[ID_BATTLEPASS_FEATS_WEEKLY_BONUS_HEADER_ALT1]
+Bonus
+
+[ID_BATTLEPASS_FREE_PASS]
+Free Pass
+
+[ID_BATTLEPASS_FREE_TRACK]
+Free Track
+
+[ID_BATTLEPASS_HAIRSTYLES]
+Barber Deck
+
+[ID_BATTLEPASS_ITEM_PACK]
+Item Pack
+
+[ID_BATTLEPASS_LABEL_EARN]
+Earn
+
+[ID_BATTLEPASS_LABEL_INCLUDES]
+Includes:
+
+[ID_BATTLEPASS_LABEL_REQUIRES]
+Requires
+
+[ID_BATTLEPASS_LABEL_UNLOCK]
+Unlock
+
+[ID_BATTLEPASS_LABEL_UNLOCKS_IN]
+Unlocks in
+
+[ID_BATTLEPASS_LEMANS]
+Ryder Deck
+
+[ID_BATTLEPASS_LISTITEM_DLC_EXCLUSIVE_REWARDS]
+{0} Exclusive Rewards
+
+[ID_BATTLEPASS_LISTITEM_DLC_EXCLUSIVE_REWARDS_PLUS]
++ {0} Exclusive Rewards
+
+[ID_BATTLEPASS_LISTITEM_PREMIUM_PASS_REWARDS]
+{0} Raider Tokens, Cosmetics, Weapon Stencils
+
+[ID_BATTLEPASS_LISTITEM_PREMIUM_PASS_REWARDS_ALT2]
+{0} Raider Tokens, Weapon Stencils, Outfit Variants and more
+
+[ID_BATTLEPASS_LISTITEM_UNLOCKABLE_PREMIUM_REWARDS]
+{0} Unlockable Premium Rewards
+
+[ID_BATTLEPASS_LOCKED_DESCRIPTION]
+Spend more Cred to unlock page
+
+[ID_BATTLEPASS_MILESTONE]
+Milestones
+
+[ID_BATTLEPASS_NOT_ENOUGH_BPP]
+Not enough Cred
+
+[ID_BATTLEPASS_OUTFIT]
+Full Cosmetic
+
+[ID_BATTLEPASS_OUTFIT_VARIATIONS]
+Color Variations
+
+[ID_BATTLEPASS_PAGE_TITLE]
+Page {0}
+
+[ID_BATTLEPASS_PASS_TILE_COMPLETED]
+Completed
+
+[ID_BATTLEPASS_PASS_TILE_PASS_NEXT]
+Next
+
+[ID_BATTLEPASS_PASS_TILE_PASS_NEXT_REWARD]
+Next reward
+
+[ID_BATTLEPASS_PASS_TILE_PASS_NEXT_REWARDS]
+Next rewards
+
+[ID_BATTLEPASS_PASS_TILE_PREMIUM_REWARDS]
+Premium Rewards
+
+[ID_BATTLEPASS_PASS_TILE_PREMIUM_REWARDS_AMOUNT_ALT2]
+Premium Rewards: {0}
+
+[ID_BATTLEPASS_PASS_TILE_PREMIUM_REWARDS_COLON]
+Premium Rewards:
+
+[ID_BATTLEPASS_PASS_TILE_REWARDS]
+Rewards
+
+[ID_BATTLEPASS_PASS_TILE_REWARDS_AMOUNT]
+{0} Rewards
+
+[ID_BATTLEPASS_PASS_TILE_REWARDS_AMOUNT_ALT1]
+{0} Premium Rewards
+
+[ID_BATTLEPASS_PASS_TILE_REWARDS_AMOUNT_ALT2]
+Rewards: {0}
+
+[ID_BATTLEPASS_PASS_TILE_REWARDS_COLON]
+Rewards:
+
+[ID_BATTLEPASS_PREMIUM_TRACK]
+Premium Track
+
+[ID_BATTLEPASS_PREVIEW]
+Preview
+
+[ID_BATTLEPASS_PURCHASED]
+Purchased
+
+[ID_BATTLEPASS_PURCHASE_DESCRIPTION]
+Are you sure you want to claim {0} for {1} Cred?
+
+[ID_BATTLEPASS_PURCHASE_PASS_AVAILABLE_BALANCE]
+Available Balance
+
+[ID_BATTLEPASS_PURCHASE_PASS_COST]
+Cost
+
+[ID_BATTLEPASS_PURCHASE_PASS_INCLUDES]
+Includes: {0}
+
+[ID_BATTLEPASS_PURCHASE_TITLE]
+Claim
+
+[ID_BATTLEPASS_PURCHASE_WARNING_NOTENOUGHRESOURCES]
+Not enough Raider Tokens
+
+[ID_BATTLEPASS_RAIDER_TOKEN_REWARD_AMOUNT]
+Raider Tokens: {0}
+
+[ID_BATTLEPASS_REWARD_BUTTON_CUSTOMIZE]
+Customize
+
+[ID_BATTLEPASS_REWARD_BUTTON_DETAILS]
+Details
+
+[ID_BATTLEPASS_REWARD_BUTTON_SEEDETAILS]
+See details
+
+[ID_BATTLEPASS_REWARD_PACKAGE]
+Package
+
+[ID_BATTLEPASS_REWARD_PANEL_COLLECTED]
+Collected
+
+[ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED]
+Earn another {0} to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT1]
+Earn another {0}{1} to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT2]
+{0} Reward Points to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT3]
+{0}{1} to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ]
+Get Premium Pass
+
+[ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT1]
+Get Premium
+
+[ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT2]
+Get Premium Pass to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT3]
+Earn another {0} and get Premium Pass to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_PROGRESS]
+Progress:
+
+[ID_BATTLEPASS_REWARD_PANEL_PROGRESS_ALT1]
+Progress: {0}{1}
+
+[ID_BATTLEPASS_REWARD_PANEL_PROGRESS_ALT2]
+{0}{1}/{2}{3} to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_PROGRESS_ALT3]
+{0}{1} to progress
+
+[ID_BATTLEPASS_REWARD_PANEL_PROGRESS_ALT4]
+{0}{1} left to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_PROGRESS_ALT5]
+Collect {0}{1}
+
+[ID_BATTLEPASS_REWARD_POINTS]
+Reward Points
+
+[ID_BATTLEPASS_SECLUDEDCOURTYARD]
+Secluded Courtyard
+
+[ID_BATTLEPASS_SECTION_ACTIVE]
+Active
+
+[ID_BATTLEPASS_SECTION_ACTIVE_ALT1]
+Active Pass
+
+[ID_BATTLEPASS_SECTION_AVAILABLE]
+Available
+
+[ID_BATTLEPASS_SECTION_AVAILABLE_MULTI]
+Available Passes
+
+[ID_BATTLEPASS_SECTION_AVAILABLE_SINGLE]
+Available Pass
+
+[ID_BATTLEPASS_SECTION_COMPLETED]
+Completed
+
+[ID_BATTLEPASS_SECTION_COMPLETED_PLURAL]
+Completed Passes
+
+[ID_BATTLEPASS_SECTION_COMPLETED_SINGLE]
+Completed Pass
+
+[ID_BATTLEPASS_SECTION_PASSES]
+Passes
+
+[ID_BATTLEPASS_SHUTTEREDSTOREFRONT]
+Shuttered Storefront
+
+[ID_BATTLEPASS_SPEND_TO_UNLOCK]
+Spend {0} Cred To Unlock
+
+[ID_BATTLEPASS_STATUS_TAG_COMPLETED]
+Completed
+
+[ID_BATTLEPASS_STATUS_TAG_INPROGRESS]
+In progress
+
+[ID_BATTLEPASS_STATUS_TAG_PROGRESS]
+Progress
+
+[ID_BATTLEPASS_TAB_DECKS]
+Decks
+
+[ID_BATTLEPASS_TAB_DECKS_CAP_REACHED_MESSAGE]
+You’ve reached the Cred limit. Spend Cred on Raider Deck rewards or Shani’s offers.
+
+[ID_BATTLEPASS_TAB_TOOLIP_CAP_REACHED]
+You’ve reached the Cred limit. Spend Cred on Raider Deck rewards or Shani’s offers.
+
+[ID_BATTLEPASS_TOPBAR_MENU_REWARD_PASS_FROZEN_TRAIL]
+Frozen Trail Reward Pass
+
+[ID_BATTLEPASS_TOPBAR_MENU_REWARD_PASS_FROZEN_TRAIL_ALT1]
+Frozen Trail Pass
+
+[ID_BATTLEPASS_UNLOCKED]
+Unlocked
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_DESC]
+As we look ahead to future improvements to Raider Decks, we’ll be making changes to the Cred currency.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_DESC_ALT1]
+As we look ahead to the Frozen Trail game update, we’ll be replacing the Cred currency. It will remain usable until the Frozen Trail update in October, so be sure to use any remaining Cred before then.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_DESC_SHORT]
+As we look ahead to the Frozen Trail game update, we’ll be replacing the Cred currency.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_DESC_SHORT_ALT1]
+As part of a rework of the Raider Deck feature, we’ll be replacing the Cred currency with the release of the Frozen Trail update.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_DESC_SPEND]
+Be sure to spend your Cred before that time.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_DESC_SPEND_ALT1]
+We recommend that you spend your remaining Cred before that time.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_HEADER]
+Cred are being reworked
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_HEADER_ALT1]
+Cred are being improved
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_HEADER_ALT2]
+An update on Cred
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_PROGRESSION_DESC]
+Your Raider Deck progression is safe. It will not be affected or reset, and any upcoming changes will take your current progression into account.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_PROGRESSION_HEADER]
+What this means for your progress
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_TIME_REMAINING]
+You can keep using Cred until:
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_TIME_REMAINING_ALT1]
+You can keep using Cred until the end of September.
+
+[ID_BATTLEPASS_UPDATE_ANNOUNCEMENT_TIME_REMAINING_ALT2]
+You can keep using Cred until the beginning of October.
+
+[ID_BATTLEPASS_UPGRADE_BONUS_RAIDER_TOKENS]
+Bonus Raider Tokens
+
+[ID_BATTLEPASS_UPGRADE_COSMETICS]
+Unique cosmetics
+
+[ID_BATTLEPASS_UPGRADE_COSMETICS_ALT1]
+Cosmetics
+
+[ID_BATTLEPASS_UPGRADE_COSMETICS_ALT2]
+Exclusive Cosmetics
+
+[ID_BATTLEPASS_UPGRADE_DLC_BENEFIT6]
+You own Premium. Contact Customer Support for a refund of {0} Raider Tokens
+
+[ID_BATTLEPASS_UPGRADE_DLC_HEADING]
+Frozen Trail Collector Set
+
+[ID_BATTLEPASS_UPGRADE_EXCLUSIVE_OUTFIT]
+Exclusive Outfit
+
+[ID_BATTLEPASS_UPGRADE_EXCLUSIVE_OUTFITS]
+Exclusive Outfits
+
+[ID_BATTLEPASS_UPGRADE_EXCLUSIVE_WEAPON_STENCIL]
+Exclusive Weapon Stencil
+
+[ID_BATTLEPASS_UPGRADE_EXCLUSIVE_WEAPON_STENCILS]
+Exclusive Weapon Stencils
+
+[ID_BATTLEPASS_UPGRADE_EXTRA_ITEMS]
+Extra Items
+
+[ID_BATTLEPASS_UPGRADE_INSTANT_UNLOCKS]
+Instantly unlock
+
+[ID_BATTLEPASS_UPGRADE_LEVEL_SKIPS]
+Skip {0} levels
+
+[ID_BATTLEPASS_UPGRADE_PASS_SCREEN_TITLE]
+Upgrade Pass
+
+[ID_BATTLEPASS_UPGRADE_PREMIUM_HEADING]
+Frozen Trail Premium Reward Pass
+
+[ID_BATTLEPASS_UPGRADE_PREMIUM_UPGRADED]
+Purchased
+
+[ID_BATTLEPASS_UPGRADE_RAIDER_TOKENS]
+Raider Tokens
+
+[ID_BATTLEPASS_UPGRADE_REFUND_DISCLAIMER]
+If you already purchased the Premium Pass, you can contact Customer Support to get those Raider Tokens refunded after buying the Frozen Trail Collector Set.
+
+[ID_BATTLEPASS_UPGRADE_REFUND_DISCLAIMER_ALT1]
+If you purchased the Premium Pass, contact Customer Support to get {0} Raider Tokens refunded.
+
+[ID_BATTLEPASS_UPGRADE_REFUND_DISCLAIMER_ALT2]
+If you purchased the Premium Pass before upgrading to the Collector Set, you can contact Customer Support to get your Raider Tokens refunded.
+
+[ID_BATTLEPASS_UPGRADE_REFUND_DISCLAIMER_ALT3]
+If you upgraded to Premium Pass before purchasing the Collector Set, you can contact Customer Support to get your Raider Tokens refunded.
+
+[ID_BATTLEPASS_UPGRADE_REFUND_DISCLAIMER_ALT4]
+If you upgraded to Premium Pass before purchasing the Collector Set, you can contact Customer Support {0} to get your Raider Tokens refunded.
+
+[ID_BATTLEPASS_UPGRADE_RULES]
+Rewards unlock as you reach each level. Levels you've already passed unlock instantly.
+
+[ID_BATTLEPASS_UPGRADE_UNIQUE_MUSIC_INSTRUMENT]
+Unique Music Instrument
+
+[ID_BATTLEPASS_UPGRADE_UNIQUE_OUTFITS]
+Unique Outfits
+
+[ID_BATTLEPASS_UPGRADE_UNIQUE_OUTPOST_BLUEPRINT]
+Unique Outpost Blueprint
+
+[ID_BATTLEPASS_UPGRADE_UNIQUE_OUTPOST_BLUEPRINT_ALT1]
+Unique Furniture Design
+
+[ID_BATTLEPASS_UPGRADE_UNIQUE_WEAPON_STENCIL]
+Unique Weapon Stencil
+
+[ID_BATTLEPASS_VARIANT_PACK]
+Variant Pack
+
+[ID_BATTLEPASS_WEAPON_INSTANCE]
+Weapon Instance
+
+[ID_BATTLEPASS_WELDER]
+Voyager Deck
+
+[ID_CHALLENGES]
+Feats
+
+[ID_CHALLENGES_AVAILABLE_REROLLS]
+Rerolls: {0}
+
+[ID_CHALLENGES_DAILY_CHALLENGES]
+Daily Feats
+
+[ID_CHALLENGES_DAILY_REFRESH_TIME]
+New daily feats coming in: {0}
+
+[ID_CHALLENGES_DAILY_TASKS]
+Daily
+
+[ID_CHALLENGES_REROLL]
+Reroll
+
+[ID_CHALLENGES_REROLL_DESCRIPTION]
+Are you sure you want to replace "{0}" with a random new one?
+
+[ID_CHALLENGES_REROLL_TITLE]
+Confirm reroll
+
+[ID_CHALLENGES_WEEKLY_TASKS]
+Weekly Feats
+
+[ST_BATTLEPASS_MILESTONE_DESCRIPTION]
+Complete multiple Feats daily to earn extra Cred!
+
+[ST_BATTLEPASS_MILESTONE_DESCRIPTION_MULTIPLE]
+Complete {0} Feats
+
+[ST_BATTLEPASS_MILESTONE_DESCRIPTION_SINGLE]
+Complete {0} Challenge

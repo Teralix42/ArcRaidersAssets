@@ -1,0 +1,8 @@
+ARC Raiders 2.0.0 — English
+ST_Inbox_RichTextFormats
+
+[ID_INBOX_RTF_PREVIEW_TITLE]
+{0}
+
+[ID_INBOX_RTF_PREVIEW_TITLE_WITH_GIFT]
+<img id="Inbox_Gift"/> {0}

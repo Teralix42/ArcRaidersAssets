@@ -1,0 +1,72 @@
+ARC Raiders 2.0.0 — English
+ST_Shared_Errors
+
+[ID_ERROR_ACCOUNT_SUSPENDED]
+Your account is restricted. For more information, please contact customer support.
+
+[ID_ERROR_BACKEND_OVER_CAPACITY]
+Unable to login. Our servers are currently at capacity. Please try again later.
+
+[ID_ERROR_CLIENT_OUTDATED]
+You have an outdated game client
+
+[ID_ERROR_CLIENT_PLEASE_RESTART]
+Please restart to update.
+
+[ID_ERROR_CONNECTION_FAILED]
+Connection failed
+
+[ID_ERROR_DISCONNECT_SERVER]
+You have been disconnected from the game server.
+
+[ID_ERROR_ERROR_CODE]
+Error code: {0}
+
+[ID_ERROR_LOGIN_FAILED]
+Your login attempt failed. Please try again.
+
+[ID_ERROR_LOGIN_TIMED_OUT]
+Your login attempt timed out. Please try again.
+
+[ID_ERROR_MM_CANCELLED_PARTY]
+Matchmaking was canceled by {0}.
+
+[ID_ERROR_MM_CANCELLED_PARTY_GENERIC]
+Matchmaking was canceled.
+
+[ID_ERROR_MM_PARTY_NOT_READY]
+Some party members are not ready to play:\
+{0}
+
+[ID_ERROR_MM_PARTY_NOT_READY_GENERIC]
+Some party members are not ready to play.
+
+[ID_ERROR_MM_PARTY_TOO_LARGE]
+The party size is too large for the selected game mode.
+
+[ID_ERROR_PRELOADING_SHADERS_BUTTON_CANCEL]
+Cancel
+
+[ID_ERROR_PRELOADING_SHADERS_BUTTON_FINISH]
+Finish Loading
+
+[ID_ERROR_PRELOADING_SHADERS_BUTTON_PLAY]
+Play
+
+[ID_ERROR_PRELOADING_SHADERS_BUTTON_PLAY_ANYWAY]
+Play Anyway
+
+[ID_ERROR_PRELOADING_SHADERS_COUNTDOWN]
+Preloading shaders: 100% (closing in {0}...)
+
+[ID_ERROR_PRELOADING_SHADERS_IN_PROGRESS]
+Playing without completing may cause performance issues in game. Do you still wish to continue?
+
+[ID_ERROR_PRELOADING_SHADERS_PERCENTAGE]
+Preloading shaders: {0}%
+
+[ID_ERROR_PRELOADING_SHADERS_WARNING]
+Preloading Shaders Warning
+
+[ID_ERROR_SYSTEM_INTEGRITY]
+System Integrity Violation

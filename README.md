@@ -1,14 +1,16 @@
-### [This fork is not maintained by AstroVal0 or Silarious]
+### [This fork is no longer maintained by AstroVal0 or Silarious]
  - Main contributors
 	- [Teralix](https://github.com/Teralix42)
-	- AstroVal0
   	- [Silarious](https://watch.silarious.online)
+	- [AstroVal0](https://github.com/Astroval0)
 	
-Objects folder is all AstroVal0's work, for all uses of those assets please credit AstroVal0.
+Objects folder is all Astroval0's work, for all uses of those assets please credit Astroval0.
 
 The .blend files have packed textures and are for versions 5.0 and above, There may be issues opening them on lower versions.
 
 The goal is to have easy accessible assets for anyone to use.
+
+### Last updated item images from 2.0.2
 
 ## NINJA RIPPER METHODE OUTDATED. USE [FMODEL](https://fmodel.app/) ON GAME PAKS USING [LATEST USMAP](Mappings/)
 

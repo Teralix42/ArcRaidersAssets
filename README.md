@@ -4,11 +4,11 @@
   	- [Silarious](https://watch.silarious.online)
 	- [AstroVal0](https://github.com/Astroval0)
 	
-Objects folder is all Astroval0's work, for all uses of those assets please credit Astroval0.
+Objects folder is my own work now, for all uses of those assets please credit Teralix42.
 
 The .blend files have packed textures and are for versions 5.0 and above, There may be issues opening them on lower versions.
 
-The goal is to have easy accessible assets for anyone to use.
+The goal is to have easy accessible ARC Raiders assets for anyone to use.
 
 ### Last updated item images from 2.1.0
 

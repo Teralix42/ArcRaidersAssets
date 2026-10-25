@@ -1,5 +1,6 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_Inventory
+Source build: CL1430164-EACF9E43-BK4884
 
 [ID_INVENTORY_AMPLIFICATION_CONFIRMATION_BODY]
 Weapon amplifications are permanent - they cannot be reversed.

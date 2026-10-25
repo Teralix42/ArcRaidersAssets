@@ -1,5 +1,6 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_ClanManageTab
+Source build: CL1430164-EACF9E43-BK4884
 
 [ID_CLAN_MANAGE_KICK_DESCRIPTION]
 Are you sure you want to kick {0} from the Clan?

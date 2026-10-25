@@ -1,5 +1,6 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_ItemDescriptions_UseIndicators
+Source build: CL1430164-EACF9E43-BK4884
 
 [ID_ITEMDESCRIPTIONS_USEINDICATORS_ADVANCED_ARC_POWERCELL_DESCRIPTION]
 Very valuable resource that drops from certain ARC enemies.

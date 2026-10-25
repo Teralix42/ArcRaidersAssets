@@ -1,4 +1,4 @@
-ARC Raiders 2.0.0 — Lance
+ARC Raiders 2.2.0 — Lance
 
 [ST_VoiceLines/000D3669490140CA62671AB2CDE292DC]
 Back again?
@@ -1555,7 +1555,6 @@ Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Di
 [ST_VoiceLines/E4B2CD65480A15095F4308A439C79162]
 I’ll need intrepid friends like yourself, who can get me the finest medical goods Topside has to offer. Whether you want to hang them on the inside of a trench coat, is your call to make.
 Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LootMedicalAreas_Accepted_1489.uasset
-Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Sounds/Voice_FrontEnd.uasset
 
 [ST_VoiceLines/E55644C3409DFD3602349AB1A9AAF337]
 Oh! Lance approves! Nice work. Take this.

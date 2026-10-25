@@ -1,5 +1,6 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_ItemDescriptions_Augments_Effects
+Source build: CL1430164-EACF9E43-BK4884
 
 [ID_ITEMDESC_AUGMENTEFFECTS_ANTITICKFIELD]
 Automatically throws off attached Ticks after {0}s.

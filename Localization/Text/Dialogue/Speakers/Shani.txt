@@ -1,4 +1,4 @@
-ARC Raiders 2.0.0 — Shani
+ARC Raiders 2.2.0 — Shani
 
 [ST_VoiceLines/000D3669490140CA62671AB2CDE292DC]
 Back again?
@@ -1717,7 +1717,6 @@ Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani
 [ST_VoiceLines/B33C753A4FE88BA49941C9B9741CDE81]
 The equipment in Control Tower A-6 is some of the most advanced I have at my disposal. I can’t afford having a gap in my data, especially while ARC clearly has something brewing.
 Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_ControlTowerConnection_rec_8415.uasset
-Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Sounds/Voice_TraderRadio.uasset
 
 [ST_VoiceLines/B3E52B964C79BD65C3A0FABB795F5EC1]
 I should get a better chair, I think.

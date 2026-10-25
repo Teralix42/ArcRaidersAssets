@@ -1,5 +1,6 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_ItemDescriptions_AscendedUpgrades
+Source build: CL1430164-EACF9E43-BK4884
 
 [ST_ITEMDESC_ACSENDEDUPGRADE_ANTISHIELD]
 Redistributes damage to prioritize breaking shields faster.

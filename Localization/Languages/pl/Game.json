@@ -10611,7 +10611,9 @@
     "ID_TIME_DAY_HOURS": "{0} d. {1} godz.",
     "ID_TIME_H": "{0} godz.",
     "ID_TIME_HOURS_MINUTES": "{0} godz. {1} min",
-    "ID_TIME_M": "{0} min"
+    "ID_TIME_M": "{0} min",
+    "ID_TIME_LEFT": "{0} left",
+    "ID_TIME_DAYS_TEXT": "{0}|plural(zero=dni, one=dzień, few=dni, many=dni, other=dni)"
   },
   "ST_Trades": {
     "ID_TRADES_MESSAGE_EMPTY_STOCK_ALT2": "Wszystko sprzedane",
@@ -14234,7 +14236,8 @@
     "LighthouseNotInstalled": "Wymagana usługa Lighthouse nie jest zainstalowana.",
     "GpuProfile": "Wykryto nieuczciwe modyfikacje profilu karty graficznej.",
     "NoHVCI": "Wymagane jest włączenie opcji HVCI nazywanej w ustawieniach bezpieczeństwa systemu Windows „Integralnością pamięci” lub „Izolacją rdzenia”.",
-    "NoSecureBoot": "Wymagane jest włączenie funkcji Bezpieczny rozruch oraz TPM 2.0. Więcej informacji można znaleźć w sekcji często zadawanych pytań."
+    "NoSecureBoot": "Wymagane jest włączenie funkcji Bezpieczny rozruch oraz TPM 2.0. Więcej informacji można znaleźć w sekcji często zadawanych pytań.",
+    "NoSecureBootHeader": "Secure Boot / TPM 2.0"
   },
   "ST_ItemNames_Research_AscendedUpgrades": {
     "ST_ITEMNAME_RESEARCH_ASCENDEDUPGRADES_STRAIGHTBOLT": "Oszczędność działania",
@@ -14430,7 +14433,10 @@
     "ID_OPTION_CONTROLLER_GYRO_HEADER_ZOOM": "Przycelowanie",
     "ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO_SONY_CERT": "Wpływ w momencie przycelowania",
     "ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO": "Wpływ na żyroskop w momencie przycelowania",
-    "ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_SONY_CERT": "Mnożnik czułości podczas celowania"
+    "ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_SONY_CERT": "Mnożnik czułości podczas celowania",
+    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK": "Flick Stick",
+    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SONY_CERT": "Flick Stick",
+    "ID_OPTION_CONTROLLER_GYRO_HEADER_FLICK_STICK": "Flick Stick"
   },
   "ST_StashProgression": {
     "ID_STASHPROGRESSION_BUTTON_ADD_TO_VAULT": "Dodaj do skarbca",
@@ -14497,7 +14503,8 @@
     "ID_REGION_EUROPE": "Europa",
     "ID_REGION_JAPAN": "Japonia",
     "ID_REGION_NORTH_AMERICA": "Ameryka Północna",
-    "ID_REGION_BRAZIL": "Ameryka Południowa"
+    "ID_REGION_BRAZIL": "Ameryka Południowa",
+    "ID_REGION_OCEANIA": "Oceania"
   },
   "ST_Outpost_Furniture": {
     "ID_OUTPOST_FURNITURE_ALPINEWARDROBE_01": "Alpejska szafa",
@@ -14803,11 +14810,11 @@
   },
   "ST_ScalabilityQualityLevels": {
     "ID_QUALITY_LEVEL_CINAMETIC": "Przerywnik filmowy",
-    "ID_QUALITY_LEVEL_CUSTOM": "Niestandardowa",
+    "ID_QUALITY_LEVEL_CUSTOM": "Niestandardowe",
     "ID_QUALITY_LEVEL_EPIC": "Epicka",
     "ID_QUALITY_LEVEL_HIGH": "Wysoka",
     "ID_QUALITY_LEVEL_LOW": "Niska",
-    "ID_QUALITY_LEVEL_MEDIUM": "Średnia",
+    "ID_QUALITY_LEVEL_MEDIUM": "Średnie",
     "ID_QUALITY_LEVEL_OFF": "Wył."
   },
   "ST_RaiderVoice": {
@@ -15231,7 +15238,27 @@
     "ID_FORMAT_DISTANCE_IN_METERS": "{0} m",
     "ID_FORMAT_SHORT_HOURS": "{0}g",
     "ID_FORMAT_SHORT_MONTHS": "{0} mies.",
-    "ID_FORMAT_SHORT_WEEKS": "{0}t"
+    "ID_FORMAT_SHORT_WEEKS": "{0}t",
+    "ID_FORMAT_DOLLAR_VALUE": "${0}",
+    "ID_FORMAT_PLUS_NUMBER": "+ {0}",
+    "ID_FORMAT_ADD_DOLLAR_VALUE": "+${0}",
+    "ID_FORMAT_PLUS_NUMBER_CURRENCY": "+{0} {1}",
+    "ID_FORMAT_SLASH_PREFIX": "/{0}",
+    "ID_FORMAT_KEYBOARD_INPUT_KEY": "[{0}]",
+    "ID_FORMAT_PLUS_TEXT_JOINER": "{0} + {1}",
+    "ID_FORMAT_DASH_TEXT_JOINER": "{0} - {1}",
+    "ID_FORMAT_SLASH_DIVIDER": "{0} / {1}",
+    "ID_FORMAT_VERSUS_SHORT": "{0} vs {1}",
+    "ID_FORMAT_NUMBER_CURRENCYNAME": "{0} {1}",
+    "ID_FORMAT_PERCENTAGE": "{0}%",
+    "ID_FORMAT_BRACE_TEXT_JOINER": "{0}({1})",
+    "ID_FORMAT_COMMA_TEXT_JOINER": "{0}, {1}",
+    "ID_FORMAT_ELLIPSIS": "{0}...",
+    "ID_FORMAT_SLASH_SUFFIX": "{0}/",
+    "ID_FORMAT_RATIO_BETWEEN_NUMBERS": "{0}/{1}",
+    "ID_FORMAT_TEXT_LINE_BREAK": "{0}\\n{1}",
+    "ID_FORMAT_SHORT_DAYS": "{0}d",
+    "ID_FORMATS_NUMBER_MILLIONS": "{0}m"
   },
   "ST_WeaponStencils": {
     "ID_CUSTOMIZATION_STENCIL_DESCRIPTION": "Świeże, nowe malowanie",
@@ -15447,7 +15474,21 @@
     "ID_SHARED_VIDEO_OPTION_VIGNETTE": "Winietowanie",
     "ID_SHARED_VIDEO_OPTION_MOTION_BLUR_MODE_WEAPONONLY": "Tylko broń",
     "ID_SHARED_VIDEO_OPTION_WINDOW_MODE": "Tryb okna",
-    "ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED": "W oknie"
+    "ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED": "W oknie",
+    "ID_SHARED_VIDEO_OPTION_AMD_ANTILAG2": "AMD Anti-Lag 2",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_FSR": "AMD FSR",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_CNN": "CNN",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA_WITHOUT_NVIDIA": "DLAA",
+    "ID_SHARED_VIDEO_OPTION_DIRECTX_11": "DirectX 11",
+    "ID_SHARED_VIDEO_OPTION_DIRECTX_12": "DirectX 12",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_XESS": "Intel XeSS",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA": "NVIDIA DLAA",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS": "NVIDIA DLSS",
+    "ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_METHOD_RTXGI": "NVIDIA RTXGI",
+    "ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_FRAME_WARP": "NVIDIA Reflex Frame Warp",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TAAU": "TAAU",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TSR": "TSR",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_TRANSFORMER": "Transformer"
   },
   "ST_ItemSkins": {
     "ID_ITEMSKINS_APPLY_STENCIL": "Zastosuj",

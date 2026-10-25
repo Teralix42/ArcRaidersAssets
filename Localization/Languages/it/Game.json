@@ -10596,7 +10596,9 @@
     "ID_TIME_DAY_HOURS": "{0}g:{1}h",
     "ID_TIME_H": "{0}h",
     "ID_TIME_HOURS_MINUTES": "{0}h:{1}m",
-    "ID_TIME_M": "{0}m"
+    "ID_TIME_M": "{0}m",
+    "ID_TIME_LEFT": "{0} left",
+    "ID_TIME_DAYS_TEXT": "{0}|plural(zero=giorno, one=giorno, few=giorni, many=giorni, other=giorni)"
   },
   "ST_Trades": {
     "ID_TRADES_MESSAGE_EMPTY_STOCK_ALT2": "Tutto finito",
@@ -14219,7 +14221,8 @@
     "LighthouseNotInstalled": "Il servizio lighthouse richiesto non è installato.",
     "GpuProfile": "Sono state rilevate modifiche disoneste al profilo della GPU.",
     "NoHVCI": "È necessario abilitare l'HVCI, a cui si fa riferimento come \"Integrità della memoria\" sotto \"Isolamento core\" nelle impostazioni di Sicurezza di Windows.",
-    "NoSecureBoot": "È necessario abilitare SecureBoot e TPM2.0. Per maggiori informazioni, consulta le nostre domande frequenti."
+    "NoSecureBoot": "È necessario abilitare SecureBoot e TPM2.0. Per maggiori informazioni, consulta le nostre domande frequenti.",
+    "NoSecureBootHeader": "Secure Boot / TPM 2.0"
   },
   "ST_ItemNames_Research_AscendedUpgrades": {
     "ST_ITEMNAME_RESEARCH_ASCENDEDUPGRADES_STRAIGHTBOLT": "Economia delle azioni",
@@ -14416,7 +14419,9 @@
     "ID_OPTION_CONTROLLER_WORLD": "Mondo",
     "ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO_SONY_CERT": "Effetto input zoom",
     "ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO": "Effetto input zoom su giroscopio",
-    "ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_SONY_CERT": "Moltiplicatore sensibilità zoom"
+    "ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_SONY_CERT": "Moltiplicatore sensibilità zoom",
+    "ID_OPTION_CONTROLLER_GYRO_HEADER_SMOOTHING": "Smoothing",
+    "ID_OPTION_CONTROLLER_GYRO_HEADER_ZOOM": "Zoom"
   },
   "ST_StashProgression": {
     "ID_STASHPROGRESSION_BUTTON_ADD_TO_VAULT": "Aggiungi al caveau",
@@ -14482,7 +14487,9 @@
     "ID_REGION_EUROPE": "Europa",
     "ID_REGION_JAPAN": "Giappone",
     "ID_REGION_NORTH_AMERICA": "Nord America",
-    "ID_REGION_BRAZIL": "Sud America"
+    "ID_REGION_BRAZIL": "Sud America",
+    "ID_REGION_ASIA": "Asia",
+    "ID_REGION_OCEANIA": "Oceania"
   },
   "ST_Outpost_Furniture": {
     "ID_OUTPOST_FURNITURE_ALPINEWARDROBE_01": "Guardaroba alpino",
@@ -15226,7 +15233,31 @@
     "ID_FORMAT_DAYS_HOURS_MINUTES_SECONDS": "{0} {0}|plural(zero=giorno, one=giorno, few=giorni, many=giorni, other=giorni), {1} {1}|plural(zero=ora, one=ora, few=ore, many=ore, other=ore), {2} {2}|plural(zero=minuto, one=minuto, few=minuti, many=minuti, other=minuti), {3} {3}|plural(zero=secondo, one=secondo, few=secondi, many=secondi, other=secondi)",
     "ID_FORMAT_DISTANCE_IN_METERS": "{0} m",
     "ID_FORMAT_SHORT_DAYS": "{0}g",
-    "ID_FORMAT_SHORT_WEEKS": "{0}sm"
+    "ID_FORMAT_SHORT_WEEKS": "{0}sm",
+    "ID_FORMAT_DOLLAR_VALUE": "${0}",
+    "ID_FORMAT_DOLLAR_VALUE_THOUSANDS": "${0}k",
+    "ID_FORMAT_PLUS_NUMBER": "+ {0}",
+    "ID_FORMAT_ADD_DOLLAR_VALUE": "+${0}",
+    "ID_FORMAT_ADD_DOLLAR_VALUE_THOUSANDS": "+${0}k",
+    "ID_FORMAT_PLUS_NUMBER_CURRENCY": "+{0} {1}",
+    "ID_FORMAT_ADD_VALUE_THOUSANDS": "+{0}k",
+    "ID_FORMAT_SLASH_PREFIX": "/{0}",
+    "ID_FORMAT_KEYBOARD_INPUT_KEY": "[{0}]",
+    "ID_FORMAT_PLUS_TEXT_JOINER": "{0} + {1}",
+    "ID_FORMAT_DASH_TEXT_JOINER": "{0} - {1}",
+    "ID_FORMAT_SLASH_DIVIDER": "{0} / {1}",
+    "ID_FORMAT_VERSUS_SHORT": "{0} vs {1}",
+    "ID_FORMAT_NUMBER_CURRENCYNAME": "{0} {1}",
+    "ID_FORMAT_PERCENTAGE": "{0}%",
+    "ID_FORMAT_BRACE_TEXT_JOINER": "{0}({1})",
+    "ID_FORMAT_COMMA_TEXT_JOINER": "{0}, {1}",
+    "ID_FORMAT_ELLIPSIS": "{0}...",
+    "ID_FORMAT_SLASH_SUFFIX": "{0}/",
+    "ID_FORMAT_RATIO_BETWEEN_NUMBERS": "{0}/{1}",
+    "ID_FORMAT_TEXT_LINE_BREAK": "{0}\\n{1}",
+    "ID_FORMAT_SHORT_HOURS": "{0}h",
+    "ID_FORMATS_NUMBER_MILLIONS": "{0}m",
+    "ID_FORMAT_SHORT_MONTHS": "{0}m"
   },
   "ST_WeaponStencils": {
     "ID_CUSTOMIZATION_STENCIL_DESCRIPTION": "Una nuova mano di vernice",
@@ -15263,7 +15294,9 @@
     "ID_SHARED_OPTION_STEREO": "Stereo/Cuffie",
     "ID_SHARED_OPTION_DEFAULT": "Predefinito di sistema",
     "ID_SHARED_OPTION_VOICECHAT_TOGGLE_TOGGLETOTALK": "Attiva/disattiva per parlare",
-    "ID_SHARED_OPTION_WILL_OVERRIDE": "Sovrascriverà {0}"
+    "ID_SHARED_OPTION_WILL_OVERRIDE": "Sovrascriverà {0}",
+    "ID_SHARED_OPTION_SERVER": "Server",
+    "ID_SHARED_OPTION_SQUAD": "Squadra"
   },
   "ST_Shared_VideoOptions": {
     "ID_SHARED_VIDEO_OPTION_CONSOLE_120HZ_MODE": "Modalità 120 Hz",
@@ -15429,7 +15462,32 @@
     "ID_SHARED_VIDEO_OPTION_VIGNETTE": "Vignettatura",
     "ID_SHARED_VIDEO_OPTION_MOTION_BLUR_MODE_WEAPONONLY": "Solo arma",
     "ID_SHARED_VIDEO_OPTION_WINDOW_MODE": "Modalità finestra",
-    "ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED": "Finestra"
+    "ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED": "Finestra",
+    "ID_SHARED_VIDEO_OPTION_AMD_ANTILAG2": "AMD Anti-Lag 2",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_FSR": "AMD FSR",
+    "ID_SHARED_VIDEO_OPTION_FSR_FRAME_GENERATION": "AMD FSR Frame Generation",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE_MODE_AUTO": "Auto",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_AUTO": "Auto",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_CNN": "CNN",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA_WITHOUT_NVIDIA": "DLAA",
+    "ID_SHARED_VIDEO_OPTION_DIRECTX_11": "DirectX 11",
+    "ID_SHARED_VIDEO_OPTION_DIRECTX_12": "DirectX 12",
+    "ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_FPS": "FPS",
+    "ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_FRAME_TIME_GPU": "GPU (ms)",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_XESS": "Intel XeSS",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA": "NVIDIA DLAA",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS": "NVIDIA DLSS",
+    "ID_SHARED_VIDEO_OPTION_RTXGI": "NVIDIA RTX Global Illumination",
+    "ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_METHOD_RTXGI": "NVIDIA RTXGI",
+    "ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_FRAME_WARP": "NVIDIA Reflex Frame Warp",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_NATIVE_AA": "Native AA",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_NOAA": "No AA",
+    "ID_SHARED_VIDEO_OPTION_SHADING": "Shading",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TAAU": "TAAU",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TSR": "TSR",
+    "ID_SHARED_VIDEO_OPTION_TEXTURE": "Texture",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_TRANSFORMER": "Transformer",
+    "ID_SHARED_VIDEO_OPTION_TITLE_VIDEO": "Video"
   },
   "ST_ItemSkins": {
     "ID_ITEMSKINS_APPLY_STENCIL": "Applica",

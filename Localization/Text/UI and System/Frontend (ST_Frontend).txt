@@ -1,5 +1,6 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_Frontend
+Source build: CL1430164-EACF9E43-BK4884
 
 [ID_FRONTEND_ACTIONS_DETACH_MODS]
 Detach Mods
@@ -912,3 +913,8 @@ Week ends in
 
 [ID_MASTERY_YOUR_BEST_SCORE]
 Your best score
+
+Historical entries retained from earlier exports (not present in current native sources):
+
+[ID_PLATFORM_NEXON_PCCAFE_BENEFITS]
+PC CAFE BENEFITS

@@ -1,5 +1,6 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_Time
+Source build: CL1430164-EACF9E43-BK4884
 
 [FORMAT_DAYS]
 {0} {0}|plural(one=day,other=days)
@@ -34,6 +35,9 @@ ST_Time
 [ID_TIME_DAYS]
 {0} days
 
+[ID_TIME_DAYS_TEXT]
+{0}|plural(zero=day, one=day, few=days, many=days, other=days)
+
 [ID_TIME_DAY_HOURS]
 {0}d:{1}h
 
@@ -63,6 +67,9 @@ Ends tomorrow
 
 [ID_TIME_HOURS_MINUTES]
 {0}h:{1}m
+
+[ID_TIME_LEFT]
+{0} left
 
 [ID_TIME_LESS_M]
 < 1m

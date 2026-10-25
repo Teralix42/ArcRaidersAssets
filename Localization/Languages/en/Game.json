@@ -10961,7 +10961,9 @@
     "ID_TIME_DAY_HOURS": "{0}d:{1}h",
     "ID_TIME_H": "{0}h",
     "ID_TIME_HOURS_MINUTES": "{0}h:{1}m",
-    "ID_TIME_M": "{0}m"
+    "ID_TIME_M": "{0}m",
+    "ID_TIME_LEFT": "{0} left",
+    "ID_TIME_DAYS_TEXT": "{0}|plural(zero=day, one=day, few=days, many=days, other=days)"
   },
   "ST_Trades": {
     "ID_TRADES_MESSAGE_EMPTY_STOCK_ALT2": "All gone",
@@ -15603,7 +15605,9 @@
     "ID_FORMAT_SHORT_DAYS": "{0}d",
     "ID_FORMAT_SHORT_HOURS": "{0}h",
     "ID_FORMAT_SHORT_MONTHS": "{0}m",
-    "ID_FORMAT_SHORT_WEEKS": "{0}w"
+    "ID_FORMAT_SHORT_WEEKS": "{0}w",
+    "ID_FORMAT_SLASH_DIVIDER": "{0} / {1}",
+    "ID_FORMATS_NUMBER_MILLIONS": "{0}m"
   },
   "ST_WeaponStencils": {
     "ID_CUSTOMIZATION_STENCIL_DESCRIPTION": "A fresh new coat of paint",

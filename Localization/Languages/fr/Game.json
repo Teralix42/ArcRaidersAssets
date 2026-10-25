@@ -10611,7 +10611,9 @@
     "ID_TIME_DAY_HOURS": "{0} j {1} h",
     "ID_TIME_H": "{0} h",
     "ID_TIME_HOURS_MINUTES": "{0} h {1} min",
-    "ID_TIME_M": "{0} min"
+    "ID_TIME_M": "{0} min",
+    "ID_TIME_LEFT": "{0} left",
+    "ID_TIME_DAYS_TEXT": "{0}|plural(zero=jour, one=jour, few=jours, many=jours, other=jours)"
   },
   "ST_Trades": {
     "ID_TRADES_MESSAGE_EMPTY_STOCK_ALT2": "Épuisé",
@@ -14349,7 +14351,7 @@
     "ID_OPTION_CONTROLLER_GYRO_INVERT_ROLL_INPUT_DESCRIPTION_SONY_CERT": "Inverse la commande de rotation de façon à ce qu'une rotation vers la droite vous fasse tourner vers la gauche, et inversement.",
     "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_FLICK_DESCRIPTION": "Inverse la fonction Flick Stick de façon à pivoter dans le sens opposé à celui du joystick.",
     "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_FLICK_DESCRIPTION_SONY_CERT": "Inverse la fonction Flick Stick de façon à pivoter dans le sens opposé à celui du joystick.",
-    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_TURN_DESCRIPTION": "Inverse la fonction de rotation de façon à ce que le fait de tourner le stick analogique dans le sens horaire vous fasse pivoter vers la gauche au lieu de la droite.",
+    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_TURN_DESCRIPTION": "Inverse la fonction de rotation de façon à ce que le fait de tourner le joystick dans le sens horaire vous fasse pivoter vers la gauche au lieu de la droite.",
     "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_INVERT_TURN_DESCRIPTION_SONY_CERT": "Inverse la fonction de rotation de façon à ce que le fait de tourner le joystick dans le sens horaire vous fasse pivoter vers la gauche au lieu de la droite.",
     "ID_OPTION_CONTROLLER_GYRO_INVERT_VERTICAL_INPUT_DESCRIPTION": "Inverse la commande verticale du gyroscope afin que vous regardiez en haut en orientant vers le bas et inversement.",
     "ID_OPTION_CONTROLLER_GYRO_INVERT_VERTICAL_INPUT_DESCRIPTION_SONY_CERT": "Inverse la commande verticale du détecteur de mouvements afin que vous regardiez en haut en orientant vers le bas et inversement.",
@@ -14373,7 +14375,7 @@
     "ID_OPTION_CONTROLLER_SCALE_GYRO": "Étalonner",
     "ID_OPTION_CONTROLLER_GYRO_FOV_SCALING_DESCRIPTION": "Ajuste la sensibilité du gyroscope en fonction du champ de vision de façon à ce que le réticule bouge du même nombre de pixels à tous les niveaux de zoom.",
     "ID_OPTION_CONTROLLER_GYRO_FOV_SCALING_DESCRIPTION_SONY_CERT": "Ajuste la sensibilité en fonction du champ de vision de façon à ce que le réticule bouge du même nombre de pixels à tous les niveaux de zoom.",
-    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_SENSITIVITY_DESCRIPTION": "Ajuste la sensibilité de rotation lors du réglage avec le stick analogique sur le bord extérieur. La valeur par défaut correspond au mouvement du stick analogique.",
+    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_SENSITIVITY_DESCRIPTION": "Ajuste la sensibilité de rotation lors du réglage avec le joystick sur le bord extérieur. La valeur par défaut correspond au mouvement du joystick.",
     "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_TURN_SENSITIVITY_DESCRIPTION_SONY_CERT": "Ajuste la sensibilité de rotation lors du réglage avec le joystick sur le bord extérieur. La valeur par défaut correspond au mouvement du joystick.",
     "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_FOV_SCALING_DESCRIPTION": "Ajuste la sensibilité de rotation en fonction du champ de vision de façon à ce que le réticule bouge du même nombre de pixels à tous les niveaux de zoom.",
     "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_FOV_SCALING_DESCRIPTION_SONY_CERT": "Ajuste la sensibilité de rotation en fonction du champ de vision de façon à ce que le réticule bouge du même nombre de pixels à tous les niveaux de zoom.",
@@ -14412,7 +14414,7 @@
     "ID_OPTION_CONTROLLER_GYRO_SENSITIVITY_VERTICAL_SONY_CERT": "Sensibilité verticale",
     "ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_ABSOLUTE_SONY_CERT": "Sensibilité verticale absolue",
     "ID_OPTION_CONTROLLER_GYRO_VERTICAL_SENSITIVITY_MODE_SONY_CERT": "Mode de sensibilité verticale",
-    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SMOOTH_THRESHOLD_DESCRIPTION": "Lors du réglage avec le stick analogique sur le bord extérieur, la commande sous ce seuil est calculée en moyenne pour plus de lissage et un jitter réduit.",
+    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SMOOTH_THRESHOLD_DESCRIPTION": "Lors du réglage avec le joystick sur le bord extérieur, la commande sous ce seuil est calculée en moyenne pour plus de lissage et un jitter réduit.",
     "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SMOOTH_THRESHOLD_DESCRIPTION_SONY_CERT": "Lors du réglage avec le joystick sur le bord extérieur, la commande sous ce seuil est calculée en moyenne pour plus de lissage et un jitter réduit.",
     "ID_OPTION_CONTROLLER_GYRO_AIMING_DESCRIPTION": "Si elle est activée, vous pouvez regarder autour de vous en faisant pivoter la manette.",
     "ID_OPTION_CONTROLLER_GYRO_AIMING_DESCRIPTION_SONY_CERT": "Si elle est activée, vous pouvez regarder autour de vous en faisant pivoter la manette.",
@@ -14424,7 +14426,17 @@
     "ID_OPTION_CONTROLLER_WORLD": "Monde",
     "ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO_SONY_CERT": "Effet commande zoom",
     "ID_OPTION_CONTROLLER_ZOOM_INPUT_EFFECT_ON_GYRO": "Effet du gyroscope sur la visée",
-    "ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_SONY_CERT": "Multiplicateur sensibilité zoom"
+    "ID_OPTION_CONTROLLER_GYRO_ZOOM_SENSITIVITY_MULTIPLIER_SONY_CERT": "Multiplicateur sensibilité zoom",
+    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK": "Flick Stick",
+    "ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_SONY_CERT": "Flick Stick",
+    "ID_OPTION_CONTROLLER_GYRO_HEADER_FLICK_STICK": "Flick Stick",
+    "ID_OPTION_CONTROLLER_LOCAL": "Local",
+    "ID_OPTION_CONTROLLER_GYRO_ACCELERATION_HORIZONTAL_MIN_SENSITIVITY_DESCRIPTION": "Min Sens",
+    "ID_OPTION_CONTROLLER_GYRO_ACCELERATION_VERTICAL_MIN_SENSITIVITY_DESCRIPTION": "Min v Sens",
+    "ID_OPTION_CONTROLLER_GYRO_HEADER_MODE": "Mode",
+    "ID_OPTION_CONTROLLER_GYRO_ORIENTIATION_SONY_CERT": "Orientation",
+    "ID_OPTION_CONTROLLER_RATIO": "Ratio",
+    "ID_OPTION_CONTROLLER_GYRO_HEADER_ZOOM": "Zoom"
   },
   "ST_StashProgression": {
     "ID_STASHPROGRESSION_BUTTON_ADD_TO_VAULT": "Ajouter au coffre",
@@ -14491,7 +14503,8 @@
     "ID_REGION_JAPAN": "Japon",
     "ID_REGION_NORTH_AMERICA": "Amérique du Nord",
     "ID_REGION_OCEANIA": "Océanie",
-    "ID_REGION_BRAZIL": "Amérique du Sud"
+    "ID_REGION_BRAZIL": "Amérique du Sud",
+    "ID_REGION_EUROPE": "Europe"
   },
   "ST_Outpost_Furniture": {
     "ID_OUTPOST_FURNITURE_ALPINEWARDROBE_01": "Garde-robe alpine",
@@ -14802,7 +14815,7 @@
     "ID_QUALITY_LEVEL_HIGH": "Élevé",
     "ID_QUALITY_LEVEL_LOW": "Bas",
     "ID_QUALITY_LEVEL_MEDIUM": "Moyen",
-    "ID_QUALITY_LEVEL_OFF": "Non"
+    "ID_QUALITY_LEVEL_OFF": "Désactivé"
   },
   "ST_RaiderVoice": {
     "ID_RAIDERVOICE_VOICE01": "1",
@@ -15228,7 +15241,24 @@
     "ID_FORMAT_DISTANCE_IN_METERS": "{0} m",
     "ID_FORMAT_SHORT_DAYS": "{0}j",
     "ID_FORMAT_SHORT_MONTHS": "{0} m",
-    "ID_FORMAT_SHORT_WEEKS": "{0}s"
+    "ID_FORMAT_SHORT_WEEKS": "{0}s",
+    "ID_FORMAT_PLUS_NUMBER": "+ {0}",
+    "ID_FORMAT_PLUS_NUMBER_CURRENCY": "+{0} {1}",
+    "ID_FORMAT_SLASH_PREFIX": "/{0}",
+    "ID_FORMAT_KEYBOARD_INPUT_KEY": "[{0}]",
+    "ID_FORMAT_PLUS_TEXT_JOINER": "{0} + {1}",
+    "ID_FORMAT_DASH_TEXT_JOINER": "{0} - {1}",
+    "ID_FORMAT_SLASH_DIVIDER": "{0} / {1}",
+    "ID_FORMAT_VERSUS_SHORT": "{0} vs {1}",
+    "ID_FORMAT_NUMBER_CURRENCYNAME": "{0} {1}",
+    "ID_FORMAT_BRACE_TEXT_JOINER": "{0}({1})",
+    "ID_FORMAT_COMMA_TEXT_JOINER": "{0}, {1}",
+    "ID_FORMAT_ELLIPSIS": "{0}...",
+    "ID_FORMAT_SLASH_SUFFIX": "{0}/",
+    "ID_FORMAT_RATIO_BETWEEN_NUMBERS": "{0}/{1}",
+    "ID_FORMAT_TEXT_LINE_BREAK": "{0}\\n{1}",
+    "ID_FORMAT_SHORT_HOURS": "{0}h",
+    "ID_FORMATS_NUMBER_MILLIONS": "{0}m"
   },
   "ST_WeaponStencils": {
     "ID_CUSTOMIZATION_STENCIL_DESCRIPTION": "Une nouvelle couche de peinture toute fraîche.",
@@ -15266,7 +15296,8 @@
     "ID_SHARED_OPTION_STEREO": "Stéréo/écouteurs",
     "ID_SHARED_OPTION_DEFAULT": "Paramètres par défaut du système",
     "ID_SHARED_OPTION_VOICECHAT_TOGGLE_TOGGLETOTALK": "Activer/désactiver pour parler",
-    "ID_SHARED_OPTION_WILL_OVERRIDE": "Remplacera {0}"
+    "ID_SHARED_OPTION_WILL_OVERRIDE": "Remplacera {0}",
+    "ID_SHARED_OPTION_VOICE_CHAT_MODE": "Mode"
   },
   "ST_Shared_VideoOptions": {
     "ID_SHARED_VIDEO_OPTION_CONSOLE_120HZ_MODE": "Mode 120 Hz",
@@ -15325,7 +15356,7 @@
     "ID_SHARED_VIDEO_OPTION_EFFECTS": "Effets",
     "ID_SHARED_VIDEO_OPTION_ENABLED": "Activé",
     "ID_SHARED_VIDEO_OPTION_LENS_DISTORTION_TOOLTIP": "Active ou désactive les effets artistiques de distorsion de l'objectif, qui appliquent une légère réfraction vers les bords de l'écran et l'aberration chromatique.",
-    "ID_SHARED_VIDEO_OPTION_LENS_DISTORTION_TOOLTIP_CONSOLE": "Active ou désactive les effets artistiques de distorsion, comme une légère réfraction vers les bords de l'écran et l'aberration chromatique.",
+    "ID_SHARED_VIDEO_OPTION_LENS_DISTORTION_TOOLTIP_CONSOLE": "Active ou désactive les effets artistiques de distorsion de l'objectif, qui appliquent une légère réfraction vers les bords de l'écran et l'aberration chromatique.",
     "ID_SHARED_VIDEO_OPTION_CHROMATIC_ABERRATION_TOOLTIP": "Active ou désactive l'aberration chromatique.",
     "ID_SHARED_VIDEO_OPTION_AIM_DOWN_SIGHT_BLUR_TOOLTIP": "Active ou désactive le flou appliqué à l'arme à la première personne lorsqu'elle s'éloigne du réticule en mode visée avec viseur.",
     "ID_SHARED_VIDEO_OPTION_LENS_FLARES_TOOLTIP": "Active ou désactive le facteur de flare.",
@@ -15439,7 +15470,25 @@
     "ID_SHARED_VIDEO_OPTION_VIEW_DISTANCE": "Distance vision",
     "ID_SHARED_VIDEO_OPTION_MOTION_BLUR_MODE_WEAPONONLY": "Arme uniquement",
     "ID_SHARED_VIDEO_OPTION_WINDOW_MODE": "Mode fenêtre",
-    "ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED": "Fenêtré"
+    "ID_SHARED_VIDEO_OPTION_WINDOW_MODE_WINDOWED": "Fenêtré",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_FSR": "AMD FSR",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALE_MODE_AUTO": "Auto",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_AUTO": "Auto",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_CNN": "CNN",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA_WITHOUT_NVIDIA": "DLAA",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLAA": "NVIDIA DLAA",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS": "NVIDIA DLSS",
+    "ID_SHARED_VIDEO_OPTION_DLSS_FRAME_GENERATION": "NVIDIA DLSS Frame Generation",
+    "ID_SHARED_VIDEO_OPTION_GLOBAL_ILLUMINATION_METHOD_RTXGI": "NVIDIA RTXGI",
+    "ID_SHARED_VIDEO_OPTION_NVIDIA_REFLEX_FRAME_WARP": "NVIDIA Reflex Frame Warp",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_NATIVE_AA": "Native AA",
+    "ID_SHARED_VIDEO_OPTION_PERF_OVERLAY_SIMPLE": "Simple",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TAAU": "TAAU",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_TSR": "TSR",
+    "ID_SHARED_VIDEO_OPTION_TEXTURE": "Texture",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_DLSS_MODEL_TRANSFORMER": "Transformer",
+    "ID_SHARED_VIDEO_OPTION_RESOLUTION_SCALING_ULTRA_QUALITY_PLUS": "Ultra Quality Plus",
+    "ID_SHARED_VIDEO_OPTION_VIGNETTE": "Vignette"
   },
   "ST_ItemSkins": {
     "ID_ITEMSKINS_APPLY_STENCIL": "Appliquer",

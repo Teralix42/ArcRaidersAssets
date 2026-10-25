@@ -1,5 +1,9 @@
-ARC Raiders 2.0.0 — English
+ARC Raiders 2.2.0 — English
 ST_Formats
+Source build: CL1430164-EACF9E43-BK4884
+
+[ID_FORMATS_NUMBER_MILLIONS]
+{0}m
 
 [ID_FORMAT_ADD_DOLLAR_VALUE]
 +${0}
@@ -66,6 +70,9 @@ ${0}k
 
 [ID_FORMAT_SHORT_WEEKS]
 {0}w
+
+[ID_FORMAT_SLASH_DIVIDER]
+{0} / {1}
 
 [ID_FORMAT_SLASH_PREFIX]
 /{0}

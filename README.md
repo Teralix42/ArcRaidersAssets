@@ -18,5 +18,5 @@ The goal is to have easy accessible ARC Raiders assets for anyone to use.
 
 ![Arc Raiders Queen (Peppermint)](Examples/Peppermint_Render.png)
 ![Arc Raiders Leaper (Bullcrab)](Examples/Bullcrab_Render.png)
-![Arc Raiders Firefly Scanning](Examples/firefly_scan.png)
-![Arc Raiders Misthorn Character Outfit Store Image](Images\Store\TheMisthornSet.png)
+![Arc Raiders Firefly Scanning](Examples/firefly_scan.gif)
+![Arc Raiders Misthorn Character Outfit Store Image](Images/Store/TheMisthornSet.png)

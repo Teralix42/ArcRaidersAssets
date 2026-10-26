@@ -1,0 +1,22 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "借助基于 AI 的抗锯齿技术，最大限度地提高画质",
+    "XESS_BALANCED": "平衡",
+    "XESS_BALANCED_DESCRIPTION": "在性能与画质之间实现出色平衡",
+    "XESS_PERFORMANCE_DESCRIPTION": "高性能提升",
+    "XESS_QUALITY_DESCRIPTION": "以高画质放大画面",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "以超高画质放大画面",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "最高性能提升",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "以最高画质放大画面",
+    "XESS_DESCRIPTION_MINIMUM": "英特尔® Xe Super Sampling ( XeSS) 技术利用 AI 来提升性能并确保出色的图像质量。",
+    "XESS_DESCRIPTION_SHORT": "英特尔® Xe Super Sampling ( XeSS) 技术利用 AI 来提升性能并确保出色的图像质量。XeSS 利用了英特尔®锐炫™ GPU 中的硬件加速 AI 单元进行了优化。",
+    "XESS_NATIVE_ANTI_ALIASING": "原生抗锯齿",
+    "XESS_OFF": "关闭",
+    "XESS_PERFORMANCE": "性能",
+    "XESS_QUALITY": "质量",
+    "XESS_OFF_DESCRIPTION": "关闭英特尔® XeSS",
+    "XESS_ULTRA_PERFORMANCE": "超级性能",
+    "XESS_ULTRA_QUALITY": "超高质量",
+    "XESS_ULTRA_QUALITY_PLUS": "超高质量+"
+  }
+}

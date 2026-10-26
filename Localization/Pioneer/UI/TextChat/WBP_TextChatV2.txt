@@ -1,0 +1,6 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/TextChat/WBP_TextChatV2
+
+[[9].Properties.Text]
+<img id="Chat_Party"/><color key="SecondaryMid">Party]</>
+

@@ -1,0 +1,482 @@
+ARC Raiders 2.2.0 — Apollo
+
+[ST_VoiceLines/00E431604AE787823F68CEA027F7CFD4]
+Still on that task?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_d065.uasset
+
+[ST_VoiceLines/01DC8D914551294768E3D58CB90E2CC2]
+Good. Fix the structures scattered around the valley, and we'll all be safer for it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_BlueGateIntroInfrastructure_rec_f348.uasset
+
+[ST_VoiceLines/045BCF524E395881E7DB54BD98BD55BC]
+Yes, this will do! Now, I'd cover my ears, if I were you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_ControlledDemolition_rec_6b87.uasset
+
+[ST_VoiceLines/0857524F47B6D0AC19D7978F87318055]
+Head to Pilgrim’s Peak, and see if you can find any paper trail of that research.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_ReinforceToledoWhiteboard_rec_886a.uasset
+
+[ST_VoiceLines/1062D3EE4B993E1AF14AD888F776192D]
+We need to hold on to hope, no matter what.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ReinforceToledoWhiteboard_Accepted_rec_7bd0.uasset
+
+[ST_VoiceLines/1217EAB54EAE3388064841B156027600]
+Petitioning for a rescue team would take time, but with ARC out there we ain't got any. Especially if there are children involved.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_FindingSurvivorsBuriedCity_Accepted_rec_94fd.uasset
+
+[ST_VoiceLines/121F7159433CC0B33E664A80A039D6F9]
+See if you can get me what I need to set up a proper football league down here. I can't wait to learn how to perform a proper "Red Card".
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_TheLeague_579d.uasset
+
+[ST_VoiceLines/13642EAB409FCF625BAE7A9C7603DACF]
+I heard rumors about some signal Shani picked up. ARC is constantly adapting, and I'm sure this won’t be their last warning sign. Well, if it’s an arms race they want, they can get one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_SafePassage_New_rec_8d92.uasset
+
+[ST_VoiceLines/1501542140FC5234774CADAAC75E2BF5]
+Thank you. I’ll clear everything with Celeste later, just do your best to find them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_FindingSurvivorsBuriedCity_rec_bfef.uasset
+
+[ST_VoiceLines/18FB4B3E4538C61877A86CA5FC57755B]
+It's bad enough when they get near my snacks, but I really don't need them gnawing at my explosives.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_RatInfestation_Accepted_rec_34bb.uasset
+
+[ST_VoiceLines/1A77EA8B459858C003B153968117FE9E]
+Pilgrim’s Peak seems to have been a major hub for Exodus research. It's by the Blue Gate; take this key and go check it out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_ReinforceToledoWhiteboard_rec_bc9e.uasset
+
+[ST_VoiceLines/1AD5722743EB0FBBC4B2F1BC35A07B39]
+Sometimes, the hardest part is getting started.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_8ffe.uasset
+
+[ST_VoiceLines/1B5901D8438386770B34A78410A08C29]
+Take a look around the old town, if you can. Should be plenty of charming trattorias with espresso machines you can... Let's say: borrow from.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_Espresso_rec_cb84.uasset
+
+[ST_VoiceLines/1C873F694CBF6C4FBDB5BCAE61036842]
+Wow, you found outright water distiller blueprints? This is better than I imagined, thanks a lot!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_ApolloWaterFilters_rec_3d74.uasset
+
+[ST_VoiceLines/1DFCB2504A21535F982FB2937A13C76F]
+Perfect. Here's something for your trouble.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_rec_f92a.uasset
+
+[ST_VoiceLines/1E380AB44A22EE90E5CC78AE6898D1A2]
+If you need more grenades, you can always build an Explosives Station in your workshop.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_SafePassage_Accepted_rec_2e1b.uasset
+
+[ST_VoiceLines/1E71CFC0454A7CBE82ABEFB2287ED232]
+Here, take these latest designs. Without those Hornets ruining our day, we’ll stand a much better chance to fend off ARC.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_SnapBlastHornet_rec_fbbe.uasset
+
+[ST_VoiceLines/1FADFA5346A66776E7AEFEB964CE14AE]
+Last I heard he was holed up in an apartment on the west side of Buried City. You’ll spot the birdcages on the roof.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_Birdman_rec_d609.uasset
+
+[ST_VoiceLines/21BAA4D8439F10675FB85BB96B9D2EE7]
+Fantastic. Now I just need to field a team. Actually, make that two.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_TheLeague_rec_ee04.uasset
+
+[ST_VoiceLines/221C9BC5456D4249E9D1C2BF9B6222D5]
+Planning phase. Respect it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_a7d8.uasset
+
+[ST_VoiceLines/23B898194AB4A187434706860A01981D]
+Snap Blasts and Trigger ‘Nades will stick to surfaces, including those pesky Hornets.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_SnapBlastHornet_Accepted_rec_ef74.uasset
+
+[ST_VoiceLines/264942254BFA616F615C649088515E03]
+Forgot what you were doing?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_d06e.uasset
+
+[ST_VoiceLines/28073C1A4AB57967D3E62F8E6FDC765F]
+Here's a list of the items I need. The sooner we're rid of that vermin, the better.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_RatInfestation_rec_0aa0.uasset
+
+[ST_VoiceLines/29B7243B4E0EBEE4BB897DAAB6A04B96]
+You really stuck it to those Hornets, huh? Great stuff—now go spread the word.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_SnapBlastHornet_rec_2d37.uasset
+
+[ST_VoiceLines/2A50D17943EB43C3F152CEA065DFCAE8]
+You’ve got that post-boom confidence. I respect it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_e278.uasset
+
+[ST_VoiceLines/2B39148C48812BBB98B15292D5FBA21B]
+That’s the face of someone who got it done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_04b1.uasset
+
+[ST_VoiceLines/2D27E8A141877B8DE490AC988C6840A9]
+Hey. I could use your help, if you're able? It'll be worth your while.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_New_rec_d53b.uasset
+
+[ST_VoiceLines/2EC43A2D4F3C2553B3C1B3A43F39625E]
+Those Hornet stings can really mess you up, if you’re unlucky. And even if you destroy one, you’re still wasting a ton of ammo. I’ve been working on a more elegant way to bring them down. Care to make some sparks fly?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_SnapBlastHornet_New_rec_ab7b.uasset
+
+[ST_VoiceLines/2F9ACD3046F507D99559C9B523ED0B3B]
+The kids like to kick the casings into the vents as hard as they can, but apparently that’s not how you play football.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_TheLeague_Accepted_01.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_TheLeague_Accepted_rec_1be2.uasset
+
+[ST_VoiceLines/35EADAE34F9AA484B10597A07A650F98]
+We trading stories now, or are you just stalling?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_282a.uasset
+
+[ST_VoiceLines/3A02CEF24456220BC601C8AA5313E73C]
+My friend left Toledo a while back, felt it was too crowded. Moved into the Buried City when the sands started receding—there weren’t as many ARC there, back then.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_Birdman_Accepted_rec_b646.uasset
+
+[ST_VoiceLines/3C7624B343F8A4D7E197239A42239592]
+Did you do the thing?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_cf1e.uasset
+
+[ST_VoiceLines/3CDE397541A2ACC0B6403283DCC52832]
+No progress? No problem.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_c887.uasset
+
+[ST_VoiceLines/3E79072A4078B8846E32F883DD0744F5]
+Thank you, good work. Here's your reward.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_rec_7f89.uasset
+
+[ST_VoiceLines/3F1A069B4B19561D4B90FE9D64EC153E]
+Got something for me? I’ll act surprised.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_7cb7.uasset
+
+[ST_VoiceLines/3FB63DB2403447BCC243AC96367B943C]
+There should be several cafes in both Old Town and the City Center of Buried City. I think they called them trattorias.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_Espresso_Accepted_rec_0fc4.uasset
+
+[ST_VoiceLines/40A6F33D45615825502D48B5240F625B]
+Don't forget to head to the library, Raider; I’ve been dying to read a new detective novel! I’ve read the previous one eight times now, and the butler did it every time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_RareBooks_rec_7d5a.uasset
+
+[ST_VoiceLines/422B84CF4E9E5FF7239325954DA4EDE8]
+Take your time, friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_634e.uasset
+
+[ST_VoiceLines/447C5BCC4AC4145212E2B48CF22748E4]
+We all need a second to think sometimes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_20f3.uasset
+
+[ST_VoiceLines/46D14A9743FB072C7936AD99F8534A42]
+I'd start looking around the industrial areas by the Dam. Get me what I need, and I'll see to those living spaces.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_ControlledDemolition_rec_2da4.uasset
+
+[ST_VoiceLines/4CC8CC844E92F77F905906930702E04B]
+Let me know when you’re ready to blow something up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_e5dc.uasset
+
+[ST_VoiceLines/4D0F95034D7EF9A5D02C0D8A055A7A71]
+I smell success.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_ee06.uasset
+
+[ST_VoiceLines/4D2D39DE4780DFA288966E9D2573527A]
+You walk like someone with results.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_63c3.uasset
+
+[ST_VoiceLines/5125F83A4EE065D15EC4EE908F82994B]
+Look, I know: it’s too crowded. I’m working on freeing up some living space for the new arrivals, but I’ve already run through all my supplies.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ControlledDemolition_New_rec_5a3b.uasset
+
+[ST_VoiceLines/5599D8DC4B3B37649A496398FFD9015C]
+Still thinking it through? I get it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_9333.uasset
+
+[ST_VoiceLines/56DF83F140B5E03537C251BE2E151983]
+I hear Shani sleeps below a reinforced table, these days; if she sleeps at all. We’ll need to reinforce this place, and we’ll need to do it soon.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ReinforceToledoResearch_Accepted_rec_28c2.uasset
+
+[ST_VoiceLines/5B640706461CB871FDCC88975CAFFB84]
+Testing, testing; comms seems to be working! And hey, while you're there: Shani picked up a major rumble near your location. Do you see any sign of a collapse nearby?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_CompleteObjective_Quest_BlueGateIntroInfrastructure_Objective_FixCommsTerminal_rec_6a74.uasset
+
+[ST_VoiceLines/5D585E5349EC0FCA3C798A93F240AEB8]
+The purification system in the Spaceport tunnels could serve as the basis for my designs. Would you monitor it for me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_ApolloWaterFilters_rec_a11d.uasset
+
+[ST_VoiceLines/62180F434A76704D8E68CA8AB9D18D75]
+Our only lead is that a company called ENELICA may have been researching earthquake-resistant housing. They have a few buildings around the Rust Belt; see what you can find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_ReinforceToledoResearch_rec_f064.uasset
+
+[ST_VoiceLines/6546C55740787CC394105F94EF15193E]
+Back already? Or just checking in?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_97ea.uasset
+
+[ST_VoiceLines/65C518E040A99F3C643073B404CC1A43]
+We can't build ARC tech from scratch, but there's plenty I can tinker from the pieces you salvage. I'm currently trying to repurpose different ARC parts. Would you mind running some experiments for me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_FireballBurner_New_rec_8ba4.uasset
+
+[ST_VoiceLines/669B276140BC1554EDCB15BC22D12576]
+All done?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_bee5.uasset
+
+[ST_VoiceLines/69003A074CF4531E603F82A37DAC3636]
+Still working on it, huh?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_8be7.uasset
+
+[ST_VoiceLines/6A0400944314E4F01778678CB64C8E5E]
+I'd start checking the water distillation system in the underground tunnels. Should be a lot to learn there for my own designs.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_ApolloWaterFilters_rec_77e5.uasset
+
+[ST_VoiceLines/6AB6D18843A642DECAE170830A3E58A2]
+Kids around here have been kicking empty grenade casings around. It’s only a matter of time before they’re not so empty. So here’s the plan. You help me with some prep work, and I’ll set up an actual football team for the young ones.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_TheLeague_New_01.uasset
+
+[ST_VoiceLines/6C0854A04D1A598C83AADCB4CDB664F0]
+Come on. Don’t leave me hanging.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_c8a8.uasset
+
+[ST_VoiceLines/6C2C1D7E43F618F00E469ABFBE54CBCA]
+For an entire sector to collapse like that… No wonder people are scared. We need to reinforce beyond anything we’ve done before, and we can’t do it alone.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ReinforceToledoResearch_New_rec_928d.uasset
+
+[ST_VoiceLines/6E71A2244218DA4618153AA3BD5BB2EF]
+Did you check the industrial areas by the Dam, yet? I'll need those supplies to expand our living spaces — there’s an empty building near the Cantina, but the entryway is blocked by rubble.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ControlledDemolition_Accepted_rec_7b85.uasset
+
+[ST_VoiceLines/6F92827F47C59E3A550C5189BAB1768B]
+A customer of mine saw a family taking cover in an old encampment in Buried City. I’ll pay anyone who manages to find them and escort them back to safety.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_FindingSurvivorsBuriedCity_New_rec_2c32.uasset
+
+[ST_VoiceLines/72A01A3248C24959FA9C53A9D4FE1079]
+Nice work! I’ll send you an invite for the first screening.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_MovieNight_rec_c5ea.uasset
+
+[ST_VoiceLines/732CF7384D8C2B74C10858AA1334C1D5]
+Thank you! Once I figure out how to brew a cup of espresso, you’ll be the first to know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_Espresso_rec_3e8a.uasset
+
+[ST_VoiceLines/7356E5A24D79B49876F07C9FA6015A3A]
+Fantastic, I’ve got some shelves waiting for them! And hey, looks like there’s a magazine tucked into one of the books, too! Might be worth a read.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_RareBooks_rec_76a0.uasset
+
+[ST_VoiceLines/73A51F134CB9EB27C8E27BA7A9516208]
+Something tells me you’ve got good news.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_3806.uasset
+
+[ST_VoiceLines/74E1D18F42E83E9C8BCBE9BE9DCBE555]
+I got my hands full, so no rush with that distiller. Would be great to finish my designs, though.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ApolloWaterFilters_Accepted_rec_3463.uasset
+
+[ST_VoiceLines/7946AFBD4D9123B3FCA262A077962C08]
+You look like someone who just made my day easier.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_1203.uasset
+
+[ST_VoiceLines/7A93972649D655E87A6D2D8416B902F5]
+I need you to scope out the ENELICA buildings around the Rust Belt for any data on earthquake-resistant housing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_ReinforceToledoResearch_rec_13e9.uasset
+
+[ST_VoiceLines/8352ABC748A78F9FE7C0F08FECF2E126]
+Need a refresher?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_00f1.uasset
+
+[ST_VoiceLines/84C386D54EE8962A452BDDB7E1DAAF97]
+Here for your reward?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_aaad.uasset
+
+[ST_VoiceLines/84F095794B8B8D1394033AA849F5DDD7]
+We’ve only just finished expanding the Tube network towards the Blue Gate, and we’re still laboring away at the rest. My crew’s been building new infrastructure around the valley to safeguard our Raiders, but the constant ARC threat has made it difficult to get anything done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_BlueGateIntroInfrastructure_New_rec_1e3a.uasset
+
+[ST_VoiceLines/8781DF1548C46AAD275FB0834787548C]
+As much as I want to, I can’t play movie tapes that are all torn up. The Cultural Archives in Stella Montis may have some more pristine ones.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_MovieNight_01.uasset
+
+[ST_VoiceLines/88078131431AC773E18070929722772E]
+Data or no data: we’ll learn how to make this place earthquake-proof. With a research this in-depth, there’s bound to be a paper trail somewhere.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ReinforceToledoWhiteboard_New_rec_bea1.uasset
+
+[ST_VoiceLines/88AC35974DADA5A39A7D7D9FB2FE51EE]
+We've had to build our Topside infrastructure in stages. Our engineers keep being chased off by one danger or another.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_BlueGateIntroInfrastructure_Accepted_rec_5aae.uasset
+
+[ST_VoiceLines/88FCAAE04A73B4791219AD8D6C265530]
+Everyone's been on edge ever since rumors of that ARC signal spread. I was thinking a movie night would be a great distraction, but I'm missing some crucial supplies. You'll help me out, yeah?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_MovieNight_New_rec_bf03.uasset
+
+[ST_VoiceLines/898A22D946E187EF189DAFA42DD3EC20]
+I see. Flown the coop, has he? Life in Toledo might not be for everyone, but it sure beats the alternative… Thank you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_Birdman_rec_323c.uasset
+
+[ST_VoiceLines/8A66686544F4EF6F71942CB248FF83A5]
+I’ve got your prize all warmed up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_2c4d.uasset
+
+[ST_VoiceLines/8C185C684CD96DC05056478AD173A436]
+Excellent. Take these new grenades I’ve been working on, and go wreak some havoc up there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_SafePassage_rec_a1b9.uasset
+
+[ST_VoiceLines/8C656E6246791F3F013B27953B1B422E]
+Great! That makes all the difference. Here, take this. A token of my appreciation, and all that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_rec_2906.uasset
+
+[ST_VoiceLines/8CF123874D3CDB0913C57BB8636B51D8]
+Did you bring those grenades, Raider? My new designs look great on paper, but I’ll need someone to chuck them at some machines to know anything for sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_SafePassage_rec_e9b1.uasset
+
+[ST_VoiceLines/8E1DED89453CD87DE97E28B9279E192D]
+Yeah?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_573c.uasset
+
+[ST_VoiceLines/9318297948AC64B05D81139ECEC1101B]
+Hey. Got something for you to do, if you're interested.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_New_03.uasset
+
+[ST_VoiceLines/957AA7BC4AFA367D39A6A9A7CE62AB84]
+Man, I really hoped... Thank you for trying. With luck, maybe the rest of the family can make it to safety. Here; take the reward anyway.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_FindingSurvivorsBuriedCity_rec_b9fb.uasset
+
+[ST_VoiceLines/962FC3F14EC071D6AEFA219E2869DF22]
+The Cultural Archives in Stella Montis are pretty well-guarded, so don’t forget to hum a suspenseful tune while you search for those movies.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_MovieNight_b60d.uasset
+
+[ST_VoiceLines/967227F1469773F9AA63849D5D915318]
+There's rats everywhere, these days — more and more people have been getting sick. I have a plan to wipe them root and stem, but I'm short a few things.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_RatInfestation_New_rec_5765.uasset
+
+[ST_VoiceLines/9F68D09C4954A8802161CD9CFC9A9F75]
+Oh, thank you. Let me know how it goes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_rec_d3eb.uasset
+
+[ST_VoiceLines/A097DD3E4E2A45DF57C0EEBCF76A06BE]
+You deliver yet again! I’ll set my plan in motion — those rats won’t stand a chance. Thanks, buddy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_RatInfestation_rec_1cd2.uasset
+
+[ST_VoiceLines/A3E8467D4063AE3399950CA969E39B6E]
+Thanks, Raider; soon enough we’ll feel right at home around the Blue Gate.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_BlueGateIntroInfrastructure_rec_7dff.uasset
+
+[ST_VoiceLines/A73886934B238A2999276DACE359686F]
+Thanks, really appreciated!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_rec_1741.uasset
+
+[ST_VoiceLines/A84ABA5F4638DA4461B8B8A5F9D53A8F]
+See, I have a friend on the surface. Guy keeps pigeons for communication, but it’s been a while since I received any. Could you check it out?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_Birdman_New_rec_72c7.uasset
+
+[ST_VoiceLines/A9A156B74A6B0988F2CAB4AD0F9575D8]
+Those ARC parts did some serious damage, huh? That opens up a lot of possibilities.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_FireballBurner_rec_c314.uasset
+
+[ST_VoiceLines/A9B387FC4ED12D97911E169DF52D4871]
+I should get some goggles, or something.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_33f3.uasset
+
+[ST_VoiceLines/ABAC80714D9F1ABE38501CBE2E752282]
+There’s only so long we can read the same few books. Sure, we have the archives, but that’s not really the same thing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_RareBooks_Accepted_rec_8f77.uasset
+
+[ST_VoiceLines/B887CC334E20E217B856C9AD203BC6A4]
+Great! Come back when it's done and we'll see about that reward.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_rec_a011.uasset
+
+[ST_VoiceLines/BA1148494D2BEDC35376EDB71D3D58B4]
+There should be plenty of cafes in the Buried City where you can search for the parts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_Espresso_rec_51f6.uasset
+
+[ST_VoiceLines/BA518776440670B306B30792EF78E208]
+I know that look. That’s a job well-done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_03.uasset
+
+[ST_VoiceLines/BAF2AF9242BEE98F474FD4893ECE90DD]
+You know what I've been dreaming of lately? A talking water distiller! Crazy, huh? But seriously, with purer compounds I could make explosives with more oumph! Would be something, right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_ApolloWaterFilters_New_rec_52fc.uasset
+
+[ST_VoiceLines/BE37DFFD482FD36BC6F157B05F268782]
+Our library selection has grown pretty stale. Could you head out to Buried City, and find something more for us to read? Make sure you bring something for everyone.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_RareBooks_New_rec_8ac0.uasset
+
+[ST_VoiceLines/C49988994BAD5D712EB142A8BEF99CC8]
+You’ve got time. Not much, but a little.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_338f.uasset
+
+[ST_VoiceLines/C86D4F6A47E9399CC49EF9855918A279]
+Door’s always open. Metaphorically.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_c25a.uasset
+
+[ST_VoiceLines/D06980404FB28AEAC706ED80724AD1EC]
+Some kiosks in Buried City stock football magazines, and there’s supposed to be some makeshift goals near The Dam.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_TheLeague_01.uasset
+
+[ST_VoiceLines/D0F79CEB4A7DEC9D4D9046A033E5F493]
+You’re holding out on me, aren’t you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_9d19.uasset
+
+[ST_VoiceLines/D4394CAC4AACC65EC43928B6DD2CE95E]
+Back in one piece. That usually means good news.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_rec_3929.uasset
+
+[ST_VoiceLines/D6DDBCE9420B621C7D40E5B7E6FEF9A2]
+Hah, what a breakthrough! I always knew we’d come out of this stronger.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_ReinforceToledoWhiteboard_rec_ea9f.uasset
+
+[ST_VoiceLines/DA7E0D704CBA2B16484A3D8582FA8C39]
+You smell like dust and gunpowder, my friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Completed_b1b5.uasset
+
+[ST_VoiceLines/DE0F0591485D83A03F9E50852427D65B]
+Need a hand? Or just loitering?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_1904.uasset
+
+[ST_VoiceLines/E06D205F49B2FCE45811739456021CF0]
+There’s an old library back in Buried City. Most books have probably turned to dust by now, but I'm sure you can find some good ones.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_AcceptQuest_Quest_RareBooks_rec_2e1f.uasset
+
+[ST_VoiceLines/E3E80F1E4CF8390E0E9B10989893035D]
+See if you can find any traces of that family, and please hurry. They were last seen in a camp on the abandoned highway.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_FindingSurvivorsBuriedCity_rec_1f21.uasset
+
+[ST_VoiceLines/E3EA0F924927EF5D151955ADAF902840]
+If you're here to think, this is a good spot for it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_aa7e.uasset
+
+[ST_VoiceLines/E744FCB24589E75DBC6BEA9A12AA3061]
+I'd get out there myself, but I got too much to do here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_7777.uasset
+
+[ST_VoiceLines/E84E7EF44F3D993D716302BC52A82F24]
+A Raider came into my shop earlier, to trade some grenades for a machine she found in Buried City. She said it makes coffee, but it seems to be missing a few parts. Up for a job?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_Espresso_New_rec_7ac4.uasset
+
+[ST_VoiceLines/E9B24CCF49089AAF36EA6595CEEF0CAF]
+Hey there Raider. Got something you could help out with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_New_rec_a857.uasset
+
+[ST_VoiceLines/EBDED09A4862159575EAB9A0412EE382]
+Here’s a tip, Raider: Hornets tend to hover. If my designs hold up, that’s the perfect time to stick ‘em with an explosive or two.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_SnapBlastHornet_rec_29fd.uasset
+
+[ST_VoiceLines/ED38489740504EEC706503BC3E2A345C]
+Come to say hi? I’ll take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_2707.uasset
+
+[ST_VoiceLines/EDF438E94B0911BC73E77CAFEC82E227]
+Gate still standing, Raider? You'll find the unfinished structures scattered around the valley; look for construction signs and cones. My previous crew came under heavy fire before they could finish up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_BlueGateIntroInfrastructure_rec_59ef.uasset
+
+[ST_VoiceLines/F0387DEC48E93B884BF216B9D17B146E]
+New grenade designs stood the test, huh? I can already think of dozens more improvements, but that’s a very promising start.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_SafePassage_rec_f19b.uasset
+
+[ST_VoiceLines/F4F655954DDAF2872DEE0FA962D1C6A2]
+We'll need help decrypting this data, if it's going to be of any use to us. Shani might know how.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_CompleteQuest_Quest_ReinforceToledoResearch_rec_1ea5.uasset
+
+[ST_VoiceLines/F65536F14D9D5B92E45ECB9469C4A0CA]
+You'll have the best chance to find the materials I need around the industrial areas by The Dam. Stay safe out there, all right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Any/Dialogue_Apollo_Quests_Any_SessionSpawn_Quest_ControlledDemolition_rec_7c41.uasset
+
+[ST_VoiceLines/F9AE18414E66B7164DF8BB9C84DCED07]
+If you run out of bullets, there's often ways to improvise; provided you're creative enough.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_FireballBurner_Accepted_rec_9ba1.uasset
+
+[ST_VoiceLines/FCA0E001448DE743E6F175AC09759721]
+Honestly, it’s nice having company.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_9a3e.uasset
+
+[ST_VoiceLines/FEB66A2B49F62E1615C50596087B9B4D]
+First all the new arrivals, then ARC finding our hatches — people really are in need of something to calm the nerves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Quest_MovieNight_Accepted_rec_2ae8.uasset
+
+[ST_VoiceLines/FF645D8F40319CCF2CB744AB0DCF6389]
+Hey there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_Quests/Frontend/Dialogue_Apollo_Quests_Frontend_EnterQuest_Accepted_rec_d9a5.uasset

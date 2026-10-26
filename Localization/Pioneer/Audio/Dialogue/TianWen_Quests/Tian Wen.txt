@@ -1,0 +1,585 @@
+ARC Raiders 2.2.0 — Tian Wen
+
+[ST_VoiceLines/00B0DA354BCA9852017CA09E3F8AAED1]
+That works. I’ll spare you a thought when I’m snacking on my own homegrown food.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_GreenhousePartTwo_rec_68c4.uasset
+
+[ST_VoiceLines/0267034445A82EABEA6399BF1A43BF51]
+Our private greenhouse is almost functional — we just need some electricity to power the grow lights. You catch my drift?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhouseSolarPanel_New_rec_16f9.uasset
+
+[ST_VoiceLines/029933E84223C68E02F5D6B54376C7A5]
+What, hoping I forgot? I don't forget.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_24ac.uasset
+
+[ST_VoiceLines/088DDE454CE8D2C578E17CBDB5AB48A1]
+Celeste told me you’re the one who helped her hound me about pitching in more. I’ll say this once: I don’t appreciate the meddling, and I have my own reasons for refusing. I do, however, appreciate the scrap. Since you’re apparently good at tracking it down, I may have a task for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_LootRaiderCamps_New_rec_7b94.uasset
+
+[ST_VoiceLines/08D11E274069A8A0CEC011914FF4BF48]
+You’ve got the look of someone who actually pulled it off. Huh.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_dbed.uasset
+
+[ST_VoiceLines/0DCB3C864EBA739F5C87DF9661B3D210]
+Ever since we expanded the tunnels to the Blue Gate, some rare pieces have started appearing on the black market. Meanwhile, I'm stuck here peddling battered old Rattlers. If I don't find new supply lines, I'll be left in the dust.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BlueGateArmoredTransports_New_rec_43c0.uasset
+
+[ST_VoiceLines/0DCE75494C4AFB19CD76338B37FD1884]
+Managed to crack open an armored transport, huh? That’s promising. Very promising.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_BlueGateArmoredTransports_rec_0c89.uasset
+
+[ST_VoiceLines/119E68ED4AC0C64D603E339FF48285A6]
+Have a look around. If you see anything significant that you can’t bring back, take a photo. Oh, and, bring me back some new things, if you find any.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_StellaMontisIntroThree_rec_14fe.uasset
+
+[ST_VoiceLines/137AB2674DD524A2DF68EF8DDAE0BB96]
+I can't believe I'm saying this, but: don’t forget to mark out those houses Shani picked, if you’re in the area!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_MarkPatternHouseTheDam_rec_5cdb.uasset
+
+[ST_VoiceLines/19CB4CCF404CEE1C13C400AFEB6D30BE]
+My grow lights work! Not bad — we’ll be celebrating with a homegrown potato soon enough.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_GreenhouseSolarPanel_rec_8f6f.uasset
+
+[ST_VoiceLines/1EBCE0744BB8B9D33DA447B74956C26A]
+That’s hers. I can tell. I thought it’d be gone forever. You don’t know what it means to have it back. Thank you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_MajorsFootlocker_rec_4b36.uasset
+
+[ST_VoiceLines/257275F24E28D5F4595624AE4046CE6E]
+If it looks like it mattered to someone, grab it. Don’t break it. This isn’t salvage.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_BrokenMonument_rec_70d9.uasset
+
+[ST_VoiceLines/25831B4641B4ADD9675170AD431D5A97]
+The weapon cache is near the Gas Station at the Outskirts of the town.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_IndustrialEspionage_rec_b352.uasset
+
+[ST_VoiceLines/25D4A51A4E311A2AD4399C8D5C3A4CD5]
+I’m setting up a greenhouse, to help boost our food production. I’m doing Celeste a solid, alright? That’s all. But enough about that. I’ve got all the details worked out, but I’ll need supplies, and I’m not hauling them alone.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhousePartOne_New_rec_64ba.uasset
+
+[ST_VoiceLines/275B9C0F45042063E671B09A04ECC989]
+I've almost wrapped up my end of the greenhouse work, but I still have a bit left. All of this extra legwork has put me behind on my weapon orders, though. You don't look particularly busy, so why don't you handle one for me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhousePartThree_New_rec_b870.uasset
+
+[ST_VoiceLines/280AC1874D39529BB96F2E96ED467315]
+I see. You can keep everything you found—just don’t tell Celeste you’ve been rummaging around them on my behalf, alright? I don’t need her to breathe down my neck. I have some other places in mind too, so come back soon if you want to pocket some more coin.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_LootRaiderCamps_rec_8d30.uasset
+
+[ST_VoiceLines/285BC1384D01073F1C39BDB3B06F03C7]
+You’re back in one piece. Don’t ruin it with weird silence.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_2621.uasset
+
+[ST_VoiceLines/2946E72B49876393DBA7CBA663E96D23]
+I haven’t heard anything about my booby trap going off, which is good. But, I also haven’t heard anything about you disarming it, which is bad.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BoobyTrapTheDam_Accepted_rec_092b.uasset
+
+[ST_VoiceLines/2BA2C6C3451B8F9EA63F1F9C4607A999]
+Alright! I can count on you, it seems. Here, take this and be on your way.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_rec_2f80.uasset
+
+[ST_VoiceLines/2E0E754143FAC1353817ED8D47A0EA82]
+Getting real tired of your boots on my threshold.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_c93d.uasset
+
+[ST_VoiceLines/33EB57CE4B4BB7DD376E82AD9732E241]
+How do you feel about heights? Celeste’s been pestering me about a faulty antenna near the spaceport. The repair job itself shouldn’t be too tricky, but getting there is a bit of a hassle. Do this for me and there are some mod components in it for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_AntennaFixSpaceport_New_rec_89c9.uasset
+
+[ST_VoiceLines/3537CD444D568110E4E5608F6C16A148]
+The solar panels are by a roof terrace, south of the Southern Station. Go now; I’m starting to get hungry.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhouseSolarPanel_Accepted_rec_30b4.uasset
+
+[ST_VoiceLines/36DD1D994D363DCFF9DCBF8909DEF2BC]
+Good.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_rec_9193.uasset
+
+[ST_VoiceLines/378B4F97457747DA5CC96396C387FF27]
+Come back with results, not questions.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_2957.uasset
+
+[ST_VoiceLines/38AE2785412971ACD6B50CBCD0ED00F1]
+If you're waiting for applause, try somewhere else.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_55c6.uasset
+
+[ST_VoiceLines/3E04798742484250AB5481A51A8160D3]
+The solar panels are by a roof terrace, south of the Southern Station. No one will notice some discreet rewiring.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_EyesOnThePrize_Accepted_rec_0bfb.uasset
+
+[ST_VoiceLines/40609C824C37ACE197A855A228D1985A]
+A bunch of sensors started beeping over here, so the rewiring must’ve worked. That should keep my stashes safe from harm; good stuff.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_CompleteObjective_Quest_EyesOnThePrize_Objective_RewireSolarPanel_rec_0d2d.uasset
+
+[ST_VoiceLines/41770BF044824892D2CB26A3D182738D]
+It’s a small fix - just some faulty wires that need replacing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_RepairElevatorTheDam_rec_db1d.uasset
+
+[ST_VoiceLines/41F765EA441C0EBBE968968AA895DA07]
+Great. Let me know when it’s done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_AntennaFixSpaceport_rec_21e8.uasset
+
+[ST_VoiceLines/429F411A40FE0C9A87D665825EFC547F]
+Figured out how to get to that antenna yet?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_AntennaFixSpaceport_Accepted_rec_ac0e.uasset
+
+[ST_VoiceLines/45A37CE347A9EAC4A8A40DAA1F047C62]
+That’s everything I asked for. I’ll handle the rest.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_GreenhousePartOne_rec_727a.uasset
+
+[ST_VoiceLines/46B8266C4B291F8E4F8DEF990DDEFB70]
+Your silence is annoying. Just confirm it’s done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_acbb.uasset
+
+[ST_VoiceLines/4715E50D4FAD1CE9AD15CA8242287A7B]
+I’ll cut to the chase; I have a number of stashes topside. For emergencies, let’s say. Someone got me the contents of one of them a while ago, but I forgot to disable the booby trap attached to it. See the problem?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BoobyTrapTheDam_New_rec_2d88.uasset
+
+[ST_VoiceLines/4718014543063520F550EAABA8D0B3BE]
+Forget something? Like... the whole job?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_ef8a.uasset
+
+[ST_VoiceLines/4A9DB34B4A54022C338E1DB29333AB3C]
+Go deliver a Burletta to a rival’s drop-off in Buried City; make them think you’re one of their runners. Then, plant a listening device on the cache.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_IndustrialEspionage_rec_06f0.uasset
+
+[ST_VoiceLines/4ACD95D049A1219AC5679DB4D12AEDD2]
+I gave you a shot. Don’t make me regret it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_a140.uasset
+
+[ST_VoiceLines/4D22BC93457672CDC1AAD8BCA9387CD7]
+This your frequency, Raider? Hope you brought that Ferro I gave you: heavy ammo punches through ARC plating better than most.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_MoreArcPartThree_rec_dcbb.uasset
+
+[ST_VoiceLines/4F80917349C15912A783AE9797D275B8]
+That theft before? Doesn’t look like a coincidence anymore. Some of the competition from Toledo is setting up shop where they don’t belong. I want their cache sabotaged, preferably before they get too comfortable.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MarketCorrection_New_rec_2359.uasset
+
+[ST_VoiceLines/5018383E468B2B3EE1D64DB41D476D4C]
+Are you heading into the dam anytime soon? There's an elevator acting up, and there's a reward for whoever fixes it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_RepairElevatorTheDam_New_rec_2a28.uasset
+
+[ST_VoiceLines/52E9889B4934F860145FA69DB091D779]
+They’ll think twice before sniffing around my cashes again once they learn that turnabout is fair play.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_IndustrialEspionage_rec_97f7.uasset
+
+[ST_VoiceLines/55CF3AB242B9E95558A6E2A5B54394F5]
+Well done. Take this... Don't mention it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_rec_26cd.uasset
+
+[ST_VoiceLines/56B63F9344D77CE16AAD34B1C1EFB9BF]
+Any Burletta will do. Buy one, craft one, loot one. Just don’t be stupid and put your own modified Burletta in there, if you even have one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_IndustrialEspionage_Accepted_rec_5300.uasset
+
+[ST_VoiceLines/58F28CAA4D5E514927D4E6BC7CF830E9]
+I have another job. It’s.. about my mom. Those First Wave sites I sent you to before? I actually hoped you’d find something of my mother’s. She fought in the Raider resistance. It was a long shot; but now I've got an actual lead.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MajorsFootlocker_New_rec_f4bb.uasset
+
+[ST_VoiceLines/5E9FE0FF4E1F02D43798889FA3D319DC]
+If there’s one thing I’ve learned, it’s that locked doors tend to guard the tastiest hauls.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BlueGateArmoredTransports_Accepted_rec_6126.uasset
+
+[ST_VoiceLines/5F7010F44E199601DC7FD9B8346E7B50]
+Huh. Not bad.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_GreenhousePartThree_rec_73ec.uasset
+
+[ST_VoiceLines/6094B53348B12F1F857588A9BF108A1A]
+I have to admit I didn’t expect much to be left. Maybe people missed these, or maybe they didn’t care. It’s not what I’m looking for, but I appreciate it. I’ll make sure they’re looked after properly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_BrokenMonument_rec_7bf5.uasset
+
+[ST_VoiceLines/627C382D4ECA60BE28FAD4B482EE050C]
+Good. Stick with me, and we’ll find a much better use for those supplies than Celeste ever could.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_LootSupplyDrop_rec_045a.uasset
+
+[ST_VoiceLines/6365382D4A9D2C5751DAEC98AA86088E]
+Did you repair the things in the backyard yet? No? Then why are you here?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BackyardRepairs_Accepted_rec_3077.uasset
+
+[ST_VoiceLines/65B4039A428E2CFCE68BCCA391D50DF1]
+Guess what? Shani asked me to help out with something, and for once, I’m actually glad she did. We’re setting up new outposts topside! Or, planning to, at least. Can you believe it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MarkPatternHouseTheDam_New_rec_f419.uasset
+
+[ST_VoiceLines/6829670F4791659332B4F99C847194A1]
+You survived. Color me… mildly surprised.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_a606.uasset
+
+[ST_VoiceLines/698D5CD44FDDDD627E02D49684254B4B]
+Nice. With this surveillance, I can keep an eye on my stashes. Thanks for helping out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_EyesOnThePrize_rec_a1d6.uasset
+
+[ST_VoiceLines/71B37A8B4BA72F5DB5393B8290C51530]
+You want respect? Earn it first.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_f0ba.uasset
+
+[ST_VoiceLines/71CB7F6D4B8F39918DBCE7BAEA095469]
+With my own stashes secured, I think it might be time to keep a closer eye on the competition so this doesn’t happen again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_IndustrialEspionage_New_rec_8ba3.uasset
+
+[ST_VoiceLines/74CDF1BF4E71B7FAEE65DA97CB11E3C1]
+Here’s a list of buildings that could make for potential outposts. Mark them with paint for us, so the crews know where to go.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_MarkPatternHouseTheDam_rec_4d2b.uasset
+
+[ST_VoiceLines/753EBBB0402023C75644C991169C18F2]
+Neat. I can’t wait to take these apart and see what I can find out about them. Thanks for the help.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_StellaMontisIntroThree_rec_ef70.uasset
+
+[ST_VoiceLines/7562C8174AE24F0D7C079FA1A8F2E186]
+About my mum’s things… You’ve already done a lot for me. I just want you to know that it’s okay if you don’t find it. Really.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MajorsFootlocker_Accepted_rec_f88f.uasset
+
+[ST_VoiceLines/7950A18B4C8EB12D0BF48FA9D79BA814]
+All of Speranza is buzzing about Stella Montis right now, and I admit it’s caught my attention. Let the others sort out the whats and hows; I’m interested in the tech inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroThree_New_rec_7d74.uasset
+
+[ST_VoiceLines/7A5843EB47494EE0F1AAD280D26B0573]
+Remember the fertilizer I asked you to get? I’d tell you to look out for planters, but you can probably just follow your nose.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_GreenhousePartOne_rec_c7ce.uasset
+
+[ST_VoiceLines/7BDE66D14A515F95D9E6D8BAFD86DBF7]
+About the site… I can’t expect you to actually care. But try to be respectful, at least.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BrokenMonument_Accepted_rec_da83.uasset
+
+[ST_VoiceLines/7C03C8E942E60F281AF15DA134D9CBDB]
+Took you a while. Thought you’d ghosted.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_67f6.uasset
+
+[ST_VoiceLines/7CD30F3446EACD2517EA228FF4BCEB36]
+I have another special site I need you to search for me. An old battlegrounds, from the First Wave. Raiders nowadays usually pick places like that clean, despite the significance they once held. People forget quickly. Quicker than they should.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BrokenMonument_New_rec_ccc6.uasset
+
+[ST_VoiceLines/7CF7BBE34A70B931CBB93E92604EE66F]
+Good job taking care of their cache. That’s one less problem off my plate.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_MarketCorrection_rec_cb5f.uasset
+
+[ST_VoiceLines/7D14AD98478D44763BFE0AA73E1AED1E]
+You marked them? Perfect. Those marks will hold until we’ve got boots on the ground. …Man, new outposts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_MarkPatternHouseTheDam_rec_a37b.uasset
+
+[ST_VoiceLines/7DEDAF4042FF00FBD9903EBE67FDB7D0]
+We're short on everything but mouths to feed, yet Celeste's launching precious supplies into the air for Raiders to claw over. I’m done letting the good stuff go to waste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_LootSupplyDrop_New_rec_2cc5.uasset
+
+[ST_VoiceLines/7F7127FF46F630443AF6959930C07AA7]
+As excited as I am about this, we can’t forget that any topside presence is risky. Keep it simple: paint, move on, next building. Quick work.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MarkPatternHouseTheDam_Accepted_rec_28b8.uasset
+
+[ST_VoiceLines/7F8A4876489AD24DF541108FA5703545]
+Good. Stake out the area. Catch them in the act, or track them back to where they’re stashing my goods.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_MarkedForDeath_rec_cb2b.uasset
+
+[ST_VoiceLines/807F4955464E4A5A14FC93A1C6BB95F1]
+Oh, really? Nice. Ok, see you around.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_rec_dc9d.uasset
+
+[ST_VoiceLines/80A4078E41F3AC94CF2619B99A509B2E]
+Made it back, huh? I’ve got plenty of Heavy Ammo in stock, should you want to tear through some more ARC plating.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_MoreArcPartThree_rec_4bfc.uasset
+
+[ST_VoiceLines/81E583A54BE5A4B575E9329E4E32CBC0]
+You’ll find the solar panel by a nice secluded roof terrace, near the Southern Station. Look for blue tarps. Rewire it so my surveillance gets priority. The rest of the grid can go dark, for all I care.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_EyesOnThePrize_rec_5ba2.uasset
+
+[ST_VoiceLines/8368BBD64769266498D402B6496198B2]
+Is Shani with you? No? Good. Do whatever you Raiders do and get me the parts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhousePartTwo_Accepted_rec_e3fa.uasset
+
+[ST_VoiceLines/8920225A4E511824315BA1BE2CE80440]
+I keep the door shut for a reason. Don’t give me more reasons.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_8884.uasset
+
+[ST_VoiceLines/89C6D7B1403E7641BED5D890192913BB]
+I kinda need your help with something. Don't tell anyone.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_New_rec_211e.uasset
+
+[ST_VoiceLines/8B948ED446B1A054E6F93BB8BFC9D0EA]
+How’s that weapon coming along?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhousePartThree_Accepted_rec_493d.uasset
+
+[ST_VoiceLines/8BC754DE4A244FB10CD2F1A817160250]
+Most Toledo caches are packed with low-grade weapons. Taking some out of circulation is a community service.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MarketCorrection_Accepted_rec_4a8a.uasset
+
+[ST_VoiceLines/8BF329F74C7B981335B03EB2EA7C9993]
+You’re making this more awkward than it has to be.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_ac44.uasset
+
+[ST_VoiceLines/8D80070F48CF983D2F63D3984CAA2E7B]
+Thanks. If a Raider exploded because of me it would look pretty bad. Perhaps Celeste would’ve kicked me out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_BoobyTrapTheDam_rec_a8ac.uasset
+
+[ST_VoiceLines/8DB08ED04314C8665CC0C293BCC787DF]
+The more I hear about Stella Montis, the more curious I get.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroThree_Completed_rec_e2a1.uasset
+
+[ST_VoiceLines/8E1B449F4534EE9B603210BC492AEEB8]
+Still breathing. Guess you didn’t screw it up after all.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_1d5a.uasset
+
+[ST_VoiceLines/8EB673BA4C46734E96A9ECB0232F8EAE]
+Every time an elevator breaks down we end up with pure pandemonium down by the slingshots.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_RepairElevatorSpaceport_Accepted_rec_6950.uasset
+
+[ST_VoiceLines/8EE9E03F417664353B332288692E3DF2]
+I’ve got a standard repair ticket up for grabs, if you want it? Just need to fix some broken lights in a transit bunker over by the spaceport.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_RepairTransitLights_New_rec_a088.uasset
+
+[ST_VoiceLines/9079D2AA4EA895BEC16438B5D5D7F212]
+My drop-off cache is on the outskirts of the city. Look for some warehouses, and you should be able to find it. I’ve rigged the trap with tracing color, so if it went off then whoever triggered it should’ve left plenty of marks behind.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_MarkedForDeath_rec_6e4a.uasset
+
+[ST_VoiceLines/90DD13FE483BFF3626A5469EC8BE2436]
+There’s some armored transports among the pileup by the gate. Find a way in, and see what you can find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_BlueGateArmoredTransports_rec_1c26.uasset
+
+[ST_VoiceLines/92B2C6FE49389EA7425B20871BB8C21C]
+About those broken lights?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_RepairTransitLights_Accepted_rec_a153.uasset
+
+[ST_VoiceLines/987AE85E47EF3EBA7A0E498F03C372AF]
+Look… just come back when it’s done. Then we’ll talk.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_0381.uasset
+
+[ST_VoiceLines/98E7CC7541B80274A6C399AC359303BC]
+Okay, thanks.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_rec_a02a.uasset
+
+[ST_VoiceLines/98F780B7492A5E2BE4EE309EB1EEC506]
+Try coming back when you’ve actually done something.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_4ee2.uasset
+
+[ST_VoiceLines/99BD52214353A3FFA1C4158FADA629B0]
+You might not be useless. You're just...not there yet.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_0db0.uasset
+
+[ST_VoiceLines/9B0E44F84F09A3F055E2359DA8E8FBFD]
+You should be able to find the parts I need in any research or medical areas. Try not to die, and whatever.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_GreenhousePartTwo_rec_eda1.uasset
+
+[ST_VoiceLines/9B98DFB24A41B277C3BE0799F4AD7D9F]
+Don’t forget about Stella Montis. That place isn’t going to investigate itself, you know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroThree_Accepted_rec_9ec4.uasset
+
+[ST_VoiceLines/9F329BF44A607FD3F812CEBD7E6DEF69]
+This Ferro should take a Fireball out in one shot—just don’t let it get too close.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_MoreArcPartThree_rec_0a3b.uasset
+
+[ST_VoiceLines/A0DD47EE473A9C2DDFED9C91D43659BF]
+You’ll find their cache around Marano station, marked with a ribbon. A little sabotage should do the trick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_MarketCorrection_rec_d927.uasset
+
+[ST_VoiceLines/A0E1AA2F49C72162560FA09DFCCCB7EA]
+Fingers crossed no one's set it off already, but it's only a matter of time unless we do something about it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_BoobyTrapTheDam_rec_86e7.uasset
+
+[ST_VoiceLines/A14CB765489D0C267C82D9A9A3FF789C]
+Normally I wouldn’t bother with something as dull as greenhouses, but the abysmal state of our kitchens is getting to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhousePartOne_Accepted_rec_456d.uasset
+
+[ST_VoiceLines/A20AFF414B01984F5EDEBCB1C0E82D73]
+There’s a secluded solar panel near the Southern Station in Buried City. Go there, rewire the junction, and tie it into my setup.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_EyesOnThePrize_rec_0cb2.uasset
+
+[ST_VoiceLines/A3E25E024F0A0E04D9D55A80C6B357BF]
+You're the one who fixed the backyard tube? I wanted to tackle that ages ago, but the hike over there's no picnic. But you know you swiped my job and cost me my commission. If you want to make amends - which you should - I have some more repairs up there on my ticket.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_BackyardRepairs_New_rec_03cd.uasset
+
+[ST_VoiceLines/AA75A47641A5257A48ED5B8CBC2720FD]
+Get to the point. I’ve got better things to ignore.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_0d10.uasset
+
+[ST_VoiceLines/AFCA746E4A7B94AE8EAF5582E0090F2C]
+You survived. Congratulations.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_e6c1.uasset
+
+[ST_VoiceLines/B53FB7C8420F1EEC4912D89A373538DD]
+I heard just now that there's a hydraulic leak on one of the elevators in the Spaceport. It's still functional, but we should nip it in the bud before it gets worse. You up for it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_RepairElevatorSpaceport_New_rec_dfa1.uasset
+
+[ST_VoiceLines/B69FCEE54669BB5BDDDEA7B35FB67172]
+Huh. I suppose they won’t be stealing from me again, at least. By the way, keep this between us. My drop-offs aren’t exactly sanctioned by Celeste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_MarkedForDeath_rec_06fe.uasset
+
+[ST_VoiceLines/B6D4AF774616A2616C64A987FADCE5C3]
+It’s fine if you do smaller repairs by yourself. No need for engineers, armed escorts, and… Yeah, best not to think too deeply about that for now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_RepairElevatorTheDam_Accepted_rec_1617.uasset
+
+[ST_VoiceLines/B95FB9014AAB9CA45E5136AC81269BA5]
+Good. You take care of this, and I'll split the pay with you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_BackyardRepairs_rec_dc19.uasset
+
+[ST_VoiceLines/BA8F1E1F40B15D6927526A8419FCAAEB]
+I would do it myself but now I don’t need to. Here’s your cut.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_AntennaFixSpaceport_rec_88bd.uasset
+
+[ST_VoiceLines/BA9CED7D464B8B36FE090886BF30B541]
+You're one of the new arrivals, right? I need a volunteer to test out this upgraded Ferro; should cut through ARC plating like butter. Go put holes in some machines, and report back to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MoreArcPartThree_New_rec_55d9.uasset
+
+[ST_VoiceLines/BD6504054CAD4B8F552A5385559C7AF2]
+Ugh, this greenhouse project is taking much longer than I expected, and it’s mind-numbing to boot. On that note, I need some more parts. Make it snappy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_GreenhousePartTwo_New_rec_2bdc.uasset
+
+[ST_VoiceLines/BD776D2D41879F9266F33A8C0D0F5296]
+Still breathing. Shame you’re not useful yet.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_91ba.uasset
+
+[ST_VoiceLines/BF9D76254BF5D3D69FDD14B378DBBE58]
+You’re back. Took you long enough.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_95f3.uasset
+
+[ST_VoiceLines/C1D30570493001044B5DF9B0349DB607]
+I’m not opening the door. Even if you did impress me a little.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_252d.uasset
+
+[ST_VoiceLines/C229109745FD797D1FA109B093D20B8F]
+If this is your idea of a dramatic pause, I'm not a fan.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_149e.uasset
+
+[ST_VoiceLines/C2621D0043D3F098872A2C9C1E161975]
+Good news! Here's your reward.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_rec_126a.uasset
+
+[ST_VoiceLines/C2EA9FE34623E56B5E23E1926F933709]
+Quit hovering. If it’s finished, hand it in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_9d6b.uasset
+
+[ST_VoiceLines/C5E8FBF04B2A6FE6B9D4B2993A89B9CE]
+Make me a Tempest. It doesn’t have to be a masterpiece or anything, as long as it’s intact and functional.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_GreenhousePartThree_rec_e835.uasset
+
+[ST_VoiceLines/C797D9404725A43D1A264F8253206CCB]
+You! I've got an assignment for you. Don't worry, I will compensate you for it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_New_rec_86a5.uasset
+
+[ST_VoiceLines/C8938CCC4432D9E61832E199D5836C07]
+Job well done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_RepairTransitLights_rec_d56b.uasset
+
+[ST_VoiceLines/C9017CCB4507BEEF6F6CAB88647748E3]
+Standing there like you want a medal. You’re not getting one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_09a9.uasset
+
+[ST_VoiceLines/CBDB203D4F421D42BE7D9983D986F706]
+Everything’s been calm around my drop-offs since you helped out, but that doesn’t mean it’ll stay that way for long. I’ve set up surveillance at one of my most used spots in Buried City, to prevent future tampering. Only problem is, it needs power to go live.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_EyesOnThePrize_New_rec_1ac4.uasset
+
+[ST_VoiceLines/D0C431DA482E048DE08AA69342D66B8C]
+Someone has been lifting supplies from my drop-off point in Buried City. I’ve set up a trap, but I need someone to check it for me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MarkedForDeath_New_rec_c94b.uasset
+
+[ST_VoiceLines/D22FEED1406EA982B33809BCCFC2C389]
+After the machines returned and forced us underground , the camps fell into disrepair, and now Raiders have picked most of them clean. I want you to scout a few for me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_LootRaiderCamps_rec_4c67.uasset
+
+[ST_VoiceLines/D374FE1D4EEC77EB170729A8F1E6E1DB]
+Call a Supply Drop, then grab whatever supplies you can. I’d try to get back here through a Raider Hatch, so nobody can trace your steps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_LootSupplyDrop_rec_e384.uasset
+
+[ST_VoiceLines/D6D94F6A46999193BE4F1FBAF960FE33]
+My source mentioned the Ruby Residence, and the Pale Apartments. My mum’s name was Aiva, if that helps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_MajorsFootlocker_rec_9707.uasset
+
+[ST_VoiceLines/D726B11F41B63B2DA6BEA8B8D68D6217]
+Ferros are basic, but reliable. I’ve usually got plenty in stock, though most Raiders have figured out how to craft one themselves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MoreArcPartThree_Accepted_rec_874a.uasset
+
+[ST_VoiceLines/D8E5C4E144F61E8BC9996AB61CD7163E]
+Could be a rival arms dealer from Toledo poking around my cache. Keep your wits about you, just in case.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_MarkedForDeath_Accepted_rec_aef2.uasset
+
+[ST_VoiceLines/DB5854D7456AC00DF34A07A095F81A2F]
+Elevator is back to normal. Thanks for helping out—meant I could do more important things.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_RepairElevatorSpaceport_rec_52f3.uasset
+
+[ST_VoiceLines/DC6DFB0B44F5764B857C5F8C5ABD1253]
+I’ve met paperweights with more follow-through.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_a97b.uasset
+
+[ST_VoiceLines/DE0E42D24EEE2316BC562FA62FBC09A1]
+You did it, didn’t you? Don’t get smug about it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_c868.uasset
+
+[ST_VoiceLines/E05B1E054D1627410F9D9CA905A9F4C3]
+The armored transports are in the car pileup by the gate, but they seem to be locked with a key card of sorts. You’ll find a way in, I’m sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_BlueGateArmoredTransports_rec_f595.uasset
+
+[ST_VoiceLines/E25CC0E343BD7ECB451251BDFABAC225]
+Great. Fewer elevators running would make life harder for both of us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_RepairElevatorSpaceport_rec_6c7b.uasset
+
+[ST_VoiceLines/E29D1CB3465E06843A91F3B73F047E02]
+Back again? Huh. Thought you'd quit by now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_6248.uasset
+
+[ST_VoiceLines/E3CA95064060149933BF90A1FDDAF46C]
+People sheltered in those camps, back then. Used the outposts to send messages and keep an eye on the ARC movements. Nothing like now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_LootRaiderCamps_Accepted_rec_88ee.uasset
+
+[ST_VoiceLines/E43F217941DD9AE0051397889EA5FB80]
+What a waste — the amount of fabric we’re squandering on parachutes alone.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Quest_LootSupplyDrop_Accepted_rec_b853.uasset
+
+[ST_VoiceLines/E49D1E0B4E9EE213D5C285AADDDF60FA]
+You're persistent. I’ll give you that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_04e1.uasset
+
+[ST_VoiceLines/E4ADEB6545B28BFFC2D786ADF0EE80AB]
+There’s a solar panel near the Southern Station in Buried City, by a nice secluded roof terrace. No one will notice some discreet rewiring.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_GreenhouseSolarPanel_rec_ebc5.uasset
+
+[ST_VoiceLines/E57D122E42D018BC2C1A899ECC2D2FE9]
+Still alive. Guess that’s a start.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_a64a.uasset
+
+[ST_VoiceLines/E59B827049397D2152B6A4BFD1C1DC43]
+Remember, you’re looking for a First Wave battleground. There might be junk around, but look for anything that stands out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_BrokenMonument_rec_541a.uasset
+
+[ST_VoiceLines/E7CCAC284C6962D3BFF900B7DF8C9194]
+Elevator’s running again. The reward is yours, as promised.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_RepairElevatorTheDam_rec_00fa.uasset
+
+[ST_VoiceLines/EC5B91FC4A16A7E7325927BCD70DD53C]
+Raider camps come in all shapes and sizes. If you spot a shack made of mostly corrugated sheets, that’s probably one of ours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_LootRaiderCamps_rec_de15.uasset
+
+[ST_VoiceLines/EDF551D641E18288E3589D96A34EC291]
+Not bad, for a rookie.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_CompleteQuest_Quest_BackyardRepairs_rec_1528.uasset
+
+[ST_VoiceLines/EF9D8B8A4444470C438F28B19918899B]
+Find their cache, and deal with it. Make sure they think twice before trying again. My sources tell me it’s somewhere near the station, so start there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_MarketCorrection_rec_b64c.uasset
+
+[ST_VoiceLines/F10BD55A4A7604D561EBAC832190D089]
+You're just standing there. Not a good look.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Completed_rec_6042.uasset
+
+[ST_VoiceLines/F19C192F4DCBC5A3B8C0FBA03A8EDD39]
+You can call in a drop from a Supply Call Station. Just keep your gun at the ready, when one comes down; they tend to be like honey to flies.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_LootSupplyDrop_rec_6a32.uasset
+
+[ST_VoiceLines/F349207C406CC4664B229B883DE5F59D]
+I found out where mum may have bunkered, during the First Wave. Perhaps… Perhaps she left something behind.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_MajorsFootlocker_rec_dcd0.uasset
+
+[ST_VoiceLines/F3C2E2674E8E2D423F2A1092995DC406]
+Remember, you’re not there to take in the sights. I’ll need the details from you later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_SessionSpawn_Quest_StellaMontisIntroThree_rec_3e3c.uasset
+
+[ST_VoiceLines/F484B5FA451525C6F1CD4AA4AB90A244]
+Should be a quick fix.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_AcceptQuest_Quest_RepairTransitLights_rec_b2e8.uasset
+
+[ST_VoiceLines/F5796C99487BC166876177AE039623AF]
+Listening device is already picking up stray sounds, which means it’s working.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Any/Dialogue_TianWen_Quests_Any_CompleteObjective_Quest_IndustrialEspionage_Objective_PlantBug_rec_5da3.uasset
+
+[ST_VoiceLines/F7E3BFB143ABB5449E61059D64DC8DBA]
+You sure know how to waste a second chance.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_9589.uasset
+
+[ST_VoiceLines/FCE9128B47B240AA57B4E89458E0F8F9]
+Raider. I need you for something. If you're up to it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_New_rec_60c3.uasset
+
+[ST_VoiceLines/FDFE5CD94FD982F6E4644696D6E52EC2]
+You know I don’t do idle chatter. Finish the job.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_Quests/Frontend/Dialogue_TianWen_Quests_Frontend_EnterQuest_Accepted_rec_6746.uasset

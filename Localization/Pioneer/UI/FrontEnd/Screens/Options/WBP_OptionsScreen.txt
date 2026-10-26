@@ -1,0 +1,6 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Screens/Options/WBP_OptionsScreen
+
+[[10].Properties.DevModeTabs[0].TabText]
+Debug
+

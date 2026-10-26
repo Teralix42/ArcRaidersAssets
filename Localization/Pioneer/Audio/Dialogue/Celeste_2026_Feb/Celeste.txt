@@ -1,0 +1,73 @@
+ARC Raiders 2.2.0 — Celeste
+
+[ST_VoiceLines/0C221AD5460993C197C49488A9D80084]
+Attention all Raiders: the electromagnetic storm is interfering with our surface equipment. If you’re exploring Topside, steer clear of any open areas as best you can.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_RoundConfig_ElectroStorm_rec_62f2.uasset
+
+[ST_VoiceLines/0F976CC9473152A868BC62A75E26D4AD]
+Looks like a Matriarch is nearby. We never saw ARC like this during the First Wave. Don’t engage it unless you’re ready for a hard fight.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_RoundConfig_Matriarch_rec_26df.uasset
+
+[ST_VoiceLines/19A117074B708F92F5EE8590C188D5D9]
+Everything about Project Heartwood seemed so hopeful, and then? Cancelled, just like that
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_EnterQuest_Quest_DamExodusPower_Accepted_9144.uasset
+
+[ST_VoiceLines/3137F72C43E9A08EA4C8E29B09D0A976]
+Says here there was a foreman at The Dam, who got recruited right after they canceled Project Heartwood. Got put in charge of some big reconstruction project.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_EnterQuest_Quest_DamExodusPower_New_0a73.uasset
+
+[ST_VoiceLines/3498A4B04E2298FF584BFC92E44D7E62]
+Attention all Raiders: multiple Queens spotted in the area. Stay safe out there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_RoundConfig_TheQueens_rec_7050.uasset
+
+[ST_VoiceLines/4CA941E74B7692348917C892AC2D8ED8]
+Attention all Raiders: we’ve got confirmed reports of a Harvester nearby. That means a Queen should be present as well, so be on your guard and only engage it if you’re prepared for the fight.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_RoundConfig_Harvester_rec_21a8.uasset
+
+[ST_VoiceLines/7C6FA1B748C495299AFE7595142D2CCD]
+This… Looks like the entire Dam got rerouted to power the construction of the Spaceport, instead of people’s houses.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_CompleteQuest_Quest_DamExodusPower_54df.uasset
+
+[ST_VoiceLines/85482D0B4041652D5D61E59E400FB1E9]
+Our crews picked up the salt battery you stowed away, and are trying to connect it to the grid. Thanks a lot - I just wished it had ever made it to full production…
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_CompleteQuest_Quest_SaltBattery_5777.uasset
+
+[ST_VoiceLines/91A2302F4CF6328EADC80D8C80AF7561]
+One more thing. According to these notes, the salt battery prototype will need to be charged, if it’s going to be any use to us. See if you can find the right appliance.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_Quest_SaltBattery_8209.uasset
+
+[ST_VoiceLines/93F89D2843EBF49D37CD59A01B097FC3]
+Make sure you stay warm up there, Raider. The frostbite can be just as dangerous as any ARC.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_RoundConfig_Frostbite_rec_0162.uasset
+
+[ST_VoiceLines/96EEC27C440D98E6FC65C4ABED9899AE]
+Someone triggered the emergency shutdown on the Gate. No idea why, but the only way to find out is to locate the security codes and try to override it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_RoundConfig_LockedGate_rec_5466.uasset
+
+[ST_VoiceLines/A1E80E294CD9FECC03F16E848FDA286E]
+If you can find a working salt battery prototype, we might just be able to reverse engineer the design.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_AcceptQuest_Quest_SaltBattery_d30a.uasset
+
+[ST_VoiceLines/A3FFC8F3488A7164446946A82864F888]
+I found notes that some electrical engineers at the Spaceport were working on advanced, salt-based batteries. If we can get our hands on one, perhaps it’ll prevent full-scale power outages next time a ceiling comes crashing down.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_EnterQuest_Quest_SaltBattery_New_711f.uasset
+
+[ST_VoiceLines/B2885A9243F6C1B52330178F9AF8FFA5]
+Any Raiders topside or en route; the wind’s picking up hard. If you’re scavenging today, expect limited visibility and a lot of noise. Stay safe.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_RoundConfig_WindStorm_c55d.uasset
+
+[ST_VoiceLines/EBD5E0DB4921986B707735AABFADA9D4]
+The salt battery prototype was part of a research called Project Heartwood - same as that housing project by the Blue Gate.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_EnterQuest_Quest_SaltBattery_Accepted_2a55.uasset
+
+[ST_VoiceLines/ECA5D5B64298AE5A2FB1EB8CC987855C]
+The Dam’s foreman lived in Buried City. His apartment may hold clues to what he worked on.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Frontend/Dialogue_Celeste_2026_Feb_Frontend_AcceptQuest_Quest_DamExodusPower_b971.uasset
+
+[ST_VoiceLines/F813943E4CBC1CCB00132CBEC67EFABF]
+If you can find out about the foreman’s reconstruction project, perhaps we’ll learn more about why Project Heartwood got canceled.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_SessionSpawn_Quest_DamExodusPower_cd50.uasset
+
+[ST_VoiceLines/FB82BF05435D799C6680089C04477A65]
+Looks like he was involved in expanding the Power Generation Complex by the Dam; and plenty excited about it, too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Feb/Any/Dialogue_Celeste_2026_Feb_Any_CompleteObjective_Quest_DamExodusPower_Objective_FoundLogbook_248a.uasset

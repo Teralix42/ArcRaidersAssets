@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Shared_WindowModes",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/EmbarkScript/Localization/ST_Shared_WindowModes",
+    "StringTable": {
+      "TableNamespace": "ST_WindowModes",
+      "KeysToEntries": {
+        "ID_WINDOW_MODE_WINDOWED": "Windowed",
+        "ID_WINDOW_MODE_FULLSCREEN": "Fullscreen",
+        "ID_WINDOW_MODE_WINDOWED_FULLSCREEN": "Windowed fullscreen"
+      },
+      "KeysToMetaData": {
+        "ID_WINDOW_MODE_WINDOWED": {
+          "Status": "approved"
+        },
+        "ID_WINDOW_MODE_FULLSCREEN": {
+          "Status": "approved"
+        },
+        "ID_WINDOW_MODE_WINDOWED_FULLSCREEN": {
+          "Status": "approved"
+        }
+      }
+    }
+  }
+]

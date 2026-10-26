@@ -1,0 +1,193 @@
+ARC Raiders 2.2.0 — Shani
+
+[ST_VoiceLines/100997F3410A6C48F7A2F3BC27D9A24D]
+MANTIKOR’s human guards believed that if they just played along, they’d be in good graces. They got replaced all the same, the fools.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_StormingSpaceport_Accepted_rec_9994.uasset
+
+[ST_VoiceLines/132752E149DAE9DF9841A4912FFFD5A3]
+I know this sounds mad, but see if you can find a way into that fallen Emperor. If we have any chance of getting out of ARC’s crosshairs, it’s bound to be in there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_AcceptQuest_Quest_InsideFallenCollector_rec_47a9.uasset
+
+[ST_VoiceLines/246AA09A4476029CECE30D9ED5433895]
+That sphere’s been there since the First Wave… We used to think whoever put it together had perished; just another desperate last stand. Doesn’t look so desperate now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_NomadsOutskirtsBunker_Accepted_rec_efa5.uasset
+
+[ST_VoiceLines/24B8603C4DF4E48405F97F88DEC738DE]
+They were… Ruthless. Heartless. Left an entire planet to perish. If they’re still up there… Well, I guess on some level, we all knew…
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_CompleteQuest_Quest_StormingSpaceport_rec_0f57.uasset
+
+[ST_VoiceLines/24DAD956478A100A3E509D99B43BF0D6]
+Our only hope is to find a way to get on top. We may not know what’s up there, but there’s no more safety down here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_AcceptQuest_Quest_BoardingFrigate_rec_862f.uasset
+
+[ST_VoiceLines/25E04D8C4066204503CECB9089D5FB9C]
+The box you found in the MANTIKOR facility contained specialized radios, encrypted using geotags. And the coordinates… They start right where the mutineers stashed their weapons.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_StormingSpaceport_New_rec_1176.uasset
+
+[ST_VoiceLines/2F08CB3147C2B6E39917EBB63FC27ACC]
+The stretch from the Northern tracks to the Emperor is crawling with unfamiliar ARC units. I need eyes on them, or we might be stepping into a death trap before we can even begin to breach the Emperor.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_ReconMeerkat_New_2b03.uasset
+
+[ST_VoiceLines/30A1307549FF597BE5931A838ABAC21E]
+Get back! Get back! It’s too late!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoLaunchTowers_rec_2ff0.uasset
+
+[ST_VoiceLines/32E7B9A4454812A9A2E2FFA6CDCD304F]
+ARC’s been swarming that fallen Emperor like flies on honey. I’m picking up signals from far beyond the Rust Belt, and they’re not slowing down.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_InsideFallenCollector_New_rec_83bf.uasset
+
+[ST_VoiceLines/3B3991B548D58D2A101524BFBAD4CC1E]
+Clouds seem to have parted. If you see the Collector transmitting any signals, that’s your chance to tear out one of its Beacons, and see if you can redirect the payloads.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_SessionSpawn_RoundConfig_Redirection_rec_50be.uasset
+
+[ST_VoiceLines/464AF00748CF0D21009C4DA835483A66]
+Sounds like hell’s breaking loose up there, Raider. Whatever you’re doing, please do what you can to keep it away from Toledo.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_BoardingFrigate_Objective_FrigateGunshots_rec_5fdc.uasset
+
+[ST_VoiceLines/4C0995E242EA229DB7AA279ECD5037B2]
+Clean work. You’ve just made our next move a hell of a lot safer. Stay alert, this is far from over.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_CompleteQuest_Quest_ReconMeerkat_a22a.uasset
+
+[ST_VoiceLines/4C996DFF4DE48A3C7366A0AF088535E5]
+Whatever you’re scanning, it’s absolutely riddled with MANTIKOR’s electronic signature. You may have struck gold, but I’d wager it’s very delicate. Don’t touch anything until I can get a specialized crew up there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_MantikorJoinsMutiny_Objective_FindMantikorRecorders_rec_fba6.uasset
+
+[ST_VoiceLines/4FD1D954465A27708CA4E89B6B005956]
+That sphere you spotted in the Outskirts Bunker… They remind me of those eerie contraptions that the Nomads have been leaving in their wake.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_NomadsOutskirtsBunker_New_rec_e507.uasset
+
+[ST_VoiceLines/57AF62B24E0F6549BAF6F4ACC1237386]
+They've already boarded!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoArrivalBuilding_rec_1f3b.uasset
+
+[ST_VoiceLines/583500C9446DBD4BB75450B9126AF9A5]
+Yes, there they are… Let me see… Wait, these are… Geotagged recordings from the days before the Exodus. I… I think you should get back here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_MantikorJoinsMutiny_Objective_TransmitMantikorLogs_502c.uasset
+
+[ST_VoiceLines/5987A9044ACD6906096639A4C4B37781]
+All these machines, descending on the Rust Belt… Celeste believes they’re salvaging what they can. I say they’re panicking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_InsideFallenCollector_Accepted_rec_e267.uasset
+
+[ST_VoiceLines/5D4CCD674F200A6A5546D5BEA4FBAEBB]
+Seems like these security androids were deployed just a few weeks before the human guards stopped reporting logs. The last log we have comes from a… Vehicle weighing system.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_MantikorJoinsMutiny_Objective_AndroidsScanned_rec_8a5d.uasset
+
+[ST_VoiceLines/5EEFAA454873DAFA865361A13062E388]
+All of these old logs mention mutinies being repressed by MANTIKOR… Then suddenly, nothing. The entries just stop, a few weeks before the Exodus.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_MantikorJoinsMutiny_New_rec_4410.uasset
+
+[ST_VoiceLines/62452CBB4F0A435CA67B288810AE0089]
+That sphere must’ve been an old Nomad trap; a prototype, if you will. I’d wager they didn’t stop there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_AcceptQuest_Quest_NomadsOutskirtsBunker_rec_fe95.uasset
+
+[ST_VoiceLines/6BBEC0094C0ED92405D9ECB914E65091]
+Be cautious when you approach that Emperor, Raider, and even more cautious once you’re inside. We can’t afford any mistakes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_SessionSpawn_Quest_InsideFallenCollector_rec_0442.uasset
+
+[ST_VoiceLines/6FCE8ACF45CCB6EA210010B1EDC398BA]
+If you find a clean opening, take out a few ARC and secure a part. Maybe I can find out what's driving them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_AcceptQuest_Quest_ReconMeerkat_efec.uasset
+
+[ST_VoiceLines/71044AA24C8058EF7B96A6A7279E6266]
+Whatever caused MANTIKOR to switch sides, I’m sure you’ll find clues of it near the tunnel checkpoints.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_SessionSpawn_Quest_MantikorJoinsMutiny_rec_7fbb.uasset
+
+[ST_VoiceLines/7CCA705F40A63064D7EE8EA6A8B795AA]
+These Nomad traps, they’re so… Refined? This is a lot more than a few clever tricks.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_CompleteQuest_Quest_NomadsOutskirtsBunker_rec_d8aa.uasset
+
+[ST_VoiceLines/849EF50D42F11359D936119EE8313293]
+Keep your ears sharp. I’m seeing reports of a chittering robotic sound in the brush.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_SessionSpawn_Quest_ReconMeerkat_ac97.uasset
+
+[ST_VoiceLines/8879B8B544E42EF62085BBAD013819A6]
+Some of Murteta’s most famed Raiders went to face the Frigate head-on, and never came back. Don’t let the same happen to you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_BoardingFrigate_Accepted_rec_aae4.uasset
+
+[ST_VoiceLines/8A3C8203417E550A229BEF8CD39AFEA5]
+Matteo! Help! Anyone!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoPortA_rec_0988.uasset
+
+[ST_VoiceLines/8FF238944C5D43340802768B1D06C5BB]
+They say the Slingshots in Ferrovia barely squeak.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_TradeBanter_rec_13c2.uasset
+
+[ST_VoiceLines/A5401A5E49E071DA03BAC583066943C5]
+Call it off! Call it off!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoControlRoom_rec_1cc0.uasset
+
+[ST_VoiceLines/AB90764A463DE9785821D19F8B134437]
+Everything looks in order at the water towers. We've picked up the stash. No movement so far.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyVisitWaterTowers_rec_9024.uasset
+
+[ST_VoiceLines/BCEBE7B34B6D58B5DBDD0CBC9BCA0450]
+This… This almost looks like a laboratory. A research facility. A processing plant. It looks… Familiar.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_CompleteQuest_Quest_InsideFallenCollector_rec_ffee.uasset
+
+[ST_VoiceLines/C00B4A3540C870E23B36B087C6CCB41A]
+Focus on the recon, only take a shot if it’s clean. I need those reports intact, which means I need you back alive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_ReconMeerkat_Accepted_8260.uasset
+
+[ST_VoiceLines/C8D9271442317CD0045F75B099720B14]
+Those geotagged recordings… They may just let us recreate what happened the days before the spaceships left.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_CompleteQuest_Quest_MantikorJoinsMutiny_rec_d21e.uasset
+
+[ST_VoiceLines/C9DF690044BC9DD4F36FCF9E20FFB417]
+Say what you will about those hermits over in Vaulto, but their jammers have saved us more than once.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_TradeBanter_rec_c311.uasset
+
+[ST_VoiceLines/CC81A0D146057118F4B0709BA1F8F65C]
+Most of what we know about MANTIKOR is that they were armed to the teeth. Perhaps that’s enough for our purposes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_MantikorJoinsMutiny_Accepted_rec_f9fe.uasset
+
+[ST_VoiceLines/CD5C8E704064340979E5849F5C339824]
+Seems like the Frigates aren’t picky about eviscerating anything in their shadow. Find a way to get up there, and do it fast.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_SessionSpawn_Quest_BoardingFrigate_rec_d3be.uasset
+
+[ST_VoiceLines/D5BC8F0B4B771DDB91C17F820507B7EC]
+If we can learn what changed MANTIKOR's mind, perhaps we'll understand what happened in those final days of the Exodus.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_AcceptQuest_Quest_MantikorJoinsMutiny_rec_b240.uasset
+
+[ST_VoiceLines/D6647A2140FB432D07225FAEE0E75179]
+None of our old tactics work, facing those Frigates. We can’t run. We can’t hide. And there’s no waiting them out. We need to take bold action, and we need to do it now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_EnterQuest_Quest_BoardingFrigate_New_rec_1ade.uasset
+
+[ST_VoiceLines/D94C5446448DF267E74E39BAC412F00B]
+We’re at the wall! Brace yourselves!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoBreach_rec_3318.uasset
+
+[ST_VoiceLines/D9BD2D8D472F39322AE0DAB7F7541A55]
+I heard you managed to find a way. to board the Frigate. Sounds like some others did, too. We’ll take whatever wins we can get.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_CompleteQuest_Quest_BoardingFrigate_rec_dfb8.uasset
+
+[ST_VoiceLines/DFB1809040F42CB66AEF049BC8DB28B2]
+For all their rustic camouflage and sturdy shoes, the Nomads know a lot more than they let on. You don’t survive out there as long as they have without a few tricks up your sleeve.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_SessionSpawn_Quest_NomadsOutskirtsBunker_rec_9609.uasset
+
+[ST_VoiceLines/E225B06A4EC2E1BBAD8ECCA316FE0A37]
+These logs… Looks like they were covering from some serious contraband - and stashed away something very dicey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_MantikorJoinsMutiny_Objective_VehicleWeighLogs_rec_0364.uasset
+
+[ST_VoiceLines/E3396F4D45DEA947A9248F877C29500E]
+Head to where the recordings were made, and see if you can retrace the steps of whomever used those recorders.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_AcceptQuest_Quest_StormingSpaceport_rec_5b9c.uasset
+
+[ST_VoiceLines/E7FC82BB42AB759C37C3BFB9F4BED4BF]
+All good at the substation. Distraction planted. I have eyes on the guards. This is it, everyone... 3, 2, 1. Now!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoWaterTowers_rec_18f4.uasset
+
+[ST_VoiceLines/E8B6200E41DBB733601FBDA4BAA234C6]
+Taking fire!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoBus_rec_e1c7.uasset
+
+[ST_VoiceLines/F50299E1490AF9E29F4BF6962831379F]
+If I’m not mistaken, the security recordings should decrypt when you approach the geotag. Start at the Water Towers, where the mutineers stashed their weapons.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_SessionSpawn_Quest_StormingSpaceport_rec_92e7.uasset
+
+[ST_VoiceLines/F6E36F1341BEFF774C4E40BDA9E5305D]
+Captured the guard station, no casualties.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Any/Dialogue_Shani_2026_Oct_Any_CompleteObjective_Quest_StormingSpaceport_Objective_MutinyPhotoSecurityBooth_rec_05a3.uasset
+
+[ST_VoiceLines/F6F9A7C04A83DF9334F537BA399AF515]
+You couldn't get three Murtetans to check a perimeter if you tried.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Oct/Frontend/Dialogue_Shani_2026_Oct_Frontend_TradeBanter_rec_e5f2.uasset

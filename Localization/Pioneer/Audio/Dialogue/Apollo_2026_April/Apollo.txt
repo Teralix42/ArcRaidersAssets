@@ -1,0 +1,37 @@
+ARC Raiders 2.2.0 — Apollo
+
+[ST_VoiceLines/38E8DF6E40854C4B105B1C822720497A]
+It’s a step in the right direction, to be sure. Whether it’ll last… We’ll have to find out. Thanks, in any case.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_CompleteQuest_Quest_RivenTidesIntroDefenses_2c5b.uasset
+
+[ST_VoiceLines/4430E4794299CB3E58561F8C747BAC73]
+There’s a few spots that could be reinforced around Riven Tides, if you use sturdy enough materials.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_AcceptQuest_Quest_RivenTidesIntroDefenses_f21c.uasset
+
+[ST_VoiceLines/47FDD0EB41C2840761C1CEA2D1CC6DDC]
+The wide-open coastline used to mean danger, but now it's the only place we can spot new threats moving into the Rust Belt. So we'll have to make our own cover, and reinforce what few defenses we can find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_EnterQuest_Quest_RivenTidesIntroDefenses_New_b046.uasset
+
+[ST_VoiceLines/5021F1954427344DA698678B6F2BF359]
+Construction work is harder when under constant fire. Do what you can to clear the skies, then get to reinforcing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Any/Dialogue_Apollo_2026_April_Any_SessionSpawn_Quest_RivenTidesIntroDefenses_ffc9.uasset
+
+[ST_VoiceLines/50B6193A494982E3A5B1039734BFC277]
+I’ll ask some engineers to help fix what you found… Thank you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_CompleteQuest_Quest_RivenTidesIntroOceanWall_63f2.uasset
+
+[ST_VoiceLines/BE655ACC4E0768F024932882CD53E1AA]
+It’s not just ARC's operations that are escalating; it’s the weather, too. I’ll bet you my favorite wrench the two are connected.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_EnterQuest_Quest_RivenTidesIntroOceanWall_Accepted_0c8f.uasset
+
+[ST_VoiceLines/BEBCDE9C45BD9987A9EA87AF1C99D96B]
+I need you to examine the shoreline; see if we have to worry about flooding, on top of everything else.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_AcceptQuest_Quest_RivenTidesIntroOceanWall_a46d.uasset
+
+[ST_VoiceLines/DF51E71C4FADE5695F9EAABE6EFC8643]
+We’d hoped the seawalls at Riven Tides might offer us some protection from the elements, but it seems the hurricanes were not kind to this place, either.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_EnterQuest_Quest_RivenTidesIntroOceanWall_New_6f5d.uasset
+
+[ST_VoiceLines/F24849C84A40D87AD10B23924D2F36EC]
+Many of the defenses around Riven Tides were built decades ago, when the machines first came down. Let’s just say… They no longer hold up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_April/Frontend/Dialogue_Apollo_2026_April_Frontend_EnterQuest_Quest_RivenTidesIntroDefenses_Accepted_f8ad.uasset

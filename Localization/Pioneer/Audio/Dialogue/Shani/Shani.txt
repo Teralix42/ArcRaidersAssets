@@ -1,0 +1,1057 @@
+ARC Raiders 2.2.0 — Shani
+
+[ST_VoiceLines/000D3669490140CA62671AB2CDE292DC]
+Back again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_1cba.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_95b6.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_c128.uasset
+
+[ST_VoiceLines/0015F69E46D3712CACA6AAB5BBBF2DD2]
+Good doing business with you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier2_rec_0b5d.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_f5a0.uasset
+
+[ST_VoiceLines/013E5F624AF3C4E5748FC5AD920266CB]
+Don't waste it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_b992.uasset
+
+[ST_VoiceLines/0270A586491168F2D6787A8BBD4A231A]
+Ah, hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_6926.uasset
+
+[ST_VoiceLines/034EBB7844006A0DE964F29B0F0AAC61]
+Stay safe.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_ExitTrader_rec_f4dd.uasset
+
+[ST_VoiceLines/04C78CF547CE622B34CC90B2541217A1]
+Not the best time, but go on.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_acbd.uasset
+
+[ST_VoiceLines/052F16CA4E1E458DEFAF1789C11D042F]
+If you’re here to buy, fine. Just don’t loiter. I’ve got ARC signals to monitor.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_446e.uasset
+
+[ST_VoiceLines/08C748204EE68F5004142ABC957B1605]
+Hey there
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_1602.uasset
+
+[ST_VoiceLines/0B5A101547E5E93C9C94789B249CC0B1]
+Make it quick. I think ARC signals might be spiking again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_627b.uasset
+
+[ST_VoiceLines/0CB67C6F40752CF3842D0C956751A212]
+I'm swamped right now but I'll let you know if I need you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuestEmpty_rec_77da.uasset
+
+[ST_VoiceLines/0CC27A8344E03E1F357B19BA0E149E80]
+Go ahead and take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_b0a2.uasset
+
+[ST_VoiceLines/0F8616264D0CD7CF45EBBD9D92340429]
+Still here, still working. What’s up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_cb3d.uasset
+
+[ST_VoiceLines/10999159485A57B3603AF19E54F6A213]
+You’re back. Got something in mind?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_de83.uasset
+
+[ST_VoiceLines/12F5292E46F272E7E728DAB9D508A5DE]
+Red alert, Raiders: we’ve spotted a Harvester in your area. A Queen is guarding it with her life; only engage if you've brought your best gear, lots of backup, and a very good plan.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_Harvester_rec_3e9a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_Harvester_rec_dde9.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_Harvester_rec_f25a.uasset
+
+[ST_VoiceLines/130310EC487A7D3A19A31F95ECEF0BAD]
+Need something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_5143.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_52a1.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_645b.uasset
+
+[ST_VoiceLines/13ADBC8B4A3AC5DDCED8C4B4641C208A]
+Back again? Alright, let’s see.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_f4e3.uasset
+
+[ST_VoiceLines/1412F550404BEB2D7D9122AF125D49C1]
+Hey there. Have a look. There are some things I need help with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterQuest_rec_519c.uasset
+
+[ST_VoiceLines/17E281A744D6FCAB3AD5B5B2D9BE6132]
+Hm. Thought you’d left.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_e81d.uasset
+
+[ST_VoiceLines/193534A84BE204E8D77D84B388C42DE9]
+Don't let that go to waste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_11a6.uasset
+
+[ST_VoiceLines/194959B14A3EDCBB34436F9C2FE27B84]
+Attention! Raiders by the East elevator! It will be closed soon, so go now or use another exit.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownEast_rec_d583.uasset
+
+[ST_VoiceLines/1A63F34F4FD93CBCE6EE659462FFEA2A]
+Sticky. Flexible. Useful. Shame about the smell.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RubberParts_rec_97ca.uasset
+
+[ST_VoiceLines/1B5DDC4645A9D535F1AC2CA8FD36ACEA]
+Hello...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_8597.uasset
+
+[ST_VoiceLines/1B987C6F46D8185A46B67D921CB4CEDD]
+Heads up! The West elevator is about to be offline. Move to exit or choose a different path.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownWest_rec_a965.uasset
+
+[ST_VoiceLines/1CFC4DE541CC43D0AF635B9F4DE6C623]
+I’ll be here when you’re ready.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_30db.uasset
+
+[ST_VoiceLines/1D09777B4EA74C2E4109FFAE29187172]
+It's something you can help with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_QuestExamine_rec_1399.uasset
+
+[ST_VoiceLines/1D24102143E30A8F13D616955AA725BA]
+Think this might be pieces of an old tire.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RubberParts_rec_68ee.uasset
+
+[ST_VoiceLines/1D9494394B4BD940697E95B86E716BC9]
+It’s not glamorous, but it works.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RubberParts_rec_51db.uasset
+
+[ST_VoiceLines/1E215B054B97A7AC24F5FA878A014DE3]
+I wish the other neighborhoods would maintain their Slingshot stations half as well as we do ours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_3566.uasset
+
+[ST_VoiceLines/1F80EC274E37FCE03EA156B3B6654629]
+An ARC orbiter is en route; the safe window is closing. You have 10 minutes to return to Speranza. I repeat: 10 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTenMinutesLeft_rec_5b0c.uasset
+
+[ST_VoiceLines/1F97A057479E8AF5E34990A5C13B1031]
+Ever heard of knocking?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_cb4d.uasset
+
+[ST_VoiceLines/2024DCF34C7ED981853E94A51C8F28C5]
+Welcome back. What can I do for you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_7bc6.uasset
+
+[ST_VoiceLines/212AC71243E150B6F016B6812A59C518]
+One sec… okay, what do you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_043e.uasset
+
+[ST_VoiceLines/21CE54D341C3A849B0C8949C3D999AB3]
+You’re quiet. I like that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_b481.uasset
+
+[ST_VoiceLines/225F82534DA0B2EF1CBF6B82C4652F0F]
+This is Shani speaking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_300a.uasset
+
+[ST_VoiceLines/23B776DA488853E21FE356A438F7462B]
+Still around?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_adcc.uasset
+
+[ST_VoiceLines/23EF52DA42D02C2DBF87BBAF29C0B423]
+I'm still busy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_ba8e.uasset
+
+[ST_VoiceLines/264F1AC845EA644602C44F94E38425E7]
+Mind grabbing me a fresh cup of coffee while you're there?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_79f5.uasset
+
+[ST_VoiceLines/277E8E0B44AA1B71D1ECBAA9EEAB0D35]
+Can I help you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_6849.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_d943.uasset
+
+[ST_VoiceLines/2791E325469A2830796809BF972B2DF9]
+Oh, hey. Do you need anything?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_ac12.uasset
+
+[ST_VoiceLines/2A012B104F007F3114B6FD9F1A994E1B]
+Sure, it's yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_5e0a.uasset
+
+[ST_VoiceLines/2ABEEE5D41C9484BDE200BA775EB73BA]
+I’ll just keep an eye on things.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_f248.uasset
+
+[ST_VoiceLines/2D6E056C48C93F4F4779C1BEDD42E2CF]
+Glad you showed up. This place feels steadier with familiar faces around.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_4885.uasset
+
+[ST_VoiceLines/2E935D7C4C8620D0F00D578B49D43466]
+I haven't seen a storm like that in a long time. Seems to have thrown ARC for a loop, too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_5439.uasset
+
+[ST_VoiceLines/2EEDB6E3450E776AE9A494A4EAB3ACF1]
+Want work? I got some.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuest_rec_414e.uasset
+
+[ST_VoiceLines/30E2F5A648D6B6FEEF36909C0034BFC3]
+If that malfunctions, let me know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_55e4.uasset
+
+[ST_VoiceLines/30F379744CC77A631A8B2AA35583E702]
+Hope you've mapped your way back first.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RaiderHatchKey_rec_f41f.uasset
+
+[ST_VoiceLines/31DEB1B4422286E5CC7D4B998C5A4D96]
+Smart choice. Just remember, they're for one-time use only.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_FirstTime_Item_RaiderHatchKey_rec_cbd9.uasset
+
+[ST_VoiceLines/3377DFB347F89BBA97AB859336D8BAB9]
+Raiders near the North east elevator. It's shutting down shortly. Make your move or find an alternate exit.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownNorthEast_rec_806d.uasset
+
+[ST_VoiceLines/36E85C434D4388E383F0E0ADEE3CC1BB]
+Do any Raiders have eyes on the Gate? Some thugs have triggered the emergency shutdown, which can only be bad news. Find the key cards to override the protocol, so we can uncover whatever it is that can't stand the light of day.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_LockedGate_rec_be7f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_LockedGate_rec_efd6.uasset
+
+[ST_VoiceLines/388D86434B9EDFD166867793B7C6A413]
+Alright, let’s see what you’re after.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_fcba.uasset
+
+[ST_VoiceLines/39B80407469B29DF67B2ADA777E1ED32]
+Sure, come in....
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_528d.uasset
+
+[ST_VoiceLines/3C9A30B145B37C3F0623D689C57372DD]
+Just put it to good use.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier2_rec_84d4.uasset
+
+[ST_VoiceLines/3CFBE709452AAE84E4C134828825EC4D]
+A note from Apollo. "Remember to take breaks sometimes." Hm.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_64e6.uasset
+
+[ST_VoiceLines/3D55FF8F4BC0F70E95E85B9B8AA3BE48]
+I’ve seen worse materials keeping pressure doors closed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RubberParts_rec_3ce1.uasset
+
+[ST_VoiceLines/3E26F8F844D5D622C2D6B4BBB0F217A5]
+Pulling your weight, Raider?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_d4cc.uasset
+
+[ST_VoiceLines/3E34DE1544EC6A7305953EBEE9BDEAD4]
+Anytime, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_ExitTrader_rec_f527.uasset
+
+[ST_VoiceLines/3ED46CCF4F29243BE6CA2BAE2C849EF5]
+Got work for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuest_rec_aa20.uasset
+
+[ST_VoiceLines/3F6A6C474B6FF8791D34DF9B48578668]
+Not bad.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_7155.uasset
+
+[ST_VoiceLines/3FE52DA74B7415907182B19A21D613FE]
+This is Shani. Hope you hear me alright.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_686b.uasset
+
+[ST_VoiceLines/4057A4C9494A5A87CA2A9ABBD8171CD5]
+For wounds or weird projects, I suppose.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Fabric_rec_a183.uasset
+
+[ST_VoiceLines/408B02554D1946F9EDC60D96996B6268]
+I’m looking into it. Until I know more, assume you’ll need to handle the repairs yourselves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_RepairExtraction_d63a.uasset
+
+[ST_VoiceLines/4196267549A772F071F995A56A0BF1C7]
+Yeah, yeah.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_a975.uasset
+
+[ST_VoiceLines/427A397D48B97C2E9A40CEADF5482DD0]
+You know how to use that, right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_f3be.uasset
+
+[ST_VoiceLines/42EBCB834EF6B9445D8E2D957DF2005A]
+Put it to good use.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_5895.uasset
+
+[ST_VoiceLines/43055C6E48317065D73A098F84D2F477]
+We’re closing the Tubes down in 10 minutes before the security protocol gets triggered. I repeat: 10 minutes
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTenMinutesLeft_Level_StellaMontis_rec_a6b1.uasset
+
+[ST_VoiceLines/43D46F0D45C6A258E016AE9154444092]
+Security protocol kicks in in 2 minutes; be gone before that. I repeat: 2 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTwoMinutesLeft_Level_StellaMontis_rec_988d.uasset
+
+[ST_VoiceLines/444F8B674CE4A68AE14BC197C629AC67]
+One dirty cloth, just for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Fabric_rec_b97b.uasset
+
+[ST_VoiceLines/4510581145B765508CD10FA088070C67]
+Plastic parts? For crafting?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_FirstTime_Item_PlasticParts_rec_450a.uasset
+
+[ST_VoiceLines/45557826464F402A06AA77B473476EC8]
+Shani speaking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_fce1.uasset
+
+[ST_VoiceLines/463D66A44E00EAEAB8D527A6673BC02D]
+Hmm.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_717a.uasset
+
+[ST_VoiceLines/46F8660A4A333E74DD3F78929B6AF642]
+There are just way too many ways ARC can get to us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_6cc0.uasset
+
+[ST_VoiceLines/470CD8E74D86D4E34215FB9E607E12AE]
+Various metallic junk, all yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_MetalParts_rec_e880.uasset
+
+[ST_VoiceLines/4768B1D842DCAA2BCE789694642C5A7E]
+Sorry, this is not a good time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuestEmpty_rec_312d.uasset
+
+[ST_VoiceLines/47CBC7F643098CE2A6940085665D9079]
+Done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_5afc.uasset
+
+[ST_VoiceLines/4824780E47FA278C95611584898E37C4]
+You’ll get there eventually.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_2a4a.uasset
+
+[ST_VoiceLines/489ECCE04603FA6F981ED5BC74A7A210]
+Any ideas on how to up security in the tunnels? I'm all ears.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_QuestBanter_rec_083c.uasset
+
+[ST_VoiceLines/48C60BF74D01F69B7B29D0A2B8C68D74]
+Yes?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_1c0f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_b8aa.uasset
+
+[ST_VoiceLines/4A484C1F4DC75E232DCFE8BA77AAA943]
+This is it, sorry. I haven't had the time to fill up the inventory.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_QuestToTrade_rec_481c.uasset
+
+[ST_VoiceLines/4A8DDE50438CBAFFFBAED587E43470B1]
+Something’s definitely wrong with the Tubes. I’ll dig into it, but no guarantees.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_RepairExtraction_dddc.uasset
+
+[ST_VoiceLines/4B45194E450A536B1450D38C3B77FED6]
+That works.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_35c3.uasset
+
+[ST_VoiceLines/4CA9ECD845A627213465698AC54C0115]
+You again. Alright.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_422d.uasset
+
+[ST_VoiceLines/4D8DD53645958EF1AF4B04ACB525F887]
+I suppose these could come in handy when you're creating your own gear.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_FirstTime_Item_RubberParts_rec_7936.uasset
+
+[ST_VoiceLines/4E26542541ABEDE36C856DB9059A0708]
+You have 5 minutes left to make it out. I repeat: 5 minutes. Don’t be foolish.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceFiveMinutesLeft_Level_StellaMontis_rec_f5c6.uasset
+
+[ST_VoiceLines/4ED3EB05438B64D53F8941877EA1BE0A]
+Hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_bebe.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_e19f.uasset
+
+[ST_VoiceLines/50866F474326BD3FB423AE9B1741C7F6]
+Let's hope Celeste is taking ARC seriously...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_ae85.uasset
+
+[ST_VoiceLines/52DF3C7A429FEAC423AEE089ED6101DE]
+Shani here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_40ae.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_12fd.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_3d02.uasset
+
+[ST_VoiceLines/541F6FF9462FACE7E00B41A329FCFCC1]
+Sorted.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_d8f2.uasset
+
+[ST_VoiceLines/54C852F64C4906168B117C8BF509CC11]
+Be warned, Raiders: we've spotted more than one Queen in the vicinity, yet no Harvester seems to be anywhere in sight. Don’t get caught in the middle.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_TheQueens_rec_0fcd.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_TheQueens_rec_9115.uasset
+
+[ST_VoiceLines/5535041E494DA5026AB8A69D589EE304]
+Here we go again. What is it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_072b.uasset
+
+[ST_VoiceLines/55B7652F4D298DEF018647BAB9282522]
+Leave the money there, I'll get it later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_6657.uasset
+
+[ST_VoiceLines/55FDA2464D789CF6129E859E29F19E95]
+Hmm? Oh sure, let me know what you'd like.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_5f99.uasset
+
+[ST_VoiceLines/58914404431013D0025EDE961B7E5148]
+Just so you know, I don't love people breathing down my neck.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_472d.uasset
+
+[ST_VoiceLines/5B3820D8484785F6C00AEAA50054BA48]
+Did you know sunburn is actually radiation damage? I'll stay down here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_6cb1.uasset
+
+[ST_VoiceLines/5D0ACF884671637E99327C96923C55A5]
+Yeah, it's yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_ba46.uasset
+
+[ST_VoiceLines/5DAE223746061477B35D2DA7FBA3831D]
+Sure thing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_df75.uasset
+
+[ST_VoiceLines/5E3000444A411991F08D37A3C0F04857]
+Anything else?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_0ecb.uasset
+
+[ST_VoiceLines/5EDF5D4947E2FC4126A616B9912BB0FF]
+I’d sterilise that if I were you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Fabric_rec_5691.uasset
+
+[ST_VoiceLines/5EF24FCB47E106E305443E9BDE4B8ED4]
+We've had way too many security issues lately... If you want to help out you're more than welcome.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuest_rec_d2e7.uasset
+
+[ST_VoiceLines/5FCF69474AE100B4DBDA3CAC35759EBD]
+Scrap metal is just one of Speranza's currency.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_MetalParts_rec_f42f.uasset
+
+[ST_VoiceLines/608CC4344BD484055CC073A9D10DD4AF]
+You know where everything is by now. Makes this a lot easier.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_9942.uasset
+
+[ST_VoiceLines/6131BE37476D8C4A715FE3B8FCCD463E]
+Did you need anything?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_30ad.uasset
+
+[ST_VoiceLines/622146A64101F127C0E2CB94AC957C79]
+Heads up, Raider: the dust from that storm is still settling down. ARC seems to be just as disoriented as we are, and most Raiders are holding off on going topside for a little while longer.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_FTUE_rec_94bb.uasset
+
+[ST_VoiceLines/625C186C442C5D9C33A171BA7209DAB6]
+Keep sharp out there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_ExitTrader_rec_17d6.uasset
+
+[ST_VoiceLines/62DB212941C5C0CF203098AD7F0A3806]
+We used to label these. Then we ran out of labels.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Chemicals_rec_d42a.uasset
+
+[ST_VoiceLines/64223F3E46D7FACF7A36848A46C818D7]
+Still keeping busy, huh? What is it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_4b77.uasset
+
+[ST_VoiceLines/642BBBE24C0913D79EADAD8A78107F01]
+You have a sharp eye.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier2_rec_d4f9.uasset
+
+[ST_VoiceLines/644BE92540E0E8ECBFFD2CBF2F847151]
+Hope you're clothed for the season, Raider. It's a good day for picking Candleberries, but do beware of frostbite.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_Frostbite_119b.uasset
+
+[ST_VoiceLines/668DED5F4AD86AEE083FEE889D203796]
+Yeah, sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_0dc3.uasset
+
+[ST_VoiceLines/66B0772E41A800733655DBB179CE9C59]
+You’ll figure it out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_10f6.uasset
+
+[ST_VoiceLines/67393D1B47FB9796FCFFE98FDE0CC9C7]
+Tensions are running high, these days.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_a8fa.uasset
+
+[ST_VoiceLines/679213A5483FE073AA00B396296FB76B]
+I once saw someone build a weapon trigger out of this. It worked. Once.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_PlasticParts_rec_28d6.uasset
+
+[ST_VoiceLines/68F00BE945B1B6A22255108749B3ABCA]
+Solid.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier2_rec_da60.uasset
+
+[ST_VoiceLines/6B0C5ED1466F6790E1EB4A92CC1425E8]
+Take your time, I’ll wait.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_c30d.uasset
+
+[ST_VoiceLines/6D380D1643BC8F94DBCA00AC3C153586]
+Still busy...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_6ba6.uasset
+
+[ST_VoiceLines/72BC148644EF9F7687DAA1A6CCFFE47F]
+Take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_5319.uasset
+
+[ST_VoiceLines/738BB2A14ACEF1FA1907AD981DB97332]
+I’ll keep working until you decide.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_1b5b.uasset
+
+[ST_VoiceLines/73FE6EC049A595636424E79E5707FE65]
+Back again? Make it quick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_ceed.uasset
+
+[ST_VoiceLines/74739192403EF6CE85458BB892BBB82F]
+Always more to do...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuest_rec_924b.uasset
+
+[ST_VoiceLines/7648A9BC4689B8E9E402C6811A70AEBF]
+Watch your backs, Raiders: a Matriarch has been spotted near your location. Keep your wits about you if you decide to go anywhere near, and always keep a close eye on her children.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_Matriarch_rec_707b.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_Matriarch_rec_cd14.uasset
+
+[ST_VoiceLines/766FC4CB4AD507198956DEB01774345E]
+Not in a hurry, are you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_92a6.uasset
+
+[ST_VoiceLines/79E5E53A40ECBF6F1CF46E8197E77C32]
+Use it wisely.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_3446.uasset
+
+[ST_VoiceLines/7A16CCC64086D7092DA27C877BCBCBDB]
+Back so soon? ......Must be important.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_de3f.uasset
+
+[ST_VoiceLines/7C1C22B042E509DF1BE8428049D9F70F]
+How's it going with that thing we talked about?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterQuest_QuestState_InProgress_01.uasset
+
+[ST_VoiceLines/7C3B6A81450AAB3F38FE01AE90E8C192]
+See anything you need, just tell me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_QuestToTrade_rec_ddb5.uasset
+
+[ST_VoiceLines/7CE2D6F44535E734EF91F3A2094D1088]
+What is that? Odd signal
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_ff6a.uasset
+
+[ST_VoiceLines/7D85BB964B7FF18AC6D83596743EBEE0]
+Still here, are you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_f388.uasset
+
+[ST_VoiceLines/8080A2564845056476FDE6989466DA2F]
+What is it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_06ac.uasset
+
+[ST_VoiceLines/8099567144B6268832A1BB88CF661B49]
+Attention. South east elevator is closing soon. Exit now or plan a different escape.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownSouthEast_rec_f8c2.uasset
+
+[ST_VoiceLines/813B2CA648E99ECE91BFCAAC9B9AF487]
+Anything else? Just help yourself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier2_rec_c454.uasset
+
+[ST_VoiceLines/82BF3D3544F85FEE1B04E7AAC9C1BB3C]
+Good for crafting, or for using as makeshift bandages.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_FirstTime_Item_Fabric_rec_fb53.uasset
+
+[ST_VoiceLines/83689527443436090FFC8C8507A17FAA]
+Alright. Catch you later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_ExitTrader_rec_cc57.uasset
+
+[ST_VoiceLines/83ACBF4A4C4FBD90D60FCCB2A2601C7A]
+The Tubes were originally built during the Exodus; we just made them our own.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_f4b3.uasset
+
+[ST_VoiceLines/83C63B3A4418366D1D95C2999F733DD3]
+Hey there...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_5f6a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_9fd3.uasset
+
+[ST_VoiceLines/85997FBA48A793FF99224F99846FE51C]
+ARC's been particularly restless, lately.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_4f75.uasset
+
+[ST_VoiceLines/85FBB18A44EC7F1767F00CAD50AABF9A]
+The start of something deadly, I’m sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_MetalParts_rec_69d2.uasset
+
+[ST_VoiceLines/8611B2B9404B05F8084006A1223A8407]
+Lance once spread the rumor that I'm just here playing video games.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_0cdd.uasset
+
+[ST_VoiceLines/865B1F584DD628A54F533D8894D15682]
+All Raiders around the South west elevator! Time's ticking. It's about to close so get out or reroute!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownSouthWest_rec_5b58.uasset
+
+[ST_VoiceLines/86E8F2024506D509B5F23FAD119A74D5]
+Are you just here to stare at the back of my head?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_cda1.uasset
+
+[ST_VoiceLines/8734A870402782AB7056EAAC4C9793E8]
+Decent choice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_1aba.uasset
+
+[ST_VoiceLines/8A478AD341443DA50A8B9BB948C92A5B]
+Gotta keep my eyes on these screens.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_591a.uasset
+
+[ST_VoiceLines/8B0DAF1846675CCA122C1C8371088BBA]
+Try not to catch a bullet out there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_ExitTrader_rec_3d59.uasset
+
+[ST_VoiceLines/8B11DE3B4FC08A97A75DC88AB480B937]
+Heads up! We are about to shut down one of the elevators.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdown_rec_e552.uasset
+
+[ST_VoiceLines/8D58A7BD49383B4FAB43A2B70812E782]
+Uh-huh.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_93ff.uasset
+
+[ST_VoiceLines/8DC8AC7C4190C684408FF3B77EC95B68]
+Go on, it's all yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_20ca.uasset
+
+[ST_VoiceLines/8E096C1F46EF5A60652D218BCA737C3E]
+All Raiders: we have ARC on screen. 5 minutes left; go find a way home. I repeat: 5 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceFiveMinutesLeft_rec_2887.uasset
+
+[ST_VoiceLines/8FD32AA447A2F8C0227CFC8EF8562BB7]
+You again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_46c3.uasset
+
+[ST_VoiceLines/9281FEE14B5B2D9749C3FB8B748902BC]
+Make it quick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_2fe4.uasset
+
+[ST_VoiceLines/936475B149F77DEF4F1F71B20863493D]
+Just don't drink it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Chemicals_rec_27f9.uasset
+
+[ST_VoiceLines/9388D77D44638EEF110FD7A0F466DA92]
+I'd love to put you to work, but not right now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuestEmpty_rec_a2a3.uasset
+
+[ST_VoiceLines/938D7CE444905432291846B454A9A4FC]
+Okay... Anything else?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_bab0.uasset
+
+[ST_VoiceLines/9484BE2043242E11548DCE8EA9277CA8]
+Another day, another request. Go on.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_c1d5.uasset
+
+[ST_VoiceLines/94FB50D94BDA9857F947468C64263252]
+I’ve had longer silences.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_c794.uasset
+
+[ST_VoiceLines/952701484AEECEA6BCEFF9B76DA84BCA]
+10 minutes to find your way out before we have to shut down the Tubes. I repeat: 10 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTenMinutesLeft_Level_StellaMontis_rec_33bf.uasset
+
+[ST_VoiceLines/966E9AB94C44F8D7FC38BAB50EF1F734]
+Guess you’re not here for small talk.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_aa16.uasset
+
+[ST_VoiceLines/97FFA9F24064C9B0E2FAE89AA4B5A404]
+It's a deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_c52a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_032f.uasset
+
+[ST_VoiceLines/980AF5C54EAC8C0A66152EA7817C3995]
+Here for a job?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeToQuest_rec_8a14.uasset
+
+[ST_VoiceLines/9923DD594712170AE0ACB0AB4D994561]
+Alright, let’s make this quick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_72bd.uasset
+
+[ST_VoiceLines/99B1C87D4D7F064983FCF8B16C0F0A08]
+I’ve been staring at screens all day. What do you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_6cdc.uasset
+
+[ST_VoiceLines/9A78EFFD474B9A073DD968B918AD6241]
+Not the longest pause I’ve seen.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_5c5f.uasset
+
+[ST_VoiceLines/9C5B61EE4BF531F38511DA98CD058189]
+All set?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_7650.uasset
+
+[ST_VoiceLines/9DE7D10540FF335064CAA881926EBB33]
+No time for chit-chat.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_b673.uasset
+
+[ST_VoiceLines/9E96093C4B44DBC7375AB698B34CCD67]
+Still nothing? Okay.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_edcb.uasset
+
+[ST_VoiceLines/9F715236413A00970B3157B030C719DA]
+Back already? Something urgent?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_be7e.uasset
+
+[ST_VoiceLines/9F7CF9614709328A1C0C26BEFA0EE23C]
+It's worth the cost.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_05ec.uasset
+
+[ST_VoiceLines/9FA81A824AAFC81AF8192BA1F53E8705]
+Don't make any strange movements by the Slingshots, all right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_8483.uasset
+
+[ST_VoiceLines/A1847DB2460FD24E011DB39DA9F7A12E]
+Do you need anything else?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_3e00.uasset
+
+[ST_VoiceLines/A22A6EDC49F5D213AB4B10B64851BC8A]
+Smart choice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_74e4.uasset
+
+[ST_VoiceLines/A685F6EE499268C436BDABACB16ED272]
+Alright, let’s keep this simple.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_b4d5.uasset
+
+[ST_VoiceLines/A7C2E90F4BCCD255E9E83199591EE841]
+I hope you're using these chemicals for something useful.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_FirstTime_Item_Chemicals_rec_60fe.uasset
+
+[ST_VoiceLines/A804F291466901964D438ABB4C009FC6]
+2 minutes left; last chance to get out safely! I repeat: 2 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTwoMinutesLeft_rec_4cd8.uasset
+
+[ST_VoiceLines/A9004036484E704D2F91D8BA3FBFCD8A]
+You want to browse? Fine. Just don’t block the monitors.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_b001.uasset
+
+[ST_VoiceLines/A980331741FB8664EA6021838418924D]
+All Raiders: ARC on screen. 5 minutes left; go find your way home. I repeat: 5 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceFiveMinutesLeft_rec_37a0.uasset
+
+[ST_VoiceLines/A9D5A8B34A4E2A57D72C41A59A79E2E2]
+Not the worst place to pause, I guess.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_586a.uasset
+
+[ST_VoiceLines/AAAC8B6D4E14FCFEE88A7EA9343A8822]
+Something on the radar. Wait, that's just a glitch.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_6eb2.uasset
+
+[ST_VoiceLines/AC32FEEA4888DC8BB4053C9711DF808A]
+Still deciding? Makes sense.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_5203.uasset
+
+[ST_VoiceLines/AD7BD5EB48AF3259FBD39DAF47CFEAE0]
+Just let me know when.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_9a95.uasset
+
+[ST_VoiceLines/AE9BB03F461D1F658DC19D8B85B08880]
+Those Tubes don't keep running by themselves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_b2e5.uasset
+
+[ST_VoiceLines/B09050974BEDC0221EE94DB4236E36C6]
+Go on. I’ve got a minute.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_37bb.uasset
+
+[ST_VoiceLines/B2CF315D4967ED840725D08A1B24C873]
+Attention all Raiders, the west antenna has been successfully activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_Announce_HiddenBunker_West_rec_6f45.uasset
+
+[ST_VoiceLines/B3E52B964C79BD65C3A0FABB795F5EC1]
+I should get a better chair, I think.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_d3d1.uasset
+
+[ST_VoiceLines/B6966CF7499E5BFC0991F48A92A0B8BB]
+Have you tried using a Raider Hatch for a quick getaway?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_2440.uasset
+
+[ST_VoiceLines/B7B9AD6D40F842885108DA9955132456]
+Forgot something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_5348.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_d86e.uasset
+
+[ST_VoiceLines/B885EC9447DBF16EC89299B851ABA1C6]
+Important heads-up to all Raiders. We are about to shut down the South elevator. If you plan to use it, now is the time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownSouth_rec_1169.uasset
+
+[ST_VoiceLines/BA06C70E44AB42E31CBF8CB3F611EE7D]
+Hope you’ve got gloves and a plan.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Chemicals_rec_96a7.uasset
+
+[ST_VoiceLines/BA43F6E5434A158CE11C10836101619A]
+Got a lot on your mind?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_5f14.uasset
+
+[ST_VoiceLines/BBD91BC14D3C8FF801FCA9802DF68F15]
+Sure thing, it's yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier2_rec_54b9.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_1058.uasset
+
+[ST_VoiceLines/BCFBEB3140CF7B338176FD8587179555]
+You know the drill.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_b985.uasset
+
+[ST_VoiceLines/BE32092E48801E878CF116958FBECA20]
+If I look busy, I am. But it’s fine.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_f2b7.uasset
+
+[ST_VoiceLines/BE65A8A045529CCCD0E7ADB235ED72CE]
+Perfect for when you want to make your own guns.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_FirstTime_Item_MetalParts_rec_3272.uasset
+
+[ST_VoiceLines/BFB5933C4A76E730680152A0B482A915]
+I'd love to take my eyes off the screens, but I can't just now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_c987.uasset
+
+[ST_VoiceLines/C1F0AB214AF0D552A0E5E9B69929CB8F]
+To all Raiders near the North elevator. We're shutting it down soon so either use it now or consider other exit points.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownNorth_rec_e66f.uasset
+
+[ST_VoiceLines/C45114634C87594A9CB564BF8B0B9BBE]
+Don't you have work to do?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_9d10.uasset
+
+[ST_VoiceLines/C60AFFD6413378D7DBC92298F861F501]
+What?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_a506.uasset
+
+[ST_VoiceLines/C7EF06654A7C4B6B6A5FEE99F3209F43]
+There you are. Thought I saw you pass by on the cameras earlier.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_4185.uasset
+
+[ST_VoiceLines/C96953FF42B44C4365CC28BF7A385963]
+Quiet beats noise any day.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_1371.uasset
+
+[ST_VoiceLines/CA50310C4FC8709917BB32BFD1D287C0]
+What do you want this time?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_4978.uasset
+
+[ST_VoiceLines/CA6801F9426A8DE12ACA8594EBB1C183]
+Back again? Must mean you’re still in one piece. That’s good news.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_a28d.uasset
+
+[ST_VoiceLines/CB03F7F3483325A719063BAE05E43AAC]
+5 minutes left; disengage and secure exit pods now. I repeat: 5 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceFiveMinutesLeft_Level_StellaMontis_rec_c40b.uasset
+
+[ST_VoiceLines/CC927AEE477E3335F781EFA32328A19E]
+You’re here. Fine. What do you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_92c4.uasset
+
+[ST_VoiceLines/CD6184B746885D8300D5A997939FB412]
+I just heard about the trouble with the Tubes. I’ll see what I can do on our end, but you might have more luck fixing it yourself if you’re able.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_RepairExtraction_2aab.uasset
+
+[ST_VoiceLines/CD79961946C80E56AC07A2AC646AF44C]
+Good. And here's your reward.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_QuestComplete_rec_2add.uasset
+
+[ST_VoiceLines/CE00481345176435083674B6412C28F5]
+You’re still here. Okay.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_4569.uasset
+
+[ST_VoiceLines/CED5D0AD4E18DA04851DA0BE35CFD044]
+Useful for when you need to leave the Topside quickly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RaiderHatchKey_rec_4922.uasset
+
+[ST_VoiceLines/CF2AAF314DFE7C2C9C6C1DB2B2364EF7]
+Planning your next escape route, are we?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RaiderHatchKey_rec_eeb4.uasset
+
+[ST_VoiceLines/D0630A8D4B080A84D364B7A2FD534D4E]
+Just don’t jam them in a weapon without testing first
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_MetalParts_rec_cff2.uasset
+
+[ST_VoiceLines/D0B01E44476B5DD410A51B82F856C6A6]
+That's done then.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_288e.uasset
+
+[ST_VoiceLines/D1251AF64209A644AD12FC903894369D]
+Hey - hold on... there. This is Shani.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_480c.uasset
+
+[ST_VoiceLines/D19EBFCB49A10ADAFBDF3E8FA2CD3D33]
+I'm kind of in a hurry so... help yourself...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_df1d.uasset
+
+[ST_VoiceLines/D251D2594E337AF7F38E38A3A7D8CE9A]
+If you need better guns, go see Tian Wen. Just don't let her talk you into her schemes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_5536.uasset
+
+[ST_VoiceLines/D2B79C864E6259D699DD82A5C08DBE12]
+Take good care of that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_cc11.uasset
+
+[ST_VoiceLines/D35C94624BE2926DDDEC41AB0AE7D014]
+This is Shani.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_2bd4.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_344b.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_Prefix_rec_7b03.uasset
+
+[ST_VoiceLines/D41B72F847785B2B9427A9BB87133411]
+Business as usual, then? Good. Routine means we’re still alive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier2_rec_d0fd.uasset
+
+[ST_VoiceLines/D4CDF3D949F29E44AB21EB94142A09A8]
+Hello again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_ddac.uasset
+
+[ST_VoiceLines/D5010E404AA45E17F81A13B6FD53537F]
+Uh-huh...?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_f6b4.uasset
+
+[ST_VoiceLines/D5F93FF14D0C29A1B9C86B821E572829]
+Deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_7fb7.uasset
+
+[ST_VoiceLines/D69A56144679BD5AED62FD964D2B2254]
+One of these days, I may even have time to shower.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_6dc5.uasset
+
+[ST_VoiceLines/D89BB8A3461AEFBC31E46D8723C12804]
+Always happy to help out a Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier2_rec_20d7.uasset
+
+[ST_VoiceLines/D8E5999D4D6D7F774F271AAA2464444F]
+Wait, what's that blip on my—? Oh, just a breadcrumb.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_920a.uasset
+
+[ST_VoiceLines/DAD08DDA456561490E1AE59C83CBF0AC]
+Hope that helps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_bf3f.uasset
+
+[ST_VoiceLines/DAE399244F2A8DAA9E5C81A5E5AFA794]
+Last warning: 2 minutes left, head back immediately. The window is closing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTwoMinutesLeft_rec_56b5.uasset
+
+[ST_VoiceLines/DB8D5BCC4EC9A54271689093BDBAD3D4]
+Great, I'm counting on you, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_QuestAccept_rec_68a6.uasset
+
+[ST_VoiceLines/DC8F69014268E1DC6781D7981368DE10]
+Alright, what’s this about?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_3678.uasset
+
+[ST_VoiceLines/DC9DD2D04A76E71D7EEDFDAA7EAC4DA0]
+Nine times out of ten, a quiet radar means a broken radar.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_70d5.uasset
+
+[ST_VoiceLines/DDC91DB54CD6246957A5E2A3F8CFBE3C]
+Busy day. Make it quick, alright?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_6997.uasset
+
+[ST_VoiceLines/DFA1123A48460EF1676BFEA7ADE37872]
+Central elevator crowd, take note. It's shutting down soon. Exit now or find another way out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownCentral_rec_c9d1.uasset
+
+[ST_VoiceLines/E0B068C2496D1408C484F1BAB0E6757F]
+Was it something else?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_1cc5.uasset
+
+[ST_VoiceLines/E1B8AB8446268CFC84D40CAB75FD5880]
+Make sure not to leave any Raider Hatches open.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_9aa9.uasset
+
+[ST_VoiceLines/E2F0124D453B55F4E6DF26830414B18B]
+Just wish the cantinas would deliver right to my door.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier2_rec_e0bc.uasset
+
+[ST_VoiceLines/E3FA22CD4342451015E70FAC69B7B228]
+North western elevator users, listen up! We're closing it down shortly. Hop on now or use another route.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_ElevatorShutdownNorthWest_rec_ca83.uasset
+
+[ST_VoiceLines/E46C39E54121ACDACBE6529F3CD9F617]
+Try not to lose it this time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_RaiderHatchKey_rec_37d2.uasset
+
+[ST_VoiceLines/E5B7369D40361EFD7E74749B0B23C7DE]
+Great, I can get back to it then.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_9bdd.uasset
+
+[ST_VoiceLines/E5D4ACBC4BA30276638ACDB45F214D7D]
+All yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_de40.uasset
+
+[ST_VoiceLines/E6303F8D437E22E51441639896A149C2]
+Sorry, didn't see you coming.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_310d.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_76df.uasset
+
+[ST_VoiceLines/E88C829449AB84E6FA5ADBBCCA2FB4F5]
+You thinking, or just staring?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_e9d4.uasset
+
+[ST_VoiceLines/E896CF0740B7D8922149158C7B43CACC]
+We’ve patched worse with less.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Fabric_rec_0a2f.uasset
+
+[ST_VoiceLines/E990DB3B45DDBCF544980AA3C057746B]
+No luck, huh? Try heading to the Arrival Building instead; they have a different model decryptor there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_CompleteObjective_Quest_ReinforceToledoDecrypt_Objective_DecryptionFailed_8d33.uasset
+
+[ST_VoiceLines/EACCB9B54942726F9EAC7E980DFD2D62]
+An ARC orbiter is en route. The safe window is closing. 10 minutes to get out of there. I repeat: 10 minutes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTenMinutesLeft_rec_6c20.uasset
+
+[ST_VoiceLines/EE02E3A444B116EF2E62FFA8FEF4D91F]
+Need more?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_0da0.uasset
+
+[ST_VoiceLines/EE3AB09949CBEE6BFFC797B5AA59D9AA]
+Plastic is always useful.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_PlasticParts_rec_528e.uasset
+
+[ST_VoiceLines/EEA1D3DD4F3344D2ACB0518235FF8705]
+Be aware, Raiders: ARC’s been behaving especially erratically today, and seem to be prone to escalating threats. We’ll open the Tubes back up as soon as we’ve found some pattern to this madness.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_ARCEscalation_rec_02f8.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Any/Dialogue_Shani_Any_SessionSpawn_RoundConfig_ARCEscalation_rec_5401.uasset
+
+[ST_VoiceLines/EF50B6464B59285E15B8698EA4D1FE2C]
+Cheap, light, and surprisingly vital.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_PlasticParts_rec_e4df.uasset
+
+[ST_VoiceLines/F05302054F154DCD5FF5878C109DDA5B]
+No, this is all I got, sorry.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_QuestToTrade_rec_78dd.uasset
+
+[ST_VoiceLines/F099AD834AB92886A905DDB3495EB482]
+It's not just support beams keeping this place from collapsing, you know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_cad5.uasset
+
+[ST_VoiceLines/F1966B0641249FEA88931381D7F960B2]
+Once an elevator's closed, we're not opening it back up for anyone.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_b214.uasset
+
+[ST_VoiceLines/F22DA839437F032AC8A9FE97EE272501]
+Have you been hearing any rumblings, in the distance?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_d88c.uasset
+
+[ST_VoiceLines/F238E13E42F07513987F14A68B87CEB3]
+Recyclable doesn’t mean reliable.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_PlasticParts_rec_89d3.uasset
+
+[ST_VoiceLines/F310559C406D457412809E9AA2EB30FC]
+Hm? Sure, take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_a291.uasset
+
+[ST_VoiceLines/F52DEE604369708B97D225B41BEC12BB]
+Yes...?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_5847.uasset
+
+[ST_VoiceLines/F7A8C6A34BFD5CBC63867691692C0679]
+Thought you were Celeste for a second. What's up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_d6fe.uasset
+
+[ST_VoiceLines/F8A7EF354F1AB5FA7777E28E8C554C82]
+Keep that safe.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Tier1_rec_d300.uasset
+
+[ST_VoiceLines/FA3BBC7A482E1A3E7C18E08491788F09]
+Do I even want to know what you’re doing with these?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_Item_Chemicals_rec_149e.uasset
+
+[ST_VoiceLines/FA56A2F641043F27254CD0BD5A7A485B]
+Let me know if you see any odd blips on the screens.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_rec_7e55.uasset
+
+[ST_VoiceLines/FA7F3276448AF3DE7409B4A68D6F05A9]
+If only my radars could track what the lot of you are up to.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBanter_Tier1_rec_112c.uasset
+
+[ST_VoiceLines/FC4512A844ED4E9BA877988DB2959208]
+Oh... Hey there... I'm busy, but help yourself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_Tier1_rec_a740.uasset
+
+[ST_VoiceLines/FC5710D248EA34E82F14DF9189CCE40C]
+If you’re here for business, let’s get on with it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTrade_rec_0eae.uasset
+
+[ST_VoiceLines/FE37DCE3494BDB66E241DB804E4D01BA]
+You're back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_2a2a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_EnterTradeSimple_rec_f3fd.uasset
+
+[ST_VoiceLines/FF886A6E4C00E54DDEC68290AB043294]
+Good thing to stock up before going topside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Frontend/Dialogue_Shani_Frontend_TradeBuyItem_rec_bf75.uasset
+
+[ST_VoiceLines/FFB1A6E7433692D531F858876AF23BA0]
+2 minutes remaining before Tube shutdown. Run for the exit or be cut off.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani/Salvage/Dialogue_Shani_Salvage_AnnounceTwoMinutesLeft_Level_StellaMontis_rec_0500.uasset

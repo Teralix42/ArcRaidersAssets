@@ -1,0 +1,72 @@
+ARC Raiders 2.2.0 — English
+ST_Time
+Source package: /Game/Pioneer/UI/Localization/ST_Time
+
+[FORMAT_DAYS]
+{0} {0}|plural(one=day,other=days)
+
+[FORMAT_MINUTES]
+{0} minutes
+
+[FORMAT_REMAINING]
+{0} remaining
+
+[FORMAT_SECONDS]
+{0} seconds
+
+[ID_FORMAT_TIME_FROM_TO]
+{0} - {1}
+
+[ID_FORMAT_TIME_HOUR_MINUTES]
+{0}:{1}
+
+[ID_FORMAT_TIME_HOUR_MINUTES_SECONDS]
+{0}:{1}:{2}
+
+[ID_FORMAT_TIME_MINUTES_SECONDS]
+{0}:{1}
+
+[ID_TIME_D]
+{0}d
+
+[ID_TIME_DAY]
+{0} day
+
+[ID_TIME_DAY_HOURS]
+{0}d:{1}h
+
+[ID_TIME_DEV_TIME]
+Dev Time: {0}
+
+[ID_TIME_ENDS_IN_DAY]
+Ends in {0} day
+
+[ID_TIME_H]
+{0}h
+
+[ID_TIME_HOURS_MINUTES]
+{0}h:{1}m
+
+[ID_TIME_LESS_M]
+< 1m
+
+[ID_TIME_LESS_MIN]
+< 1 min
+
+[ID_TIME_LESS_MINUTE]
+< 1 minute
+
+[ID_TIME_M]
+{0}m
+
+[ID_TIME_MIN]
+{0} min
+
+[ID_TIME_MINS]
+{0} mins
+
+[ID_TIME_MINUTE]
+{0} minute
+
+[ID_TIME_MINUTES]
+{0} minutes

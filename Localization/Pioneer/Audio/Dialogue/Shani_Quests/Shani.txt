@@ -1,0 +1,913 @@
+ARC Raiders 2.2.0 — Shani
+
+[ST_VoiceLines/003B85E04C889FB046EBCBA179D6A183]
+Raider. We could use your help.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_New_rec_57c6.uasset
+
+[ST_VoiceLines/015F302348BDE8F34B105BBD4B0942C4]
+Great news. Here, your reward.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_rec_2006.uasset
+
+[ST_VoiceLines/0226404E4164D6D4AB2E6B8EE744C43B]
+Did you hear that, Raider? I’ve never heard anything like it. Please get back here as soon as you can.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_OnboardingFieldDepotAntennas_Objective_WiresFixed_rec_89e1.uasset
+
+[ST_VoiceLines/02E0A9E74A7D64D57951ABBAB5CDB125]
+The storm has mostly settled, but much of our infrastructure has taken a proper beating. If you're hoping to stay with us, I'll need you to pull your weight in the repair efforts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingLootAreas_New_rec_823e.uasset
+
+[ST_VoiceLines/035EA45A499B601D7FE25A91F52DD1C2]
+I’ve identified the places most likely to give us a clean signal. Place the LiDAR scanners there, and don’t fall down, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_PlaceLidarScanners_rec_83d5.uasset
+
+[ST_VoiceLines/04F5C75A40B8CE7C9B701C83EC1A363A]
+The water intake below the Water Treatment Control building is the most likely place to find evidence of sabotage. I’d start there, if I were you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_WaterSaboteur_8c63.uasset
+
+[ST_VoiceLines/0549777F46D5E59111F1A29AD36ACF0E]
+A Turret. You'll find them lurking indoors; try to take them out before they spot you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingATurret_rec_cd24.uasset
+
+[ST_VoiceLines/06F021E04AEF4D279B637F8BBE20B9E9]
+If we’ve learned anything from dormant-looking ARC machines, it’s to anticipate a good scorching.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_DeforesterHusk_Accepted_49b7.uasset
+
+[ST_VoiceLines/07A47FA446C8208E52AC0AB64C55A2DB]
+Well done, the skies are a bit clearer. The parts found in these drones can be quite useful. Have you upgraded your workstations yet?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_MoreArcPartOne_rec_d496.uasset
+
+[ST_VoiceLines/097B190F41C5A67C4049E49F3FAA6C27]
+You can notice a Bombardier by the Spotters hovering overhead. Remember to take them out, stay on the move, and use overhead cover to patch up between barrages. Good luck.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_FightABombardier_6c17.uasset
+
+[ST_VoiceLines/09DC25364ADD00EF1A7AF49FD9D34919]
+You know, the task doesn’t complete itself. I checked.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_f2d2.uasset
+
+[ST_VoiceLines/0AFA466241C36FDCD06059898D825B44]
+Nice. The busted pipe is on the metro platform, down the stairs right behind you. See if you can fix that too, before you head back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_GetBearings_Objective_WiresFixed_rec_aefa.uasset
+
+[ST_VoiceLines/0B6EA5214937D3BF47B2DE93124AC293]
+Thank you. No details, please. Just take the reward and leave quickly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_SewageHumor_rec_16ee.uasset
+
+[ST_VoiceLines/0C90E1574E616962B9E288A1A620C116]
+Oh, and be careful whenever you head into Stella Montis. We still don’t know what to expect in there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroTwo_Accepted_rec_aeca.uasset
+
+[ST_VoiceLines/0CEF003F454A34B11D9AB29D2941F029]
+Ever since the Bombardiers arrived, we’ve had to approach Topside in a different way entirely. Don’t think a simple barricade is going to do the trick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_PrepForBombardier_Accepted_2a67.uasset
+
+[ST_VoiceLines/0DC1678A484A38893BE5909631FBA4E7]
+ARC has seemed especially erratic after the storm. I need my antennas working now more than ever.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingFieldDepotAntennas_Accepted_rec_aa13.uasset
+
+[ST_VoiceLines/0E40D8594E84B809B09D31BA8CD7AD42]
+Not to be dramatic, but delays get people killed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_b6db.uasset
+
+[ST_VoiceLines/123C92D5477B02B04A332C8A6833E0D8]
+We've been losing signals in some areas of Buried City. My guess is that our equipment is acting up. You’re quite skilled with repairs, aren’t you? Could you check it out?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_CommunicationHideout_New_rec_c10e.uasset
+
+[ST_VoiceLines/1412F550404BEB2D7D9122AF125D49C1]
+Hey there. Have a look. There are some things I need help with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_New_rec_2768.uasset
+
+[ST_VoiceLines/14B3B4164B932F0BDBD6B9AF340D0D42]
+You’ve handled it, haven’t you? Go on then.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_f9e2.uasset
+
+[ST_VoiceLines/14CA6A1A4BB91E1DD1AF1C8D288C0270]
+The damage down here was pretty bad, but our Topside infrastructure was hit even harder. I still have several antennas that stopped working after the storm.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingFieldDepotAntennas_New_rec_d05d.uasset
+
+[ST_VoiceLines/159A4A4E4206D08419044F8279D874E4]
+We'll need plenty of materials for repairs. I'll mark some good loot spots on your map; head up there, and see what you can find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_OnboardingLootAreas_rec_d874.uasset
+
+[ST_VoiceLines/192FCEEE4BE927677935F7A1070A94F7]
+Take down a few of the machines, and grab some ARC Alloy from their wrecks. I’d go for the small ones; no offense.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_OnboardingARCAlloy_rec_0fa2.uasset
+
+[ST_VoiceLines/19E7A55F4D6402E4C500A6BF24122068]
+You’re looking for shipping containers labeled 'J Kozma': that’s all the help I can offer.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_StellaMontisIntroTwo_9068.uasset
+
+[ST_VoiceLines/1ACACBD84D44E33C1D3603A4413923B1]
+Attention, Raiders: The North antenna has been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_Announce_HiddenBunker_North_rec_9753.uasset
+
+[ST_VoiceLines/1AF79194431DBE67624241B62D6749C0]
+Have you checked out that collapsed highway, yet?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_BlueGateIntroDestruction_Accepted_rec_3b19.uasset
+
+[ST_VoiceLines/1B42F0CB4600EFE9BD26168FBBC424BC]
+Thank you. Hope this comes to good use.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_rec_65db.uasset
+
+[ST_VoiceLines/1BC118E744AA171E85C9ABBB0A555C69]
+Just so you know, I’ve got a whole dossier on why stalling is a liability.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_14a2.uasset
+
+[ST_VoiceLines/1BE96656410387BC8B48A7B27732B211]
+During the First Wave, the Barons did more damage than all the other machines combined. Now they’re mere husks; fixed in place where they once fell... Still, their internals might hold the answer to keeping ARC at bay, so open one up and bring me whatever is inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_MoreArcPartTwo_New_rec_b35a.uasset
+
+[ST_VoiceLines/1C3C639B47E45A817085E78BF81CDA48]
+Our scouts have reported several Raider Hatches with leaking hydraulic pipes. They still work, but not for long. Mind patching one up, next time you’re out there?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_HatchRepairs_New_rec_e70c.uasset
+
+[ST_VoiceLines/1D1E3541490D3A338D00B6A59B85DF46]
+Now, time to see if that recon paid off. If we can teach Raiders to effectively counter Bombardiers up there, we’d be a lot safer down here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FightABombardier_New_4441.uasset
+
+[ST_VoiceLines/1D3E3565458F8FEE15A2FD93A4825FF7]
+Don’t forget to check in on the radio equipment the next time you stop by Buried City.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_CommunicationHideout_Accepted_rec_f814.uasset
+
+[ST_VoiceLines/22F66AFA4D2511CD8B6EE88B76E98A95]
+There’s an entrance in the southwest of the Departure Building, by the parking lot. You should find a staff locker room there; and with any luck, traces of the saboteur.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_FlushingTerminal_c6d7.uasset
+
+[ST_VoiceLines/282A25C54BFA048C2A762D8AF55D09E7]
+So, you’ve returned without results. Again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_f3ed.uasset
+
+[ST_VoiceLines/2964A23640099931B8C10F9AD4D9AE4B]
+All right: head back to that barrel you found, and see if you can find any clues as to its origins.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_WaterSaboteur_f680.uasset
+
+[ST_VoiceLines/299DC1DD4B52E0FC3C801CB5BE056458]
+Celeste lost her hatch key again, did she? And she sent a random raider over to fetch a new one for her. Honestly. Well, I do happen to have a spare key I could give you. However–very few things inside of these walls come for free, and this is no exception. I need someone who isn’t afraid to deal with ARC.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartOne_New_rec_2547.uasset
+
+[ST_VoiceLines/2C51F64B490E6F1F289C589C567932C5]
+You're better at this than most. And that’s not something I say often.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_8a7a.uasset
+
+[ST_VoiceLines/2D6BDE99426ED72DD51C63AAC3AB09ED]
+Pick a hatch, and patch it up. We need them now more than ever.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_HatchRepairs_rec_fd9b.uasset
+
+[ST_VoiceLines/2D7105BE45A59CFA92B0759FAA35DDD1]
+You deliver once again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_InvestigateArcPartFour_rec_9be8.uasset
+
+[ST_VoiceLines/3050E42A4EDB6B0F25E3FA800F03F3B1]
+With those Bombardiers roaming around, ARC has found an entirely new way to flush Raiders out of cover. If you’re hoping to take one down, you’ll need to sharpen your skills and your strategy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_PrepForBombardier_New_8037.uasset
+
+[ST_VoiceLines/309744B644D57780DBA34E9CE41136A5]
+Surveyors are full of rare ARC tech, so we might both come out of this ahead.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_StunARollbot_Accepted_rec_8d8c.uasset
+
+[ST_VoiceLines/3430258A4F91B28A766ACB838727656E]
+They left a key in the truck, huh? That’s certainly something to go on. You up for a trip to the Spaceport?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_WaterSaboteur_9b78.uasset
+
+[ST_VoiceLines/3585AE0648817FA11D209A973A9A9A67]
+The job’s done. I can see it on your boots. What are you waiting for?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_a25e.uasset
+
+[ST_VoiceLines/3659294C45CC23B37D6300B83BE168C2]
+A Hornet—their electric shocks are no joke. It takes some firepower to get through their armor.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingAHornet_rec_066b.uasset
+
+[ST_VoiceLines/375D602641D42F390CD8E79EE060C539]
+We've got clean water again, but we can't risk people falling ill if the saboteurs return. We need to root them out once and for all.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_WaterSaboteur_New_d362.uasset
+
+[ST_VoiceLines/375E4C8E463646D8BE0968A96A628283]
+Clock’s ticking. ARC isn't waiting around, and neither am I.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_1e7c.uasset
+
+[ST_VoiceLines/37F8E5E744A44411E4BEC5AA0AD85EA5]
+A flushing terminal, huh? That's what I thought. There’s only a handful of people who know how to work those, and they’re all in our own waste disposal department.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_FlushingTerminal_6e85.uasset
+
+[ST_VoiceLines/396DB89E48062841F8889BBBE8B49346]
+You can throw off a Bombardier’s aim by finding overhead cover, and by taking out the Spotters relaying your location. Let's see you do both.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_PrepForBombardier_c7d4.uasset
+
+[ST_VoiceLines/398C024F4E3377F360406DA25F517327]
+Go show them what you’re made of, and bring me back some trophies as proof.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_MoreArcPartOne_rec_5c26.uasset
+
+[ST_VoiceLines/3A8ED02843E5FB47EAED69876B0C58A5]
+Thank you. And good luck.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_rec_dc35.uasset
+
+[ST_VoiceLines/3AD06D6F4272E2A1A1822DB681DC5925]
+That key you found in the barrel truck… I won’t jump to accusations just yet, but this certainly reeks of an inside job. Could you investigate a hunch I have?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FlushingTerminal_New_2c5d.uasset
+
+[ST_VoiceLines/3B3939B14869D40037EA679C9292099C]
+Success unreported is just a rumour. Make it official.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_c400.uasset
+
+[ST_VoiceLines/3D4CDCC341140A81171F17A00CF64F60]
+There’s many different types of ARC up there. Try to map out as many as you can.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_Topside_rec_9e65.uasset
+
+[ST_VoiceLines/3E5DCADD4C8F35C5697B1E9A2BC76667]
+A Wasp; nasty little buggers. Don’t let them swarm you. aim for the thrusters, if you can.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingAWasp_rec_94eb.uasset
+
+[ST_VoiceLines/3FF7C7704799ED02338C1A95496B0208]
+Don’t forget to bring me back a Tick Pod as soon as you can.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartThree_Accepted_rec_ea0c.uasset
+
+[ST_VoiceLines/41E9C7F84C3FB375E7CB92A4BF35AD90]
+Radio equipment seems to be working again; that should help us track ARC this side of the Rust Belt. Now get yourself to safety.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_CommunicationHideout_Objective_FixPower_rec_250c.uasset
+
+[ST_VoiceLines/4279CC414C5F2D4FF97E7F9C94AA7D48]
+Nice work. If you ever need a breather, remember that the Backyard is always open if you want to try out new gear.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_GetBearings_rec_c175.uasset
+
+[ST_VoiceLines/429CC527475270FC38E6C7A3DF9D8BCB]
+I know that look. You’ve done it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_c2e0.uasset
+
+[ST_VoiceLines/4376FCF343EEF18B2597C5A2652BEA2F]
+Our operators confirmed that the radio equipment is working again. Thanks.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_CommunicationHideout_rec_d5c9.uasset
+
+[ST_VoiceLines/43EA4BB54B4C46E6D0D4C1B89E9FCB48]
+It was one thing when we thought they were just mining, but for them to be after organic material, too… An unsettling thought.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_DeforesterHusk_db5f.uasset
+
+[ST_VoiceLines/4676FE2E4F7ADEB7CFA046AF40D81E38]
+There’s not many Raiders who’ve faced a Leaper and lived. Yet here you stand; battered but victorious. We won't forget.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_FinalArcPartTwo_rec_4a96.uasset
+
+[ST_VoiceLines/4878591E4AC8A7BD197C488284C63708]
+I’d thank you for finishing it. But I’ll wait until you actually say so.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_a2b4.uasset
+
+[ST_VoiceLines/49D7E7F342A2D325D3257CA1522860B4]
+Thanks. Surveyors are particularly skittish, so I'd suggest you find a way to stun them before engaging.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_StunARollbot_rec_4deb.uasset
+
+[ST_VoiceLines/4AB803E6432C39E8CD0A73B5243621CA]
+There's no such thing as junk, to a Raider; just valuable materials waiting to be recycled. If you're going to amount to anything around here, you can't just wait for things to be served on a silver platter.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingRecycling_New_rec_e525.uasset
+
+[ST_VoiceLines/4ABC0A4C4AD9D9010FA7F5B980950368]
+A Surveyor; full of rare tech, that one. They're often more scared of you than you are of them, but in a panic, they'll bulldoze you all the same
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingARollbot_rec_1e06.uasset
+
+[ST_VoiceLines/4B3C9091492F0E8536A147836D9AF360]
+You'll have to be quick on your feet, Raider, because the Leaper does not take any prisoners. Remember the flags: stand tall, and stand proud.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_FinalArcPartTwo_rec_a11c.uasset
+
+[ST_VoiceLines/4B64FBCB404999155E0A7CB99F79C618]
+What is that smell? Oh! Raider, you’re back. Decided against taking that shower I mentioned, did you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_SewageHumor_Completed_rec_3147.uasset
+
+[ST_VoiceLines/4C93EB3E4839A890AC586CB35937278E]
+Keep your eyes peeled, Raider; we have Field Depots scattered all around Topside. You're looking for makeshift structures with blue tarps and an antenna on top.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_OnboardingFieldDepotAntennas_rec_2bde.uasset
+
+[ST_VoiceLines/4DB72E8C47CA3119FC8488AC6F7ABA5A]
+Still nothing? I don’t blame you. Think carefully about what you’re bringing up with you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FinalArcPartTwo_Accepted_rec_2e0c.uasset
+
+[ST_VoiceLines/4EA593DD45E8D6305A8D5B95AA63B772]
+You’re burning time I could be using to watch for real threats.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_9d3b.uasset
+
+[ST_VoiceLines/4FC33B1F4835AC5D2D8C749DCB38596D]
+If you spot a crate, deliver it to a nearby Field Depot. My team will take care of the rest.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_DeliverFieldCrates_rec_e802.uasset
+
+[ST_VoiceLines/503F0B0B497DA4999F36A9944628EB75]
+I have more work for you, if you want it. The ARC behaviors you reported earlier align with my previous observations. There’s a pattern here... I need someone to locate one of the crashed probes. Crack one open, see what's inside, and report your findings to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartTwo_New_rec_3a86.uasset
+
+[ST_VoiceLines/5044447442E3F5202872F4B357499E9B]
+Remember, Raider: if you stumble upon a crate, deliver it to a Field Depot so we can try to crack it open.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_DeliverFieldCrates_rec_ff0a.uasset
+
+[ST_VoiceLines/51529C1A485AFB20559351970DA4F2D0]
+I’m not much for praise, but you’re proving reliable.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_fad3.uasset
+
+[ST_VoiceLines/521BB48846EFA87D27F2BBAC50B89218]
+Reports about Stella Montis keep coming in, and it’s unlike anything we’ve seen before. There may be records or relics from the past in there, and if so, I want them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroTwo_New_rec_d3c3.uasset
+
+[ST_VoiceLines/54BB9F0140C93D0A72B60794862B92B7]
+A Bastion, their front plating is nearly impenetrable. You'll need to bring a lot more firepower if you hope to stand a chance.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingABastion_rec_dd83.uasset
+
+[ST_VoiceLines/568AE84A4B40C003035BDE8300501E8D]
+If you managed to weather that storm, a supply run should be no bother at all.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingLootAreas_Accepted_rec_bfbc.uasset
+
+[ST_VoiceLines/594EB3954DD2BD88BDD9E4A52142CB08]
+Keep your wits about you, Raider. When facing a drone, a careful shot to the thruster is far more effective than riddling them with bullets.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_MoreArcPartOne_rec_fb76.uasset
+
+[ST_VoiceLines/5A9073FC4921687454E00A875291B3FD]
+At this rate, ARC will go back to where they came from before you finish that assignment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_5ee4.uasset
+
+[ST_VoiceLines/5AB820C7466F48FB21077C90EFC07346]
+Got the logs, and… There’s a lot to unpack here. We’ll need some time to go through this; get home safe, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_ControlTowerConnection_Objective_UsedTerminal_rec_fd1d.uasset
+
+[ST_VoiceLines/5E1F82EB42791F466EB6A28A0BD5A562]
+A Rocketeer, slow, but devastating. You don't want to go anywhere near those in your current gear.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingARocketeer_rec_8e3d.uasset
+
+[ST_VoiceLines/5F6E281F440AA8A127A1938344CA4DCD]
+It’s not often I get my hands on Surveyor data, but I'd bet my hat this is tied to that signal we heard before. We’ll get to deciphering; thanks, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_StunARollbot_rec_8256.uasset
+
+[ST_VoiceLines/5FA0578E4EF124FD9C703CB83806D513]
+You’re back early. That’s rarely good.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_5d6d.uasset
+
+[ST_VoiceLines/5FDA0F874B377FC7E5CE4F9E5A51B3C9]
+A Spotter. It won’t harm you directly, but it’ll relay your location to others who most definitely will.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingASpotter_rec_f766.uasset
+
+[ST_VoiceLines/5FF8CE0042793C962D71979D1E1CE561]
+A Bombardier. Don’t think you’ll escape that one just by finding some cover.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingABombardier_rec_5922.uasset
+
+[ST_VoiceLines/609146AC4CB29A566006D8BEDF95FC0E]
+I see. Yes, that makes sense.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_InvestigateArcPartTwo_rec_3b8d.uasset
+
+[ST_VoiceLines/60C994C24F77EF5C070A36B41EB58B39]
+We get new arrivals every now and then, but they’re usually parched and underfed. None of them could have brought down that Deforester.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_BlueGateIntroNomads_Accepted_rec_d762.uasset
+
+[ST_VoiceLines/61BE4EBD41AA3AA2DC2D69A65EC497A7]
+I can hear the cheers from the cantina from here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_GetBearings_Completed_rec_5308.uasset
+
+[ST_VoiceLines/61DB36B44707173763778FB08F02FEBD]
+Keep an eye out for the clogged pipe down in the tunnels. Just hold your nose and take a shower before you come back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_SewageHumor_rec_99d1.uasset
+
+[ST_VoiceLines/6262F0BA4DCD3EAAE7C7BDB0DF3AC8F9]
+Did you see the flags? The time for cowering is over. You’ve been more than battle-tested, from what I hear; think you can take on a Rocketeer?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FinalArcPartOne_New_rec_153f.uasset
+
+[ST_VoiceLines/62956DF24B0219D3967687BCD2D69BCB]
+You can find Rocketeers mostly anywhere, but Leapers seem to stick to the areas around the Dam and the Spaceport.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_InvestigateArcPartFour_rec_220e.uasset
+
+[ST_VoiceLines/631613D64054F00B0E721889D344B327]
+Is that… Did you do it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FinalArcPartOne_Completed_rec_bf0f.uasset
+
+[ST_VoiceLines/637A4D794BE39278DC21B88269B480D4]
+Recycling is the name of the game when it comes to gathering materials. Show me you have what it takes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_OnboardingRecycling_rec_2dd4.uasset
+
+[ST_VoiceLines/669145104C0D565A800981A63E1637EC]
+Heard you found your way to those loot spots; good. It'll be a while before everything's patched up, so every bit helps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_OnboardingLootAreas_rec_5567.uasset
+
+[ST_VoiceLines/67450CE34FF3F9D85BE2DDBB7700C4EC]
+You can recycle loot while topside, or build a more efficient Refiner in your workshop.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingRecycling_Accepted_rec_4c1e.uasset
+
+[ST_VoiceLines/67CF7CE64CA38656DB7E03BC4A901584]
+A Sentinel. They're known to pick off Raiders from afar. Make sure you find good cover.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingASentinel_rec_c0f2.uasset
+
+[ST_VoiceLines/694FB0B642F91B5F5EC00989184CEFF3]
+Hold on, you’re saying it was downed, but free of bullet holes? And it stripped entire forests?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_BlueGateIntroDestruction_rec_286c.uasset
+
+[ST_VoiceLines/69A575614633CD3ACED24CBA1210A8FB]
+Job completed? You’ve got that look.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_33fd.uasset
+
+[ST_VoiceLines/6A8772CE496961260EE40E820A9338C9]
+I can scarcely believe it, you brought down a Rocketeer! We may stand a chance after all.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_FinalArcPartOne_rec_1b6c.uasset
+
+[ST_VoiceLines/6B08EB2147DE9D129E5EBABB665351D5]
+Oh, hey Raider. Sorry, I’m a bit preoccupied finding someone who can tackle this. A bunch of brats from Toledo decided to play a prank on us and rerouted the entire city’s sewage to our pipes, and predictably they stopped up. I don’t suppose you’d be willing to help?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_SewageHumor_New_rec_5e0f.uasset
+
+[ST_VoiceLines/6C1FCDC44DED3B9592D3B6A45AB01A4E]
+Hey, no rush with the... Wait, you actually did it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FinalArcPartTwo_Completed_rec_542c.uasset
+
+[ST_VoiceLines/6CB3BE754EA8BE8FEB7A6CAE731317F4]
+Whatever happened up there, it clearly didn’t stop you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_086a.uasset
+
+[ST_VoiceLines/6D027B584E6562CC17F538A7125893DE]
+You don’t want to be on the business end of their rockets. Don’t engage them unless you have a very good plan.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_InvestigateArcPartFour_Objective_PingRocketeer_rec_b8f6.uasset
+
+[ST_VoiceLines/6D4E13AE449F6C157EDDEEAA972D5E1F]
+The foreman may have left notes on where to find the LiDAR scanners. See if you can find any in the Jiangsu Warehouse.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_FindLidarScanners_rec_e1d3.uasset
+
+[ST_VoiceLines/6D60B9AF41D65513A70D67B4CD4E4A3D]
+The Pattern House is north of the Dam. You’ll recognize it by its… Well, you can guess.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_MarkPatternHouseTheDamPartTwo_rec_1d4d.uasset
+
+[ST_VoiceLines/6EB5A471424CAAA16E7C8884CAC8097C]
+You lost? Or just bored?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_4ffd.uasset
+
+[ST_VoiceLines/7030AAD84FF9F5210912E8B5EA6AF828]
+You’re not lost, are you? Just… detouring?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_ff6f.uasset
+
+[ST_VoiceLines/7054630848C05DE1611964A6786F7742]
+You have eyes on a Queen? I'd... I'd run the other way as fast as you can.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingAQueen_rec_136c.uasset
+
+[ST_VoiceLines/714E37704F08F1D3E20DA299F4D491ED]
+I hope those nasty things didn’t give you too much trouble.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_InvestigateArcPartThree_rec_24b2.uasset
+
+[ST_VoiceLines/73A758234B85E85F9CD116810506B624]
+Still catching your breath, huh? Take your time; excellent work bringing down that Bombardier.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_FightABombardier_e770.uasset
+
+[ST_VoiceLines/74F74D894114095B3B5D7882F626BFE5]
+That... That signal... Whatever it was, it sent chills down my spine. Go seek out Celeste; she'll want to hear all about this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_OnboardingFieldDepotAntennas_rec_140a.uasset
+
+[ST_VoiceLines/76ACADD440E8358523FD74A9D4AC5F20]
+Great. Get to the roof of any Field Depot, and see if you can get the antenna back online.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_OnboardingFieldDepotAntennas_rec_5713.uasset
+
+[ST_VoiceLines/771C505A41F3D6BEE6E456B6DBAE4C17]
+We call those Ticks. They'll go straight for your face, if you let them, and they rarely come alone.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingATick_rec_4851.uasset
+
+[ST_VoiceLines/796A5D83429737F2D716EE8653DE961B]
+Thanks; that should last a while. Here's some hatch keys for your efforts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_HatchRepairs_rec_7e0c.uasset
+
+[ST_VoiceLines/796C37CA4997FEB11981B0916DA43753]
+You’ll need to put the scanners pretty high up, so you may want to bring a zipline or two.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_PlaceLidarScanners_rec_b558.uasset
+
+[ST_VoiceLines/7C6C77F34690BC3920F5268F165ADA17]
+Any luck tracking those ARCs?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartFour_Accepted_rec_037f.uasset
+
+[ST_VoiceLines/7D42A6254390353D991DE9A7120ED3B0]
+That Deforester by the Blue Gate may have caused some real devastation, but a pristine husk like that is also an invaluable sample for our research.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_DeforesterHusk_New_019b.uasset
+
+[ST_VoiceLines/7F20B80D4EA5F832C5B8ADB4E4BF9BE3]
+Well done. Now take a deep breath, and see about facing one head-on.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_PrepForBombardier_8ace.uasset
+
+[ST_VoiceLines/80C9EEED44D4D5EEC65093A4A92A43E5]
+Whatever you're doing out there, it's not what I asked for.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_75a4.uasset
+
+[ST_VoiceLines/8216179A4C5B44E052B8AC99AE6F78F8]
+Well done. It's the mark of a great Raider to see treasure where others see junk. Keep at it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_OnboardingRecycling_rec_965a.uasset
+
+[ST_VoiceLines/835BA4504502DD45BFB762AADD805863]
+This one’s in the Pattern House, by the Dam. Get the comms and power working, and I’ll do the rest from down here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_MarkPatternHouseTheDamPartTwo_rec_0241.uasset
+
+[ST_VoiceLines/83C0B8CF4D33E27DDB5F9F9EEF44F3CB]
+Great. There’s a Baron husk near the Spaceport walls, and one in the swamp by the Dam.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_MoreArcPartTwo_rec_526c.uasset
+
+[ST_VoiceLines/8489DEF444D9695A505DF782A3C466B4]
+Attention, Raiders: The East antenna has been successfully activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_Announce_HiddenBunker_East_rec_f386.uasset
+
+[ST_VoiceLines/8640886345632B9B09EC41A79997B679]
+No need for ceremony. Just tell me it’s done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_356f.uasset
+
+[ST_VoiceLines/877DD07040346190DEBBFEA50BB2FAC0]
+ARC Alloy is strong and pure. It's the only way to fix reinforced concrete, as Apollo will tell you over and over.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingARCAlloy_Accepted_rec_c5d5.uasset
+
+[ST_VoiceLines/87E62DC94291699767C782B8B2B00CFC]
+Excellent, these are just what I need. Now, you’re not afraid of heights, are you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_FindLidarScanners_rec_c6cc.uasset
+
+[ST_VoiceLines/89E68362464B833A6DDB67B409E1DCFE]
+Head to the collapsed highway, and see if you can find any traces of what caused its destruction.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_BlueGateIntroDestruction_rec_634b.uasset
+
+[ST_VoiceLines/8B4A0BC34EA58D2DB86249A31EF06AE7]
+Rocketeers are no joke. Be quick on your feet, and make sure you keep something in between their rockets and your… Well, face.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_FinalArcPartOne_rec_8060.uasset
+
+[ST_VoiceLines/8B762EF14AADA9BC252099B8B6784B7E]
+A Leaper. Their stomping can be felt all the way down here. We’ll have to find a way to bring them down, before they collapse our tunnels.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_InvestigateArcPartFour_Objective_PingBison_rec_4814.uasset
+
+[ST_VoiceLines/8D8D32BB404403B5D374B79ED7A8B70A]
+We’ve received your crate, Raider; we’ll see if this time’s finally the charm. Sent up some rewards for your efforts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_DeliverFieldCrates_Objective_DeliverCrate_rec_2d79.uasset
+
+[ST_VoiceLines/905A98DC4B8650AF1868EA86967EA72C]
+Remember, Raider: you can wander around until you stumble upon what you need, or you can learn how to recycle and take matters into your own hands.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_OnboardingRecycling_rec_b05b.uasset
+
+[ST_VoiceLines/90AB8A044F3D616D3BA97BA0A9597A29]
+Thank you. That should keep the ceiling from coming down, for now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_OnboardingARCAlloy_rec_9790.uasset
+
+[ST_VoiceLines/91F6419C4E150C04B16215B669F2A542]
+Have you ever noticed those streaks of light darting across the skies? I’ve seen too much to believe they’re natural, but it’ll take more than a hunch to convince Celeste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_CalibrationDevice_New_3422.uasset
+
+[ST_VoiceLines/939079C343EBDFC439A909BC0FA3E0ED]
+Thanks. We can always use more crates, by the way. Our attempts to open them have so far been… A touch too destructive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_DeliverFieldCrates_rec_d579.uasset
+
+[ST_VoiceLines/93DBC59244953CA67E8873A7098FB548]
+Got a simple job that will make you popular around here. The coolers in the cantina stopped working, and it looks like some faulty wires in the Backyard are to blame. Why don't you head up there and see if you can fix them?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_GetBearings_New_rec_43cb.uasset
+
+[ST_VoiceLines/9433E75648168F7F50797E89FFA02D2D]
+Oh. Hello there. While you're here, could you help us out a bit?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_New_rec_87e1.uasset
+
+[ST_VoiceLines/952388DF474F52C9ECC959B2477C8FDE]
+No one sabotages Speranza’s drinking water on my watch.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_WaterSaboteur_Accepted_rec_17ad.uasset
+
+[ST_VoiceLines/96BC90A84FBDA2E4F0A566B21CC20EE4]
+You were thorough. Excellent. I’ll look through what you found and make sure to document it in our archives.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_StellaMontisIntroTwo_rec_b67b.uasset
+
+[ST_VoiceLines/97553A6F477B32718BC213945F6C1C4A]
+Be on your guard, Raider: even a Baron’s decayed husk can still hurt you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_MoreArcPartTwo_rec_85f5.uasset
+
+[ST_VoiceLines/983CBB9A4FABB0B132C618A0EF29FBBA]
+If the data you found can keep the ceiling from collapsing, we have no time to spare. I know of a few magnetic decryptors around Acerra Spaceport, from back during the Exodus. They might still be working.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_ReinforceToledoDecrypt_New_846a.uasset
+
+[ST_VoiceLines/9AAF10CD4466A62C0A55488D44707DCF]
+There’s a decryptor in the Fuel Control Building by Acerra Spaceport. See if it can read that data.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_ReinforceToledoDecrypt_a920.uasset
+
+[ST_VoiceLines/9D48D8D44658FF2C98642CBDBD28D219]
+Whomever brought down that Deforester, may have brought down other machines as well. See what you can find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_BlueGateIntroNomads_rec_c200.uasset
+
+[ST_VoiceLines/9DF33E7F4D0D2A79125F509FA48FA218]
+It can be hard to hear the tremors over all the petty squabbling, but I assure you: they're there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FindLidarScanners_Accepted_rec_14ec.uasset
+
+[ST_VoiceLines/A07ECE3C4549449A42DF7581B24DB6FA]
+A Leaper. Raiders much more experienced than you have tried to take one on, and very few returned in one piece.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingABison_rec_1310.uasset
+
+[ST_VoiceLines/A0EF4ABB470E3FDB5808DF8D48CF776D]
+I just need you to establish a brief connection, so I can get to my logs. Here’s the key to the room — keep it in a safe place.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_ControlTowerConnection_rec_3ba7.uasset
+
+[ST_VoiceLines/A1D314644973F6240F3B44B9E87D4353]
+Oh, another thing, one of the maintenance workers mentioned some busted pipes up there. See if you can fix that too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_GetBearings_rec_d2d4.uasset
+
+[ST_VoiceLines/A4C80FC24D7E37D2C9C66395BA19841E]
+A swarm of disoriented Wasps crashed near one of our skylights. I need you to help thin ARC's ranks before any more accidents happen, and gather some extra sturdy materials to fix the damage.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_OnboardingARCAlloy_New_rec_19bb.uasset
+
+[ST_VoiceLines/A565C17647536C92957B4C93BBA78E03]
+Make sure you're well prepared before you face a Rocketeer head-on. Find solid cover, and aim quick and true. A single misstep can be curtains call.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_FinalArcPartOne_rec_3f50.uasset
+
+[ST_VoiceLines/A781EA8F460EFA08E0F3DE967F533472]
+I've been working on a new scanning tool that sends back data from the field. See if you can ping some of the machines around Topside, then report back to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_Topside_New_rec_048f.uasset
+
+[ST_VoiceLines/A8A27C454C6D6760F0C521B1CA712A41]
+That worked; thanks, Raider! My last engineer left some Hatch Keys nearby; feel free to grab them while you’re there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_HatchRepairs_Objective_FixedPipes_rec_f260.uasset
+
+[ST_VoiceLines/AA3D71334234C11A99C0BDB0C4A81295]
+That quiet confidence suits you. Let’s wrap this up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_2245.uasset
+
+[ST_VoiceLines/AC42CD1E42C2F8A2AF46F5983B907023]
+Don’t forget about searching the drones after you take them down.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_MoreArcPartOne_Accepted_rec_6266.uasset
+
+[ST_VoiceLines/ACE41E7346EF81E3758F2489E6736FC5]
+See what you can find out about whomever brought down that deforesting machine. We need to know whether they’re friend or foe.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_BlueGateIntroNomads_rec_88df.uasset
+
+[ST_VoiceLines/B1BFFE3641BF4D43E88056A9C645E5D9]
+Didn’t expect to see you until the job was finished.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_5374.uasset
+
+[ST_VoiceLines/B33C753A4FE88BA49941C9B9741CDE81]
+The equipment in Control Tower A-6 is some of the most advanced I have at my disposal. I can’t afford having a gap in my data, especially while ARC clearly has something brewing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_ControlTowerConnection_rec_8415.uasset
+
+[ST_VoiceLines/B5AFEEB64F353D4093BCFA90A67510A3]
+Still here? Go decipher that data before some sinkhole invites a Bastion inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_ReinforceToledoDecrypt_Accepted_7b43.uasset
+
+[ST_VoiceLines/B6D5D52B433F248B863DB498A95CC0A8]
+I’d suggest keeping your weapon at the ready. Ticks can be rather… intrusive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_InvestigateArcPartThree_rec_4459.uasset
+
+[ST_VoiceLines/B7244A494C3BA98E961ACC9F99F9806F]
+We’re lucky that they seldom seem to come in pairs, if nothing else.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FinalArcPartOne_Accepted_rec_b743.uasset
+
+[ST_VoiceLines/B76193654F1E951328200C9D89E1F2E7]
+If you’ve lost the key to the room, you might find a new one around the offices at the Spaceport.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_ControlTowerConnection_Accepted_rec_4ccb.uasset
+
+[ST_VoiceLines/B911025C4485EAA9A04FDCA93295F2E5]
+Ah, that's a Snitch. Don’t let it spot you, or it’ll call in reinforcements.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingASnitch_rec_1dd9.uasset
+
+[ST_VoiceLines/B9F7DA494E26C9FF48AA7C983C92778F]
+I hope you haven’t forgotten about the small exchange we spoke of earlier?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartOne_Accepted_rec_754c.uasset
+
+[ST_VoiceLines/BBBD9F6F44E35EE5004FA1AAFBDEC237]
+Have you spotted any Surveyors; the big round ones? They seem to be transmitting data back into orbit, and I can’t help but think it's tied to that signal we picked up. Will you break one open, so we can try to decipher the data?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_StunARollbot_New_rec_bd2c.uasset
+
+[ST_VoiceLines/BE57C31746CDC0D7E9335B9A73174D0F]
+There's a magnetic decryptor in the Fuel Control Building. If it’s still working, it may be able to decipher that research on earthquake-resistant housing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_ReinforceToledoDecrypt_f6c2.uasset
+
+[ST_VoiceLines/BFE3D5C147A7EFB7B7E3EC99A6C8A292]
+Those logs were absolutely riddled with outlying data points. They might be faulty readings, of course, but they might… Not.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_ControlTowerConnection_rec_a844.uasset
+
+[ST_VoiceLines/C0F0695E48A8ABB340A8D69D9891BC41]
+That downed machine… We weren’t the ones who did that. We know that there are stray survivors out there, but this? This goes far beyond a single person.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_BlueGateIntroNomads_New_rec_93a5.uasset
+
+[ST_VoiceLines/C12E686F487697FF0C5FE7B2A9A796D4]
+I have equipment set up at the Spaceport, to monitor ARC’s movements. My connection broke down just now, I need you to head to the Control Towers and help me retrieve my logs.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_ControlTowerConnection_New_rec_e34c.uasset
+
+[ST_VoiceLines/C1A3F0A545728CD340D34D9C134F9D7C]
+Great work, Raider! Now we won’t just have to rely on our ears to monitor those tremors.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_PlaceLidarScanners_rec_fc67.uasset
+
+[ST_VoiceLines/C438957047B7A546B5CB7FA51BCA2772]
+The thought of all that potential knowledge being left up in Stella Montis makes me jittery.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroTwo_Completed_rec_c57a.uasset
+
+[ST_VoiceLines/C469C74343DB85B4ED20208DBF1B04F2]
+Quick version? Backyard, wires, pipes, back here in time for dinner.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_GetBearings_Accepted_rec_0b89.uasset
+
+[ST_VoiceLines/C4CA6E754175821DD05307BDB491D82C]
+The Bombardier’s not quite as heavily armored as the Bastion, but its mortars are a particular flavor of menace.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FightABombardier_Accepted_3d50.uasset
+
+[ST_VoiceLines/C58722704FDA327BB7B281A90AC2DBBB]
+I’ve sketched out a design for a device to track celestial movements, but it'll need some components that were only manufactured during the Exodus.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_CalibrationDevice_5c34.uasset
+
+[ST_VoiceLines/C647CD6B46EB32AB0C5B2C9AF02D8C20]
+Got your gun ready, Raider? Do keep your wits about you when you take on ARC. Too much noise, and you'll attract unwanted attention. And don’t forget to grab the alloy from the machines you bring down.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_OnboardingARCAlloy_rec_0266.uasset
+
+[ST_VoiceLines/C7287CA9407D3D4CCF25248B61C2EF0C]
+Have you seen one of the small, scuttling ARC machines yet? Awful things. We call them Ticks. I need you to acquire a pod from one of them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartThree_New_rec_429a.uasset
+
+[ST_VoiceLines/C77BA3EA4825CC80A7D978AF60108D19]
+Don't forget that you can find different types of loot in different locations. Check out your map, and head to any of the spots I've marked with an icon.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_OnboardingLootAreas_rec_7e61.uasset
+
+[ST_VoiceLines/C9D2117B4AFDA00481503DA0D4500D3A]
+It used to be their world, up there. Nobody to challenge their claim. Yet here we are. More outposts. More intel. More firepower. If I didn’t know better, I’d say we’ve got quite a bit of fight left in us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FinalArcPartTwo_New_rec_dc6c.uasset
+
+[ST_VoiceLines/C9E8FD80468B08BD784FA4BD0EB39083]
+Any luck with those probes yet?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartTwo_Accepted_rec_b8b1.uasset
+
+[ST_VoiceLines/CC01A6994A2FD29BB6CEC29F882CD5C0]
+Some combat recon is never a bad idea. When a barrage of mortars is lobbed your way, you don’t want to find yourself unprepared.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_PrepForBombardier_d42c.uasset
+
+[ST_VoiceLines/CCE7C6EB44CAB24736B3AAB2090D3B37]
+The foreman worked at the Jiangsu Warehouse, in the northwest of the Spaceport. See what you can find about a shipment of LiDAR scanners.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_FindLidarScanners_rec_433f.uasset
+
+[ST_VoiceLines/CD6A2DAF42FB4CE815546582BA691295]
+Yes, you could technically just buy the key from me, I suppose. But favors are worth more than money in here. You’d do well to remember that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_InvestigateArcPartOne_rec_6efb.uasset
+
+[ST_VoiceLines/CD79961946C80E56AC07A2AC646AF44C]
+Good. And here's your reward.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_rec_8a79.uasset
+
+[ST_VoiceLines/CF143DF04A33A00424669FAB1BE3DBB4]
+We’ve been trying to crack open those crates for ages, but so far, all of our attempts have destroyed the contents as well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_DeliverFieldCrates_Accepted_rec_f061.uasset
+
+[ST_VoiceLines/D13C563D42A70D9BB43846BFE3DA56E6]
+A job well done. Here’s the key, as promised.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_InvestigateArcPartOne_rec_7f5a.uasset
+
+[ST_VoiceLines/D1DC6B094202C4A6F0DC4FBCDFE0A7C1]
+ARC's really been bringing out the big guns, lately. I need you to get some scans of a Rocketeer and a Leaper - the better we understand them, the more we can do to fight back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_InvestigateArcPartFour_New_rec_f9ab.uasset
+
+[ST_VoiceLines/D616BFE6467EEAE22CDAE9827C816176]
+One of the returning Raiders mentioned breaking open an odd looking container and finding books inside. That sounds like a good place to start.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_StellaMontisIntroTwo_rec_e54f.uasset
+
+[ST_VoiceLines/D75903374C1CDA4EF5BFDFA9FEF7F942]
+Some machines are pretty lethal, but you can easily grab a scan from far away.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_Topside_Accepted_rec_6b74.uasset
+
+[ST_VoiceLines/D77D9B894CB65DD0F8C00B8BDC0B6C0A]
+See if you can find a way to open up that Deforester. By now, I trust you know to approach very carefully.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_DeforesterHusk_8240.uasset
+
+[ST_VoiceLines/D7F1ACA1473C69C8344A11AE1E9CBF44]
+ARC may be changing, but we’re finally changing with it. Let’s finish up those outposts so we can track them; flank them; smash them to bits.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_MarkPatternHouseTheDamPartTwo_New_rec_cd76.uasset
+
+[ST_VoiceLines/D7FC381245597F185021F6A6ECA27E0E]
+Have you noticed that stench, lately?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FlushingTerminal_Accepted_e470.uasset
+
+[ST_VoiceLines/D85A40C84439E0E7E99799852A4079A5]
+Unless you're here to stare at monitors with me, I suggest you report your results.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_0c9b.uasset
+
+[ST_VoiceLines/DA07806741B505CD42207CA88890F263]
+Raider hatches can get you out of trouble quickly and discreetly; we can’t have them breaking down.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_HatchRepairs_Accepted_rec_913a.uasset
+
+[ST_VoiceLines/DB8D5BCC4EC9A54271689093BDBAD3D4]
+Great, I'm counting on you, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_rec_c081.uasset
+
+[ST_VoiceLines/DC7F8D214C74D27175E47891B3C6746D]
+Perfect. Let me know when it's done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_rec_ef35.uasset
+
+[ST_VoiceLines/DDD9EF3A4E8E1D71A1A1008BB43767FB]
+The way they used to make the ground tremble when they walked… I’ll never forget it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_MoreArcPartTwo_Accepted_rec_eb41.uasset
+
+[ST_VoiceLines/DE4919874D3A7F6550812DB48C5B5590]
+Damn kids. Then again, with a whole bunch of teenagers cooped up with nothing to do, I’m surprised this doesn’t happen more often.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_SewageHumor_Accepted_rec_0d11.uasset
+
+[ST_VoiceLines/DE71985B4FC6FABBAB899482CA1986AD]
+Remember: if those Deforesters can strip away entire forests, they may not think twice about harming you, either.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_DeforesterHusk_5f21.uasset
+
+[ST_VoiceLines/DE733D1B42D526CD4549FAB374473A7A]
+Looks like the data's been fully destroyed. We'll have to figure out a different way to learn about their research.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_ReinforceToledoDecrypt_ef4c.uasset
+
+[ST_VoiceLines/DFA645344800A4A83D8FE58A57C5119A]
+Excellent. I know one outpost may seem like a small step, but every building we claim is proof that we’re not giving up on Topside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_MarkPatternHouseTheDamPartTwo_rec_b8bd.uasset
+
+[ST_VoiceLines/DFC21FA94E10B77D1DE0B09528FBE8FC]
+If you spot one of the Surveyors, try to stun it before you engage. They’re said to be full of rare ARC tech, so we might both come out of this ahead.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_StunARollbot_rec_d376.uasset
+
+[ST_VoiceLines/E11AF6B34F60B90C8DD4DFBE1E89244E]
+I’d be a lot more into stargazing if it’d get me some solid, verifiable data.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_CalibrationDevice_Accepted_102f.uasset
+
+[ST_VoiceLines/E470A64A407A10ECB8BD3CA142C152F7]
+Attention, Raiders: The South antenna has just been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_Announce_HiddenBunker_South_rec_b930.uasset
+
+[ST_VoiceLines/E66584344DA31564DCF9A080A6A2E4A5]
+Splendid work; these are hard to come by. Now... Where did I leave my duct tape?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_CalibrationDevice_da04.uasset
+
+[ST_VoiceLines/E7F3F2624B36603F163A09A3115CE723]
+Thank you. I’ve already reversed the sewage flow, but the blockage remain. Head on out to the pipe works in the Spaceport tunnels and see if you can’t unclog this particular pipe. Just hold your nose and take a shower before you come back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_SewageHumor_rec_c05a.uasset
+
+[ST_VoiceLines/E80265ED42738430822DEE9F640D10E4]
+The sooner we get the outpost set up, the better. I’m not ready to give up on Topside, and neither should you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_MarkPatternHouseTheDamPartTwo_Accepted_rec_02e8.uasset
+
+[ST_VoiceLines/E884E67840B219CF7FAC148290AFE077]
+If there’s still life in the Barons after all these years, these parts must contain a wealth of valuable data. I’ll get them analyzed; see what we can find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_MoreArcPartTwo_rec_db3c.uasset
+
+[ST_VoiceLines/E93A0D504BF343A8EFCDF1A8EB3BDB30]
+Crashed probes aren’t too uncommon; you should be able to find one without much difficulty.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_InvestigateArcPartTwo_rec_4cc4.uasset
+
+[ST_VoiceLines/EA877027442B610A5ACCB1A5F03A87DD]
+Head back to the valley by the Blue Gate, and see if you can find out what caused the highway to collapse.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_BlueGateIntroDestruction_rec_31bb.uasset
+
+[ST_VoiceLines/EB15379E4BD4E94F3926859F28FC9E72]
+Arrived safely? If you see any ARC around, ping them for me, and I can analyze their movement patterns. I'll see you down here when you get back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_DeployIntoTheDam_rec_cacf.uasset
+
+[ST_VoiceLines/EBCC81294BCF75AF8EDEA3AC4FAC1021]
+That collapsed highway worries me; it looks to be recent. Much of Topside may be in ruins, but most of it is from ages ago.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_BlueGateIntroDestruction_New_rec_b7a8.uasset
+
+[ST_VoiceLines/EC371172479E9AF3262CB6BD6EDCEA95]
+A Pop. Not much survival instinct in those, but they'll do whatever they can to take you down with them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingAPop_rec_732b.uasset
+
+[ST_VoiceLines/EC5B10F74A90E6522844C985399B5715]
+Those LiDAR scanners you found work best when put in a high locations. I’ve identified a few good spots around the Rust Belt; hope you’re surefooted.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_PlaceLidarScanners_New_rec_9363.uasset
+
+[ST_VoiceLines/ED228DCA4156E9B7E1C31694D5ABDE91]
+Thank you. This may help us find a way to contact them, assuming we can confirm that they're friendly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_BlueGateIntroNomads_rec_3b47.uasset
+
+[ST_VoiceLines/EE948887472E28A430F97FA5E5A0139D]
+That's a Fireball. They'll give you a good scorching, if you let them get close enough.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingAFireball_rec_4fb7.uasset
+
+[ST_VoiceLines/F18A130B40A86C3F4F2D198FC0F4AB38]
+Intel’s all well and good, but it only gets us so far. If ARC’s truly closing in, I need every Raider to prove they can handle their drones in a fight.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_MoreArcPartOne_New_rec_88ef.uasset
+
+[ST_VoiceLines/F18A1D3C4AAE158096DAD98AD4C4C526]
+Is that… A Matriarch? I’d tread very, very carefully. If you want to get anywhere near her, you’ll have to get past her children, first.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_CompleteObjective_Quest_Topside_Objective_PingAMatriarch_rec_a97e.uasset
+
+[ST_VoiceLines/F26722B540267A63EEC567AF6818A017]
+There’s a staff room in the Departure Building by Acerra Spaceport. Look for any clues about the saboteur’s identity.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_FlushingTerminal_a819.uasset
+
+[ST_VoiceLines/F2B351E2475EC4D4590B66A376840851]
+There's a specific part I need, but except for its model number, most information has been redacted during the Exodus. See if you can find the original documentation in the Assembly area.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_CalibrationDevice_928d.uasset
+
+[ST_VoiceLines/F391590F400ECF1402D298BD96DBC1A0]
+The Red Tower Hideout is in the Old Town, I'll let you guess the color. See if you can figure out what's wrong with the radio equipment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_CommunicationHideout_rec_c746.uasset
+
+[ST_VoiceLines/F431A3204C6E133C0038E7A7678487E9]
+Bombardiers have been spotted around The Blue Gate and Buried City. Make me proud.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_FightABombardier_87b5.uasset
+
+[ST_VoiceLines/F4B2E86E44B84426896DA2B056786C88]
+If you’re here for a chat, I’m fresh out of small talk and patience.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_25dc.uasset
+
+[ST_VoiceLines/F8E9751E4B499C05ACC6598024A9C4EF]
+Raider: the leaking hatches should be marked on your map. We need them now more than ever, so patch one up before it breaks down all the way.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_HatchRepairs_rec_53ad.uasset
+
+[ST_VoiceLines/F975D2174AFCC7352D5C57A0E89C9CBD]
+It used to be madness, to take on a Leaper head-on. But now? I think we might just have what it takes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_FinalArcPartTwo_rec_de52.uasset
+
+[ST_VoiceLines/F986FD4B446B688BA7AA78BDA7524DED]
+Those distant rumbles are getting less distant with each passing day. I have a lead on some LiDAR scanners that may help us monitor the tremors. You do want to keep a roof over your head, don’t you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_FindLidarScanners_New_rec_15a9.uasset
+
+[ST_VoiceLines/F9F424C14A7D9D69E5FC50B212BA9539]
+Great job; this is valuable data. ARC’s behavior is always changing, but these look particularly agitated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_CompleteQuest_Quest_Topside_rec_ab7b.uasset
+
+[ST_VoiceLines/FA6E40584C43E72E8AAFB1B62BCB0AD2]
+While you’re up there, try to scan as many types of ARC machine as you can, so I can analyze their movement patterns. Some are pretty lethal, but you can easily grab a scan from far away.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Any/Dialogue_Shani_Quests_Any_SessionSpawn_Quest_Topside_rec_ce50.uasset
+
+[ST_VoiceLines/FAB7598C4F0244EDADACFEAEDA2D55E6]
+The signal issues seem to stem from the Red Tower in Old Town, so I’d check the equipment over there first.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_AcceptQuest_Quest_CommunicationHideout_rec_29b9.uasset
+
+[ST_VoiceLines/FE06B3DA4C03A4883A76A589789B597A]
+You're back. And still intact. That's promising.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Completed_rec_ff39.uasset
+
+[ST_VoiceLines/FE87A4E44761CC961DE24BADA8B7F29B]
+Raiders have long reported peculiar-looking crates dropping down from malfunctioning ARC Probes. If we can figure out a way to crack them open, we might get a better understanding of what it is they’re after.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Quest_DeliverFieldCrates_New_rec_fafa.uasset
+
+[ST_VoiceLines/FFDDD1A9490FC3D64FB7839DB93D1167]
+If you’re hoping I’ll forget the task, I assure you I won’t.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_Quests/Frontend/Dialogue_Shani_Quests_Frontend_EnterQuest_Accepted_rec_2c93.uasset

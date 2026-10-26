@@ -16,7 +16,7 @@ The goal is to have easy accessible ARC Raiders assets for anyone to use.
 
 <sub>Join Blend raiders [Discord Server](https://discord.gg/8xZHEudWN2) for more information and help. More assets, paks and extracts on the [archive](https://drive.google.com/drive/folders/1BSm-QteBKxMn7CyHkg72xkPnjQRQJnJP?usp=sharing)</sub>
 
-![Arc Raiders Queen (Peppermint)](Examples/Peppermint_Render.png)
-![Arc Raiders Leaper (Bullcrab)](Examples/Bullcrab_Render.png)
-![Arc Raiders Firefly Scanning](Examples/firefly_scan.gif)
-![Arc Raiders Misthorn Character Outfit Store Image](Images/Store/TheMisthornSet.png)
+![Arc Raiders Queen (Peppermint)](Renders/Peppermint.png)
+![Arc Raiders Leaper (Bullcrab)](Renders/Bullcrab_angry.png)
+![Arc Raiders Firefly Scanning](Renders/Firefly_scan.gif)
+![Arc Raiders Misthorn Character Outfit Store Image](Images/Store/Store_2/Bundles_Outfit/16_9/T_UI_StoreTile_MistHorn_Recolor_16_9.png)

@@ -1,0 +1,9 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/MetaData/DA_QuestObjectiveParameterMetadata
+
+[[2].Properties.Texts[0].Text]
+Metal Scrap
+
+[[2].Properties.Texts[1].Text]
+Metal Scraps
+

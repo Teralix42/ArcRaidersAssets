@@ -1,0 +1,6 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Screens/Clans/Home/WBP_TopBarClanNameInfo
+
+[[2].Properties.Text]
+CLANNAME LOREM
+

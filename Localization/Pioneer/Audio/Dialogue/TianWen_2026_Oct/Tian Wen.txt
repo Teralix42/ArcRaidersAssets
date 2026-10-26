@@ -1,0 +1,93 @@
+ARC Raiders 2.2.0 — Tian Wen
+
+[ST_VoiceLines/040614FC4F5A9F1EF5D8FF9AF93C6812]
+I respect it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBuyItem_b020.uasset
+
+[ST_VoiceLines/12722E0C46C2777FC43158B38FC63A0A]
+Is this... Hope? I’ve heard of one or two being brought down, but to do it with such determination… You're an impressive one, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_CompleteQuest_Quest_QueensMatriarchsFight_2075.uasset
+
+[ST_VoiceLines/22EE300C411AF2926479E4964E3EEA9A]
+You can handle it, I'm sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBuyItem_b3a9.uasset
+
+[ST_VoiceLines/2985113B4FF7A8C2D10200A5C3085926]
+Had some kids ding-dong-ditch me, just now. So I guess I'm glad you're hovering.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_ab8a.uasset
+
+[ST_VoiceLines/3373687E4F407BE3EEB387A59CE40B31]
+Heard you’re looking to pick a fight with the big girls. Bring your best gear, but don’t think that alone will cut it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_EnterQuest_Quest_QueensMatriarchsFight_New_3438.uasset
+
+[ST_VoiceLines/33A597084794E622C4E128A84B9617B0]
+Make it your own.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBuyItem_2d48.uasset
+
+[ST_VoiceLines/5A952D234EF60C32E3A57F96B6E7061B]
+An engineer from Ferrovia built this door. Solid work, I say.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_0dca.uasset
+
+[ST_VoiceLines/5B4FF19B43CA49A306813C999669C4AB]
+I have a Murtetan on call for whenever I need a sight calibrated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_Tier2_8bc9.uasset
+
+[ST_VoiceLines/5D541B4D4DF696CB057BD586F0D63EF0]
+You look the part, at least.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_50c6.uasset
+
+[ST_VoiceLines/694554214C8604C727A1B1A06A29546C]
+When you’re in my line of work, it helps to befriend a few strategically placed Ferrovians.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_Tier2_4e80.uasset
+
+[ST_VoiceLines/74FB2FB44C1348186975E5A52F053DAC]
+You know what you're about. I can tell.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_EnterTrade_99c2.uasset
+
+[ST_VoiceLines/7B6E7E714C83CD846B32BEA144833DE9]
+It’s rare to see someone from Vaulto, here, but they do seem to love their Jupiters.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_Tier2_715d.uasset
+
+[ST_VoiceLines/8C2283314E0B399C4A56B0B705684544]
+Not going on instinct alone. The right call.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_2013.uasset
+
+[ST_VoiceLines/A6AB3B2841B136133DE38D83A437E4D7]
+There's not much view to take in, I know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_e0be.uasset
+
+[ST_VoiceLines/B1AC152E4AFAAE4EB4DAE9BEBCE348A2]
+Making sure you choose right. I get it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_5edc.uasset
+
+[ST_VoiceLines/B370E503409662057818D8B8C5555383]
+Nobody wrote anything embarrassing on the door, right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_683c.uasset
+
+[ST_VoiceLines/C03285684333293142A0BE956B285CD9]
+Got outbid by a Murtetan on a prime piece of hardware. Still not over it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_0427.uasset
+
+[ST_VoiceLines/C45F40944AEFB3CD8F40D381B32F897C]
+Heads up; if you see the Emperor transmitting a signal, that’s your chance to grab one of its beacons and use it to reroute the incoming payload.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Any/Dialogue_TianWen_2026_Oct_Any_SessionSpawn_RoundConfig_Redirection_155a.uasset
+
+[ST_VoiceLines/CE8E52F74E3FA5CFF2852898AC4F4B63]
+Stash up, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_EnterTrade_28c6.uasset
+
+[ST_VoiceLines/DA2B9CAC412B45C5F44A47A02D5ABD55]
+Didn't use to have nearly this much to choose from.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBanter_42e1.uasset
+
+[ST_VoiceLines/E98349F24FEB70DE27F1F88E43B0A68B]
+Tell your friends.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_TradeBuyItem_ffbc.uasset
+
+[ST_VoiceLines/F6B16E804A2CF086959BD1B792610BE8]
+Apollo’s ways may be crude and unrefined, but facing something that size… Well, perhaps precision isn’t what you need.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_EnterQuest_Quest_QueensMatriarchsFight_Accepted_0b6e.uasset
+
+[ST_VoiceLines/FDB6FA674A9A105A02EFD69503835417]
+I’ve seen too much hardware be wasted on brash blowhards without a plan. Don’t be one of them, all right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Oct/Frontend/Dialogue_TianWen_2026_Oct_Frontend_AcceptQuest_Quest_QueensMatriarchsFight_9226.uasset

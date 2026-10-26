@@ -1,0 +1,21 @@
+{
+  "ST_RaiderDen": {
+    "ID_RAIDERDEN_BUTTON_APPEARANCE": "Aussehen",
+    "ID_RAIDERDEN_FURNITURE_BED": "Bett",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT2": "Aussehen ändern",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT3": "Raider-Aussehen",
+    "ID_RAIDERDEN_FURNITURE_INSTALLED": "Neu möbliert",
+    "ID_RAIDERDEN_FURNITURE_INSTALLING": "Neue Möbel werden platziert …",
+    "ID_RAIDERDEN_FURNITURE_SHELVES": "Regale",
+    "ID_RAIDERDEN_FURNITURE_STASH": "Lager",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE_ALT2": "Verbessere dein Lager, um Lagerraum dazuzugewinnen, sodass du mehr Gegenstände sammeln und lagern kannst. Dies kann auch das Aussehen deiner Raider-Höhle verbessern.",
+    "ID_RAIDERDEN_FURNITURE_WARDROBE": "Kleiderschrank",
+    "ID_RAIDERDEN_FURNITURE_WEAPONDISPLAY": "Waffen-Display",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE": "Verbessert das Aussehen deiner Raider-Höhle."
+  },
+  "ST_WindowModes": {
+    "ID_WINDOW_MODE_FULLSCREEN": "Vollbild",
+    "ID_WINDOW_MODE_WINDOWED": "In Fenster",
+    "ID_WINDOW_MODE_WINDOWED_FULLSCREEN": "Vollbild in Fenster"
+  }
+}

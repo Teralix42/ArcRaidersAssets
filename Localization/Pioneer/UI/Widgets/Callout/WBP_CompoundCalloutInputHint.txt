@@ -1,0 +1,6 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/Widgets/Callout/WBP_CompoundCalloutInputHint
+
+[[13].Properties.InputText]
+Text
+

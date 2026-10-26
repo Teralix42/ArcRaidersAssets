@@ -1,0 +1,60 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/MetaData/DA_QuestObjectiveMetaData
+
+[[4].Properties.ObjectiveDescriptionTemplate]
+Buy {Amount} {Item}
+
+[[8].Properties.ObjectiveDescriptionTemplate]
+Complete Quest: {Quest}
+
+[[20].Properties.ObjectiveDescriptionTemplate]
+Complete {Amount} {Cadence} Quests
+
+[[3].Properties.ObjectiveDescriptionTemplate]
+Craft {Amount} {Item}
+
+[[11].Properties.ObjectiveDescriptionTemplate]
+Deal Damage {Amount} Times
+
+[[15].Properties.ObjectiveDescriptionTemplate]
+Deal {Amount} damage
+
+[[1].Properties.ObjectiveDescriptionTemplate]
+Deliver {Amount} {Item}
+
+[[10].Properties.ObjectiveDescriptionTemplate]
+Destroy {Amount} Parts
+
+[[9].Properties.ObjectiveDescriptionTemplate]
+Heal {Amount} Players
+
+[[19].Properties.ObjectiveDescriptionTemplate]
+Interact with {Target}
+
+[[14].Properties.ObjectiveDescriptionTemplate]
+Kill {Amount} {Target}
+
+[[13].Properties.ObjectiveDescriptionTemplate]
+Obtain {Amount} {Item}
+
+[[17].Properties.ObjectiveDescriptionTemplate]
+Ping {Item}
+
+[[7].Properties.ObjectiveDescriptionTemplate]
+Play {Amount} Round(s)
+
+[[6].Properties.ObjectiveDescriptionTemplate]
+Receive {Amount} damage
+
+[[16].Properties.ObjectiveDescriptionTemplate]
+Recycle {Amount} {Item}
+
+[[18].Properties.ObjectiveDescriptionTemplate]
+Sell {Amount} {Item}
+
+[[12].Properties.ObjectiveDescriptionTemplate]
+Take {Amount} Photos
+
+[[2].Properties.ObjectiveDescriptionTemplate]
+Visit {POIVolume}
+

@@ -1,0 +1,49 @@
+ARC Raiders 2.2.0 — Shani
+
+[ST_VoiceLines/0D64A3B34691BC7EEE0544AD0F650E2E]
+Raider, it's freezing cold outside. If you're going out to pick Candleberries, be careful and beware of frostbite.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_RoundConfig_Frostbite_bebc.uasset
+
+[ST_VoiceLines/0EF8C2B240350029486834A98F013F4B]
+That housing project, the salt batteries… Seems like every initiative worth a damn was eventually discontinued.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Frontend/Dialogue_Shani_2026_Feb_Frontend_EnterQuest_Quest_MantikorSpeech_Accepted_15e4.uasset
+
+[ST_VoiceLines/2F8EF5A44041701DB9A3028FA6629927]
+We’ve got word of a patrolling Queen nearby. That means a Harvester is there. Be careful, and make sure you’re well equipped and brought backup if you do try to take it on.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_RoundConfig_Harvester_31bc.uasset
+
+[ST_VoiceLines/3D28446C43AE76469491319D893CB53F]
+I… I don’t get it. One day they were trying to stave off the Collapse, and then, suddenly… Nothing. That earthquake-resistant housing project was shut down by a group named MANTIKOR. Think you could find out more?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Frontend/Dialogue_Shani_2026_Feb_Frontend_EnterQuest_Quest_MantikorSpeech_New_750e.uasset
+
+[ST_VoiceLines/5B03602D4A7A636C75B0739A792B54C2]
+Doesn’t sound like they failed to keep the world from collapsing; sounds like they gave up halfway through.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Frontend/Dialogue_Shani_2026_Feb_Frontend_CompleteQuest_Quest_MantikorSpeech_9abe.uasset
+
+[ST_VoiceLines/5C56637841F193C4A94C17ADAAF18418]
+Alert! More than one Queen has been reported nearby. We don’t know what they’re up to, since they do not seem to be defending a Harvester.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_RoundConfig_TheQueens_f74b.uasset
+
+[ST_VoiceLines/5F6E35C04886A27BCFDFC1B2F4EF782B]
+Keep your eyes peeled up there. There are plenty of dangers hiding in the dark, and ARC is being extra vigilant.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_RoundConfig_NightRaid_d8eb.uasset
+
+[ST_VoiceLines/65EBFF2E4780315009F43D801FCCEAC7]
+Visibility’s dropping fast out there. If you’re heading out, stay low and use landmarks to navigate. If you can’t see the next piece of cover, you’re already pushing it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_RoundConfig_WindStorm_7ed8.uasset
+
+[ST_VoiceLines/A6AD87904C1398C53C91AFA8E1C19ED4]
+From what I know, MANTIKOR was holed up deep underground. Search for any clues that point to why they gave up so suddenly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_Quest_MantikorSpeech_bbe9.uasset
+
+[ST_VoiceLines/B9CFD28A48E23102E2A178889FBC9499]
+See if you can breach MANTIKOR’s facilities, and find out about why they abandoned that housing project.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Frontend/Dialogue_Shani_2026_Feb_Frontend_AcceptQuest_Quest_MantikorSpeech_cfde.uasset
+
+[ST_VoiceLines/E55E9B464D9762A4202E5BB99630C973]
+If you're going out searching for Candleberries, now's a good time. But it's freezing cold outside so beware of frostbite.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_RoundConfig_Frostbite_8419.uasset
+
+[ST_VoiceLines/FBA8C21346840803F829F295B49E8B0F]
+That’s one monster of a lightning storm. If you must venture out beneath the open sky, then be careful!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Feb/Any/Dialogue_Shani_2026_Feb_Any_SessionSpawn_RoundConfig_ElectroStorm_342d.uasset

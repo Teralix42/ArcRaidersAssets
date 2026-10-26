@@ -1,0 +1,41 @@
+ARC Raiders 2.2.0 — Lance
+
+[ST_VoiceLines/4766AB124F7784BC979081B445BD3B94]
+You didn’t hear it from me, but the hotel is where Celeste used to skip down the hallways. Before all this went down, I mean. Check there, first.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Any/Dialogue_Lance_2026_Oct_Any_SessionSpawn_Quest_ChildhoodDrawings_d0bc.uasset
+
+[ST_VoiceLines/560B8D804A8520E0DB9148BFBF09CBBB]
+The android prototypes are in a shipment crate, dangling off the Trench Towers. Be… Gentle.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_AcceptQuest_Quest_PreciousCargo_5972.uasset
+
+[ST_VoiceLines/6DB483C84FADF7744C41A39C9F1B0E7A]
+To think I may have kin just dangling in a shipment crate… What horror! What unspeakable horror!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_EnterQuest_Quest_PreciousCargo_New_e782.uasset
+
+[ST_VoiceLines/79BBEE944070A648548B7AA6F6506A12]
+Say, pal, has Celeste seemed a bit down, to you? Listen, I think I know something that might brighten her day. Do you know the hotel around Riven Tides?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_EnterQuest_Quest_ChildhoodDrawings_New_385e.uasset
+
+[ST_VoiceLines/9A99051E4EB3FD6C11349087C9A56F19]
+She's told me about that day many times, but to see such a breathtaking artistic rendition…
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_CompleteQuest_Quest_ChildhoodDrawings_990b.uasset
+
+[ST_VoiceLines/9FDAF557417624147FE1CF8969A02C03]
+There’s a particular hotel room that Celeste… Well, you’ll see for yourself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_AcceptQuest_Quest_ChildhoodDrawings_d6b8.uasset
+
+[ST_VoiceLines/B0592B1A414E9720B9869B8F9CA3DF47]
+So that’s what empathy looks like, huh? I always knew it would look just like a hard drive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_CompleteQuest_Quest_PreciousCargo_9461.uasset
+
+[ST_VoiceLines/D6196CE8413921B36A495F8233DD227D]
+Whatever you retrieve from those crates, don’t show it to Tian Wen. She’d sell yours truly for parts, if she ever got the chance.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_EnterQuest_Quest_PreciousCargo_Accepted_a82e.uasset
+
+[ST_VoiceLines/D886AD5B4B29F1BFB3321EABA0D0894D]
+The crate’s latched onto the arm using a magnetic lock. I’m sure I can trust you to find an elegant way to bring it down, yes?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Any/Dialogue_Lance_2026_Oct_Any_SessionSpawn_Quest_PreciousCargo_1085.uasset
+
+[ST_VoiceLines/FDCD656941C7DA245DE4898807E21FC3]
+Didn’t notice Celeste seemed down, huh? Well, we can’t all have my perfectly calibrated sense of human empathy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Oct/Frontend/Dialogue_Lance_2026_Oct_Frontend_EnterQuest_Quest_ChildhoodDrawings_Accepted_d155.uasset

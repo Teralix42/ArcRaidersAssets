@@ -1,0 +1,27 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Screens/InventoryFake/WBP_InventoryFakeScreen
+
+[[5].Properties.Text]
+Full Stacks
+
+[[53].Properties.Text]
+Grant Tracked Resources
+
+[[6].Properties.Text]
+Meta  Inventory
+
+[[7].Properties.Text]
+Pending additions
+
+[[3].Properties.Text]
+Player Inventory
+
+[[54].Properties.Text]
+Save Inventory As JSON
+
+[[4].Properties.Text]
+User Facing Only
+
+[[2].Properties.HintText]
+type filter here
+

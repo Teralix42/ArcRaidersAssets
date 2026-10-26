@@ -1,0 +1,37 @@
+ARC Raiders 2.2.0 — Tian Wen
+
+[ST_VoiceLines/1024715D42BCEA6B8223E2AF0FA83F0E]
+You do know how to procure rare parts. And how to jump out of the way, it seems.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Frontend/Dialogue_TianWen_2026_April_Frontend_CompleteQuest_Quest_DestroyAComet_fe28.uasset
+
+[ST_VoiceLines/19A133A14CEBF0B13B0B1FA24A62C993]
+Never thought I’d see one of these in real life! This’ll let me… Ah, you’ll see soon enough.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Frontend/Dialogue_TianWen_2026_April_Frontend_CompleteQuest_Quest_MutinySpreadingRivenTides_b0b3.uasset
+
+[ST_VoiceLines/220A545A46E96D1E8150C2B420938D1D]
+Many Raiders have learned how to dodge a Comet, but far too few know how to bring them down and get at their inner parts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Frontend/Dialogue_TianWen_2026_April_Frontend_EnterQuest_Quest_DestroyAComet_New_19a0.uasset
+
+[ST_VoiceLines/426DBAB845CC515E7CE2E7B3D5527CA0]
+Had a Raider here who mistook a Comet for a Surveyor. It was the explosion that gave it away, in the end.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Frontend/Dialogue_TianWen_2026_April_Frontend_EnterQuest_Quest_DestroyAComet_Accepted_ce4a.uasset
+
+[ST_VoiceLines/AA28A98A48D53C213F49808D3C884CFE]
+Seems like news of the train derailment spread fast… And drove many workers to stash some very tasty technology away from prying eyes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Frontend/Dialogue_TianWen_2026_April_Frontend_EnterQuest_Quest_MutinySpreadingRivenTides_New_0bde.uasset
+
+[ST_VoiceLines/E9F1F3F74AF1076B26FE86923B5BA41B]
+Those mutineers were getting bolder, that’s for sure. Says here they were talking about hiding a precision gimbal meant for the shuttles… No measly piece of tech, that’s for sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Frontend/Dialogue_TianWen_2026_April_Frontend_EnterQuest_Quest_MutinySpreadingRivenTides_Accepted_ad39.uasset
+
+[ST_VoiceLines/F41DB8AB412CDA88D41184867C11FF68]
+Take out a Comet before it can detonate. Scorched parts are of no use to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Frontend/Dialogue_TianWen_2026_April_Frontend_AcceptQuest_Quest_DestroyAComet_10bf.uasset
+
+[ST_VoiceLines/F547A88A4B43EE73B7E2138ABEA8DC5E]
+Remember: you can only get at the Comet’s igniter if you destroy it before it detonates. Not much I can do with soot and ash.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Any/Dialogue_TianWen_2026_April_Any_SessionSpawn_Quest_DestroyAComet_c2d5.uasset
+
+[ST_VoiceLines/F992BEB744A2E6DAAB6C83BE625BE7FA]
+Seems like the kitchen staff at the hotel restaurant were in on the plot to hide parts needed for the spaceships. See what you can find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_April/Any/Dialogue_TianWen_2026_April_Any_SessionSpawn_Quest_MutinySpreadingRivenTides_cafc.uasset

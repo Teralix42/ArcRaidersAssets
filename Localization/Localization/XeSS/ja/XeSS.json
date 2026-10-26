@@ -1,0 +1,21 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "AI ベースのアンチエイリアシングにより、画質を最大限に高める",
+    "XESS_BALANCED": "バランス",
+    "XESS_BALANCED_DESCRIPTION": "パフォーマンスと画質のベストバランス",
+    "XESS_PERFORMANCE_DESCRIPTION": "ハイパフォーマンスの実現",
+    "XESS_QUALITY_DESCRIPTION": "高品質のビジュアル・アップスケール",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "より高品質のビジュアル・アップスケール",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "最高のパフォーマンス向上",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "最高品質のビジュアル・アップスケール",
+    "XESS_DESCRIPTION_MINIMUM": "インテル® Xe スーパー・サンプリング (XeSS) テクノロジーは、AI を使用して、優れた画像品質によるパフォーマンスの向上を実現します。",
+    "XESS_DESCRIPTION_SHORT": "インテル® Xe スーパー・サンプリング (XeSS) テクノロジーは、AI を使用して、優れた画像品質によるパフォーマンスの向上を実現します。XeSS は、AI アクセラレーション・ハードウェア搭載インテル® Arc™ GPU 向けに最適化されています。",
+    "XESS_OFF": "オフ",
+    "XESS_PERFORMANCE": "パフォーマンス",
+    "XESS_QUALITY": "クオリティ",
+    "XESS_OFF_DESCRIPTION": "インテル® XeSS をオフにする",
+    "XESS_ULTRA_PERFORMANCE": "ウルトラ・パフォーマンス",
+    "XESS_ULTRA_QUALITY": "ウルトラ・クオリティ",
+    "XESS_ULTRA_QUALITY_PLUS": "ウルトラ・パフォーマンス・プラス"
+  }
+}

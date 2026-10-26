@@ -1,0 +1,6 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/Configuration/InputMappingContexts/IMC_RaiderProjects
+
+[[0].Properties.HintTextOverride]
+Ctrl
+

@@ -1,0 +1,41 @@
+ARC Raiders 2.2.0 — Celeste
+
+[ST_VoiceLines/182A050A4E7EB5641ECFABB5355BE4D0]
+The mutineers were gathering supplies; preparing for something big. Track down their stash, and we might learn more.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_AcceptQuest_Quest_MutinySpreadingSpaceport_286a.uasset
+
+[ST_VoiceLines/1C819D5B4814963895D9D39D7B8B1A55]
+You actually found it? That’s… Head back here, and tell me all about it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Any/Dialogue_Celeste_2026_April_Any_CompleteObjective_Quest_MutinySpreadingSpaceport_Objective_FoundMutinyStash_56b0.uasset
+
+[ST_VoiceLines/33B8FEDE44C7E2E54901808493549AB0]
+A single train derailment can be an accident, but an entire headquarters full of plans? They were no longer playing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_CompleteQuest_Quest_MutinySpreadingBuriedCity_3e86.uasset
+
+[ST_VoiceLines/33EB02114AF18C62A32EF6A44F1336D0]
+Engineers, dockworkers, hotel staff… From that headquarters you found, workers from all across the Rust Belt seemed to have found each other.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_EnterQuest_Quest_MutinySpreadingSpaceport_Accepted_d585.uasset
+
+[ST_VoiceLines/6B1E66D041BA14120A01CFBE6E73B0B6]
+That Stella Montis hard drive contained more than just the shutdown documentation - it also had the transport schedules of some pretty critical Exodus components.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_EnterQuest_Quest_MutinySpreadingBuriedCity_New_1b06.uasset
+
+[ST_VoiceLines/8936A99E4BC05B1C0B6216A42F9EFCFD]
+These aren’t pinpricks, anymore. This many people; this elaborate of a plan. Something big was clearly brewing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_CompleteQuest_Quest_MutinySpreadingSpaceport_da4f.uasset
+
+[ST_VoiceLines/8E87DB7D4782FBBE04C6C183DDDB3D8D]
+Looks like the resentment ended up reaching the ground staff of the Spaceport itself. A mutiny brewing, right in the heart of the Exodus.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_EnterQuest_Quest_MutinySpreadingSpaceport_New_e082.uasset
+
+[ST_VoiceLines/9DBA6D814D2A291B58A212A8986436DB]
+Says here that some crucial thruster valves headed for Marano Station never arrived. One of the first incidents ever logged.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_AcceptQuest_Quest_MutinySpreadingBuriedCity_5c81.uasset
+
+[ST_VoiceLines/A3DB2E0745A689EBDCC0959A5CF4DC26]
+We owe so much to this researcher, Andrea, for smuggling that hard drive out of Stella Montis. It contained internal memos, patents, and plenty more we’re still finding out about.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Frontend/Dialogue_Celeste_2026_April_Frontend_EnterQuest_Quest_MutinySpreadingBuriedCity_Accepted_0962.uasset
+
+[ST_VoiceLines/E3C9B2F14F669BEE4CA22291CA8E41C8]
+There's no way an entire train shipment could've gotten intercepted without some kind of inside help.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_April/Any/Dialogue_Celeste_2026_April_Any_SessionSpawn_Quest_MutinySpreadingBuriedCity_9580.uasset

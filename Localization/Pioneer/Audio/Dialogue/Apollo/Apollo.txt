@@ -1,0 +1,1227 @@
+ARC Raiders 2.2.0 — Apollo
+
+[ST_VoiceLines/000D3669490140CA62671AB2CDE292DC]
+Back again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_0598.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_294e.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_453a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_7e6d.uasset
+
+[ST_VoiceLines/00579052472FB6F1E54454AE5B76AC01]
+Come on in! Just don’t touch anything that’s ticking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_e65d.uasset
+
+[ST_VoiceLines/0199416F4BA4A85BFA2A88A23DBFDE3C]
+Red, like the Red Lakes near the Dam.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RedGlowstick_b10c.uasset
+
+[ST_VoiceLines/024E6BFB4C395B7C9BD417A99FE4DA59]
+Always nice to see a fresh face. If you're looking to blow some stuff up, I got you covered.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_06a2.uasset
+
+[ST_VoiceLines/0270A586491168F2D6787A8BBD4A231A]
+Ah, hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_de0b.uasset
+
+[ST_VoiceLines/02B826B944A5E87F0BB471A614A662EB]
+I swear I fixed this thing already.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_7013.uasset
+
+[ST_VoiceLines/03EB4583445742FFC87848A891CB9518]
+Try not to lock yourself in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_DoorBlocker_ac8b.uasset
+
+[ST_VoiceLines/04B01AD249ADE147356CE984DB3147B3]
+Make sure to share cover with your fellow Raiders.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BarricadeKit_fb21.uasset
+
+[ST_VoiceLines/06C7BC0647DA94BBC241648BA04330B5]
+Blue, just like the sky.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BlueGlowstick_84e7.uasset
+
+[ST_VoiceLines/073F37794409C18C82242699288AE9B6]
+Whenever you're ready.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_07.uasset
+
+[ST_VoiceLines/08A41ACC40CD9FFB3417BAB60B3CB013]
+I'm almost jealous of you. Always wanted to try one of these.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Snaphook_9b2e.uasset
+
+[ST_VoiceLines/08C748204EE68F5004142ABC957B1605]
+Hey there
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_a46d.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_164d.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_61b0.uasset
+
+[ST_VoiceLines/0A57A4EA4F919DD014642CAB4A714855]
+Make sure you brace yourself before detonating.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineImpulse_e74c.uasset
+
+[ST_VoiceLines/0C4E51284AEB4E644BD2FDA0912E0996]
+Make sure your aim is good when you throw that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SnapBlastGrenade_e8ad.uasset
+
+[ST_VoiceLines/0E620AA948F89F03A1CAA3A51FFF6622]
+You’ve got good timing. Just restocked the good stuff.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_4df4.uasset
+
+[ST_VoiceLines/0E92BC054C49BC24FA7685936004443D]
+No wrong choices here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_2991.uasset
+
+[ST_VoiceLines/10CBC10F4225BC6CF76B199B74A7EB00]
+Need anything else, just let me know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_03.uasset
+
+[ST_VoiceLines/10D99E7A4112C849D35F55B2A34E0BE7]
+Shocking!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JoltMine_9bd3.uasset
+
+[ST_VoiceLines/10E4188E4569E2384F433B8E3710834D]
+Oof, gas grenade, huh? Just be careful with it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_GasGrenade_8d31.uasset
+
+[ST_VoiceLines/1219B86B49B370ED046F16B146FBE0BF]
+I wanted to call these Push Mines. But the names preferred by Raiders tend to stick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineImpulse_4089.uasset
+
+[ST_VoiceLines/127EB8AF44852C9ACE466D83F733E273]
+Feel free to browse. But watch your step.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_bb3e.uasset
+
+[ST_VoiceLines/130310EC487A7D3A19A31F95ECEF0BAD]
+Need something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_c16c.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_0dc2.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_355b.uasset
+
+[ST_VoiceLines/1517C213441641A427912984FAEFE7B9]
+Solid pick. Should treat you well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_a5a7.uasset
+
+[ST_VoiceLines/1769E6644E8A929AED885F8DC0108170]
+Good stuff. Let me know if you need more.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_07.uasset
+
+[ST_VoiceLines/17C7C0F248E6D9F43DD4B4992D33B4D7]
+Another gas grenade...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GasGrenade_5ee3.uasset
+
+[ST_VoiceLines/192277AF4F0ED7C4A375E5A944CE2C62]
+I know they don't look like much, but you won't find better explosives anywhere else in Toledo. I promise.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_25ab.uasset
+
+[ST_VoiceLines/19B39A59435EECFE3DF41788A84A4D4A]
+Come on through. Just ignore the scorch marks.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_d5a4.uasset
+
+[ST_VoiceLines/1A624E6D46CE929617E500AEC88BE523]
+Nothing jumping out at you yet?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_b8d9.uasset
+
+[ST_VoiceLines/1B5DDC4645A9D535F1AC2CA8FD36ACEA]
+Hello...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_2e59.uasset
+
+[ST_VoiceLines/1B8C868A417BD71069A72BACE90B05FF]
+A real "SNAPPY" piece of equipment. Get it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Snaphook_a6cb.uasset
+
+[ST_VoiceLines/1BAF96114CF57EB46E194AB520AA8AA1]
+How you keeping? Need some grenades?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_7d18.uasset
+
+[ST_VoiceLines/1C653E96462575E318398780FC47D47E]
+Later, pal!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_ExitTrader_06.uasset
+
+[ST_VoiceLines/1D52F03640C0532F773FB59F3F259AA8]
+You could singe your eyebrows off if you get too close to this one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_HeavyFuzeGrenade_d939.uasset
+
+[ST_VoiceLines/2097DD2148305704671533A131828201]
+I wouldn't trust a grenade put together by anyone else but me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_290b.uasset
+
+[ST_VoiceLines/210ACE234CB85D5EED1EE188E3C6D9E5]
+Good for getting up and down from high up places.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Zipline_3b24.uasset
+
+[ST_VoiceLines/218077D14C388AAF5F001783FE9685F1]
+Need some gear?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_620d.uasset
+
+[ST_VoiceLines/220B3A4D4C814B9163FF618F62146037]
+Promise me you'll wait until you're topside before you test it out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_d0ba.uasset
+
+[ST_VoiceLines/23B776DA488853E21FE356A438F7462B]
+Still around?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_a505.uasset
+
+[ST_VoiceLines/23C627364CEE53294E0482A750B18DCE]
+How's Topside nowadays?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_663a.uasset
+
+[ST_VoiceLines/2413F8F04EB3AE21CA4E8F89CEA04682]
+Yellow, like a banana.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_YellowGlowstick_d4a7.uasset
+
+[ST_VoiceLines/241F1E524D44579F1F58CCBAF888E85F]
+Honestly, this should be standard equipment for anyone going topside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Binoculars_45cc.uasset
+
+[ST_VoiceLines/2558B56C4C9FF420B44D5BB4059F0293]
+Keep this one away from any and all fuel canisters.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_HeavyFuzeGrenade_ec79.uasset
+
+[ST_VoiceLines/25C027EF4255BC0FA8B87FBCA4E6E120]
+I once set one of these off in a cantina by accident. The staff was not happy with me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SmokeGrenade_7237.uasset
+
+[ST_VoiceLines/277E8E0B44AA1B71D1ECBAA9EEAB0D35]
+Can I help you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_e959.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_3878.uasset
+
+[ST_VoiceLines/2815BFDC47E45894D4346498E95659F8]
+Don't go swinging from Rocketeers now, you hear.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_Snaphook_ab22.uasset
+
+[ST_VoiceLines/28EE6A4E4AD336DC664A319FEAF1FEEE]
+Need more cover? Sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BarricadeKit_b891.uasset
+
+[ST_VoiceLines/29A2621542D4496FBD167490036EEC8D]
+It's yours. Take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_5f07.uasset
+
+[ST_VoiceLines/2C2675454A9681A76528FAB227AA73CE]
+Some folks shop quick. Some just stare. I’m fine with either.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_b390.uasset
+
+[ST_VoiceLines/2CDF636C497C4F6549E18DAE38ED4DE4]
+If you're going up against Rocketeers, this is a good start. Stay mobile, though.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BarricadeKit_3497.uasset
+
+[ST_VoiceLines/2D921A9C489B61A8AAAF5DAAFE04A6E7]
+Looking is free.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_051c.uasset
+
+[ST_VoiceLines/2DF14D234329AE6FA3A6A78DAD63E99C]
+Here to buy?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_00a0.uasset
+
+[ST_VoiceLines/2EDF958B4AD9A7AE0F97E6BB5998F8AC]
+Still deciding?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_01.uasset
+
+[ST_VoiceLines/2FADEA1445EDF1E840B81C869B7C439A]
+You having a party? Or exploring dark ruins? Either way, here's a green glowstick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_GreenGlowstick_cdfc.uasset
+
+[ST_VoiceLines/3014C10445FBD689EFBE068A576EC505]
+Explosives don’t sell themselves, you know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_cbd6.uasset
+
+[ST_VoiceLines/3083412443A51F29DC1ED2A9C9B6C356]
+It's great that you ask. I don't have any jobs for you at the moment, but I'll definitely keep you in mind.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeToQuestEmpty_02.uasset
+
+[ST_VoiceLines/32C397C54973BD6D7DAE138401E888E5]
+Looking sharp today.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_d680.uasset
+
+[ST_VoiceLines/339D4E4F4907E8601BAC73831518DFC2]
+Green, like the crops growing in the greenhouses.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GreenGlowstick_1a1a.uasset
+
+[ST_VoiceLines/33C3EF254484775F077DCBAED140327A]
+Apollo here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_f244.uasset
+
+[ST_VoiceLines/348C0B02465C574CC29106B7E7E962EB]
+Another flare? Alright
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RemoteRaiderFlare_2ae1.uasset
+
+[ST_VoiceLines/353F3ECD4AF1D7A68D88A2A2FAC39BA8]
+Alright. You be careful with that now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_66bd.uasset
+
+[ST_VoiceLines/36A323A841400E2B825CA58C5BEC8021]
+Hey, buddy! Need some gear?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_727d.uasset
+
+[ST_VoiceLines/37407E1C47116A09D9B05C8A3ED55D8E]
+I heard that whistling while working helps with keeping a good rhythm. I'll have to try it sometime.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_d04b.uasset
+
+[ST_VoiceLines/37F70A9E481F0104E6ACA8B2D9B57184]
+Time to stock up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_a915.uasset
+
+[ST_VoiceLines/393A05AB42BB3ECFCFE5D7A585257A21]
+Need a bag with that?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_06.uasset
+
+[ST_VoiceLines/394F918944F9FF44758264A3B3DC2AA9]
+Thank you. I'll be here when you're done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_QuestAccept_01.uasset
+
+[ST_VoiceLines/399DE38149F33A1BBDDA2EBBA1CFAC67]
+Heavier than it looks.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_YellowGlowstick_c849.uasset
+
+[ST_VoiceLines/3AA1EA744469C0C320EC7DBA43299C5E]
+You can play? You should play me a song next time we're both at the cantina.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_PlayableFlute_b51e.uasset
+
+[ST_VoiceLines/3BB4E80C4D4FBE417C7F13B8415DFA1E]
+Still in one piece, friend? What do you need today?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_58b4.uasset
+
+[ST_VoiceLines/3C65FF3D482CBE944C8C06946D391A6A]
+You thinking or just admiring?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_e033.uasset
+
+[ST_VoiceLines/3C71F4AC4788A79A0CE9A2B09E8F1775]
+See you around, fella!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_ExitTrader_02.uasset
+
+[ST_VoiceLines/3E6776544968E9AC53CF4DAAA57444FC]
+That’ll get the job done with style.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_b7a4.uasset
+
+[ST_VoiceLines/3F32DE764DA5A4B4B20AA585F665FC24]
+Hey-hey pal!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_6dfb.uasset
+
+[ST_VoiceLines/3FA9E89B4EC136CD1C0654BBA2E23FA1]
+Off to charm some snakes?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_PlayableFlute_4796.uasset
+
+[ST_VoiceLines/3FCB8DD84A862D84FA1FED9E1DAA40B6]
+You off to paint the town red?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RedGlowstick_43f6.uasset
+
+[ST_VoiceLines/4124A2BD451C7E18A5936B967BB7DB0A]
+Raider! Here to chat, or to buy?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_5752.uasset
+
+[ST_VoiceLines/415777B4403D646147F8689553F4E48D]
+Everything on these shelves either saves you or makes something else explode. Sometimes both.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_d790.uasset
+
+[ST_VoiceLines/41E4E4424958F269A840F9886FE18DE6]
+You want that? Sure, it'll do the job, I suppose.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_86f1.uasset
+
+[ST_VoiceLines/42A4523B4CCFDA1D453EA8BD6427D861]
+I should get some goggles.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_02.uasset
+
+[ST_VoiceLines/43C7F1034B5E637D635114821606C6E7]
+You set up in your Raider Den, yet? You wanna have a nice place to come home to, where you can kick back and relax... Nothing beats having a space to yourself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_c14e.uasset
+
+[ST_VoiceLines/43C8A860484E25F39ED1D2B8382E9B6A]
+If you’re looking for inspiration, I’ve got plenty on the shelves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_fde4.uasset
+
+[ST_VoiceLines/450A276C43108243B4F2439BF777B722]
+Vital piece of equipment for any Raider, I say.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_Binoculars_ea8f.uasset
+
+[ST_VoiceLines/45B5EF7F4A638BC427F5F6AB438CF035]
+You know, I saw some teens use these for a dance party. I'm happy kids can still be kids down here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BlueGlowstick_ebc7.uasset
+
+[ST_VoiceLines/45D060C1422B7C491DA8C2AC69CC2CEB]
+Here for explosives? Take a look.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_440a.uasset
+
+[ST_VoiceLines/4651A4C2401E87C63E695B8AC0BFBC5E]
+Good for hiding in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SmokeGrenade_7a16.uasset
+
+[ST_VoiceLines/46EC5EBF40ADF836E9DBB0AA71DA157D]
+Yellow light stick for you, my friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_YellowGlowstick_effa.uasset
+
+[ST_VoiceLines/47FD3B9F4DD05ED0077AFE96A51D392B]
+Funny thing about gadgets, half the fun’s figuring out what they actually do.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_f4e9.uasset
+
+[ST_VoiceLines/4966E05D4C91C9665017B6BCA5C9DC7B]
+Yeah, what's up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_00cd.uasset
+
+[ST_VoiceLines/4A6DAE484360F6AD97656C9AD58E59A9]
+Thinking it over? Smart move.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_3494.uasset
+
+[ST_VoiceLines/4AC1E9BB4315AAEAA868A2ABF08708B7]
+Up for a trade?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_b626.uasset
+
+[ST_VoiceLines/4B5AFB9849EBE4A74DD319A429E18EF6]
+All yours, pal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_dce0.uasset
+
+[ST_VoiceLines/4BE376434A49B02CBEBF858A8B67D453]
+Red! My second favorite color.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_RedGlowstick_6fd8.uasset
+
+[ST_VoiceLines/4C23395749FAC1D0DF689B85B50FD422]
+Remember the delay on this one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_HeavyFuzeGrenade_55ae.uasset
+
+[ST_VoiceLines/4D100A8147C447E4304908BCCDED4588]
+Good for blocking doors. What it says on the tin.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_DoorBlocker_dd16.uasset
+
+[ST_VoiceLines/4D2217A24FE81AD480CCECABAB7E95A5]
+Had no idea you could play!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_PlayableFlute_b54f.uasset
+
+[ST_VoiceLines/4ED3EB05438B64D53F8941877EA1BE0A]
+Hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_991e.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_ce3d.uasset
+
+[ST_VoiceLines/50A842694CB29DDF95F77680FA51901A]
+Huh. Interesting choice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RemoteRaiderFlare_0100.uasset
+
+[ST_VoiceLines/5282DE4B47B55A3C0200F7B9068971B7]
+I don't want to know what you're planning with that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RemoteRaiderFlare_49c8.uasset
+
+[ST_VoiceLines/5379FE284863CCB20839F5B0D53ECEBC]
+If you hear a faint ticking, it’s fine. Probably fine.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_a000.uasset
+
+[ST_VoiceLines/5494D0C64FB6C6D14C958EAE2FAECB86]
+I'm thinking of making a variant that deploys a nice scent instead of gas. Not sure there's a market for it though.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineStaminaDoT_b82a.uasset
+
+[ST_VoiceLines/56755F444BF9CFA632C8039CAF5F4724]
+Big day ahead?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_83ad.uasset
+
+[ST_VoiceLines/569D403A46CD802360DEFBA5ED5C7C05]
+An extra incentive to keep all your fingers.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_PlayableFlute_b841.uasset
+
+[ST_VoiceLines/56A937F14F862C45FF43DFB90ABB1723]
+The rotten egg smell is just an added bonus.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineStaminaDoT_e366.uasset
+
+[ST_VoiceLines/57E706B240EE3805C5552BA4D96B83F5]
+Good call. Should make your next Topside visit more interesting.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_439b.uasset
+
+[ST_VoiceLines/5820941F4D3BADE85AFAB1B1F5929B7D]
+I'll keep you in mind if anything shows up, but right now I don't have anything I need help with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeToQuestEmpty_03.uasset
+
+[ST_VoiceLines/583C40B74CEC824A6EE9B39F47E9D662]
+Good piece of gear. Instant cover, carried right there in your pocket.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_BarricadeKit_fb2e.uasset
+
+[ST_VoiceLines/5883588C49B511192BA7BAA219FA8406]
+Yeah, so... Anyway...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_3814.uasset
+
+[ST_VoiceLines/58E44D5C488A3E06BBB3BB837C3BCB2A]
+Hey! Got fresh explosives for sale.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_5ed2.uasset
+
+[ST_VoiceLines/5CA004AD4B27D8D413EB6E99759093DC]
+Great for telling spooky stories.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RedGlowstick_7ac5.uasset
+
+[ST_VoiceLines/5D83F23046D5F2079ED069AF8E736E3D]
+You got a good eye for fine gear, my friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier2_5919.uasset
+
+[ST_VoiceLines/5DAE223746061477B35D2DA7FBA3831D]
+Sure thing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_48c8.uasset
+
+[ST_VoiceLines/5EF1644A474C729728808B992DEE5BB0]
+I'd offer you a drink, but I'm fresh out. Maybe I'll see you at the cantina later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_da1e.uasset
+
+[ST_VoiceLines/6230D3614CA028C8E449898761EB57B7]
+Explosives and gadgets, fresh off the workbench.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_9229.uasset
+
+[ST_VoiceLines/62D3F6C041A1D32C509DED8F681972C7]
+Need a distraction, a diversion, or a demolition? I’ve got all three.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_6a9c.uasset
+
+[ST_VoiceLines/62FDE4D54FC37060C12353B7DE089122]
+Blue! My favorite color.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_BlueGlowstick_e815.uasset
+
+[ST_VoiceLines/643CCBFD481A0F05E328F0B87F3F62D7]
+Wait, was that one ticking already? No, we're probably good.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_TimedMineExplosive_2429.uasset
+
+[ST_VoiceLines/64639EF342943F5B6C73FF8DD60CD4EE]
+Sneaky. Nice!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SmokeGrenade_e1e0.uasset
+
+[ST_VoiceLines/658308B4460A0A2A15EF2FB8929D6E19]
+You a careful shopper, or just scared of commitment?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_43bc.uasset
+
+[ST_VoiceLines/6755C5DF479378B20B24BCAE79AFFF4A]
+Yellow - just like a sunset.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_YellowGlowstick_4e90.uasset
+
+[ST_VoiceLines/67C3C51F47426CEB410387A2EDE33193]
+I'm all ears.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_f44b.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_1e58.uasset
+
+[ST_VoiceLines/68B402A74E5DC6C8A81067B2D4EF1831]
+Apollo speaking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_4672.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_8cdd.uasset
+
+[ST_VoiceLines/6991B8FE45A2BCB404388CBA8FCCC3B5]
+Always a pleasure. And always a little something here with your name on it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_856f.uasset
+
+[ST_VoiceLines/6ADEB91A4F653610E6F791B904CD508F]
+Looking for gadgets?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_a7af.uasset
+
+[ST_VoiceLines/6AF6AB054ABD46AD62CF0FB8A252FD1A]
+Make sure you're nice to your fellow Raiders up top. Not saying you seem like a bad person or anything, but I hear a lot of stuff from some of the other Raiders coming back from the surface.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_aa3b.uasset
+
+[ST_VoiceLines/6D4EE37046999B5BDE30ADBE99042B00]
+If you got the know-how and the proper workbench, you can make most of these things yourself. Not that I mind your patronage, of course.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_a8b6.uasset
+
+[ST_VoiceLines/6D92B64A4130427063DC31A359016BE9]
+Strategically placed dominoes work too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SoundTrap_7abc.uasset
+
+[ST_VoiceLines/6DACD6D14F661C2E50CE60A8CF9D34C9]
+Got quite the pop that one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_JumpMineImpulse_b3d6.uasset
+
+[ST_VoiceLines/6E3DE6204333B486EFE65683AD87EDD4]
+Hey, could you grab me a wrench? Actually nevermind, I'm good.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_53b4.uasset
+
+[ST_VoiceLines/6F5A775F45AC0ADB2EFE7B9F416A0E77]
+If this starts hissing before you deploy it, just chuck it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineStaminaDoT_5cbe.uasset
+
+[ST_VoiceLines/7006E74242BA5862F66208AC324F3C65]
+A classic grenade - can't go wrong.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_LightImpactGrenade_7176.uasset
+
+[ST_VoiceLines/702133D5416BB650CC8EA9B9E14C5A4C]
+Sorry, mate. Only got goods for you right now. But check back later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeToQuestEmpty_01.uasset
+
+[ST_VoiceLines/705E37F146DF69D30C47BA97233213A0]
+It's all yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_8eec.uasset
+
+[ST_VoiceLines/714DFA674AD8F8493FC7D59BD2C1588A]
+People think I just blow stuff up, but there's some pretty nifty contraptions here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_122e.uasset
+
+[ST_VoiceLines/722B33974EF50A0AFBAF78A539B0EB06]
+Nice and easy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_7d73.uasset
+
+[ST_VoiceLines/72ADD9FD4E1CB370566AF6A4F605475B]
+Come back soon!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_ExitTrader_04.uasset
+
+[ST_VoiceLines/72BC148644EF9F7687DAA1A6CCFFE47F]
+Take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_fb9d.uasset
+
+[ST_VoiceLines/73654C3F46C939D3743EE180DCE438F9]
+Take your time, fella. I'm not going anywhere.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_QuestToTrade_03.uasset
+
+[ST_VoiceLines/74B65D084EF09431EF8F21AB28C191EB]
+Save this one for Topside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SmokeGrenade_ccaf.uasset
+
+[ST_VoiceLines/751310D04FB13A317A715D8FDEA2FBA7]
+Just don't shoot it down HERE. Don't wanna give the kids any ideas.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Snaphook_41f8.uasset
+
+[ST_VoiceLines/75662B8349FF65D3E85D9787288F55F7]
+I tried to make it play a song, once.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SoundTrap_eb38.uasset
+
+[ST_VoiceLines/77BC55C0448EC1C31114CD8237EE61BC]
+Hello there!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_d78f.uasset
+
+[ST_VoiceLines/78D0947F46D933230F4E0A9AA0D4DBB7]
+Pleasure doing business.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_adb3.uasset
+
+[ST_VoiceLines/79E5E53A40ECBF6F1CF46E8197E77C32]
+Use it wisely.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_793e.uasset
+
+[ST_VoiceLines/7A4177074C31E5AA65F386A016F0E4F5]
+This thing is great fun.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Zipline_2f0e.uasset
+
+[ST_VoiceLines/7AB3FB2E49606073873AEA869953594B]
+You wouldn’t believe the mess I had in here before you showed up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier2_rec_fffb.uasset
+
+[ST_VoiceLines/7BDE8F1343FB5B8C153B83856A1F5F72]
+Hey there, I've got some things you could help out with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterQuest_rec_15d8.uasset
+
+[ST_VoiceLines/7CB3B2DC47A3075847F8FEABB9AA17A1]
+This is Apollo.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_0b75.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_1a94.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_863a.uasset
+
+[ST_VoiceLines/7E2ECAA345836B6D8C0D3B95F8AB3BB6]
+That’s yours now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_637f.uasset
+
+[ST_VoiceLines/7EDE2C31495D21FE5D1C34878E916827]
+You'd look like a real superhero with this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Snaphook_7bab.uasset
+
+[ST_VoiceLines/80932D9C47B80DF9880525951B2BAD24]
+Say hi to Lance if you see him!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_ExitTrader_07.uasset
+
+[ST_VoiceLines/80C9BB9542F3DEF7889141BC5A423F3C]
+I wonder if we can make a cheaper variant of this. Like a grenade wrapped in duct tape.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SnapBlastGrenade_1972.uasset
+
+[ST_VoiceLines/818DCDF64C341655173AA79FCB569657]
+You wouldn't be setting any traps, would you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RemoteRaiderFlare_8be7.uasset
+
+[ST_VoiceLines/8409D7CC4E6C8B0674F595819E642950]
+Devious choice! Watch your step once you've placed it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_JumpMineStaminaDoT_0b8a.uasset
+
+[ST_VoiceLines/847F0DA242CDC249A1295BA1AC9FD025]
+So, any of my gadgets save your hide lately?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier2_rec_de18.uasset
+
+[ST_VoiceLines/850279534E3CEE4397D76481C2595C4B]
+Hey, Apollo here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_e718.uasset
+
+[ST_VoiceLines/863E3DC54ACAF8B31CC713BE6FE83A67]
+Don’t worry, I’m not charging for browsing. Yet.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_393d.uasset
+
+[ST_VoiceLines/86B2B9D04055091A450C5CA57883B4FF]
+Heard you came in during that big storm. Hope you managed to shake the sand out of your clothes by now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_81ee.uasset
+
+[ST_VoiceLines/87CB449F4E2811291E3F6C826A18A1A3]
+Another one for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BlueGlowstick_19b0.uasset
+
+[ST_VoiceLines/8A207A194497C3EAA8AF4680B36806B6]
+On an unrelated note: I'm always looking for more egg timers.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_TimedMineExplosive_cc58.uasset
+
+[ST_VoiceLines/8D4643C3494C7FE2B729AA9308153572]
+Something catch your eye?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_38ad.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_aa61.uasset
+
+[ST_VoiceLines/8D88C4DA4E68DEE4E424FB94A8316F9C]
+Zipline, nice choice!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Zipline_c550.uasset
+
+[ST_VoiceLines/8DB467A441AA80CB533D539EF96751BF]
+There you go.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_f578.uasset
+
+[ST_VoiceLines/9093B46C4F16969DC82E108FB4EFEDB4]
+One electric mine, coming right up!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JoltMine_a9fa.uasset
+
+[ST_VoiceLines/90E61C5E42DA1CEDF605069922C2F803]
+Back so soon? Either ARC’s getting bold or you’re just having fun.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_ffb9.uasset
+
+[ST_VoiceLines/913186034A0595F7C771999DD116F684]
+Hey there, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_3409.uasset
+
+[ST_VoiceLines/9347D2AB4CAF8E50BCBEBA9D832944B8]
+Just make sure to cover your ears.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_SoundTrap_62da.uasset
+
+[ST_VoiceLines/93F3F5B548B001E5676A258FD8C68E5F]
+I'll have to mark you down as a regular at this rate, my friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_c374.uasset
+
+[ST_VoiceLines/952766124B98ABA06904B89E4CBF21A2]
+Grenades, gadgets, and other stuff here. Feel free to take a mint on your way out too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_777c.uasset
+
+[ST_VoiceLines/95BEA97B4EE35FEE439BC0B11DD14528]
+If you ever get tired of being a Raider, you’ve got a steady spot here in my workshop.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier2_rec_f619.uasset
+
+[ST_VoiceLines/95D5D2D141FAD4FB11D7F090ADBC4EE0]
+Good choice! Should do the trick nicely.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier2_09ac.uasset
+
+[ST_VoiceLines/9689DE67498CBB4B2A33558636F76857]
+It's a good piece.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_ef8e.uasset
+
+[ST_VoiceLines/96983AC244FEA7B96799CE96EDE63445]
+Trying to trick your fellow Raiders, huh? Hmm, not for me to judge.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_RemoteRaiderFlare_9364.uasset
+
+[ST_VoiceLines/970564E3436FE5C97A0D02AF83F83137]
+Still browsing? No rush.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_6770.uasset
+
+[ST_VoiceLines/977CDFA64C1AF1BD19B8B0B09783F958]
+Make sure the pin stays in until you get up top.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_LightImpactGrenade_ff4b.uasset
+
+[ST_VoiceLines/97FFA9F24064C9B0E2FAE89AA4B5A404]
+It's a deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_2f40.uasset
+
+[ST_VoiceLines/981ED9E246557654593DC7AAC68AFB3E]
+If Topside was safer, we could make a tidy business with those. For sightseeing, you know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Zipline_28e6.uasset
+
+[ST_VoiceLines/99B273EE4305792E94B35FA3D35B84E0]
+Nice selection, right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_8378.uasset
+
+[ST_VoiceLines/9A2E1D5F4265BBF8CC2F86B4D535B724]
+Great to live life more vibrantly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GreenGlowstick_d7bc.uasset
+
+[ST_VoiceLines/9A43C5F944DDB0A204B61999585C4491]
+Here for some gear?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_9505.uasset
+
+[ST_VoiceLines/9B89867B4A4E30FA7766889668EBE61C]
+Well, well! My favorite repeat customer... Don’t tell the others!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_d3497.uasset
+
+[ST_VoiceLines/9B91919543E65B2134FC9F814D1F73E9]
+Yeppers.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_02b6.uasset
+
+[ST_VoiceLines/9C3A29174DDE2CD82D2EABA61812B08B]
+Off to make some noise?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SoundTrap_cbf0.uasset
+
+[ST_VoiceLines/9C6B4F0A42DBD70F5298FA987A838336]
+Done deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_7095.uasset
+
+[ST_VoiceLines/9D667FAD4473289913CBFA80A466A0BD]
+If it whirs, beeps, or explodes, you’ll probably find it here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_dcb9.uasset
+
+[ST_VoiceLines/9D9C696C4C25549384B78D8D4CD50A58]
+Everything looks lush next to those.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GreenGlowstick_55fa.uasset
+
+[ST_VoiceLines/9E768AAA44272CD8CB7B28B32CFA905E]
+Nice!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_04.uasset
+
+[ST_VoiceLines/A16404D4425A4C1D5E25E1B2A6BB301C]
+I once saw someone sitting in a creek playing one of those. I got out of there immediately.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_PlayableFlute_e369.uasset
+
+[ST_VoiceLines/A1DE342749CE4BE1182034BF0DF11BB9]
+No pressure. I like the company.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_7020.uasset
+
+[ST_VoiceLines/A28E6A3B485F4010FBCAB4BEBD7CC20D]
+I saw one Raider use this in the middle of a cantina. They had to use a ladder to get him down from the ceiling fan.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineImpulse_3629.uasset
+
+[ST_VoiceLines/A2F99F214407F2A3B02530828D2621A6]
+Plenty to choose from.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_621f.uasset
+
+[ST_VoiceLines/A37BA36E4E36431C19FD78B83543AA4A]
+Fun toy, that. Good for traversal too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_Zipline_97f5.uasset
+
+[ST_VoiceLines/A406B41F40A1DEBCFADC67A2A9F475E3]
+Take a look.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_c090.uasset
+
+[ST_VoiceLines/A45BC0974254EF7A23DF049FF0FDCFD4]
+Take it easy, mate!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_ExitTrader_03.uasset
+
+[ST_VoiceLines/A61A62F240116B9F4779939977C413AE]
+All set.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_68d8.uasset
+
+[ST_VoiceLines/A865C910434D5E441C34C5A445A8DD45]
+Apollo here!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_f98c3.uasset
+
+[ST_VoiceLines/AA9D3D9846BDCE10E3E730A2F6B94C39]
+Every Raider has their own favorite. Wonder what yours is gonna be.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_4ce7.uasset
+
+[ST_VoiceLines/AC01AAF44E65F8F3652CABBD906D6C3F]
+Thinking about heading down to the cantina for a cold one after I finish my work. You in?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier2_rec_7fba.uasset
+
+[ST_VoiceLines/AD0758104552AAD02E2ACB8CE17A7F99]
+Don’t be shy. Come in!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_f15a.uasset
+
+[ST_VoiceLines/AD2368FF4223368B40037D975BD1E5CE]
+You’ve got an eye for the good stuff, I’ll give you that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier2_7ff1.uasset
+
+[ST_VoiceLines/AE4EC61245A76331ED9CCAA7B9CE11CB]
+Make it quick or take your time, either way’s fine.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_929a.uasset
+
+[ST_VoiceLines/AEB0507A4B354A792E0D2E8093D6FB01]
+I was thinking of cleaning up in here, but I think the clutter adds character.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_90c2.uasset
+
+[ST_VoiceLines/AF33A883452FEA573805D7A385A787F7]
+Knew you’d pick something solid.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier2_514c.uasset
+
+[ST_VoiceLines/AFC5689E43F773024C0BA0AFFD3AB872]
+Yours now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_cf2b.uasset
+
+[ST_VoiceLines/B116F085411DCFAE066BCB87B4351F46]
+Be careful with that now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_3e40.uasset
+
+[ST_VoiceLines/B2CD1D344597E4BACB5C71A7FE7AA7EB]
+Here for some gadgets? You're always welcome.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_1f5e.uasset
+
+[ST_VoiceLines/B3074824459083FCB461139F25E5C8D2]
+Hope you got a good pitching arm.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_LightImpactGrenade_3b33.uasset
+
+[ST_VoiceLines/B34E1A524D00A10D7B007C9C557095CF]
+You need another?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_05.uasset
+
+[ST_VoiceLines/B426866843D4F315AEDF2BA970154B5E]
+No rush.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_05.uasset
+
+[ST_VoiceLines/B4AA8F2A434FD0DDAA1FC18C9E59AA67]
+See you later, my friend!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_ExitTrader_01.uasset
+
+[ST_VoiceLines/B76DE5304CC18A60968E8AB47833F68B]
+Great for when the world feels bleak.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_YellowGlowstick_504f.uasset
+
+[ST_VoiceLines/B7B9AD6D40F842885108DA9955132456]
+Forgot something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_ac98.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_c985.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_20c4.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_6bf1.uasset
+
+[ST_VoiceLines/B872FDDE4AF9AF7CB55F5D8DC62EB623]
+One of these went off when I was tinkering with it. Knocked me out for a whole afternoon.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineStaminaDoT_2642.uasset
+
+[ST_VoiceLines/B9738EED427C0971B8E678B71372E32C]
+Did you need something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_06.uasset
+
+[ST_VoiceLines/B9CADF49413AD69D44C97184416BB900]
+I've been trying to make a smaller version, for parties and such.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_RedGlowstick_a868.uasset
+
+[ST_VoiceLines/BA2FD6364E66C3F4AC9B6E9262C8A949]
+Have a look!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_f8af.uasset
+
+[ST_VoiceLines/BD5BE0184991C03D21981489E5FD9695]
+Just don't breathe it in, okay?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GasGrenade_b52f.uasset
+
+[ST_VoiceLines/BDDBD26D483DBA6D4E837B96ED292613]
+That one is perfect for a quick getaway.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_SmokeGrenade_1e19.uasset
+
+[ST_VoiceLines/BE0193444A0DE6762FF5E3915865F44A]
+Portable cover. Smart.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BarricadeKit_f168.uasset
+
+[ST_VoiceLines/BEAABCE94E3C6DFCB85B80A7C97335CA]
+Nice doing business with you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_2d10.uasset
+
+[ST_VoiceLines/BEB9EB804FE68386BBFF60BB2E9E048D]
+Tactical choice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JoltMine_949d.uasset
+
+[ST_VoiceLines/BEF561E04BBBBD50A046DA86ED4D9168]
+I'd say "Come get them while they're hot", but if any of my grenades are hot to the touch, please evacuate immediately.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_ba87.uasset
+
+[ST_VoiceLines/BFB4AF66462D80EB8EB32CB53076B942]
+Hey there, friend! What are you up to?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_071c.uasset
+
+[ST_VoiceLines/C2AD64B04499C204C8DF58BD3CACAE7E]
+Setting some stun traps, huh? Clever.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_JoltMine_61c4.uasset
+
+[ST_VoiceLines/C2D04C954FF0A466A1B9D39D6A7A7660]
+Simple enough.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_5741.uasset
+
+[ST_VoiceLines/C315C5674373D912F883D2B33D70E01C]
+Glad you stopped by.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_7903.uasset
+
+[ST_VoiceLines/C32BC2AB4EE897FCF587B18F9AFEB74C]
+Looking to make some noise? You’ve come to the right garage.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_f78b.uasset
+
+[ST_VoiceLines/C3B7C7C947C15EF3F7B3A8893BC9BE1A]
+Got it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_522d.uasset
+
+[ST_VoiceLines/C45F3B1B428C96F0482A23ACBDF8AFF2]
+Nothing like the smell of fresh engine grease.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_2b60.uasset
+
+[ST_VoiceLines/C51DA8C5451CC13DF53AAA95ECFDEC96]
+I'm working on some exciting new stuff, but right now these fine babies are the only ones I got for sale.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_QuestToTrade_01.uasset
+
+[ST_VoiceLines/C5C4457C4DD3D3696B3BF685F9BAB556]
+Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_0327.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_2223.uasset
+
+[ST_VoiceLines/C762C3214C7E019DEE83E09D2475C9DE]
+Not everything in here explodes, but most of it could if you tried.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_ed96.uasset
+
+[ST_VoiceLines/C8E2A5824A4F6C6FA786DFAFFFAF439F]
+Hope you’ve got room in your pack for that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_b71c.uasset
+
+[ST_VoiceLines/CB5DCB9547426E49C823F1BE67BB5BAC]
+Been to see Shani lately? She really needs to unwind one of these days.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier2_rec_2cf3.uasset
+
+[ST_VoiceLines/CB812BDD4F8C537180B73DA68C99AB9B]
+A great companion when everything else feels drab.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GreenGlowstick_461b.uasset
+
+[ST_VoiceLines/CBA36A5E4E189D7740541A84FCCFFFE3]
+So, how's it going out there? Raiders can be pretty mean to each other, but try not to take it too hard. Bruises heal, but growing hate in your heart is very bad, my friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier2_rec_92dd.uasset
+
+[ST_VoiceLines/CE54124B45858C934E1EDCAB6D218A35]
+Hey, what can I get you? Just restocked some nice grenades.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_73d4.uasset
+
+[ST_VoiceLines/D09BB9034395F0A08F3291AC479E9C9E]
+I know they don't look like much, but you won't find better explosives anywhere else in this colony. I promise.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_QuestToTrade_02.uasset
+
+[ST_VoiceLines/D155B9C745EC4EEA738BA297FBFC2C0B]
+Welcome to my humble workshop, friend!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_a610.uasset
+
+[ST_VoiceLines/D18CD8FC475E5F1CDB3156B26A0244B4]
+Heard anything fun lately?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_bbc0.uasset
+
+[ST_VoiceLines/D2545ED24495FA0328588C99F52DA8B6]
+I tried organizing the shelves once. Took me a week to find anything after.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_cd38.uasset
+
+[ST_VoiceLines/D25DC22641338AB14E64BC9F1C11E721]
+Coin well spent.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_d135.uasset
+
+[ST_VoiceLines/D2B49C0746C3722AF9AE7EA515681482]
+That's my biggest seller. Make sure you use it well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier2_41e0.uasset
+
+[ST_VoiceLines/D31562D746DAFAE5A34DDAB391B5301D]
+Careful with this one now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_LightImpactGrenade_e0cf.uasset
+
+[ST_VoiceLines/D4CDF3D949F29E44AB21EB94142A09A8]
+Hello again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_0b1e.uasset
+
+[ST_VoiceLines/D59DC98A4D81D1EBFCC3F2A499A439B3]
+Smart choice. Just don't block off your only escape route.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_DoorBlocker_3b94.uasset
+
+[ST_VoiceLines/D5F93FF14D0C29A1B9C86B821E572829]
+Deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_239f.uasset
+
+[ST_VoiceLines/D652D74347C3F9D68DBE599EDE48FD60]
+Got quite the pushback, this thing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JumpMineImpulse_3ed0.uasset
+
+[ST_VoiceLines/D731378D4DE56C055A97DF9F41090115]
+Great! Here's something for your trouble.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_QuestComplete_01.uasset
+
+[ST_VoiceLines/D8BB30E44CCDA6E2D9ABE998F6A7FE91]
+Easy trade.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_05ab.uasset
+
+[ST_VoiceLines/DA55214D4C58DAF2F596B8B2677FF5D5]
+How do you like it here so far? Most people down these parts are pretty nice, but in a colony this big you're bound to run into some bad eggs. Just don't let them get to you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_c7f6.uasset
+
+[ST_VoiceLines/DD98757B490DE77F72D1B78BF8FA811E]
+Ah, a Raider with taste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier2_6718.uasset
+
+[ST_VoiceLines/DE02E7AF4AB20C96990A63B9F7C7AAD5]
+Sometimes I invent stuff just to see if I can. Selling it’s a bonus.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_ab07.uasset
+
+[ST_VoiceLines/DE659CBC4C9713D017741D9E888C9B0B]
+Hey, good to see you. I was just thinking about what gear you might want next.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_55c0.uasset
+
+[ST_VoiceLines/DE9359434C5E55BB2620A0B0A7D0960A]
+If I don't have what you need, have a look around the market.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_969b.uasset
+
+[ST_VoiceLines/DFEB2042412BFA432632618AE3E04631]
+You still here? Just checking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_f0bf.uasset
+
+[ST_VoiceLines/E0D96E5F4A38E750E1153A992C645C1D]
+Need some fresh bombs?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_a7ca.uasset
+
+[ST_VoiceLines/E2AA6D654A473BC04D61A4A7B1E10F01]
+Fair trade.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_ae5d.uasset
+
+[ST_VoiceLines/E2DC33EF4619A7227FF286AC45529AB1]
+Portable fire. The volatile kind.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_HeavyFuzeGrenade_149c.uasset
+
+[ST_VoiceLines/E52D788F46BD2F4CCFFF7EBC7FB0EF2C]
+Setting traps? Nice!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_JoltMine_50f2.uasset
+
+[ST_VoiceLines/E646C3154C6685626E6E7A8478EA56D3]
+Only the best explosives for my favorite Raider!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_470b.uasset
+
+[ST_VoiceLines/E67915FF415E533719A6359C0425F7D3]
+Let’s see what you need.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_6e3b.uasset
+
+[ST_VoiceLines/E740678C48DE16CA4AC765B8530E779C]
+Hey, Apollo here. Listen.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_a62a.uasset
+
+[ST_VoiceLines/E76016524EAE7A50F49E528E86B4220C]
+Apollo here. Hope I got the right frequency.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Any/Dialogue_Apollo_Any_SessionSpawn_Prefix_rec_ab7b.uasset
+
+[ST_VoiceLines/E7882EC4437870B830809FBFCA0BC608]
+Back again? You’re starting to make this place look busy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_28a5.uasset
+
+[ST_VoiceLines/E8B95CB043EF9324B94C2498D20EF3F1]
+Make yourself at home.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_c5aa.uasset
+
+[ST_VoiceLines/E9116E49407C5B386A726B8BB20362C8]
+Hey! Always nice to see a friendly face. What do you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_cfcc.uasset
+
+[ST_VoiceLines/E921BC36458C254A23B8CAB18582CDDC]
+Make sure the timer display isn't upside down. Rookie mistake.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_TimedMineExplosive_0a01.uasset
+
+[ST_VoiceLines/E9228023481BD7B0E0D3B6A6960D92E5]
+Raider! I just finished tuning up some new toys. I think you’re gonna like them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier2_rec_b58f.uasset
+
+[ST_VoiceLines/E9D1F3F04C61613BF2A774BED1373CDA]
+Hey there. Good to see you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_3eed.uasset
+
+[ST_VoiceLines/EA06F2CB4F1C0CF6CEF36586D366D53F]
+Did I ever tell you blue is my favorite color? I probably did.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_BlueGlowstick_5a39.uasset
+
+[ST_VoiceLines/EADF119A4840D25B953CF4B1F73896CD]
+Every little bit helps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_01.uasset
+
+[ST_VoiceLines/EB7386DA4824D6768790B9AEDC9685E2]
+Watch out for this one, it's got a slight delay before it pops.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_HeavyFuzeGrenade_b4df.uasset
+
+[ST_VoiceLines/EBF9C8B640CF4D741013CCBF5E2BF3AA]
+Right on time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_6765.uasset
+
+[ST_VoiceLines/ED7E76B4428B03FC959D22A7F1731ABB]
+Make sure you throw it nice and far.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GasGrenade_085c.uasset
+
+[ST_VoiceLines/EE77D66C496ABE406AE1F189C30DD132]
+Quality gear, every piece.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_e334.uasset
+
+[ST_VoiceLines/EE8706764C33A174F10DCA98F227E5CB]
+Another grenade for you, pal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_LightImpactGrenade_7169.uasset
+
+[ST_VoiceLines/EEE1E388445BC39AAD934C85EBFA091F]
+That one's STICKY. Good for nailing ARC that just won't stay still.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_FirstTime_Item_SnapBlastGrenade_73d3.uasset
+
+[ST_VoiceLines/EEFFEB724BBA9FC30BE4B2A0169CE1C1]
+Everything’s stocked.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_fc34.uasset
+
+[ST_VoiceLines/EF06AD76483613FEA8D4F9814D629902]
+Good for some recon work.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Binoculars_cb4f.uasset
+
+[ST_VoiceLines/EF7CF2774823D67508E2AB85AADDBDEF]
+Here you go. Careful with it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SnapBlastGrenade_69c5.uasset
+
+[ST_VoiceLines/EF9A53D0462DFA725EF8698B70514052]
+Solid choice, friend. Should serve you well out there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier2_d207.uasset
+
+[ST_VoiceLines/F072F8E54CADAEB32E4203B7F0EAD637]
+Protect your ear drums.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SoundTrap_7ebc.uasset
+
+[ST_VoiceLines/F09B4C4841991BD8FAFE6B96BDE1567A]
+Got a couple of these set up against our Topside hatches.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_DoorBlocker_f2b7.uasset
+
+[ST_VoiceLines/F0A196B64E2CA379C446369CB1D98C31]
+Take your time. I’ll be here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_04.uasset
+
+[ST_VoiceLines/F1EBCB5C43CDAAA1E2DEC0BEC903A2D2]
+Hey. Any news on that thing?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterQuest_QuestState_InProgress_rec_2673.uasset
+
+[ST_VoiceLines/F2DC7F8F489C006C6EA7FA98C2D99F72]
+I heard a story from an older Raider that came through here a while back. Something about the ground rumbling and mountains spewing fire. I hope he was just making things up, because I do NOT want to experience THAT!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_Tier1_rec_b6b8.uasset
+
+[ST_VoiceLines/F429BAA74E6035922508E49D865F47B5]
+How you holding up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_4145.uasset
+
+[ST_VoiceLines/F601FEFD4F6F4C0C1247DC8E632CADCB]
+Come on in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_b0d6.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_709b.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_8f6f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_f37c.uasset
+
+[ST_VoiceLines/F6749A484A7691AEF8583B8B709B0FE3]
+They say timing is everything. This just proves it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_TimedMineExplosive_9348.uasset
+
+[ST_VoiceLines/F7191DD14BEF3D968C6A958C96135AF0]
+No worries. I'm not going anywhere.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBanter_e377.uasset
+
+[ST_VoiceLines/F7234D4544464370EBD36F8F203B103B]
+Toxic stuff. Careful with it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_GasGrenade_a74b.uasset
+
+[ST_VoiceLines/F8FC18EA45013494597D0C8E520DB5C7]
+Make sure you clear the area when you've set one of these up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_TimedMineExplosive_5d39.uasset
+
+[ST_VoiceLines/F9BB39C847C253FB1D94FF9AE8F59C38]
+Door blocker. Blocks doors. Yep.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_DoorBlocker_36ce.uasset
+
+[ST_VoiceLines/FA0F62514FC14C728E5A2D9B6988D457]
+That's a pretty nice bit of gear, if you ask me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Tier1_6d27.uasset
+
+[ST_VoiceLines/FB15AEE94EF61BC0B7AB4D9185094625]
+Always good to see you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_0413.uasset
+
+[ST_VoiceLines/FC0BFC3F43C6705BC18F258801446CF0]
+What's up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_1242.uasset
+
+[ST_VoiceLines/FD665D1D4A9EC40136F712934BC12F37]
+Bird watching, or scouting?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_Binoculars_bc36.uasset
+
+[ST_VoiceLines/FD866E2D4547DA30BD4F72A8B4D00CC3]
+Come in, Raider, but mind the tripwires. Just kidding. Mostly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_Tier1_rec_085f.uasset
+
+[ST_VoiceLines/FE37DCE3494BDB66E241DB804E4D01BA]
+You're back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_d286.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTradeSimple_rec_062f.uasset
+
+[ST_VoiceLines/FF0F9CDD48563D4036B704BBA3EEE422]
+Come back whenever you need that extra edge against ARC.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_ExitTrader_05.uasset
+
+[ST_VoiceLines/FF1FAC444862F988465BBDB007791201]
+Hey!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_EnterTrade_rec_540e.uasset
+
+[ST_VoiceLines/FF5EA84A4EDE7AC2003B7AB913414E44]
+Sticky grenades! Nice!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo/Frontend/Dialogue_Apollo_Frontend_TradeBuyItem_Item_SnapBlastGrenade_8bdb.uasset

@@ -1,0 +1,291 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/Configuration/DA_UILoadingScreenConfiguration
+
+[[0].Properties.ConfigurationList[12].Information2]
+A network of tunnels and lava tubes connect Speranza to most of Rust Belt.
+
+[[0].Properties.ConfigurationList[0].Information2]
+A well-stocked Outpost will save your life.
+
+[[0].Properties.ConfigurationList[16].Title1]
+ACERRA SPACEPORT
+
+[[0].Properties.ConfigurationList[21].Title1]
+ACERRA SPACEPORT
+
+[[0].Properties.ConfigurationList[2].Title1]
+ACERRA SPACEPORT
+
+[[0].Properties.ConfigurationList[4].Title1]
+ACERRA SPACEPORT
+
+[[0].Properties.ConfigurationList[9].Title1]
+ACERRA SPACEPORT
+
+[[0].Properties.ConfigurationList[17].Title1]
+ALCANTARA PLANT
+
+[[0].Properties.ConfigurationList[14].Title1]
+ANDAZZO
+
+[[0].Properties.ConfigurationList[15].Title1]
+ANDAZZO
+
+[[0].Properties.ConfigurationList[20].Information1]
+Although most of the soil is still full of toxic chemicals, some groundwater is reasonably clean. Speranza's water needs are served by a system of deep wells, pumps, and distributed filtered reservoirs.
+
+[[0].Properties.ConfigurationList[1].Information1]
+At some point in the past, the Earth's march toward ecological death came to a halt. Nature returned and began reclaiming the planet. Animals multiplied; plants flourished.
+
+[[0].Properties.ConfigurationList[4].Information1]
+Before the Collapse, many people left Earth. Those people are known as Spacers, and their departure is known as the Great Exodus. Exactly how many left and where they went is a mystery.
+
+[[0].Properties.ConfigurationList[0].Information1]
+Building Raider Outposts is important work. Our Outposts hold tools, equipment, and supplies. They are tactically located and should ideally be cozy, not to mention free of ants, snakes, and toxic waste.
+
+[[0].Properties.ConfigurationList[17].Title2]
+CONTROL ROOM
+
+[[0].Properties.ConfigurationList[13].Information1]
+Centuries have passed since the Collapse. Still, in certain areas, toxins and radioactive substances prevent vegetation and wildlife from flourishing. We avoid these places.
+
+[[0].Properties.ConfigurationList[8].Information1]
+Centuries of harsh weather and acid rain have caused most Old World buildings to deteriorate substantially. While they may be hard to navigate for a Raider, it's utterly impossible for an ARC giant.
+
+[[0].Properties.ConfigurationList[21].Information1]
+During every scavenge-run, we find new objects that tells us something about what Earth was like before the Collapse. In the Rust Belt, the dreams and memories of a lost world are buried in the sand.
+
+[[0].Properties.ConfigurationList[18].Information2]
+During low tide the beaches are full of small crabs - inedible, poisonous crabs.
+
+[[0].Properties.ConfigurationList[9].Information1]
+During the Exodus, large rockets launched into space. Given the scale of the Space Port, the ships must have been huge, likely carrying an enormous number of people.
+
+[[0].Properties.ConfigurationList[0].Title1]
+EAST FORMICA
+
+[[0].Properties.ConfigurationList[4].Title2]
+EXODUS LOBBY
+
+[[0].Properties.ConfigurationList[3].Information1]
+Every new Outpost needs a name. For some of us, picking these names is a touchy subject. It has led to heated arguments, and at least one case of bloodshed. Okay, fine. It was just a nosebleed.
+
+[[0].Properties.ConfigurationList[20].Title2]
+FILTRATION MELONS
+
+[[0].Properties.ConfigurationList[8].Information2]
+For a Raider with a Snap Hook, safety is often less than a second away.
+
+[[0].Properties.ConfigurationList[6].Information2]
+For now, these devices make for good landmarks and spots for hideouts and supply caches.
+
+[[0].Properties.ConfigurationList[3].Title2]
+GIANT’S HEAD OUTPOST
+
+[[0].Properties.ConfigurationList[22].Information2]
+However, ARC is annoyingly good at disrupting our power feeds.
+
+[[0].Properties.ConfigurationList[2].Title2]
+INDUSTRIAL REMAINS
+
+[[0].Properties.ConfigurationList[18].Title1]
+LA CARTIERA
+
+[[0].Properties.ConfigurationList[18].Title2]
+LOW TIDE
+
+[[0].Properties.ConfigurationList[13].Information2]
+Luckily, these hazardous sites are becoming fewer and farther between.
+
+[[0].Properties.ConfigurationList[21].Title2]
+MEMORIES IN THE SAND
+
+[[0].Properties.ConfigurationList[11].Title2]
+MORNING SUN
+
+[[0].Properties.ConfigurationList[16].Title2]
+MURAL ART
+
+[[0].Properties.ConfigurationList[15].Information1]
+Maybe you have read or heard ancient stories about great floods and giant waves. When you first see the high wall surrounding the Andazzo city, you will realize there is something to those stories.
+
+[[0].Properties.ConfigurationList[2].Information1]
+Most Raiders have become expert scavengers by necessity. They are good at crafting, and they can turn most scraps into ammunition, new weapons, or tools that are crucial for survival.
+
+[[0].Properties.ConfigurationList[20].Information2]
+Most importantly, we try not to "put all our eggs in one basket".
+
+[[0].Properties.ConfigurationList[18].Information1]
+No matter what we do, Earth continues its journey through space. The sun and the moon rise and set; seasons come and go. Clouds form, and rain falls. The tidal cycles continue.
+
+[[0].Properties.ConfigurationList[10].Information1]
+Not everything that falls from the sky is a destructive machine. Once in a while, an intriguing scrap of ARC technology drops down, likely by accident. Hopefully, these can help us to understand ARC, so we can better defend our home.
+
+[[0].Properties.ConfigurationList[10].Title2]
+OBJECTS FROM SPACE
+
+[[0].Properties.ConfigurationList[7].Title2]
+OLD WORLD ARCHITECTURE
+
+[[0].Properties.ConfigurationList[8].Title2]
+OLD WORLD ARCHITECTURE
+
+[[0].Properties.ConfigurationList[6].Title2]
+OLD WORLD DEVICES
+
+[[0].Properties.ConfigurationList[1].Title2]
+OVERGROWN FUEL LINES
+
+[[0].Properties.ConfigurationList[7].Information2]
+One day, when ARC is gone, we might be able to live on the surface.
+
+[[0].Properties.ConfigurationList[11].Information2]
+Our ancestors had to wear breathing masks, so things are getting better.
+
+[[0].Properties.ConfigurationList[19].Information1]
+Our ancestors were nomadic hunter-gatherers. We grow most of our food. Our crops are resilient to toxins and don't require much sunlight. Still, farming underground poses many challenges.
+
+[[0].Properties.ConfigurationList[13].Title2]
+POWERPLANT MELTDOWN
+
+[[0].Properties.ConfigurationList[22].Title1]
+RED DUNES
+
+[[0].Properties.ConfigurationList[12].Title1]
+RED LAKE BASIN
+
+[[0].Properties.ConfigurationList[11].Title1]
+RED LAKES
+
+[[0].Properties.ConfigurationList[5].Title1]
+RED LAKES
+
+[[0].Properties.ConfigurationList[6].Title1]
+RED LAKES
+
+[[0].Properties.ConfigurationList[0].Title2]
+ROBBER’S HUT OUTPOST
+
+[[0].Properties.ConfigurationList[5].Title2]
+RUST BELT WILDLIFE
+
+[[0].Properties.ConfigurationList[6].Information1]
+Rust Belt contains the remains of old devices from before the Collapse. We believe these were part of vast communication networks, or perhaps used for harnessing or transporting energy.
+
+[[0].Properties.ConfigurationList[15].Information2]
+Rust Belt is occasionally hit by raging storms, but most of the time it's pretty calm.
+
+[[0].Properties.ConfigurationList[22].Title2]
+SOLAR GRID
+
+[[0].Properties.ConfigurationList[3].Title1]
+SOUTH WHITE DUNES
+
+[[0].Properties.ConfigurationList[19].Title1]
+SPERANZA
+
+[[0].Properties.ConfigurationList[2].Information2]
+Some areas have no scraps at all, whereas others are bountiful. Scavenge and repurpose!
+
+[[0].Properties.ConfigurationList[1].Information2]
+Some plants and fungi also adapted to thrive in toxic soil. These are packed full of useful chemicals.
+
+[[0].Properties.ConfigurationList[23].Information2]
+Someday we should build a large antenna and try to communicate with other parts of the world.
+
+[[0].Properties.ConfigurationList[5].Information2]
+Soon after we came here, small numbers of flamingos began to appear by the Red Lakes.
+
+[[0].Properties.ConfigurationList[12].Information1]
+Speranza is built within an old underground facility, allowing us to stay hidden from ARC’s machinery. It’s not a perfectly safe home, but the best we've ever had.
+
+[[0].Properties.ConfigurationList[3].Information2]
+Still, given the giant stone head directly beside the Outpost, naming it should have been easy. Right?
+
+[[0].Properties.ConfigurationList[23].Title2]
+THE CUPOLA
+
+[[0].Properties.ConfigurationList[9].Title2]
+THE LAUNCH TOWER
+
+[[0].Properties.ConfigurationList[14].Title2]
+THE WALLED CITY
+
+[[0].Properties.ConfigurationList[13].Title1]
+TRACOLLO
+
+[[0].Properties.ConfigurationList[7].Information1]
+The Old World engineers certainly knew how to build, both above and below the surface. We have been able to repurpose their grand work to create a new home underground.
+
+[[0].Properties.ConfigurationList[22].Information1]
+The Old World engineers knew how to construct devices that stood the test of time. Getting the Red Dunes Solar Grid operational again required surprisingly little work, and now it provides us with electric power.
+
+[[0].Properties.ConfigurationList[17].Information1]
+The Old World engineers never cease to amaze. They were able to build giant structures and construct vast communication networks, and we know they even conquered and ventured into space.
+
+[[0].Properties.ConfigurationList[14].Information2]
+The giant wave-breaker walls are a testament to the storms that used to ravage Earth.
+
+[[0].Properties.ConfigurationList[19].Information2]
+The irrigation system is currently the weakest link, but we're working on it.
+
+[[0].Properties.ConfigurationList[11].Information1]
+The morning sun, "kissing with its golden face the meadows green". These ancient, poetic words are about a very different and undamaged Earth. Our hope is that we're slowly finding our way back to that..
+
+[[0].Properties.ConfigurationList[16].Information2]
+The mural markings are beautiful; perhaps they have both meaning and purpose?
+
+[[0].Properties.ConfigurationList[14].Information1]
+The seaside city apparently served as a harbor for large shipments bringing goods, equipment, and possibly travelers to Acerra Space Port for the Exodus.
+
+[[0].Properties.ConfigurationList[16].Information1]
+The wonderful, intriguing artwork that covers the structures all over the Rust Belt must be remnants from people who lived here before us, even before ARC started coming.
+
+[[0].Properties.ConfigurationList[21].Information2]
+There are many valuable objects that we can scavenge and repurpose.
+
+[[0].Properties.ConfigurationList[9].Information2]
+There are tales about other space ports existing on Earth, but none of us in Speranza have ever seen one.
+
+[[0].Properties.ConfigurationList[5].Information1]
+There is not much wildlife in the Rust Belt; we suspect the same is true everywhere. Occasionally, we hunt for birds or animals, but cautiously. We do not want to overdo it and cause the extinction of a recovering species.
+
+[[0].Properties.ConfigurationList[19].Title2]
+UNDERGROUND FARM
+
+[[0].Properties.ConfigurationList[12].Title2]
+UNDERGROUND STRUCTURES
+
+[[0].Properties.ConfigurationList[10].Title1]
+UNKNOWN
+
+[[0].Properties.ConfigurationList[1].Title1]
+UNKNOWN
+
+[[0].Properties.ConfigurationList[7].Title1]
+UNKNOWN
+
+[[0].Properties.ConfigurationList[8].Title1]
+UNKNOWN
+
+[[0].Properties.ConfigurationList[20].Title1]
+WATER FIELD
+
+[[0].Properties.ConfigurationList[15].Title2]
+WAVEBREAKERS
+
+[[0].Properties.ConfigurationList[23].Title1]
+WHITE DUNES
+
+[[0].Properties.ConfigurationList[23].Information1]
+We have radar and radio dishes of our own, but nothing near the size of The Cupola. When this beast was operational, it must have been able to catch signals coming very far from Earth.
+
+[[0].Properties.ConfigurationList[10].Information2]
+We know that ARC has orbiters around Earth, but we don't know where these come from.
+
+[[0].Properties.ConfigurationList[17].Information2]
+We try to learn from everything left behind from the Old World.
+
+[[0].Properties.ConfigurationList[4].Information2]
+When ARC first showed up, some thought the Spacers had returned to Earth.
+

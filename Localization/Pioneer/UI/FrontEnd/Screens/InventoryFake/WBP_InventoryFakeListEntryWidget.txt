@@ -1,0 +1,9 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Screens/InventoryFake/WBP_InventoryFakeListEntryWidget
+
+[[0].Properties.Text]
+Dev
+
+[[1].Properties.Text]
+Item Name
+

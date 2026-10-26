@@ -1,0 +1,54 @@
+ARC Raiders 2.2.0 — English
+ST_Time
+Source package: /EmbarkScript/Localization/ST_Time
+
+[ID_TIME_DAYS]
+{0} days
+
+[ID_TIME_DAYS_TEXT]
+{0}|plural(zero=day, one=day, few=days, many=days, other=days)
+
+[ID_TIME_ENDS_IN_DAYS]
+Ends in {0} days
+
+[ID_TIME_ENDS_SOON]
+Ends soon
+
+[ID_TIME_ENDS_TODAY]
+Ends today
+
+[ID_TIME_ENDS_TOMORROW]
+Ends tomorrow
+
+[ID_TIME_HOURS]
+{0} hours
+
+[ID_TIME_LEFT]
+{0} left
+
+[ID_TIME_MINUTES_SHORT]
+{0} min
+
+[ID_TIME_MONTHS]
+{0} months
+
+[ID_TIME_SOON]
+Soon
+
+[ID_TIME_TODAY]
+Today
+
+[ID_TIME_TOMORROW]
+Tomorrow
+
+[ID_TIME_UPDATES_IN_DAYS]
+Updates in {0} days
+
+[ID_TIME_UPDATES_SOON]
+Updates soon
+
+[ID_TIME_UPDATES_TODAY]
+Updates today
+
+[ID_TIME_UPDATES_TOMORROW]
+Updates tomorrow

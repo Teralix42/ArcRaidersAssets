@@ -1,0 +1,85 @@
+ARC Raiders 2.2.0 — Apollo
+
+[ST_VoiceLines/1412A7B94945A44391158DBA1B2B1D6A]
+Looks like the Emperor left its delivery network up and running. Would be a shame to let it go to waste, don't you think?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Any/Dialogue_Apollo_2026_Oct_Any_SessionSpawn_RoundConfig_Redirection_78b0.uasset
+
+[ST_VoiceLines/19F5C45542F5387AB7AD3F9A1A35AE0E]
+A machine that size? A Rattler barely registers. Our best hope is to use their own parts against them. As well as we can, anyway.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Any/Dialogue_Apollo_2026_Oct_Any_SessionSpawn_Quest_QueensMatriarchsPrepare_87d9.uasset
+
+[ST_VoiceLines/397BD39C4AED87CE0590E89DCEE1207F]
+Rough shift? You look like you've been chewed up and spat out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_EnterQuest_Quest_DestroyATarragon_Completed_c619.uasset
+
+[ST_VoiceLines/42F882074BBB811047BD6CB4856EF252]
+It’s been a while since a Murtetan set foot in here. They’re scared of grease and honest work, I think.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_TradeBanter_Tier2_760d.uasset
+
+[ST_VoiceLines/4908D528470E7C53200334A1831D75EC]
+We’ve been building gondola prototypes where Shani can’t spot them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_AcceptQuest_Quest_SkybucketPrototype_8e62.uasset
+
+[ST_VoiceLines/553BC85048D405F0F1B1D3BEF487DD86]
+There was a time I’d tell you to stay well away from Queens and Matriarchs, but these days… I wish we still had that luxury.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_EnterQuest_Quest_QueensMatriarchsPrepare_New_088a.uasset
+
+[ST_VoiceLines/62B1D39547C6407209A498B7823167D8]
+Shani’s content for the gondolas to get us up and down the mountain, but we have some engineers from Ferrovia more willing to take a risk. I can get behind that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_EnterQuest_Quest_SkybucketPrototype_New_7ede.uasset
+
+[ST_VoiceLines/744BB2464FC422F8B75E4FB96104B1C9]
+You really didn’t hold back, huh? All right, let’s see what you got.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_CompleteQuest_Quest_QueensMatriarchsPrepare_0e3a.uasset
+
+[ST_VoiceLines/864BFCFC475AFC7435DAF5946AE66BB0]
+A single Raider may just be a pinprick, but get enough of them together, and they can ruin the day of even those giants.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_EnterQuest_Quest_QueensMatriarchsPrepare_Accepted_1d46.uasset
+
+[ST_VoiceLines/87819A4548F98F4AEFA52F80C07D350B]
+The Ferrovian engineers were confident that we could improve the gondolas with ARC parts. Well, reasonably confident.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Any/Dialogue_Apollo_2026_Oct_Any_SessionSpawn_Quest_SkybucketPrototype_207b.uasset
+
+[ST_VoiceLines/8809EBA9460DCD90787987B8FFCA352D]
+When you find a Bully, please try to not play fetch with its grenades, alright? You hear them hit the ground? You run!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Any/Dialogue_Apollo_2026_Oct_Any_SessionSpawn_Quest_DestroyATarragon_1e4f.uasset
+
+[ST_VoiceLines/A11AD1E24CE340245A12E0AFB8B19AE6]
+If you’re going to stand even a fraction of a chance, you’ll need to prepare like never before.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_AcceptQuest_Quest_QueensMatriarchsPrepare_875c.uasset
+
+[ST_VoiceLines/AC776C4A404B3BED829B43A9D828F7E2]
+A new souvenir for my workbench! Just what I always wanted.Seriously, thanks for the legwork, I know these things don't come quietly. I’ll make sure it was worth the noise.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_CompleteQuest_Quest_DestroyATarragon_ffb4.uasset
+
+[ST_VoiceLines/AFD709FA4E077A9EFDCC518AA62C9DD5]
+Here’s some gear which should help. You find a way to drop one, bring me back one of their parts, I’d like to take a closer look at it… For professional reasons, of course.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_AcceptQuest_Quest_DestroyATarragon_44d6.uasset
+
+[ST_VoiceLines/C2339B8C4219B4C241B62FA98DF2331D]
+I tried visiting Vaulto, once, but they wouldn’t let me in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_TradeBanter_Tier2_9e84.uasset
+
+[ST_VoiceLines/C4FAA0124019B3930A22BF8D7C9B2FE5]
+I heard the Bully’s like a big, rabid guard dog. If you threw a grenade like a fetch ball, do you think it’d chase after it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_EnterQuest_Quest_DestroyATarragon_Accepted_5962.uasset
+
+[ST_VoiceLines/C62364744AB2D2F8CF0DC8AA0F43BEE4]
+Tough nuts to crack, those Bullies. But you know, nothing’s indestructible. I’ve heard of a few tricks that might just work, care to put them to a test?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_EnterQuest_Quest_DestroyATarragon_New_69dc.uasset
+
+[ST_VoiceLines/CAFB1C264F1C9BCB9CF554AE4C0B3E77]
+Oof, no luck, huh? Well, even a scorched prototype is useful data.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_CompleteQuest_Quest_SkybucketPrototype_d7bc.uasset
+
+[ST_VoiceLines/E03F4EC946C3AA746E1A7097AE29E54D]
+Got the signal, get ready! Oh, you... May want to take a few steps back, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Any/Dialogue_Apollo_2026_Oct_Any_CompleteObjective_Quest_SkybucketPrototype_Objective_PrototypeLaunched_481a.uasset
+
+[ST_VoiceLines/E209FE094CAEA6D8F0CED684AF76091B]
+Look, it's not like Shani's wrong; one or two gondola prototypes have been known to explode. But… you’ve seen what’s up there. I don’t think we can afford to play it safe anymore.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_EnterQuest_Quest_SkybucketPrototype_Accepted_2f07.uasset
+
+[ST_VoiceLines/F9BA51134A7A624EF86FE3A33BA09281]
+I heard the Ferrovians use olive oil to maintain their tube tracks. Can you imagine?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Oct/Frontend/Dialogue_Apollo_2026_Oct_Frontend_TradeBanter_Tier2_cbc2.uasset

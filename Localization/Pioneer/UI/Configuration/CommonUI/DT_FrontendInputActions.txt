@@ -1,0 +1,30 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/Configuration/CommonUI/DT_FrontendInputActions
+
+[[0].Rows.Decrease.DisplayName]
+Decrease
+
+[[0].Rows.Forward.DisplayName]
+Forward
+
+[[0].Rows.Increase.DisplayName]
+Increase
+
+[[0].Rows.InspectItem.DisplayName]
+Inspect Item
+
+[[0].Rows.SelectHold.DisplayName]
+SelectHold
+
+[[0].Rows.StartEarly.DisplayName]
+Start Early
+
+[[0].Rows.TextChatOpen.DisplayName]
+TextChatOpen
+
+[[0].Rows.TextChatSwitchChannel.DisplayName]
+TextChatSwitchChannel
+
+[[0].Rows.Unload.DisplayName]
+Unload
+

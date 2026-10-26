@@ -1,0 +1,297 @@
+ARC Raiders 2.2.0 — Celeste
+
+[ST_VoiceLines/00841A2D4E4157882617848D6B8ED827]
+Things are delicate enough without pointing fingers… But we can’t afford to be naive, either.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_TestObservatoryTrap_Accepted_rec_6fe6.uasset
+
+[ST_VoiceLines/03C8D53F4912B8FBE6EA998E0C2C71B3]
+You’re not running off to Murteta too, are you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_b7d7.uasset
+
+[ST_VoiceLines/0A883E3B424499FCB00795B887D2E545]
+For some reason, Vaulto always reminds me of Riven Tides. Must be the salt air.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_e034.uasset
+
+[ST_VoiceLines/0FC2D7F44406CC9A654AEEB22E83860D]
+Up there, it’s hard to tell which contrada someone’s from.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_1ca8.uasset
+
+[ST_VoiceLines/188DB71D4B1FE90EF6D0759EC35BD558]
+The envoys are unsettling, I know. But they're here for a reason.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_23c1.uasset
+
+[ST_VoiceLines/1C2D54584ADCD8540C0E01AE48A8B201]
+Whoa. This is... Lance is going to want to see this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_CompleteObjective_Quest_AndroidEmpathy_Objective_FindResearchLabMedBay_rec_6183.uasset
+
+[ST_VoiceLines/1E5C94EF4DA73F8563F4DF90D3B8D7D3]
+They say there’s a Raider in Murteta who dragged an entire piano into a Cargo Elevator. Foolish, but impressive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_735a.uasset
+
+[ST_VoiceLines/1FB664D84A703A312CD33590C7C9D7D4]
+Check if any of the androids around Stella Montis have retained more information about this Project Pathos.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_AndroidEmpathy_rec_694b.uasset
+
+[ST_VoiceLines/23860F3B470BF54C7535FF963C9FE07E]
+It’s not a perfect match, but the data did point me towards a leading theory. Could you perform one final experiment?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_InvestigateFallenCollector_rec_bf01.uasset
+
+[ST_VoiceLines/2B3F99124F672059A96389A226714B02]
+Our readings got disrupted right around the time the Emperor must’ve fallen down. See if you can recreate the signature at low intensity.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_InvestigateFallenCollector_rec_f29d.uasset
+
+[ST_VoiceLines/2DB85E094A3531259B97E396CA6B9B0E]
+All our signals got disrupted, right around the time those Wasps started glitching. If we had something to compare it to, we might understand the cause.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_InvestigateFallenCollector_Accepted_rec_df80.uasset
+
+[ST_VoiceLines/2E9CB0414B073234E5F62B84B004FFC7]
+We have some saplings that are... Much happier than I'd thought.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_b50d.uasset
+
+[ST_VoiceLines/2F08CB3147C2B6E39917EBB63FC27ACC]
+The stretch from the Northern tracks to the Emperor is crawling with unfamiliar ARC units. I need eyes on them, or we might be stepping into a death trap before we can even begin to breach the Emperor.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_ReconMeerkat_New_36cc.uasset
+
+[ST_VoiceLines/354F665F41BF2A18756BAEAB04B94CB3]
+Did you make it to the summit all right, Raider? See if there’s anything there that points toward why ARC has been swarming the Rust Belt.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_ExploreFrozenTrail_rec_f7dd.uasset
+
+[ST_VoiceLines/360C64FB4F357F5350F3AABB4EDA3A5F]
+Hmm, no, that’s not the one. Doesn’t seem anything like the disturbance we saw before.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_CompleteObjective_Quest_InvestigateFallenCollector_Objective_SurveyorCoreLaunchTower_rec_df20.uasset
+
+[ST_VoiceLines/39352A4448156D377C86319DDDD3707F]
+Sometimes, looking out for each other is looking out for yourself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_Tier2_rec_90a5.uasset
+
+[ST_VoiceLines/397BD39C4AED87CE0590E89DCEE1207F]
+Rough shift? You look like you've been chewed up and spat out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_DestroyATarragon_Completed_fa46.uasset
+
+[ST_VoiceLines/3CAD657F4DAF3A82B91B6F95C757F878]
+It looks like there were brief efforts to make androids more than mindless servants; to make them able to resist orders. Lance will want to hear about this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_AndroidEmpathy_rec_530f.uasset
+
+[ST_VoiceLines/441B1C3843E65595E91D13969A106C1A]
+You made it back from scouting that Emperor. To speak for Shani: that’s a hopeful data point.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_ScoutFallenCollector_rec_64ff.uasset
+
+[ST_VoiceLines/497C88B14174E4E2DC4993A095C7A4E2]
+To disrupt something that size… It’s something. A way to fight back. Now, we just have to keep pushing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_DisruptingFrigate_rec_80f6.uasset
+
+[ST_VoiceLines/4BD9F8A944BD30091F3B2185F3419BFD]
+Those outposts… If it wasn’t for the nomads and their trails, we never would have managed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_cee0.uasset
+
+[ST_VoiceLines/4C0995E242EA229DB7AA279ECD5037B2]
+Clean work. You’ve just made our next move a hell of a lot safer. Stay alert, this is far from over.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_ReconMeerkat_43a2.uasset
+
+[ST_VoiceLines/4CD0215149993BB52F0C9088E188F461]
+Head to the Observatory, and see if you can recreate what brought down the Emperor.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_TestObservatoryTrap_rec_f2de.uasset
+
+[ST_VoiceLines/4E9B966F420C40EFCE7F19A94996711D]
+People say we won, during the First Wave, but it’s hard not to feel all that we’ve lost.And now, with all the destruction that’s come to the Rust Belt, it’s like nothing we learned made a difference.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_TeenageRebellion_Accepted_rec_6259.uasset
+
+[ST_VoiceLines/4F7F07AB4B043DA21E96F6B8A01358F9]
+The next time you escape through a Raider Hatch, remember to thank a Ferrovian engineer.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_1282.uasset
+
+[ST_VoiceLines/561132D946A19964FE1142813DD5A846]
+If we let those Frigates roam freely, they’ll hit Toledo sooner or later. Was there anything you spotted on top that could cause a distraction?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_DisruptingFrigate_New_rec_7ec6.uasset
+
+[ST_VoiceLines/6080980E431795A0AB0B7CA5358DDE8F]
+ARC’s always been drawn to gunfire and commotion, but we’ve never seen them quite converge on a place like they have at Pendola Pass.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_ExploreFrozenTrail_New_rec_d3ed.uasset
+
+[ST_VoiceLines/61BE8F8D465B7DA3CD5894AAD5783FDA]
+Hmm. Interesting… It’s not quite the same, but it’s not too far off, either.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_CompleteObjective_Quest_InvestigateFallenCollector_Objective_AttachSnitchScanner_rec_9b8f.uasset
+
+[ST_VoiceLines/697B48874906D19A9D74D583F61EA407]
+I hear that more than one Raider in Ferrovia painted a mural to themselves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_6826.uasset
+
+[ST_VoiceLines/6C76FF7C4AB2A7BBCB5F85A187CB7158]
+Please don't antagonize the envoys. It wasn't so long ago that you were a new arrival yourself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_9ab5.uasset
+
+[ST_VoiceLines/6FCE8ACF45CCB6EA210010B1EDC398BA]
+If you find a clean opening, take out a few ARC and secure a part. Maybe I can find out what's driving them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_ReconMeerkat_08a1.uasset
+
+[ST_VoiceLines/774D8FA04165FD3411A212A09AC66A72]
+That must’ve been it. And there’s only one group that got to Pendola Pass before we did…
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_TestObservatoryTrap_rec_a943.uasset
+
+[ST_VoiceLines/7913960F422BDD8706B7D080AB47668B]
+Hey, keep moving! They can't hit you if you don't let them—
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_CompleteObjective_Quest_TeenageRebellion_Objective_StartTransmitter_rec_0be4.uasset
+
+[ST_VoiceLines/7E341CC6458AD4B5CC3865B3C43F5BD6]
+I heard that over in Vaulto, they’re still eating last season’s harvest. What a relief that must be.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_016a.uasset
+
+[ST_VoiceLines/80FA2D3F466A18B0412CCB98B81A14F1]
+Those Frigates looming in the sky… It made me feel shivers I haven’t felt since I was a girl. We need to adapt, I know. But the lessons we learned then? They're more relevant now than ever.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_TeenageRebellion_New_rec_d77b.uasset
+
+[ST_VoiceLines/82B09E9848A152CA7246C5B212C084EB]
+I know it all feels like a pinprick. But it’s all we have.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_DisruptingFrigate_Accepted_rec_a15e.uasset
+
+[ST_VoiceLines/849EF50D42F11359D936119EE8313293]
+Keep your ears sharp. I’m seeing reports of a chittering robotic sound in the brush.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_ReconMeerkat_0610.uasset
+
+[ST_VoiceLines/8517EFEC434C107BCA8D8B9A864CA837]
+The Tubes won’t get you all the way up the mountains. Apollo’s been working with some Ferrovian engineers to help get Raiders there and back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_ExploreFrozenTrail_Accepted_rec_56fb.uasset
+
+[ST_VoiceLines/85B9B61448307E73B1709182E452C208]
+I’d need you to hook these ARC parts up to satellite dishes around the Rust Belt - see if we can reverse-engineer what little data survived.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_InvestigateFallenCollector_rec_b873.uasset
+
+[ST_VoiceLines/8809EBA9460DCD90787987B8FFCA352D]
+When you find a Bully, please try to not play fetch with its grenades, alright? You hear them hit the ground? You run!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_DestroyATarragon_118a.uasset
+
+[ST_VoiceLines/8A77AA0E46339134C1F1AF9BAC5388AB]
+We found the key in a subfolder called Pathos, Revision 6. It sounds vaguely... medical? I'd start with the terminals in Medical Research.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_AndroidEmpathy_rec_d796.uasset
+
+[ST_VoiceLines/8B56F0AA4A111B6623B3FAA4CE8FD7A8]
+That contraption you found at the Observatory… There wasn’t much data left to read, but the signature was undeniably ARC’s.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_InvestigateFallenCollector_New_rec_96f7.uasset
+
+[ST_VoiceLines/8B83E6E34473CA6C3610E284A8016C0D]
+Hard to get a full night's sleep, these days.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_6282.uasset
+
+[ST_VoiceLines/8CE13B6B4094655DC5E245BD66F800BC]
+My bed’s got a rabbit-pelt blanket from Ferrovia. I’d recommend it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_facc.uasset
+
+[ST_VoiceLines/90BCD5194D81728A49E3A3885E7BE7F5]
+Milder weather today… unless you count the somewhat lively conditions overhead. Better watch out for debris.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_RoundConfig_Redirection_rec_a0c5.uasset
+
+[ST_VoiceLines/90C7EB2E4156DA34CA17F3A428285623]
+That Emperor didn’t just trip and fall… It was brought down. And I have a leading theory about how that happened.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_TestObservatoryTrap_New_rec_7cba.uasset
+
+[ST_VoiceLines/94FC72A8415817ED09FADBA48C8329CA]
+We won’t be able to build a contraption nearly as potent as what brought down the Emperor, but even a weak signal should be enough to confirm my suspicions.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_TestObservatoryTrap_rec_fa2f.uasset
+
+[ST_VoiceLines/98EB50504240450760F26FA270EEFC38]
+Whatever happened in the mountains; it’s been drawing ARC to the Rust Belt like nothing we’ve ever seen.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_ExploreFrozenTrail_rec_75c4.uasset
+
+[ST_VoiceLines/AB3B71404162AA52FF634280BB05E4D4]
+You ever see the fountains in Ferrovia?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_f42f.uasset
+
+[ST_VoiceLines/AC26B864442C52A392A76B8E45C9F4C7]
+Those androids around Stella Montis… It seems they were test subjects as much as they were assistants. There’s some encrypted research notes about a… Project Pathos.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_AndroidEmpathy_New_rec_61b5.uasset
+
+[ST_VoiceLines/AC776C4A404B3BED829B43A9D828F7E2]
+A new souvenir for my workbench! Just what I always wanted.Seriously, thanks for the legwork, I know these things don't come quietly. I’ll make sure it was worth the noise.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_DestroyATarragon_65a0.uasset
+
+[ST_VoiceLines/AFD709FA4E077A9EFDCC518AA62C9DD5]
+Here’s some gear which should help. You find a way to drop one, bring me back one of their parts, I’d like to take a closer look at it… For professional reasons, of course.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_DestroyATarragon_a32e.uasset
+
+[ST_VoiceLines/AFF215B84D994EA83C51B7B3434E8C83]
+If androids replaced humans, then any attempt to alter them reeks of more than just scientific curiosity.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_AndroidEmpathy_Accepted_rec_e0d0.uasset
+
+[ST_VoiceLines/B02AA51147D344639621219967EE7540]
+I’ve spent most of my life repressing those memories; to forget what we lost at Riven Tides. I know now I should've been learning from it, instead. Thank you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_TeenageRebellion_rec_cdbb.uasset
+
+[ST_VoiceLines/B0475A714A43F844E4AE35A5F58CB4E1]
+You’re saying an Emperor just… Lay there? Did it move? Could you get near? This… Oh, we better start building more Gondolas.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_CompleteQuest_Quest_ExploreFrozenTrail_rec_6711.uasset
+
+[ST_VoiceLines/C00B4A3540C870E23B36B087C6CCB41A]
+Focus on the recon, only take a shot if it’s clean. I need those reports intact, which means I need you back alive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_ReconMeerkat_Accepted_777c.uasset
+
+[ST_VoiceLines/C4FAA0124019B3930A22BF8D7C9B2FE5]
+I heard the Bully’s like a big, rabid guard dog. If you threw a grenade like a fetch ball, do you think it’d chase after it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_DestroyATarragon_Accepted_fee9.uasset
+
+[ST_VoiceLines/C4FD729349083D43DFC4CFB51E885DD7]
+There’s a part of me that wants to pretend that Emperor never fell. But if ARC’s drawn to it, then we must be, too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_ScoutFallenCollector_Accepted_rec_2cb6.uasset
+
+[ST_VoiceLines/C62364744AB2D2F8CF0DC8AA0F43BEE4]
+Tough nuts to crack, those Bullies. But you know, nothing’s indestructible. I’ve heard of a few tricks that might just work, care to put them to a test?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_DestroyATarragon_New_d6d9.uasset
+
+[ST_VoiceLines/CBCB33AE4A3BB100329A989E4C248CC1]
+Let me see… No, not that one. My readings are all different.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_CompleteObjective_Quest_InvestigateFallenCollector_Objective_SentinelCoreGrandioso_rec_8b4e.uasset
+
+[ST_VoiceLines/CE17CD654A71F0E19C7FC78B692ABB6C]
+I’m glad you’re here with us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_rec_cd93.uasset
+
+[ST_VoiceLines/D11568ED4633BC0410013AAFC658D59F]
+The very first time we took on a Baron was right here, at Riven Tides. The waves must’ve carried off the husk, though perhaps some of the lessons still remain.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_TeenageRebellion_rec_fc18.uasset
+
+[ST_VoiceLines/D69F30FC48275B06F6C0679AD61E8AA0]
+Get back on top of that Frigate, and see if you can find any opportunity to disrupt it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_DisruptingFrigate_rec_0d1d.uasset
+
+[ST_VoiceLines/D6D98708435BE2A7043D358E68E93AC0]
+Be courteous to the envoys, but keep your wits about you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_b21d.uasset
+
+[ST_VoiceLines/D943792E46CCC4B2B9352DAB33FC9438]
+I like your outfit.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_10d0.uasset
+
+[ST_VoiceLines/DED2A3CC4234A57E7F438F80B25FA204]
+If we can figure out the Frigates’ purpose, we may be able to fend them off.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_DisruptingFrigate_rec_0000.uasset
+
+[ST_VoiceLines/E4E7F64E47AA0BDE890F3F9C3EEE500E]
+Approach that Emperor cautiously, if you can. I don’t want to find out the hard way if it’s still awake.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_SessionSpawn_Quest_ScoutFallenCollector_rec_e739.uasset
+
+[ST_VoiceLines/EA757359465A878BF7DFB384C01DBCC8]
+Do some reconnaissance around that fallen Emperor, and see that you stay safe.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_ScoutFallenCollector_rec_378b.uasset
+
+[ST_VoiceLines/ED2E35E841A3F373B985CFB05FA8B01E]
+I... I never dared return to where it all began. Perhaps that was a mistake.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_AcceptQuest_Quest_TeenageRebellion_rec_3697.uasset
+
+[ST_VoiceLines/F0F5DDC143A75A2CA10350BE4851D906]
+Okay, so .... not that. Good news, though, some new data just came back, more files referencing Pathos. It seemed to be android related. Maybe you can find something in the Assembly Workshops?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Any/Dialogue_Celeste_2026_Oct_Any_CompleteObjective_Quest_AndroidEmpathy_Objective_ScanPathosAndroids_rec_be42.uasset
+
+[ST_VoiceLines/F1015B604C9A2C24D5CC60AB7E885E3B]
+Those Emperors were imposing enough from a distance, but to be able to get so up close… If there was ever a time to tread carefully, this would be it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_EnterQuest_Quest_ScoutFallenCollector_New_rec_272c.uasset
+
+[ST_VoiceLines/F3AE9FBA4314B08B02B8329DF15D660C]
+Don't forget to stretch.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_0bce.uasset
+
+[ST_VoiceLines/F49334864DF101A3CAB410AA355AB474]
+There's days I'm grateful how hard it is to get to the other contradas. And then there's days I'm not.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_Tier2_rec_8eb2.uasset
+
+[ST_VoiceLines/F778CDDE4E5C3510D3DF51A205AD704E]
+I like to change up which cantina I go to. You know, to keep an eye on things.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste_2026_Oct/Frontend/Dialogue_Celeste_2026_Oct_Frontend_TradeBanter_Tier2_rec_65b4.uasset

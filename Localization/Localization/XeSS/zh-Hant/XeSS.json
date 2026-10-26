@@ -1,0 +1,22 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "AI 技術的消除鋸齒功能，實現最高視覺品質",
+    "XESS_BALANCED": "平衡",
+    "XESS_BALANCED_DESCRIPTION": "效能與視覺品質之間的最佳平衡",
+    "XESS_PERFORMANCE_DESCRIPTION": "高效能提升",
+    "XESS_QUALITY_DESCRIPTION": "高品質的圖像放大",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "更高品質的圖像放大",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "最高效能提升",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "最高品質的圖像放大",
+    "XESS_DESCRIPTION_MINIMUM": "Intel® Xe Super Sampling (XeSS) 技術利用 AI 提供更高的效能，實現優異的影像品質。",
+    "XESS_DESCRIPTION_SHORT": "Intel® Xe Super Sampling (XeSS) 技術利用 AI 提供更高的效能，實現優異的影像品質。XeSS 針對採用 AI 加速硬體的 Intel® Arc™ GPU 最佳化。",
+    "XESS_NATIVE_ANTI_ALIASING": "Native Anti-Aliasing 模式",
+    "XESS_OFF": "關閉",
+    "XESS_PERFORMANCE": "效能",
+    "XESS_QUALITY": "高畫質",
+    "XESS_OFF_DESCRIPTION": "關閉 Intel XeSS",
+    "XESS_ULTRA_PERFORMANCE": "超高效能",
+    "XESS_ULTRA_QUALITY": "超高畫質",
+    "XESS_ULTRA_QUALITY_PLUS": "超高畫質+"
+  }
+}

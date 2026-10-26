@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Time",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/EmbarkScript/Localization/ST_Time",
+    "StringTable": {
+      "TableNamespace": "ST_Time",
+      "KeysToEntries": {
+        "ID_TIME_ENDS_IN_DAYS": "Ends in {0} days",
+        "ID_TIME_ENDS_SOON": "Ends soon",
+        "ID_TIME_ENDS_TOMORROW": "Ends tomorrow",
+        "ID_TIME_ENDS_TODAY": "Ends today",
+        "ID_TIME_UPDATES_SOON": "Updates soon",
+        "ID_TIME_UPDATES_TOMORROW": "Updates tomorrow",
+        "ID_TIME_UPDATES_TODAY": "Updates today",
+        "ID_TIME_UPDATES_IN_DAYS": "Updates in {0} days",
+        "ID_TIME_TOMORROW": "Tomorrow",
+        "ID_TIME_TODAY": "Today",
+        "ID_TIME_SOON": "Soon",
+        "ID_TIME_DAYS": "{0} days",
+        "ID_TIME_MINUTES_SHORT": "{0} min",
+        "ID_TIME_MONTHS": "{0} months",
+        "ID_TIME_HOURS": "{0} hours",
+        "ID_TIME_LEFT": "{0} left",
+        "ID_TIME_DAYS_TEXT": "{0}|plural(zero=day, one=day, few=days, many=days, other=days)"
+      },
+      "KeysToMetaData": {
+        "ID_TIME_ENDS_IN_DAYS": {
+          "Status": "approved"
+        },
+        "ID_TIME_ENDS_SOON": {
+          "Status": "approved"
+        },
+        "ID_TIME_ENDS_TOMORROW": {
+          "Status": "approved"
+        },
+        "ID_TIME_ENDS_TODAY": {
+          "Status": "approved"
+        },
+        "ID_TIME_UPDATES_SOON": {
+          "Status": "approved"
+        },
+        "ID_TIME_UPDATES_TOMORROW": {
+          "Status": "approved"
+        },
+        "ID_TIME_UPDATES_TODAY": {
+          "Status": "approved"
+        },
+        "ID_TIME_UPDATES_IN_DAYS": {
+          "Status": "approved"
+        },
+        "ID_TIME_TOMORROW": {
+          "Status": "approved"
+        },
+        "ID_TIME_TODAY": {
+          "Status": "approved"
+        },
+        "ID_TIME_SOON": {
+          "Status": "approved"
+        },
+        "ID_TIME_DAYS": {
+          "Status": "approved"
+        },
+        "ID_TIME_MINUTES_SHORT": {
+          "Status": "approved"
+        },
+        "ID_TIME_MONTHS": {
+          "Status": "approved"
+        },
+        "ID_TIME_HOURS": {
+          "Status": "approved"
+        },
+        "ID_TIME_LEFT": {
+          "Status": "approved"
+        },
+        "ID_TIME_DAYS_TEXT": {
+          "Status": "approved"
+        }
+      }
+    }
+  }
+]

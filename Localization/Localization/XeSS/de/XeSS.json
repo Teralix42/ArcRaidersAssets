@@ -1,0 +1,22 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "KI-basiertes Anti-Aliasing für maximale visuelle Qualität ",
+    "XESS_BALANCED": "Ausgewogen",
+    "XESS_BALANCED_DESCRIPTION": "Beste Balance zwischen Leistung und visueller Qualität ",
+    "XESS_PERFORMANCE_DESCRIPTION": "Hohe Leistungsverbesserung ",
+    "XESS_QUALITY_DESCRIPTION": "Upscaling mit hoher visueller Qualität",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "Upscaling mit höherer visueller Qualität",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "Höchste Leistungsverbesserung ",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "Upscaling mit höchster visueller Qualität",
+    "XESS_DESCRIPTION_MINIMUM": "Die Intel® Xe Super Sampling (XeSS)-Technologie nutzt KI, um mehr Leistung bei außergewöhnlicher Bildqualität zu liefern.",
+    "XESS_DESCRIPTION_SHORT": "Die Intel® Xe Super Sampling (XeSS)-Technologie nutzt KI, um mehr Leistung bei außergewöhnlicher Bildqualität zu liefern. XeSS ist für Intel® Arc™ GPUs mit KI-Beschleunigungshardware optimiert. ",
+    "XESS_NATIVE_ANTI_ALIASING": "Natives Anti-Aliasing",
+    "XESS_OFF": "Aus",
+    "XESS_PERFORMANCE": "Leistung",
+    "XESS_QUALITY": "Qualität",
+    "XESS_OFF_DESCRIPTION": "Schaltet Intel XeSS aus ",
+    "XESS_ULTRA_PERFORMANCE": "Ultra-Leistung",
+    "XESS_ULTRA_QUALITY": "Ultra-Qualität",
+    "XESS_ULTRA_QUALITY_PLUS": "Ultra-Qualität Plus"
+  }
+}

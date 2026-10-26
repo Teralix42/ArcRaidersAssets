@@ -1,0 +1,21 @@
+{
+  "ST_RaiderDen": {
+    "ID_RAIDERDEN_BUTTON_APPEARANCE": "外観",
+    "ID_RAIDERDEN_FURNITURE_BED": "ベッド",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT2": "外見を変更",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT3": "レイダーの外見",
+    "ID_RAIDERDEN_FURNITURE_INSTALLED": "設置済み",
+    "ID_RAIDERDEN_FURNITURE_INSTALLING": "設置中…",
+    "ID_RAIDERDEN_FURNITURE_SHELVES": "棚",
+    "ID_RAIDERDEN_FURNITURE_STASH": "保管庫",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE_ALT2": "保管庫をアップグレードしてスペースを増やし、より多くのアイテムを収集・保管しましょう。これによりレイダーのアジトの見た目がよくなることもあります。",
+    "ID_RAIDERDEN_FURNITURE_WARDROBE": "ワードローブ",
+    "ID_RAIDERDEN_FURNITURE_WEAPONDISPLAY": "武器ディスプレイ",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE": "「レイダーのアジト」の見た目を改良します。"
+  },
+  "ST_WindowModes": {
+    "ID_WINDOW_MODE_FULLSCREEN": "フルスクリーン",
+    "ID_WINDOW_MODE_WINDOWED": "ウィンドウ",
+    "ID_WINDOW_MODE_WINDOWED_FULLSCREEN": "ボーダーレスウィンドウ"
+  }
+}

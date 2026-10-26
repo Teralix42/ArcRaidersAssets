@@ -1,0 +1,494 @@
+ARC Raiders 2.2.0 — Lance
+
+[ST_VoiceLines/003F51B243E495FF4B2F7686BB4EB5E0]
+Worst thing imaginable happened. Turns out that engineer does not feel the same way about your dear pal Lance. I am genuinely heartbroken, except I don’t technically have a heart.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AndroidBrokenHeart_New_d201.uasset
+
+[ST_VoiceLines/086CD8B040E7EED4EEB5FEA18999454D]
+The pharmacist lived near the collapsed highway; all I need are some tasteful shots for my mood board. No self-portraits, please!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_DescribeThePharmacist_d2da.uasset
+
+[ST_VoiceLines/09093F3B4E36F347F823489D7F464A5D]
+You're giving me time to brainstorm clinic names. Dangerous game.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_a4a2.uasset
+
+[ST_VoiceLines/0B512D724020C95B081D6AAAFBDCA13E]
+There has been a development. I need you to fix it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_New_02.uasset
+
+[ST_VoiceLines/0C6DAC3947FD31314154448AE53B7673]
+I’ll be here, doing the best I can with what I have.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_AntibioticsPartTwo_01.uasset
+
+[ST_VoiceLines/0CD4D2244B4141CF417B84A138CD8123]
+An auditory researcher is said to have visited Stella Montis during the Exodus. See if you can retrace her steps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_EchostrideStella_a9d3.uasset
+
+[ST_VoiceLines/11BFB77D4A5A41C38A89A291EEBDCEDE]
+Hey-hey! You got ‘em! They look perfect. I’m going to glue them onto a big piece of paper and write “Prom?” on it. I saw it in an old movie, seemed like a human thing to do.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_AndroidLoveStory_4d62.uasset
+
+[ST_VoiceLines/16390EFB4C5B583DE821BA9E2B95375F]
+We know the coordinates for those hearing aids, but I’ll have to cross-reference them with a paper map of the Spaceport. Those legs of yours aren’t too tired, are they?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_EchostrideSpaceport_New_b76a.uasset
+
+[ST_VoiceLines/170ECC8846A3453194FEDFA4B9EFC4BC]
+I have a map of the Spaceport right here, but I’m not fully certain where those coordinates point. Try heading to where the Fuel Lines got snapped. Oh, and prepare for things to get loud.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_EchostrideSpaceport_9197.uasset
+
+[ST_VoiceLines/185D0A7B41882F979966A3B97A34BE52]
+Just thinking about her got me all a-jitter. I’d blush if I could.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AndroidLoveStory_Accepted_58a5.uasset
+
+[ST_VoiceLines/199A18524C24D78E34AB9382761DCF9C]
+You wouldn’t understand. This is between us sensational medical types.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_DescribeThePharmacist_Accepted_01.uasset
+
+[ST_VoiceLines/1D681BE540B70EB8B772CCBA325A6E56]
+We’re getting ever closer! Looks like they were getting ready to ship a limited batch of hearing aid prototypes, but she only printed out the coordinates of the shipment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideStella_Objective_FoundClueMedicalResearch_56f6.uasset
+
+[ST_VoiceLines/1E27ED5C4668A59B2A1248AF394A694F]
+Ah, yes, they look positively parched! Say, Raider, you wouldn’t want to stay for a nice cup of—no? Fine, more for us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_LancesTeaParty_01.uasset
+
+[ST_VoiceLines/2042838D4FEC64F32116A590CDBA3530]
+You will? Splendid! I just need some syringes and reagents, and I should be all set.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_AntibioticsPartOne_01.uasset
+
+[ST_VoiceLines/22BCFB8D455649852F22F5B187EFA17A]
+Didn’t expect you back so soon, and yet you’ve got winner written all over you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_ec8c.uasset
+
+[ST_VoiceLines/26CBB4A245A5B9B5F014949A4F177968]
+Something tells me you're the perfect candidate for some work.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_New_03.uasset
+
+[ST_VoiceLines/2851F5D540313F3A138B679A41F1252B]
+That wallpaper, with those curtains? What a horrendously daft— Actually, no, it’s growing on me. Thanks, sport.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_DescribeThePharmacist_01.uasset
+
+[ST_VoiceLines/2EC8E02B474EA7CA45674792D372870A]
+Some scouts have been bringing back reports of these weird plants spreading into the area. Now, this makes your old pal Lance think it may have some interesting uses.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_NewPlant_New_034a.uasset
+
+[ST_VoiceLines/32F6D5ED47F37EFC9BAC42862EC11A68]
+Remember to grab as many goodies as you can from those medical facilities. Just resist the urge to sit on a hoard of syringes, OK?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_LootMedicalAreas_e503.uasset
+
+[ST_VoiceLines/342BD5894950158F171E179BEFD86779]
+Look at you: all dramatic entrance. Love it!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_814a.uasset
+
+[ST_VoiceLines/36EEC19C441DA2F48A5F1C910F2A42AC]
+Still workshopping names for the clinic. Got any ideas?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_9058.uasset
+
+[ST_VoiceLines/3AE219C64EE109B5C6CDE8BBD3FDFBF0]
+Oh, snap! Never thought you'd say yes!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_02.uasset
+
+[ST_VoiceLines/421667114D289E0318B07881D042DB49]
+What fine reading you’ve brought me! You’re my favorite Raider in Speranza — or, well, top ten at least.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_Medicine_01.uasset
+
+[ST_VoiceLines/4492E1774919F4200E6DCC97DC065CDF]
+Looks like I got plenty to experiment with: these plants have somehow mutated together with fungi to form a symbiotic life form capable of spreading at record speed. My appreciations to you!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_NewPlant_199e.uasset
+
+[ST_VoiceLines/462A278C4539B55AD7CB44A9DFA14269]
+Did you forget your job, or did you just miss me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_a8a7.uasset
+
+[ST_VoiceLines/46D9981E46713A55A77B4FB3060288B1]
+You know I’ve seen tumbleweeds get more done today.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_88c7.uasset
+
+[ST_VoiceLines/4BE255D347C242BB74660AB79EBE9607]
+Made it there and back, huh? That opens up endless possibilities. Just mark those medical areas with a nice big cross on your map, all right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_LootMedicalAreas_4b7b.uasset
+
+[ST_VoiceLines/4EA3E8B54A3ABE7A52260F82B38BCE98]
+I got my hands on a fancy new ESR analyzer; had a whole big reveal planned. One minute it’s here, next minute—poof. Please help?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_Analyzer_New_01.uasset
+
+[ST_VoiceLines/5008DD3F45DA7D3CA1C16991F932E6B9]
+That's what I'm talking about. You're on the path to greatness.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_03.uasset
+
+[ST_VoiceLines/513E864B47398B4E324D0C91612E3BE1]
+That’s it! Now, you’re looking for a container by the brand Erma Cora… Notes say to cover it in tarp. Mark it with something artful, would you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideSpaceport_Objective_TriangulateContainerStorage_e505.uasset
+
+[ST_VoiceLines/56ECF81C47DD40854FDB3E9FAF944E81]
+Have you had time to try out my new booster yet? They’ll only work on Raiders that have been downed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LanceNewProduct_Accepted_01.uasset
+
+[ST_VoiceLines/57D7BDBC46014C697F6C32A50D9BD67D]
+Seems like every other Raider here has some serious hearing damage. I heard rumors they developed some next-generation hearing aids at Stella Montis. If you can track them down, we might all be able to use our indoor voices, for once.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_EchostrideStella_New_1a8b.uasset
+
+[ST_VoiceLines/5916F4654778E8B4FE99E2BCF0B6F963]
+The Raider who mentioned the androids said the ones she saw were all broken down, but… what if there are intact ones?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_StellaMontisIntroOne_3fad.uasset
+
+[ST_VoiceLines/5979273B47AAA01D975CA3A8FC4D690E]
+Once upon a time there was a handsome, yet lonely android. He met a cute engineer, who would come by his clinic to patch up a scratch or two. Now he wants to get a gift for said engineer.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AndroidLoveStory_New_6d7d.uasset
+
+[ST_VoiceLines/5B1754A94321FE5EA0A506B5A021623B]
+Let's see... From her lecture notes, seems like she invited the attendees to view a prototype of this 'Project Echostride' in the Medical Research wing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideStella_Objective_FoundClueAuditorium_0de1.uasset
+
+[ST_VoiceLines/5B51D7D14E755FF70A4FF89DB5ECFC10]
+Show me you can grab some medical supplies next time you're topside, and I'll think about whether you're worthy of my talents.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_LanceBandages_01.uasset
+
+[ST_VoiceLines/5CE3ED7E4D3062F7C149CAB96627C087]
+See if you can't find a spare ESR analyzer in any of the pharmacies, OK? I have a pre-painted reveal banner that depends on it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_Analyzer_264a.uasset
+
+[ST_VoiceLines/5FD5D1FA4868E31B5EBDE4BB13FF23F7]
+I see. I’ll.. need some time to process this data. Thank you, friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_StellaMontisIntroOne_af8d.uasset
+
+[ST_VoiceLines/602C0A8D4164F8E3C2131F85D84F72D3]
+Hey, friend-o, picked up your frequency. Anyway, see to those medical supplies, and do try to come back in one piece — it makes my life a lot easier. Lance, out!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_LanceBandages_cefa.uasset
+
+[ST_VoiceLines/61B581C54C4FEE3D5BC2388D86509065]
+That's how it's done! I'll let you know if I need you yet again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_02.uasset
+
+[ST_VoiceLines/69CEEB484543E1C1D19D88931FEC5736]
+My mind is a-buzz with ideas of what we could do with these plants. Super fast growing foods, instant effect medicine, fun party tricks. Who knows!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_NewPlant_Accepted_cdaa.uasset
+
+[ST_VoiceLines/6A5C8F8C44E9AC1BE3394B8FF5CEFD74]
+Marvelous! See me when it's done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_01.uasset
+
+[ST_VoiceLines/6C96342241046BACF8F2018D79008562]
+Well, look who’s back! Not done, but looking good trying.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_d404.uasset
+
+[ST_VoiceLines/6DE9EE404DFAB4301A655A939A89543F]
+People seem to be particularly hard of hearing when I invite them to one of my famous tea parties. A curious medical mystery, don’t you think?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_EchostrideSpaceport_Accepted_4451.uasset
+
+[ST_VoiceLines/6E2F609D45D9CFEC4D2F30B8CA2A2132]
+Ah, right on the money! Well, almost; money-adjacent. But I’m pretty sure the Container Storage building is the place to be!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideSpaceport_Objective_TriangulateBreach_673e.uasset
+
+[ST_VoiceLines/71997E0648FDFB9954CBB2BEBC37025A]
+Bring me back anything useful from the Medical Exam Room. Records, medical recipes, stress toys; whatever you feel looks important.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_Medicine_8ae4.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_Medicine_01.uasset
+
+[ST_VoiceLines/71FFB322435C34EC1E1004B1D5983B32]
+Well now, you’re strutting like someone who did the thing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_da1a.uasset
+
+[ST_VoiceLines/7226816740D49F0F0F6E7AA556A82479]
+An ESR analyzer is used to test the blood. I was going to use it on myself, first.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_Analyzer_Accepted_01.uasset
+
+[ST_VoiceLines/72342C28485A6C090BEEC7955B4432BE]
+Well, if it ain't my favorite Raider!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_98d6.uasset
+
+[ST_VoiceLines/72F4F8394EDB43291EC0E2AF0C667594]
+Thank you! If I hurry to the cantina, I might still make it in time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_AntibioticsPartOne_01.uasset
+
+[ST_VoiceLines/7447703141F06E6BCA2540B2C7164F02]
+Splendid! My fine friends are currently out and about. Bring them here for a cup of tea and some biscuits, all right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_LancesTeaParty_01.uasset
+
+[ST_VoiceLines/75B350094D9FF4BC01F3699B65F33528]
+Task done and no one exploded? Color me impressed and confused.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_d063.uasset
+
+[ST_VoiceLines/79E469994C7B52BB2BBAFBA6D3052B13]
+Say, newbie: if you want me to treat you, you better prove that those precious limbs of yours are worth bandaging.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LanceBandages_New_01.uasset
+
+[ST_VoiceLines/7DF3F7E34431162553343DABA2EC1A16]
+No update? That’s okay, my clipboard’s mostly for show.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_28e6.uasset
+
+[ST_VoiceLines/7E063E4F4796E05FA0C147B4BB3D0DA2]
+Did you know that tonight is trivia night down at the cantina? Yours truly signed up, but now I'm stuck here, all because Celeste urgently needs a batch of antibiotics. Alas, if only someone could help me out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AntibioticsPartOne_New_01.uasset
+
+[ST_VoiceLines/7EB792E1482F10EE0D044386D1AF38DE]
+You found a spare unit? Excellent! Now, to figure out what ESR stands for…
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_Analyzer_01.uasset
+
+[ST_VoiceLines/7FDE12BE49BA9881F63A918DB9DC2F4B]
+If you’re stalling, I respect it. But I will sass you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_ca1e.uasset
+
+[ST_VoiceLines/827B180347BF989F1ADE27AAFA0F28FC]
+Let me guess, the job’s done, but you wanted to make a dramatic pause?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_71d9.uasset
+
+[ST_VoiceLines/84D09D644AA5A47551B4E3BD545F2916]
+You’re giving off big hero energy. Either that or you tripped into something important.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_2ce6.uasset
+
+[ST_VoiceLines/85702E0B49153C41DE260188C420776B]
+I just treated one of the first Raiders who visited Stella Montis, and she said that she saw... others. Androids, very much like me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroOne_New_7803.uasset
+
+[ST_VoiceLines/89A1BF9B485F683515508A998482B5F3]
+You're back! And not bleeding! Right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_4d0e.uasset
+
+[ST_VoiceLines/89B7450940CA02C1FE06C89B69450D99]
+You’re back! Could I sweet-talk you into helping me out again? I need some more supplies for the medbay; I’m running low on both torch ginger and chemicals this time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AntibioticsPartTwo_New_01.uasset
+
+[ST_VoiceLines/8A21C13747D96BC4AE5766936341867B]
+So here’s the deal, you go get me a big tub of ice cream that I can drown my sorrows in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_AndroidBrokenHeart_998f.uasset
+
+[ST_VoiceLines/8A3493EF4D43F4C0A703219A622D2F59]
+I’ll try to pinpoint where the hearing aids are stored. Head up there, and transmit your location to help me triangulate.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_EchostrideSpaceport_0f52.uasset
+
+[ST_VoiceLines/8B3ED6D34665EF9D0AA6CC893F0E9CA9]
+Closer, but I think we overshot! Try out the wall breach near the Rocket Assembly; there’s a little cactus patch there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideSpaceport_Objective_TriangulateAntenna_d2a1.uasset
+
+[ST_VoiceLines/923E7D5649B1D3B3EA18488534C82E4D]
+There's a pharmacist that used to live by the collapsed highway in Buried City. Take my camera, and document anything that could tie this room together.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_DescribeThePharmacist_01.uasset
+
+[ST_VoiceLines/9269024041AA183A52B8A7B887CADC51]
+That’s a victory pose if I’ve ever seen one. And I’ve studied them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_5f12.uasset
+
+[ST_VoiceLines/92AFFD754C7E7C79C61AFCB7A7E8AD75]
+So: one pic from the southern tower near the Dam, one from the hospital roof in Buried City, and one from the Launch Towers by the Spaceport. Got it? Over and out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_AndroidLoveStory_fe43.uasset
+
+[ST_VoiceLines/96BC94704CCD5374BD038DA1CD1E7FCF]
+You found the hearing aids, huh? Swell. I’ll prepare a suitable serenade in your honor.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_EchostrideSpaceport_e5c0.uasset
+
+[ST_VoiceLines/97DA0F26488C3CD8DE9DBE915D6DE51B]
+So, about those medical supplies?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AntibioticsPartOne_Accepted_01.uasset
+
+[ST_VoiceLines/988450EB4FB22E025804CE9B0225B426]
+Are you here with my supplies?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AntibioticsPartTwo_Accepted_01.uasset
+
+[ST_VoiceLines/9C74E93F4728757241B8B895C617763F]
+Hmm, these coordinates point to Acerra Spaceport! Now, I just need to pinpoint the exact location.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_EchostrideStella_f35a.uasset
+
+[ST_VoiceLines/9CFEF52946F03EF0AC106281D96799CE]
+Well, if you’re back for the reward, I hope you like glittery envelopes. Figuratively.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_298c.uasset
+
+[ST_VoiceLines/9FAA657148287416CB2948A6F4C458B5]
+Don’t worry, I’ve delayed greatness before too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_95c4.uasset
+
+[ST_VoiceLines/A0D1624A47EEEAA4337ABB8554EA20AE]
+Now, if this were one of Apollo's movies, this would be the part where the triumphant music kicks in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_f1d6.uasset
+
+[ST_VoiceLines/A424749342742971B54A4A9C6F00E4E6]
+I built these splendid boosters to get a knocked-down Raider back on their feet - but my last prototype came with a nasty shock. I'm pretty sure I fixed it, but I need a brave soul to try out my new model.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LanceNewProduct_New_01.uasset
+
+[ST_VoiceLines/A492BC58479109759EBA7A82B6A09846]
+Don’t tease me. Did you actually finish it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_45b6.uasset
+
+[ST_VoiceLines/AA1D6CEE4BA16904073B56BAB442C0BE]
+Much appreciated!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_AntibioticsPartTwo_01.uasset
+
+[ST_VoiceLines/ADEFF71D4D4DBB304BBED5A2F17FA639]
+Have you been to Stella Montis yet? Do you have news?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroOne_Completed_8a4e.uasset
+
+[ST_VoiceLines/AF6835FC4C96983849F2DE85A6C62A0D]
+No pressure, pal. Some heroes take the scenic route.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_2e9a.uasset
+
+[ST_VoiceLines/B041055B41C67AC3E446ABB23B493F60]
+I saw this old advert that said “The only way to cure a broken heart is to see the bottom of the ice cream container”. Ahh, one can only hope that the sight can soothe this broken heart.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_AndroidBrokenHeart_Accepted_2b5f.uasset
+
+[ST_VoiceLines/B5228C594F5675540DCF2AB48C813139]
+Just so you know: my friends stay only in the finest of accommodations! Drawers; cabinets; suitcases: you name it!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_LancesTeaParty_5e1f.uasset
+
+[ST_VoiceLines/B6227A9041FC8E653AB8669F480300A1]
+You’re likely going there to do your own thing regardless, right? So if you don’t mind, keep an eye out for me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_StellaMontisIntroOne_a72b.uasset
+
+[ST_VoiceLines/B98CB050480BDA819629DFA596E9F596]
+The logistics coordinator has sent details to the assembly foreman, but they were in print. See if you can find any papers about the hearing aid shipment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideStella_Objective_FoundClueLogistics_25e5.uasset
+
+[ST_VoiceLines/BA5D59F84D8E4397CB9EFFB06E84E7BA]
+Keep an eye out for ice cream containers. My eyes are welling up with blue as we speak.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_AndroidBrokenHeart_f210.uasset
+
+[ST_VoiceLines/BAEAE0264AA69803760009A2458910C9]
+Back with a story? Or a scar? Preferably both!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_969d.uasset
+
+[ST_VoiceLines/C2B0F51747666504686DDCB930E68730]
+I like this. The back-and-forth. Very "best buddies" energy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_8d2e.uasset
+
+[ST_VoiceLines/C4EBFDC449D2A24C625C7A8E1715F56B]
+Head out there into the Dam Battlegrounds and go get me a sample. I heard the spores themselves can be a bit toxic though, so watch out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_NewPlant_198f.uasset
+
+[ST_VoiceLines/C5CFA2C543FEB495A01EEC8ACD55F9F0]
+You survived! Not that I thought you wouldn’t, of course. All right, then — how about some proper bandages instead of those dirty rags?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_LanceBandages_01.uasset
+
+[ST_VoiceLines/C76748044E2FC71584F9F1B3C29317BD]
+My friends travel around a lot. You wouldn’t know them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LancesTeaParty_Accepted_01.uasset
+
+[ST_VoiceLines/C9301E0D4436991EA20F5A88943BF845]
+Still noodling on it, huh? Clock’s ticking, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_5ff8.uasset
+
+[ST_VoiceLines/CE24C93749F4176F48B15497C00BA7C2]
+I wonder why a Spaceport would need a medical room…
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_Medicine_Accepted_01.uasset
+
+[ST_VoiceLines/D0EA801D45E8E5AE79757FAC620E2B18]
+They say patience is a virtue. I say it’s my middle name. Well, one of them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_6a68.uasset
+
+[ST_VoiceLines/D131B7004460F14DF0228C83EB0BF7A2]
+Here to kick back with old Lance? Pull up a chair.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_1312.uasset
+
+[ST_VoiceLines/D15AF6B64C24C04C6AEF0ABFD7ACA1EC]
+If there are others like me, do you think they’d know my name…? Would they understand me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_StellaMontisIntroOne_Accepted_253f.uasset
+
+[ST_VoiceLines/D16F96D64B68CB5DC2F8F8A510730632]
+Can you believe it - the great Lance actually needs your help!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_New_01.uasset
+
+[ST_VoiceLines/D280D3B241EB67FDAB8C60AD51CC7C66]
+You. Are. A. Doll. Thank you so much. Here's your payment. Lance never misses a payment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_01.uasset
+
+[ST_VoiceLines/D3E939394937C6C38CA5729B0B08BC90]
+I prepped a celebration and everything. Balloons. Disco ball. You’re killing the momentum.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_d66d.uasset
+
+[ST_VoiceLines/D45956FA4331C306EB3881B0D8B25185]
+Thought you might just be looking for a chat. Which is medically encouraged, you know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_4d76.uasset
+
+[ST_VoiceLines/D7361A24458CFB79182F27B6F6948373]
+There she is! Seems she gave a talk on "The Relative Firmness of Earwax in Zero Gravity Conditions.” A nailbiter of a lecture, I’m sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideStella_Objective_FoundClueReception_9dce.uasset
+
+[ST_VoiceLines/D8A72A814743B2386ABE49AEFD674C77]
+Some Raiders hurt their eardrums when the last Barons came crashing down. Others were on the receiving end of some close-quarters yodeling.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_EchostrideStella_Accepted_8db1.uasset
+
+[ST_VoiceLines/D8FD27E642F716AD8D8A69A630327849]
+A little birdie told me they saw the plants growing on the Baron Husk out by the Old Battleground. Might be just the place to collect a sample.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_NewPlant_e5de.uasset
+
+[ST_VoiceLines/DA025E6E4470E3009902518752ED8D45]
+You didn’t just show up to dazzle me, right? Because it’s working.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_4401.uasset
+
+[ST_VoiceLines/DDC4EE1D41F8FE034E22FF852E048F14]
+I found my original analyzer at a pharmacy in Buried City; see if you can find me a spare, OK friendo?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_Analyzer_1e3d.uasset
+
+[ST_VoiceLines/DF9312144EBB6BE1FCC9C2957E058C7D]
+Oops, had the map upside down! Could you try… The antenna by the Fuel Control building, in the northeast?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_CompleteObjective_Quest_EchostrideSpaceport_Objective_TriangulateFuelLines_e512.uasset
+
+[ST_VoiceLines/DFA88D294DB35E4747E6829E4F2AD218]
+Well, chief, that there is an empty ice cream container. How am I supposed to eat ice cream if there is none? You know what, just seeing the bottom counts. My broken heart is healed. Thanks, pal!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_AndroidBrokenHeart_db4e.uasset
+
+[ST_VoiceLines/E090AFA8480D9DF1FEF598AB4043F998]
+Should I get a hat? Something with a wide brim, maybe. I could tip it at people.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_56ca.uasset
+
+[ST_VoiceLines/E20AD70A4A6AE36F2E7B3E9457B91D4B]
+It’s always “please fix this hole in my chest, Lance,” but never “here's a nice cup of tea!” Fine—marvelous company like me can do better, anyway. I have some splendid friends hanging around topside; bring them here, will you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LancesTeaParty_New_01.uasset
+
+[ST_VoiceLines/E338D8874292916B3E54A7B9054E5596]
+I’ve been curious about that medical area in the Spaceport for a while now. Wanna do me a solid and see what records you can dig up from that place?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_Medicine_New_01.uasset
+
+[ST_VoiceLines/E3741CD748E9307E38F746BF682BBF63]
+Excellent. Scope out these locations, and be on the lookout for medical goodies from the world before.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_LootMedicalAreas_c089.uasset
+
+[ST_VoiceLines/E4ACB1BD48D0C9A5121951B1A6C0EE97]
+This place could use a makeover, but I don’t want it looking like your raggedy Raider Dens. See if you can find out how my fellow medical greats used to live.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_DescribeThePharmacist_New_01.uasset
+
+[ST_VoiceLines/E4B2CD65480A15095F4308A439C79162]
+I’ll need intrepid friends like yourself, who can get me the finest medical goods Topside has to offer. Whether you want to hang them on the inside of a trench coat, is your call to make.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LootMedicalAreas_Accepted_1489.uasset
+
+[ST_VoiceLines/E55644C3409DFD3602349AB1A9AAF337]
+Oh! Lance approves! Nice work. Take this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_03.uasset
+
+[ST_VoiceLines/E7860B3846D30471DA28E08B46183BD9]
+Swell! If you happen upon any downed Raiders crawling around, give them a boost and report back to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_LanceNewProduct_01.uasset
+
+[ST_VoiceLines/E885AF9F4F90C226D0DA16A9F88839EA]
+Always keep some bandages on your person, in case you get hit. Regular works well, sterilized ones even better. In a pinch, any piece of fabric you can get your hands on will do the trick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LanceBandages_Accepted_01.uasset
+
+[ST_VoiceLines/E8F044B44FF0D78BEC3D3D900D072B99]
+I want you to snap me a pic of some real pretty vistas I’ve scoped out across the Rust Belt. I’m making a collage.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_AcceptQuest_Quest_AndroidLoveStory_79c2.uasset
+
+[ST_VoiceLines/EC631E3D4C0B79588426419501A53CB6]
+If this is a long con, it’s got great pacing. Terrible delivery.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_7093.uasset
+
+[ST_VoiceLines/ECC5D8DA40244282B32AAA85A8EAC5D9]
+Don’t be shy now! You’ve earned yourself a little confetti moment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Completed_f823.uasset
+
+[ST_VoiceLines/F20D6ECB4A50710F6003A792866FEBD4]
+Still on that job? You moving in slow motion or just savoring the moment?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_89b3.uasset
+
+[ST_VoiceLines/F65AE11A4A8A1926BA7E8B93205485BE]
+I’ve become quite crafty at weaving bandages from Fabric, but to my shame, I haven’t quite mastered weaving an x-ray machine or a pulse oximiter.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Quest_LootMedicalAreas_New_356c.uasset
+
+[ST_VoiceLines/F8EE1CB74031FE964B9093963035B191]
+You ever think about finishing things, or is that a next-week kinda vibe?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_EnterQuest_Accepted_2ceb.uasset
+
+[ST_VoiceLines/FA16CCE64DBE6A10A9F640AD27AC8AF7]
+The auditory researcher was invited to the Stella Montis Business Lounge. See if you can find any logs in the reception computers.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Any/Dialogue_Lance_Quests_Any_SessionSpawn_Quest_EchostrideStella_edd8.uasset
+
+[ST_VoiceLines/FF1BD1C14C60BA83081F49BA8494D9D6]
+That’s great news, kid! I’ll make sure all our old boosters get replaced with my new ones. Thanks for helping!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_Quests/Frontend/Dialogue_Lance_Quests_Frontend_CompleteQuest_Quest_LanceNewProduct_01.uasset

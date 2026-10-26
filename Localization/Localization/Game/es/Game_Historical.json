@@ -1,0 +1,21 @@
+{
+  "ST_RaiderDen": {
+    "ID_RAIDERDEN_BUTTON_APPEARANCE": "Apariencia",
+    "ID_RAIDERDEN_FURNITURE_BED": "Cama",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT2": "Cambiar apariencia",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT3": "Apariencia del Raider",
+    "ID_RAIDERDEN_FURNITURE_INSTALLED": "Colocado",
+    "ID_RAIDERDEN_FURNITURE_INSTALLING": "Colocando...",
+    "ID_RAIDERDEN_FURNITURE_SHELVES": "Estanterías",
+    "ID_RAIDERDEN_FURNITURE_STASH": "Alijo",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE_ALT2": "Mejora tu alijo para aumentar su espacio y así poder recoger y almacenar más objetos. Puede que esto también mejore la apariencia de tu Guarida de Raiders.",
+    "ID_RAIDERDEN_FURNITURE_WARDROBE": "Armario",
+    "ID_RAIDERDEN_FURNITURE_WEAPONDISPLAY": "Vitrina de armas",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE": "Mejorará la apariencia de tu Guarida de Raiders."
+  },
+  "ST_WindowModes": {
+    "ID_WINDOW_MODE_FULLSCREEN": "Pantalla completa",
+    "ID_WINDOW_MODE_WINDOWED": "En ventana",
+    "ID_WINDOW_MODE_WINDOWED_FULLSCREEN": "En ventana (pantalla completa)"
+  }
+}

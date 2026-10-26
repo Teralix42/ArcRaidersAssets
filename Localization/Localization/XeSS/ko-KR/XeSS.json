@@ -1,0 +1,22 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "최고의 화질을 위해 AI를 활용한 안티 앨리어싱(계단현상 상쇄처리) 기법을 구현",
+    "XESS_BALANCED": "균등",
+    "XESS_BALANCED_DESCRIPTION": "시각적으로 괜찮은 품질을 추구하면서, 성능도 만족하도록 AI 업스케일링 기법을 구현",
+    "XESS_PERFORMANCE_DESCRIPTION": "높은 성능을 추구하도록 AI 업스케일링 기법을 구현",
+    "XESS_QUALITY_DESCRIPTION": "시각적으로 좋은 품질을 추구하도록 AI 업스케일링 기법을 구현",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "시각적으로 높은 품질을 추구하도록 AI 업스케일링 기법을 구현",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "최고의 성능을 추구하도록 AI 업스케일링 기법을 구현",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "시각적으로 최고의 품질을 추구하도록 AI 업스케일링 기법을 구현",
+    "XESS_DESCRIPTION_MINIMUM": "인텔® Xe Super Sampling(XeSS) 기술은 AI를 사용하여 탁월한 이미지 품질과 더불어 향상된 성능을 제공합니다.",
+    "XESS_DESCRIPTION_SHORT": "인텔® Xe Super Sampling(XeSS) 기술은 AI를 사용하여 탁월한 이미지 품질과 더불어 향상된 성능을 제공합니다. XeSS는 AI 가속 하드웨어를 갖춘 인텔® Arc™ GPU에 최적화되어 있습니다.",
+    "XESS_NATIVE_ANTI_ALIASING": "AI 안티-앨리어싱",
+    "XESS_OFF": "끄기",
+    "XESS_PERFORMANCE": "성능",
+    "XESS_QUALITY": "품질",
+    "XESS_OFF_DESCRIPTION": "인텔 XeSS 끄기",
+    "XESS_ULTRA_PERFORMANCE": "고성능",
+    "XESS_ULTRA_QUALITY": "고품질",
+    "XESS_ULTRA_QUALITY_PLUS": "초고품질"
+  }
+}

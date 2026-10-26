@@ -1,0 +1,213 @@
+ARC Raiders 2.2.0 — Cassio
+
+[ST_VoiceLines/0C058A6544298CF1E75C7F86C2E08B68]
+Remember: the open skies are most cleansing at their highest points.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_SessionSpawn_Quest_NomadCleanHands_rec_277b.uasset
+
+[ST_VoiceLines/0D72B0BF41A8DF34BE8DE0BF3377870D]
+You have been very diligent. Unfortunately, the trail you are following belongs to me. Your Envoy seems to have left that detail out. Since you are already running errands, perhaps you won’t mind one more. Go to my camp beneath the bridge—I suspect I need not describe it too carefully. You will find a small gift there; be sure it reaches the right hands.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_CompleteObjective_Quest_NomadBilguunPath_Objective_BilguunIntercept_aac6.uasset
+
+[ST_VoiceLines/19581C444B7689B03B6117A5073C3647]
+Approach in good faith, as we shall.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_Tier1_rec_eace.uasset
+
+[ST_VoiceLines/1B4BF606409229E777721EAD2649DF44]
+That path belongs to an older arrangement of things. Treat what you find there with care.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadBilguunPath_Accepted_rec_9d97.uasset
+
+[ST_VoiceLines/23EE414E4B04ABDCCD25F99064AE0DF5]
+Be present.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_rec_3f9b.uasset
+
+[ST_VoiceLines/2788D128494CD044530EDF9339F8E039]
+It is fair.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBuyItem_rec_566c.uasset
+
+[ST_VoiceLines/2CA7356E4CFC25F683B84A9546E3C0D9]
+An envoy may make connections, but never a home beyond the trail.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_8e0c.uasset
+
+[ST_VoiceLines/303A31F64E6442243F0364BF59C9B09A]
+Good. You have done for us what we could not do ourselves. Such a debt is not lightly regarded.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_CompleteQuest_Quest_NomadCleanHands_rec_e6b6.uasset
+
+[ST_VoiceLines/3FF82707484E799280858E9B7444B0A4]
+Make sure to cleanse your outposts regularly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_da00.uasset
+
+[ST_VoiceLines/420BB3CF4DC3F9DFAE5A1AA1AE0E336E]
+Come, now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_rec_6587.uasset
+
+[ST_VoiceLines/44B4EC074852D3B870A0648BB72087E7]
+Do not call it an accident. There were people planning for that outcome long before the pulse was deployed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_CompleteObjective_Quest_NomadRadioVoices_Objective_NomadRadio3_rec_2f12.uasset
+
+[ST_VoiceLines/45982C2745288F644568F887B757C6A3]
+Let us collaborate.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_Tier1_rec_ffb8.uasset
+
+[ST_VoiceLines/461E719345319CA2BDBEBEA76FD114F4]
+There are places along the pass that were once secure to us. Since the large one fell, they are no longer so.Go there, if you are willing. Some of our people have left their own accounts behind. Hear them before you decide what our part in this means.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_AcceptQuest_Quest_NomadRadioVoices_rec_a66b.uasset
+
+[ST_VoiceLines/4D3D46D74228BAA275669AA01FF0C67C]
+Our exchange has proven fruitful, and the world has proven treacherous. We are glad to have extended our presence in your settlement.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_Tier1_rec_a0f2.uasset
+
+[ST_VoiceLines/537A80C44ADC9AAEFF7311BCF8AE3266]
+Once more, we meet.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_rec_ef2a.uasset
+
+[ST_VoiceLines/549A9ABE4CA7378C92EC069429AD18FD]
+Let us all benefit.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_rec_b1b5.uasset
+
+[ST_VoiceLines/54B35D20476E822E7E9D4187159542C4]
+Agreed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBuyItem_rec_46e5.uasset
+
+[ST_VoiceLines/5DEBBF524ACD1CE8C5A5F897FE54DD56]
+Ah. Ermal spoke highly of you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_Tier1_rec_a9e1.uasset
+
+[ST_VoiceLines/5FA4038E4CEC0BE41175B980298EBB98]
+Ermal reports you’re good for more than procuring goods. We should speak.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_Tier1_rec_6dd1.uasset
+
+[ST_VoiceLines/5FD4E9F0440D898DF7A48B95462137B7]
+A little less of this land is unknown to us now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_CompleteQuest_Quest_NomadTakingStock_rec_8c65.uasset
+
+[ST_VoiceLines/610481724F1774638F56578B999240B6]
+A matter remains at Pendola Pass which should have been settled by our own hands. That path is no longer open to us, so we must ask another.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadCleanHands_New_rec_b2ae.uasset
+
+[ST_VoiceLines/675C565C4A7BE19750A064BBC304CA6E]
+So. Speranza knows what happened at Pendola Pass.What was done there has cost your people dearly. Ours have not been spared the consequence.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadRadioVoices_New_rec_ccd0.uasset
+
+[ST_VoiceLines/6B35E303452D72A38F4EC4A5178F6BFB]
+Ermal spoke highly of you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_rec_aa2a.uasset
+
+[ST_VoiceLines/6C7199FB4ADD8DB432513EB1F6BA2F08]
+A favor may replenish goodwill, as rain may replenish a creek.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_Tier1_rec_3d84.uasset
+
+[ST_VoiceLines/6F0D147841F334FA6E60EF9D9D2EAE01]
+Find and follow the old markers. If they still hold true, they should lead you to the cache.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_SessionSpawn_Quest_NomadBilguunPath_rec_7eda.uasset
+
+[ST_VoiceLines/705FBF6746B8FAAC5BFCFA9F11356E5E]
+Our old records should still be scattered around the pass. Seek them out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_SessionSpawn_Quest_NomadRadioVoices_rec_d423.uasset
+
+[ST_VoiceLines/740D3ED54240789A8EAD1398BE6D03BD]
+Let us exchange.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_rec_322d.uasset
+
+[ST_VoiceLines/7AA290A048D8E0A8210335844D6F8F0A]
+Some wanted it done, and some warned against it. I was not part of that decision. And yet… I still inherit the blame for it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_CompleteObjective_Quest_NomadRadioVoices_Objective_NomadRadio2_rec_ccd8.uasset
+
+[ST_VoiceLines/7DF1134542474D094B4443B4B4BA8C40]
+Very good.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBuyItem_rec_edb7.uasset
+
+[ST_VoiceLines/7E7AC4054C5960FD375083BD8EAB65DE]
+What’s this? Ah. Bilguun remains as he was. We had hoped time might have made him less... himself. Regardless, we sent you out under a simpler account than the truth allowed. For that deception, you have our apology.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_CompleteQuest_Quest_NomadBilguunPath_rec_9057.uasset
+
+[ST_VoiceLines/7F4056E240B75809EBC5A98DC6E8F192]
+One of our sundials was set out for cleansing. Left alone, the impurity would pass in time. We cannot wait that long. Take it to a high, open place, where the process may be hastened, then bring it to us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_AcceptQuest_Quest_NomadCleanHands_rec_7cad.uasset
+
+[ST_VoiceLines/7F7C025242439B8E2D771BBB553CE41D]
+May we continue to exchange the treasures within our reach.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_7f8e.uasset
+
+[ST_VoiceLines/819A3B284BED741E6179E58FF6C1B350]
+Before our paths changed, we lingered by the Blue Gate for some time. We believe there is an old trail from those days, and something belonging to us may still lie at its end.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadBilguunPath_New_rec_18a6.uasset
+
+[ST_VoiceLines/8715219D40071EE98A2C32A8E1F67D44]
+Trust does not come quickly between people who have spent so long avoiding one another. Would you not agree?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadTakingStock_Accepted_rec_9ab2.uasset
+
+[ST_VoiceLines/8C5944D2498670F807CAEC84B63570B7]
+Our people do not speak with one voice.What was done at Pendola Pass was no exception.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadRadioVoices_Accepted_rec_13e6.uasset
+
+[ST_VoiceLines/8CE78C844697CC6EAB68F0B2305CCEB1]
+You are already beyond our sight. We would ask you to remember what you see, and share it with us later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_SessionSpawn_Quest_NomadTakingStock_rec_6eb4.uasset
+
+[ST_VoiceLines/9D4AD6B143E1F430F5740B91C7E0F019]
+We've been sighting more of your outposts emerging across the Rust Belt. We are impressed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_fbbc.uasset
+
+[ST_VoiceLines/9E29A4204A04701E947F4DA28AEF30D7]
+To deepen our collaboration is of benefit of all.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterTrade_Tier1_rec_ca44.uasset
+
+[ST_VoiceLines/A3ECFF4F4A00706671386FB8EE1F8155]
+Have you ever had water straight from a creek?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_ae8d.uasset
+
+[ST_VoiceLines/ACCD2EFA401B74AAF75BA0A6C1B514FF]
+Ermal was relieved to return to the trail, I'm sure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_3d94.uasset
+
+[ST_VoiceLines/AE90A4DE417D86136E48D8A93B207DDE]
+The vast, open sky will hasten what time would otherwise have to finish.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadCleanHands_Accepted_rec_6252.uasset
+
+[ST_VoiceLines/B41E785245474F212DE7CC869E2B0529]
+On the surface, our paths seldom cross by design. After all, your presence draws more eyes than ours can afford.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_EnterQuest_Quest_NomadTakingStock_New_rec_2d53.uasset
+
+[ST_VoiceLines/B98388EB4A55383A803174BDE50831AB]
+It fell, and for a moment the way seemed open. Then everything around it became worse. That part was… beyond our calculation.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_CompleteObjective_Quest_NomadRadioVoices_Objective_NomadRadio1_rec_b027.uasset
+
+[ST_VoiceLines/BEE65774440CC3EAD664379C240C749C]
+May the paths to your outposts remain unobstructed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_3309.uasset
+
+[ST_VoiceLines/C396370E41DCACC2A901448751F632AB]
+Follow our old trail markers, and see where they lead. If the cache remains, recover what was left inside, and bring it to us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_AcceptQuest_Quest_NomadBilguunPath_rec_0c7b.uasset
+
+[ST_VoiceLines/C82CB3A7472B71E57452D9A25CD18799]
+To be an envoy is an honor and a burden.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_1f67.uasset
+
+[ST_VoiceLines/CC1DBC4747DB2E043D4A7090226A71EC]
+The choice seemed simple enough at the time. Bring it down, or surrender that ground.We had surrendered enough already.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Any/Dialogue_Juanito_2026_Oct_Any_CompleteObjective_Quest_NomadRadioVoices_Objective_NomadRadio4_rec_8f73.uasset
+
+[ST_VoiceLines/D05BA4034D1EB17E101EBEA7CBB603DC]
+Excellent.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBuyItem_rec_db3a.uasset
+
+[ST_VoiceLines/D5A7EFE54BA0D75B1BBF5485EE82F4A4]
+You can go where we cannot. If you are willing, record what you find out there and share it with us.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_AcceptQuest_Quest_NomadTakingStock_rec_26d7.uasset
+
+[ST_VoiceLines/DA0E1B024226E4A9CBA1BC83577E3516]
+A deal well struck.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBuyItem_rec_07e1.uasset
+
+[ST_VoiceLines/F5D329BD490B7D5C9AA1D0B8CB8F1C69]
+We will not ask you to forgive what happened.Only to understand that one act does not reveal the whole of a people.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_CompleteQuest_Quest_NomadRadioVoices_rec_d0e8.uasset
+
+[ST_VoiceLines/FD9867E24FE7DDB8CE1952962EF109D4]
+How do your engineers keep your pipes from bursting?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_6317.uasset
+
+[ST_VoiceLines/FFA8A247444CC23419DDAAA3F658FD51]
+A roof over your head keeps away rain and sunshine both. I had not considered that, before I got here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito_2026_Oct/Frontend/Dialogue_Juanito_2026_Oct_Frontend_TradeBanter_Tier2_rec_215e.uasset

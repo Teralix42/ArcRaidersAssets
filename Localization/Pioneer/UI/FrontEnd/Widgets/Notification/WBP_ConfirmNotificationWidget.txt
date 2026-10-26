@@ -1,0 +1,10 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Widgets/Notification/WBP_ConfirmNotificationWidget
+
+[[5].Properties.Text]
+This is a test
+
+
+ 
+With a space ?
+

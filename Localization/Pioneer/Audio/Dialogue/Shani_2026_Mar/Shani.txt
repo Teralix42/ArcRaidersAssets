@@ -1,0 +1,213 @@
+ARC Raiders 2.2.0 — Shani
+
+[ST_VoiceLines/01130B8349C4216977D0A0B0AE817669]
+Someone just activated the north remote bunker unlock.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_North_2cf8.uasset
+
+[ST_VoiceLines/014285444F7FB61CC8F78C8450D46FA7]
+Now the west remote bunker unlock has been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_West_2266.uasset
+
+[ST_VoiceLines/04AFB25C4EED690245BA0DBD59E0EF27]
+I’m still sorting through the data you found in Stella Montis, but something’s caught my eye. I’d like you to look into it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_OffRecord_New_b5a8.uasset
+
+[ST_VoiceLines/054D3A7C4647BD63ED9E34B5C5C73D21]
+The grid's giving me partial coverage now. Not much, but more than I had.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_SensorGrid_Completed_5cd8.uasset
+
+[ST_VoiceLines/08272CE74D8D730E5EE3BC84EA3B6B10]
+Could this be why Project Heartwood went under? There must be more to this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_OffRecord_Accepted_43d0.uasset
+
+[ST_VoiceLines/0E0E3D2846D76A6AD268EA9A67726719]
+The data mentions some kind of… secret meeting place? Somewhere near medical. Don’t expect it to advertise itself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_SessionSpawn_Quest_OffRecord_5620.uasset
+
+[ST_VoiceLines/120B1FC74B56E99AEDEF878C20EBF598]
+This doesn't add up. According to this log, the team regrouped at a rally point outside the Spaceport perimeter. But they weren't supposed to leave the grounds — that wasn't the mission. And the gear list... that's way more than a scouting run calls for. Tools, rations, personal effects. Looks like they packed for a long trip.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_CompleteObjective_Quest_ShaniScouts_Objective_StartSecondTerminal_92c4.uasset
+
+[ST_VoiceLines/1A8C5106480EF86F3B98ABA5499FFB82]
+If the researchers had to meet in secret like this, it sounds like whatever they were discussing wasn’t exactly approved by the higher-ups.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_CompleteQuest_Quest_OffRecord_ca87.uasset
+
+[ST_VoiceLines/1AA2B8E64A838532064DED8D6DDB0561]
+The eastern remote bunker unlock has been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_East_9acb.uasset
+
+[ST_VoiceLines/28D4D28D41F4EC6EE0F60FACD7FAD0BA]
+Ah, you managed to access some new terminals. Good job—I’ll sift through the data and see if there’s anything relating to Project Heartwood or the Exodus.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_CompleteQuest_Quest_DormantState_01db.uasset
+
+[ST_VoiceLines/2DF5BAAB497773FF18DFC2AD30E7FC05]
+The northern bunker unlock has been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_North_dde1.uasset
+
+[ST_VoiceLines/31BD6B814380D48D78C2408BFDB6C678]
+The west remote bunker unlock has been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_West_60aa.uasset
+
+[ST_VoiceLines/341A895B49A4D3A55E7A12AA38A830B0]
+We know that the whole place is filled with logs and data, but there’s no telling what’s still salvageable, much less relevant. Find a few terminals and see if you can access them, to start with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_AcceptQuest_Quest_DormantState_b2bc.uasset
+
+[ST_VoiceLines/3EAE080149E128304009DABC81A40CD7]
+There we go! Perimeter node just lit up on my end. It's flagging a breach in the Arrival Building. Could be nothing, but that alarm is going to draw attention. Head over and find out what's triggering it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_CompleteObjective_Quest_SensorGrid_Objective_AlarmTriggered_1dd4.uasset
+
+[ST_VoiceLines/41A2DF8641F3EFEB3228AF834861AEDA]
+While we still haven’t managed to find the stolen files mentioned in the recordings, there’s a promising lead tied to the seed vaults. I’d take a look around there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_AcceptQuest_Quest_LastEntry_c022.uasset
+
+[ST_VoiceLines/47592F9B481F90C1FBAB8BAA4DDD847D]
+The east bunker control has been unlocked.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_East_27f5.uasset
+
+[ST_VoiceLines/48A6BCEC4882143EBE85DFB5759CF6DB]
+Someone has activated the southern remote bunker unlock.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_South_b763.uasset
+
+[ST_VoiceLines/5079E5614056DBE29254BD9AE0BAC90A]
+Did you find anything about the researchers back in Stella Montis?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_OffRecord_Completed_b0b2.uasset
+
+[ST_VoiceLines/50B5E9C149A4178BFF66B583136441C0]
+So, did the patrols actually break formation? If this works, 'make noise, flank, repeat' might become standard Raider doctrine.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_CompleteQuest_Quest_NoiseTraps_2c0f.uasset
+
+[ST_VoiceLines/542A42E242B90821B32807B3D3992240]
+You know, when I was young, we'd bang pipes, set off car alarms, anything to pull the machines away from where we were hiding. That was a different time, though, so be careful. And if three Bastions show up at once... improvise.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_NoiseTraps_Accepted_7679.uasset
+
+[ST_VoiceLines/5B4423B148A587ECC61765AC9F63CA1B]
+Coordinates received. I'm looking at the area now and... yeah. That's well outside the survey zone. Whatever they were doing, it wasn't for me. See what they left behind. Bags, pockets, anything with writing on it. People who run don't always clean up after themselves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_CompleteObjective_Quest_ShaniScouts_Objective_TriangulateCrashSite_a3cf.uasset
+
+[ST_VoiceLines/6148E90540A38B42D941E28CC5E33B61]
+Now the south bunker control has been unlocked.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_South_a55e.uasset
+
+[ST_VoiceLines/71D382EE49F0847E0CFE6189B1E8C6A6]
+So. Someone wired a device into a sensor node, and they knew enough to keep the grid offline so it wouldn't trip. That's not scavenger work. That's someone who understands these systems. I'll look into it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_CompleteQuest_Quest_SensorGrid_ab94.uasset
+
+[ST_VoiceLines/7CBD636C466D87B62EBE2F976A543AD2]
+Between the encryption and the decay, half of what we manage to get out of Stella Montis is unusable. But if we’re lucky…
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_DormantState_Accepted_64d6.uasset
+
+[ST_VoiceLines/815857A84F847CA20F5C868A60D419BE]
+They were using the terminals there to relay logs back to me - I need you to retrace their steps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_AcceptQuest_Quest_ShaniScouts_0a3c.uasset
+
+[ST_VoiceLines/87F5B59A481C29A39BA35E9C572264D4]
+There’s some noisy contraptions out there that would just need a battery to sound off. If I'm right, we could carve safe corridors through areas we've been avoiding for months.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_AcceptQuest_Quest_NoiseTraps_8bc3.uasset
+
+[ST_VoiceLines/8936ECF04C43C65BE51FCDA1B4B6D9FE]
+So much of this place’s history has simply decayed away. The things we could’ve learned.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_LastEntry_Accepted_9466.uasset
+
+[ST_VoiceLines/8982F333486936C7BB99C587332A5F3C]
+Grid's still dark. Those sensors won't turn themselves on.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_SensorGrid_Accepted_d546.uasset
+
+[ST_VoiceLines/8A6E78F44F916886FA54E2AB2BCC9D55]
+It all seems connected somehow… but how?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_DormantState_Completed_a9b2.uasset
+
+[ST_VoiceLines/92594A334EDC473AAA0ECEADD613E084]
+The southern bunker lock control has been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_South_b00e.uasset
+
+[ST_VoiceLines/93281FC14396F2FA03ED8287AB93DD0A]
+The east remote bunker unlock was just activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_East_8d85.uasset
+
+[ST_VoiceLines/93AC382941AC5BC9956912B6ADD44E97]
+Security grid's waiting on you. Start with a guard tower on the Spaceport perimeter.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_SessionSpawn_Quest_SensorGrid_c82b.uasset
+
+[ST_VoiceLines/98E57F7F4EA75E909CA136B365DD314F]
+My screens lit up like a festival out there. I'm guessing that was you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_NoiseTraps_Completed_2482.uasset
+
+[ST_VoiceLines/9DFECE3C4A2105F64B34B38F39AC0004]
+I sent a scout team to the Spaceport a while ago. Routine work — cataloging security, see if there's anything we could re-purpose. But I've heard nothing for two days.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_ShaniScouts_New_1769.uasset
+
+[ST_VoiceLines/A5E81FC04F8F9F80B8E079A5669E5E10]
+More mentions of MANTIKOR, and more clear signs of dissent among the researchers. I suspect tensions eventually escalated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_LastEntry_New_af70.uasset
+
+[ST_VoiceLines/AC57B7BB4525EF0D6B3D6490FD04F8F7]
+Good. Start with one of the guard towers along the perimeter — they house the external sensors. Oh, bring batteries. These old systems are hungry.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_AcceptQuest_Quest_SensorGrid_60fa.uasset
+
+[ST_VoiceLines/AD3FE65F4307CBD4D745A2B1F142A85E]
+You found the actual project documents? I admit I didn’t expect these to still be there. I’ll start reading through them as soon as I have time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_CompleteQuest_Quest_LastEntry_99e9.uasset
+
+[ST_VoiceLines/AF392D364AA2FE51FD57BF87A40CD8BB]
+As you know, the facility is divided into several different research sectors. I recommend you look through several of them for this task.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_SessionSpawn_Quest_DormantState_b255.uasset
+
+[ST_VoiceLines/B073BF15421481D944AE52A733ABAAA8]
+I think I've found something we might exploit. When bigger ARC machines are just far enough from each other, a well-timed distraction could pull one out of position. You want to test that idea?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_NoiseTraps_New_a2dd.uasset
+
+[ST_VoiceLines/B1251A1C47A3F2D86A97E89C70DFA87F]
+The scout team’s last confirmed position was one of the Field Depots east of the Spaceport. Find those logs, and send them my way - we’ll piece together where they went.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_SessionSpawn_Quest_ShaniScouts_30fe.uasset
+
+[ST_VoiceLines/B54C413247A0E59D0DD0EABFB1BE6B0A]
+There's a problem with our sensor coverage at the Spaceport. The security grid is old, so maybe it's just acting up. If you could get it running again, it'd save me a lot of sleepless nights.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_SensorGrid_New_4814.uasset
+
+[ST_VoiceLines/B83FB3174514115C45621BA79B45E537]
+Heads up. The north remote bunker unlock was just activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_North_88e3.uasset
+
+[ST_VoiceLines/C070E7AA42930B10D5B595AE70712B34]
+It’s clear some of the researchers had doubts about what was going on. Most of the communication seems to have happened in person—you’ll need to look for traces inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_AcceptQuest_Quest_OffRecord_0947.uasset
+
+[ST_VoiceLines/CB23BE3B41BBB3D918427ABDDAB5502C]
+Don’t forget to stop by the seed vault and see if you can find anything about the researchers, if you have time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_SessionSpawn_Quest_LastEntry_b52d.uasset
+
+[ST_VoiceLines/E331D647495A1FD6332DC0898894BD97]
+Back in one piece and smiling? That's either very good news or you've lost it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_ShaniScouts_Completed_7194.uasset
+
+[ST_VoiceLines/EADEA49E4A013C3E124DA0A86352B258]
+Any updates from Stella Montis?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_LastEntry_Completed_85c1.uasset
+
+[ST_VoiceLines/EEA14E4C4B8404D9CCC9BCA125066F8A]
+Alarm's gone. Grid's reading clean on my end. Well, as clean as century-old hardware gets. Whatever that was, you sorted it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_CompleteObjective_Quest_SensorGrid_Objective_AlarmSilenced_82b8.uasset
+
+[ST_VoiceLines/F601CE9E4F424FABF90E2580987465C1]
+Listen. The west remote unlock has been activated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_Announce_HiddenBunker_West_6e08.uasset
+
+[ST_VoiceLines/F74FB203481135DC667F52AFE9660C92]
+Do you remember the information you dug up about Project Heartwood? I’ve been looking over it, and it all seems to lead back to Stella Montis.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_DormantState_New_4a50.uasset
+
+[ST_VoiceLines/F79D1674459B8B09358746A10513C280]
+This is bad. The note outlines a deal. Names I recognize — people from the Ferrovia contrada. The scouts were feeding them patrol schedules, tube access codes; everything someone would need to undermine Celeste's authority.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_CompleteQuest_Quest_ShaniScouts_add2.uasset
+
+[ST_VoiceLines/FC1393C847604A2FB786A9996D22EC69]
+Got it. Give me a second... alright. The log's fragmented, but I can piece together enough. They moved west from here, toward a small watchtower near the Maintenance Hangar, south of the Spaceport. Looks like they were documenting the perimeter access points along the way.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_CompleteObjective_Quest_ShaniScouts_Objective_StartFirstTerminal_57a4.uasset
+
+[ST_VoiceLines/FC63A24D4EB1949D3F39D585AE36EC04]
+There's an old music system in the Village, a vehicle horn by the Checkpoint, and an emergency siren near the Warehouse Complex. Use batteries to sound them off.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Any/Dialogue_Shani_2026_Mar_Any_SessionSpawn_Quest_NoiseTraps_fe9d.uasset
+
+[ST_VoiceLines/FD03693945A168B5ED81068797017C68]
+The scout team's trail starts at one of the depots east of the Spaceport. Pull their logs, send them my way, and I'll work with whatever you find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Shani_2026_Mar/Frontend/Dialogue_Shani_2026_Mar_Frontend_EnterQuest_Quest_ShaniScouts_Accepted_3be7.uasset

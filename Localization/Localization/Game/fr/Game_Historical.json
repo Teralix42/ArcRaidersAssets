@@ -1,0 +1,21 @@
+{
+  "ST_RaiderDen": {
+    "ID_RAIDERDEN_BUTTON_APPEARANCE": "Apparence",
+    "ID_RAIDERDEN_FURNITURE_BED": "Lit",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT2": "Changer d'apparence",
+    "ID_RAIDERDEN_BUTTON_APPEARANCE_ALT3": "Apparence de Raider",
+    "ID_RAIDERDEN_FURNITURE_INSTALLED": "Installé",
+    "ID_RAIDERDEN_FURNITURE_INSTALLING": "Ameublement en cours...",
+    "ID_RAIDERDEN_FURNITURE_SHELVES": "Étagères",
+    "ID_RAIDERDEN_FURNITURE_STASH": "Réserve",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE_ALT2": "Améliorez votre réserve pour gagner de l'espace de stockage, vous permettant de récupérer et de stocker davantage d'objets. Cela peut également améliorer l'apparence de votre Repaire de Raider.",
+    "ID_RAIDERDEN_FURNITURE_WARDROBE": "Garde-robe",
+    "ID_RAIDERDEN_FURNITURE_WEAPONDISPLAY": "Râtelier d'armes",
+    "ID_RAIDERDEN_MESSAGE_RAIDERDEN_UPGRADE": "Améliorera l'apparence de votre Repaire de Raider."
+  },
+  "ST_WindowModes": {
+    "ID_WINDOW_MODE_FULLSCREEN": "Plein écran",
+    "ID_WINDOW_MODE_WINDOWED": "Fenêtré",
+    "ID_WINDOW_MODE_WINDOWED_FULLSCREEN": "Plein écran fenêtré"
+  }
+}

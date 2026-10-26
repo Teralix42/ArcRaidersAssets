@@ -1,0 +1,22 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "Maksimum görsel kalite için yapay zekâ tabanlı Örtüşme Önleme",
+    "XESS_BALANCED": "Dengeli",
+    "XESS_BALANCED_DESCRIPTION": "Performans ve görsel kalite arasındaki en iyi denge",
+    "XESS_PERFORMANCE_DESCRIPTION": "Yüksek performans iyileştirmesi",
+    "XESS_QUALITY_DESCRIPTION": "Yüksek kalite görsel ölçeklendirme",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "Daha da yüksek kalite görsel ölçeklendirme",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "En yüksek performans iyileştirmesi",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "En yüksek kalite görsel ölçeklendirme",
+    "XESS_DESCRIPTION_MINIMUM": "Intel® Xe Super Sampling (XeSS) teknolojisi, olağanüstü görüntü kalitesiyle daha iyi performans sunmak için yapay zekâyı kullanır.",
+    "XESS_DESCRIPTION_SHORT": "Intel® Xe Super Sampling (XeSS) teknolojisi, olağanüstü görüntü kalitesiyle daha iyi performans sunmak için yapay zekâyı kullanır. XeSS, yapay zekâ donanımına sahip Intel® Arc™ GPU'lar için optimize edilmiştir.",
+    "XESS_NATIVE_ANTI_ALIASING": "Standart Örtüşme Önleme",
+    "XESS_OFF": "Kapalı",
+    "XESS_PERFORMANCE": "Performans",
+    "XESS_QUALITY": "Kalite",
+    "XESS_OFF_DESCRIPTION": "Intel XeSS'i kapatır",
+    "XESS_ULTRA_PERFORMANCE": "Ultra Performans",
+    "XESS_ULTRA_QUALITY": "Ultra Kalite",
+    "XESS_ULTRA_QUALITY_PLUS": "Ultra Kalite Ekstra"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "Antyaliasing oparty na sztucznej inteligencji dla maksymalnej jakości wizualnej",
+    "XESS_BALANCED": "Zrównoważony",
+    "XESS_BALANCED_DESCRIPTION": "Najlepsza równowaga między wydajnością a jakością wizualną",
+    "XESS_PERFORMANCE_DESCRIPTION": "Wysoka poprawa wydajności",
+    "XESS_QUALITY_DESCRIPTION": "Wysoka jakość wizualna",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "Wyższa jakość wizualna",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "Najwyższa poprawa wydajności",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "Najwyższa jakość wizualna",
+    "XESS_DESCRIPTION_MINIMUM": "Technologia Intel® Xe Super Sampling (XeSS) wykorzystuje sztuczną inteligencję, aby zapewnić większą wydajność i wyjątkową jakość obrazu.",
+    "XESS_DESCRIPTION_SHORT": "Technologia Intel® Xe Super Sampling (XeSS) wykorzystuje sztuczną inteligencję, aby zapewnić większą wydajność i wyjątkową jakość obrazu. Rozwiązanie XeSS jest zoptymalizowane pod kątem procesorów graficznych Intel® Arc™ ze sprzętem przyspieszanym sztuczną inteligencją.",
+    "XESS_NATIVE_ANTI_ALIASING": "Natywny AA",
+    "XESS_OFF": "Wył.",
+    "XESS_PERFORMANCE": "Wydajność",
+    "XESS_QUALITY": "Jakość",
+    "XESS_OFF_DESCRIPTION": "Wyłącza Intel XeSS",
+    "XESS_ULTRA_PERFORMANCE": "Ultra wydajność",
+    "XESS_ULTRA_QUALITY": "Ultra jakość",
+    "XESS_ULTRA_QUALITY_PLUS": "Ultra jakość Plus"
+  }
+}

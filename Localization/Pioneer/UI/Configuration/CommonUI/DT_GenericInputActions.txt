@@ -1,0 +1,18 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/Configuration/CommonUI/DT_GenericInputActions
+
+[[0].Rows.PageLeft.DisplayName]
+PageLeft
+
+[[0].Rows.PageRight.DisplayName]
+PageRight
+
+[[0].Rows.SelectHold.DisplayName]
+SelectHold
+
+[[0].Rows.TabLeft.DisplayName]
+TabLeft
+
+[[0].Rows.TabRight.DisplayName]
+TabRight
+

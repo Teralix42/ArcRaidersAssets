@@ -1,0 +1,81 @@
+ARC Raiders 2.2.0 — Tian Wen
+
+[ST_VoiceLines/1235A5324A53CF8CF177579D3548FBCA]
+You have that look. Either something went very wrong or you found something interesting. Show me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_EnterQuest_Quest_DodgerStash_Completed_ea50.uasset
+
+[ST_VoiceLines/18EA6C2746A9ACD61E3A0A999EC778CF]
+I had a deal for a Bastion Cell lined up with a Raider called Dodger, but he's gone quiet. I need someone to track down his stash before some scavenger stumbles into it. Interested?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_EnterQuest_Quest_DodgerStash_New_5977.uasset
+
+[ST_VoiceLines/1BCB9ABD43AB09052EC345B9FAD5B66B]
+Carrying something heavy by the look of it. Let me see.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_EnterQuest_Quest_BastionCell_Completed_ced8.uasset
+
+[ST_VoiceLines/2924288C4071EA60CBB9C8BC3B91BD92]
+You know what a Bastion is and what it does. Just make sure you don't slag the one thing I care about. Bring the cell back intact.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_AcceptQuest_Quest_BastionCell_b3b2.uasset
+
+[ST_VoiceLines/2CE30815403F3F9A694166BCC4CAF5A0]
+Sold something he didn't have, to me and at least one more buyer. Dodger's not dead. He's just smart enough to be far away. I'd be impressed if I wasn't out a Bastion Cell.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_CompleteQuest_Quest_DodgerStash_885a.uasset
+
+[ST_VoiceLines/31167CFF4F5ED000403950B8875368A4]
+I don't need the legs, the armor, or the gun. Just the Bastion cell. How you get it is your business.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_SessionSpawn_Quest_BastionCell_9b1e.uasset
+
+[ST_VoiceLines/402FD1FF443C6B4AECFB4EA5F3C1A335]
+If you're near the Spaceport I got a tip. Someone's locked down the Outskirts Bunker with four remote lock controls. Take care of the locks and grab whatever's in the bunker before anyone else gets to it first.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_SessionSpawn_RoundConfig_HiddenBunker_9d80.uasset
+
+[ST_VoiceLines/506FA00F41C371038344EA8A65198D9C]
+Dodger spent weeks running his mouth. You went out and pulled the thing from a walking tank. Fair exchange. As promised.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_CompleteQuest_Quest_BastionCell_6887.uasset
+
+[ST_VoiceLines/52BCC9494528D24E8782D580C4D2FF2B]
+All unlocks have been activated. The Outskirts Bunker will open in about sixty seconds. Go and get whatever's inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_Announce_HiddenBunker_Completed_6898.uasset
+
+[ST_VoiceLines/5F3F10754424C7F4C66025985D0083B2]
+Hey. Word is that all unlocks have been activated. The Outskirts Bunker will open in a minute.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_Announce_HiddenBunker_Completed_1598.uasset
+
+[ST_VoiceLines/668063E0463FA47D6E5DC3AAE620207C]
+Dodger's stash is deep in the traffic tunnels. It should be marked with his insignia. Look for two squares.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_SessionSpawn_Quest_DodgerStash_ce7d.uasset
+
+[ST_VoiceLines/7BF54EAA45A51F4F491057B66FC95837]
+A Bastion Cell. Not a story about a Bastion. Not a Bastion leg. The cell. We clear?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_EnterQuest_Quest_BastionCell_Accepted_7532.uasset
+
+[ST_VoiceLines/864726CD4C7AB20634B1C4AF5F9064DA]
+For Dodger to disappear on me like that… Either he's dead or he's dodging me, which would be a poor life choice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_EnterQuest_Quest_DodgerStash_Accepted_111d.uasset
+
+[ST_VoiceLines/B1EA1F2147C8C06B3E4443AAD5D0C5B9]
+Dodger's stash is deep inside the traffic tunnels. Bring back whatever's in there. Specifically the cell. Everything else is your trouble.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_AcceptQuest_Quest_DodgerStash_b7d4.uasset
+
+[ST_VoiceLines/B3B95C05434F7735C3594290FC87542D]
+The Outskirts Bunker is about to open. Get over there and grab whatever's inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_Announce_HiddenBunker_Completed_f79e.uasset
+
+[ST_VoiceLines/B778A68940207D71CDBD0E82F9815AB8]
+Someone just managed to override the Outskirts Bunker's security system. They've locked it with four remote lock controls. Take care of the locks and you can get whatever's inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_SessionSpawn_RoundConfig_HiddenBunker_08e2.uasset
+
+[ST_VoiceLines/DA5B49AB42C54D2E6366A48D2FF128FF]
+Lucky for you, Dodger's debt can still be settled. Bring me a Bastion Cell. A real one, pulled from a real Bastion. Consider what Dodger owed me transferred to credit for you. Okay?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Frontend/Dialogue_TianWen_2026_Mar_Frontend_EnterQuest_Quest_BastionCell_New_4827.uasset
+
+[ST_VoiceLines/E06321234296A5D5CA773CB5AE893878]
+Anyone near the Spaceport? Someone's messed with the Outskirts Bunker's security system. It's locked with four remote lock controls. I'm sure every gang in Toledo will scramble to get their hands on whatever's inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_SessionSpawn_RoundConfig_HiddenBunker_509e.uasset
+
+[ST_VoiceLines/EAB709064B7E6AEC715B4F872EC7F7EC]
+Surveyors are out sweeping the area right now. If you see one light up and signal, you might want to stick around—something valuable’s bound to drop in. They won't make it easy for you, though.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_SessionSpawn_RoundConfig_Extractor_03c1.uasset
+
+[ST_VoiceLines/EDDB2AA74D8BB2019210968D260E70CC]
+Tell me that explosion wasn't the stash. Alright, change of plans. There's another spot. The antenna up the mountain. That's where he ran his deals. If he left anything behind, it's there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Mar/Any/Dialogue_TianWen_2026_Mar_Any_CompleteObjective_Quest_DodgerStash_Objective_StashExploded_8c48.uasset

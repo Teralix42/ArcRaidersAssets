@@ -1,0 +1,37 @@
+ARC Raiders 2.2.0 — Tian Wen
+
+[ST_VoiceLines/3C305A6846C32E8795607482A8D3B592]
+Look for administrative terminals, security stations, anything that might still respond to input. Whatever’s in that safe must be valuable.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Any/Dialogue_TianWen_2026_Feb_Any_SessionSpawn_Quest_VaultAndroid_0c86.uasset
+
+[ST_VoiceLines/412E55464CBAD565862519AAD252518B]
+One more thing: if you encounter any functioning androids, don't destroy them on reflex. They might be more useful intact. Old machines sometimes know old secrets.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Frontend/Dialogue_TianWen_2026_Feb_Frontend_EnterQuest_Quest_VaultAndroid_Accepted_0cb7.uasset
+
+[ST_VoiceLines/4DBDC4CD4E0CE19669000B9D9707A532]
+You like a certain amount of uncertainty, right? A client wants the contents of a locked safe in Stella Montis. It's intact, so whatever's inside has been there since before the Exodus. Interested?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Frontend/Dialogue_TianWen_2026_Feb_Frontend_EnterQuest_Quest_VaultAndroid_New_e69b.uasset
+
+[ST_VoiceLines/B2AB2635498749A3B697779F372BE3E5]
+You’d venture out at a time like this? You must really want some Candleberries if you’d risk severe frostbite for them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Any/Dialogue_TianWen_2026_Feb_Any_SessionSpawn_RoundConfig_Frostbite_81c8.uasset
+
+[ST_VoiceLines/BAA61BCF42B942848CAA94B40EE7ED4E]
+Huh, this seems to stem from Project Heartwood. Someone thought this needed to be protected. I take it you already read it? Your cut, as promised.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Frontend/Dialogue_TianWen_2026_Feb_Frontend_CompleteQuest_Quest_VaultAndroid_53c5.uasset
+
+[ST_VoiceLines/CA1EC98C44AD2B5D84D327953E122C5F]
+A Harvester has been reported in the area. It has a Queen guarding it, but if you’ve got the guts and the guns, there’s plenty of good loot for the taking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Any/Dialogue_TianWen_2026_Feb_Any_SessionSpawn_RoundConfig_Harvester_734a.uasset
+
+[ST_VoiceLines/DF3EB99E4F9C278C59F991880B199FAA]
+Hmm, no luck? Most of those safes have a numeric override, if that helps.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Any/Dialogue_TianWen_2026_Feb_Any_CompleteObjective_Quest_VaultAndroid_Objective_IDPrinterBroken_200d.uasset
+
+[ST_VoiceLines/FCA2F14142E86EA268D63E838AA4EBBC]
+Someone triggered a lockdown on the Gate, and we don’t know what’s behind it. Could be dangerous, but you could unlock it if you can find the security codes. Might be some loot in it for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Any/Dialogue_TianWen_2026_Feb_Any_SessionSpawn_RoundConfig_LockedGate_630d.uasset
+
+[ST_VoiceLines/FE306A6447979DC4789989856166C0B8]
+Bring me whatever's in that safe. We'll discuss your cut when I see what we're dealing with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen_2026_Feb/Frontend/Dialogue_TianWen_2026_Feb_Frontend_AcceptQuest_Quest_VaultAndroid_464e.uasset

@@ -1,0 +1,9 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/Configuration/DA_UINPXRepository
+
+[[0].Properties.NPXGenericHints[0].Value.HintText]
+DONT USE
+
+[[0].Properties.NPXGenericHints[0].Value.HintTitleText]
+DONT USE
+

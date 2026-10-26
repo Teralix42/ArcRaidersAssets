@@ -1,0 +1,6 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Screens/QuestDebug/WBP_QuestDebugScreen
+
+[[0].Properties.HintText]
+type filter here
+

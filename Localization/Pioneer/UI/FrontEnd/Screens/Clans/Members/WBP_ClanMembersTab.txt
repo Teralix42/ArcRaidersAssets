@@ -1,0 +1,9 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Screens/Clans/Members/WBP_ClanMembersTab
+
+[[80].Properties.Text]
+ADD NEW MEMBER
+
+[[81].Properties.Text]
+BROWSE CLANS
+

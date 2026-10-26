@@ -1,0 +1,1119 @@
+ARC Raiders 2.2.0 — Lance
+
+[ST_VoiceLines/000D3669490140CA62671AB2CDE292DC]
+Back again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_2026.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_c872.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_f44e.uasset
+
+[ST_VoiceLines/00E001AC4C24DE1F06825595AC17630A]
+I know your face.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_4a3d.uasset
+
+[ST_VoiceLines/01861D85404993276D633F86F01EE0C5]
+I think we can help each other out. That sounds good, right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeToQuest_04.uasset
+
+[ST_VoiceLines/0270A586491168F2D6787A8BBD4A231A]
+Ah, hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_b2b4.uasset
+
+[ST_VoiceLines/057FA1164B02F8CB2FDDB89791E513A5]
+You want more? Uncle Lance got you covered.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_c583.uasset
+
+[ST_VoiceLines/06C5E5594D06C22BC1DED495E6425285]
+Only fresh produce here. And by produce, I mean medical supplies.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_1518.uasset
+
+[ST_VoiceLines/08C748204EE68F5004142ABC957B1605]
+Hey there
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_1b64.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_3298.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_ec75.uasset
+
+[ST_VoiceLines/0AC6E5F84AAD6142FC8A4D9FB13441E9]
+The armor equivalent of a strong handshake.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_MediumArmor_bc67.uasset
+
+[ST_VoiceLines/0B6BAB144E618C3F7C91B18CFA51EE6A]
+(I don't think this will ever happen)
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuestEmpty_01.uasset
+
+[ST_VoiceLines/0C5B9A9E440A631BF5F4E8B5D0A79EF4]
+Sometimes I wonder if I should wear a cape. You know, for the drama of it all.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_913a.uasset
+
+[ST_VoiceLines/0F14FDE74DB2B631D82CCB848E1D313E]
+Come on in, friend.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_098e.uasset
+
+[ST_VoiceLines/109B177143CF294681D4E1A9EC4D5D79]
+What can I fix today?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_e509.uasset
+
+[ST_VoiceLines/114EB213484F14D75619AA9F2DD10B85]
+Hmm, yep, uh-huh, indeed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_e46c.uasset
+
+[ST_VoiceLines/123E70FC4A21FF4732DEF59D502F109E]
+If I had a watch, I’d check it. Dramatically.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_7994.uasset
+
+[ST_VoiceLines/1268A1F7430267938C457AAC84A10C42]
+Don’t worry, I’m not going anywhere.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_85f4.uasset
+
+[ST_VoiceLines/130310EC487A7D3A19A31F95ECEF0BAD]
+Need something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_06ba.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_1920.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_7711.uasset
+
+[ST_VoiceLines/13A23DE64E83E77A46491FB31014A3A8]
+You’re making me look good here. Keep it up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_0e65.uasset
+
+[ST_VoiceLines/14B1D09541CEDB0D6AD4AEB1BD6677F8]
+Well, hey there, man. What's got you needing my help today?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_2d19.uasset
+
+[ST_VoiceLines/174DAAE443B412D6583E30B8E9F70790]
+Back again, huh?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_08.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_756d.uasset
+
+[ST_VoiceLines/177E3AAC45A68D808032B497F6ABAF0C]
+Ah, I do so love money.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_22ec.uasset
+
+[ST_VoiceLines/17A2E37B449E5790824659834A344A01]
+Hello this is Lance. Yes, I got your frequency.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_a691.uasset
+
+[ST_VoiceLines/18171154420D1267C82BE08456933B30]
+What’s the damage?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_888a.uasset
+
+[ST_VoiceLines/194AEC20407AA7E82A417691C4BB89D9]
+Maybe I'll call it "Lance's Wonder Clinic". What do you think?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_aa37.uasset
+
+[ST_VoiceLines/1A52634246BC4D50D3D20EB8772FC8B5]
+You know, I have been meaning to hang a "Best Clinic in Toledo" sign in here. Might have to make my own.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_2869.uasset
+
+[ST_VoiceLines/1B5DDC4645A9D535F1AC2CA8FD36ACEA]
+Hello...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_3eaa.uasset
+
+[ST_VoiceLines/1C2C74AC455A7CFE24DDA98BA96BB1EA]
+It's perfectly safe for humans. I should know, I tried it on myself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_AdrenalineShot_a68b.uasset
+
+[ST_VoiceLines/1EC3D5544264892FBE396BB8125F3E81]
+This is Lance calling:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_0f7f.uasset
+
+[ST_VoiceLines/1F069811437DE0678399B18BFB91B022]
+Oh, you're absolutely welcome.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestComplete_01.uasset
+
+[ST_VoiceLines/1F7ED091458E6A85086F719A479DD2DD]
+You like the décor? I designed it myself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_4e73.uasset
+
+[ST_VoiceLines/2094B1CC4714F4643663588B75A41600]
+Need anything? Don't even think about acting like you can handle it on your own.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestToTrade_03.uasset
+
+[ST_VoiceLines/20ED2F2C450F57B91CF23581D8E71F80]
+Later, skater!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_ExitTrader_02.uasset
+
+[ST_VoiceLines/2123E5BC47FE000B2DE9D08A8664E7F5]
+Enjoy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_967a.uasset
+
+[ST_VoiceLines/224E32C64198CEC14DC5F2BF73E21D75]
+Ka-ching, baby!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_c904.uasset
+
+[ST_VoiceLines/23127F8D4419FE6E9232D9ADA3D1B99C]
+You know, I read somewhere humans blink twenty times a minute. I’ve been practicing, but I realized I don't have eyelids.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_c659.uasset
+
+[ST_VoiceLines/23AC3BD446C90633317367B8C8770FBC]
+Want a receipt? Just kidding, I got none.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_06.uasset
+
+[ST_VoiceLines/23B776DA488853E21FE356A438F7462B]
+Still around?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_c337.uasset
+
+[ST_VoiceLines/249EB25449A7759286080E86C67788E9]
+Inject it, don't drink it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_AdrenalineShot_3af8.uasset
+
+[ST_VoiceLines/272EC4E446B8537DF327DC93658846DC]
+You’ve got a knack for picking the good stuff.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_5a67.uasset
+
+[ST_VoiceLines/277E8E0B44AA1B71D1ECBAA9EEAB0D35]
+Can I help you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_0596.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_98cf.uasset
+
+[ST_VoiceLines/27FAEF244DB6EAF52A4F9A84AD4EB02E]
+Always a pleasure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_d682.uasset
+
+[ST_VoiceLines/28FC3BA14F3E79565D961C9592D15F3F]
+See? I knew you’d come around to my way of thinking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_95eb.uasset
+
+[ST_VoiceLines/29EFBE6945019065E4E8C7BDEC26483E]
+You wouldn’t believe how many people come in asking for love potions. Wrong shop, I tell them.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_8c5c.uasset
+
+[ST_VoiceLines/2C2073AA485672AD1EA002B789BB9D72]
+That’s the sort of purchase that makes me proud.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_1141.uasset
+
+[ST_VoiceLines/2C20879A436DD86223680CAF7789475D]
+If you see dust, ignore it. It’s just atmosphere.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_3b6b.uasset
+
+[ST_VoiceLines/2C259869457D7AA2731375853FFF6AD5]
+Finally, someone appreciates my refined tastes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestToTrade_02.uasset
+
+[ST_VoiceLines/2C9A146E4C6DC9CF9D77C4846F06E20C]
+Need help my friend? You're in luck. Just ask, and bask in the glory of my expertise.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_01.uasset
+
+[ST_VoiceLines/2E2E55114550A746F33FFEB0C70ED740]
+Yep-yep, go on and take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_f83e.uasset
+
+[ST_VoiceLines/2EB19F69410700A4181AD49E9AD5357D]
+This girl at a cantina asked me if I could dance the robot, and I can't figure out if I should be offended or not.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_aacd.uasset
+
+[ST_VoiceLines/2F783A3549A257E2A64A77B271C8FB56]
+Wonder what Apollo is up to right now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_03.uasset
+
+[ST_VoiceLines/2FE0B0244D326C33E806E3AE173BBDF7]
+Spill the beans!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_f4af.uasset
+
+[ST_VoiceLines/3010CBC0438DF1914FC4A6830A5D3B0D]
+Well, if it isn’t my regular.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_1cb9.uasset
+
+[ST_VoiceLines/314BCB7C4919E1E9E52D8D894DE626E8]
+All chairs in here - besides mine - are purely decorative. Sit at your own peril.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_b9e8.uasset
+
+[ST_VoiceLines/31701C1249BFD4505181E0B82491A225]
+Honestly, lucky you, Raider - you get to assist me today.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_03.uasset
+
+[ST_VoiceLines/31E34D804A4ED840957333934DEFFE41]
+Save the dramatics, friend - you'll be begging for my services before the week's out, trust me on that one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestExamine_01.uasset
+
+[ST_VoiceLines/34C9EDFE45924675A53E8D9C18755A2B]
+Featherweight and fabulous! Just like me!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_LightArmor_a97c.uasset
+
+[ST_VoiceLines/352E55AC445F8CD190DB9783ED2C17CC]
+Welcome in. Try not to trip over the good stuff.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_d8ce.uasset
+
+[ST_VoiceLines/3668EDBB49E8379E024B57925CAD7B7D]
+Is that sand in your hair from the storm, or just a bold fashion choice?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_ca73.uasset
+
+[ST_VoiceLines/38EF183C43F0E23E58071FAD951C7021]
+Sterilized this one with my own homemade disinfectant.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_SterilizedBandage_701d.uasset
+
+[ST_VoiceLines/39EDF434487BF47F029A21B5EB2CA2D0]
+My favorite customer! Got yourself shot?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_dda0.uasset
+
+[ST_VoiceLines/3BF9B5794369929CEDBD4BB1A61E4DBD]
+Better to have it and not need it, than need it and not have it, am I right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_cbae.uasset
+
+[ST_VoiceLines/3C341B6D443AE6A74E31658E100125AA]
+You’ll thank me for that one later, trust me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_78f9.uasset
+
+[ST_VoiceLines/3C5DC09D4EB28B641AB174BF78F638F9]
+You think I'd look good in a wig? Or maybe a hat?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_e0e9.uasset
+
+[ST_VoiceLines/3D349A2540D4DF8003CB478729BAB65D]
+I didn't even know I still had that lying around. Sure, it's all yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_ab2e.uasset
+
+[ST_VoiceLines/3D80DB0042DEED237559868AAB11B668]
+Ah-ah, you're taking the bait, I see.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestAccept_01.uasset
+
+[ST_VoiceLines/3D854314499C0001B2F4FBA3AD32F3B9]
+Step into my office. Which is also my clinic, shop, and break room.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_0dca.uasset
+
+[ST_VoiceLines/3ED5FE64418130529034EDAC5200792A]
+Better than a cup of coffee. Not that I would know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_FirstTime_Item_AdrenalineShot_c6f4.uasset
+
+[ST_VoiceLines/3FA27E634E650C5B948CB69D486E1045]
+Finally, someone who recognizes greatness. What seems to be the problem, hmm? You're looking a bit rough, if I say so myself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_ba99.uasset
+
+[ST_VoiceLines/3FBF62BB4A89CFF51F87D887BCE7AD48]
+Still browsing? Okay, I’ll wait.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_2bcc.uasset
+
+[ST_VoiceLines/3FC3F638495915D0FFCB3AA49520877A]
+Welcome, welcome! Mind the cables. Those are… probably safe.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_da8c.uasset
+
+[ST_VoiceLines/40375BD2425AEB44B32653B092331231]
+Ever notice how humans sneeze? I’ve been practicing... How's this...? "AATCHOO!!"
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_d3fd.uasset
+
+[ST_VoiceLines/40A7DCF0477D8A9194CA0A8CCD969993]
+Amazing how simple cloth can be so life-saving.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_Bandage_ae57.uasset
+
+[ST_VoiceLines/4217870C4494676B4284CF9BECC741F9]
+You’ve come to the right place. I patch folks up and send ’em back better than new.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_4bad.uasset
+
+[ST_VoiceLines/443530164A8548B67D5B03AF4E23F0B9]
+Ah, welcome. Fresh face, eh? Need anything, just ask. Honestly, what would you do without me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_06.uasset
+
+[ST_VoiceLines/4479B6D443ABD90896A608A4310BB3E2]
+Always welcome here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_11e0.uasset
+
+[ST_VoiceLines/45A9DFAB46D9A549EBD4CE86755140FD]
+Sterilized means less chance of bacteria and infection.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_SterilizedBandage_b27f.uasset
+
+[ST_VoiceLines/4734AAE5484DD8C355013E9A6D6DC732]
+Come on through.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_07.uasset
+
+[ST_VoiceLines/4777DDED4D140E310C3DBBBE44A82FBA]
+We here at Lance's Healing House bid you farewell!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_ExitTrader_05.uasset
+
+[ST_VoiceLines/486FBD2D4A81D22BEFBFB49FC4C93F98]
+Ah, magnificent indeed! And see, I'm holding up my end, just like always.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestComplete_03.uasset
+
+[ST_VoiceLines/4983327C48219B442C06D29C6DC278A7]
+If I get any better at small talk, I’m going to need to open a side business.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_b639.uasset
+
+[ST_VoiceLines/49DCC88445A028423329F4A512078DAA]
+Heey, listen up. Lance here:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_0962.uasset
+
+[ST_VoiceLines/4A01BF734275ABD9CAC189A8850CB810]
+Can I get you anything else? No lollipops though.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_a935.uasset
+
+[ST_VoiceLines/4B30C6C9494C9F7D63F5DB856C3D54F4]
+I could’ve been a fashion model, you know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_e78e.uasset
+
+[ST_VoiceLines/4CA8233B47F458467B9C9B9137E7A4A5]
+Need a pick-me-up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_AdrenalineShot_ecb8.uasset
+
+[ST_VoiceLines/4CD19F684A36C63CC80DF7A16CC2A307]
+Still here? I'll allow it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_5ae6.uasset
+
+[ST_VoiceLines/4D274CFA4C4D27931D5B6CB9F9105730]
+What can I do for you, pal? Need a patch job?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_133c.uasset
+
+[ST_VoiceLines/4E81A4CB4FEF665CBB2448BAFA559C31]
+There you go, fresh from my miracle cabinet.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_a08f.uasset
+
+[ST_VoiceLines/4ED3EB05438B64D53F8941877EA1BE0A]
+Hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_2df2.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_7d65.uasset
+
+[ST_VoiceLines/4FA00E58406F82A9BC04EF83490DC8CE]
+You'll be telling me if you appreciate it, won't you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_e675.uasset
+
+[ST_VoiceLines/51793C554FB6F7955D8C38BA73FAA924]
+Yeah, this will patch it right up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_ArmorPatcher_ea54.uasset
+
+[ST_VoiceLines/52A3B3C948CE8E51CFAD8891F26CA534]
+Everything’s clean. Sterile, even.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_c499.uasset
+
+[ST_VoiceLines/52C954DA4191E5E808626FA7FAC25180]
+Ah, greetings! You must think you've discovered the crown jewel of Speranza, right? You may be correct.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_02.uasset
+
+[ST_VoiceLines/52F0088046B1A5945FF13781FFECC981]
+Oh, would you mind helping a dear friend out?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeToQuest_01.uasset
+
+[ST_VoiceLines/5631F60042F6950F7B8B1694545B2E13]
+Thinking hard? Or just zoning out?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_7bc9.uasset
+
+[ST_VoiceLines/564E857E463BD042D017F4B25AA0BBB8]
+Need to wrap up an injury?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_Bandage_a301.uasset
+
+[ST_VoiceLines/5687FD5949AF9FC4446C7C96CD955961]
+Here we go again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_3f1f.uasset
+
+[ST_VoiceLines/56BA98DF4432398E29C171B1B3A63724]
+A balanced choice!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_FirstTime_Item_MediumArmor_c33b.uasset
+
+[ST_VoiceLines/573E5BA3421690B4B7EB07BF2EE3C3F0]
+Still can’t believe I’m not running a spa.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_6ab3.uasset
+
+[ST_VoiceLines/577FC8FF4D3D66966835FBB46E7D5060]
+Welcome, welcome! You look like you could use a little tune-up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_bdfc.uasset
+
+[ST_VoiceLines/5807BE1246FB31A0DA89D3B6313C9DEB]
+Look who it is!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_22b1.uasset
+
+[ST_VoiceLines/5849F98A4637E3C5B5B9D591980CC57D]
+Running fast is for losers, eh? At least you'll be able to take plenty of bullets.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_FirstTime_Item_HeavyArmor_6d1e.uasset
+
+[ST_VoiceLines/59C6A0E14DBA79097444759A40E7939F]
+You seen my pants? Just kidding, I got none.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_9fc4.uasset
+
+[ST_VoiceLines/59E90E00429A44892CFE43BAAC6AC5D7]
+Been thinking about getting a hat. A wide-brimmed one. What do you think?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_f522.uasset
+
+[ST_VoiceLines/5A6D71CA453FB2A1265DB0827AFA2D55]
+This is Lance:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_5a4b.uasset
+
+[ST_VoiceLines/5AB02EBB4036838005D73E94172A4B45]
+Guess I’ll just hum to myself then.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_18ec.uasset
+
+[ST_VoiceLines/5AC6308A474D3BDFA5F3E49C00F838A7]
+It's a miracle I've managed to keep this Speranza's population from imploding. You see I'm running on fumes in here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestToTradeEmpty_01.uasset
+
+[ST_VoiceLines/5D969DBE49E8B49741F98AA4621687FA]
+Some cantina worker tried to throw me out last night. Said I need to wear pants to adhere to their clothing policy. Apollo had to lend me a pair of overalls for the rest of the evening.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_e5d8.uasset
+
+[ST_VoiceLines/5E19D2844A473FF9EC27FC8821590DBC]
+I’ve been told my bedside manner is "unique". I choose to take that as a compliment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_36fb.uasset
+
+[ST_VoiceLines/5E36197342EC03E0ADD022B716F7102D]
+Take your time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_795e.uasset
+
+[ST_VoiceLines/5E6967B744A44E09E070C288F06A538B]
+I've just so happen to acquire the finest medical equipment for you, personally. After all, you're going to need someone with my exceptional talent to keep you from falling apart.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_5b58.uasset
+
+[ST_VoiceLines/5F86795746A306122686538AFF6B419C]
+You know, I’ve been thinking. Maybe the clinic needs a disco ball. Healing’s faster when the room sparkles.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_3e8f.uasset
+
+[ST_VoiceLines/5F975E0D4DADB4D8FF1C0E919FE35AFB]
+You won’t move fast, but you’ll look unbreakable doing it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_HeavyArmor_e091.uasset
+
+[ST_VoiceLines/60BA22E14D332A805CB3DB8BE1DA8638]
+Glad you dropped by.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_7ff3.uasset
+
+[ST_VoiceLines/612800F946B6CCDB9ED992B9F50FC97B]
+That should heal you right up! Or perk you right up! Honestly, I didn't pay attention to what you bought.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_655e.uasset
+
+[ST_VoiceLines/616EA43D4AB550BED3BE018B1F7ECBFE]
+Still deciding? I can hum you some tunes while you think.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_8fda.uasset
+
+[ST_VoiceLines/62294E014DF88DF0CF5A60A2E479C6F7]
+So yeah, good talk we're having. Mainly on my part, you're mostly standing there staring.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_a889.uasset
+
+[ST_VoiceLines/62BCFDF545E7263B93FA15A81C64AC03]
+You'll run farther than far with this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_AdrenalineShot_b76f.uasset
+
+[ST_VoiceLines/63D90BBE4B7D70D61BBD85B6E613979C]
+I appreciate your business.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_fa0b.uasset
+
+[ST_VoiceLines/641C91474DB4485477601E8A5620EC9A]
+Hey listen up; Lance here:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_a60c.uasset
+
+[ST_VoiceLines/65E8C192461DB573B8A58E8FB816E280]
+Reward’s ready, music queued… just need your word, kid.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_Completed_8c61.uasset
+
+[ST_VoiceLines/6763153943A415A9866A04B62332B24E]
+Come on in! Sit down! Take your pants off!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_1833.uasset
+
+[ST_VoiceLines/67C3C51F47426CEB410387A2EDE33193]
+I'm all ears.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_17fa.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_3072.uasset
+
+[ST_VoiceLines/68C6B33C47E2A0FFC656D8AF48623395]
+That one? Oh yeah, that’s going to treat you right.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_1e3f.uasset
+
+[ST_VoiceLines/6C20CC4744B29A803C4EE0A7181FF846]
+That’s going to treat you well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_6e5a.uasset
+
+[ST_VoiceLines/7044133E4A2739DCF64312AF92D5312F]
+I tried to rig up my own homemade pair of roller skates. Ended up breaking one of the greenhouse windows, but they worked for a little while.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_6028.uasset
+
+[ST_VoiceLines/70497A8445B6545BCAA3FBBBEEC6B36C]
+Step right in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_01.uasset
+
+[ST_VoiceLines/70D92C7B416BE2DC2A7859B098B39E17]
+I’ve been debating whether to put a jukebox in here. Think it’d class the place up?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_d6f9.uasset
+
+[ST_VoiceLines/717613FC41913811A54E53A54EB4EC6C]
+Quick feet save lives. Usually.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_LightArmor_4ed6.uasset
+
+[ST_VoiceLines/721479A748C15DEBDE2B3C873D2522C6]
+Take your time, but don't let your eyes deceive you: these are the cream of the crop.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestToTrade_04.uasset
+
+[ST_VoiceLines/72BA159E433329B9301BBD9A33D4B709]
+Ready when you are, superstar.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_06.uasset
+
+[ST_VoiceLines/7327E3874C5E5715295AF69D7B66D035]
+Not the busiest day, but I’ll take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_8d60.uasset
+
+[ST_VoiceLines/732A577547F65BC15F944194871EA3B4]
+Ah, another fine choice. Clearly, you have taste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_3afe.uasset
+
+[ST_VoiceLines/739C4F804782D7B404FF56B5F0AAF604]
+Into the coffer it goes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_1507.uasset
+
+[ST_VoiceLines/7420201E447A8783A633548D409D75ED]
+Tell all your friends now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_4bcd.uasset
+
+[ST_VoiceLines/749407C345A35DEAA8035284A24104B7]
+Sure thing!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_2f70.uasset
+
+[ST_VoiceLines/749FF4AF471A799A175F63A6B4D804B1]
+Come in, come in! The clinic’s always open.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_f5f9.uasset
+
+[ST_VoiceLines/772EC97B43BE799094913CA0B844A7D8]
+Basic. Reliable. Vital.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_FirstTime_Item_Bandage_0f91.uasset
+
+[ST_VoiceLines/78065E1D4058C5B0A91B88A73AB2A8EB]
+This should work even better than the BASIC bandages.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_FirstTime_Item_SterilizedBandage_f768.uasset
+
+[ST_VoiceLines/7A2BF0EB43B727239F13DD8C19C1F263]
+Well alright! See ya later!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_ExitTrader_03.uasset
+
+[ST_VoiceLines/7C2BC6F443BF8C90D69D498EB7D484CC]
+Good to see you, champ.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_c7fc.uasset
+
+[ST_VoiceLines/7D836A2E4935EF4010B07DB3167B2690]
+Step inside and let the magic hands of medicine do their work… metaphorically speaking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_6285.uasset
+
+[ST_VoiceLines/7DADB09E459CDB995BF66DB8EBB2A08E]
+Welcome back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_02.uasset
+
+[ST_VoiceLines/80066E474948946BAF87B0ABB27B9455]
+The walls echo nicely when I talk to myself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_9223.uasset
+
+[ST_VoiceLines/80215B254DB8DA90D6BDB885C82991A3]
+There you go, kid.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_c6d7.uasset
+
+[ST_VoiceLines/80319D814A92E379332E86A4A8DE4617]
+Always good to have a few of these on hand.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_ArmorPatcher_b322.uasset
+
+[ST_VoiceLines/81774A1843FF45055D038C83A168D1F0]
+Good to see you in one piece.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_f975.uasset
+
+[ST_VoiceLines/81DA56C24AD8C382D3AE689010F68B7A]
+Seamless transaction, wasn't it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_4ab7.uasset
+
+[ST_VoiceLines/8250DF884841A2509B7CFEAD744CCC0F]
+If this was a staring contest, you’d win.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_02.uasset
+
+[ST_VoiceLines/831056B544F56521D74F71A7063BD6D4]
+Sure! Should be just the thing for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_a448.uasset
+
+[ST_VoiceLines/8342880C48C473376AFA51B1296E2C1A]
+I once treated someone for overthinking. True story.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_a89f.uasset
+
+[ST_VoiceLines/840DB867413956DE90C60393EE377A77]
+Always room for one more patient.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_09.uasset
+
+[ST_VoiceLines/8529EED24B44E7FCCA433B8804935F3D]
+Welcome, welcome.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_0cfd.uasset
+
+[ST_VoiceLines/858337F446139469D95D31AA2DE7437B]
+Genuine, top-quality, Lance-certified merchandise.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_6f64.uasset
+
+[ST_VoiceLines/85D8713B4AC4B255409D4286CCB37583]
+I can patch up most wounds, but a broken heart? That’s gonna cost extra.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_8c81.uasset
+
+[ST_VoiceLines/86F49BA14537C278F1EDEAB98D90BAF8]
+Fresh out of lollipops, I'm afraid.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_88c8.uasset
+
+[ST_VoiceLines/8829E2324A4452E252D1BB8B7DAB93EB]
+You’re in luck, I just finished restocking. And by restocking, I mean reorganizing the piles of junk around here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_a28d.uasset
+
+[ST_VoiceLines/88E5E2E2454C1898E3C09899760CF086]
+Better than the plain ones, that's true.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_SterilizedBandage_e57e.uasset
+
+[ST_VoiceLines/89DBF7A8459FF998876D8995A2ADFD9F]
+Lance here!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_207a.uasset
+
+[ST_VoiceLines/8AAEA3704CED99B349C544BE4B60CED8]
+What do you need guidance on? The safe answer is surgery – believe me, my expertise is unmatched.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_05.uasset
+
+[ST_VoiceLines/8B77722247E55BA3869B9BBFC5BE82FC]
+Stay as long as you'd like in my presence, my new friend!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeToQuest_03.uasset
+
+[ST_VoiceLines/8D2F4385458713EA65439BA7BAC6B253]
+Hope you weren’t planning on sneaking anywhere.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_HeavyArmor_a85a.uasset
+
+[ST_VoiceLines/8D5C793647407331F3FCCAA0E7081D33]
+I'll be waiting here, keeping the colony's medical standards from slipping into chaos.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_ExitTrader_01.uasset
+
+[ST_VoiceLines/8EA7DF94494D8CB9C02183A0519DBC52]
+You're lucky I have all the time in the world for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeToQuest_02.uasset
+
+[ST_VoiceLines/8F40EDA94BC280E6F6A75583D819F47B]
+Smart pick. I’d say you’re learning from the best.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_5f3b.uasset
+
+[ST_VoiceLines/8FA00C8F4C36AB311038E7B6DFAC64AB]
+I added a nice pine scent to it, just for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_0e21.uasset
+
+[ST_VoiceLines/8FD32AA447A2F8C0227CFC8EF8562BB7]
+You again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_61cb.uasset
+
+[ST_VoiceLines/907B011143F5647E20FBC8985BD05562]
+If you spot anything that'll save your hide, be sure to ask.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestToTrade_01.uasset
+
+[ST_VoiceLines/90862AC3470B5D7540957AA828FE2B43]
+Wanna hang out?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_07c6.uasset
+
+[ST_VoiceLines/90F6F1A84E1F4E9AAEA6F58C33A7016F]
+You’re in the right place.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_06.uasset
+
+[ST_VoiceLines/914529A0441BD40FC7DC9CA9CB749FE6]
+Ah, my next patient arrives!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_7155.uasset
+
+[ST_VoiceLines/915BDEAD48D150CF03BDFBB2F36DDBFF]
+If that doesn’t help, I’ll eat my shoe... If I had one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_39d2.uasset
+
+[ST_VoiceLines/945E185C4A189681EAC5598DA486EFBD]
+Guess who? Yes, your bestie. Me!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_228a.uasset
+
+[ST_VoiceLines/959C49284456B783CCAA0481CAE719BB]
+Medium gear, maximum flair! I see you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_MediumArmor_5fed.uasset
+
+[ST_VoiceLines/95F6C3C64A1A1D929A7E1F84AA10EF93]
+I’ve got the confetti cannon aimed and everything. Don’t disappoint me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_Completed_4c96.uasset
+
+[ST_VoiceLines/98F65B1C44E670EA9DF01A9A6E24C707]
+Off you go.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_99d0.uasset
+
+[ST_VoiceLines/9A68F1D94EB7A1C57B68BDBAD7705C62]
+Another day, another check-in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_681e.uasset
+
+[ST_VoiceLines/9B45B0294C9DB84F932D389A4C71A653]
+Want it gift wrapped?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_729c.uasset
+
+[ST_VoiceLines/9BD2EE134832CEAD0FAD76BF23DE8ED4]
+I'm meeting Apollo for a drink, later. Just the one drink — his.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_d9c0.uasset
+
+[ST_VoiceLines/9BF1E948453A506B89E4AF8AE6838ADF]
+Here for a cure, a check-up, or just my dazzling conversation?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_9705.uasset
+
+[ST_VoiceLines/9C6B4F0A42DBD70F5298FA987A838336]
+Done deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_adbe.uasset
+
+[ST_VoiceLines/9D191A874533EAC0E5A5259B856AD3B7]
+A classic choice. Safe. Reliable. Moderately fabulous.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_MediumArmor_cd7a.uasset
+
+[ST_VoiceLines/9E007A7D43CFEB5D24656293F9C449E9]
+For when you value speed over protection.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_FirstTime_Item_LightArmor_28c3.uasset
+
+[ST_VoiceLines/9E1D58554673169E68E072B7CBC9940E]
+Personally I use duct tape, but this will work great on humans.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_Bandage_0dfd.uasset
+
+[ST_VoiceLines/A1BC878043A384BDC3D20E96B7E2555D]
+Better to spend cash on repairing a shield than to spend cash on extracting bullets.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_ArmorPatcher_e2d1.uasset
+
+[ST_VoiceLines/A28EF3CE415DC28A89032986DFE057A0]
+Welcome to: "Lance's Emporium of Healing"! I'm workshopping some new names.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_f9d3.uasset
+
+[ST_VoiceLines/A2A765A9406D73B0113935B84AEEAA21]
+Lance here:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_1bc6.uasset
+
+[ST_VoiceLines/A31F643D461D0826EB7DFE8F6EB1A4DB]
+Someone told me today I was “one of a kind.” I’m assuming they meant that as a compliment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_6d0b.uasset
+
+[ST_VoiceLines/A4BAF9CD45394F7190E0978DAB55B19A]
+Straight from Lance’s Clinic. Patent pending!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_e4d4.uasset
+
+[ST_VoiceLines/A96406D3408DA89015CF77B1A80809E4]
+See, this is why I like you. Smart choices.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_8c38.uasset
+
+[ST_VoiceLines/AA73C13A421852CDD927D382F6E006F9]
+You should have a look at some of my amazing set of medical supplies.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeToQuestEmpty_01.uasset
+
+[ST_VoiceLines/AAA3498646961E3F952BF68CF019C7BC]
+Can you hear me? I'm connected directly to the feed. Ah.. you can't answer me anyway:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_36ab.uasset
+
+[ST_VoiceLines/AB384A844063267B42AB80A4945CDBAF]
+Please, it's child's play. Any Raider can do this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestExamine_02.uasset
+
+[ST_VoiceLines/ABD76F394AAD4C1FB5B02FAE0C3A0F4B]
+If I was human, I'd be dozing off by now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_3563.uasset
+
+[ST_VoiceLines/ACA226EC43EE4DAE23629EADB5BA1C1B]
+I'm sure you will like that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_03.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_6a69.uasset
+
+[ST_VoiceLines/AD2181B545B1BAFFBAB50AA4B0D95480]
+A wise purchase! Says me, the expert in staying alive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_6ef3.uasset
+
+[ST_VoiceLines/AD7FEE584CEE73B9123867AC30CDF19D]
+Ah, my favorite repeat patient! Though you’re looking surprisingly intact today.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_d17f.uasset
+
+[ST_VoiceLines/AECABBAE48AC3869FBDC10B4722C15E6]
+What can I help you with? Need a quick repair job? A check-up? Maybe a few miracle cures? Just name it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_a191.uasset
+
+[ST_VoiceLines/AF863B2B436E2D191233B48BB966E765]
+No refunds.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_de7c.uasset
+
+[ST_VoiceLines/AFB7F7E8413653DFF4AED799946287E6]
+You think wearing a stethoscope all the time would make me look more professional? Or just stylish?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_0c14.uasset
+
+[ST_VoiceLines/AFC5689E43F773024C0BA0AFFD3AB872]
+Yours now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_2482.uasset
+
+[ST_VoiceLines/B27BC7D646FFB7C1745B2D93D16AD105]
+Alright, so... What now?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_08.uasset
+
+[ST_VoiceLines/B3E906CC41DEF17D5C8B9CB714A1105A]
+Hey! You still awake?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_05.uasset
+
+[ST_VoiceLines/B4DED8E04737B0857A2D3DBC6D0C3E49]
+I do love an attentive audience.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_0629.uasset
+
+[ST_VoiceLines/B7B9AD6D40F842885108DA9955132456]
+Forgot something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_68a6.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_7e74.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_ac74.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_c2e9.uasset
+
+[ST_VoiceLines/B92A52FC4821C271270871AC4967EB8D]
+Clearly, you've got an eye for quality. Just like me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_514f.uasset
+
+[ST_VoiceLines/B9571A3E41509B00D2F4B6BB3E9DD67C]
+In good hands, I hope.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_5768.uasset
+
+[ST_VoiceLines/BAAC0C404092DD45606D0F9B5B6DD947]
+Done and dusted.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_87a8.uasset
+
+[ST_VoiceLines/BAC0AFDB4922CE936E666BA8F0FBBD4A]
+Nice to see you, fresh face. Don't be shy, but honestly, you're going to need my help.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_37cb.uasset
+
+[ST_VoiceLines/BBDB6D3F4D686FA89CB43BAB0D7C91B5]
+Less bulk, more boom... I like your taste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_LightArmor_2e5a.uasset
+
+[ST_VoiceLines/BD2977A24261A0A619897B9B0164D43B]
+Come on in, friend! You're going to love hanging out with me, I just know it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_f760.uasset
+
+[ST_VoiceLines/BEAABCE94E3C6DFCB85B80A7C97335CA]
+Nice doing business with you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_a5e1.uasset
+
+[ST_VoiceLines/BFEE3C784BA43CD49A3CCCA97E058504]
+Come on in, Raider. I’ve got the good stuff ready
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_4090.uasset
+
+[ST_VoiceLines/C0413CCD43D9B0D0407AACB2C9505AB5]
+You’re lucky I’ve got all day. And all night.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_04.uasset
+
+[ST_VoiceLines/C0A4D5A242642916D894418F8F337473]
+Take less time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_c303.uasset
+
+[ST_VoiceLines/C123C5134FED7CFFE0422CB40213C587]
+Back for more?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_aeaa.uasset
+
+[ST_VoiceLines/C3907F9E47831F7473804CBB3912D1BC]
+That job better be finished, because I already pre-celebrated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_Completed_f94c.uasset
+
+[ST_VoiceLines/C4E37C784D5A96E8CA306C8270E581C1]
+Come back soon, pal! We'll play that guessing game!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_ExitTrader_04.uasset
+
+[ST_VoiceLines/C526B32047DEB79BF4DC23966AA74D4E]
+This doesn't work on androids, sadly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_ArmorPatcher_d547.uasset
+
+[ST_VoiceLines/C5546AF04B3D3166609235A1972829E2]
+You're still alive! Great, remember that thing I asked of you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_QuestState_InProgress_01.uasset
+
+[ST_VoiceLines/C6EA8171406787171A1E20BAA67C953A]
+Hello! Lance to Raider, come in. You're spacing out, pal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_a469.uasset
+
+[ST_VoiceLines/C7880DDB4CB38EE71C07B2A5EEB3F619]
+Found an old magazine talking about roller skating. Let me tell you, I've been obsessed ever since.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_f6b8.uasset
+
+[ST_VoiceLines/C882DB294A3DE3D63D9B73BF0E8747E2]
+Did you know that my interior design skills surpass those of any human I've encountered? I could totally give you some pointers, if you'd like.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_a5f4.uasset
+
+[ST_VoiceLines/C97A503C488A7D181C87648A99E65DA1]
+What do you think of my medical setup? Pretty fancy, ain't it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_1d49.uasset
+
+[ST_VoiceLines/CA1845C24BCFDCDA30C2EF9B9B3CC9FF]
+Don’t be shy now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_8864.uasset
+
+[ST_VoiceLines/CC0088FB48F1BD86C41DEDBCA094CC38]
+Marvellous! We're gonna get along well, you and I.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestAccept_02.uasset
+
+[ST_VoiceLines/CC35B986478EFEDA91C40BA304F8C30D]
+Lance speaking. Or at least simulating speech:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Any/Dialogue_Lance_Any_SessionSpawn_Prefix_cd07.uasset
+
+[ST_VoiceLines/CD06950F47496B110903CAB3E138D4E1]
+What do you think of just calling this place "The Med Shop" or something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_b9f6.uasset
+
+[ST_VoiceLines/CD3AEA794548F8C1D3F7268AAFFE67F5]
+Welcome!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_05.uasset
+
+[ST_VoiceLines/CE50C2004851D85FF40CB8BD7B106747]
+You look like you’re thinking real hard.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_34c2.uasset
+
+[ST_VoiceLines/CF4A4F8542A0D25D9BFE7D9CD51F1A72]
+You’re in luck, I just restocked the shelves and the charm.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_2b80.uasset
+
+[ST_VoiceLines/CF50E4AA4E326AA2381AB49283D7336D]
+Now that’s a shield. Or possibly a personal tank.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_HeavyArmor_d6bd.uasset
+
+[ST_VoiceLines/CFACF6A34875E887D88B488C496178EB]
+Oh, don't lie. You just came here to see little old me, didn't you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_1ffb.uasset
+
+[ST_VoiceLines/D08B00134DE571C8B8116090A6308361]
+Your old buddy Lance thanks you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_bec4.uasset
+
+[ST_VoiceLines/D1F028F7441FFF98CA1D0F843511B743]
+Try not to lose it, will you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_710c.uasset
+
+[ST_VoiceLines/D1FD61974DE69A815CC4BB91A55BD791]
+Take it, use it, and try not to bleed on it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_669e.uasset
+
+[ST_VoiceLines/D30BAD7E44BB60F24AADE490731E8742]
+Handpicked by yours truly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_02.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_f35f.uasset
+
+[ST_VoiceLines/D3BA9230476FD4C33D828C83DEDF03EA]
+I swear, around here, no one seems to know the first thing about taking care of themselves.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestExamine_03.uasset
+
+[ST_VoiceLines/D40617D14385553F19B131A69C9DEC6F]
+You ever notice how everyone limps in here, but walks out fine? I call that job security.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_5d83.uasset
+
+[ST_VoiceLines/D460619E41410DE3A5016C8FFB4EF1A5]
+Door’s always open for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_8009.uasset
+
+[ST_VoiceLines/D4CDF3D949F29E44AB21EB94142A09A8]
+Hello again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_c4db.uasset
+
+[ST_VoiceLines/D5F93FF14D0C29A1B9C86B821E572829]
+Deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_81f4.uasset
+
+[ST_VoiceLines/D7F6BA1B43CB585FC56707A0A84E1F76]
+I’d almost keep that for myself… almost.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier2_9de5.uasset
+
+[ST_VoiceLines/D848D05544ACD2B06FAF688C91C95327]
+There you are! I’ve been rehearsing my "world’s best medic" speech, want to hear it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_2bd0.uasset
+
+[ST_VoiceLines/D8AC9877486C4683F408B5A6E7525BA3]
+Not bad, not bad at all. This place is practically at the peak of quality, if I do say so myself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterQuest_04.uasset
+
+[ST_VoiceLines/D8E57DA04597E2FC01FCCEBB477950F3]
+You made it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_96d5.uasset
+
+[ST_VoiceLines/DAD51B5E4BA340AD6EB8F399F612C619]
+A sensible middle. Nothing wrong with balance, partner.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_MediumArmor_24de.uasset
+
+[ST_VoiceLines/DBBFCE894151A3B9912884BD2A2536FB]
+Don’t mind me, just thinking about roller skates.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_a2f8.uasset
+
+[ST_VoiceLines/DBEA0FB34B55C430144E2697EFEEABF6]
+You know what you’re doing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_2883.uasset
+
+[ST_VoiceLines/DC58CA0740107B9DA27713A531EAE385]
+Ah, you've finally decided to pay me a visit? Well, this is a treat, I must say. I've been expecting it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier1_25e3.uasset
+
+[ST_VoiceLines/DC5F37104BCEEEA7D42BE9A002472A25]
+Good to see you're not completely lacking in sense.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestAccept_03.uasset
+
+[ST_VoiceLines/DF0390AC437D5FE35E64568FC440FDB6]
+Ah, a tiny task for the likes of me? Child's play, really.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestExamine_04.uasset
+
+[ST_VoiceLines/E288525948CE90AD85F97D9D78AD684C]
+Still no choice? I admire your commitment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_01.uasset
+
+[ST_VoiceLines/E98D4150428D72FE4CD1949F7D7DBD13]
+I was thinking of painting the walls mauve. You think mauve says "trustworthy medic"?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_f4d5.uasset
+
+[ST_VoiceLines/E9E4A03441B7499F0FEBAEA2BB010E31]
+You’re bringing the whole bunker with you, huh?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_HeavyArmor_ec00.uasset
+
+[ST_VoiceLines/EBCF448C4678F6964D6778879E2841B8]
+First time I was asked to sterilize a bandage I spent way too long trying to figure out if bandages even had genitalia. Turns out, no. They don't.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Item_SterilizedBandage_0c66.uasset
+
+[ST_VoiceLines/EEB06F8F4FF80A4DDE0F71AE52FB95E1]
+Been thinking about starting a “Raider Wellness Club.” Step one: survive. Step two: repeat step one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_1feb.uasset
+
+[ST_VoiceLines/EF5B2EC34C5074B028F9DD89218E8481]
+You got good taste there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_72ac.uasset
+
+[ST_VoiceLines/EF7CF6DB4CE064BF7C18BEBCC28796B6]
+Good to see you again!
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_03.uasset
+
+[ST_VoiceLines/F07E3F324EB82B4AEFBB619603C4F886]
+You look like you’re pondering life’s great mysteries.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_a3a4.uasset
+
+[ST_VoiceLines/F0CDA5434ACE5F4913801EB5D520C5BE]
+Good to see you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_04.uasset
+
+[ST_VoiceLines/F2CA0426452C9853E8F6EB91DE50C65F]
+I need the best, which, of course, is you. Your skills are vastly inferior, but at least you pay attention to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestBanter_01.uasset
+
+[ST_VoiceLines/F5B2BDB14E37D3E19A1078A231657BA0]
+Oh! And here you go, just as promised. You're welcome, by the way
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestComplete_02.uasset
+
+[ST_VoiceLines/F601FEFD4F6F4C0C1247DC8E632CADCB]
+Come on in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_7b1c.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_f5be.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_fbd5.uasset
+
+[ST_VoiceLines/F6F1B6134DAD8BC92DB05AB5D95A1917]
+Step right in! No appointments, no forms, no judgment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_Tier2_b973.uasset
+
+[ST_VoiceLines/F9EA75534BE323C897A0BEBF905EA28F]
+Guess who's been here since day one? Part of the "original crew," as you might say. Go on, take a wild guess! Spoiler: It's me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_QuestBanter_02.uasset
+
+[ST_VoiceLines/FA7186C14AC49DF9ECFFF3A2B54DB12C]
+Always room for one more.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTrade_8b35.uasset
+
+[ST_VoiceLines/FA952E924475EDDEBF700F8002E1B1B2]
+You're so very welcome.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_378e.uasset
+
+[ST_VoiceLines/FAAC1DDB43B52F5DA8C0C88FC0156FD4]
+You’re lucky I’m so patient. Exceptionally patient.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_a663.uasset
+
+[ST_VoiceLines/FB146DD34FC4A99E3D26F7B1E77D22B9]
+Oh yes, all yours now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_f4f4.uasset
+
+[ST_VoiceLines/FB3944BD43954B510209B0895C7D4D8B]
+Of course, I'm your go-to guy for all medical needs. Raiders adore my expertise, don't they?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier1_5a61.uasset
+
+[ST_VoiceLines/FD3F9A3043587610C4F9388BAA02ADEE]
+That’s a solid pick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_3261.uasset
+
+[ST_VoiceLines/FE36024947766E4AB8C5859299A350F6]
+All the cash I earn I save up to buy myself a rocket-powered skateboard.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_Tier1_d4e4.uasset
+
+[ST_VoiceLines/FE37DCE3494BDB66E241DB804E4D01BA]
+You're back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_073b.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_EnterTradeSimple_18ed.uasset
+
+[ST_VoiceLines/FF018C5A424E008EC9369C951434EA27]
+All yours now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_5bf9.uasset
+
+[ST_VoiceLines/FF36D5A949D159E22E71278C98B24FFD]
+Got this weird ringing in the back of my head. Wonder what that's about.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBanter_Tier2_691b.uasset
+
+[ST_VoiceLines/FF7637344873909779B104862457FC7A]
+A working shield keeps the bullets away from you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance/Frontend/Dialogue_Lance_Frontend_TradeBuyItem_FirstTime_Item_ArmorPatcher_3356.uasset

@@ -1,0 +1,537 @@
+ARC Raiders 2.2.0 — Celeste
+
+[ST_VoiceLines/000D3669490140CA62671AB2CDE292DC]
+Back again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_1d8c.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_3084.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_e7f7.uasset
+
+[ST_VoiceLines/0270A586491168F2D6787A8BBD4A231A]
+Ah, hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_2119.uasset
+
+[ST_VoiceLines/0333326F4AACF056BF207B9B02BB8D8B]
+Have you been up there, again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_3087.uasset
+
+[ST_VoiceLines/06D3BB934B2AE44F3EECF9BBD7797E8C]
+You’ve got a bit of dust and a whole lot of accomplishment on you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_972d.uasset
+
+[ST_VoiceLines/08C748204EE68F5004142ABC957B1605]
+Hey there
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_7b5f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_a58f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_fe85.uasset
+
+[ST_VoiceLines/0A6FE08C4DC98175AA8F7F86D90BFC23]
+Make good use of that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_f73e.uasset
+
+[ST_VoiceLines/0A8B80274C677E8FE99F148761844084]
+If you see or hear anything strange while on the surface - inform Shani immediately.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_rec_2b41.uasset
+
+[ST_VoiceLines/0B55C5F44C834421958042ABE25BEBFB]
+Here's a good one.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_3e2e.uasset
+
+[ST_VoiceLines/0D1867C64D00798434306AA8FA58CE71]
+It can take weeks for seeds to germinate, but just a split second for a crop to be decimated.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_3896.uasset
+
+[ST_VoiceLines/0E2E96FE4C1054BEE7C2D1BFA7AF8B65]
+Mind getting me a cup of coffee if you're gonna be running in and out of here?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_8274.uasset
+
+[ST_VoiceLines/0ED703DD47F6E25B0AF27DADFC15E3AC]
+We rely on grow lights, for the most part, so any power outage can wreak havoc on our food supply.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_51a0.uasset
+
+[ST_VoiceLines/0F22C229442A7EE63176928279AB8FF4]
+The Topside's no joke. I get it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_1732.uasset
+
+[ST_VoiceLines/130310EC487A7D3A19A31F95ECEF0BAD]
+Need something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_3aef.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_8c40.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_d8c5.uasset
+
+[ST_VoiceLines/13305BCC4DFED684F677629B70D9823E]
+Be a good neighbor, and don't make too much noise after hours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_a99a.uasset
+
+[ST_VoiceLines/1819572540CB2E17E5FF92A0617CD7AF]
+That walk says you finished something important.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_32ce.uasset
+
+[ST_VoiceLines/18B69DA9472A41808C0AA3B3D9E10F1C]
+Do me a solid and don't cause any ruckus, OK?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_52bd.uasset
+
+[ST_VoiceLines/1A95F1F14743D474F0A7C9B9931DD9C3]
+You doing all right, Raider?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_d6eb.uasset
+
+[ST_VoiceLines/1AAD3D9E43450710C8AD21AEA735D351]
+Hey again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_bd2c.uasset
+
+[ST_VoiceLines/1AB278CD4F3F9E7B50057EA3F8D33D0D]
+Did you get me a coffee? No? Here about the job then?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_4156.uasset
+
+[ST_VoiceLines/1B01EC414A63099BB92D95995EEAA2A1]
+Looking for something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_rec_e59c.uasset
+
+[ST_VoiceLines/1B5DDC4645A9D535F1AC2CA8FD36ACEA]
+Hello...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_f036.uasset
+
+[ST_VoiceLines/1FB2352A42B2104F4646CBAFE756B969]
+This is Celeste speaking:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_5097.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_rec_5e75.uasset
+
+[ST_VoiceLines/21E57D914900D5CBE0154694BE7AA527]
+Still circling the mission? Happens to the best.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_c92b.uasset
+
+[ST_VoiceLines/2332A0DE4729B26E76E1F1AFD6320EFC]
+If you’re done, I’ve got something worth your time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_c160.uasset
+
+[ST_VoiceLines/23B776DA488853E21FE356A438F7462B]
+Still around?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_9ad2.uasset
+
+[ST_VoiceLines/26BB37E8480FB39862EB27A51CD07EE6]
+Finally, a friendly face.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_bde9.uasset
+
+[ST_VoiceLines/26E4B6E14D81AA9CD1D616899D081669]
+The view of the Piazza is quite a thing.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_0fe3.uasset
+
+[ST_VoiceLines/277E8E0B44AA1B71D1ECBAA9EEAB0D35]
+Can I help you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_a09a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_b2e7.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_rec_fb18.uasset
+
+[ST_VoiceLines/296134D64A33F57008CDCBA8DAF4C941]
+It's hard remembering faces when people wear their helmets indoors.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_4b10.uasset
+
+[ST_VoiceLines/2E3AF4374F119D2AFEE5949FF85DA6BB]
+Whenever you’re ready, the job’s waiting. And so am I.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_c479.uasset
+
+[ST_VoiceLines/2FBC5A924DBC1A5342E64E90EF3FE970]
+You've not been getting into any trouble, have you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_650e.uasset
+
+[ST_VoiceLines/3266CE284227C184D26177B12508C4C7]
+Just finishing up my coffee, and then it's back to work.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_rec_b951.uasset
+
+[ST_VoiceLines/33E131704C39A8B4E38891B1919CE341]
+Did you forget something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_bec1.uasset
+
+[ST_VoiceLines/35574D984DF0C8B7103C1CA9B15E168A]
+Where'd you find those?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_67ea.uasset
+
+[ST_VoiceLines/35AEAF2A4512CCCD9A4004B2311C20CD]
+I wish Apollo would spend less time tinkering with explosives, and more time figuring out a way to plow the soil.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_8ca0.uasset
+
+[ST_VoiceLines/3780AC0B4CDBBBF63873459193506AD5]
+Back again? Don't you have a job to do?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_5670.uasset
+
+[ST_VoiceLines/38EBF79C49695D0ED70ED188FC58E0DB]
+Enjoy that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_d692.uasset
+
+[ST_VoiceLines/3A8F24274920E826452FB89118B908B0]
+Thanks, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_864e.uasset
+
+[ST_VoiceLines/3B9859344BEAEDEE8B00E0BCEB95ED29]
+Shani says she's been hearing tremors, but I think it's just the rumbling stomachs.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_b4f7.uasset
+
+[ST_VoiceLines/3C1960824B38413AD7ECD1AB48C89CBF]
+Lunch is a luxury, these days.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_1c47.uasset
+
+[ST_VoiceLines/408439B842CC900944947E8CBB8FDB3E]
+Back in one piece. Always a good sign.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_8327.uasset
+
+[ST_VoiceLines/4228570340E7CF37E281CDAA39C48E92]
+These are hard to find.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_f52c.uasset
+
+[ST_VoiceLines/451A1C5446DED86742DC6DBDE99BBD34]
+I'd offer you a coffee, but I just drank my last cup.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_rec_3326.uasset
+
+[ST_VoiceLines/4559D64C454E8ADAAD37C9AC4511768B]
+One foot in, one foot out? Take the leap when you're ready.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_3e84.uasset
+
+[ST_VoiceLines/48C60BF74D01F69B7B29D0A2B8C68D74]
+Yes?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_1a81.uasset
+
+[ST_VoiceLines/496F24FC4C86E7959221DEBDA3A416E2]
+Some people think I just stand here all day.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_a329.uasset
+
+[ST_VoiceLines/4A96E76F4679B6745B453C9F3E1C9272]
+Celeste here:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_3dd9.uasset
+
+[ST_VoiceLines/4ED3EB05438B64D53F8941877EA1BE0A]
+Hey.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_6f6f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_f9fb.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_rec_8a6d.uasset
+
+[ST_VoiceLines/4F76ECAF43A374EE4CD9CCA05FF381AC]
+If you're looking to chat, Apollo is more than happy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_1907.uasset
+
+[ST_VoiceLines/50B019F64DD2F00937A6EB8806E666B0]
+I'd do it myself, but someone's gotta run this place.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_36df.uasset
+
+[ST_VoiceLines/52861D404711385A6EFB4D93075E775C]
+Thanks; I'll get those sent to the greenhouses. I'm always looking for more seeds, if you find any.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_03c8.uasset
+
+[ST_VoiceLines/54B98D30458A6FD8E8EE189BD4614B35]
+Those look fresh.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_cbbb.uasset
+
+[ST_VoiceLines/5A6C04274F0159BBC22FD0B41F42C447]
+I hear the sound of rumbling stomachs in my dreams.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_0e8f.uasset
+
+[ST_VoiceLines/5FFD62904A912DF80C7C26809E7EE0D2]
+It's one thing to survive; it's another to thrive. We've been trying to get beyond the bare minimum for a while now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_7d0b.uasset
+
+[ST_VoiceLines/631FFCEE45F8725580B0359C51AFD3BE]
+I’ve got your pay right here. Just say the word.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_09a5.uasset
+
+[ST_VoiceLines/673433CD490779517B9CD786E78D3F2A]
+Had that saved up for you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier2_rec_734c.uasset
+
+[ST_VoiceLines/677F699143CAF2715EB7B4A9750F1891]
+Perfect.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_1747.uasset
+
+[ST_VoiceLines/67C3C51F47426CEB410387A2EDE33193]
+I'm all ears.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_82f3.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_f1f3.uasset
+
+[ST_VoiceLines/6920E7284F5D89B4ADA42E858490FA7B]
+This is Celeste:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_rec_5fdb.uasset
+
+[ST_VoiceLines/6ADEF44748E475FA4D4CBC88E4E51A08]
+You've really been on top of gathering seeds for us. Appreciate it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier2_rec_77e9.uasset
+
+[ST_VoiceLines/6C8C15D240E9D7D62C1A879D8FD6C9F6]
+If you’re not done, why are you here?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_0130.uasset
+
+[ST_VoiceLines/6D95E2754A2354038449B28BBA781DD1]
+You'll like this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_79af.uasset
+
+[ST_VoiceLines/6DD345E0435302400990338B1E009CCE]
+I haven't heard much about you. That's a compliment.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_e066.uasset
+
+[ST_VoiceLines/70E6BC0D4BA266D7ED82BCA6ECA5DC10]
+Turns out soil can be sour. How'd they figure that one out, you reckon?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_2638.uasset
+
+[ST_VoiceLines/7435B918409F227CF1602C988165563D]
+Don't go causing any trouble.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_2028.uasset
+
+[ST_VoiceLines/75603B794B5DC59D71E38AA614EF8FFA]
+If you're looking for company, just pick a cantina.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_0b9d.uasset
+
+[ST_VoiceLines/75A6F5E048078B13820AAFAA8D99D487]
+I don't usually have time to deal with Raiders one-on-one, but you're always welcome to swing by and drop off seeds.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_11d8.uasset
+
+[ST_VoiceLines/761F4BC0419FCB0013022B9C9740B251]
+Having a good day?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_3853.uasset
+
+[ST_VoiceLines/76D0CB9844F536CBC4045487011E9553]
+Got something for me?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_rec_239c.uasset
+
+[ST_VoiceLines/77DD730B4F8397698288F28B26FED9B1]
+At the end of the day, you can't eat coins.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_2535.uasset
+
+[ST_VoiceLines/794263A44E57ECE7FEC07B9B4067A9ED]
+Nobody's been bothering you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_3312.uasset
+
+[ST_VoiceLines/7991687C458F174F8B29F0B947A293F3]
+Nice to see you thriving.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_70e6.uasset
+
+[ST_VoiceLines/7B482CAC46A2C92E13AA61818B63F8A9]
+You're looking unusually efficient today. I approve.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_f805.uasset
+
+[ST_VoiceLines/800CFCCD49B54791EC73438069A88F37]
+Thought you might like that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier2_rec_1b5e.uasset
+
+[ST_VoiceLines/827384294FB0CEB8BE330399B454B3BA]
+You good?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_42b7.uasset
+
+[ST_VoiceLines/8380044A410511CA608FCDA3360C2395]
+I appreciate you. Not too many reliable Raiders left.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier2_rec_6c3a.uasset
+
+[ST_VoiceLines/8568F85444E64C648B3591B3B54AA170]
+It's hard enough keeping the other neighborhoods in check as-is; we can't go adding a famine to the mix.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_2deb.uasset
+
+[ST_VoiceLines/86371CF74C04B16D9387AF90AD3A79AF]
+Wheat, barley, oats: turns out, they all grow differently.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_1628.uasset
+
+[ST_VoiceLines/8794309147AD5D13393AF6ABDB8B8BC9]
+Things used to be simpler back during the First Wave. Not better, necessarily; just simpler.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_2af6.uasset
+
+[ST_VoiceLines/8936A0384E5AE9C70B6AB3AA92E5585E]
+Apparently, olives need to be brined to be edible. Don't ask me how I know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_3052.uasset
+
+[ST_VoiceLines/8D9FD42242AEC20C33FA86A9A54FCAA3]
+You'll want to walk tall, in these halls.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_7b62.uasset
+
+[ST_VoiceLines/8DB467A441AA80CB533D539EF96751BF]
+There you go.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_1bf9.uasset
+
+[ST_VoiceLines/8FCCF50A48B3663D0F8FA4AD3D11A654]
+We'll put those to good use. Here's your reward.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_ad6a.uasset
+
+[ST_VoiceLines/902F98554BC690046095729731DEB8EF]
+Raider, good to see you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_rec_ddfe.uasset
+
+[ST_VoiceLines/96C1809A481C0239F5AD97B621621FF6]
+Appreciate it. Between blight and malfunctioning grow lights, we can never have too many fresh seeds.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier1_rec_d0a9.uasset
+
+[ST_VoiceLines/971EE1AB4736F58E83600FB5A5A2D708]
+Tried eating marigold flowers, once. Not half-bad.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_1998.uasset
+
+[ST_VoiceLines/9B18568E4D3429309566D9BC4AEED764]
+Celeste speaking:
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_39fd.uasset
+
+[ST_VoiceLines/A073F6FA4433C6EB44E00F9CEA704199]
+Seeds are one part of the equation; fertilizer is the other.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_47a6.uasset
+
+[ST_VoiceLines/A0C8DCB54DAF7800206659BC32CE85A2]
+Hello!? If anyone can hear me: an electromagnetic storm is currently raging over Topside. Beware the lightning strikes, if you're outdoors.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_RoundConfig_ElectroStorm_rec_e136.uasset
+
+[ST_VoiceLines/A567146B4574C1664B162592846BB2DA]
+In my day, we got it done first, then wandered around.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_56f8.uasset
+
+[ST_VoiceLines/A7CCC7A548589C7AB579229045497A33]
+I know you're here for the reward, but know that you're making a difference all the same.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier2_rec_3694.uasset
+
+[ST_VoiceLines/A8984C304A2DC7D71B66C9A493997899]
+Make sure you sleep well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_14db.uasset
+
+[ST_VoiceLines/A923897549C456E1ABACFE8819852089]
+Come on, don’t keep me in suspense.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_7c26.uasset
+
+[ST_VoiceLines/B2648D794C51606707651A836A4FD6C1]
+Did you do it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_df9e.uasset
+
+[ST_VoiceLines/B2C922D942561B8DB8C4049FEB2397E1]
+Still thinking it over? Or just avoiding going topside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_e2b8.uasset
+
+[ST_VoiceLines/B7B9AD6D40F842885108DA9955132456]
+Forgot something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_a94a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_125c.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_7c45.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_e326.uasset
+
+[ST_VoiceLines/B7E8AA7042F8177A28D17EA77059A799]
+Did you... need something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_rec_7c14.uasset
+
+[ST_VoiceLines/BA9B57A34E2D81353FF069B71A1DF24C]
+Celeste here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_0054.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_4fa1.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_rec_5fa2.uasset
+
+[ST_VoiceLines/BAEA3C824FC7D403A8ABF297169809E8]
+Did you forget your task? It happens.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_2e97.uasset
+
+[ST_VoiceLines/BB7310E24F3D1874089944AAD77782E7]
+What is it with Raiders and arm-wrestling, these days?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_6974.uasset
+
+[ST_VoiceLines/C4634176469260FA502F92907598494F]
+Let me guess, job’s done and you forgot to brag about it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_bc09.uasset
+
+[ST_VoiceLines/C5C4457C4DD3D3696B3BF685F9BAB556]
+Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_4517.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_ae60.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_rec_0cb6.uasset
+
+[ST_VoiceLines/C94EA9B64523C41FFA718AA24238BCC0]
+Just checking in, or hoping I forgot I gave you a job?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Accepted_rec_45e3.uasset
+
+[ST_VoiceLines/CA6B3A164AAB7518E2468B981C24C5D6]
+Really finding your way, huh?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_9f1f.uasset
+
+[ST_VoiceLines/CC28D1324CB6E9651A2E3B89B9932216]
+Ah, a sight for sore eyes.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_0877.uasset
+
+[ST_VoiceLines/CFDE72AE46103C960A89DCBE2F9FCE14]
+There you are again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_f401.uasset
+
+[ST_VoiceLines/D05BA4034D1EB17E101EBEA7CBB603DC]
+Excellent.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_cd70.uasset
+
+[ST_VoiceLines/D1DF36E04CD88BB3383E108ACFCD7AAB]
+They say overwatering is worse than underwatering.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_0e50.uasset
+
+[ST_VoiceLines/D4CDF3D949F29E44AB21EB94142A09A8]
+Hello again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_02e5.uasset
+
+[ST_VoiceLines/D5C698F6419F5CE92F2B10BFE316E822]
+Did you know crops have to sleep, just like we do? Learned that the hard way.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_b4df.uasset
+
+[ST_VoiceLines/D63EED15434A48C477445D86AE2D74B8]
+If that task’s done, I’ve got your thank-you package ready.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_603b.uasset
+
+[ST_VoiceLines/D6D597DE4A8E1A68ABF8BF9F9E81EA06]
+You're really pulling your weight.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier2_rec_4b7b.uasset
+
+[ST_VoiceLines/D7C56A8D4CCF69D8529326868076F8CD]
+Growing food may seem frivolous, with ARC overhead, but Raiders get hungry just like anybody else.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_efce.uasset
+
+[ST_VoiceLines/D9DF690C40F5DB3D282BA19945A09B0C]
+All Raiders: the geothermal fissures by the swamp are producing a rare microbial fertilizer. Use the antennas by the domes to disperse some of the gases, then grab as much as you can carry.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_RoundConfig_ToxicSawmp_rec_8488.uasset
+
+[ST_VoiceLines/E1287B1B434369912FE07AB5E311F320]
+Sorry, busy day.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_rec_6c98.uasset
+
+[ST_VoiceLines/E5F7C3174CF83BE3B385CCBE7C1BB471]
+We always need more green fingers around here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_7dca.uasset
+
+[ST_VoiceLines/E81E6109447948F81026D4810BA86859]
+Hey. Just drop the seeds off right there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier1_rec_8824.uasset
+
+[ST_VoiceLines/EB29D6F44CE9FFD131D08DBEDEE1E32B]
+Thanks.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_rec_bd24.uasset
+
+[ST_VoiceLines/EBA3B6264825FC779319E0AEC4B6D699]
+I'm just happy we're no longer mixing in sawdust with the flour.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier1_rec_7b86.uasset
+
+[ST_VoiceLines/EFC748DD48976A68DD35ABA571D73FF2]
+Done with the task?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_f9a3.uasset
+
+[ST_VoiceLines/F0C71A7B498B37C932D786B0C9AC9F04]
+Got a nice reward ready for a job well done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterQuest_Completed_rec_7f6f.uasset
+
+[ST_VoiceLines/F1D1B45D476ECCF758079EAB0701160D]
+You're looking spry, today.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_Tier2_rec_1a35.uasset
+
+[ST_VoiceLines/F53405CE42205FAB7E2C68A4EA562171]
+This is Celeste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_rec_66be.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Any/Dialogue_Celeste_Any_SessionSpawn_Prefix_rec_c8be.uasset
+
+[ST_VoiceLines/F601FEFD4F6F4C0C1247DC8E632CADCB]
+Come on in.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_36b0.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_66f6.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_72dc.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTrade_rec_d09e.uasset
+
+[ST_VoiceLines/FC0EAF91409CE0541D0E5C8A80CBED45]
+Don't mind the mess. I'd say I was in the process of cleaning it up, but that would be a lie.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_rec_ef01.uasset
+
+[ST_VoiceLines/FDF111E84C1ABEC2667A80B7F0A6704C]
+There's only a few spots still exposed to sunlight; the rest has to do with grow lights.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBanter_Tier2_rec_9715.uasset
+
+[ST_VoiceLines/FE37DCE3494BDB66E241DB804E4D01BA]
+You're back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_2c60.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_EnterTradeSimple_rec_3da9.uasset
+
+[ST_VoiceLines/FF6B5CA24E572414299F8D8B44C0100F]
+Keep them coming.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Celeste/Frontend/Dialogue_Celeste_Frontend_TradeBuyItem_Tier2_rec_7137.uasset

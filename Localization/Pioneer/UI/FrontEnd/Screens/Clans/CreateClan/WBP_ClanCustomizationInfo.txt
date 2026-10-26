@@ -1,0 +1,12 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/FrontEnd/Screens/Clans/CreateClan/WBP_ClanCustomizationInfo
+
+[[12].Properties.Text]
+TAG
+
+[[18].Properties.Text]
+[ET] Clan Owner Name
+
+[[106].Properties.Text]
+confirm changes
+

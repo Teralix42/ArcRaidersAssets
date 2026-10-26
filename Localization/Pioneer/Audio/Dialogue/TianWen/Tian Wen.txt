@@ -1,0 +1,1012 @@
+ARC Raiders 2.2.0 — Tian Wen
+
+[ST_VoiceLines/000D3669490140CA62671AB2CDE292DC]
+Back again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_a35f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_c37f.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_c698.uasset
+
+[ST_VoiceLines/0038F0DD4117ED4B5EFB49A2E29AC9BB]
+Don’t skimp on firepower.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_f67e.uasset
+
+[ST_VoiceLines/00A608F5490E8E235CDAE58C183C8EA3]
+The door’s not going to open.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_6780.uasset
+
+[ST_VoiceLines/01132384447161700E677E962EB3322E]
+All right, now off with you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_b344.uasset
+
+[ST_VoiceLines/013E5F624AF3C4E5748FC5AD920266CB]
+Don't waste it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_fe5c.uasset
+
+[ST_VoiceLines/0520011F4191ED9487AAD8AE563047B6]
+Fine.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_a181.uasset
+
+[ST_VoiceLines/05D887CA41332B152B95B18B7DD76066]
+You sure you can handle that?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_64af.uasset
+
+[ST_VoiceLines/065F17FF498E6B8CE0CDACAB02BE0C7F]
+Made for people who move first and aim later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Bobcat_a448.uasset
+
+[ST_VoiceLines/06C6B3EE47575527FB7E4BAA8868A7F7]
+That's gonna come in handy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier2_b5c1.uasset
+
+[ST_VoiceLines/08C748204EE68F5004142ABC957B1605]
+Hey there
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_1a66.uasset
+
+[ST_VoiceLines/0903AAB049B3016C78EB35969A98D868]
+Hey, no loitering. If you're going to buy anything, be quick about it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_f9ee.uasset
+
+[ST_VoiceLines/0A0198E34965E70A8234E0B8C3EA4F05]
+Old design, reliable results.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Renegade_9fa9.uasset
+
+[ST_VoiceLines/0A981CC9416FBC55C8CC5CBEC7276C0D]
+Puts out lead fast. Just keep it steady.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Vulcano_5a6e.uasset
+
+[ST_VoiceLines/0AC905C141512CB50041B09A07F399DD]
+You’re clogging up the view.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_2f8d.uasset
+
+[ST_VoiceLines/0BB092D64C3F3A0308DF67ACA28E265F]
+You're blocking the door.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_5de2.uasset
+
+[ST_VoiceLines/0C17380B42D6E0AD7BB188A40B0A7759]
+For when you want to fill the air, not the target.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Stitcher_33b8.uasset
+
+[ST_VoiceLines/0EBCCE8041628F78936A829398D05E25]
+Did Shani send you? No? Then what is it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier2_rec_6597.uasset
+
+[ST_VoiceLines/105BF9AC48D91AFF00789D9E565BA64E]
+Not built for loud work, but it gets the job done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Hairpin_a64e.uasset
+
+[ST_VoiceLines/1071C81147A226871AD9D498F72CC043]
+Uh, Hello...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_90aa.uasset
+
+[ST_VoiceLines/1115A640433FB34A534842ABD58BBDDC]
+One hit with this can change the fight.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Anvil_e835.uasset
+
+[ST_VoiceLines/1145B2454FF9BD8570F044B52E4A28B5]
+Gonna use that on ARC, or... You know what, I don't want to know.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier2_9e8f.uasset
+
+[ST_VoiceLines/1271F85647E562E91AF4CF895BA92DA2]
+If they hear this, you’ve already messed up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Hairpin_5bab.uasset
+
+[ST_VoiceLines/12EF0E814A2B314D8ED55B896DA01912]
+Great for when you're backed into a corner.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_IlToro_630c.uasset
+
+[ST_VoiceLines/130310EC487A7D3A19A31F95ECEF0BAD]
+Need something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_0ac4.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_1d2e.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_adeb.uasset
+
+[ST_VoiceLines/145C700B4E50A5299753099BAD047702]
+Old-school handling. Still does the job.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Renegade_f52d.uasset
+
+[ST_VoiceLines/167D56B944EBDF0A3683919AE706FEAC]
+Let's not start asking questions, OK?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_ab8d.uasset
+
+[ST_VoiceLines/167E407B47220263861B73884306E874]
+Need more guns? Smart choice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_63ff.uasset
+
+[ST_VoiceLines/16E1C48A451083F918460BAAD9507676]
+Don’t stall. You’ll thank me later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_4142.uasset
+
+[ST_VoiceLines/179B8E51408C065F737B6DB28615D07C]
+Is that my pizza? Oh, it's you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_7c76.uasset
+
+[ST_VoiceLines/18DE0D8444EC78658EAB01A3B53AC781]
+No room for mistakes. You sure?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Ferro_d2df.uasset
+
+[ST_VoiceLines/19955ABD431F8DBAD110869C84197BD9]
+You’ll get more shots with this, just not more power.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_LightAmmo_2e31.uasset
+
+[ST_VoiceLines/1BCE913C4E6D39C2E72064B3B5D87680]
+Keeps the fire going until the magazine’s dry.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Tempest_ab44.uasset
+
+[ST_VoiceLines/1D0B08604E67D6CA28EF03B9890A5023]
+Time’s yours to waste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_e09f.uasset
+
+[ST_VoiceLines/2123E5BC47FE000B2DE9D08A8664E7F5]
+Enjoy.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_c7b1.uasset
+
+[ST_VoiceLines/23D2EE24498D3AD9CBC8A9BBC3D33FEC]
+You're not one of my regulars. What do you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_a086.uasset
+
+[ST_VoiceLines/2481DD3E4A9D36F47E0B929317173FFA]
+Tian-Wen here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_394b.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_8605.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_9b04.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_fb4b.uasset
+
+[ST_VoiceLines/248717884170342038B21190E819DBBA]
+I'm not opening this door. Just tell me what you want.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_fbeb.uasset
+
+[ST_VoiceLines/26CA6CD746CE4E619AB201812C9AF0D8]
+Lever-action, cowboy style. In the right hands, very useful.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Renegade_6bda.uasset
+
+[ST_VoiceLines/277E8E0B44AA1B71D1ECBAA9EEAB0D35]
+Can I help you?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_0614.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_78eb.uasset
+
+[ST_VoiceLines/2880866B4BB1205FFDC2C687137CE148]
+Still loitering?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_84d3.uasset
+
+[ST_VoiceLines/2AE621E440B1D7030CE44C8395FFC248]
+Few things are as satisfying as handling a full-auto assault rifle.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Tempest_1b2f.uasset
+
+[ST_VoiceLines/2B10F7E64850E1C00ECE09905FBC8CE8]
+A safe fallback. Reliable under pressure.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Burletta_1d88.uasset
+
+[ST_VoiceLines/2C4B66484EE80BD20A042696640B00BA]
+Decent spread if you’re close enough.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_ShotgunAmmo_ee08.uasset
+
+[ST_VoiceLines/2DB6BF7C438D3C9DB1CB67BA3F1FD7FA]
+That one? Sure, it's yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_f0d7.uasset
+
+[ST_VoiceLines/2EC528844D554219A387EABBE0783B3E]
+Hefty kick this one. Takes a while to reload, so make sure you aim right the first time.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Ferro_585b.uasset
+
+[ST_VoiceLines/314D890E4294CB6D5E429C984BCC430C]
+Hits like a wall when you need it to.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_IlToro_50e4.uasset
+
+[ST_VoiceLines/359B4CBF40752237238897A2EBFA5FC6]
+Ammo for light weapons, and with a high rate of fire. Probably not very effective against ARC though.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Ammo_LightAmmo_081c.uasset
+
+[ST_VoiceLines/37D378FF4B1D91DFED12BA9E411593AD]
+Just pick one, OK?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_b31f.uasset
+
+[ST_VoiceLines/391112114124D37074726CA616E58E22]
+Got something in mind?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_7f26.uasset
+
+[ST_VoiceLines/392947574EBC7632B17E0ABED3BC162E]
+Sure, take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_332e.uasset
+
+[ST_VoiceLines/394F918944F9FF44758264A3B3DC2AA9]
+Thank you. I'll be here when you're done.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_QuestAccept_01.uasset
+
+[ST_VoiceLines/3ACE119A4CF25B194C97C7BE2565891D]
+Semi-auto chaos. Figured you'd like it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Vulcano_5612.uasset
+
+[ST_VoiceLines/3B9884A14ECF07DACE5DA285828C7494]
+A picky customer. I respect that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_11ee.uasset
+
+[ST_VoiceLines/3BD1B6CE41FF2A14CC8CEBB95D8BE58E]
+Good for volume fire. Just don’t expect miracles.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_LightAmmo_9fbb.uasset
+
+[ST_VoiceLines/3C82CA9C4A8E1121E71202BC28CE5F1F]
+Great for ARC plating or anything that’s too confident.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_HeavyAmmo_5ef8.uasset
+
+[ST_VoiceLines/3C968095425D3853C521F1AA79CD452D]
+Nothing to say? Fine.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_ef1f.uasset
+
+[ST_VoiceLines/3D24095A446F03F6EBD0A5B88791D7AA]
+Don’t get too comfortable.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_9a48.uasset
+
+[ST_VoiceLines/3F276DC845F9A2DD7F2FABAAA559F46A]
+You’ll get a bit of punch and a lot of shots. Solid mix.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_MediumAmmo_a942.uasset
+
+[ST_VoiceLines/3F9F181C432D2B931596C0A3E608D5E0]
+Don’t keep your enemies waiting.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_a907.uasset
+
+[ST_VoiceLines/43D7A310478AEBE36230C48B6B313553]
+Don’t lean on the slot.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_92ff.uasset
+
+[ST_VoiceLines/440C6B9E4254A2CF9902549123994AAE]
+Worth every coin.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_18b0.uasset
+
+[ST_VoiceLines/45F059DF4D8DA151A71495B733E8609C]
+Is that all?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_4a3e.uasset
+
+[ST_VoiceLines/469B0327416A61A649748A9B840D7857]
+Don't go trying it around here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_1af5.uasset
+
+[ST_VoiceLines/46B41A3D43B93DB8FDE2389C065F07D3]
+Watch your fingers.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_10ae.uasset
+
+[ST_VoiceLines/47B7F54F4CBF452C6E2F73A0E5EA0E69]
+If I see as much as a hint of googly eyes, I will shoot you through the door slot.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_c646.uasset
+
+[ST_VoiceLines/48C60BF74D01F69B7B29D0A2B8C68D74]
+Yes?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_12d6.uasset
+
+[ST_VoiceLines/4B180CBF4101246301751A97A7BC0CFD]
+Fire rate’s impressive. Accuracy less so.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Stitcher_6f0c.uasset
+
+[ST_VoiceLines/4EE0BEC84003F7CDD6AFB48A30AEB6C9]
+Hope your wrist’s ready for the kick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_ShotgunAmmo_cbfc.uasset
+
+[ST_VoiceLines/50E3EED94AD67B0AC999698D0B748667]
+When things go wrong, this goes boom.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_IlToro_3d18.uasset
+
+[ST_VoiceLines/50FEF03146FDE4C9A2CB58B269B24905]
+Best gear in Speranza and beyond.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_9dd3.uasset
+
+[ST_VoiceLines/516671C94D4A9988C4A6F7B0652FA515]
+Don't even think of trying anything. This door is bullet proof and I'm armed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_40b8.uasset
+
+[ST_VoiceLines/535D9F274BA3D75548EACFB4D454B2EC]
+Hey. What is it?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_be93.uasset
+
+[ST_VoiceLines/536FDC104DB9DD87CA6D03A1FA7B730F]
+Always better to be over-prepared.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_d387.uasset
+
+[ST_VoiceLines/5483B8944E0BCAB019FA02A770157CAD]
+Finally someone bought that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_1d7d.uasset
+
+[ST_VoiceLines/549BF5FF4AB67BCC7AE417A42CCD1A15]
+Tell your fellow Raiders where you got that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_fbde.uasset
+
+[ST_VoiceLines/55CE162E440E2D12C3693FA266A40334]
+All the best Raiders buy their gear from me. I only carry quality stuff.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_5189.uasset
+
+[ST_VoiceLines/565C56A74DCB62F24F49008E9E75ECEF]
+Strong recoil. Stronger impact.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Anvil_1b66.uasset
+
+[ST_VoiceLines/565C5F734EFD8DBA306F6390015A15A8]
+That’s the ammo most people settle on. Not a bad choice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_MediumAmmo_d916.uasset
+
+[ST_VoiceLines/57D5AD914B55587D3E7E8EB8C86B4BFB]
+Quiet and clean. If you’re into that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Hairpin_683e.uasset
+
+[ST_VoiceLines/58AF893F42503E086EF4F39F659A78EB]
+If you find any weapons just laying around, I'm always on the lookout.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_80e6.uasset
+
+[ST_VoiceLines/58E2D7B5449DAA45CF3B619D3CAF1FD8]
+One shot. All kick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Ferro_fd2f.uasset
+
+[ST_VoiceLines/5C84EF6549098E9719CEBEABA91CA2C9]
+Uh-huh, it's yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_e156.uasset
+
+[ST_VoiceLines/5D311C8B46A5A09AA1D662BCC1106F3B]
+Take care of your guns and they'll take care of you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_a911.uasset
+
+[ST_VoiceLines/5E3000444A411991F08D37A3C0F04857]
+Anything else?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_10.uasset
+
+[ST_VoiceLines/5E56AD7849D2CE9301C5DBA8C8F47A4F]
+Oh, it's you. Here for guns?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_08.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier2_rec_387f.uasset
+
+[ST_VoiceLines/5EAA655E4EF26B134C76BBBF28D32B2B]
+Did anyone follow you here?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_cc85.uasset
+
+[ST_VoiceLines/5F66FDCC4114A1367D474FAAA0AFBA8E]
+Did you bring coin, Raider? I hope you did.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier2_rec_8357.uasset
+
+[ST_VoiceLines/5FBA07A443C231438FF64A8F410EDA57]
+Good for firing fast, not so much for firing accurately.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Stitcher_8ddb.uasset
+
+[ST_VoiceLines/62C31B88406017C4804E378DB56CF436]
+You better have coin, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_4f0e.uasset
+
+[ST_VoiceLines/62ED946240E65AAF8D88A0902F268DD9]
+If you happen to, lets say, get your hands on another Raider's equipment up there, I'd be more than happy to buy it off you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_9313.uasset
+
+[ST_VoiceLines/643DE58243DFC2CD9619B28055F49FFA]
+This will punch through whatever’s in front of it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Jupiter_ec7b.uasset
+
+[ST_VoiceLines/6534BA92434CF4D4627D1895488F0E81]
+You ever go to the other neighborhoods? Shani rarely does; that's all I'll say.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_a818.uasset
+
+[ST_VoiceLines/662E7FC448068B045EDF128993EDFC3B]
+Used for guns with some proper zip to them. Should work great on ARC armor.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Ammo_HeavyAmmo_36b5.uasset
+
+[ST_VoiceLines/66F7A56A4E3AFA9C37F68AA251C8E4F2]
+Should keep you alive, if you use it well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_31a4.uasset
+
+[ST_VoiceLines/679636A940B7ECE35767398727B155F1]
+This isn’t a cantina. Stop hanging around.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_9dc6.uasset
+
+[ST_VoiceLines/6BBC30F44C911C130AEF5AB841F1065F]
+In the market for reliability?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_96d4.uasset
+
+[ST_VoiceLines/6BE4230B47F45C152705CEB2AD542CD9]
+Hard to miss with these, assuming you’re facing the right way.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_ShotgunAmmo_a574.uasset
+
+[ST_VoiceLines/6C1894244C3D30B0703164A58ED5189A]
+No such thing as “too many guns.”
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_8f07.uasset
+
+[ST_VoiceLines/6EAF29C949DA209775A18C8DF4306E0A]
+This is Tian-Wen speaking.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_60eb.uasset
+
+[ST_VoiceLines/6EEFD39B471F0B81F4C89E9C701DDDBB]
+Your coin is always welcome here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_05.uasset
+
+[ST_VoiceLines/71C7B9B84A3027774700A2AB9D40740E]
+Come back when you got the coin.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_04.uasset
+
+[ST_VoiceLines/71F055CA454297247FA3329F41857376]
+Have your eyes adjusted to the dark yet, Raider? Loot is ripe for the picking while most of Toledo is asleep, though my suppliers say that ARC is twice as vigilant after sunset.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_RoundConfig_NightRaid_rec_44231.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_RoundConfig_NightRaid_rec_8ba2.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_RoundConfig_NightRaid_rec_94c0.uasset
+
+[ST_VoiceLines/728136E846C0E89483C4E8930A3C0F90]
+Don't let it backfire.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_c2be.uasset
+
+[ST_VoiceLines/72BC148644EF9F7687DAA1A6CCFFE47F]
+Take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_64d3.uasset
+
+[ST_VoiceLines/744EDE01478AE83831356F9C002E342A]
+You could do worse. Many do.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Burletta_f49c.uasset
+
+[ST_VoiceLines/7551CF4843B30F8E511A6095D3DC11D9]
+Rail power. Not much survives the first shot.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Jupiter_0373.uasset
+
+[ST_VoiceLines/765170DE4FDCDF5A028B0BA9B9D9F0E7]
+Now you’re speaking my language.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_HeavyAmmo_a4a5.uasset
+
+[ST_VoiceLines/7952B4244F89EB61E384F8886202529E]
+Need guns?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_8639.uasset
+
+[ST_VoiceLines/7A8FA13B48592A48290C359DCB84365F]
+You still around...?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_eb16.uasset
+
+[ST_VoiceLines/7B9A9C444DF7690B2568AFB84FDE10B9]
+Try not to have too much fun with that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_6672.uasset
+
+[ST_VoiceLines/7BDE8F1343FB5B8C153B83856A1F5F72]
+Hey there, I've got some things you could help out with.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterQuest_rec_ac44.uasset
+
+[ST_VoiceLines/7CD2417846027D2FEF66F8A5FA638907]
+You came to me, so you know I’m the best.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_dd6f.uasset
+
+[ST_VoiceLines/7F2881504B4D06A7F5D59BA3BB5AA397]
+Punches holes. In ARC, and anything else in the way.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_HeavyAmmo_799f.uasset
+
+[ST_VoiceLines/80E984E2425D53568E766791232130A6]
+Hello.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_9fc6.uasset
+
+[ST_VoiceLines/83C63B3A4418366D1D95C2999F733DD3]
+Hey there...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_4987.uasset
+
+[ST_VoiceLines/84E70E4445D8F7AF7DE1BBBEB167531C]
+Better to buy now than regret later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_75b4.uasset
+
+[ST_VoiceLines/853A0A7443F3E8524E6C3481B5C606C8]
+A Raider, huh? What do you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_34fd.uasset
+
+[ST_VoiceLines/854B2E794A5D8FD6CEAEE9833881909D]
+I’ll keep it short. What do you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_89c6.uasset
+
+[ST_VoiceLines/8653F594449B0F980D6F75B829F992A0]
+Come back alive. Can't do business with dead Raiders.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_09.uasset
+
+[ST_VoiceLines/878C1E364F642DBD6961F4A232635940]
+A good sidearm. Always worth having a backup weapon.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Burletta_667c.uasset
+
+[ST_VoiceLines/87D2B6DA48732C442138A1834B0852B8]
+Ah, the ‘panic button’ special.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_IlToro_9bac.uasset
+
+[ST_VoiceLines/8C243109409BBE6F217A56BA284FF07E]
+Got everything you need?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_fd34.uasset
+
+[ST_VoiceLines/8C6A2CE74B35BFC4F084B1B986CBA238]
+It's all about volume. Try to aim in bursts.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Stitcher_0109.uasset
+
+[ST_VoiceLines/8CEE020D4917297DB4A99686E1CDA664]
+You got a good eye.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier2_baa9.uasset
+
+[ST_VoiceLines/8D6FC6614200628805BE51A71465765E]
+Out with it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_3720.uasset
+
+[ST_VoiceLines/8F08DE024708AD9241F0D382E7FF6FD0]
+Scatter rounds. Brutal in close quarters.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_ShotgunAmmo_134d.uasset
+
+[ST_VoiceLines/8F4198D84CB897F265294491B8999402]
+Automatic fire and zero subtlety. Nice.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Tempest_6ad5.uasset
+
+[ST_VoiceLines/8FD32AA447A2F8C0227CFC8EF8562BB7]
+You again?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_e6fe.uasset
+
+[ST_VoiceLines/8FE88BBD46AE4977B990E9B30CE9C9D4]
+Silent and effective. Keeps you off the radar.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Hairpin_6aea.uasset
+
+[ST_VoiceLines/900378DA450EA9CC2AC3698D57CC6D02]
+What’ll it be this time?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_1bbc.uasset
+
+[ST_VoiceLines/90419C0B4C6F75CC063460BA9B0BE1ED]
+My stock’s still the best.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_5329.uasset
+
+[ST_VoiceLines/90B116B048D24273A86D10B397F95899]
+Quick and sharp. Not much room for hesitation.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Bobcat_09aa.uasset
+
+[ST_VoiceLines/90C17A5F4C88443A529165AF62D2A5D5]
+A solid room-clearer, if you can handle it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Vulcano_def5.uasset
+
+[ST_VoiceLines/90DD644C49D5319BE54E83947CA8F29E]
+Heh, nice outfit, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_801d.uasset
+
+[ST_VoiceLines/91F20415456C6561D64B88BFB86D4927]
+A hellcat, more like. Just make sure you can aim when using this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Bobcat_a8d7.uasset
+
+[ST_VoiceLines/9281FEE14B5B2D9749C3FB8B748902BC]
+Make it quick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_7d8e.uasset
+
+[ST_VoiceLines/9316BA9040F17DA8EF6BD49EEB38083E]
+Don't draw any attention to yourself.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_7a09.uasset
+
+[ST_VoiceLines/935B808845C3CF6A67D1849364926089]
+Stealthy. Not how most of my customers prefer it, but it's a valid style up there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Hairpin_f555.uasset
+
+[ST_VoiceLines/9388E53A492956510D0D7CB38032BF07]
+You’ve got coin, I’ve got weapons.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_f623.uasset
+
+[ST_VoiceLines/95EF797E42ED5612AEB9B0B6DAFF5ACF]
+Good for covering fire or keeping heads down.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Tempest_f33a.uasset
+
+[ST_VoiceLines/96A522394A6EF56CD87F128D3CF81A2D]
+It’ll do the job. Loudly.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Vulcano_5fe9.uasset
+
+[ST_VoiceLines/97FFA9F24064C9B0E2FAE89AA4B5A404]
+It's a deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_270c.uasset
+
+[ST_VoiceLines/9874832D45774B47404B6EABF28889C2]
+It's yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_01.uasset
+
+[ST_VoiceLines/98F65B1C44E670EA9DF01A9A6E24C707]
+Off you go.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_01.uasset
+
+[ST_VoiceLines/99FEB3E04FF552921530718AB7EB4497]
+Make sure nobody traces that back to me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_a6d3.uasset
+
+[ST_VoiceLines/9A4767244C880D6E30CA34B8E81B9BE8]
+Compact frame, dependable results.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Burletta_684a.uasset
+
+[ST_VoiceLines/9AB055EC49F6B128B7CABDA65C913EE3]
+High output, low accuracy. Use wisely.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Stitcher_a47d.uasset
+
+[ST_VoiceLines/9B2E622B41ABA01C1269E790F0CB744F]
+Let’s make this quick.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_b27e.uasset
+
+[ST_VoiceLines/9BF530A249E16D824B5232AC68C2C7E0]
+Light, fast, and easy to burn through.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_LightAmmo_549e.uasset
+
+[ST_VoiceLines/9C6B4F0A42DBD70F5298FA987A838336]
+Done deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_017c.uasset
+
+[ST_VoiceLines/9D16CA344446CBA9A3EB1CAC4767FEBA]
+Balanced, discreet. Easy to stash, easy to draw
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Burletta_421c.uasset
+
+[ST_VoiceLines/9DBBBEA74F620EB879F107A44EC5746C]
+It's yours. No returns.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_aeba.uasset
+
+[ST_VoiceLines/A28D6C3648FDB4D2660AA7995B72EE11]
+You really like standing there.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_53c2.uasset
+
+[ST_VoiceLines/A32E8DFA40CE9B99F06D4499A5144F05]
+Door stays closed, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_03a7.uasset
+
+[ST_VoiceLines/A470BBE84ADB910458D2B5B2BF78F7A8]
+Make up your mind. I don't have all day.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_a5cb.uasset
+
+[ST_VoiceLines/A485A2B3484574DB623FAE9DEAEB723F]
+At least I know you're good for it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier2_rec_8d03.uasset
+
+[ST_VoiceLines/A496054946B8CD5A0EC647881A5B92E0]
+Solid gun when it comes to accuracy. Reloading could take some time though.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Kettle_8074.uasset
+
+[ST_VoiceLines/A6894A2642D6F445841062BB1558159B]
+Hey, Tian-Wen here. Listen up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_35a8.uasset
+
+[ST_VoiceLines/A6B5EEAA431DF5F405D688AFF51AAC42]
+A semi-auto shotgun. Hopefully I don't need to tell you how useful those can be.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Vulcano_4231.uasset
+
+[ST_VoiceLines/A742F41E460E425917C5A9AEC9BC82D0]
+Get out of here, Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_03.uasset
+
+[ST_VoiceLines/A8AC73044AA3844FEE44889DDD90D792]
+Sharp shot if you’ve got the patience.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Kettle_f54e.uasset
+
+[ST_VoiceLines/A9A3AB1644CDE7A8171A61A347DFF9D8]
+I get my wares from all over Toledo. That's as much as I'll say.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_eac0.uasset
+
+[ST_VoiceLines/A9B44C6A4EB49D834FF47BA263519616]
+Good piece. Use it well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier2_987d.uasset
+
+[ST_VoiceLines/AA31E3224D91B2B0D446FA9703671DF6]
+Gonna buy something, or what?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_1bee.uasset
+
+[ST_VoiceLines/AA73BD264150F3CFCEF35ABE4BC35202]
+Yeah, yeah. See you.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_07.uasset
+
+[ST_VoiceLines/AD73F42945C0A84151F9F886AE62435A]
+Stay back, will you? I'll show you the goods.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_684b.uasset
+
+[ST_VoiceLines/AE2F44CF4CCE48956747269EF4DED28F]
+I’ve got what works.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_cb97.uasset
+
+[ST_VoiceLines/AF0C4BB0497C1001989F169C49C89D4D]
+Got your eye on something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_b35c.uasset
+
+[ST_VoiceLines/AF38D94348B1457A40690D97B73221CF]
+You either know how to use this, or you learn fast.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Renegade_199d.uasset
+
+[ST_VoiceLines/AFADB99B4FFAB310668494B4EBD7A95F]
+Hits where you point. Assuming you point well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Kettle_0819.uasset
+
+[ST_VoiceLines/B02DB74C4A5E871CA9972B83CA268A1D]
+Meant for precision, not panic.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Ferro_6b5e.uasset
+
+[ST_VoiceLines/B1A0A94147C344DF28A768A8988BBD55]
+Okay, go now.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_02.uasset
+
+[ST_VoiceLines/B273DA8645E4E6FFCEF42ABB79D5ABD4]
+Good balance of speed and punch.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_MediumAmmo_56d8.uasset
+
+[ST_VoiceLines/B3673FF3407E324171795C9F9996CB97]
+Better for careful shooters than panicked ones.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Kettle_4bec.uasset
+
+[ST_VoiceLines/B4556E71475EB7BBE0512394337DD574]
+Best paired with something fast and loud.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_LightAmmo_d459.uasset
+
+[ST_VoiceLines/B524A9244F6973DBE3DF5FB0B7D5868C]
+Overkill? Perfect.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Jupiter_46c8.uasset
+
+[ST_VoiceLines/B563EA8849381664024C5AB43E701612]
+Fair trade, take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_ef9d.uasset
+
+[ST_VoiceLines/B7B9AD6D40F842885108DA9955132456]
+Forgot something?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_87f8.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_d369.uasset
+
+[ST_VoiceLines/B89291BB477E07A2E404E2ACB65D55E1]
+Okay. What else?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_24a8.uasset
+
+[ST_VoiceLines/B93B2A834640A3AA62083D9D3927A578]
+I don’t do window shopping.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_3ea1.uasset
+
+[ST_VoiceLines/B94BB79042E05B7CEFAE819A2A45CA58]
+You paid for it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_19a48.uasset
+
+[ST_VoiceLines/B95DA64146FE7CC55E23BB9E274CE88E]
+Here, take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_03.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_8ce1.uasset
+
+[ST_VoiceLines/BB2D483447E7FB2706DD1AB3CCA72772]
+I appreciate you're spending time with me. Just don't forget to pull your weight.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_QuestBanter_01.uasset
+
+[ST_VoiceLines/BC902292441E02316AD14DACA25E7794]
+Always room for more firepower.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_a101.uasset
+
+[ST_VoiceLines/BD8286C345218315B45D02BE8C81B26C]
+If I wanted window shopping, I'd have windows installed.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_1edf.uasset
+
+[ST_VoiceLines/BFF9EB614D1042835E7126946A55C73F]
+Solid choice if you want versatility
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_MediumAmmo_b2c2.uasset
+
+[ST_VoiceLines/C00343DD4B8FEB31DADE61BFFC8C1AF3]
+Looks like that's that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_7793.uasset
+
+[ST_VoiceLines/C063D70F438A8E6A41648ABF1215EDDD]
+Even if you're the best, you need good gear to make it back in one piece after a raid.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_0f80.uasset
+
+[ST_VoiceLines/C10E2FF142FD37686F0723B4930B6970]
+You came to the right place.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_1802.uasset
+
+[ST_VoiceLines/C123C5134FED7CFFE0422CB40213C587]
+Back for more?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_f614.uasset
+
+[ST_VoiceLines/C1BA632F4B3612A7DA8F4AB8E20F5EEA]
+Short range, big bite.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Bobcat_6ff9.uasset
+
+[ST_VoiceLines/C23D1AA2436C4E7844B4CE86C1594D47]
+Still nothing?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_e7e2.uasset
+
+[ST_VoiceLines/C3060F2847DC1D028BA868A109A301B8]
+Whatever. Later.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_06.uasset
+
+[ST_VoiceLines/C479EA2B4C31ECDE586EB494CDACA157]
+Don't you have Raider things to go do?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_bbfd.uasset
+
+[ST_VoiceLines/C48065F14586CE91698467BDB2AA899D]
+You know this door hatch closes as easily as it opens, right?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_5d65.uasset
+
+[ST_VoiceLines/C4A62BD24DF6D197DA788D9DFB84A312]
+Out of ammo again? Figures.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_bb3c.uasset
+
+[ST_VoiceLines/C5190AD04D49169348057981939FEF1C]
+Back again? Good.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_150e.uasset
+
+[ST_VoiceLines/C5C4457C4DD3D3696B3BF685F9BAB556]
+Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_ed9d.uasset
+
+[ST_VoiceLines/C75DCEB946E196CB1B3AEDA948C7442D]
+This is Tian-Wen.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_5fc4.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_d4d9.uasset
+
+[ST_VoiceLines/CA1A18CB4176509FEB110085FF105EDE]
+Now this is a wonder of engineering. A railgun. A shot from this will go straight through your target and hit whatever is behind it too.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Jupiter_d4b3.uasset
+
+[ST_VoiceLines/CA4E5FCF444BD34B93F9D589AD3AEA32]
+Armor won’t mean much against this.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Jupiter_0fa6.uasset
+
+[ST_VoiceLines/CC7D5452451A64581CF45AA06B26A005]
+What now...?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_9bc4.uasset
+
+[ST_VoiceLines/CDFFBC4F4C2B8040DF8DC58A1F455819]
+Don’t expect small talk.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_7f0e.uasset
+
+[ST_VoiceLines/D009415748B24BE3E5EEADA2DAF89257]
+Stock up while you can.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_505e.uasset
+
+[ST_VoiceLines/D1CDB8D34BE0B4B960B5BB9099D95A8B]
+Let's do business.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier2_rec_a80d.uasset
+
+[ST_VoiceLines/D29BBA7347D4EBF88E0998BDC78A802E]
+Tian-When here. Listen up.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_87bf.uasset
+
+[ST_VoiceLines/D34941514883429FB23FBF80DE05D120]
+You look ready for an upgrade.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_f652.uasset
+
+[ST_VoiceLines/D3BB644E401B519E92D32CB0AFD3152A]
+OK then...
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_5484.uasset
+
+[ST_VoiceLines/D49C3D8B437B780B1B865DB8D5ADC2ED]
+A proper hand cannon. Very effective, if you can handle it well.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Weapon_Anvil_2f21.uasset
+
+[ST_VoiceLines/D4CDF3D949F29E44AB21EB94142A09A8]
+Hello again.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_ac29.uasset
+
+[ST_VoiceLines/D5010E404AA45E17F81A13B6FD53537F]
+Uh-huh...?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_1b02.uasset
+
+[ST_VoiceLines/D503EBF6403276BEA08896AACC58F777]
+Tian-Wen calling.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Any/Dialogue_TianWen_Any_SessionSpawn_Prefix_rec_f4a9.uasset
+
+[ST_VoiceLines/D5F93FF14D0C29A1B9C86B821E572829]
+Deal.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_2f2a.uasset
+
+[ST_VoiceLines/D731378D4DE56C055A97DF9F41090115]
+Great! Here's something for your trouble.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_QuestComplete_01.uasset
+
+[ST_VoiceLines/D73E4CCC40EE6535207AD09055B5873F]
+If you lose that, you know where to find me.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier2_60de.uasset
+
+[ST_VoiceLines/D7643C664D91B67F818615B83E69359A]
+Thanks for the coin.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_2a52.uasset
+
+[ST_VoiceLines/D834E53C48C89157AB7E378C7725829C]
+Accurate, but not forgiving.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Kettle_b234.uasset
+
+[ST_VoiceLines/DADF4AF64075EE5EC6EA128C4B73B137]
+Yep, it's yours.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_0dc5.uasset
+
+[ST_VoiceLines/DC7B82964D7BC98C0F8C009A501709BE]
+If you can get your hands on one of Lance's limbs, I'm pretty sure I could find you a seller.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier2_97ba.uasset
+
+[ST_VoiceLines/DD7358904ADEA0D1BD67C8A91C71C9BE]
+Plenty of stopping power in every round.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Ammo_HeavyAmmo_6bcc.uasset
+
+[ST_VoiceLines/DE7DE9104C5516CD412E72A9476A4B00]
+Keep it slow, line up your target, and make your shot count.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Anvil_5bee.uasset
+
+[ST_VoiceLines/DF61A23A4B61E5472FB3BFAD78168113]
+Looking for precision?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_fe29.uasset
+
+[ST_VoiceLines/DF62E49F47F0BE5646A82F9D3AB2BB36]
+What do you need, Raider?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_rec_0be5.uasset
+
+[ST_VoiceLines/E0B068C2496D1408C484F1BAB0E6757F]
+Was it something else?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_0ae8.uasset
+
+[ST_VoiceLines/E107276744AF844EF1208AA5BC2CCEFD]
+Gear up, or get moving.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_f0e0.uasset
+
+[ST_VoiceLines/E27C8DC542E99A9E7839578595CAD585]
+You look like you need more than luck.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_e82c.uasset
+
+[ST_VoiceLines/E33003094B2CC661A4E49CB62758418E]
+We done here?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_46d0.uasset
+
+[ST_VoiceLines/E4EA902B416D7630D75D738CEBC99870]
+Yeah, yeah. Take it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_5ee4.uasset
+
+[ST_VoiceLines/E51A41364A656174D9D5D6966E0F70F0]
+Be quick about it
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTrade_Tier1_rec_6516.uasset
+
+[ST_VoiceLines/E80F73A04CFA61532D9ADC98B8C4A10F]
+Not in the mood for games.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_52bc.uasset
+
+[ST_VoiceLines/E87B5D53482F5104B0E01CA7F1FC29FD]
+You need more, come back alive.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_5632.uasset
+
+[ST_VoiceLines/E9068DAC4BADECF766123495251D0AA3]
+Full-auto for when you don’t want to stop shooting.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Tempest_3b4f.uasset
+
+[ST_VoiceLines/EBFD93844EB5F80A0ADF9A90A5512FF3]
+Takes longer to fire, but it’s worth it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Renegade_e3bf.uasset
+
+[ST_VoiceLines/ECA623BD436697DE6844F29F5D7AF2D0]
+Scattergun ammo. Great for when aiming is more of a suggestion than a requirement.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Ammo_ShotgunAmmo_cc65.uasset
+
+[ST_VoiceLines/EE2497F747924BB83DAD1696A55CEBBF]
+I’ve dealt with worse customers.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_44e3.uasset
+
+[ST_VoiceLines/EF2D6EC1446AC44CE5B7138437083466]
+Only the best guns for sale here.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_ExitTrader_08.uasset
+
+[ST_VoiceLines/F13A589544C58F24C4227FB3211B0DF2]
+No, you can't take any out to the Practice Range.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_96e0.uasset
+
+[ST_VoiceLines/F1EBCB5C43CDAAA1E2DEC0BEC903A2D2]
+Hey. Any news on that thing?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterQuest_QuestState_InProgress_rec_10d5.uasset
+
+[ST_VoiceLines/F3F5F14545E6E6BFAD7BF4B8B78EE222]
+A balanced approach, somewhat good at penetrating ARC plating, but works well on other things too
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_FirstTime_Item_Ammo_MediumAmmo_2528.uasset
+
+[ST_VoiceLines/F46569ED4D2502B37DE628944FF37A52]
+Works best when things get real close, real fast.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_IlToro_6ab0.uasset
+
+[ST_VoiceLines/F52DEE604369708B97D225B41BEC12BB]
+Yes...?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_c305.uasset
+
+[ST_VoiceLines/F6491373427AB908FD6931A9882F8031]
+I have everything I need behind this door.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_Tier1_16e8.uasset
+
+[ST_VoiceLines/FA9FA24D48E531D42D110B9E8557A18A]
+Recoil like a freight train. Knock yourself out.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Anvil_db80.uasset
+
+[ST_VoiceLines/FAEAFACC4FA5FA5C64E8828FD776294A]
+Still hovering?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_b2e3.uasset
+
+[ST_VoiceLines/FC6CA36444368010E2FD17B3375ECC1C]
+Slow to load, but fast to end a fight.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Ferro_5f07.uasset
+
+[ST_VoiceLines/FCCD37364EEE37BDD549729D34F4270E]
+Don't let it go to waste.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Tier1_67e9.uasset
+
+[ST_VoiceLines/FD5AB33D4A7FF0D1B3A46A89BB752563]
+This is all high quality stuff. If you break anything you pay for it.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBanter_cb6a.uasset
+
+[ST_VoiceLines/FDC796F543A1A8B6F09801BD0AA2A913]
+Lightweight, responsive, loud.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_TradeBuyItem_Item_Weapon_Bobcat_bef8.uasset
+
+[ST_VoiceLines/FE37DCE3494BDB66E241DB804E4D01BA]
+You're back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_0d23.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/TianWen/Frontend/Dialogue_TianWen_Frontend_EnterTradeSimple_dbe1.uasset

@@ -1,0 +1,22 @@
+{
+  "XeSSStringTable": {
+    "XESS_NATIVE_ANTI_ALIASING_DESCRIPTION": "Anti-aliasing basé sur l'IA pour une qualité visuelle maximale",
+    "XESS_BALANCED": "Équilibré",
+    "XESS_BALANCED_DESCRIPTION": "Le meilleur équilibre entre performances et qualité visuelle",
+    "XESS_PERFORMANCE_DESCRIPTION": "Nette amélioration des performances",
+    "XESS_QUALITY_DESCRIPTION": "Amélioration de la qualité visuelle",
+    "XESS_ULTRA_QUALITY_DESCRIPTION": "Nette amélioration de la qualité visuelle",
+    "XESS_ULTRA_PERFORMANCE_DESCRIPTION": "Amélioration maximale des performances",
+    "XESS_ULTRA_QUALITY_PLUS_DESCRIPTION": "Amélioration maximale de la qualité visuelle",
+    "XESS_DESCRIPTION_MINIMUM": "La technologie Intel® Xe Super Sampling (XeSS) utilise l'IA pour offrir de meilleures performances et une qualité d'image exceptionnelle.",
+    "XESS_DESCRIPTION_SHORT": "La technologie Intel® Xe Super Sampling (XeSS) utilise l'IA pour offrir de meilleures performances et une qualité d'image exceptionnelle. La technologie XeSS est optimisée pour les GPU Intel® Arc™ avec du matériel d'accélération de l'IA.",
+    "XESS_NATIVE_ANTI_ALIASING": "Anti-aliasing natif",
+    "XESS_OFF": "Désactiver",
+    "XESS_PERFORMANCE": "Performances",
+    "XESS_QUALITY": "Qualité",
+    "XESS_OFF_DESCRIPTION": "Désactive Intel XeSS",
+    "XESS_ULTRA_PERFORMANCE": "Ultra performant",
+    "XESS_ULTRA_QUALITY": "Qualité Ultra",
+    "XESS_ULTRA_QUALITY_PLUS": "Qualité Ultra Plus"
+  }
+}

@@ -1,0 +1,36 @@
+ARC Raiders 2.2.0 — Cassio
+
+[ST_VoiceLines/0D0579634F590789B4F8159BB04850AC]
+You return.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_0a65.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_b0ae.uasset
+
+[ST_VoiceLines/5C2783D44D0831C25247B9B6225B7247]
+Greetings.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_8978.uasset
+
+[ST_VoiceLines/B404F9D84AD334580C679EBDC38DB8ED]
+Hi.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_a9a0.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_f332.uasset
+
+[ST_VoiceLines/C5C4457C4DD3D3696B3BF685F9BAB556]
+Raider.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_6b4a.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_78f4.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_e7bf.uasset
+
+[ST_VoiceLines/C928B84D48B4460FB05995927D1B2B09]
+Step inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_33b1.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_9385.uasset
+
+[ST_VoiceLines/DDED4ADC4DFCEBB2DA655BBD0D043BFB]
+Be welcome.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_50b8.uasset
+
+[ST_VoiceLines/FE37DCE3494BDB66E241DB804E4D01BA]
+You're back.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_4702.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_5639.uasset
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Juanito/Frontend/Dialogue_Juanito_Frontend_EnterTradeSimple_rec_7359.uasset

@@ -1,0 +1,6 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/UI/Configuration/CommonUI/DT_InventoryInputActions
+
+[[0].Rows.InspectItem.DisplayName]
+Inspect Item
+

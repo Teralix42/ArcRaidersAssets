@@ -1,0 +1,21 @@
+ARC Raiders 2.2.0 — Lance
+
+[ST_VoiceLines/36B668D44674E80E06D83D99B3074237]
+Sounds like someone’s got that Gate locked up tighter than my medicine cabinet. If you’re so inclined, you could try your hand at finding the key cards to it and have a peek at what might be hiding inside.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Feb/Any/Dialogue_Lance_2026_Feb_Any_SessionSpawn_RoundConfig_LockedGate_0c94.uasset
+
+[ST_VoiceLines/62A7FBD040FCDFBB068F6A917CA33E68]
+Listen up, friendo! Looks like there’s a Matriarch nearby. If you’re crazy enough to square up to it, you better keep an eye out for its little babies. They ain’t exactly harmless like human spawn, if you catch my drift.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Feb/Any/Dialogue_Lance_2026_Feb_Any_SessionSpawn_RoundConfig_Matriarch_d4c4.uasset
+
+[ST_VoiceLines/74B67C7D4EC74C3AD50401B38A40273F]
+I wouldn’t be wandering around out in the open if I were you. You may not be made of metal, but you won’t take kindly to getting struck by lightning.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Feb/Any/Dialogue_Lance_2026_Feb_Any_SessionSpawn_RoundConfig_ElectroStorm_95f4.uasset
+
+[ST_VoiceLines/933BB7E64587F57BF79BFCBE200E1532]
+The wind is so loud we can hear it down here. I’d say keep your eyes open, but… good luck with that.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Feb/Any/Dialogue_Lance_2026_Feb_Any_SessionSpawn_RoundConfig_WindStorm_095e.uasset
+
+[ST_VoiceLines/D0C3DB174C3FAEECB2F28F8CD818DD11]
+Chilly out there, huh? Perfect time to pick some Candleberries, so long as you can avoid the frostbite.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Lance_2026_Feb/Any/Dialogue_Lance_2026_Feb_Any_SessionSpawn_RoundConfig_Frostbite_1b54.uasset

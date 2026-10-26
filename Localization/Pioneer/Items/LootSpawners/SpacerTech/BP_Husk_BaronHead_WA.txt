@@ -1,0 +1,12 @@
+ARC Raiders — additional game text
+Source asset: Pioneer/Items/LootSpawners/SpacerTech/BP_Husk_BaronHead_WA
+
+[[11].Properties.LootedText]
+BREACHED
+
+[[11].Properties.ActivitySucceededText]
+UNLOCKED
+
+[[11].Properties.ActivityStartedText]
+UNLOCKING
+

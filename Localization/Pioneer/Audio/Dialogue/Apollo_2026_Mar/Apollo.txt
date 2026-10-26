@@ -1,0 +1,25 @@
+ARC Raiders 2.2.0 — Apollo
+
+[ST_VoiceLines/152B6FFF495B919939537BA3ABDC7BBF]
+It’s just been on my mind. We had Barons in that area for years until they stopped showing up. Now we’re seeing what appear to be new ARC that haven’t previously been sighted around here. Why is that? And what does it mean for the future?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Mar/Frontend/Dialogue_Apollo_2026_Mar_Frontend_EnterQuest_Quest_ArcOptimization_Accepted_ee4d.uasset
+
+[ST_VoiceLines/478CA71E404FC34EE5641BBC0E12289F]
+Thanks for gathering these up for me. I’ll see if I can figure out how these ARC parts relate, even if the tech is way above my pay grade.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Mar/Frontend/Dialogue_Apollo_2026_Mar_Frontend_CompleteQuest_Quest_ArcOptimization_f0a9.uasset
+
+[ST_VoiceLines/584657E6421F5D1E15B1CCB23FD3E0E8]
+Now, I’m not saying ARC actually evolved like that; it’s only a pet theory for now. But I am trying to gather some internals so I can poke around for similarities. You in?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Mar/Frontend/Dialogue_Apollo_2026_Mar_Frontend_AcceptQuest_Quest_ArcOptimization_204c.uasset
+
+[ST_VoiceLines/6DCAC7E647876273126A1AA4E81C96E1]
+Hey, question for you. What do you get if you cross a Hornet and Fireball? If your answer is ‘a Firefly’, then we’re on the same page.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Mar/Frontend/Dialogue_Apollo_2026_Mar_Frontend_EnterQuest_Quest_ArcOptimization_New_ad50.uasset
+
+[ST_VoiceLines/C7DB4B6F4C30E7279AE4FFA0FC2DBB03]
+Word is that Surveyors are out there sniffing around for the good stuff. Problem is, they brought Vaporizers with them, at the very least.
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Mar/Any/Dialogue_Apollo_2026_Mar_Any_SessionSpawn_RoundConfig_Extractor_319b.uasset
+
+[ST_VoiceLines/D39CD0FB4A3212E682CC4CAB6D17BA68]
+Any luck with those parts I requested?
+Audio asset: PioneerGame/Content/Pioneer/Audio/Dialogue/Apollo_2026_Mar/Frontend/Dialogue_Apollo_2026_Mar_Frontend_EnterQuest_Quest_ArcOptimization_Completed_b158.uasset

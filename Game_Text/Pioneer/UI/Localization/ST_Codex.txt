@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Codex
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_CODEX_BACK_TO_CATEGORIES]
 Back to categories
@@ -223,6 +223,9 @@ Quests Completed
 
 [ID_CODEX_PLAYERSTATS_STATS_RAIDERS_REVIVED]
 Raiders Revived
+
+[ID_CODEX_PLAYERSTATS_STATS_REVIVED_BY_STRANGER]
+Times Revived By A Stranger
 
 [ID_CODEX_PLAYERSTATS_STATS_REVIVE_SQUAD]
 Times Revived A Squadmate

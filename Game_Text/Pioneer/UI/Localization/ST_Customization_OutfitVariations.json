@@ -286,7 +286,10 @@
         "ID_OUTFITVARIATION_TRADITIONAL": "Traditional",
         "ID_OUTFITVARIATION_BLACKWHITE": "Black White",
         "ID_OUTFITVARIATION_BLUESAND": "Blue Sand",
-        "ID_OUTFITVARIATION_PALESHADOW": "Pale Shadow"
+        "ID_OUTFITVARIATION_PALESHADOW": "Pale Shadow",
+        "ID_OUTFITVARIATION_BLACKANDGOLD": "Black Gold",
+        "ID_OUTFITVARIATION_BLUEGRAFFITI": "Blue Graffiti",
+        "ID_OUTFITVARIATION_BLACKBEIGE": "Black Beige"
       },
       "KeysToMetaData": {
         "ID_OUTFITVARIATION_ALABASTER": {
@@ -1126,6 +1129,15 @@
           "Status": "approved"
         },
         "ID_OUTFITVARIATION_PALESHADOW": {
+          "Status": "approved"
+        },
+        "ID_OUTFITVARIATION_BLACKBEIGE": {
+          "Status": "approved"
+        },
+        "ID_OUTFITVARIATION_BLACKANDGOLD": {
+          "Status": "approved"
+        },
+        "ID_OUTFITVARIATION_BLUEGRAFFITI": {
           "Status": "approved"
         }
       }

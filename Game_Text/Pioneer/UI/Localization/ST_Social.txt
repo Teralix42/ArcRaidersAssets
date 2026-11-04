@@ -1,13 +1,13 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Social
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_OPTIONS_SOCIAL_PRIVACY_MATCHMAKING_DELAY]
 Matchmaking Delay
 
 [ID_OPTIONS_SOCIAL_PRIVACY_MATCHMAKING_DELAY_DESCRIPTION]
-While matchmaking, a randomized delay will be added to your queue to make it more difficult for viewers to queue simultaneously.
-
+While matchmaking, a randomized delay will be added to your queue to make it more difficult for viewers to queue simultaneously.
+
 When playing in a party, make sure the party leader has this setting toggled on. This cannot be changed while in matchmaking.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_STREAMER_GROUP_TITLE]
@@ -116,7 +116,7 @@ Unmute
 Copy Embark ID
 
 [ID_SOCIAL_DESKTOP_NOTIFICATION_MATCHMAKING_COMPLETED]
-Look sharp, Raider: 
+Look sharp, Raider: 
 you're on your way topside.
 
 [ID_SOCIAL_EDIT]
@@ -132,7 +132,7 @@ Must contain between {0}-{1} {1}|plural(one=character, few=characters, many=char
 Change your Embark ID?
 
 [ID_SOCIAL_EDIT_EMBARK_ID_CONFIRMATION_BODY]
-Changing your Embark ID to: {0}
+Changing your Embark ID to: {0}
 You can only change your Embark ID once every 30 days.
 
 [ID_SOCIAL_EDIT_EMBARK_ID_COOLDOWN]

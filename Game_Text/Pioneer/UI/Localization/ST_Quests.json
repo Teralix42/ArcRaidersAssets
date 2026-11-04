@@ -184,6 +184,15 @@
         },
         "ID_QUESTS_COMPLETE_ALL_OPTIONAL_OBJECTIVES": {
           "Status": "approved"
+        },
+        "ID_QUESTS_COMPLETE_N_OF": {
+          "Status": "approved"
+        },
+        "ID_QUESTS_COMPLETE_EITHER_OR": {
+          "Status": "approved"
+        },
+        "ID_QUESTS_FRIGATE": {
+          "Status": "approved"
         }
       }
     }

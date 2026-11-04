@@ -90,8 +90,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 8 | ID.Armor | 100 | Armor_Side_L_01, Armor_Side_R_01 |
 | 9 | HealthGroup.Base | 1000 |  |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

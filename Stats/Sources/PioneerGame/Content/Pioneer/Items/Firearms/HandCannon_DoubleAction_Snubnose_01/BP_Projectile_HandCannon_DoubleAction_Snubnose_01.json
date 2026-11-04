@@ -133,7 +133,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_HandCannon_DoubleAction_Snubnose_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/BP_Projectile_HandCannon_DoubleAction_Snubnose_01.4"
       },
-      "VariableGUID": "DC26B77B-448D1949-33F758B2-830441FA",
+      "VariableGuid": "DC26B77B-448D1949-33F758B2-830441FA",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

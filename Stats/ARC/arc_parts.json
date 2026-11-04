@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "snapshot": "Unpack_2.2.0",
+  "snapshot": "Unpack_2.4.0",
   "source_path_root": "PioneerGame",
   "definitions": {
     "frame_health_rule": "Configured frame HP rule, not total combined health or a universal damage-to-kill threshold.",
@@ -11622,12 +11622,7 @@
           "source_path": "Content/Pioneer/Enemies/Chonk/C_Chonk.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Chonk/C_Chonk.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Bombardier",
@@ -15365,12 +15360,7 @@
           "source_path": "Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/C_ChonkPlatform_Mortar.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/C_ChonkPlatform_Mortar.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Bully",
@@ -19800,12 +19790,7 @@
           "source_path": "Content/Pioneer/Enemies/Tarragon/C_Tarragon_01.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Tarragon/C_Tarragon_01.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Comet",
@@ -22408,12 +22393,7 @@
           "source_path": "Content/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Firefly",
@@ -24260,12 +24240,7 @@
           "source_path": "Content/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Frigate Cannon",
@@ -24888,12 +24863,7 @@
           "source_path": "Content/Pioneer/Enemies/Turret/Rose/C_Rose.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Turret/Rose/C_Rose.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Hornet",
@@ -26314,12 +26284,7 @@
           "source_path": "Content/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Hydra",
@@ -28234,12 +28199,7 @@
           "source_path": "Content/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Leaper",
@@ -32335,12 +32295,7 @@
           "source_path": "Content/Pioneer/Enemies/Bullcrab/C_BullCrab_01.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Bullcrab/C_BullCrab_01.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Matriarch",
@@ -40653,12 +40608,7 @@
           "source_path": "Content/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Queen",
@@ -55601,12 +55551,7 @@
           "source_path": "Content/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Spotter",
@@ -56380,12 +56325,7 @@
           "source_path": "Content/Pioneer/Enemies/Pinger/C_Pinger.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Pinger/C_Pinger.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Tick",
@@ -56536,12 +56476,7 @@
           "source_path": "Content/Pioneer/Enemies/Tick/C_TickBot.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/Tick/C_TickBot.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     },
     {
       "name": "Turret",
@@ -62055,12 +61990,7 @@
           "source_path": "Content/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.json"
         }
       ],
-      "source_decoding_warnings": [
-        {
-          "source_path": "Content/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.json",
-          "warning": "Partial property decoding: this package failed strict parsing with the available mappings."
-        }
-      ]
+      "source_decoding_warnings": []
     }
   ],
   "self_contained": true,

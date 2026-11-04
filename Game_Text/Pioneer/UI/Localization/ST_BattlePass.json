@@ -155,7 +155,7 @@
         "ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_PROGRESSING_ALT1": "Currently Progressing:",
         "ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_PROGRESSING_ALT2": "Currently Progressing {0}",
         "ID_BATTLEPASS_ACTIVE_PASS_CURRENTLY_PROGRESSING_ALT3": "Currently Progressing: {0}",
-        "ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED": "Earn another {0} to collect",
+        "ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED": "Earn {0} to collect",
         "ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT1": "Earn another {0}{1} to collect",
         "ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT2": "{0} Reward Points to collect",
         "ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT3": "{0}{1} to collect",
@@ -169,7 +169,7 @@
         "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ": "Get Premium Pass",
         "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT1": "Get Premium",
         "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT2": "Get Premium Pass to collect",
-        "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT3": "Earn another {0} and get Premium Pass to collect",
+        "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT3": "Get Premium and earn {0} to collect",
         "ID_BATTLEPASS_TOPBAR_MENU_REWARD_PASS_FROZEN_TRAIL": "Frozen Trail Reward Pass",
         "ID_BATTLEPASS_TOPBAR_MENU_REWARD_PASS_FROZEN_TRAIL_ALT1": "Frozen Trail Pass",
         "ID_BATTLEPASS_UPGRADE_PREMIUM_HEADING": "Frozen Trail Premium Reward Pass",
@@ -223,7 +223,7 @@
         "ID_BATTLEPASS_COMPLETE_UPGRADE_INFO": "Upgrade your pass anytime to unlock all remaining rewards.",
         "ID_BATTLEPASS_COMPLETE_UPGRADE_INFO_ALT1": "You can still upgrade this pass anytime to collect all remaining rewards.",
         "ID_BATTLEPASS_COMPLETE_UPGRADE_INFO_ALT2": "You can still upgrade this pass anytime to unlock and collect additional rewards.",
-        "ID_BATTLEPASS_COMPLETE_SWITCH_XP": "All passes completed: Reward Points converted to XP",
+        "ID_BATTLEPASS_COMPLETE_SWITCH_XP": "All passes completed. All additional Reward Points will convert into XP.",
         "ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT1": "Completed Feats now gives you XP",
         "ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT2": "Completing Daily Feats now grant XP.",
         "ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT3": "All Reward Passes are completed. Completing feats now gives you XP.",
@@ -255,7 +255,8 @@
         "ID_BATTLEPASS_LISTITEM_UNLOCKABLE_PREMIUM_REWARDS": "{0} Unlockable Premium Rewards",
         "ID_BATTLEPASS_LISTITEM_PREMIUM_PASS_REWARDS_ALT2": "{0} Raider Tokens, Weapon Stencils, Outfit Variants and more",
         "ID_BATTLEPASS_LISTITEM_DLC_EXCLUSIVE_REWARDS": "{0} Exclusive Rewards",
-        "ID_BATTLEPASS_LISTITEM_DLC_EXCLUSIVE_REWARDS_PLUS": "+ {0} Exclusive Rewards"
+        "ID_BATTLEPASS_LISTITEM_DLC_EXCLUSIVE_REWARDS_PLUS": "+ {0} Exclusive Rewards",
+        "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT4": "Upgrade to Premium and earn {0} to collect"
       },
       "KeysToMetaData": {
         "ID_BATTLEPASS_BUTTON_UNLOCK": {
@@ -647,7 +648,7 @@
           "Status": "approved"
         },
         "ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED": {
-          "Note": "This shows on items you have not yet reached the required amount of reward pass points to collect/unlock yet.",
+          "Note": "Existing string ID. Will be shown on items you have not reached in the Pass; max. char. 40",
           "Status": "approved"
         },
         "ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT1": {
@@ -934,7 +935,8 @@
           "Status": "approved"
         },
         "ID_BATTLEPASS_COMPLETE_SWITCH_XP": {
-          "Status": "approved"
+          "Status": "approved",
+          "Note": "Shown to players when both passes have been completed and any RP will forward be transformed to XP"
         },
         "ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT1": {
           "Status": "approved"
@@ -1020,7 +1022,8 @@
           "Note": ""
         },
         "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT3": {
-          "Status": "approved"
+          "Status": "approved",
+          "Note": "Existing string ID. Will be shown on the Premium-items you have not reached and when you don't have Premium; max. char. 45"
         },
         "ID_BATTLEPASS_SECTION_ACTIVE": {
           "Status": "approved"
@@ -1101,6 +1104,10 @@
           "Status": "approved"
         },
         "ID_BATTLEPASS_LISTITEM_DLC_EXCLUSIVE_REWARDS_PLUS": {
+          "Status": "approved"
+        },
+        "ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT4": {
+          "Note": "Will be shown on the Premium-items you have not reached and when you don't have Premium; max. char. 45",
           "Status": "approved"
         }
       }

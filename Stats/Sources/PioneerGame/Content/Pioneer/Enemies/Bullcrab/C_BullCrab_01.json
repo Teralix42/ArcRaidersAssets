@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -25,8 +24,7 @@
     },
     "Properties": {
       "OverrideTeamId": "EEmbarkTeamId::Team2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -231,8 +229,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_BullCrab_01_C",
@@ -365,8 +362,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_BullCrab_01_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.12"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -380,8 +376,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -407,8 +402,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Leg.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -511,8 +505,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionGameplayEffectApplicatorComponent",
@@ -605,8 +598,7 @@
         }
       },
       "MinKnockbackVelocity": 500.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -664,8 +656,7 @@
           "Value": 20.0
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -685,8 +676,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_BullCrab_01_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.12"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -725,8 +715,7 @@
         }
       ],
       "bHasManyParts": true
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePhysicsMaterialService",
@@ -736,8 +725,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -757,8 +745,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -848,8 +835,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -869,8 +855,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_BullCrab_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_BullCrab_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -894,8 +879,7 @@
         "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_BullCrab'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_PartScavengeSetup_BullCrab.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "GameplayCueQueueComponent",
@@ -905,8 +889,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -955,8 +938,7 @@
           "AdditionalGameplayEffects": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -973,8 +955,7 @@
     },
     "Properties": {
       "NumPartsCategory": "EConstructableNumPartsCategory::Large"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -984,8 +965,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -999,8 +979,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasComponent",
@@ -1028,8 +1007,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasEffectModConstraintScale",
@@ -1046,8 +1024,7 @@
         "Damping": 0.0,
         "MaxForce": 0.0
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLIntentionComponent",
@@ -1057,8 +1034,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLLocomotionMovementComponent",
@@ -1134,8 +1110,7 @@
           "SubPathString": ""
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLLocomotionPolicySelectorConfig",
@@ -1146,7 +1121,228 @@
       "ObjectName": "MLTickableMultiPolicyComponentAS'C_BullCrab_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
       "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.26"
     },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    "Properties": {
+      "Rules": [
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 8,
+            "max": 8
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::Fast",
+            "EAIMovementSpeed::VeryFast"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Sprint"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 8,
+            "max": 8
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::VerySlow",
+            "EAIMovementSpeed::Slow",
+            "EAIMovementSpeed::Normal"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Patrol"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 8,
+            "max": 8
+          },
+          "AllowedBehaviors": [
+            "ELocomotionTrainingBehaviour::Rotate",
+            "ELocomotionTrainingBehaviour::Stop"
+          ],
+          "AllowedSpeeds": [],
+          "PolicyTag": {
+            "TagName": "ML.Policy.RotateStop"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 7
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::Fast",
+            "EAIMovementSpeed::VeryFast"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Sprint"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 7
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::VerySlow",
+            "EAIMovementSpeed::Slow",
+            "EAIMovementSpeed::Normal"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Patrol"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 7
+          },
+          "AllowedBehaviors": [
+            "ELocomotionTrainingBehaviour::Rotate",
+            "ELocomotionTrainingBehaviour::Stop"
+          ],
+          "AllowedSpeeds": [],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.RotateStop"
+          }
+        }
+      ]
+    }
   },
   {
     "Type": "MLTickableMultiPolicyComponentAS",
@@ -1224,8 +1420,7 @@
         "ObjectName": "MLLocomotionPolicySelectorConfig'C_BullCrab_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE.MLLocomotionPolicySelectorConfig_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.25"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PartEffectServiceComponent",
@@ -1267,8 +1462,7 @@
           "PartFilter": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -1285,8 +1479,7 @@
     },
     "Properties": {
       "SightRangeStrengthScale": 0.85
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1571,8 +1764,7 @@
           "bStunnable": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionBoxShape",
@@ -1589,8 +1781,7 @@
         "Y": 0.6
       },
       "GrowFactor": 3.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleDiscovery",
@@ -1604,8 +1795,7 @@
     "Properties": {
       "ScoreDelta": -0.4,
       "bActive": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -1621,8 +1811,7 @@
       "Tags": [
         "Ability.DodgeRoll.Active"
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -1639,8 +1828,7 @@
         "Ability.Crouch",
         "Ability.Slide"
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetDistance",
@@ -1681,8 +1869,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionService",
@@ -1728,8 +1915,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1743,8 +1929,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1764,8 +1949,7 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Bison'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Bison.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReachabilityService",
@@ -1775,8 +1959,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1790,8 +1973,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1801,8 +1983,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1822,10 +2003,9 @@
         "ObjectName": "SceneComponent'C_BullCrab_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.40"
       },
-      "VariableGUID": "B54F4034-4B70A4F2-210C6DBB-287B1348",
+      "VariableGuid": "B54F4034-4B70A4F2-210C6DBB-287B1348",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1845,10 +2025,9 @@
         "ObjectName": "ConstructablePhysicsMaterialService'C_BullCrab_01_C:ConstructablePhysicsMaterialService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.11"
       },
-      "VariableGUID": "70192242-4AF0B4AD-D228469E-9190CDFF",
+      "VariableGuid": "70192242-4AF0B4AD-D228469E-9190CDFF",
       "InternalVariableName": "ConstructablePhysicsMaterialService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1868,10 +2047,9 @@
         "ObjectName": "ConstructableAnimationService'C_BullCrab_01_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.6"
       },
-      "VariableGUID": "B46EC8F4-427DBD83-7FE459A8-3778BD06",
+      "VariableGuid": "B46EC8F4-427DBD83-7FE459A8-3778BD06",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1891,10 +2069,9 @@
         "ObjectName": "StuckDetectionService'C_BullCrab_01_C:StuckDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.58"
       },
-      "VariableGUID": "EACE8992-4CF24E2A-EECB9ABF-E6F68AA3",
+      "VariableGuid": "EACE8992-4CF24E2A-EECB9ABF-E6F68AA3",
       "InternalVariableName": "StuckDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1914,10 +2091,9 @@
         "ObjectName": "ConstructableCollisionGameplayEffectApplicatorComponent'C_BullCrab_01_C:ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.7"
       },
-      "VariableGUID": "A6FB100A-4BD17289-5677F69C-A150131E",
+      "VariableGuid": "A6FB100A-4BD17289-5677F69C-A150131E",
       "InternalVariableName": "ConstructableCollisionGameplayEffectApplicatorComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1937,10 +2113,9 @@
         "ObjectName": "ReachabilityService'C_BullCrab_01_C:ReachabilityService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.38"
       },
-      "VariableGUID": "675D76BA-46553420-455A56A9-946404BB",
+      "VariableGuid": "675D76BA-46553420-455A56A9-946404BB",
       "InternalVariableName": "ReachabilityService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1960,10 +2135,9 @@
         "ObjectName": "MLLocomotionMovementComponent'C_BullCrab_01_C:MLLocomotionMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.24"
       },
-      "VariableGUID": "922D42D0-47C131B0-0AAF22BD-8F0F217B",
+      "VariableGuid": "922D42D0-47C131B0-0AAF22BD-8F0F217B",
       "InternalVariableName": "MLLocomotionMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1983,10 +2157,9 @@
         "ObjectName": "MLGasComponent'C_BullCrab_01_C:MLGasComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.21"
       },
-      "VariableGUID": "FC5CD090-4EEB2DEF-2DB648A2-15F2C1E2",
+      "VariableGuid": "FC5CD090-4EEB2DEF-2DB648A2-15F2C1E2",
       "InternalVariableName": "MLGasComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2006,10 +2179,9 @@
         "ObjectName": "PartEffectServiceComponent'C_BullCrab_01_C:PartEffectServiceComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.27"
       },
-      "VariableGUID": "410AC335-433B149E-A96D31AA-12E4D68A",
+      "VariableGuid": "410AC335-433B149E-A96D31AA-12E4D68A",
       "InternalVariableName": "PartEffectServiceComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2029,10 +2201,9 @@
         "ObjectName": "MLTickableMultiPolicyComponentAS'C_BullCrab_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.26"
       },
-      "VariableGUID": "44665E53-481974B8-7903E9AC-3F1CE209",
+      "VariableGuid": "44665E53-481974B8-7903E9AC-3F1CE209",
       "InternalVariableName": "MLTickableMultiPolicyComponentAS_Locomotion"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2052,10 +2223,9 @@
         "ObjectName": "GameplayCueQueueComponent'C_BullCrab_01_C:GameplayCueQueueComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.16"
       },
-      "VariableGUID": "F96BF282-47EB7650-D4721A90-8E7A322A",
+      "VariableGuid": "F96BF282-47EB7650-D4721A90-8E7A322A",
       "InternalVariableName": "GameplayCueQueueComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2077,10 +2247,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "C58975B8-40275C70-9F66FEA7-E206FE1A",
+      "VariableGuid": "C58975B8-40275C70-9F66FEA7-E206FE1A",
       "InternalVariableName": "AITargetComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2100,10 +2269,9 @@
         "ObjectName": "MLIntentionComponent'C_BullCrab_01_C:MLIntentionComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.23"
       },
-      "VariableGUID": "3701FD49-48AF1FE6-642907AF-29A44ED0",
+      "VariableGuid": "3701FD49-48AF1FE6-642907AF-29A44ED0",
       "InternalVariableName": "MLIntentionComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2123,10 +2291,9 @@
         "ObjectName": "PioneerConstructableDispersionService'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.35"
       },
-      "VariableGUID": "9C3C0D9A-43662FC7-B26348AB-6981B978",
+      "VariableGuid": "9C3C0D9A-43662FC7-B26348AB-6981B978",
       "InternalVariableName": "PioneerConstructableDispersionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -2250,8 +2417,7 @@
         "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.41"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -2271,8 +2437,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -2286,8 +2451,7 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StuckDetectionService",
@@ -2353,7 +2517,6 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

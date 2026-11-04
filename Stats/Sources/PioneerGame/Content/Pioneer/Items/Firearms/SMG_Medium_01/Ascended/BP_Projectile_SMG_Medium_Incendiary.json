@@ -144,7 +144,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_SMG_Medium_Incendiary_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Projectile_SMG_Medium_Incendiary.4"
       },
-      "VariableGUID": "C3C179D7-4C45BBF9-1EC594B0-B1A6D4AD",
+      "VariableGuid": "C3C179D7-4C45BBF9-1EC594B0-B1A6D4AD",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Shared_VideoOptions
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_SHARED_VIDEO_OPTION_AIM_DOWN_SIGHT_BLUR]
 Aim Down Sight Blur
@@ -71,12 +71,12 @@ Display Resolution
 Display Resolution cannot be changed in Borderless Fullscreen mode.
 
 [ID_SHARED_VIDEO_OPTION_DISPLAY_RESOLUTION_TOOLTIP]
-This is the resolution the game presents its final image at. The user interface is also rendered at this resolution.
-
-In Borderless Fullscreen mode this is locked to your desktop resolution.
-
-In Windowed mode this is going to determine the size of your game window. In this mode you can also resize the game window by dragging its borders.
-
+This is the resolution the game presents its final image at. The user interface is also rendered at this resolution.
+
+In Borderless Fullscreen mode this is locked to your desktop resolution.
+
+In Windowed mode this is going to determine the size of your game window. In this mode you can also resize the game window by dragging its borders.
+
 In Exclusive Fullscreen, this is going to set the resolution of your monitor. Note that in this case, if you choose a different resolution than your desktop resolution, switching applications with Alt+Tab will become slow and stuttery.
 
 [ID_SHARED_VIDEO_OPTION_DISPLAY_RESOLUTION_WINDOWED]
@@ -126,8 +126,8 @@ Effects
 [ID_SHARED_VIDEO_OPTION_EFFECTS_TOOLTIP]
 Controls quality of effects like Particles, Sub-Surface Scattering and Sky Atmosphere.
 
-Has a moderate impact on GPU performance.
-
+Has a moderate impact on GPU performance.
+
 It's recommended to avoid changing this setting when in-game as it may trigger additional shader preloading.
 
 [ID_SHARED_VIDEO_OPTION_ENABLED]
@@ -586,6 +586,9 @@ Higher "Dynamic" presets have a major impact on GPU performance, and enabling an
 
 [ID_SHARED_VIDEO_OPTION_SHADING]
 Shading
+
+[ID_SHARED_VIDEO_OPTION_SHADING_TOOLTIP]
+
 
 [ID_SHARED_VIDEO_OPTION_SHADOWS]
 Shadows

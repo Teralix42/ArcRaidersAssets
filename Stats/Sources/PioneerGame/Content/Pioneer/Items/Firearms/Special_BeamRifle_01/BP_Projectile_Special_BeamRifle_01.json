@@ -126,7 +126,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_Special_BeamRifle_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Projectile_Special_BeamRifle_01.4"
       },
-      "VariableGUID": "56B70163-4545B97E-684E38B7-B1B32508",
+      "VariableGuid": "56B70163-4545B97E-684E38B7-B1B32508",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

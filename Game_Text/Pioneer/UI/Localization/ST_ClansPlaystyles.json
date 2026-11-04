@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_ClansPlaystyles",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Pioneer/UI/Localization/ST_ClansPlaystyles",
+    "StringTable": {
+      "TableNamespace": "ST_ClansPlaystyles",
+      "KeysToEntries": {
+        "ID_CLANS_PLAYSTYLE_QUESTS": "Quests",
+        "ID_CLANS_PLAYSTYLE_PVP": "PvP",
+        "ID_CLANS_PLAYSTYLE_ANY": "Any",
+        "ID_CLANS_PLAYSTYLE_PVE": "PvE"
+      },
+      "KeysToMetaData": {
+        "ID_CLANS_PLAYSTYLE_QUESTS": {
+          "Status": "approved"
+        },
+        "ID_CLANS_PLAYSTYLE_PVP": {
+          "Status": "approved"
+        },
+        "ID_CLANS_PLAYSTYLE_ANY": {
+          "Status": "approved"
+        },
+        "ID_CLANS_PLAYSTYLE_PVE": {
+          "Status": "approved"
+        }
+      }
+    }
+  }
+]

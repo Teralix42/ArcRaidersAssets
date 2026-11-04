@@ -100,8 +100,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 6 | ID.Thruster | 30 | Thruster_L_01, Thruster_L_02, Thruster_R_01, Thruster_R_02 |
 | 7 | ID.Weapon.Rifle | 1000 | weapon_Hornet_01 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

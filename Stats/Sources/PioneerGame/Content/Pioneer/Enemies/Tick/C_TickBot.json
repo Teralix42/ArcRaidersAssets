@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_Tick_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -29,8 +28,7 @@
         "Y": -14.514598,
         "Z": 1.643288
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -144,8 +142,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_TickBot_C",
@@ -279,8 +276,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_TickBot_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.9"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -294,8 +290,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Tick_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -317,8 +312,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -335,8 +329,7 @@
     },
     "Properties": {
       "CollisionTypeThresholds": []
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -365,8 +358,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_TickBot_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.9"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -380,8 +372,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Tick_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -401,8 +392,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -423,8 +413,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -444,8 +433,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_TickBotPerception'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/DA_TickBotPerception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -468,8 +456,7 @@
         "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Tick'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/DA_PartScavengeSetup_Tick.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "GrabAttachmentPositionalComponent",
@@ -479,8 +466,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_TickBot_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "GroundPhysicsMovementComponent",
@@ -506,8 +492,7 @@
           "SubPathString": ""
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -583,8 +568,7 @@
           "AdditionalGameplayEffects": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -598,8 +582,7 @@
     "Template": {
       "ObjectName": "HealthService'Default__C_Tick_SharedBase_C:HealthService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.13"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -609,8 +592,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_TickBot_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -624,8 +606,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_Tick_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.15"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PhysicsMovementIntentReplicatorComponent",
@@ -635,8 +616,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_TickBot_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -650,8 +630,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableAIStateService'Default__C_Tick_SharedBase_C:AIStateService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.16"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1049,8 +1028,7 @@
           "bStunnable": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableExplodeService",
@@ -1079,8 +1057,7 @@
           "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1094,8 +1071,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_Tick_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1115,9 +1091,8 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Tick'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Tick.0"
       },
-      "bResetPositionOnTick": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "VerticalOffset": 20.0
+    }
   },
   {
     "Type": "ProximityDetectionService",
@@ -1131,8 +1106,7 @@
     "Properties": {
       "DistanceToCheck": 90.0,
       "bRegisterOnTopEvents": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1146,8 +1120,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_Tick_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1157,8 +1130,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_TickBot_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1178,10 +1150,9 @@
         "ObjectName": "SceneComponent'C_TickBot_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.27"
       },
-      "VariableGUID": "B81DF221-4B1D03BC-3D2711B1-B9A44FA8",
+      "VariableGuid": "B81DF221-4B1D03BC-3D2711B1-B9A44FA8",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1201,10 +1172,9 @@
         "ObjectName": "StuckDetectionService'C_TickBot_C:StuckDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.39"
       },
-      "VariableGUID": "919C983A-42296F47-11E446BA-47DEA67D",
+      "VariableGuid": "919C983A-42296F47-11E446BA-47DEA67D",
       "InternalVariableName": "StuckDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1224,10 +1194,9 @@
         "ObjectName": "PioneerConstructableExplodeService'C_TickBot_C:PioneerConstructableExplodeService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.22"
       },
-      "VariableGUID": "5CD50B85-463E9E9B-3D022FB7-F5E36A79",
+      "VariableGuid": "5CD50B85-463E9E9B-3D022FB7-F5E36A79",
       "InternalVariableName": "PioneerConstructableExplodeService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1247,10 +1216,9 @@
         "ObjectName": "ProximityDetectionService'C_TickBot_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.25"
       },
-      "VariableGUID": "F721253F-45D93CB4-6BEF5090-084517AD",
+      "VariableGuid": "F721253F-45D93CB4-6BEF5090-084517AD",
       "InternalVariableName": "ProximityDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1270,10 +1238,9 @@
         "ObjectName": "GroundPhysicsMovementComponent'C_TickBot_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.14"
       },
-      "VariableGUID": "063E15D4-4C07A6BB-7CD62885-AD44BAFE",
+      "VariableGuid": "063E15D4-4C07A6BB-7CD62885-AD44BAFE",
       "InternalVariableName": "GroundPhysicsMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1293,10 +1260,9 @@
         "ObjectName": "GrabAttachmentPositionalComponent'C_TickBot_C:GrabAttachmentPositionalComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.13"
       },
-      "VariableGUID": "3EB4D9CD-4E326559-AB16EA86-CA94B77C",
+      "VariableGuid": "3EB4D9CD-4E326559-AB16EA86-CA94B77C",
       "InternalVariableName": "GrabAttachmentPositionalComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1318,10 +1284,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "EEBC03D9-438684D9-F517DE96-3AFB9088",
+      "VariableGuid": "EEBC03D9-438684D9-F517DE96-3AFB9088",
       "InternalVariableName": "AITargetComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1341,10 +1306,9 @@
         "ObjectName": "PhysicsMovementIntentReplicatorComponent'C_TickBot_C:PhysicsMovementIntentReplicatorComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.19"
       },
-      "VariableGUID": "E52F292A-49F8B9D0-3026BEB0-2534C9C0",
+      "VariableGuid": "E52F292A-49F8B9D0-3026BEB0-2534C9C0",
       "InternalVariableName": "PhysicsMovementIntentReplicatorComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1420,8 +1384,7 @@
         "ObjectName": "SCS_Node'C_TickBot_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/C_TickBot.28"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1441,8 +1404,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1456,8 +1418,7 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_Tick_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/C_Tick_SharedBase.25"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StuckDetectionService",
@@ -1474,7 +1435,6 @@
         "EditorCurveData": {}
       },
       "StuckStackingDistance": 100.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

@@ -129,7 +129,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_AssaultRifle_Heavy_01_XRounds_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/BP_Projectile_AssaultRifle_Heavy_01_XRounds.4"
       },
-      "VariableGUID": "2A3C96D9-43AFC10F-D3443C8F-02E2E1DB",
+      "VariableGuid": "2A3C96D9-43AFC10F-D3443C8F-02E2E1DB",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

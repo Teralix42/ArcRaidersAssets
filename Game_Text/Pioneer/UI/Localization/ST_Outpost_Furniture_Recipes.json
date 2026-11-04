@@ -109,7 +109,18 @@
         "ID_OUTPOST_FURNITURE_RECIPE_DEBRISDRAPED_06": "Draped Debris G Design",
         "ID_OUTPOST_FURNITURE_RECIPE_CHAMBERS_SHELF_01_A": "Chambers Shelf Design",
         "ID_OUTPOST_FURNITURE_RECIPE_WEAPONDISPLAY_01_A": "Battered Weapon Rack Design",
-        "ID_OUTPOST_FURNITURE_RECIPE_WEAPONDISPLAY_01_B": "Sturdy Weapon Rack Design"
+        "ID_OUTPOST_FURNITURE_RECIPE_WEAPONDISPLAY_01_B": "Sturdy Weapon Rack Design",
+        "ID_OUTPOST_FURNITURE_RECIPE_BARTABLE_01_A_UNLOCK": "Bar Table Design (Unlock)",
+        "ID_OUTPOST_FURNITURE_RECIPE_SM_WRH_DESK_01_A_UNLOCK": "Warehouse Desk Design (Unlock)",
+        "ID_OUTPOST_FURNITURE_RECIPE_RES_SOFA_01_Y150_A_PATTERNS_UNLOCK": "Printed Fabric Chair Design (Unlock)",
+        "ID_OUTPOST_FURNITURE_RECIPE_ALPINEWARDROBE_01_UNLOCK": "Alpine Wardrobe Design (Unlock)",
+        "ID_OUTPOST_FURNITURE_RECIPE_RES_SOFA_03_A_UNLOCK": "Polished Study Sofa Design (Unlock)",
+        "ID_OUTPOST_FURNITURE_RECIPE_OFFERINGTABLE_UNLOCK": "Offering Display Table Design (Unlock)",
+        "ID_OUTPOST_FURNITURE_RECIPE_OFFERINGTABLE": "Offering Display Table Design",
+        "ID_OUTPOST_FURNITURE_RECIPE_CLOTHINGRACK": "Clothing Rack Design",
+        "ID_OUTPOST_FURNITURE_RECIPE_FANCYARMCHAIR": "Fancy Armchair Design",
+        "ID_OUTPOST_FURNITURE_RECIPE_OFFERINGSCONSOLE": "OfferingsConsole",
+        "ID_OUTPOST_FURNITURE_RECIPE_MIDCENTURYTABLE": "MidCenturyTable"
       },
       "KeysToMetaData": {
         "ID_OUTPOST_FURNITURE_RECIPE_BARSTOOL_01_A": {
@@ -416,6 +427,39 @@
           "Status": "approved"
         },
         "ID_OUTPOST_FURNITURE_RECIPE_WEAPONDISPLAY_01_B": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_BARTABLE_01_A_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_SM_WRH_DESK_01_A_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_RES_SOFA_01_Y150_A_PATTERNS_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_ALPINEWARDROBE_01_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_RES_SOFA_03_A_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_OFFERINGTABLE_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_OFFERINGTABLE": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_CLOTHINGRACK": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_RECIPE_FANCYARMCHAIR": {
           "Status": "approved"
         }
       }

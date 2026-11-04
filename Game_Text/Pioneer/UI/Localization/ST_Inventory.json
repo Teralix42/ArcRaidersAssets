@@ -210,7 +210,20 @@
         "ID_INVENTORY_AMPLIFICATION_ONBOARDING_BODY": "Past encounters with ARC have given Speranza a little more insight into how their technology works.\r\nWeapon Amplification is a way to push your favorite weapons beyond their usual limits and make them into something more.\r\nUnlock the Outpost and upgrade your Gunsmith and Research Stations to Level 4 to amplify your weapons.",
         "ID_INVENTORY_AMPLIFICATION_REQUIRES_OUTPOST_ACCESS": "Weapon Amplification requires access to the Outpost",
         "ID_INVENTORY_ITEM_TOOLTIP_AMPLIFIED_DURABILITY_TITLE": "Amplified Durability",
-        "ID_INVENTORY_AMPLIFIED_DURABILITY_INFO": "Amplified weapons have a higher maximum durability."
+        "ID_INVENTORY_AMPLIFIED_DURABILITY_INFO": "Amplified weapons have a higher maximum durability.",
+        "ID_INVENTORY_AMPLIFICATION_FORK_HOVER_BLOCKED": "Blocks: {0}",
+        "ID_INVENTORY_ITEM_TOOLTIP_REQUIRES": "Requires",
+        "ID_INVENTORY_ITEM_TOOLTIP_REQUIRES_ALT2": "Requires:",
+        "ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY": "Compatibility",
+        "ID_INVENTORY_ITEM_TOOLTIP_REQUIRES_FORMAT": "Requires: {0}",
+        "ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY_ALT2": "Compatibility:",
+        "ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY_FORMAT": "Compatibility: {0}",
+        "ID_INVENTORY_ITEM_TOOLTIP_ADDED_COLLECTION": "Will be added to your collection.",
+        "ID_INVENTORY_ITEM_TOOLTIP_FURNITURE_DESIGN_ADDED_COLLECTION": "A new furniture design will be added to your collection.",
+        "ID_INVENTORY_ITEM_TOOLTIP_DESIGN_ADDED_COLLECTION": "A new design will be added to your collection.",
+        "ID_INVENTORY_ITEM_TOOLTIP_STENCIL_ADDED_COLLECTION": "A new stencil will be added to your collection.",
+        "ID_INVENTORY_ITEM_TOOLTIP_BLUEPRINT_ADDED_COLLECTION": "A new blueprint will be added to your collection.",
+        "ID_INVENTORY_ITEM_TOOLTIP_UNLOCK_ADDED_COLLECTION": "A new unlock will be added to your collection."
       },
       "KeysToMetaData": {
         "ID_INVENTORY_STASH_OVERFLOWING_EXPAND": {
@@ -862,6 +875,64 @@
           "Status": "approved"
         },
         "ID_INVENTORY_AMPLIFIED_DURABILITY_INFO": {
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_REQUIRES": {
+          "Note": "Shown when station, Outpost etc is required for a blueprint or design, as a title; max. char. 22",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_REQUIRES_ALT2": {
+          "Note": "Shown when station, Outpost etc is required for a blueprint or design, as a title; max. char. 22",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY": {
+          "Note": "Shown when showing compatible weapons with an item, as a title; max. char. 22",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_REQUIRES_FORMAT": {
+          "Note": "Shown when station, Outpost etc is required for a blueprint or design. {0} = Name of the requirement; max. char. 22",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY_ALT2": {
+          "Note": "Shown when showing compatible weapons with an item, as a title; max. char. 22",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY_FORMAT": {
+          "Note": "Shown when showing compatible weapons with an item.; max. char. 22",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_ADDED_COLLECTION": {
+          "Note": "Shown on tooltip when you gain ability to craft, make stencil or build a furniture. And that unlock is added to your collection.",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_FURNITURE_DESIGN_ADDED_COLLECTION": {
+          "Note": "Shown on tooltip when you gain ability to build a furniture. And that unlock is added to your collection.",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_DESIGN_ADDED_COLLECTION": {
+          "Note": "Shown on tooltip when you gain ability to build a furniture. And that unlock is added to your collection.",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_STENCIL_ADDED_COLLECTION": {
+          "Note": "Shown on tooltip when you gain ability to make a stencil. And that unlock is added to your collection.",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_BLUEPRINT_ADDED_COLLECTION": {
+          "Note": "Shown on tooltip when you gain ability to craft something new. And that unlock is added to your collection.",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ITEM_TOOLTIP_UNLOCK_ADDED_COLLECTION": {
+          "Note": "Version with a general name",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_AMPLIFICATION_FORK_HOVER_BLOCKED": {
+          "Note": "{0}=amplificationName. When hovering over an amplification, show this text if there are any amplifications that will get blocked (i.e. this is a fork)",
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ASCENSION_REQUIRED": {
+          "Status": "approved"
+        },
+        "ID_INVENTORY_ASCENSION_REQUIREMENT": {
           "Status": "approved"
         }
       }

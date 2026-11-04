@@ -141,7 +141,13 @@
         "ID_ITEMNAMES_RECIPES_CAMERA": "Basic Camera Blueprint",
         "ID_ITEMNAMES_RECIPES_HARMONICA_RECIPE": "Harmonica Blueprint",
         "ID_ITEMNAMES_RECIPES_STILETTO_RECIPE": "Stiletto Blueprint",
-        "ID_ITEMNAMES_RECIPES_BANTAM_RECIPE": "Bantam Blueprint"
+        "ID_ITEMNAMES_RECIPES_BANTAM_RECIPE": "Bantam Blueprint",
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON": "{0} (Unlock)",
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT2": "{0}: {1} (Unlock)",
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT3": "Unlock - {0}",
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT4": "Unlock {0}",
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT5": "Unlock: {0}",
+        "ID_ITEMNAMES_RECIPES_BANJO_BLUEPRINT_UNLOCK": "Banjo Blueprint (Unlock)"
       },
       "KeysToMetaData": {
         "ID_ITEMNAME_RECIPE_EXTENDEDSHOTGUNMAG_03": {
@@ -538,6 +544,30 @@
           "Status": "approved"
         },
         "ID_ITEMNAMES_RECIPES_BANTAM_RECIPE": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON": {
+          "Note": "{0} = Blueprint name, Design, Stencil, e.g. Banjo Blueprint. So example: Banjo Blueprint (Unlock). Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT2": {
+          "Note": "{0} = Blueprint/Stencil/Design (category name), {1} = Item Name. So example: Blueprint: Banjo (Unlock). Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT3": {
+          "Note": "{0} = Blueprint name, Design, Stencil, e.g. Banjo Blueprint. So example: Unlock - Banjo Blueprint. Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT4": {
+          "Note": "{0} = Blueprint name, Design, Stencil, e.g. Banjo Blueprint. So example: Unlock Banjo Blueprint. Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_RECIPES_UNLOCK_ADDON_ALT5": {
+          "Note": "{0} will contain Blueprint/Stencil/Design name, so write it in a way that works even if it is removing the : So example: Unlock: Banjo Blueprint. Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_RECIPES_BANJO_BLUEPRINT_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
           "Status": "approved"
         }
       }

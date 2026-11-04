@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_BootFlow
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_BOOTFLOW_ABANDON_ROUND]
 Abandon Round
@@ -219,12 +219,12 @@ Connect your existing Embark ID?
 Skip
 
 [ID_BOOTFLOW_TECH_TEST_WELCOME_BODY]
-You’re about to experience ARC Raiders, in our second public Tech Test. 
-The test kicks off on April 30 and will end on May 4, and just like the test that we ran last fall, its purpose is to evaluate the player experience across several areas — with a special emphasis on improvements and additions that have been made over the past six months. 
-This time, we’re opening up access for players on consoles, in addition to PC. That also means we’ve added better and more robust support for gamepads, so feel free to try that out!
-Results and the feedback from this test will be crucial for us, as we prepare for ARC Raiders’ full release later this year. As with any game in development, you may encounter issues; a huge thanks in advance for reporting issues or bugs that you may experience while playing.
-This time around, you’re free to share or stream gameplay capture, and tell the world of your experience in ARC Raiders — in other words, the playtest is not confidential. 
-By participating in this playtest, you will unlock an exclusive skin, available when you purchase the full game at launch. Just make sure to confirm your email address in Embark ID to get it.
+You’re about to experience ARC Raiders, in our second public Tech Test. 
+The test kicks off on April 30 and will end on May 4, and just like the test that we ran last fall, its purpose is to evaluate the player experience across several areas — with a special emphasis on improvements and additions that have been made over the past six months. 
+This time, we’re opening up access for players on consoles, in addition to PC. That also means we’ve added better and more robust support for gamepads, so feel free to try that out!
+Results and the feedback from this test will be crucial for us, as we prepare for ARC Raiders’ full release later this year. As with any game in development, you may encounter issues; a huge thanks in advance for reporting issues or bugs that you may experience while playing.
+This time around, you’re free to share or stream gameplay capture, and tell the world of your experience in ARC Raiders — in other words, the playtest is not confidential. 
+By participating in this playtest, you will unlock an exclusive skin, available when you purchase the full game at launch. Just make sure to confirm your email address in Embark ID to get it.
 For more info and troubleshooting, please head over to our Discord!
 
 [ID_BOOTFLOW_TECH_TEST_WELCOME_TITLE]

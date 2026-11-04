@@ -145,8 +145,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 12 | ID.Core | 5000 | Core |
 | 13 | HealthGroup.SubParts.01 | 10000 | Insides_02 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

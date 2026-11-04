@@ -349,7 +349,7 @@
         "ID_ITEMNAMES_FROZENTRAILTECH2": "Calculator",
         "ID_ITEMNAMES_FROZENTRAILTECH1": "Mini Pump",
         "ID_ITEMNAMES_PLANKS": "Planks",
-        "ID_ITEMNAMES_SHEETMETAL": "SheetMetal",
+        "ID_ITEMNAMES_SHEETMETAL": "Sheet Metal",
         "ID_ITEMNAMES_WINNER01_DUCK": "MRI Duck",
         "ID_ITEMNAMES_WINNER02_DUCK": "Arcade Duck",
         "ID_ITEMNAMES_WINNER03_DUCK": "Frosty Duck",
@@ -389,7 +389,16 @@
         "ID_ITEMNAMES_POTTED_PLANT": "Potted Plant",
         "ID_ITEMNAMES_TARRAGON_PART_ALT1": "Bully Cluster",
         "ID_ITEMNAMES_TARRAGON_PART_ALT2": "Bully Fragmenter",
-        "ID_ITEMNAMES_STENCILPARTS": "Stencil Parts"
+        "ID_ITEMNAMES_STENCILPARTS": "Stencil Parts",
+        "ID_ITEMNAMES_VAULTOOFFERING": "Vaulto Offering",
+        "ID_ITEMNAMES_FERROVIAOFFERING": "Ferrovia Offering",
+        "ID_ITEMNAMES_MURTETAOFFERING": "Murteta Offering",
+        "ID_ITEMNAMES_FANCYPLATE": "Fancy Plate",
+        "ID_ITEMNAMES_MASKFRAGMENT": "Mask Fragment",
+        "ID_ITEMNAMES_ROCKSALT": "Rock Salt",
+        "ID_ITEMNAMES_RAILWAYLANTERN": "Railway Lantern",
+        "ID_ITEMNAMES_DEADFLOWERS": "Dead Flowers",
+        "ID_ITEMNAMES_WITHEREDFLOWERS": "Withered Flowers"
       },
       "KeysToMetaData": {
         "ID_ITEMNAMES_POSTER_NATURAL_WONDERS": {
@@ -1530,6 +1539,28 @@
           "Status": "approved"
         },
         "ID_ITEMNAMES_ASCENSIONMATERIAL4": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_FANCYPLATE": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_MASKFRAGMENT": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_ROCKSALT": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_RAILWAYLANTERN": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_DEADFLOWERS": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_WITHEREDFLOWERS": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_SHEETMETAL": {
+          "Note": "",
           "Status": "approved"
         }
       }

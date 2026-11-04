@@ -1209,7 +1209,7 @@
         "ObjectName": "SceneComponent'CS_Spearmint_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.18"
       },
-      "VariableGUID": "528AD28D-4FE00D28-B06BB8BC-FD5101AD",
+      "VariableGuid": "528AD28D-4FE00D28-B06BB8BC-FD5101AD",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1249,7 +1249,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.32"
         }
       ],
-      "VariableGUID": "E0D0C2CB-4EA7D681-08D1E2B7-00BD4F23",
+      "VariableGuid": "E0D0C2CB-4EA7D681-08D1E2B7-00BD4F23",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1272,7 +1272,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.50"
       },
       "AttachToName": "Weapon_Launcher_Socket",
-      "VariableGUID": "737AA4CE-432C5524-A14375A5-F7B03226",
+      "VariableGuid": "737AA4CE-432C5524-A14375A5-F7B03226",
       "InternalVariableName": "Grenade"
     }
   },
@@ -1294,7 +1294,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_Spearmint_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.14"
       },
-      "VariableGUID": "C2821098-49BDE22D-F4E5EB93-01546072",
+      "VariableGuid": "C2821098-49BDE22D-F4E5EB93-01546072",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1316,7 +1316,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Spearmint_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.12"
       },
-      "VariableGUID": "6C6D5FBC-4E61FD46-21A58EA6-B4FCB49E",
+      "VariableGuid": "6C6D5FBC-4E61FD46-21A58EA6-B4FCB49E",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1338,7 +1338,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Spearmint_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.5"
       },
-      "VariableGUID": "D823DF7C-42D5BF83-E862C9BB-EDE8B281",
+      "VariableGuid": "D823DF7C-42D5BF83-E862C9BB-EDE8B281",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1360,7 +1360,7 @@
         "ObjectName": "BP_AIStateStyleDriver_Catnip_C'CS_Spearmint_C:BP_AIStateStyleDriver_Catnip_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.2"
       },
-      "VariableGUID": "34B9749D-435F01FD-5E5351AE-D20AA352",
+      "VariableGuid": "34B9749D-435F01FD-5E5351AE-D20AA352",
       "InternalVariableName": "BP_AIStateStyleDriver_Catnip"
     }
   },
@@ -1382,7 +1382,7 @@
         "ObjectName": "BP_MovingPartAudioStyleDriver_Peppermint_C'CS_Spearmint_C:BP_MovingPartAudioStyleDriver_Peppermint_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.4"
       },
-      "VariableGUID": "EB35F782-458A1031-F96B6A86-3307BF88",
+      "VariableGuid": "EB35F782-458A1031-F96B6A86-3307BF88",
       "InternalVariableName": "BP_MovingPartAudioStyleDriver_Peppermint"
     }
   },
@@ -1404,7 +1404,7 @@
         "ObjectName": "ProceduralGaitLimbStyleSetupComponent'CS_Spearmint_C:ProceduralGaitLimbStyleSetupComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.16"
       },
-      "VariableGUID": "F3F64F13-46094E9E-7B689889-EE3326B3",
+      "VariableGuid": "F3F64F13-46094E9E-7B689889-EE3326B3",
       "InternalVariableName": "ProceduralGaitLimbStyleSetupComponent"
     }
   },
@@ -1426,7 +1426,7 @@
         "ObjectName": "BP_DamageStyleDriver_Huge_C'CS_Spearmint_C:BP_DamageStyleDriver_Huge_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.3"
       },
-      "VariableGUID": "ABA6441C-4F1219A1-A9FD8394-ADAB2E8C",
+      "VariableGuid": "ABA6441C-4F1219A1-A9FD8394-ADAB2E8C",
       "InternalVariableName": "BP_DamageStyleDriver_Huge"
     }
   },
@@ -1448,7 +1448,7 @@
         "ObjectName": "ProjectileDeflectStyleDriver'CS_Spearmint_C:ProjectileDeflectStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.17"
       },
-      "VariableGUID": "AB825B6F-4C3FFE1F-21C98AA5-BB4C0141",
+      "VariableGuid": "AB825B6F-4C3FFE1F-21C98AA5-BB4C0141",
       "InternalVariableName": "ProjectileDeflectStyleDriver"
     }
   },
@@ -1470,7 +1470,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:OpenCoreAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.45"
       },
-      "VariableGUID": "687AF155-41374D47-143C9A9C-102A4E94",
+      "VariableGuid": "687AF155-41374D47-143C9A9C-102A4E94",
       "InternalVariableName": "OpenCoreAnim"
     }
   },
@@ -1492,7 +1492,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:StaggerAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.47"
       },
-      "VariableGUID": "44AEB3BD-45C3475B-EC942CAC-BCED496F",
+      "VariableGuid": "44AEB3BD-45C3475B-EC942CAC-BCED496F",
       "InternalVariableName": "StaggerAnim"
     }
   },
@@ -1515,7 +1515,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.51"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "7EAE697B-41291A0B-94659897-BE135BC0",
+      "VariableGuid": "7EAE697B-41291A0B-94659897-BE135BC0",
       "InternalVariableName": "VisionConeDummy"
     }
   },
@@ -1537,7 +1537,7 @@
         "ObjectName": "GaitGroundContactHelperComponent'CS_Spearmint_C:GaitGroundContactHelperComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.13"
       },
-      "VariableGUID": "868AD724-4980B02B-5D79C3B7-8124D794",
+      "VariableGuid": "868AD724-4980B02B-5D79C3B7-8124D794",
       "InternalVariableName": "GaitGroundContactHelperComponent"
     }
   },
@@ -1559,7 +1559,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:LookAroundIdleAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.43"
       },
-      "VariableGUID": "A0FC78A4-407A34BD-1C2BE2B9-752B34AF",
+      "VariableGuid": "A0FC78A4-407A34BD-1C2BE2B9-752B34AF",
       "InternalVariableName": "LookAroundIdleAnim"
     }
   },
@@ -1582,7 +1582,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.48"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "7FE6EAE9-48E67D43-397A0CBD-CDC988EF",
+      "VariableGuid": "7FE6EAE9-48E67D43-397A0CBD-CDC988EF",
       "InternalVariableName": "EyeStaticMeshDummy"
     }
   },
@@ -1604,7 +1604,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:RaiseHindCannonAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.46"
       },
-      "VariableGUID": "ADAB3F5D-4C7CEA02-E0B33BA9-EFFAD898",
+      "VariableGuid": "ADAB3F5D-4C7CEA02-E0B33BA9-EFFAD898",
       "InternalVariableName": "RaiseHindCannonAnim"
     }
   },
@@ -1626,7 +1626,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:LowerHindCannonAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.44"
       },
-      "VariableGUID": "8647CCC3-461BE735-67DC2BB3-1C089DA1",
+      "VariableGuid": "8647CCC3-461BE735-67DC2BB3-1C089DA1",
       "InternalVariableName": "LowerHindCannonAnim"
     }
   },
@@ -1648,7 +1648,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Spearmint_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.0"
       },
-      "VariableGUID": "26B74356-4DAE730D-D94602BB-5C582954",
+      "VariableGuid": "26B74356-4DAE730D-D94602BB-5C582954",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1671,7 +1671,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.49"
       },
       "AttachToName": "Weapon_Launcher_Socket",
-      "VariableGUID": "7009858B-43E19406-246135B1-207AB905",
+      "VariableGuid": "7009858B-43E19406-246135B1-207AB905",
       "InternalVariableName": "ForProto"
     }
   },
@@ -1693,7 +1693,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.6"
       },
-      "VariableGUID": "74D92806-41B0D4DA-935DDCA2-B7E920A9",
+      "VariableGuid": "74D92806-41B0D4DA-935DDCA2-B7E920A9",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },

@@ -721,7 +721,7 @@
         "ObjectName": "SceneComponent'CS_Sniper_Skinned_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.13"
       },
-      "VariableGUID": "73F8F439-4E300D08-8A0BA6A7-C4C41524",
+      "VariableGuid": "73F8F439-4E300D08-8A0BA6A7-C4C41524",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -743,7 +743,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_Sniper_Skinned_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.9"
       },
-      "VariableGUID": "E6938B30-4B59FC87-23ACC7A7-A2710E92",
+      "VariableGuid": "E6938B30-4B59FC87-23ACC7A7-A2710E92",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -765,7 +765,7 @@
         "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Sniper_Skinned_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.3"
       },
-      "VariableGUID": "5A354898-4A9EFF3E-50B2088E-DAAFA6E9",
+      "VariableGuid": "5A354898-4A9EFF3E-50B2088E-DAAFA6E9",
       "InternalVariableName": "BP_DamageStyleDriver_Medium"
     }
   },
@@ -787,7 +787,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Sniper_Skinned_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.5"
       },
-      "VariableGUID": "02151616-448C5346-5A1056B2-E9C104BC",
+      "VariableGuid": "02151616-448C5346-5A1056B2-E9C104BC",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -809,7 +809,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Sniper_Skinned_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.0"
       },
-      "VariableGUID": "8B33F111-470B6936-8C4BCBBB-790A2A21",
+      "VariableGuid": "8B33F111-470B6936-8C4BCBBB-790A2A21",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -831,7 +831,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Sniper_Skinned_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.1"
       },
-      "VariableGUID": "59254B43-44A004CF-5BEDFBAD-C7971B3C",
+      "VariableGuid": "59254B43-44A004CF-5BEDFBAD-C7971B3C",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -853,7 +853,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_Sniper_Skinned_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.12"
       },
-      "VariableGUID": "9B9ED621-44C89E6F-B90D379E-06D620A5",
+      "VariableGuid": "9B9ED621-44C89E6F-B90D379E-06D620A5",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -875,7 +875,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Sniper_Skinned_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.8"
       },
-      "VariableGUID": "B3761AE3-41D2BD58-07703AAD-73E1FB92",
+      "VariableGuid": "B3761AE3-41D2BD58-07703AAD-73E1FB92",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -897,7 +897,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Sniper_Skinned_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.4"
       },
-      "VariableGUID": "931E2718-42F76668-4B158AB6-957A4380",
+      "VariableGuid": "931E2718-42F76668-4B158AB6-957A4380",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -919,7 +919,7 @@
         "ObjectName": "MovingPartAudioStyleDriver'CS_Sniper_Skinned_C:MovingPartAudioStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.11"
       },
-      "VariableGUID": "26966633-497EB55E-BAAC74AF-E0B362D6",
+      "VariableGuid": "26966633-497EB55E-BAAC74AF-E0B362D6",
       "InternalVariableName": "MovingPartAudioStyleDriver"
     }
   },
@@ -941,7 +941,7 @@
         "ObjectName": "SkeletalMeshStyleComponent'CS_Sniper_Skinned_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.26"
       },
-      "VariableGUID": "FE9EF552-41DB4CC0-C6AB22B5-ABAB1BE9",
+      "VariableGuid": "FE9EF552-41DB4CC0-C6AB22B5-ABAB1BE9",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },

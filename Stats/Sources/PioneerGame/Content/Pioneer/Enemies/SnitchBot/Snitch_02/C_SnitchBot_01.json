@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_Snitch_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -22,8 +21,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_SnitchBot_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ArticulatedTargetingService",
@@ -95,8 +93,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -221,8 +218,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_SnitchBot_01_C",
@@ -341,8 +337,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_SnitchBot_01_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -356,8 +351,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Snitch_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -379,8 +373,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -436,8 +429,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -597,8 +589,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -618,8 +609,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_SnitchBot_01_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -633,8 +623,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Snitch_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -654,8 +643,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -682,8 +670,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -703,8 +690,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_SnitchBot_01_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/DA_SnitchBot_01_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -727,8 +713,7 @@
         "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Snitch'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_PartScavengeSetup_Snitch.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -742,8 +727,7 @@
     "Template": {
       "ObjectName": "HealthGroupService'Default__C_Snitch_SharedBase_C:HealthGroupService'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.12"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -968,8 +952,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HoverMovementComponentAI",
@@ -1039,8 +1022,7 @@
       "NavMovementProperties": {
         "bUseAccelerationForPaths": false
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -1050,8 +1032,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_SnitchBot_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -1065,8 +1046,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_Snitch_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.15"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -1084,8 +1064,7 @@
     "Properties": {
       "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::KeepAiming",
       "SightRangeStrengthScale": 0.01
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1330,8 +1309,7 @@
           "ActiveDuringState": 6
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableExplodeService",
@@ -1428,8 +1406,7 @@
           "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1443,8 +1420,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_Snitch_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1463,9 +1439,9 @@
       "PingInfoDataAsset": {
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Snitch'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Snitch.0"
-      }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      },
+      "bAlwaysAttachToRoot": true
+    }
   },
   {
     "Type": "ProximityDetectionService",
@@ -1501,8 +1477,7 @@
           "bIncludeAllChildrenRecursively": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1516,8 +1491,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_Snitch_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1527,8 +1501,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_SnitchBot_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1548,10 +1521,9 @@
         "ObjectName": "SceneComponent'C_SnitchBot_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.27"
       },
-      "VariableGUID": "3BF73DE4-460F85C1-42FB1B8F-9FAC5F95",
+      "VariableGuid": "3BF73DE4-460F85C1-42FB1B8F-9FAC5F95",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1571,10 +1543,9 @@
         "ObjectName": "ProximityDetectionService'C_SnitchBot_01_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.25"
       },
-      "VariableGUID": "3BB91612-475C68AB-F5A306A3-F02301E9",
+      "VariableGuid": "3BB91612-475C68AB-F5A306A3-F02301E9",
       "InternalVariableName": "ProximityDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1594,10 +1565,9 @@
         "ObjectName": "ConstructableAnimationService'C_SnitchBot_01_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.7"
       },
-      "VariableGUID": "D11FD65B-465D0460-BD9877BD-655E5DDC",
+      "VariableGuid": "D11FD65B-465D0460-BD9877BD-655E5DDC",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1617,10 +1587,9 @@
         "ObjectName": "HoverMovementComponentAI'C_SnitchBot_01_C:HoverMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.17"
       },
-      "VariableGUID": "7AE0E1D3-4A23D81C-953930B3-F2E0457E",
+      "VariableGuid": "7AE0E1D3-4A23D81C-953930B3-F2E0457E",
       "InternalVariableName": "HoverMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1640,10 +1609,9 @@
         "ObjectName": "PioneerConstructableExplodeService'C_SnitchBot_01_C:PioneerConstructableExplodeService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.22"
       },
-      "VariableGUID": "7798E347-45289433-31666A96-DD88E7F9",
+      "VariableGuid": "7798E347-45289433-31666A96-DD88E7F9",
       "InternalVariableName": "PioneerConstructableExplodeService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1663,10 +1631,9 @@
         "ObjectName": "ArticulatedTargetingService'C_SnitchBot_01_C:ArticulatedTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.2"
       },
-      "VariableGUID": "67FE6866-4E37B63D-2DB41A81-532B5916",
+      "VariableGuid": "67FE6866-4E37B63D-2DB41A81-532B5916",
       "InternalVariableName": "ArticulatedTargetingService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1688,10 +1655,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "408418BE-43DE3B00-AA920BA1-DDE4713D",
+      "VariableGuid": "408418BE-43DE3B00-AA920BA1-DDE4713D",
       "InternalVariableName": "AITarget"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1759,8 +1725,7 @@
         "ObjectName": "SCS_Node'C_SnitchBot_01_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.28"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1780,8 +1745,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1795,7 +1759,6 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_Snitch_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/C_Snitch_SharedBase.27"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

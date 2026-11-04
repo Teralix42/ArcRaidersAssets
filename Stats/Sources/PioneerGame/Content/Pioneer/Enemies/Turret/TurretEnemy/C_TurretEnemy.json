@@ -981,7 +981,7 @@
         "ObjectName": "SceneComponent'C_TurretEnemy_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.32"
       },
-      "VariableGUID": "91151A37-4BF52BCF-20D84C91-8733EC6A",
+      "VariableGuid": "91151A37-4BF52BCF-20D84C91-8733EC6A",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1003,7 +1003,7 @@
         "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
       },
-      "VariableGUID": "B31E529A-49BAD025-1491398F-665F68AA",
+      "VariableGuid": "B31E529A-49BAD025-1491398F-665F68AA",
       "InternalVariableName": "BP_ConstructableDispersionServiceAutomaticRifle"
     }
   },
@@ -1025,7 +1025,7 @@
         "ObjectName": "ArticulatedTargetingService'C_TurretEnemy_C:ArticulatedTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.2"
       },
-      "VariableGUID": "E27F208F-41330565-E95D0A94-54CFE4DB",
+      "VariableGuid": "E27F208F-41330565-E95D0A94-54CFE4DB",
       "InternalVariableName": "ArticulatedTargetingService"
     }
   },
@@ -1047,7 +1047,7 @@
         "ObjectName": "SnapSpawnDataService'C_TurretEnemy_C:SnapSpawnDataService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.39"
       },
-      "VariableGUID": "D4ECE31C-4B9F523E-342521BE-703B4D1C",
+      "VariableGuid": "D4ECE31C-4B9F523E-342521BE-703B4D1C",
       "InternalVariableName": "SnapSpawnDataService"
     }
   },
@@ -1071,7 +1071,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "F412BDEB-4B106E9D-170F4092-8BB21707",
+      "VariableGuid": "F412BDEB-4B106E9D-170F4092-8BB21707",
       "InternalVariableName": "AITargetComponent"
     }
   },

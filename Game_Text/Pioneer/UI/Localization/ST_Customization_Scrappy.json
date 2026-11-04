@@ -45,7 +45,9 @@
         "ID_CUSTOMIZATION_SCRAPPY_CARRIONHELMET": "Carrion Helmet",
         "ID_CUSTOMIZATION_SCRAPPY_OUTLANDERHELMET": "Deadwire Helmet",
         "ID_CUSTOMIZATION_SCRAPPY_DEADEYESTRAW": "Wheat Stalk",
-        "ID_CUSTOMIZATION_SCRAPPY_CONDUCTORHAT": "Conductor Hat"
+        "ID_CUSTOMIZATION_SCRAPPY_CONDUCTORHAT": "Conductor Hat",
+        "ID_CUSTOMIZATION_SCRAPPY_STRAW": "Straw",
+        "ID_CUSTOMIZATION_SCRAPPY_PIRATEHATCORSAIR": "Pirate Hat - Black Yellow"
       },
       "KeysToMetaData": {
         "ID_CUSTOMIZATION_SCRAPPY_BOMBERHELMET": {
@@ -160,6 +162,12 @@
           "Status": "approved"
         },
         "ID_CUSTOMIZATION_SCRAPPY_RENZOHELMET": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_SCRAPPY_STRAW": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_SCRAPPY_PIRATEHATCORSAIR": {
           "Status": "approved"
         }
       }

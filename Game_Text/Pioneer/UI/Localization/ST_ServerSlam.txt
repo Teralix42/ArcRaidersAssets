@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ServerSlam
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_SERVERSLAM_ACCEPTING]
 By accepting you agree to the Server Slam Terms of Service.
@@ -12,22 +12,22 @@ Pre-order
 Continue to Speranza
 
 [ID_SERVERSLAM_ENDED]
-Thank you for playing!
-
-The Server Slam playtest is now over.
-
-Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
-
+Thank you for playing!
+
+The Server Slam playtest is now over.
+
+Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
+
 In the meantime, check out [Season 8 on THE FINALS](TheFinals), the world's first Dynamism Shooter!
 
 [ID_SERVERSLAM_ENDED_ALT1]
-Server Slam is now over.
-
-Thank you for playing, Raider.
-
-Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
-
-Until then: check out our free-to-play, multiplayer FPS, [THE FINALS](TheFinals)!
+Server Slam is now over.
+
+Thank you for playing, Raider.
+
+Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
+
+Until then: check out our free-to-play, multiplayer FPS, [THE FINALS](TheFinals)!
 CAN YOU REACH THE FINALS?
 
 [ID_SERVERSLAM_ENTER_GAME]
@@ -163,14 +163,14 @@ Pre-purchase the Deluxe Edition
 And receive the Astro Bundle bonus at launch
 
 [ID_SERVERSLAM_WELCOME_01]
-From 17 - 19 October we welcome you to push our servers to the limit as we prepare for launch on 30 October.
-By participating in the Server Slam, you will unlock an exclusive Backpack cosmetic reward, available when you purchase the full game at launch. Just make sure you confirm your email address in Embark ID to get it. 
-The Server Slam is a focused experience. We welcome you to put our servers to the test on one map, and elements such as Progression, Quests, and Crafting will be limited. 
+From 17 - 19 October we welcome you to push our servers to the limit as we prepare for launch on 30 October.
+By participating in the Server Slam, you will unlock an exclusive Backpack cosmetic reward, available when you purchase the full game at launch. Just make sure you confirm your email address in Embark ID to get it. 
+The Server Slam is a focused experience. We welcome you to put our servers to the test on one map, and elements such as Progression, Quests, and Crafting will be limited. 
 For more info and troubleshooting, please head over to our Discord. We hope to see you on 30 October to experience the full scope of ARC Raiders at launch!
 
 [ID_SERVERSLAM_WELCOME_01_V2]
-From **17 - 19 October** we welcome you to put our servers to the test in a limited gameplay experience.
-By participating in the Server Slam, you will unlock an **exclusive Backpack cosmetic** reward, available when you purchase the full game at launch. Just make sure you confirm your email address in Embark ID to get it. 
+From **17 - 19 October** we welcome you to put our servers to the test in a limited gameplay experience.
+By participating in the Server Slam, you will unlock an **exclusive Backpack cosmetic** reward, available when you purchase the full game at launch. Just make sure you confirm your email address in Embark ID to get it. 
 For more info and troubleshooting, please head over to our Discord. We hope to see you on **30 October** to experience the full scope of ARC Raiders at launch!
 
 [ID_SERVERSLAM_WELCOME_02]

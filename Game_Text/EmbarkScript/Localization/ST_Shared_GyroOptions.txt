@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Shared_GyroOptions
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_OPTION_CONTROLLER_ABSOLUTE]
 Absolute
@@ -171,11 +171,11 @@ Deadzone
 Flick Stick
 
 [ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_DESCRIPTION]
-With Flick Stick, you can’t aim up or down with the look stick. Instead, it lets you snap to face any direction you point the stick in. For instance, to look at what is behind you, simply flick the stick back. When the stick is pulled all the way, you can move it to turn smoothly.
+With Flick Stick, you can’t aim up or down with the look stick. Instead, it lets you snap to face any direction you point the stick in. For instance, to look at what is behind you, simply flick the stick back. When the stick is pulled all the way, you can move it to turn smoothly.
 Flick Stick depends on gyro for vertical aiming and precision. It is also recommended to bind a button for resetting the camera.
 
 [ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_DESCRIPTION_SONY_CERT]
-With Flick Stick, you can’t aim up or down with the look stick. Instead, it lets you snap to face any direction you point the stick in. For instance, to look at what is behind you, simply flick the stick back. When the stick is pulled all the way, you can move it to turn smoothly.
+With Flick Stick, you can’t aim up or down with the look stick. Instead, it lets you snap to face any direction you point the stick in. For instance, to look at what is behind you, simply flick the stick back. When the stick is pulled all the way, you can move it to turn smoothly.
 Flick Stick depends on the motion sensor function for vertical aiming and precision. It is also recommended to bind a button for resetting the camera.
 
 [ID_OPTION_CONTROLLER_GYRO_FLICK_STICK_FOV_SCALING]

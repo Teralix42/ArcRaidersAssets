@@ -78,7 +78,9 @@
         "ID_CHARACTERSCREEN_ALL_HEADGEAR_HIDDEN": "Show headgear",
         "ID_CHARACTERSCREEN_ALL_HEADGEAR_VISIBLE": "Hide headgear",
         "ID_CHARACTERSCREEN_EMOTES_EQUIPTOWHEEL_UNCHANGEABLE": "Can't be changed",
-        "ID_CHARACTERSCREEN_STYLE_FACIALHAIR": "Facial hair"
+        "ID_CHARACTERSCREEN_STYLE_FACIALHAIR": "Facial hair",
+        "ID_CHARACTERSCREEN_SKINPROGRESSION_REWARD_PASS": "Unlock in Reward Pass",
+        "ID_CHARACTERSCREEN_SKINPROGRESSION_REWARD_PASS_ALT2": "Collect in Reward Pass"
       },
       "KeysToMetaData": {
         "ID_CHARACTERSCREEN_APPEARANCE": {
@@ -332,6 +334,14 @@
           "Status": "approved"
         },
         "ID_CHARACTERSCREEN_STYLE_FACIALHAIR": {
+          "Status": "approved"
+        },
+        "ID_CHARACTERSCREEN_SKINPROGRESSION_REWARD_PASS": {
+          "Note": "Shown as a message on the cosmetic that can be unlocked in Reward Pass; max. char. 30",
+          "Status": "approved"
+        },
+        "ID_CHARACTERSCREEN_SKINPROGRESSION_REWARD_PASS_ALT2": {
+          "Note": "Shown as a message on the cosmetic that can be unlocked in Reward Pass; max. char. 30",
           "Status": "approved"
         }
       }

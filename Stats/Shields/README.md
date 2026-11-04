@@ -8,6 +8,6 @@ All three Raider shields cover the head, body, and legs. Run and sprint speed ar
 | --- | --- | --- | --- |
 | Light Shield | 40 | 40% | 100% |
 | Medium Shield | 70 | 42.5% | 95% |
-| Heavy Shield | 80 | 52.5% | 90% |
+| Heavy Shield | 90 | 52.5% | 90% |
 
 [JSON](shields.json) · [Game files](../Sources/PioneerGame/Content/Pioneer/Items/Armor/)

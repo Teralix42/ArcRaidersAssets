@@ -24,7 +24,7 @@
         "ID_CURRENCY_XP_LONG": "Experience Points",
         "ID_CURRENCY_SKILL_POINTS": "Skill Points",
         "ID_CURRENCY_SKILL_POINTS_DESCRIPTION": "Skill Points",
-        "ID_CURRENCY_HARD_DESCRIPTION": "Used to purchase decks and cosmetics.",
+        "ID_CURRENCY_HARD_DESCRIPTION": "Used to purchase cosmetics.",
         "ID_CURRENCY_COMMUNITYEVENT": "Merits",
         "ID_CURRENCY_COMMUNITYEVENT_DESCRIPTION": "Earned by participating in Live Events.",
         "ID_CURRENCY_RESEARCH_POINTS": "Research Points",
@@ -83,7 +83,8 @@
           "Status": "approved"
         },
         "ID_CURRENCY_HARD_DESCRIPTION": {
-          "Status": "approved"
+          "Status": "approved",
+          "Note": "Existing string ID. Removed mentions of Decks, which is a deprecated feature."
         },
         "ID_CURRENCY_COMMUNITYEVENT": {
           "Status": "approved"

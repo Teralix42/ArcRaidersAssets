@@ -1179,7 +1179,7 @@
         "ObjectName": "SceneComponent'CS_Chonk_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.13"
       },
-      "VariableGUID": "CFD46628-45A8BB8D-853065AA-751A0967",
+      "VariableGuid": "CFD46628-45A8BB8D-853065AA-751A0967",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1211,7 +1211,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.16"
         }
       ],
-      "VariableGUID": "A97313A9-4E66EA17-7D3C3392-4ACC77DD",
+      "VariableGuid": "A97313A9-4E66EA17-7D3C3392-4ACC77DD",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1231,7 +1231,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Sensor",
-      "VariableGUID": "51A43EA8-43A0BD05-408D3E92-24A6DAA4",
+      "VariableGuid": "51A43EA8-43A0BD05-408D3E92-24A6DAA4",
       "InternalVariableName": "Sensor"
     }
   },
@@ -1253,7 +1253,7 @@
         "ObjectName": "BP_DamageStyleDriver_Large_C'CS_Chonk_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.4"
       },
-      "VariableGUID": "D4F6CDF1-4AA9333B-C03C568F-496C124B",
+      "VariableGuid": "D4F6CDF1-4AA9333B-C03C568F-496C124B",
       "InternalVariableName": "BP_DamageStyleDriver_Large"
     }
   },
@@ -1275,7 +1275,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Chonk_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.0"
       },
-      "VariableGUID": "4839283F-4DC50694-E559F394-7A299CBF",
+      "VariableGuid": "4839283F-4DC50694-E559F394-7A299CBF",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1297,7 +1297,7 @@
         "ObjectName": "BP_MovingPartAudioStyleDriver_Chonk_C'CS_Chonk_C:BP_MovingPartAudioStyleDriver_Chonk_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.5"
       },
-      "VariableGUID": "841244E9-42F6BB4E-CDDD53A1-9D60D06D",
+      "VariableGuid": "841244E9-42F6BB4E-CDDD53A1-9D60D06D",
       "InternalVariableName": "BP_MovingPartAudioStyleDriver_Chonk"
     }
   },
@@ -1319,7 +1319,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Chonk_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.1"
       },
-      "VariableGUID": "B26F2318-4F9C6C5A-6FE09884-0B547ADF",
+      "VariableGuid": "B26F2318-4F9C6C5A-6FE09884-0B547ADF",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1339,7 +1339,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Muzzle",
-      "VariableGUID": "83AFD0BD-4650420C-2C2C2C85-80E1C84A",
+      "VariableGuid": "83AFD0BD-4650420C-2C2C2C85-80E1C84A",
       "InternalVariableName": "Muzzle"
     }
   },
@@ -1361,7 +1361,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Chonk_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.6"
       },
-      "VariableGUID": "FA5E39EC-416083FA-38337097-FE98A5AD",
+      "VariableGuid": "FA5E39EC-416083FA-38337097-FE98A5AD",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1383,7 +1383,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Chonk_C:AttackCoolingDownAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.30"
       },
-      "VariableGUID": "153519E6-4AC0C911-EB12B1AB-3F6C8E65",
+      "VariableGuid": "153519E6-4AC0C911-EB12B1AB-3F6C8E65",
       "InternalVariableName": "AttackCoolingDownAnim"
     }
   },
@@ -1405,7 +1405,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_Chonk_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.3"
       },
-      "VariableGUID": "55AD11F2-4AE2EF67-D837E0B7-C3B939ED",
+      "VariableGuid": "55AD11F2-4AE2EF67-D837E0B7-C3B939ED",
       "InternalVariableName": "BP_CollisionStyleDriver_Medium"
     }
   },
@@ -1427,7 +1427,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_Chonk_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.10"
       },
-      "VariableGUID": "ED453F4F-47E240BE-BFEB0B8F-806A72E0",
+      "VariableGuid": "ED453F4F-47E240BE-BFEB0B8F-806A72E0",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1449,7 +1449,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_Chonk_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.12"
       },
-      "VariableGUID": "428962DD-4089B96F-946C8593-08AED80F",
+      "VariableGuid": "428962DD-4089B96F-946C8593-08AED80F",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -1471,7 +1471,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Chonk_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.7"
       },
-      "VariableGUID": "D494DB5F-4292FCEE-3A2C06B0-6ACDF688",
+      "VariableGuid": "D494DB5F-4292FCEE-3A2C06B0-6ACDF688",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },

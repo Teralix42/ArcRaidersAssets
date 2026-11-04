@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_SprayCan_Fire",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Gadgets/SprayCan_Fire/DA_Item_SprayCan_Fire",
+    "Properties": {
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Gadgets/SprayCan_Fire/BP_ItemActor_SprayCan_Fire.BP_ItemActor_SprayCan_Fire_C",
+        "SubPathString": ""
+      },
+      "MaterialOverrides": [
+        {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Gadgets/SprayCan_Fire/SM_SprayCan_Fire_01_A.SM_SprayCan_Fire_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 1.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.FlameSpray"
+      },
+      "ItemCategory": "EItemCategory::Gadget",
+      "DropTags": [
+        "Item.Drop.Category.Area.Raider"
+      ],
+      "StaticLootAvoidGroups": [
+        "Item.Drop.Type.Consumable",
+        "Item.Drop.Type.Equipment"
+      ],
+      "UnequipTime": 0.2,
+      "UnequipTimeToItems": 0.2,
+      "EquipTime": 0.2,
+      "DurabilityConsumedPerSecondWhileUsed": 0.05,
+      "DurabilityConsumedPerSecondWhileSecondaryUsed": 0.10000000149011612,
+      "ContextActions": [
+        {
+          "ActionName": "Fire",
+          "EnhancedInputAction": null,
+          "Modifier": "EButtonModifier::Hold",
+          "ActionLiteral": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_IngameInteractions.ST_IngameInteractions",
+            "Key": "ID_INGAMEINTERACTIONS_USE",
+            "SourceString": "Use",
+            "LocalizedString": "Use"
+          },
+          "bToggleable": false
+        }
+      ],
+      "DisplayTags": [
+        "UI.HUD.Durability"
+      ],
+      "OnUseEffect": {
+        "PositionSource": "EItemUseEffectPositionSource::CharacterRightHand",
+        "EffectDataAsset": {
+          "AssetPathName": "/Game/Pioneer/Audio/Gadgets/FireSpray/DA_FireSpray_Use.DA_FireSpray_Use",
+          "SubPathString": ""
+        },
+        "UseEndedEffectDataAsset": {
+          "AssetPathName": "/Game/Pioneer/Audio/Gadgets/FireSpray/DA_FireSpray_EndUse.DA_FireSpray_EndUse",
+          "SubPathString": ""
+        }
+      },
+      "OnUseSecondaryEffect": {
+        "PositionSource": "EItemUseEffectPositionSource::CharacterRightHand"
+      },
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_Grab_HealthSpray'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_Grab_HealthSpray.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "GadgetAnimationContainer'DA_Animation_Container_Spray_Offensive'",
+        "ObjectPath": "/Game/Pioneer/Items/Gadgets/Shared/SprayCan/DA_Animation_Container_Spray_Offensive.0"
+      },
+      "StaticLootPlacement": [
+        {
+          "SocketTag": {
+            "TagName": "Socket.Loot"
+          },
+          "ExcludeTags": [
+            "Socket.Loot.Nature"
+          ]
+        },
+        {
+          "SocketTag": {
+            "TagName": "Socket.LootContainer.Medical"
+          },
+          "ExcludeTags": []
+        },
+        {
+          "SocketTag": {
+            "TagName": "Socket.LootContainer.Residential"
+          },
+          "ExcludeTags": [
+            "Socket.LootContainer.Residential.Refrigerator_01"
+          ]
+        },
+        {
+          "SocketTag": {
+            "TagName": "Socket.LootContainer.Commercial"
+          },
+          "ExcludeTags": [
+            "Socket.LootContainer.Commercial.CashRegister",
+            "Socket.LootContainer.Commercial.Freezer",
+            "Socket.LootContainer.Commercial.Fridge"
+          ]
+        },
+        {
+          "SocketTag": {
+            "TagName": "Socket.LootContainer.Industrial"
+          },
+          "ExcludeTags": [
+            "Socket.LootContainer.Industrial.RsrMachineM01.Door",
+            "Socket.LootContainer.Industrial.Wrh.ToolTrolley.Tray"
+          ]
+        }
+      ],
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_SprayCan_Fire'",
+        "ObjectPath": "/Game/Pioneer/Items/Gadgets/SprayCan_Fire/DA_Persistence_SprayCan_Fire.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.FireDamageItems"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Gadgets/SprayCan_Fire/BP_Item_SprayCan_Fire.BP_Item_SprayCan_Fire_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Gadget"
+      ]
+    }
+  }
+]

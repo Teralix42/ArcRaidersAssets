@@ -55,8 +55,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 4 | ID.Armor.Light | 10 |  |
 | 5 | Group.Indestructible | 10000 |  |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

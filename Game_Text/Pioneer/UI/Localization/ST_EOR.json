@@ -232,7 +232,11 @@
         "ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_MULTI": "New Rewards Collected",
         "ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_SINGLE": "New Reward Collected",
         "ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_ALT1_MULTI": "{0} New Rewards Collected",
-        "ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_ALT1_SINGLE": "{0} New Reward Collected"
+        "ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_ALT1_SINGLE": "{0} New Reward Collected",
+        "ID_EOR_REWARD_PASS_RP_GENERATED_FROM_XP": "Generated from XP",
+        "ID_EOR_REWARD_PASS_RP_GENERATED_FROM_XP_FORMAT": "Generated from {0} XP",
+        "ID_EOR_XP_RP_CONVERTED": "Reward Points Converted",
+        "ID_EOR_XP_RP_CONVERTED_FORMAT": "{0} Converted"
       },
       "KeysToMetaData": {
         "PLAYERINTERACTION_AIDED_BY_OTHER": {
@@ -959,6 +963,22 @@
           "Status": "approved"
         },
         "ID_EOR_REWARD_PASS_NEW_REWARD_COLLECTED_ALT1_SINGLE": {
+          "Status": "approved"
+        },
+        "ID_EOR_REWARD_PASS_RP_GENERATED_FROM_XP": {
+          "Note": "Max char: 40 Will be shown on the Reward Pass EoR page: XP will generate Reward Points and be listed as a source",
+          "Status": "approved"
+        },
+        "ID_EOR_REWARD_PASS_RP_GENERATED_FROM_XP_FORMAT": {
+          "Note": "Max char: 40 Will be shown on the Reward Pass EoR page: XP will generate Reward Points and be listed as a source. {0}=Amount of XP",
+          "Status": "approved"
+        },
+        "ID_EOR_XP_RP_CONVERTED": {
+          "Note": "Max char: 40 Will show on Level up EoR screen as a list item. When all passes are completed, all Reward Points will be converted to XP instead and shown as a source of XP in EoR.",
+          "Status": "approved"
+        },
+        "ID_EOR_XP_RP_CONVERTED_FORMAT": {
+          "Note": "Max char: 40 Will show on Level up EoR screen as a list item. When all passes are completed, all Reward Points will be converted to XP instead and shown as a source of XP in EoR.",
           "Status": "approved"
         }
       }

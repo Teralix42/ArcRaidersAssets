@@ -29,6 +29,110 @@
           },
           "Health": 1100.0
         }
+      ],
+      "ForceData": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 1.0,
+          "Small": 0.3,
+          "Medium": 0.1,
+          "Heavy": 0.07,
+          "VeryHeavy": 0.035
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 4.0,
+          "Small": 2.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        }
+      ],
+      "ForceDataConstants": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 1.5,
+          "Small": 1.2,
+          "Medium": 1.0,
+          "Heavy": 0.8,
+          "VeryHeavy": 0.6
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 4.0,
+          "Small": 3.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        }
       ]
     }
   }

@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_Fireball_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -22,8 +21,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -170,8 +168,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_RollBot_Flamethrower_C",
@@ -297,8 +294,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Flamethrower_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -312,8 +308,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Fireball_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -335,8 +330,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -669,8 +663,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -866,8 +859,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -887,8 +879,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Flamethrower_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -902,8 +893,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Fireball_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -923,8 +913,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -1015,8 +1004,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -1036,8 +1024,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_RollBotFlamethrowerPerception'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_RollBotFlamethrowerPerception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -1060,8 +1047,7 @@
         "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Rollbot_Flamethrower'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_PartScavengeSetup_Rollbot_Flamethrower.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "GroundPhysicsMovementComponent",
@@ -1098,8 +1084,7 @@
           "SubPathString": ""
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -1197,8 +1182,7 @@
           "AdditionalGameplayEffects": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -1272,8 +1256,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -1283,8 +1266,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -1298,8 +1280,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_Fireball_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.15"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -1316,8 +1297,7 @@
     },
     "Properties": {
       "SightRangeStrengthScale": 0.85
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1548,8 +1528,7 @@
           "bStunnable": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableSteamService",
@@ -1576,8 +1555,7 @@
         ],
         "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Dispenser )"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1591,8 +1569,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_Fireball_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1612,10 +1589,9 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Fireball'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Fireball.0"
       },
-      "bResetPositionOnTick": false,
-      "bSkipPingAttachment": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "VerticalOffset": 50.0,
+      "bResetPositionOnTick": true
+    }
   },
   {
     "Type": "ProximityDetectionService",
@@ -1629,8 +1605,7 @@
     "Properties": {
       "DistanceToCheck": 40.0,
       "bRegisterOnTopEvents": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1644,8 +1619,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_Fireball_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "RollbotControllerComponent",
@@ -1670,8 +1644,7 @@
           "FlippedAnimation": "UnfoldAnim_A_Flipped"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1681,8 +1654,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1702,10 +1674,9 @@
         "ObjectName": "SceneComponent'C_RollBot_Flamethrower_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.27"
       },
-      "VariableGUID": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
+      "VariableGuid": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1725,10 +1696,9 @@
         "ObjectName": "StuckDetectionService'C_RollBot_Flamethrower_C:StuckDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.39"
       },
-      "VariableGUID": "4450FB0E-4BF115A3-4FA2DA93-9DDC8196",
+      "VariableGuid": "4450FB0E-4BF115A3-4FA2DA93-9DDC8196",
       "InternalVariableName": "StuckDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1748,10 +1718,9 @@
         "ObjectName": "PioneerConstructableSteamService'C_RollBot_Flamethrower_C:SteamService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.21"
       },
-      "VariableGUID": "FE2DFC27-4950B238-CFD04A9B-8F26F94A",
+      "VariableGuid": "FE2DFC27-4950B238-CFD04A9B-8F26F94A",
       "InternalVariableName": "SteamService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1771,10 +1740,9 @@
         "ObjectName": "ProximityDetectionService'C_RollBot_Flamethrower_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.24"
       },
-      "VariableGUID": "EC1B6392-42864C54-F00CA791-45B09AEA",
+      "VariableGuid": "EC1B6392-42864C54-F00CA791-45B09AEA",
       "InternalVariableName": "ProximityDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1794,10 +1762,9 @@
         "ObjectName": "GroundPhysicsMovementComponent'C_RollBot_Flamethrower_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.14"
       },
-      "VariableGUID": "0EDE5EEC-42F54953-C14313A1-35C7E8EF",
+      "VariableGuid": "0EDE5EEC-42F54953-C14313A1-35C7E8EF",
       "InternalVariableName": "GroundPhysicsMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1817,10 +1784,9 @@
         "ObjectName": "RollbotControllerComponent'C_RollBot_Flamethrower_C:RollbotControllerComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.26"
       },
-      "VariableGUID": "7B523F42-48EC75FB-D4EE39A8-8F98DA45",
+      "VariableGuid": "7B523F42-48EC75FB-D4EE39A8-8F98DA45",
       "InternalVariableName": "RollbotControllerComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1840,10 +1806,9 @@
         "ObjectName": "ConstructableAnimationService'C_RollBot_Flamethrower_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.6"
       },
-      "VariableGUID": "BFAA4ADC-4411A057-33DD09B3-C754AC6B",
+      "VariableGuid": "BFAA4ADC-4411A057-33DD09B3-C754AC6B",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1865,10 +1830,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "34EC5275-4B23087E-D4AFC08C-B2766028",
+      "VariableGuid": "34EC5275-4B23087E-D4AFC08C-B2766028",
       "InternalVariableName": "AITarget"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1944,8 +1908,7 @@
         "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.28"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1965,8 +1928,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1980,8 +1942,7 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_Fireball_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.25"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StuckDetectionService",
@@ -1998,7 +1959,6 @@
         "EditorCurveData": {}
       },
       "StuckStackingDistance": 250.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

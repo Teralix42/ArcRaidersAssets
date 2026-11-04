@@ -75,8 +75,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 2 | ID.Frame | 20 | Frame_01 |
 | 3 | ID.Rollbot.Root | 1000 | DummyParent_Root |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

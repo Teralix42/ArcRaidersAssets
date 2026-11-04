@@ -792,7 +792,7 @@
         "ObjectName": "SceneComponent'CS_Rollbot_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.10"
       },
-      "VariableGUID": "43130725-4E52E2B6-2833F0AE-41A551E4",
+      "VariableGuid": "43130725-4E52E2B6-2833F0AE-41A551E4",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -820,7 +820,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.24"
         }
       ],
-      "VariableGUID": "AFF216B8-45A46E93-B079B494-EB3B6E15",
+      "VariableGuid": "AFF216B8-45A46E93-B079B494-EB3B6E15",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -842,7 +842,7 @@
         "ObjectName": "CBP_StunStyleDriver_C'CS_Rollbot_SK_C:CBP_StunStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.6"
       },
-      "VariableGUID": "EB7B8632-4B9E9EC8-D214CBB3-E0F6D5E6",
+      "VariableGuid": "EB7B8632-4B9E9EC8-D214CBB3-E0F6D5E6",
       "InternalVariableName": "CBP_StunStyleDriver"
     }
   },
@@ -864,7 +864,7 @@
         "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Rollbot_SK_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.3"
       },
-      "VariableGUID": "4B71679A-42481CFC-44F40197-B2515F33",
+      "VariableGuid": "4B71679A-42481CFC-44F40197-B2515F33",
       "InternalVariableName": "BP_DamageStyleDriver_Medium"
     }
   },
@@ -886,7 +886,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:AlertedModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.29"
       },
-      "VariableGUID": "CF5395B5-44789845-81F84293-FAEA5327",
+      "VariableGuid": "CF5395B5-44789845-81F84293-FAEA5327",
       "InternalVariableName": "AlertedModeAnim"
     }
   },
@@ -908,7 +908,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:OpenShellSimpleAnimationSequenceComponentA_Flipped_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.30"
       },
-      "VariableGUID": "C779C260-4E833F7C-EBD7C8BD-7D019A3A",
+      "VariableGuid": "C779C260-4E833F7C-EBD7C8BD-7D019A3A",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentA_Flipped"
     }
   },
@@ -930,7 +930,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:OpenShellSimpleAnimationSequenceComponentB_Flipped_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.32"
       },
-      "VariableGUID": "6D31D2FA-437ACCDF-D015C391-DF7782C7",
+      "VariableGuid": "6D31D2FA-437ACCDF-D015C391-DF7782C7",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentB_Flipped"
     }
   },
@@ -952,7 +952,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:OpenShellSimpleAnimationSequenceComponentC_Flipped_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.34"
       },
-      "VariableGUID": "6C271876-4497CEF1-12621999-E1333077",
+      "VariableGuid": "6C271876-4497CEF1-12621999-E1333077",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentC_Flipped"
     }
   },
@@ -974,7 +974,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Rollbot_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.0"
       },
-      "VariableGUID": "E134AEE5-43985578-5F0B83A7-8129DE73",
+      "VariableGuid": "E134AEE5-43985578-5F0B83A7-8129DE73",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -996,7 +996,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Rollbot_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.4"
       },
-      "VariableGUID": "94EC50C2-48D84DB6-18CB66B1-E4DD4858",
+      "VariableGuid": "94EC50C2-48D84DB6-18CB66B1-E4DD4858",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1018,7 +1018,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:OpenShellSimpleAnimationSequenceComponentA_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.31"
       },
-      "VariableGUID": "6C8C0F85-4E32B74C-175A19A8-75FA7B79",
+      "VariableGuid": "6C8C0F85-4E32B74C-175A19A8-75FA7B79",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentA"
     }
   },
@@ -1040,7 +1040,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Rollbot_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.5"
       },
-      "VariableGUID": "A6D9ECAB-4E81CF78-8B86FC84-702C4EC5",
+      "VariableGuid": "A6D9ECAB-4E81CF78-8B86FC84-702C4EC5",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1062,7 +1062,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Rollbot_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.1"
       },
-      "VariableGUID": "76B61B31-4653EF48-891925A9-524465A9",
+      "VariableGuid": "76B61B31-4653EF48-891925A9-524465A9",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1084,7 +1084,7 @@
         "ObjectName": "ConstructableGroundEngineAudioComponent'CS_Rollbot_SK_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.7"
       },
-      "VariableGUID": "0727D737-4146E7D8-77984F93-9906EC6B",
+      "VariableGuid": "0727D737-4146E7D8-77984F93-9906EC6B",
       "InternalVariableName": "ConstructableGroundEngineAudioComponent"
     }
   },
@@ -1106,7 +1106,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:OpenShellSimpleAnimationSequenceComponentB_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.33"
       },
-      "VariableGUID": "F39A1164-419A8D1B-F927F988-2E58B5F7",
+      "VariableGuid": "F39A1164-419A8D1B-F927F988-2E58B5F7",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentB"
     }
   },
@@ -1128,7 +1128,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:OpenShellSimpleAnimationSequenceComponentC_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.35"
       },
-      "VariableGUID": "C9853AEE-42E5CE5A-91A12D8C-43C0104B",
+      "VariableGuid": "C9853AEE-42E5CE5A-91A12D8C-43C0104B",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentC"
     }
   },
@@ -1150,7 +1150,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Rollbot_SK_C:UnfoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.36"
       },
-      "VariableGUID": "1CD222EE-4EF57A43-D1058C8D-A9636C85",
+      "VariableGuid": "1CD222EE-4EF57A43-D1058C8D-A9636C85",
       "InternalVariableName": "UnfoldWeaponsSimpleAnimationSequenceComponent"
     }
   },
@@ -1172,7 +1172,7 @@
         "ObjectName": "SpottableStyleDriver'CS_Rollbot_SK_C:SpottableStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/CS_Rollbot_SK.39"
       },
-      "VariableGUID": "C7AA9930-4A7E917F-9E86DAAD-D8CA760F",
+      "VariableGuid": "C7AA9930-4A7E917F-9E86DAAD-D8CA760F",
       "InternalVariableName": "SpottableStyleDriver"
     }
   },

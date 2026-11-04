@@ -6,7 +6,7 @@
     "Class": "UScriptClass'BalancingEntryDataAsset'",
     "Package": "/Game/Pioneer/Enemies/MintType/Mustardmint/DataAssets/DA_Balancing_C_Mustardmint",
     "Properties": {
-      "EntryName": "C_Peppermint",
+      "EntryName": "C_Mustardmint",
       "AttributeData": [
         {
           "IdentifierQueryName": "Part.Decorator.ID.Frame",
@@ -27,36 +27,7 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "Health": 23100.0
-        },
-        {
-          "IdentifierQueryName": "[Part.Decorator.ID.Leg] [Part.Decorator.Group.Weakpoint] ",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.ID.Leg"
-              },
-              {
-                "TagName": "Part.Decorator.Group.Weakpoint"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              5,
-              2,
-              2,
-              1,
-              0,
-              3,
-              1,
-              1
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ALL(  ALL( Part.Decorator.ID.Leg ),\n  NONE( Part.Decorator.Group.Weakpoint ) )"
-          },
-          "Health": 4050.0
+          "Health": 50000.0
         },
         {
           "IdentifierQueryName": "Part.Decorator.ID.Head",
@@ -77,123 +48,18 @@
             "UserDescription": "Head",
             "AutoDescription": " ALL( Part.Decorator.ID.Head )"
           },
-          "Health": 30000.0
+          "Health": 100000.0
         },
         {
-          "IdentifierQueryName": "Part.Decorator.ID.Core",
+          "IdentifierQueryName": "",
           "IdentifierQuery": {
             "TokenStreamVersion": 0,
             "TagDictionary": [
               {
-                "TagName": "Part.Decorator.ID.Core"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              1,
-              1,
-              0
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.ID.Core )"
-          },
-          "Health": 30000.0
-        },
-        {
-          "IdentifierQueryName": "Part.Decorator.Group.Weakpoint",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.Group.Weakpoint"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              1,
-              1,
-              0
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.Group.Weakpoint )"
-          },
-          "Health": 6000.0
-        },
-        {
-          "IdentifierQueryName": "Part.Decorator.HealthGroup.Base",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.HealthGroup.Base"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              2,
-              1,
-              0
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ALL( Part.Decorator.HealthGroup.Base )"
-          },
-          "Health": 5250.0
-        },
-        {
-          "IdentifierQueryName": "Part.Decorator.HealthGroup.Legs",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.HealthGroup.Legs"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              2,
-              1,
-              0
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ALL( Part.Decorator.HealthGroup.Legs )"
-          },
-          "Health": 1500.0
-        },
-        {
-          "IdentifierQueryName": "Part.Decorator.HealthGroup.SubParts",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.HealthGroup.SubParts"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              2,
-              1,
-              0
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ALL( Part.Decorator.HealthGroup.SubParts )"
-          },
-          "Health": 30000.0
-        },
-        {
-          "IdentifierQueryName": "[Part.Decorator.ID.Weapon.Shockwave] [Part.Decorator.ID.Weapon.Laser] ",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.ID.Weapon.Shockwave"
+                "TagName": "Part.Decorator.ID.Leg"
               },
               {
-                "TagName": "Part.Decorator.ID.Weapon.Laser"
+                "TagName": "Part.Decorator.ID.Foot"
               }
             ],
             "QueryTokenStream": [
@@ -205,33 +71,54 @@
               1
             ],
             "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Shockwave,\n Part.Decorator.ID.Weapon.Laser )"
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg,\n Part.Decorator.ID.Foot )"
           },
-          "Health": 0.0
+          "Health": 100.0
         },
         {
-          "IdentifierQueryName": "Part.Decorator.ID.Weapon.Blast",
+          "IdentifierQueryName": "",
           "IdentifierQuery": {
             "TokenStreamVersion": 0,
             "TagDictionary": [
               {
-                "TagName": "Part.Decorator.ID.Weapon.Blast"
+                "TagName": "Part.Decorator.ID.Spinner"
               }
             ],
             "QueryTokenStream": [
               0,
               1,
-              1,
+              2,
               1,
               0
             ],
             "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Blast )"
+            "AutoDescription": " ALL( Part.Decorator.ID.Spinner )"
           },
-          "Health": 0.0
+          "Health": 100.0
         },
         {
-          "IdentifierQueryName": "Part.Decorator.ID.Armor",
+          "IdentifierQueryName": "",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Sensor"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Sensor )"
+          },
+          "Health": 5000.0
+        },
+        {
+          "IdentifierQueryName": "",
           "IdentifierQuery": {
             "TokenStreamVersion": 0,
             "TagDictionary": [
@@ -242,110 +129,38 @@
             "QueryTokenStream": [
               0,
               1,
-              1,
-              1,
-              0
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.ID.Armor )"
-          },
-          "Health": 300.0
-        },
-        {
-          "IdentifierQueryName": "Part.HealthGroup.Indestructable",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.HealthGroup.Indestructable"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
               2,
               1,
               0
             ],
             "UserDescription": "",
-            "AutoDescription": " ALL( Part.HealthGroup.Indestructable )"
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor )"
           },
-          "Health": 150000.0
-        },
-        {
-          "IdentifierQueryName": "[Part.Decorator.ID.Foot] [Part.Decorator.ID.Ankle] ",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.ID.Foot"
-              },
-              {
-                "TagName": "Part.Decorator.ID.Ankle"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              1,
-              2,
-              0,
-              1
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.ID.Foot,\n Part.Decorator.ID.Ankle )"
-          },
-          "Health": 400.0
+          "Health": 10.0
         }
       ],
       "DamageData": [
         {
-          "IdentifierQueryName": "[Part.Decorator.ID.Weapon.Shockwave] [Part.Decorator.ID.Weapon.Laser] ",
+          "IdentifierQueryName": "",
           "IdentifierQuery": {
             "TokenStreamVersion": 0,
             "TagDictionary": [
               {
-                "TagName": "Part.Decorator.ID.Weapon.Shockwave"
-              },
-              {
-                "TagName": "Part.Decorator.ID.Weapon.Laser"
+                "TagName": "Part.Decorator.ID.Sensor"
               }
             ],
             "QueryTokenStream": [
               0,
-              1,
               1,
               2,
-              0,
-              1
-            ],
-            "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Shockwave,\n Part.Decorator.ID.Weapon.Laser )"
-          },
-          "DamageType": "EPioneerDamageType::Thermal",
-          "Damage": 5.0
-        },
-        {
-          "IdentifierQueryName": "Part.Decorator.ID.Weapon.Blast",
-          "IdentifierQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [
-              {
-                "TagName": "Part.Decorator.ID.Weapon.Blast"
-              }
-            ],
-            "QueryTokenStream": [
-              0,
-              1,
-              1,
               1,
               0
             ],
             "UserDescription": "",
-            "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Blast )"
+            "AutoDescription": " ALL( Part.Decorator.ID.Sensor )"
           },
-          "DamageType": "EPioneerDamageType::Explosive",
-          "Damage": 100.0
+          "DamageType": "EPioneerDamageType::Shock",
+          "Damage": 95.0
         }
       ],
       "ForceData": [

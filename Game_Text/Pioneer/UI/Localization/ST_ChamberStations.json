@@ -115,7 +115,12 @@
         "ID_CHAMBERSTATIONS_RESEARCH_STATION_STEP_IN_PROGRESS": "Step {0} in progress",
         "ID_CHAMBERSTATIONS_RESEARCH_STATION_STEP_AVAILABLE": "Step {0} available",
         "ID_CHAMBERSTATIONS_RESEARCH_STATION_STEP_COMPLETED": "Task completed",
-        "ID_CHAMBERSTATIONS_RESEARCH_STATION_STEP_NOT_STARTED": "Not Started"
+        "ID_CHAMBERSTATIONS_RESEARCH_STATION_STEP_NOT_STARTED": "Not Started",
+        "ID_CHAMBERSTATIONS_RESEARCH_LABEL_UNLOCK_SPECIFICS": "Unlocks {0} ({1})",
+        "ID_CHAMBERSTATIONS_RESEARCH_LABEL": "Required to unlock",
+        "ID_CHAMBERSTATIONS_WEAPON_SECTION_TITLE_ASCENDED_WEAPONS": "Amplified Weapons",
+        "ID_CHAMBERSTATIONS_RESEARCH_LABEL_UNLOCK_SPECIFICS_ALT1": "Unlocks {0} {1}",
+        "ID_CHAMBERSTATIONS_REQUIRESRESEARCHSTATION": "Requires a Research Station"
       },
       "KeysToMetaData": {
         "ID_CHAMBERSTATIONS_AMMO_MAKER": {
@@ -478,6 +483,24 @@
           "Status": "approved"
         },
         "ID_CHAMBERSTATIONS_RESEARCH_STATION_STEP_NOT_STARTED": {
+          "Status": "approved"
+        },
+        "ID_CHAMBERSTATIONS_RESEARCH_LABEL_UNLOCK_SPECIFICS": {
+          "Note": "{0}=AmplificationName, {1}=weaponName. Shows which specific Amplification a particular piece of research unlocks and for which weapon",
+          "Status": "approved"
+        },
+        "ID_CHAMBERSTATIONS_RESEARCH_LABEL": {
+          "Note": "Explanatory label for the above piece of data",
+          "Status": "approved"
+        },
+        "ID_CHAMBERSTATIONS_WEAPON_SECTION_TITLE_ASCENDED_WEAPONS": {
+          "Note": "Section title in the Weapon Bench - Upgrade tab",
+          "Status": "approved"
+        },
+        "ID_CHAMBERSTATIONS_REQUIRESRESEARCHSTATION": {
+          "Status": "approved"
+        },
+        "ID_CHAMBERSTATIONS_RESEARCH_LABEL_UNLOCK_SPECIFICS_ALT1": {
           "Status": "approved"
         }
       }

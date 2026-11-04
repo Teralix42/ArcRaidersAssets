@@ -120,7 +120,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_Pistol_Silenced_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/BP_Projectile_Pistol_Silenced_01.4"
       },
-      "VariableGUID": "D487E818-47EB1819-4F906C94-DB9ACF95",
+      "VariableGuid": "D487E818-47EB1819-4F906C94-DB9ACF95",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

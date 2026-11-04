@@ -480,7 +480,15 @@
         "ID_RAIDERPROJECTS_CANTINA_CAROUSEL_HEADER": "Final Week for Departure",
         "ID_RAIDER_PROJECTS_BUFFS_OVERVIEW_XP_IN_ROUND": "{0}% XP Boost (In-Round)",
         "ID_RAIDER_PROJECTS_BUFFS_OVERVIEW_REPAIR_DISCOUNT": "{0}% Repair Discount",
-        "ID_RAIDERPROJECTS_REWORK_ANNOUNCEMENT_HEADER": "We are improving Expeditions"
+        "ID_RAIDERPROJECTS_REWORK_ANNOUNCEMENT_HEADER": "We are improving Expeditions",
+        "ID_RAIDER_PROJECT_HALLOWEEN_PROJECT_NAME": "Soul's Offering",
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE": "Any design unlocks require the Outpost to be used.",
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT6": "Any design unlocks can be used in the Outpost.",
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT": "Building furniture requires the Outpost.",
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT2": "You can build this furniture design in your Outpost.",
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT3": "Please note that you can only build this item once you have unlocked the Outpost.",
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT4": "Please note that you can only craft this item once you have access to {0}.",
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT5": "{0} required to craft this item."
       },
       "KeysToMetaData": {
         "ID_RAIDER_PROJECTS_TITLE": {
@@ -2208,6 +2216,33 @@
           "Status": "approved"
         },
         "ID_RAIDERPROJECTS_REWORK_ANNOUNCEMENT_HEADER": {
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECT_HALLOWEEN_PROJECT_NAME": {
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE": {
+          "Note": "Note we might want to put into the Reward modal and/or the Project page as an additional hint that the granted Design Unlock can be crafted in the Outpost, preventing confusion. Players might not have the Outpost unlocked when they get this \"Design Unlock\" granted.",
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT6": {
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT": {
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT2": {
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT3": {
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT4": {
+          "Note": "{0} = Workstation and Level, e.g. Gunsmith III",
+          "Status": "approved"
+        },
+        "ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT5": {
+          "Note": "{0} Workstation or Outpost, \"Outpost required to craft this item\", \"Gunsmith III required to craft this item\"",
           "Status": "approved"
         }
       }

@@ -583,7 +583,7 @@
         "ObjectName": "SceneComponent'CS_Pinger_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.12"
       },
-      "VariableGUID": "FC2D2F6D-4E3DE501-22F5C1A2-8465F67C",
+      "VariableGuid": "FC2D2F6D-4E3DE501-22F5C1A2-8465F67C",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -611,7 +611,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.17"
         }
       ],
-      "VariableGUID": "ABD77BA9-42030038-E34B7EA3-B5C69A77",
+      "VariableGuid": "ABD77BA9-42030038-E34B7EA3-B5C69A77",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -633,7 +633,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Pinger_C:Combat_SimpleAnimationSequenceComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.26"
       },
-      "VariableGUID": "78FC8961-4F18166E-1B3C0EBE-3B1FB26C",
+      "VariableGuid": "78FC8961-4F18166E-1B3C0EBE-3B1FB26C",
       "InternalVariableName": "Combat_SimpleAnimationSequenceComponent"
     }
   },
@@ -655,7 +655,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Pinger_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.0"
       },
-      "VariableGUID": "60234417-45ACF450-307208BB-C9546065",
+      "VariableGuid": "60234417-45ACF450-307208BB-C9546065",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -677,7 +677,7 @@
         "ObjectName": "ConstructableHoverEngineAudioComponent'CS_Pinger_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.8"
       },
-      "VariableGUID": "CC445E9B-447CB2B5-EBA373B4-0E70B731",
+      "VariableGuid": "CC445E9B-447CB2B5-EBA373B4-0E70B731",
       "InternalVariableName": "ConstructableHoverEngineAudioComponent"
     }
   },
@@ -699,7 +699,7 @@
         "ObjectName": "BP_DamageStyleDriver_Small_C'CS_Pinger_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.3"
       },
-      "VariableGUID": "44A4356E-4B54463F-7924398D-E82ABF02",
+      "VariableGuid": "44A4356E-4B54463F-7924398D-E82ABF02",
       "InternalVariableName": "BP_DamageStyleDriver_Small"
     }
   },
@@ -721,7 +721,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Pinger_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.11"
       },
-      "VariableGUID": "A2CCFB25-4DCB6717-1166FFB0-98B771BE",
+      "VariableGuid": "A2CCFB25-4DCB6717-1166FFB0-98B771BE",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -743,7 +743,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Pinger_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.4"
       },
-      "VariableGUID": "13CD8006-436C1EB8-44B6C59D-DB0CC677",
+      "VariableGuid": "13CD8006-436C1EB8-44B6C59D-DB0CC677",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -765,7 +765,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Pinger_C:SimpleAnimationSequenceComponent_Idle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.27"
       },
-      "VariableGUID": "F421F9E0-457FFC16-04B35DB8-3631195A",
+      "VariableGuid": "F421F9E0-457FFC16-04B35DB8-3631195A",
       "InternalVariableName": "SimpleAnimationSequenceComponent_Idle"
     }
   },
@@ -787,7 +787,7 @@
         "ObjectName": "ConstructableAnimationRepositoryComponent'CS_Pinger_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.7"
       },
-      "VariableGUID": "A7BDA0B5-4EB95855-73C998B7-5B11CA66",
+      "VariableGuid": "A7BDA0B5-4EB95855-73C998B7-5B11CA66",
       "InternalVariableName": "ConstructableAnimationRepositoryComponent"
     }
   },
@@ -809,7 +809,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Pinger_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.5"
       },
-      "VariableGUID": "A300155D-48D5B36F-92F9F4B3-8C321CB0",
+      "VariableGuid": "A300155D-48D5B36F-92F9F4B3-8C321CB0",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -831,7 +831,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Pinger_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.1"
       },
-      "VariableGUID": "5FD963BF-49AE6F2A-7510C2BC-CA063AAA",
+      "VariableGuid": "5FD963BF-49AE6F2A-7510C2BC-CA063AAA",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -853,7 +853,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_Pinger_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.30"
       },
-      "VariableGUID": "14BFE4C7-46E7B3CC-102BF59D-21ED50C0",
+      "VariableGuid": "14BFE4C7-46E7B3CC-102BF59D-21ED50C0",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },

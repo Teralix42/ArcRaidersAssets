@@ -34,7 +34,9 @@
         "ID_ERRROR_ACCOUNT_BLOCKED_DESC": "Your account has been blocked due to activity violating our Terms of Service. Contact customer support for more information.",
         "ID_ERRORMESSAGES_NETWORK_TIMEOUT": "NETWORK TIMEOUT",
         "ID_ERROR_UPDATE_REQUIRED": "Update required",
-        "ID_ERROR_ACCOUNT_SHARED_BLOCKED_DESC": "Your access has been suspended because the account that shares this game with you is currently restricted."
+        "ID_ERROR_ACCOUNT_SHARED_BLOCKED_DESC": "Your access has been suspended because the account that shares this game with you is currently restricted.",
+        "ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM_ALT": "You need to change your crossplay settings to matchmake together with your party.",
+        "ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM_REQUIREMENT": "Required setting: {0}"
       },
       "KeysToMetaData": {
         "ID_ERROR_ONLINE_QUEST_SYNC_FAILED": {
@@ -116,6 +118,13 @@
           "Status": "approved"
         },
         "ID_ERROR_ACCOUNT_SHARED_BLOCKED_DESC": {
+          "Status": "approved"
+        },
+        "ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM_ALT": {
+          "Note": "might have to replace or be a sub-case for ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM",
+          "Status": "approved"
+        },
+        "ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM_REQUIREMENT": {
           "Status": "approved"
         }
       }

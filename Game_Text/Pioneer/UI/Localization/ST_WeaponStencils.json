@@ -22,7 +22,13 @@
         "ID_CUSTOMIZATION_STENCIL_ORGANIC_ISLANDS": "Dusty Camo",
         "ID_CUSTOMIZATION_STENCIL_CORTO": "Slipstream",
         "ID_CUSTOMIZATION_STENCIL_FORTUNA": "Fortuna",
-        "ID_CUSTOMIZATION_STENCIL_DESCRIPTION": "A fresh new coat of paint"
+        "ID_CUSTOMIZATION_STENCIL_DESCRIPTION": "A fresh new coat of paint",
+        "ID_CUSTOMIZATION_STENCIL_FORTUNA_UNLOCK": "Fortuna (Unlock)",
+        "ID_CUSTOMIZATION_STENCIL_FURCOVEREDSWIRL_UNLOCK": "Sacrifice (Unlock)",
+        "ID_CUSTOMIZATION_STENCIL_OUTLANDER_UNLOCK": "Bulwark (Unlock)",
+        "ID_CUSTOMIZATION_STENCIL_YETI_UNLOCK": "Serac (Unlock)",
+        "ID_CUSTOMIZATION_STENCIL_EMPYREAN_UNLOCK": "Empyrean (Unlock)",
+        "ID_CUSTOMIZATION_STENCIL_DRAGON_UNLOCK": "Dragon's Breath (Unlock)"
       },
       "KeysToMetaData": {
         "ID_CUSTOMIZATION_STENCIL_DRAGON": {
@@ -68,6 +74,30 @@
           "Status": "approved"
         },
         "ID_CUSTOMIZATION_STENCIL_DESCRIPTION": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_STENCIL_FORTUNA_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_STENCIL_FURCOVEREDSWIRL_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_STENCIL_OUTLANDER_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_STENCIL_YETI_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_STENCIL_EMPYREAN_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_STENCIL_DRAGON_UNLOCK": {
+          "Note": "Unlocks the ability directly, doesn't give you the item you need to learn and consume",
           "Status": "approved"
         }
       }

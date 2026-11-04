@@ -197,7 +197,7 @@
         "ObjectName": "SceneComponent'BP_ModifiedProjectileBase_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.6"
       },
-      "VariableGUID": "D7AC9F7D-490FBF82-AF2DF1A2-FB85ECD6",
+      "VariableGuid": "D7AC9F7D-490FBF82-AF2DF1A2-FB85ECD6",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

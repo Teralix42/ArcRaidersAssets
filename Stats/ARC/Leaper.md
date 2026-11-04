@@ -143,8 +143,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 8 | HealthGroup.Base | 100 | Insides_01_L_01, Insides_02_L_01, Insides_03_L_01, Insides_01_L_02, Insides_02_L_02, Insides_03_L_02, Insides_01_R_01, Insides_02_R_01, Insides_03_R_01, Insides_01_R_02, Insides_02_R_02, Insides_03_R_02 |
 | 9 | HealthGroup.SubParts | 24 | Jaw_01_L_01, Jaw_01_L_02, Jaw_01_R_01, Jaw_01_R_02, Cylinder_01_L_01, Cylinder_01_L_02, Cylinder_01_L_03, Cylinder_01_L_04, Cylinder_01_R_01, Cylinder_01_R_02, Cylinder_01_R_03, Cylinder_01_R_04 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

@@ -1,0 +1,317 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WItem_Salvage_Hornetflamethrower_Part_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WItem_Salvage_Hornetflamethrower_Part_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_WItem_Salvage_Hornetflamethrower_Part_C:ExecuteUbergraph_BP_WItem_Salvage_Hornetflamethrower_Part'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FireflyPartWorldItem'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_WItem_Salvage_Hornetflamethrower_Part_C:OnDetonate_Server'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.4"
+      },
+      {
+        "ObjectName": "Function'BP_WItem_Salvage_Hornetflamethrower_Part_C:ExecuteUbergraph_BP_WItem_Salvage_Hornetflamethrower_Part'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DamageWorldItemComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DamageWorldItemComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_WItem_Salvage_Hornetflamethrower_Part": {
+        "ObjectName": "Function'BP_WItem_Salvage_Hornetflamethrower_Part_C:ExecuteUbergraph_BP_WItem_Salvage_Hornetflamethrower_Part'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.3"
+      },
+      "OnDetonate_Server": {
+        "ObjectName": "Function'BP_WItem_Salvage_Hornetflamethrower_Part_C:OnDetonate_Server'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WItem_Salvage_Hornetflamethrower_Part_C'Default__BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WItem_Salvage_Hornetflamethrower_Part_C",
+    "Name": "Default__BP_WItem_Salvage_Hornetflamethrower_Part_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+    "Package": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TimeBeforeExplosion": 3.0,
+      "ForceMagnitude": 2000.0,
+      "FirstImpactVelocityMultiplier": 0.8,
+      "MaxSpeed": 750.0,
+      "RandomSpinTorqueMagnitude": 4000.0,
+      "FireDamageEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_FireFly_FireSpray_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/GE_FireFly_FireSpray.1"
+      },
+      "FireEffect": {
+        "ObjectName": "NiagaraSystem'NS_FireflyPart_Fire'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Items/Fire/NS_FireflyPart_Fire.31"
+      },
+      "FireSound": {
+        "ObjectName": "SoundCue'FireFly_Burner'",
+        "ObjectPath": "/Game/Pioneer/Audio/Gadgets/FireFlyBurner/FireFly_Burner.0"
+      },
+      "ImpactEffect": {
+        "ObjectName": "NiagaraSystem'NS_FireflyPart_Ignite'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Items/Fire/NS_FireflyPart_Ignite.58"
+      },
+      "IgnitionDelay": 0.4,
+      "ExplosionEffect": {
+        "ObjectName": "EffectDataAsset'DA_FireflyPart_Explosion'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/Grenades/DA_FireflyPart_Explosion.0"
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_Salvage_Hornetflamethrower_Part_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.9"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_Salvage_Hornetflamethrower_Part_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.9"
+      },
+      "NetUpdateFrequency": 20.0,
+      "MinNetUpdateFrequency": 13.0,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_Salvage_Hornetflamethrower_Part_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.9"
+      }
+    }
+  },
+  {
+    "Type": "DamageWorldItemComponent",
+    "Name": "DamageWorldItemComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DamageWorldItemComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.0"
+    },
+    "Properties": {
+      "Server_ActivationTriggerName": "Detonate_Server",
+      "Server_TargetType": {
+        "ObjectName": "BlueprintGeneratedClass'GETT_Salvage_FireflyPart_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/GETT_Salvage_FireflyPart.0"
+      },
+      "Server_AttributeInitEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Init_Salvage_FireflyPart_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/GE_Init_Salvage_FireflyPart.0"
+      },
+      "bServer_CanDamageInstigator": true
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_WItem_Salvage_Hornetflamethrower_Part",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDetonate_Server",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TimedMineWorldItem:OnDetonate_Server'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WItem_Salvage_Hornetflamethrower_Part_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WItem_Salvage_Hornetflamethrower_Part_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.5"
+      },
+      "VariableGuid": "75B7CBD4-45EC2C3C-DA25A9BD-34EA34FF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WItem_Salvage_Hornetflamethrower_Part_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DamageWorldItemComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DamageWorldItemComponent'BP_WItem_Salvage_Hornetflamethrower_Part_C:DamageWorldItemComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.2"
+      },
+      "VariableGuid": "C398B913-4950A85E-A4AFDEB5-206E644C",
+      "InternalVariableName": "DamageWorldItemComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WItem_Salvage_Hornetflamethrower_Part_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WItem_Salvage_Hornetflamethrower_Part_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WItem_Salvage_Hornetflamethrower_Part_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WItem_Salvage_Hornetflamethrower_Part_C'Default__BP_WItem_Salvage_Hornetflamethrower_Part_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FireflyPart_01_A'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/SM_FireflyPart_01_A.2"
+      },
+      "bApplyImpulseOnDamage": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "DOFMode": "EDOFMode::SixDOF",
+        "CollisionProfileName": "PhysicsActor",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "MassInKgOverride": 5.0,
+        "AngularDamping": 4.0,
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_FireflyPart'",
+          "ObjectPath": "/Game/Pioneer/Items/Throwable/FireflyPart_01/PM_FireflyPart.0"
+        },
+        "bSimulatePhysics": true
+      }
+    }
+  }
+]

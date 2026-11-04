@@ -67,8 +67,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 2 | ID.Head | 120 | Head_01 |
 | 3 | ANY(HealthGroup.Base) | 120 | Ring_C_01 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

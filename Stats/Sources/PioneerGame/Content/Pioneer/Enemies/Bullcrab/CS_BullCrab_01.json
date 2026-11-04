@@ -743,7 +743,7 @@
         "ObjectName": "SceneComponent'CS_BullCrab_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.13"
       },
-      "VariableGUID": "1A1DAC6F-40A6BB84-ABA4DD9D-35B56C25",
+      "VariableGuid": "1A1DAC6F-40A6BB84-ABA4DD9D-35B56C25",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -765,7 +765,7 @@
         "ObjectName": "SkeletalMeshStyleComponent'CS_BullCrab_01_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.31"
       },
-      "VariableGUID": "80C10410-4CA90D31-7AF06298-2CAF84B6",
+      "VariableGuid": "80C10410-4CA90D31-7AF06298-2CAF84B6",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -787,7 +787,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_BullCrab_01_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.6"
       },
-      "VariableGUID": "59D9F105-4224759B-C88B4BA4-E07EA954",
+      "VariableGuid": "59D9F105-4224759B-C88B4BA4-E07EA954",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -809,7 +809,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:ShockWaveActiveAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.35"
       },
-      "VariableGUID": "477EB3FF-429C3820-D19647AA-715111B1",
+      "VariableGuid": "477EB3FF-429C3820-D19647AA-715111B1",
       "InternalVariableName": "ShockWaveActiveAnim"
     }
   },
@@ -831,7 +831,7 @@
         "ObjectName": "BP_AIStateStyleDriver_BullCrab_C'CS_BullCrab_01_C:BP_AIStateStyleDriver_BullCrab_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.2"
       },
-      "VariableGUID": "D2D6CC27-4837F61A-CA5FC5B0-F3B56730",
+      "VariableGuid": "D2D6CC27-4837F61A-CA5FC5B0-F3B56730",
       "InternalVariableName": "BP_AIStateStyleDriver_BullCrab"
     }
   },
@@ -853,7 +853,7 @@
         "ObjectName": "DebrisStyleDriver'CS_BullCrab_01_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.11"
       },
-      "VariableGUID": "556ED884-417826A2-F97FF78B-26FDCA43",
+      "VariableGuid": "556ED884-417826A2-F97FF78B-26FDCA43",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -875,7 +875,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_BullCrab_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.7"
       },
-      "VariableGUID": "E9A2B6B9-4F2A9706-1D969F99-E1FEE782",
+      "VariableGuid": "E9A2B6B9-4F2A9706-1D969F99-E1FEE782",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -897,7 +897,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_BullCrab_01_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.3"
       },
-      "VariableGUID": "8FA52007-473576B7-AAC0F2B9-084F6CBA",
+      "VariableGuid": "8FA52007-473576B7-AAC0F2B9-084F6CBA",
       "InternalVariableName": "BP_CollisionStyleDriver_Medium"
     }
   },
@@ -919,7 +919,7 @@
         "ObjectName": "BP_MovingPartAudioStyleDriver_BullCrab_C'CS_BullCrab_01_C:BP_MovingPartAudioStyleDriver_BullCrab_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.5"
       },
-      "VariableGUID": "90E284CC-4A666936-A33B1BA7-881932B9",
+      "VariableGuid": "90E284CC-4A666936-A33B1BA7-881932B9",
       "InternalVariableName": "BP_MovingPartAudioStyleDriver_BullCrab"
     }
   },
@@ -941,7 +941,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:AlertedModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.32"
       },
-      "VariableGUID": "AF8F4E0E-4657F34B-69E88980-58785055",
+      "VariableGuid": "AF8F4E0E-4657F34B-69E88980-58785055",
       "InternalVariableName": "AlertedModeAnim"
     }
   },
@@ -963,7 +963,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_BullCrab_01_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.0"
       },
-      "VariableGUID": "576669A6-448EA373-737DE19C-62311E34",
+      "VariableGuid": "576669A6-448EA373-737DE19C-62311E34",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -985,7 +985,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:ShockWavePreparingAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.36"
       },
-      "VariableGUID": "E8AEAB01-448D40CC-E6C6249D-B150A29E",
+      "VariableGuid": "E8AEAB01-448D40CC-E6C6249D-B150A29E",
       "InternalVariableName": "ShockWavePreparingAnim"
     }
   },
@@ -1007,7 +1007,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:AlertToIdleAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.33"
       },
-      "VariableGUID": "ED0A363A-4B770A2F-D57B4791-38A316C9",
+      "VariableGuid": "ED0A363A-4B770A2F-D57B4791-38A316C9",
       "InternalVariableName": "AlertToIdleAnim"
     }
   },
@@ -1029,7 +1029,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:JumpAttackAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.34"
       },
-      "VariableGUID": "CA3F04AD-4FCF7564-FA1881A7-92528E7F",
+      "VariableGuid": "CA3F04AD-4FCF7564-FA1881A7-92528E7F",
       "InternalVariableName": "JumpAttackAnim"
     }
   },
@@ -1051,7 +1051,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_BullCrab_01_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.12"
       },
-      "VariableGUID": "E681EB26-4FEFC650-4FF4C093-9A1C44B9",
+      "VariableGuid": "E681EB26-4FEFC650-4FF4C093-9A1C44B9",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -1073,7 +1073,7 @@
         "ObjectName": "BP_DamageStyleDriver_Large_C'CS_BullCrab_01_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.4"
       },
-      "VariableGUID": "4443787B-4EECE04E-E4172E8E-A6B1A51F",
+      "VariableGuid": "4443787B-4EECE04E-E4172E8E-A6B1A51F",
       "InternalVariableName": "BP_DamageStyleDriver_Large"
     }
   },

@@ -1,5 +1,5 @@
 {
-  "snapshot": "Unpack_2.2.0",
+  "snapshot": "Unpack_2.4.0",
   "scope": "Configured armor fields and movement effects",
   "shields": [
     {
@@ -111,8 +111,8 @@
     },
     {
       "name": "Heavy Shield",
-      "base_armor_value": 80.0,
-      "armor_per_plate": 80.0,
+      "base_armor_value": 90.0,
+      "armor_per_plate": 90.0,
       "max_armor_plates": 1,
       "damage_mitigation_per_plate": 0.525,
       "armor_zones": [

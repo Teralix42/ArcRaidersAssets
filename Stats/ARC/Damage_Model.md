@@ -13,4 +13,4 @@
 
 These factors apply to direct part damage before damage passes to other parts or the frame. Multiply the Armor factor by the weapon’s ARC armor multiplier and cap the result at 1×. WeakPoint and Critical use the weapon’s ARC weak-point multiplier. Both explosive settings are listed because the active flag is unknown.
 
-The build of the script cache used for these calculations is unverified. [Script evidence](../Sources/NativeScript/)
+The script cache used for these calculations matches Steam changelist `1438640`. [Script evidence](../Sources/NativeScript/)

@@ -461,7 +461,20 @@
         "ID_OPTION_CAMERA_PICTURES_SAVED_PATH": "Camera photos are saved in: {0}",
         "ID_OPTION_CAMERA_PICTURES_SAVED_PATH_ALT1": "Camera pictures are saved in: {0}",
         "ID_OPTION_CAMERA_PICTURES_SAVED_PATH_ALT2": "Camera images are saved in: {0}",
-        "ID_OPTION_SELFIE_INVERT_FWD_BWD_DESCRIPTION_ALT1": "In Self-Portrait mode, forward/backward movement will be inverted."
+        "ID_OPTION_SELFIE_INVERT_FWD_BWD_DESCRIPTION_ALT1": "In Self-Portrait mode, forward/backward movement will be inverted.",
+        "ID_OPTION_CROSSPLAY_OFF": "Off",
+        "ID_OPTION_CROSSPLAY_ON": "On",
+        "ID_OPTION_CROSSPLAY_CONSOLES_ONLY": "Consoles only",
+        "ID_OPTION_CROSSPLAY_CONSOLE_ONLY": "Console-Only",
+        "ID_OPTION_CROSSPLAY_CONSOLE_ONLY_BETA": "Console-Only (BETA)",
+        "ID_OPTION_CROSSPLAY_ON_CONSOLE_ONLY": "On (Console-Only)",
+        "ID_OPTION_CROSSPLAY_OFF_CONSOLE_ONLY": "Off (Console-Only)",
+        "ID_OPTION_CROSSPLAY_CONFIRMATION_BODY_ALT2": "Some of your party members are on other platforms. By changing crossplay settings, you'll automatically leave your current party.",
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION": "Please note that any crossplay setting besides \"On\" may increase your matchmaking time.",
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT": "Matchmaking time might be longer if Crossplay is not set to \"On\".",
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT2": "Matchmaking time might be increased if your crossplay setting is {0} or {1}.",
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT3": "If Crossplay is not set to \"On\", your matchmaking times might be longer.",
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_ALT3": "Crossplay settings can not be changed during matchmaking, or if controlled by your system settings. If Crossplay is not set to \"On\", your matchmaking times might be longer."
       },
       "KeysToMetaData": {
         "ID_OPTION_GAMEPAD_FOV_SENSITIVITY_SCALING_SONY_CERT": {
@@ -2035,6 +2048,53 @@
         },
         "ID_OPTION_SELFIE_INVERT_FWD_BWD_DESCRIPTION_ALT1": {
           "Note": "Description of the settings that allow players to invert the player's Forwards and Back movement while in Selfie Mode.Max. char. limit: 120",
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_CONSOLE_ONLY": {
+          "Note": "Setting added for Xbox Console and Playstation Console pools. Excludes WinGDK (which can be on PC) users (Cert requirement for \"Off\")",
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_CONSOLE_ONLY_BETA": {
+          "Note": "we might launch this as a BETA and roll it back so this option reflects that baked into the string",
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_CONFIRMATION_BODY_ALT2": {
+          "Note": "might replace ID_OPTION_CROSSPLAY_CONFIRMATION_BODY",
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION": {
+          "Note": "generic version as crossplay won't be a binary option anymore and will depend on which platform one is on.",
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_ALT3": {
+          "Note": "Full description in case one single String is required for the Settings Description",
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_ON_CONSOLE_ONLY": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_OFF_CONSOLE_ONLY": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT2": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT3": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_CONSOLES_ONLY": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CAMERA_GADGET": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_OFF": {
+          "Status": "approved"
+        },
+        "ID_OPTION_CROSSPLAY_ON": {
           "Status": "approved"
         }
       }

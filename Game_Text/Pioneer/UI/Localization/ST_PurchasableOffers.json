@@ -325,7 +325,9 @@
         "ID_PURCHASABLE_BUNDLE_THEBUTTEROSET": "The Dead Eye Set",
         "ID_PURCHASABLE_BUNDLE_THEBUTTEROSET_DESC": "For the Raider whose gaze cuts through the soul, like a knife cuts through butter.",
         "ID_PURCHASABLE_BUNDLE_THESTATIONMASTERSET": "The Caposta Set",
-        "ID_PURCHASABLE_BUNDLE_THESTATIONMASTERSET_DESC": "Heavy-duty elegance paying homage to the engine’s heartbeat and the winter’s reach."
+        "ID_PURCHASABLE_BUNDLE_THESTATIONMASTERSET_DESC": "Heavy-duty elegance paying homage to the engine’s heartbeat and the winter’s reach.",
+        "ID_PURCHASABLE_BUNDLE_THENOXIOUSSET": "The Noxious Set",
+        "ID_PURCHASABLE_BUNDLE_THENOXIOUSSET_DESC": "Breathe easy even when the smoke rolls in."
       },
       "KeysToMetaData": {
         "ID_PURCHASABLEOFFER_ITEMBUNDLE_ARCBACKPACK": {
@@ -1282,6 +1284,12 @@
           "Status": "approved"
         },
         "ID_PURCHASABLEOFFER_STOREBUNDLE_PREMIUMFROZENTRAILPASS_SHORT": {
+          "Status": "approved"
+        },
+        "ID_PURCHASABLE_BUNDLE_THENOXIOUSSET": {
+          "Status": "approved"
+        },
+        "ID_PURCHASABLE_BUNDLE_THENOXIOUSSET_DESC": {
           "Status": "approved"
         }
       }

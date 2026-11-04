@@ -124,7 +124,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_BattleRifle_BreachAction_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Projectile_BattleRifle_BreachAction_01.4"
       },
-      "VariableGUID": "A30EB1C7-47F28ED9-09D4AEB9-5ACB56A7",
+      "VariableGuid": "A30EB1C7-47F28ED9-09D4AEB9-5ACB56A7",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

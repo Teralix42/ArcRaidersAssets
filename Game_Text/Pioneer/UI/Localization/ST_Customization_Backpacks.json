@@ -45,7 +45,9 @@
         "ID_CUSTOMIZATION_BACKPACK_TRASHPILEBAG": "Trashpile Bag",
         "ID_CUSTOMIZATION_BACKPACK_FIELDPHONE": "Field Telephone",
         "ID_CUSTOMIZATION_BACKPACK_IRONSTOVE": "Hearthkeeper",
-        "ID_CUSTOMIZATION_BACKPACK_STEAMWRIGHT": "Steamwright"
+        "ID_CUSTOMIZATION_BACKPACK_STEAMWRIGHT": "Steamwright",
+        "ID_CUSTOMIZATION_BACKPACK_APOCALYPSE": "Lone Survivor",
+        "ID_CUSTOMIZATION_BACKPACK_PILGRIM": "Pilgrim"
       },
       "KeysToMetaData": {
         "ID_CUSTOMIZATION_BACKPACK_URN": {
@@ -160,6 +162,12 @@
           "Status": "approved"
         },
         "ID_CUSTOMIZATION_BACKPACK_IRONSTOVE": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_BACKPACK_PILGRIM": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_BACKPACK_APOCALYPSE": {
           "Status": "approved"
         }
       }

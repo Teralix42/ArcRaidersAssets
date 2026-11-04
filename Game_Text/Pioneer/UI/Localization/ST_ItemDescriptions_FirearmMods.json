@@ -50,7 +50,8 @@
         "ID_ITEMDESC_UNDERBARREL_VERTICALGRIP_03": "Significantly reduces vertical recoil.",
         "ID_ITEMDESC_MUZZLE_EXTENDEDBARREL_01": "Slightly increases bullet velocity & distance until damage falloff.",
         "ID_ITEMDESC_MUZZLE_EXTENDEDBARREL_02": "Moderately increases bullet velocity & distance until damage falloff.",
-        "ID_ITEMDESC_MUZZLE_EXTENDEDBARREL_03": "Significantly increases bullet velocity & distance until damage falloff."
+        "ID_ITEMDESC_MUZZLE_EXTENDEDBARREL_03": "Significantly increases bullet velocity & distance until damage falloff.",
+        "ID_ITEMDESC_TECH_PROJECTILESPLITTER_LEGACY": "No longer functional, but can still be sold or recycled."
       },
       "KeysToMetaData": {
         "ID_ITEMDESC_MAGAZINEHEAVY_EXTENDED_01": {
@@ -180,6 +181,9 @@
           "Status": "approved"
         },
         "ID_ITEMDESC_MUZZLE_EXTENDEDBARREL_03": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESC_TECH_PROJECTILESPLITTER_LEGACY": {
           "Status": "approved"
         }
       }

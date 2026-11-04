@@ -94,7 +94,12 @@
         "ID_CHARACTER_BACKPACKATTACHMENT_MAILBOX": "Mailbox",
         "ID_CHARACTER_BACKPACKATTACHMENT_RESPIRATOR": "Respirator",
         "ID_CHARACTER_BACKPACKATTACHMENT_TRAINWHISTLE": "Train Whistle",
-        "ID_CHARACTER_FURNITURE_RETROSOFA": "Retro Sofa"
+        "ID_CHARACTER_FURNITURE_RETROSOFA": "Retro Sofa",
+        "ID_CHARACTER_BACKPACKATTACHMENT_CIRCULARSAW": "Circular Saw",
+        "ID_CHARACTER_BACKPACKATTACHMENT_PANETTONE": "Anniversary Panettone",
+        "ID_CHARACTER_BACKPACKATTACHMENT_ANNIVERSARYCAKE": "Anniversary Cake",
+        "ID_CHARACTER_BACKPACKATTACHMENT_FAXMACHINECORSAIR": "Fax Machine - Black Yellow",
+        "ID_CHARACTER_BACKPACKATTACHMENT_KEYBOARDCORSAIR": "Keyboard - Black Yellow"
       },
       "KeysToMetaData": {
         "ID_CHARACTER_BACKPACKATTACHMENT_SPINNINGTOP": {
@@ -355,6 +360,21 @@
           "Status": "approved"
         },
         "ID_CHARACTER_FURNITURE_RETROSOFA": {
+          "Status": "approved"
+        },
+        "ID_CHARACTER_BACKPACKATTACHMENT_PANETTONE": {
+          "Status": "approved"
+        },
+        "ID_CHARACTER_BACKPACKATTACHMENT_ANNIVERSARYCAKE": {
+          "Status": "approved"
+        },
+        "ID_CHARACTER_BACKPACKATTACHMENT_CIRCULARSAW": {
+          "Status": "approved"
+        },
+        "ID_CHARACTER_BACKPACKATTACHMENT_FAXMACHINECORSAIR": {
+          "Status": "approved"
+        },
+        "ID_CHARACTER_BACKPACKATTACHMENT_KEYBOARDCORSAIR": {
           "Status": "approved"
         }
       }

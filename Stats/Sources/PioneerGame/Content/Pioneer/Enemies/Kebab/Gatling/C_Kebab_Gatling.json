@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_Kebab_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AimTargetDistributionService",
@@ -29,10 +28,9 @@
     },
     "Properties": {
       "MinRecentSightFraction": 0.1,
-      "MaxTargetDistance": 0.3,
-      "bCancelCapabilityOnCapabilityTargetSwitch": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "MinClearShotFactor": 0.3,
+      "MaxTargetDistance": 0.0
+    }
   },
   {
     "Type": "ArticulatedTargetingService",
@@ -538,8 +536,7 @@
         }
       ],
       "bHoldAimWhileStunned": true
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -609,8 +606,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BP_ConstructableDispersionServiceAutomaticRifle_C",
@@ -760,8 +756,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_Kebab_Gatling_C",
@@ -870,8 +865,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Kebab_Gatling_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -885,8 +879,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Kebab_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.6"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -900,8 +893,7 @@
     "Template": {
       "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Kebab_SharedBase_C:AimAssistTarget'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -915,8 +907,7 @@
     "Template": {
       "ObjectName": "ConstructableCollisionService'Default__C_Kebab_SharedBase_C:CollisionService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.9"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -936,8 +927,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Kebab_Gatling_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -951,8 +941,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Kebab_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.11"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -972,8 +961,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Kebab_Gatling_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -999,8 +987,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -1014,8 +1001,7 @@
     "Template": {
       "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Kebab_SharedBase_C:PerceptionService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.14"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DeathDelayService",
@@ -1031,8 +1017,7 @@
         "TagName": "Ability.Turret.Emerge"
       },
       "DelaySeconds": 2.5
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -1057,8 +1042,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_PartScavengeSetup_Kebab_Gatling.0"
       },
       "MaxLoosePartDistanceFromRoot": 2000.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -1072,8 +1056,7 @@
     "Template": {
       "ObjectName": "HealthGroupService'Default__C_Kebab_SharedBase_C:HealthGroupService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.17"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -1299,8 +1282,7 @@
           }
         ]
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -1358,8 +1340,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -1373,8 +1354,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_Kebab_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -1388,8 +1368,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableAIStateService'Default__C_Kebab_SharedBase_C:AIStateService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.21"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1732,8 +1711,7 @@
           "ActiveDuringState": 7
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionBoxShape",
@@ -1754,8 +1732,7 @@
         "X": 20.0,
         "Y": 20.0
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionBoxShape",
@@ -1776,8 +1753,7 @@
         "X": 20.0,
         "Y": 20.0
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionBoxShape",
@@ -1798,8 +1774,7 @@
         "X": 20.0,
         "Y": 20.0
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleClearShot",
@@ -1839,8 +1814,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleClearShot",
@@ -1880,8 +1854,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleClearShot",
@@ -1921,8 +1894,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleDiscovery",
@@ -1935,8 +1907,7 @@
     },
     "Properties": {
       "ScoreDelta": -0.8
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleDiscovery",
@@ -1949,8 +1920,7 @@
     },
     "Properties": {
       "ScoreDelta": -0.8
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleDiscovery",
@@ -1963,8 +1933,7 @@
     },
     "Properties": {
       "ScoreDelta": -0.8
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -1980,8 +1949,7 @@
       "Tags": [
         "Ability.DodgeRoll.Active"
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -1999,8 +1967,7 @@
         "Ability.Slide"
       ],
       "DecayPerSecond": 0.1
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -2016,8 +1983,7 @@
       "Tags": [
         "Ability.DodgeRoll.Active"
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -2033,8 +1999,7 @@
       "Tags": [
         "Ability.DodgeRoll.Active"
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -2052,8 +2017,7 @@
         "Ability.Slide"
       ],
       "DecayPerSecond": 0.1
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetCharacterStance",
@@ -2067,8 +2031,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleTargetCharacterStance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetCharacterStance_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.6"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetDistance",
@@ -2120,8 +2083,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetDistance",
@@ -2173,8 +2135,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetDistance",
@@ -2226,8 +2187,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetSpeed",
@@ -2280,8 +2240,7 @@
         }
       },
       "AlignedVelocityFactor": 0.3
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetSpeed",
@@ -2334,8 +2293,7 @@
         }
       },
       "AlignedVelocityFactor": 0.3
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetSpeed",
@@ -2388,8 +2346,7 @@
         }
       },
       "AlignedVelocityFactor": 0.3
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionTargetAttribute",
@@ -2417,8 +2374,7 @@
           "ObjectPath": "/Script/Angelscript"
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionTargetAttribute",
@@ -2446,8 +2402,7 @@
           "ObjectPath": "/Script/Angelscript"
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionTargetAttribute",
@@ -2475,8 +2430,7 @@
           "ObjectPath": "/Script/Angelscript"
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -2490,8 +2444,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_Kebab_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.23"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -2510,9 +2463,9 @@
       "PingInfoDataAsset": {
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Kebab'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Kebab.0"
-      }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      },
+      "bAlwaysAttachToRoot": true
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -2526,8 +2479,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_Kebab_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.25"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -2537,8 +2489,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Kebab_Gatling_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2558,10 +2509,9 @@
         "ObjectName": "SceneComponent'C_Kebab_Gatling_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.49"
       },
-      "VariableGUID": "5DFB03C6-4FDD463F-28638EA5-CC574FEE",
+      "VariableGuid": "5DFB03C6-4FDD463F-28638EA5-CC574FEE",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2581,10 +2531,9 @@
         "ObjectName": "SnapSpawnDataService'C_Kebab_Gatling_C:SnapSpawnDataService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.55"
       },
-      "VariableGUID": "09C1D537-4FDAEDE8-C315029B-C9D429C0",
+      "VariableGuid": "09C1D537-4FDAEDE8-C315029B-C9D429C0",
       "InternalVariableName": "SnapSpawnDataService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2604,10 +2553,9 @@
         "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Kebab_Gatling_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.4"
       },
-      "VariableGUID": "A83E3805-4C7C06B3-1DBE7096-CA0BF2CF",
+      "VariableGuid": "A83E3805-4C7C06B3-1DBE7096-CA0BF2CF",
       "InternalVariableName": "BP_ConstructableDispersionServiceAutomaticRifle"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2627,10 +2575,9 @@
         "ObjectName": "DeathDelayService'C_Kebab_Gatling_C:DeathDelayService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.14"
       },
-      "VariableGUID": "2CABA3CE-482D9BEC-39B3F3B4-7599ADD1",
+      "VariableGuid": "2CABA3CE-482D9BEC-39B3F3B4-7599ADD1",
       "InternalVariableName": "DeathDelayService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -2674,8 +2621,7 @@
         "ObjectName": "SCS_Node'C_Kebab_Gatling_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.50"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SnapSpawnDataService",
@@ -2685,8 +2631,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Kebab_Gatling_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -2706,8 +2651,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Kebab_Gatling_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -2721,8 +2665,7 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_Kebab_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Shared/C_Kebab_SharedBase.34"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetElevationRejection",
@@ -2735,8 +2678,7 @@
     },
     "Properties": {
       "MaxElevationDegrees": 60.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetElevationRejection",
@@ -2749,8 +2691,7 @@
     },
     "Properties": {
       "MaxElevationDegrees": 60.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetElevationRejection",
@@ -2763,8 +2704,7 @@
     },
     "Properties": {
       "MaxElevationDegrees": 60.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetIsDBNORejection",
@@ -2777,8 +2717,7 @@
     },
     "Properties": {
       "bPassIfTrue": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetIsDBNORejection",
@@ -2791,8 +2730,7 @@
     },
     "Properties": {
       "bPassIfTrue": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetIsDBNORejection",
@@ -2805,8 +2743,7 @@
     },
     "Properties": {
       "bPassIfTrue": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetIsDeadRejection",
@@ -2816,8 +2753,7 @@
     "Outer": {
       "ObjectName": "PioneerConstructableCapabilityService'Default__C_Kebab_Gatling_C:CapabilityService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.21"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetIsDeadRejection",
@@ -2827,8 +2763,7 @@
     "Outer": {
       "ObjectName": "PioneerConstructableCapabilityService'Default__C_Kebab_Gatling_C:CapabilityService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.21"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "TargetIsDeadRejection",
@@ -2838,7 +2773,6 @@
     "Outer": {
       "ObjectName": "PioneerConstructableCapabilityService'Default__C_Kebab_Gatling_C:CapabilityService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.21"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

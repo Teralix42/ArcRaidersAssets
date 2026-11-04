@@ -22,7 +22,6 @@
         "ID_ITEMDESCRIPTIONS_SALVAGE_CALIBRATED_TRANSMITTER": "A beacon with a copy of the Emperor's identifier signal. Deploy in an open area to call in Harvester Payloads.",
         "ID_ITEMDESCRIPTIONS_SALVAGE_BROKEN_TRANSMITTER": "This beacon no longer has any power to send a signal.",
         "ID_ITEMDESCRIPTIONS_SALVAGE_CALIBRATED_TRANSMITTER_ALT1": "A beacon with a copy of the Emperor's identifier signal. Deploy in an open area to call in Emperor Payloads.",
-        ":ID_ITEMDESCRIPTIONS_SALVAGE_MEERKAT_TURRET_PART": "Can be deployed to target any Raiders nearby.",
         ":ID_ITEMDESCRIPTIONS_SALVAGE_TARRAGON_PART": "Fragments into exploding clusters when thrown.",
         "ID_ITEMDESCRIPTIONS_SALVAGE_MEERKAT_TURRET_PART": "Can be deployed to target any Raiders and ARC nearby.",
         "ID_ITEMDESCRIPTIONS_SALVAGE_TARRAGON_PART": "Fragments into exploding clusters when thrown."
@@ -72,10 +71,6 @@
         },
         "ID_ITEMDESCRIPTIONS_SALVAGE_CALIBRATED_TRANSMITTER_ALT1": {
           "Status": "approved"
-        },
-        ":ID_ITEMDESCRIPTIONS_SALVAGE_MEERKAT_TURRET_PART": {
-          "Status": "new",
-          "Note": "Incorrect"
         },
         ":ID_ITEMDESCRIPTIONS_SALVAGE_TARRAGON_PART": {
           "Status": "new"

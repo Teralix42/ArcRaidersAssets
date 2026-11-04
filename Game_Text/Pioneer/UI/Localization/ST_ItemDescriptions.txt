@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ItemDescriptions
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_ITEMCELEBRATIONSCREEN_FROZENTRAILMAT1_DESCRIPTION]
 FrozenTrailMat1 Description
@@ -114,7 +114,7 @@ Surprisingly dilligent notetaking, in surprisingly legible handwriting.
 RareAscensionModule Description
 
 [ID_ITEMDESCRIPTIONS_SHEETMETAL_DESCRIPTION]
-SheetMetal Description
+Used to craft sturdy objects, like furniture.
 
 [ID_ITEMDESCRIPTIONS_STEELCABLE_DESCRIPTION]
 SteelCable Description
@@ -299,6 +299,9 @@ Unlocks certain kinds of doors throughout the Dam.
 [ID_ITEMDESC_DART_BOARD]
 Some Raiders use it to practice dexterity. Others just like throwing things at other things.
 
+[ID_ITEMDESC_DEADFLOWERS]
+Don't give these to your date.
+
 [ID_ITEMDESC_DEFLATEDFOOTBALL]
 Just by looking at this, you too start to feel slightly deflated.
 
@@ -340,6 +343,9 @@ A snapshot of the world before, faded by sunlight and time.
 
 [ID_ITEMDESC_FAMILIARDUCK]
 Unlike the real one, this one fits in your pack.
+
+[ID_ITEMDESC_FANCYPLATE]
+Careful not to shatter it.
 
 [ID_ITEMDESC_FINE_WRISTWATCH]
 Perfect for telling the time, and showcasing that you're an exceedingly dignified person.
@@ -434,6 +440,9 @@ Assorted spare parts used for pistols and SMGs.
 [ID_ITEMDESC_MAGNET]
 Fun thing to put on a fridgerator.
 
+[ID_ITEMDESC_MASKFRAGMENT]
+Half a face, cast in bronze.
+
 [ID_ITEMDESC_MECHANICALCOMPONENTS]
 Assorted metal hardware, bound to have some kind of use.
 
@@ -460,6 +469,9 @@ Perfect for relaxing nights at home, casual get-togethers, and private air guita
 
 [ID_ITEMDESC_MUZZLECOMPONENTS]
 A crucial component for crafting muzzles for your weapons.
+
+[ID_ITEMDESC_OFFERINGTABLE]
+Inlaid marble on gilded heron legs.
 
 [ID_ITEMDESC_OILSHROOM]
 These mushrooms thrive on a wide range of pollutants: oil spills, heavy metals, pesticides, you name it! It goes without saying that you shouldn't eat them.
@@ -500,6 +512,9 @@ This could be your ticket back home, if you can find a place to use it at.
 [ID_ITEMDESC_RAIDER_HATCH_KEY]
 Unlocks a Raider Hatch.
 
+[ID_ITEMDESC_RAILWAYLANTERN]
+Once kept trains from running into each other in the dark.
+
 [ID_ITEMDESC_REALLYNICEROCK]
 When you know, you know.
 
@@ -536,6 +551,9 @@ Unlocks a door to the Classified Records room in the Port Authority Building at 
 [ID_ITEMDESC_RIVENTIDES_WAVEBREAKERKEY2]
 Unlocks a door to the Secure Storage room in the Port Authority Building at Riven Tides.
 
+[ID_ITEMDESC_ROCKSALT]
+Decorative, not dinner.
+
 [ID_ITEMDESC_RUBBERDUCK]
 Always there to lend an ear, should you need it.
 
@@ -558,8 +576,8 @@ Impossible to see through, but walking into things never looked so good.
 Temporary security code to unlock the main gate.
 
 [ID_ITEMDESC_SECURITYCODE_ALT2]
-Temporary security code to unlock the main gate.
-
+Temporary security code to unlock the main gate.
+
 Will expire upon returning to Speranza.
 
 [ID_ITEMDESC_SENSORS]

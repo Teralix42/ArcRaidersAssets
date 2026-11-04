@@ -651,7 +651,7 @@
         "ObjectName": "SceneComponent'CS_Pop_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.12"
       },
-      "VariableGUID": "D51B1BF4-45893427-5CE6008C-E597B8FB",
+      "VariableGuid": "D51B1BF4-45893427-5CE6008C-E597B8FB",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -683,7 +683,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.15"
         }
       ],
-      "VariableGUID": "18496A22-445357CF-2C1350B6-88CB2C01",
+      "VariableGuid": "18496A22-445357CF-2C1350B6-88CB2C01",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -705,7 +705,7 @@
         "ObjectName": "PointLightComponent'CS_Pop_SK_C:PointLight_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.11"
       },
-      "VariableGUID": "CE1DE0B1-4DAE8EA3-62CC3E92-75CACB48",
+      "VariableGuid": "CE1DE0B1-4DAE8EA3-62CC3E92-75CACB48",
       "InternalVariableName": "PointLight"
     }
   },
@@ -727,7 +727,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Pop_SK_C:FoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.29"
       },
-      "VariableGUID": "DB4A013B-43573F87-F27477A6-A48D9DFA",
+      "VariableGuid": "DB4A013B-43573F87-F27477A6-A48D9DFA",
       "InternalVariableName": "FoldWeaponsSimpleAnimationSequenceComponent"
     }
   },
@@ -749,7 +749,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Pop_SK_C:AlertedModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.28"
       },
-      "VariableGUID": "4807F5AD-436676EC-527D50BD-EA03F072",
+      "VariableGuid": "4807F5AD-436676EC-527D50BD-EA03F072",
       "InternalVariableName": "AlertedModeAnim"
     }
   },
@@ -771,7 +771,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_Pop_SK_C:UnfoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.30"
       },
-      "VariableGUID": "8E9A1DA9-490F55AA-36E180A4-AFA83CD6",
+      "VariableGuid": "8E9A1DA9-490F55AA-36E180A4-AFA83CD6",
       "InternalVariableName": "UnfoldWeaponsSimpleAnimationSequenceComponent"
     }
   },
@@ -793,7 +793,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Pop_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.4"
       },
-      "VariableGUID": "3D036F9C-40365F4D-4F2B3090-24DC1448",
+      "VariableGuid": "3D036F9C-40365F4D-4F2B3090-24DC1448",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -815,7 +815,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Pop_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.1"
       },
-      "VariableGUID": "33EB3B68-46D485ED-0139C187-33CFE173",
+      "VariableGuid": "33EB3B68-46D485ED-0139C187-33CFE173",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -837,7 +837,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Pop_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.5"
       },
-      "VariableGUID": "E1B9622D-4A4D904D-2F64C39B-1CD518AB",
+      "VariableGuid": "E1B9622D-4A4D904D-2F64C39B-1CD518AB",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -859,7 +859,7 @@
         "ObjectName": "BP_DamageStyleDriver_Small_C'CS_Pop_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.3"
       },
-      "VariableGUID": "FEF4E5E8-44FF40BF-1A0CE1B9-9700A7CA",
+      "VariableGuid": "FEF4E5E8-44FF40BF-1A0CE1B9-9700A7CA",
       "InternalVariableName": "BP_DamageStyleDriver_Small"
     }
   },
@@ -881,7 +881,7 @@
         "ObjectName": "SpottableStyleDriver'CS_Pop_SK_C:SpottableStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.33"
       },
-      "VariableGUID": "A32B7B29-426F3F12-C086B789-E59262EE",
+      "VariableGuid": "A32B7B29-426F3F12-C086B789-E59262EE",
       "InternalVariableName": "SpottableStyleDriver"
     }
   },
@@ -903,7 +903,7 @@
         "ObjectName": "CBP_StunStyleDriver_C'CS_Pop_SK_C:CBP_StunStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.6"
       },
-      "VariableGUID": "C468A331-49FEEEC5-CC925286-E4C23FB7",
+      "VariableGuid": "C468A331-49FEEEC5-CC925286-E4C23FB7",
       "InternalVariableName": "CBP_StunStyleDriver"
     }
   },
@@ -925,7 +925,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Pop_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.0"
       },
-      "VariableGUID": "4A2953D8-4F0CF4A5-B70E7386-E22CE1A2",
+      "VariableGuid": "4A2953D8-4F0CF4A5-B70E7386-E22CE1A2",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -947,7 +947,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Pop_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.10"
       },
-      "VariableGUID": "0E6E6ED8-4535803D-9D31D580-623B7EB7",
+      "VariableGuid": "0E6E6ED8-4535803D-9D31D580-623B7EB7",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -969,7 +969,7 @@
         "ObjectName": "ConstructableGroundEngineAudioComponent'CS_Pop_SK_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.7"
       },
-      "VariableGUID": "DA0BA6C0-470F437C-D7D4F6A3-739AC905",
+      "VariableGuid": "DA0BA6C0-470F437C-D7D4F6A3-739AC905",
       "InternalVariableName": "ConstructableGroundEngineAudioComponent"
     }
   },

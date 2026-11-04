@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_EliteDrone_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -22,8 +21,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_LightDrone_Elite_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -82,8 +80,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_LightDrone_Elite_C",
@@ -201,8 +198,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_LightDrone_Elite_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -216,8 +212,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_EliteDrone_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -231,8 +226,7 @@
     "Template": {
       "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_EliteDrone_SharedBase_C:AimAssistTarget'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.4"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -288,8 +282,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -449,8 +442,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -470,8 +462,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_LightDrone_Elite_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -485,8 +476,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_EliteDrone_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -506,8 +496,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_LightDrone_Elite_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/CS_LightDrone_Elite_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -553,8 +542,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -574,8 +562,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_Hornet_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/DataAssets/DA_Hornet_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -598,8 +585,7 @@
         "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Hornet'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_PartScavengeSetup_Hornet.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -827,8 +813,7 @@
           "AdditionalGameplayEffects": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -842,8 +827,7 @@
     "Template": {
       "ObjectName": "HealthService'Default__C_EliteDrone_SharedBase_C:HealthService'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.13"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HoverMovementComponentAI",
@@ -878,8 +862,7 @@
         }
       ],
       "WindForceMultiplier": 1.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -915,8 +898,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -930,8 +912,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_EliteDrone_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.16"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -949,8 +930,7 @@
     "Properties": {
       "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::StopAimingInCurrentPose",
       "SightRangeStrengthScale": 0.85
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1127,8 +1107,7 @@
           "bStunnable": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1142,8 +1121,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_EliteDrone_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1163,10 +1141,9 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Hornet'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Hornet.0"
       },
-      "PartTagQueryToAttachTo": {},
-      "bSkipPingAttachment": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "bAlwaysAttachToRoot": true,
+      "bResetPositionOnTick": true
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1180,8 +1157,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_EliteDrone_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.23"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1191,8 +1167,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_LightDrone_Elite_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1212,10 +1187,9 @@
         "ObjectName": "SceneComponent'C_LightDrone_Elite_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.24"
       },
-      "VariableGUID": "783AD921-4C81C0E1-96CBBEBE-1702469E",
+      "VariableGuid": "783AD921-4C81C0E1-96CBBEBE-1702469E",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1237,10 +1211,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "5D9F2370-484BAEB7-5FFAE7B3-05814EAD",
+      "VariableGuid": "5D9F2370-484BAEB7-5FFAE7B3-05814EAD",
       "InternalVariableName": "AITargetComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1260,10 +1233,9 @@
         "ObjectName": "ConstructableAnimationService'C_LightDrone_Elite_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.6"
       },
-      "VariableGUID": "C9999C62-42BC3121-9D398098-8518F80D",
+      "VariableGuid": "C9999C62-42BC3121-9D398098-8518F80D",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1299,8 +1271,7 @@
         "ObjectName": "SCS_Node'C_LightDrone_Elite_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.25"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1320,8 +1291,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_LightDrone_Elite_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/CS_LightDrone_Elite_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1335,7 +1305,6 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_EliteDrone_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/C_EliteDrone_SharedBase.33"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

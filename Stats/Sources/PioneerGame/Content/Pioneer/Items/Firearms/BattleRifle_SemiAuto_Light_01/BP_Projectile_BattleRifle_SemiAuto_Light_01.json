@@ -129,7 +129,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_BattleRifle_SemiAuto_Light_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.4"
       },
-      "VariableGUID": "EB310364-43765542-A50F78AB-2421B4D7",
+      "VariableGuid": "EB310364-43765542-A50F78AB-2421B4D7",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

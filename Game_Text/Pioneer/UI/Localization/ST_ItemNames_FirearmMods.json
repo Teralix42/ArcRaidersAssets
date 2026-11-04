@@ -50,7 +50,9 @@
         "ID_ITEMNAMES_FIREARMMODS_VERTICAL_GRIP_III": "Vertical Grip III",
         "ID_ITEMNAMES_FIREARMMODS_EXTENDED_BARREL_I": "Extended Barrel I",
         "ID_ITEMNAMES_FIREARMMODS_EXTENDED_BARREL_II": "Extended Barrel II",
-        "ID_ITEMNAMES_FIREARMMODS_EXTENDED_BARREL_III": "Extended Barrel III"
+        "ID_ITEMNAMES_FIREARMMODS_EXTENDED_BARREL_III": "Extended Barrel III",
+        "ID_ITEMNAMES_FIREARMMODS_ANVIL_SPLITTER_LEGACY": "Legacy Anvil Splitter",
+        "ID_ITEMNAMES_FIREARMMODS_ANVIL_SPLITTER_LEGACY_ALT1": "Deprecated Anvil Splitter"
       },
       "KeysToMetaData": {
         "ID_ITEMNAMES_FIREARMMODS_EXTENDED_HEAVY_MAG_I": {
@@ -180,6 +182,12 @@
           "Status": "approved"
         },
         "ID_ITEMNAMES_FIREARMMODS_EXTENDED_BARREL_III": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_FIREARMMODS_ANVIL_SPLITTER_LEGACY": {
+          "Status": "approved"
+        },
+        "ID_ITEMNAMES_FIREARMMODS_ANVIL_SPLITTER_LEGACY_ALT1": {
           "Status": "approved"
         }
       }

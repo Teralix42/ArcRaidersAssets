@@ -106,8 +106,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 4 | ID.Armor | 100 | Armor_01, Armor_02, Armor_03 |
 | 5 | ANY(ID.DummyRoot, Group.Indestructible) | 9999 | DummyFrame, CenterAxis_01, Head_01 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

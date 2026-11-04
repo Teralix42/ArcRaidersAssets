@@ -194,7 +194,7 @@
         "ID_ITEMDESCRIPTIONS_FROZENTRAILTECH2_DESCRIPTION": "FrozenTrailTech2 Description",
         "ID_ITEMDESCRIPTIONS_FROZENTRAILTECH1_DESCRIPTION": "FrozenTrailTech1 Description",
         "ID_ITEMDESCRIPTIONS_PLANKS_DESCRIPTION": "Planks Description",
-        "ID_ITEMDESCRIPTIONS_SHEETMETAL_DESCRIPTION": "SheetMetal Description",
+        "ID_ITEMDESCRIPTIONS_SHEETMETAL_DESCRIPTION": "Used to craft sturdy objects, like furniture.",
         "ID_ITEMDESCRIPTIONS_COMMONASCENSIONMODULE_DESCRIPTION": "CommonAscensionModule Description",
         "ID_ITEMDESCRIPTIONS_UNCOMMONASCENSIONMODULE_DESCRIPTION": "UncommonAscensionModule Description",
         "ID_ITEMDESCRIPTIONS_RAREASCENSIONMODULE_DESCRIPTION": "RareAscensionModule Description",
@@ -222,7 +222,13 @@
         "ID_ITEMDESC_AMPLIFICATION_MODULE_MK4": "Advanced ARC technology that unlocks epic weapon Amplification.",
         "ID_ITEMDESC_AMPLIFICATION_MODULE_MK5": "Advanced ARC technology that unlocks legendary weapon Amplification.",
         "ID_ITEMDESC_POTTEDPLANT": "A small but tenacious plant, growing happily in a pot",
-        "ID_ITEMDESCRIPTIONS_STENCILPARTS_DESCRIPTION": "Used to apply Stencils to weapons."
+        "ID_ITEMDESCRIPTIONS_STENCILPARTS_DESCRIPTION": "Used to apply Stencils to weapons.",
+        "ID_ITEMDESC_OFFERINGTABLE": "Inlaid marble on gilded heron legs.",
+        "ID_ITEMDESC_RAILWAYLANTERN": "Once kept trains from running into each other in the dark.",
+        "ID_ITEMDESC_FANCYPLATE": "Careful not to shatter it.",
+        "ID_ITEMDESC_MASKFRAGMENT": "Half a face, cast in bronze.",
+        "ID_ITEMDESC_ROCKSALT": "Decorative, not dinner.",
+        "ID_ITEMDESC_DEADFLOWERS": "Don't give these to your date."
       },
       "KeysToMetaData": {
         "ID_ITEMDESC_MUSIC_ALBUM": {
@@ -816,6 +822,28 @@
           "Status": "approved"
         },
         "ID_ITEMDESCRIPTIONS_ASCENSIONFRAGMENTS_DESCRIPTION": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESC_OFFERINGTABLE": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESC_RAILWAYLANTERN": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESC_FANCYPLATE": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESC_MASKFRAGMENT": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESC_ROCKSALT": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESC_DEADFLOWERS": {
+          "Status": "approved"
+        },
+        "ID_ITEMDESCRIPTIONS_SHEETMETAL_DESCRIPTION": {
+          "Note": "",
           "Status": "approved"
         }
       }

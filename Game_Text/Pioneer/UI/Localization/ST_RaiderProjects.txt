@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_RaiderProjects
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_RAIDERPROJECTS_CANTINA_CAROUSEL_HEADER]
 Final Week for Departure
@@ -220,6 +220,27 @@ Departure Window open
 
 [ID_RAIDER_PROJECTS_DEP_WINDOW_OPEN_NOW]
 Departure Window open now
+
+[ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE]
+Any design unlocks require the Outpost to be used.
+
+[ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT]
+Building furniture requires the Outpost.
+
+[ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT2]
+You can build this furniture design in your Outpost.
+
+[ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT3]
+Please note that you can only build this item once you have unlocked the Outpost.
+
+[ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT4]
+Please note that you can only craft this item once you have access to {0}.
+
+[ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT5]
+{0} required to craft this item.
+
+[ID_RAIDER_PROJECTS_DESIGN_UNLOCK_NOTE_ALT6]
+Any design unlocks can be used in the Outpost.
 
 [ID_RAIDER_PROJECTS_EXPEDITION_ABOUT_BUTTON]
 About
@@ -477,7 +498,7 @@ If you choose to sign up, your Raider will depart Speranza once the Expedition l
 This cannot be undone.
 
 [ID_RAIDER_PROJECTS_EXPEDITION_DEPARTURE_DESCRIPTION]
-Your caravan is fully stocked, and your Raider is signed up to depart with the Expedition.
+Your caravan is fully stocked, and your Raider is signed up to depart with the Expedition.
 When the Expedition departs, all items remaining in your Raider’s stash will be contributed to it, and your next Raider can earn up to five skill points based on the total value of those items.
 
 [ID_RAIDER_PROJECTS_EXPEDITION_DEPARTURE_DPART_BUTTON]
@@ -487,7 +508,7 @@ Depart
 Inventory Value
 
 [ID_RAIDER_PROJECTS_EXPEDITION_DEPARTURE_NOTSIGNEDUP_DESCRIPTION]
-Your caravan is stocked with all necessities and ready to depart on the Expedition. You can now sign up your Raider for departure, sending them beyond the borders of the Rust Belt for good.
+Your caravan is stocked with all necessities and ready to depart on the Expedition. You can now sign up your Raider for departure, sending them beyond the borders of the Rust Belt for good.
 When the Expedition departs, all items remaining in your Raider’s stash will be contributed to it, and your next Raider can earn up to five skill points based on the total value of those items.
 
 [ID_RAIDER_PROJECTS_EXPEDITION_DEPARTURE_POPUP_DESCRIPTION_CLOSE]
@@ -518,7 +539,7 @@ The departure window for the Expedition opens once the Trials Season ends.
 Total Value
 
 [ID_RAIDER_PROJECTS_EXPEDITION_DEPARTURE_WAITING_DESCRIPTION]
-Your caravan is stocked with all necessities and ready to depart on the Expedition. Once the departure window opens, you can sign up your Raider for departure, sending them beyond the borders of the Rust Belt for good.
+Your caravan is stocked with all necessities and ready to depart on the Expedition. Once the departure window opens, you can sign up your Raider for departure, sending them beyond the borders of the Rust Belt for good.
 When the Expedition departs, all items remaining in your Raider’s stash will be contributed to it, and your next Raider can earn up to five skill points based on the total value of those items.
 
 [ID_RAIDER_PROJECTS_EXPEDITION_DEPARTURE_WAITING_TITLE]
@@ -591,8 +612,8 @@ Depart (Hold)
 Depart now
 
 [ID_RAIDER_PROJECTS_EXPEDITION_GRACE_DESCRIPTION]
-You missed the window to sign up for departure. You have a chance to leave now, your Raider will depart immediately and your progress will be reset. Any bonuses you have not fulfilled requirements for, will be available to catch up with the upcoming Expeditions.
-
+You missed the window to sign up for departure. You have a chance to leave now, your Raider will depart immediately and your progress will be reset. Any bonuses you have not fulfilled requirements for, will be available to catch up with the upcoming Expeditions.
+
 If you rather stay behind you will lose any temporary buffs. Your caravan’s progress will be saved, so you can depart with the next Expedition.
 
 [ID_RAIDER_PROJECTS_EXPEDITION_GRACE_DONT_DEPART]
@@ -815,8 +836,8 @@ Skip tutorial
 Play tutorial
 
 [ID_RAIDER_PROJECTS_EXPEDITION_STEPS_DESCRIPTION]
-Build a caravan to be able to depart on an Expedition. Once your caravan is completed, you can sign up as soon as the departure window opens.
-
+Build a caravan to be able to depart on an Expedition. Once your caravan is completed, you can sign up as soon as the departure window opens.
+
 If you miss the departure, you will lose any temporary buffs until the next Expedition. However, any permanent rewards from past Expeditions will be retained.
 
 [ID_RAIDER_PROJECTS_EXPEDITION_STEPS_HEADER]
@@ -991,7 +1012,7 @@ until window opens
 until departure window opens
 
 [ID_RAIDER_PROJECTS_EXPLANATION_CALENDAR_DESCRIPTION]
-Expeditions run on a set schedule, with each preparation stage unlocking after the previous one is complete. You’ll have 60 days to gather resources and complete your caravan build. Once construction is finished and the departure sign-up window opens, you can sign your Raider up for departure and view the rewards that will carry over to your next Raider.
+Expeditions run on a set schedule, with each preparation stage unlocking after the previous one is complete. You’ll have 60 days to gather resources and complete your caravan build. Once construction is finished and the departure sign-up window opens, you can sign your Raider up for departure and view the rewards that will carry over to your next Raider.
 Missing an Expedition departure window means losing its buffs until the next cycle, so plan your contributions and availability ahead of time.
 
 [ID_RAIDER_PROJECTS_EXPLANATION_CALENDAR_TITLE]
@@ -1175,8 +1196,8 @@ Go to High-Gain Antenna
 High-Gain Antenna
 
 [ID_RAIDER_PROJECTS_SATELLITE_PAGE1_DESCRIPTION]
-With ARC’s operations growing ever more destructive, generous rewards are being offered for the construction of high-gain antennas, to be deployed around the Rust Belt. 
-
+With ARC’s operations growing ever more destructive, generous rewards are being offered for the construction of high-gain antennas, to be deployed around the Rust Belt. 
+
 When placed in open areas, these parabolic dishes can form an array that picks up on distant signals within a narrow beamwidth. Shani believes these may help triangulate the origins of the troubling ARC signals that were recently reported.
 
 [ID_RAIDER_PROJECTS_SATELLITE_PAGE1_TITLE]
@@ -1418,6 +1439,9 @@ A Triumphant Exit
 
 [ID_RAIDER_PROJECT_EXPEDITION_LAST_STEP_PAGE_TITLE_ALT2]
 Coup de Grâce
+
+[ID_RAIDER_PROJECT_HALLOWEEN_PROJECT_NAME]
+Soul's Offering
 
 [ID_RAIDER_PROJECT_JUNE_PROJECT_NAME]
 Converging Paths

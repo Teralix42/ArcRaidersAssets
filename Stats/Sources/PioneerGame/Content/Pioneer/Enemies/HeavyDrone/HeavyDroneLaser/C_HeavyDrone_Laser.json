@@ -2218,7 +2218,7 @@
         "ObjectName": "SceneComponent'C_HeavyDrone_Laser_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/C_HeavyDrone_Laser.29"
       },
-      "VariableGUID": "1E18DB67-4631EE7D-B00EAA8C-077BA877",
+      "VariableGuid": "1E18DB67-4631EE7D-B00EAA8C-077BA877",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -2240,7 +2240,7 @@
         "ObjectName": "ProjectileDeflectService'C_HeavyDrone_Laser_C:ProjectileDeflectService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/C_HeavyDrone_Laser.26"
       },
-      "VariableGUID": "92876DAF-4382A3C2-519BFDA5-4F2F3C43",
+      "VariableGuid": "92876DAF-4382A3C2-519BFDA5-4F2F3C43",
       "InternalVariableName": "ProjectileDeflectService"
     }
   },
@@ -2264,7 +2264,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "6D84E31D-4BD575DD-8459FDAC-58608BD2",
+      "VariableGuid": "6D84E31D-4BD575DD-8459FDAC-58608BD2",
       "InternalVariableName": "AITargetComponent1"
     }
   },
@@ -2286,7 +2286,7 @@
         "ObjectName": "PioneerConstructableDispersionService'C_HeavyDrone_Laser_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/C_HeavyDrone_Laser.23"
       },
-      "VariableGUID": "FBC29C9E-48443489-B05D43AC-916D2D24",
+      "VariableGuid": "FBC29C9E-48443489-B05D43AC-916D2D24",
       "InternalVariableName": "PioneerConstructableDispersionService"
     }
   },

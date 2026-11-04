@@ -488,7 +488,7 @@
         "ObjectName": "SceneComponent'CS_Rose_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.10"
       },
-      "VariableGUID": "B89F1657-4BFB5052-F2762A8B-1178F0AB",
+      "VariableGuid": "B89F1657-4BFB5052-F2762A8B-1178F0AB",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -510,7 +510,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_Rose_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.9"
       },
-      "VariableGUID": "CA2057FF-47DDB55C-7A8C8DAD-287FB134",
+      "VariableGuid": "CA2057FF-47DDB55C-7A8C8DAD-287FB134",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -532,7 +532,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Rose_C:Anim_Emerge_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.24"
       },
-      "VariableGUID": "DB620DC1-490A9DA6-7A8A35B9-81A3478A",
+      "VariableGuid": "DB620DC1-490A9DA6-7A8A35B9-81A3478A",
       "InternalVariableName": "Anim_Emerge"
     }
   },
@@ -554,7 +554,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Rose_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.2"
       },
-      "VariableGUID": "10FB3250-40DBE705-8866C4A1-AA22AFE3",
+      "VariableGuid": "10FB3250-40DBE705-8866C4A1-AA22AFE3",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -576,7 +576,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Rose_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.6"
       },
-      "VariableGUID": "5C1F7A65-4E244DE2-32D2C89D-288D7A31",
+      "VariableGuid": "5C1F7A65-4E244DE2-32D2C89D-288D7A31",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -598,7 +598,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Rose_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.0"
       },
-      "VariableGUID": "0103E377-4852EBAD-A33B27BB-F0267EAC",
+      "VariableGuid": "0103E377-4852EBAD-A33B27BB-F0267EAC",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -626,7 +626,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.20"
         }
       ],
-      "VariableGUID": "484F05B1-413D0753-A7B4018E-7D226161",
+      "VariableGuid": "484F05B1-413D0753-A7B4018E-7D226161",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -648,7 +648,7 @@
         "ObjectName": "MultiStageCustomCapabilityStyleDriver'CS_Rose_C:MultiStageCustomCapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.7"
       },
-      "VariableGUID": "E7FF7294-4EC99D4F-5145FEB6-B9A0EB4C",
+      "VariableGuid": "E7FF7294-4EC99D4F-5145FEB6-B9A0EB4C",
       "InternalVariableName": "MultiStageCustomCapabilityStyleDriver"
     }
   },
@@ -670,7 +670,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Rose_C:Anim_FireL_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.25"
       },
-      "VariableGUID": "63E5CBB2-4E2EBE39-B9DB02A0-E0BFD370",
+      "VariableGuid": "63E5CBB2-4E2EBE39-B9DB02A0-E0BFD370",
       "InternalVariableName": "Anim_FireL"
     }
   },
@@ -693,7 +693,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.4"
       },
       "AttachToName": "Sensor",
-      "VariableGUID": "5F55395B-4797F285-E21E95A3-5A650A12",
+      "VariableGuid": "5F55395B-4797F285-E21E95A3-5A650A12",
       "InternalVariableName": "EyeProxy"
     }
   },
@@ -715,7 +715,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Rose_C:Anim_FireR_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.26"
       },
-      "VariableGUID": "85E8A9FA-45A174A5-DE0CBFA4-30465BFB",
+      "VariableGuid": "85E8A9FA-45A174A5-DE0CBFA4-30465BFB",
       "InternalVariableName": "Anim_FireR"
     }
   },
@@ -901,6 +901,197 @@
                   "SocketID": 0,
                   "PartName": "Barrel_R"
                 }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 211.4415,
+                "Y": 369.7276,
+                "Z": 33.98328
+              },
+              {
+                "X": -287.68887,
+                "Y": -317.26645,
+                "Z": 33.98328
+              },
+              {
+                "X": 343.36835,
+                "Y": -250.93968,
+                "Z": 33.98328
+              },
+              {
+                "X": -347.4098,
+                "Y": 250.9401,
+                "Z": 33.98328
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -296.27646,
+                "Y": 321.18237,
+                "Z": 248.26651
+              },
+              {
+                "X": -243.17273,
+                "Y": -380.36893,
+                "Z": 179.41536
+              },
+              {
+                "X": 373.86996,
+                "Y": -236.17395,
+                "Z": 76.779915
+              },
+              {
+                "X": 138.1169,
+                "Y": 425.08005,
+                "Z": -101.02253
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 821.3147,
+                "Y": -0.33044428,
+                "Z": 146.81668
+              },
+              {
+                "X": 489.97058,
+                "Y": -182.98445,
+                "Z": 269.78036
+              },
+              {
+                "X": 489.98648,
+                "Y": 182.65306,
+                "Z": 269.77524
+              },
+              {
+                "X": 44.330196,
+                "Y": -0.33067316,
+                "Z": 88.64347
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": -15.464426,
+                "Y": -47.800133,
+                "Z": -22.27753
+              },
+              {
+                "X": 15.506921,
+                "Y": 47.519955,
+                "Z": -22.277515
+              },
+              {
+                "X": -45.205017,
+                "Y": 20.471994,
+                "Z": -22.277512
+              },
+              {
+                "X": 45.801476,
+                "Y": -20.522718,
+                "Z": -22.277534
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": 72.28327,
+                "Y": 380.96088,
+                "Z": 61.035446
+              },
+              {
+                "X": 72.283264,
+                "Y": -380.96082,
+                "Z": 61.035843
+              },
+              {
+                "X": 564.82825,
+                "Y": -271.10645,
+                "Z": 17.598549
+              },
+              {
+                "X": 564.82825,
+                "Y": 271.1062,
+                "Z": 17.59855
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 179.8833,
+                "Y": 17.605213,
+                "Z": 37.3151
+              },
+              {
+                "X": 19.15741,
+                "Y": -18.1753,
+                "Z": -34.899128
+              },
+              {
+                "X": 328.41235,
+                "Y": 29.717356,
+                "Z": -29.224588
+              },
+              {
+                "X": 179.88342,
+                "Y": 17.605125,
+                "Z": -34.899162
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": 99.28479,
+                "Y": 12.881844,
+                "Z": -34.899197
+              },
+              {
+                "X": 328.41235,
+                "Y": -29.71729,
+                "Z": -29.224997
+              },
+              {
+                "X": 209.00378,
+                "Y": 3.552132,
+                "Z": -34.89921
+              },
+              {
+                "X": 19.157288,
+                "Y": 18.17524,
+                "Z": -34.899197
               }
             ]
           }

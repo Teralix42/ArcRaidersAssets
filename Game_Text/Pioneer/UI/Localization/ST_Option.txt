@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Option
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_OPTIONS_BUTTON_BINDING]
 Button binding
@@ -36,12 +36,12 @@ Conceal Display Name
 Show Friend Requests
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_FRIEND_INVITES_DESCRIPTION]
-Toggle visibility of new friend requests.
-On: New friend requests will be shown at the top of your screen.
+Toggle visibility of new friend requests.
+On: New friend requests will be shown at the top of your screen.
 Off: You’ll still be able to receive new friend requests, but the request will not be shown at the top of your screen.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_FRIEND_INVITES_DESCRIPTION_RICHTEXT]
-**On:** New friend requests will be shown at the top of your screen.
+**On:** New friend requests will be shown at the top of your screen.
 **Off:** You’ll still be able to receive new friend requests, but the request will not be shown at the top of your screen.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_GROUP_TITLE]
@@ -51,33 +51,33 @@ Notifications
 Show Party Invites
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_PARTY_INVITES_FRIENDS_DESCRIPTION]
-Toggle visibility of party invites
-On: Party invites sent will be shown at the top of your screen and can be accepted.
+Toggle visibility of party invites
+On: Party invites sent will be shown at the top of your screen and can be accepted.
 Off: Party invites are hidden and can’t be accepted.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_PARTY_INVITES_FRIENDS_DESCRIPTION_ALT2]
-Toggle visibility of party invites
-On: Party invites sent will be shown at the top of your screen and can be accepted.
+Toggle visibility of party invites
+On: Party invites sent will be shown at the top of your screen and can be accepted.
 Off: Party invites will not be shown at the top of your screen, but you can accept them from your Social screen.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_PARTY_INVITES_FRIENDS_DESCRIPTION_RICHTEXT]
-**On:** Party invites sent from friends will be shown at the top of your screen and can be accepted.
+**On:** Party invites sent from friends will be shown at the top of your screen and can be accepted.
 **Off:** Party invites from friends will not be shown at the top of your screen, but you can accept them from your Social screen.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_SHOW_ALL]
 Show Social Notifications
 
 [ID_OPTIONS_SOCIAL_PRIVACY_NOTIFICATION_SHOW_ALL_DESCRIPTION]
-Toggle visibility of all social notifications such as party invites and friend requests.
-On: Notifications for social features are shown.
+Toggle visibility of all social notifications such as party invites and friend requests.
+On: Notifications for social features are shown.
 Off: Notifications for social features are hidden.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_SHOW_AS_OFFLINE_TITLE]
 Show As Offline
 
 [ID_OPTIONS_SOCIAL_PRIVACY_STATUS_DESCRIPTION]
-Setting this to ON turns your in-game status to Offline for anyone outside your Party, even if you are Online. You and your Party members will see your presence as Hidden. This doesn't affect any action you can normally perform in game while Online.
-
+Setting this to ON turns your in-game status to Offline for anyone outside your Party, even if you are Online. You and your Party members will see your presence as Hidden. This doesn't affect any action you can normally perform in game while Online.
+
 Please note that this does not change your status on your platform.
 
 [ID_OPTIONS_SOCIAL_PRIVACY_STREAMERMODE]
@@ -102,8 +102,8 @@ Replaces your Display Name with the word “ME” in all places where it is show
 Matchmaking Privacy
 
 [ID_OPTIONS_SOCIAL_STREAMING_MATCHMAKING_PRIVACY_DESCRIPTION]
-Enables additional protection against stream sniping by adding a randomized delay to your matchmaking, and changing your server information in the bottom-right corner to make it less predictable.
-
+Enables additional protection against stream sniping by adding a randomized delay to your matchmaking, and changing your server information in the bottom-right corner to make it less predictable.
+
 When playing in a party, make sure the party leader has this setting toggled on.
 
 [ID_OPTIONS_SOCIAL_STREAMING_MATCHMAKING_PRIVACY_DESCRIPTION_LOCKED]
@@ -113,8 +113,8 @@ Matchmaking Privacy cannot be changed during matchmaking.
 Conceal Server ID
 
 [ID_OPTIONS_SOCIAL_STREAMING_OBFUSCATE_SERVERID_DESCRIPTION]
-Changes your server ID while in round to another unique identifier to reduce stream sniping.
-
+Changes your server ID while in round to another unique identifier to reduce stream sniping.
+
 Embark will still be able to identify your server to assist with support.
 
 [ID_OPTION_ACCESSIBILITY_CONTROLLER_ADAPTIVE_TRIGGERS_DESCRIPTION_SONY_CERT]
@@ -348,8 +348,20 @@ Set to legacy input
 [ID_OPTION_CROSSPLAY_CONFIRMATION_BODY]
 Some of your party members are on other platforms. By turning off crossplay, you'll automatically leave your current party.
 
+[ID_OPTION_CROSSPLAY_CONFIRMATION_BODY_ALT2]
+Some of your party members are on other platforms. By changing crossplay settings, you'll automatically leave your current party.
+
 [ID_OPTION_CROSSPLAY_CONFIRMATION_TITLE]
 Leave current party?
+
+[ID_OPTION_CROSSPLAY_CONSOLES_ONLY]
+Consoles only
+
+[ID_OPTION_CROSSPLAY_CONSOLE_ONLY]
+Console-Only
+
+[ID_OPTION_CROSSPLAY_CONSOLE_ONLY_BETA]
+Console-Only (BETA)
 
 [ID_OPTION_CROSSPLAY_DESCRIPTION]
 Crossplay settings can not be changed during matchmaking, or if controlled by your system settings.
@@ -359,6 +371,9 @@ Crossplay enables you to party up and matchmake with players on other platforms.
 
 [ID_OPTION_CROSSPLAY_DESCRIPTION_ALT2]
 Crossplay enables you to matchmake with players on other platforms.
+
+[ID_OPTION_CROSSPLAY_DESCRIPTION_ALT3]
+Crossplay settings can not be changed during matchmaking, or if controlled by your system settings. If Crossplay is not set to "On", your matchmaking times might be longer.
 
 [ID_OPTION_CROSSPLAY_DESCRIPTION_LOCKED]
 Crossplay settings cannot be changed during matchmaking, or if controlled by your system settings.
@@ -372,11 +387,35 @@ Crossplay cannot be changed. It is currently controlled by your system settings.
 [ID_OPTION_CROSSPLAY_DESCRIPTION_LOCKED_SYSTEM_ALT]
 Crossplay is currently controlled by your system settings.
 
+[ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION]
+Please note that any crossplay setting besides "On" may increase your matchmaking time.
+
+[ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT]
+Matchmaking time might be longer if Crossplay is not set to "On".
+
+[ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT2]
+Matchmaking time might be increased if your crossplay setting is {0} or {1}.
+
+[ID_OPTION_CROSSPLAY_DESCRIPTION_TIME_ADDITION_ALT3]
+If Crossplay is not set to "On", your matchmaking times might be longer.
+
 [ID_OPTION_CROSSPLAY_NOTIFICATION_BODY]
 You've successfully left your party.
 
 [ID_OPTION_CROSSPLAY_NOTIFICATION_TITLE]
 Party left
+
+[ID_OPTION_CROSSPLAY_OFF]
+Off
+
+[ID_OPTION_CROSSPLAY_OFF_CONSOLE_ONLY]
+Off (Console-Only)
+
+[ID_OPTION_CROSSPLAY_ON]
+On
+
+[ID_OPTION_CROSSPLAY_ON_CONSOLE_ONLY]
+On (Console-Only)
 
 [ID_OPTION_DAMAGE_DIRECTION]
 Show Damage Direction
@@ -391,11 +430,11 @@ Compensates for stick drift by setting an inner range in which input is ignored.
 Link Discord
 
 [ID_OPTION_DISCORD_LINK_DESCRIPTION]
-Integrating your ARC Raiders account with Discord will enhance the social interaction with your friend list in both applications by:
-* Invite Discord friends to the game
-* Shows your Discord friends in the game
-* Enhances rich presence for Discord activities
-
+Integrating your ARC Raiders account with Discord will enhance the social interaction with your friend list in both applications by:
+* Invite Discord friends to the game
+* Shows your Discord friends in the game
+* Enhances rich presence for Discord activities
+
 You can always enable or disable the integration as you please, this will not affect the core social options in game such as Party, Friend List or Chat.
 
 [ID_OPTION_DISCORD_LINK_TILE]
@@ -489,46 +528,46 @@ Gamepad Focal Length Sensitivity Scaling
 Wireless Controller Focal Length Sensitivity Scaling
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_DESCRIPTION]
-Determines how the Interact/Reload button behaves.
-Tap to Reload: tap to reload, hold to interact.
-Tap to Interact: tap to interact, hold to reload.
-Prioritize Interact: tap dynamically adjusts to the available action. If both actions are available simultaneously, tap to interact and hold to reload.
+Determines how the Interact/Reload button behaves.
+Tap to Reload: tap to reload, hold to interact.
+Tap to Interact: tap to interact, hold to reload.
+Prioritize Interact: tap dynamically adjusts to the available action. If both actions are available simultaneously, tap to interact and hold to reload.
 Prioritize Reload: tap dynamically adjusts to the available action. If both actions are available simultaneously, tap to reload and hold to interact.
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_DESCRIPTION_PRIORITIZE_INTERACT]
-Determines how the Interact/Reload button behaves.
-
-Selected choice:
+Determines how the Interact/Reload button behaves.
+
+Selected choice:
 Prioritize Interact: tap dynamically adjusts to the available action. If both actions are available simultaneously, tap to interact and hold to reload.
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_DESCRIPTION_PRIORITIZE_RELOAD]
-Determines how the Interact/Reload button behaves.
-
-Selected choice:
+Determines how the Interact/Reload button behaves.
+
+Selected choice:
 Prioritize Reload: tap dynamically adjusts to the available action. If both actions are available simultaneously, tap to reload and hold to interact.
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_DESCRIPTION_RICHTEXT]
-**Tap to Reload:** Tap = reload, hold = interact
-**Tap to Interact:** Tap = interact, hold = reload
-**Prioritize Interact:** Tap adapts to context. If both available, tap = interact, hold = reload
+**Tap to Reload:** Tap = reload, hold = interact
+**Tap to Interact:** Tap = interact, hold = reload
+**Prioritize Interact:** Tap adapts to context. If both available, tap = interact, hold = reload
 **Prioritize Reload:** Tap adapts to context. If both available, tap = reload, hold = interact
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_DESCRIPTION_RICHTEXT_ALT]
-**Tap to Reload:** Tap to reload, hold to interact
-**Tap to Interact:** Tap to interact, hold to reload
-**Prioritize Interact:** Tap adapts to context. If both available, tap to interact, hold to reload
+**Tap to Reload:** Tap to reload, hold to interact
+**Tap to Interact:** Tap to interact, hold to reload
+**Prioritize Interact:** Tap adapts to context. If both available, tap to interact, hold to reload
 **Prioritize Reload:** Tap adapts to context. If both available, tap to reload, hold to interact
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_DESCRIPTION_TAP_INTERACT]
-Determines how the Interact/Reload button behaves.
-
-Selected choice:
+Determines how the Interact/Reload button behaves.
+
+Selected choice:
 Tap to Interact: tap to interact, hold to reload.
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_DESCRIPTION_TAP_RELOAD]
-Determines how the Interact/Reload button behaves.
-
-Selected choice:
+Determines how the Interact/Reload button behaves.
+
+Selected choice:
 Tap to Reload: tap to reload, hold to interact.
 
 [ID_OPTION_GAMEPAD_INTERACT_AND_RELOAD_BEHAVIOUR_PRIORITIZE_INTERACT]
@@ -559,21 +598,21 @@ Look Boost Ramp-up Time
 Vertical Look Boost
 
 [ID_OPTION_GAMEPAD_LOOK_RESPONSE_CURVE_DESCRIPTION]
-This curve determines how much of your stick movement applies to looking based on your input.
-Exponential: Starts low and gradually increases in steepness.
-Linear: Directly maps to your input with a 1:1 ratio.
+This curve determines how much of your stick movement applies to looking based on your input.
+Exponential: Starts low and gradually increases in steepness.
+Linear: Directly maps to your input with a 1:1 ratio.
 Sinusoidal: Smooth in, steep middle, smooth out.
 
 [ID_OPTION_GAMEPAD_LOOK_RESPONSE_CURVE_DESCRIPTION_SONY_CERT]
-This curve determines how much of your stick movement applies to looking based on your input.
-Exponential: Starts low and gradually increases in steepness.
-Linear: Directly maps to your input with a 1:1 ratio.
+This curve determines how much of your stick movement applies to looking based on your input.
+Exponential: Starts low and gradually increases in steepness.
+Linear: Directly maps to your input with a 1:1 ratio.
 Sinusoidal: Smooth in, steep middle, smooth out.
 
 [ID_OPTION_GAMEPAD_LOOK_RESPONSE_CURVE_DESCRIPTION_SONY_CERT_RICHTEXT]
-This curve determines how much of your stick movement applies to looking based on your input.
-**Exponential:** Starts low and gradually increases in steepness.
-**Linear:** Directly maps to your input with a 1:1 ratio.
+This curve determines how much of your stick movement applies to looking based on your input.
+**Exponential:** Starts low and gradually increases in steepness.
+**Linear:** Directly maps to your input with a 1:1 ratio.
 **Sinusoidal:** Smooth in, steep middle, smooth out.
 
 [ID_OPTION_GAMEPAD_LOOK_SENSITIVITY_HORIZONTAL]
@@ -679,15 +718,15 @@ Crosshair Only
 Default
 
 [ID_OPTION_HUD_MODE_DESCRIPTION]
-Default: Show all HUD elements.
-Crosshair and Interactions: Show only crosshair and interaction prompts.
-Crosshair Only: Show only the crosshair.
+Default: Show all HUD elements.
+Crosshair and Interactions: Show only crosshair and interaction prompts.
+Crosshair Only: Show only the crosshair.
 Hidden: Hide all HUD elements.
 
 [ID_OPTION_HUD_MODE_DESCRIPTION_RICHTEXT]
-**Default:** Show all HUD elements.
-**Crosshair and Interactions:** Show only crosshair and interaction prompts.
-**Crosshair Only:** Show only the crosshair.
+**Default:** Show all HUD elements.
+**Crosshair and Interactions:** Show only crosshair and interaction prompts.
+**Crosshair Only:** Show only the crosshair.
 **Hidden:** Hide all HUD elements.
 
 [ID_OPTION_HUD_MODE_DYNAMIC]
@@ -1246,10 +1285,10 @@ Boosts how quickly you look up and down when the stick is moved all the way.
 Boosts how quickly you look up and down when the stick is moved all the way.
 
 [ID_OPTION_VIDEO_FSR_FRAME_GENERATION_TOOLTIP]
-AMD FSR Frame Generation increases frame rate by creating additional frames computed from existing inputs.
-
-It is highly recommended to be always running at a minimum of ~60 FPS before frame generation is applied for an optimal high-quality gaming experience and to mitigate any latency introduced by the technology.
-
+AMD FSR Frame Generation increases frame rate by creating additional frames computed from existing inputs.
+
+It is highly recommended to be always running at a minimum of ~60 FPS before frame generation is applied for an optimal high-quality gaming experience and to mitigate any latency introduced by the technology.
+
 This feature can negatively affect performance in ARC Raiders on CPUs with few cores. A minimum of 8 CPU cores is recommended for running AMD FSR Frame Generation.
 
 [ID_OPTION_VOICE]

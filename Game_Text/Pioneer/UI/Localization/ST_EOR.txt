@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_EOR
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ASSISTS]
 Assists
@@ -476,6 +476,12 @@ Progressed
 [ID_EOR_REWARD_PASS_REWARDS_LABEL]
 Rewards:
 
+[ID_EOR_REWARD_PASS_RP_GENERATED_FROM_XP]
+Generated from XP
+
+[ID_EOR_REWARD_PASS_RP_GENERATED_FROM_XP_FORMAT]
+Generated from {0} XP
+
 [ID_EOR_REWARD_PASS_SECTION_TITLE]
 Reward Pass
 
@@ -556,6 +562,12 @@ Safe Return Bonus
 
 [ID_EOR_XP_RATIO]
 {0}/{1} XP
+
+[ID_EOR_XP_RP_CONVERTED]
+Reward Points Converted
+
+[ID_EOR_XP_RP_CONVERTED_FORMAT]
+{0} Converted
 
 [ID_EOR_YOURSELF]
 Yourself

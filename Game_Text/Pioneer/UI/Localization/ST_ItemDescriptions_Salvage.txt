@@ -1,15 +1,12 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ItemDescriptions_Salvage
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [:ID_ITEMDESCRIPTIONS_SALVAGE_MEERKAT_DRIVER]
 Drops from Meerkat.
 
 [:ID_ITEMDESCRIPTIONS_SALVAGE_MEERKAT_DRONE_PART]
 Part of a Meerkat Drone
-
-[:ID_ITEMDESCRIPTIONS_SALVAGE_MEERKAT_TURRET_PART]
-Can be deployed to target any Raiders nearby.
 
 [:ID_ITEMDESCRIPTIONS_SALVAGE_TARRAGON_PART]
 Fragments into exploding clusters when thrown.

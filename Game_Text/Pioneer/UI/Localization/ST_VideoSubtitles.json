@@ -30,6 +30,24 @@
         "ID_VIDEOSUB_TT1OPENING_019": "Who knows? Maybe you'll make a friend or two here.",
         "ID_VIDEOSUB_TT1OPENING_020": "But watch your back,",
         "ID_VIDEOSUB_TT1OPENING_021": "you never know who you can trust.",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_010": "Those stories got us through many a journey.",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_020": "Embellished, I’m sure,",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_030": "but not outright lies.",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_040": "They say they discovered it by accident.",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_050": "A single burst of energy,",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_060": "enough to fray wires right through the plating.",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_070": "We’ve never been able to outgun them; not us.",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_080": "But to outsmart them; stay one step ahead?",
+        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_090": "That, we had perfected.",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_010": "Flying kites by the riverbed...",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_020": "Playing jumprope with mooring lines.",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_030": "One time, we made it halfway up the stacking cranes.",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_040": "It's never just losing a home.",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_050": "Precious few still believe, these days.",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_060": "Now we cower underground;",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_070": "scramble over scraps.",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_080": "And that laughter,",
+        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_090": "once it fades - well...",
         "ID_VIDEOSUB_QUESTS_LOOTRAIDERCAMPS_010": "The camps...",
         "ID_VIDEOSUB_QUESTS_LOOTRAIDERCAMPS_020": "Feels like forever we could spend our nights on the surface;",
         "ID_VIDEOSUB_QUESTS_LOOTRAIDERCAMPS_030": "when we still thought we had a chance",
@@ -421,24 +439,6 @@
         "ID_VIDEOSUB_RIVENTIDESTEASER_021": "The ocean… it’s been a while.",
         "ID_VIDEOSUB_RIVENTIDESTEASER_022": "It’s time to get some antennas on those beautiful beaches.",
         "ID_VIDEOSUB_RIVENTIDESTEASER_023": "and this is where that makes sense.",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_010": "Those stories got us through many a journey.",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_020": "Embellished, I’m sure,",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_030": "but not outright lies.",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_040": "They say they discovered it by accident.",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_050": "A single burst of energy,",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_060": "enough to fray wires right through the plating.",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_070": "We’ve never been able to outgun them; not us.",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_080": "But to outsmart them; stay one step ahead?",
-        "ID_VIDEOSUB_QUESTS_THEFIRSTNOMADS_090": "That, we had perfected.",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_010": "Flying kites by the riverbed...",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_020": "Playing jumprope with mooring lines.",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_030": "One time, we made it halfway up the stacking cranes.",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_040": "It's never just losing a home.",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_050": "Precious few still believe, these days.",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_060": "Now we cower underground;",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_070": "scramble over scraps.",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_080": "And that laughter,",
-        "ID_VIDEOSUB_QUESTS_CELESTECHILDHOODDRAWINGS_090": "once it fades - well...",
         "ID_VIDEOSUB_TRADERUNLOCK_JUANITO_0010": "Go on. They're right there.",
         "ID_VIDEOSUB_TRADERUNLOCK_JUANITO_0020": "You go, then.",
         "ID_VIDEOSUB_TRADERUNLOCK_JUANITO_0030": "They’ve been up there, all this time...",
@@ -612,7 +612,20 @@
         "ID_VIDEOSUB_MAPUNLOCK_PENDOLAPASS_0090": "where fear couldn’t reach.",
         "ID_VIDEOSUB_TT2_MAPUNLOCK_PENDOLAPASS_ONSCREEN_LOCATION_03": "Pendola Pass",
         "ID_VIDEOSUB_TT2_MAPUNLOCK_PENDOLAPASS_ONSCREEN_LOCATION_02": "North",
-        "ID_VIDEOSUB_TT2_MAPUNLOCK_PENDOLAPASS_ONSCREEN_LOCATION_01": "Calabretta"
+        "ID_VIDEOSUB_TT2_MAPUNLOCK_PENDOLAPASS_ONSCREEN_LOCATION_01": "Calabretta",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_010": "They’re arguing about the ceremony.",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_020": "I’m not sure what you expected.",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_030": "I don't know… even a slight amount of cooperation?",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_040": "Then you should have just asked Ferrovia.",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_050": "We always just ask Ferrovia. This is supposed to be different. But no, Murteta wants an upfront payment before they'll even discuss it…",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_060": "And Vaulto?",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_070": "They’re still talking to me through the wall.",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_080": "So, same as always.",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_090": "Four neighbourhoods. Four ways of doing things.",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_100": "And you think this \"ritual\" will help?",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_110": "Well, it’s the one thing we can all agree on.",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_120": "What?",
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_130": "The human cost."
       },
       "KeysToMetaData": {
         "ID_VIDEOSUB_ONSCREEN_EMBARKPRESENTS": {
@@ -2773,6 +2786,58 @@
           "Status": "approved"
         },
         "ID_VIDEOSUB_TT2_MAPUNLOCK_PENDOLAPASS_ONSCREEN_LOCATION_01": {
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_010": {
+          "Note": "Celeste",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_020": {
+          "Note": "Shani",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_030": {
+          "Note": "Celeste",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_050": {
+          "Note": "Celeste",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_070": {
+          "Note": "Celeste",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_090": {
+          "Note": "Celeste",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_110": {
+          "Note": "Celeste",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_130": {
+          "Note": "Celeste",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_040": {
+          "Note": "Shani",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_060": {
+          "Note": "Shani",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_080": {
+          "Note": "Shani",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_100": {
+          "Note": "Shani",
+          "Status": "approved"
+        },
+        "ID_VIDEOSUB_PROJECT_SOULSOFFERING_120": {
+          "Note": "Shani",
           "Status": "approved"
         }
       }

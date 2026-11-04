@@ -509,7 +509,7 @@
         "ObjectName": "SceneComponent'BP_WItem_IncendiarySpread_Ascended_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.7"
       },
-      "VariableGUID": "EB6DC55C-4C811D85-09FE948B-A19C25AE",
+      "VariableGuid": "EB6DC55C-4C811D85-09FE948B-A19C25AE",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

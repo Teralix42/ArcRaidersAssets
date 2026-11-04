@@ -119,7 +119,12 @@
         "ID_CUSTOMIZATION_CHARM_COWBELL": "Cowbell",
         "ID_CUSTOMIZATION_CHARM_GEARBRACELET": "Gear String",
         "ID_CUSTOMIZATION_CHARM_SHERRIFBADGE": "Sheriff Badge",
-        "ID_CUSTOMIZATION_CHARM_WHISTLEBUNDLE": "Whistle Bundle"
+        "ID_CUSTOMIZATION_CHARM_WHISTLEBUNDLE": "Whistle Bundle",
+        "ID_CUSTOMIZATION_CHARM_MOUSEMAT": "Mouse Mat",
+        "ID_CUSTOMIZATION_CHARM_JOYSTICKCHARM": "Joystick",
+        "ID_CUSTOMIZATION_CHARM_KEYBOARD": "Keyboard",
+        "ID_CUSTOMIZATION_CHARM_JOYSTICKCORSAIR": "Joystick - Black Yellow",
+        "ID_CUSTOMIZATION_CHARM_COMPUTERMOUSEBLACKYELLOW": "Mouse - Black Yellow"
       },
       "KeysToMetaData": {
         "ID_CUSTOMIZATION_CHARM_FISH": {
@@ -453,6 +458,21 @@
           "Status": "approved"
         },
         "ID_CHARACTER_BACKPACKATTACHMENT_ICESCREWS": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_CHARM_KEYBOARD": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_CHARM_MOUSEMAT": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_CHARM_JOYSTICKCHARM": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_CHARM_JOYSTICKCORSAIR": {
+          "Status": "approved"
+        },
+        "ID_CUSTOMIZATION_CHARM_COMPUTERMOUSEBLACKYELLOW": {
           "Status": "approved"
         }
       }

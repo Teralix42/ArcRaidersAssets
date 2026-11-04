@@ -119,6 +119,9 @@
         "ID_FORMATS_NUMBER_MILLIONS": {
           "Status": "approved",
           "Note": "\"m\" stands for \"Millions\""
+        },
+        "ID_FORMAT_SLASH_DIVIDER": {
+          "Status": "approved"
         }
       }
     }

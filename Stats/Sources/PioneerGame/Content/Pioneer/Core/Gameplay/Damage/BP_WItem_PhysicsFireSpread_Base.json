@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WItem_PhysicsFireSpread_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WItem_PhysicsFireSpread_Base_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'PhysicsSpreadEffectWorldItem'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WItem_PhysicsFireSpread_Base_C'Default__BP_WItem_PhysicsFireSpread_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WItem_PhysicsFireSpread_Base_C",
+    "Name": "Default__BP_WItem_PhysicsFireSpread_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.BP_WItem_PhysicsFireSpread_Base_C'",
+    "Package": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base",
+    "Properties": {
+      "ApplyGameplayEffectTickRate": 0.5,
+      "GameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Burning_C'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.1"
+      },
+      "EffectAsset": {
+        "ObjectName": "EffectDataAsset'DA_FireGrenade'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/Grenades/DA_FireGrenade.0"
+      },
+      "ObjectTypes": [
+        "ObjectTypeQuery2",
+        "ObjectTypeQuery1",
+        "ObjectTypeQuery8",
+        "ObjectTypeQuery7",
+        "ObjectTypeQuery3",
+        "ObjectTypeQuery9",
+        "ObjectTypeQuery4"
+      ],
+      "SpreadComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_IncendaryPhysSpread_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Throwable/DoTGrenade/BP_IncendaryPhysSpread.0"
+      },
+      "IgnoreOverlapWithConstructableId": [
+        -352140120,
+        1143392102,
+        -504231823,
+        299263764
+      ],
+      "FireEffect": {
+        "ObjectName": "NiagaraSystem'NS_FireGrenade_New'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Items/Fire/NS_FireGrenade_New.30"
+      },
+      "FireStartSound": {
+        "ObjectName": "SoundCue'Explosion_Incendiary_Grenade'",
+        "ObjectPath": "/Game/Pioneer/Audio/Explosions/Explosion_Incendiary_Grenade.0"
+      },
+      "FireSound": {
+        "ObjectName": "SoundCue'Fire_Ground'",
+        "ObjectPath": "/Game/Pioneer/Audio/GamePlayEffects/Fires/Fire_Ground.0"
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_PhysicsFireSpread_Base_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.5"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_PhysicsFireSpread_Base_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.5"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_PhysicsFireSpread_Base_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_PhysicsFireSpread_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WItem_PhysicsFireSpread_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WItem_PhysicsFireSpread_Base_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.2"
+      },
+      "VariableGuid": "EB6DC55C-4C811D85-09FE948B-A19C25AE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_PhysicsFireSpread_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WItem_PhysicsFireSpread_Base_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WItem_PhysicsFireSpread_Base_C'Default__BP_WItem_PhysicsFireSpread_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.1"
+    }
+  }
+]

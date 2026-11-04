@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ColonyRun
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_COLONYRUN_STASH_FULL_WARNING]
 Free Loadout is not available while your Stash is full.
@@ -9,7 +9,7 @@ Free Loadout is not available while your Stash is full.
 Free Loadout is not available while your Stash is overflowing.
 
 [ID_COLONY_RUN_NOTIF_TEXT]
-Do you want to deploy with a Free Loadout?
+Do you want to deploy with a Free Loadout?
 You will be given a random set of basic, second-hand gear. A free loadout has fewer inventory slots, and no Safe Pocket. The items in your custom loadout will be moved back to your stash.
 
 [ID_COLONY_RUN_NOTIF_TITLE]

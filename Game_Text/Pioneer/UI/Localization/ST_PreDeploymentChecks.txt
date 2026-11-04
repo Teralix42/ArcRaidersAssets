@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_PreDeploymentChecks
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_DEPLOYMENTCHECK_BULLETPOINT_BROKENFIREARM]
 Equipped firearm is broken
@@ -59,6 +59,12 @@ Ready Up Anyway
 [ID_DEPLOYMENTCHECK_CROSSPLAYOFF]
 Matchmaking times may be longer while crossplay is disabled. Check if:
 
+[ID_DEPLOYMENTCHECK_CROSSPLAYOFF_ALT]
+Matchmaking times may be longer with your current crossplay setting ({0}). Check if:
+
+[ID_DEPLOYMENTCHECK_CROSSPLAYOFF_ALT2]
+Matchmaking times may be longer if crossplay isn't turned to "On".
+
 [ID_DEPLOYMENTCHECK_CROSSPLAYOFF_BULLETPOINT_INGAME]
 Crossplay disabled in Settings
 
@@ -76,6 +82,9 @@ Don't show again
 
 [ID_DEPLOYMENTCHECK_CROSSPLAYOFF_TITLE]
 Crossplay is disabled
+
+[ID_DEPLOYMENTCHECK_CROSSPLAYOFF_TITLE_ALT]
+Crossplay is set to {0}
 
 [ID_DEPLOYMENTCHECK_LOADOUT_ARMOR_ALMOSTBROKEN]
 The shield you have equipped is damaged - it will soon break.

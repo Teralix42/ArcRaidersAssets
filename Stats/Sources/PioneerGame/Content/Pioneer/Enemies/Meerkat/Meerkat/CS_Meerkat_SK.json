@@ -875,7 +875,7 @@
         "ObjectName": "SceneComponent'CS_Meerkat_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.14"
       },
-      "VariableGUID": "93CB13E1-446B3F2B-6D777E99-AD12EFDA",
+      "VariableGuid": "93CB13E1-446B3F2B-6D777E99-AD12EFDA",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -907,7 +907,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.23"
         }
       ],
-      "VariableGUID": "D12DFAF0-44D1C656-05D2C08C-3A031BBA",
+      "VariableGuid": "D12DFAF0-44D1C656-05D2C08C-3A031BBA",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -929,7 +929,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_Meerkat_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.11"
       },
-      "VariableGUID": "B25BFCB9-44ADF247-0F98D38E-2370FCB6",
+      "VariableGuid": "B25BFCB9-44ADF247-0F98D38E-2370FCB6",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -951,7 +951,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_Meerkat_SK_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.39"
       },
-      "VariableGUID": "D343DD31-4B979631-CEBFAE83-A4633F20",
+      "VariableGuid": "D343DD31-4B979631-CEBFAE83-A4633F20",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },
@@ -973,7 +973,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Meerkat_SK_C:FireWeapon_SkeletalStyleSequence_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.34"
       },
-      "VariableGUID": "EE77964F-4D507350-712F98AE-6AC96CED",
+      "VariableGuid": "EE77964F-4D507350-712F98AE-6AC96CED",
       "InternalVariableName": "FireWeapon_SkeletalStyleSequence"
     }
   },
@@ -995,7 +995,7 @@
         "ObjectName": "ConstructableAnimationRepositoryComponent'CS_Meerkat_SK_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.5"
       },
-      "VariableGUID": "D7D9D033-43A12750-CCCA9386-FA87DA12",
+      "VariableGuid": "D7D9D033-43A12750-CCCA9386-FA87DA12",
       "InternalVariableName": "ConstructableAnimationRepositoryComponent"
     }
   },
@@ -1017,7 +1017,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Meerkat_SK_C:FlipOver_SkeletalStyleSequence_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.35"
       },
-      "VariableGUID": "51E2670E-4DCC924F-999A3EA4-B7B32B97",
+      "VariableGuid": "51E2670E-4DCC924F-999A3EA4-B7B32B97",
       "InternalVariableName": "FlipOver_SkeletalStyleSequence"
     }
   },
@@ -1039,7 +1039,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Meerkat_SK_C:RaiseWeapon_SkeletalStyleSequence_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.36"
       },
-      "VariableGUID": "397A7923-4C6DEE2A-0D1CA1AF-236316EE",
+      "VariableGuid": "397A7923-4C6DEE2A-0D1CA1AF-236316EE",
       "InternalVariableName": "RaiseWeapon_SkeletalStyleSequence"
     }
   },
@@ -1062,7 +1062,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.37"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "96FE03D8-435512E7-757CC683-C98EC31C",
+      "VariableGuid": "96FE03D8-435512E7-757CC683-C98EC31C",
       "InternalVariableName": "Eye"
     }
   },
@@ -1084,7 +1084,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Meerkat_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.4"
       },
-      "VariableGUID": "D01BF2D6-4D52FFE6-9F69AC8F-01E1B998",
+      "VariableGuid": "D01BF2D6-4D52FFE6-9F69AC8F-01E1B998",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1106,7 +1106,7 @@
         "ObjectName": "BP_DamageStyleDriver_Small_C'CS_Meerkat_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.2"
       },
-      "VariableGUID": "73C39182-471895A5-2D00F3B0-1BEA7969",
+      "VariableGuid": "73C39182-471895A5-2D00F3B0-1BEA7969",
       "InternalVariableName": "BP_DamageStyleDriver_Small"
     }
   },
@@ -1128,7 +1128,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Meerkat_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.9"
       },
-      "VariableGUID": "8967D52D-41222E2E-530AC7AD-3CCBEF41",
+      "VariableGuid": "8967D52D-41222E2E-530AC7AD-3CCBEF41",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1150,7 +1150,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Meerkat_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.3"
       },
-      "VariableGUID": "D9F0FD90-4002C7F3-08959F9D-55335027",
+      "VariableGuid": "D9F0FD90-4002C7F3-08959F9D-55335027",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1172,7 +1172,7 @@
         "ObjectName": "LandingGear'CS_Meerkat_SK_C:LandingGear_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.10"
       },
-      "VariableGUID": "7E0DC828-42C936AD-4E46D6AE-6D0BBDEA",
+      "VariableGuid": "7E0DC828-42C936AD-4E46D6AE-6D0BBDEA",
       "InternalVariableName": "LandingGear"
     }
   },
@@ -1194,7 +1194,7 @@
         "ObjectName": "ConstructableGroundEngineAudioComponent'CS_Meerkat_SK_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.6"
       },
-      "VariableGUID": "46B48817-42F4AF24-C9D12EBA-E49C07AA",
+      "VariableGuid": "46B48817-42F4AF24-C9D12EBA-E49C07AA",
       "InternalVariableName": "ConstructableGroundEngineAudioComponent"
     }
   },
@@ -1216,7 +1216,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Meerkat_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.0"
       },
-      "VariableGUID": "AAB92F03-429A7D52-6262E094-946C9733",
+      "VariableGuid": "AAB92F03-429A7D52-6262E094-946C9733",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1238,7 +1238,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_Meerkat_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.13"
       },
-      "VariableGUID": "632684EE-431E1C29-223D7E90-704F5024",
+      "VariableGuid": "632684EE-431E1C29-223D7E90-704F5024",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -1408,6 +1408,575 @@
         "BasePartID": 0,
         "NrIDs": 21
       },
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 29.352875,
+                "Y": 7.2367105,
+                "Z": 13.535127
+              },
+              {
+                "X": -22.525541,
+                "Y": -3.5693809E-06,
+                "Z": 19.265451
+              },
+              {
+                "X": 8.249072,
+                "Y": 1.0845664,
+                "Z": 28.328388
+              },
+              {
+                "X": 5.0657578,
+                "Y": 8.556349,
+                "Z": 6.7157984
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -21.104895,
+                "Y": 0.008500999,
+                "Z": -15.392331
+              },
+              {
+                "X": -3.2579727,
+                "Y": 0.008492106,
+                "Z": -15.949839
+              },
+              {
+                "X": 11.890074,
+                "Y": 0.008505652,
+                "Z": 0.8744514
+              },
+              {
+                "X": -12.252556,
+                "Y": -6.1749606,
+                "Z": 3.2373796
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 25.703936,
+                "Y": -0.009138505,
+                "Z": -8.192521
+              },
+              {
+                "X": -1.0624005,
+                "Y": -3.7074811,
+                "Z": -5.686572
+              },
+              {
+                "X": 19.063196,
+                "Y": 7.2771983,
+                "Z": -5.4210677
+              },
+              {
+                "X": 16.848679,
+                "Y": -0.00913236,
+                "Z": -4.3061104
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 16.452862,
+                "Y": 6.1217237,
+                "Z": -4.7857594
+              },
+              {
+                "X": 16.872776,
+                "Y": -6.2334766,
+                "Z": 0.8143963
+              },
+              {
+                "X": 16.416399,
+                "Y": -0.009125634,
+                "Z": -2.5698106
+              },
+              {
+                "X": 16.894978,
+                "Y": 6.520819,
+                "Z": 0.8630028
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -1.3399358,
+                "Y": -4.875923,
+                "Z": -2.0124574
+              },
+              {
+                "X": 5.8132157,
+                "Y": 5.7069063,
+                "Z": -6.561609
+              },
+              {
+                "X": 16.42845,
+                "Y": -1.9306835,
+                "Z": 6.792809
+              },
+              {
+                "X": 35.150097,
+                "Y": 2.5019333,
+                "Z": 0.05220482
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": -23.827488,
+                "Y": 10.992045,
+                "Z": 1.4868279
+              },
+              {
+                "X": -18.077494,
+                "Y": -8.574907,
+                "Z": 1.3778445
+              },
+              {
+                "X": 2.626066,
+                "Y": -0.22517964,
+                "Z": -0.0023277889
+              },
+              {
+                "X": -11.8854,
+                "Y": -0.22517358,
+                "Z": 0.9830646
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": -20.48819,
+                "Y": -4.2609167,
+                "Z": 5.635682
+              },
+              {
+                "X": 21.746105,
+                "Y": 3.7633538,
+                "Z": -1.8749484
+              },
+              {
+                "X": -2.4615781,
+                "Y": -5.5788317,
+                "Z": 5.172192
+              },
+              {
+                "X": 17.932102,
+                "Y": 0.8133012,
+                "Z": 8.51236
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": -20.48819,
+                "Y": 4.2609324,
+                "Z": 5.635689
+              },
+              {
+                "X": -2.461589,
+                "Y": 5.578851,
+                "Z": 5.1721945
+              },
+              {
+                "X": 21.746084,
+                "Y": -3.7633364,
+                "Z": -1.8749645
+              },
+              {
+                "X": -17.4353,
+                "Y": -2.5294282,
+                "Z": 11.502066
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": -19.55028,
+                "Y": 8.723004,
+                "Z": 12.728423
+              },
+              {
+                "X": -16.55077,
+                "Y": -5.9189777,
+                "Z": 1.6977617
+              },
+              {
+                "X": -9.138175,
+                "Y": 0.009146549,
+                "Z": -7.7581654
+              },
+              {
+                "X": -17.125738,
+                "Y": 6.369072,
+                "Z": 3.0612862
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": 10.116907,
+                "Y": 7.9088945,
+                "Z": 5.7038994
+              },
+              {
+                "X": 20.943022,
+                "Y": -7.7170672,
+                "Z": 6.270917
+              },
+              {
+                "X": 9.096034,
+                "Y": -2.431867,
+                "Z": 16.97859
+              },
+              {
+                "X": 35.600426,
+                "Y": 7.6596828,
+                "Z": 2.1249924
+              }
+            ]
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "Points": [
+              {
+                "X": -5.425607,
+                "Y": -7.0227065,
+                "Z": 7.422183
+              },
+              {
+                "X": 19.034557,
+                "Y": -0.05190199,
+                "Z": -8.557542
+              },
+              {
+                "X": -21.899496,
+                "Y": -15.273532,
+                "Z": -1.3570251
+              },
+              {
+                "X": 20.529917,
+                "Y": -11.789674,
+                "Z": 2.7686753
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": 51.849327,
+                "Y": 7.4753494,
+                "Z": -8.655144
+              },
+              {
+                "X": 26.43861,
+                "Y": 10.949034,
+                "Z": 0.48960468
+              },
+              {
+                "X": 44.56199,
+                "Y": 15.244609,
+                "Z": 3.739356
+              },
+              {
+                "X": 36.495842,
+                "Y": 1.3267565,
+                "Z": -6.6787157
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "Points": [
+              {
+                "X": 8.955883,
+                "Y": 10.074193,
+                "Z": 0.1338048
+              },
+              {
+                "X": 18.019299,
+                "Y": 1.3058847,
+                "Z": -1.3859364
+              },
+              {
+                "X": 1.7104127,
+                "Y": 1.5120208,
+                "Z": -4.2140927
+              },
+              {
+                "X": -11.6150055,
+                "Y": 13.010628,
+                "Z": -6.3251495
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "Points": [
+              {
+                "X": -10.09871,
+                "Y": -0.24307801,
+                "Z": -9.693216
+              },
+              {
+                "X": 3.0965886,
+                "Y": 13.333977,
+                "Z": -2.9354844
+              },
+              {
+                "X": -5.6045785,
+                "Y": 2.0168588,
+                "Z": 16.456266
+              },
+              {
+                "X": 4.2830873,
+                "Y": 11.701217,
+                "Z": 6.3824916
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": 13.440636,
+                "Y": 0.5388193,
+                "Z": -3.8806174
+              },
+              {
+                "X": -0.96865904,
+                "Y": 10.786205,
+                "Z": -8.872482
+              },
+              {
+                "X": -3.8850229,
+                "Y": 13.412694,
+                "Z": -1.0035466
+              },
+              {
+                "X": 0.7352019,
+                "Y": -0.95143074,
+                "Z": 17.385906
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.1521,
+                "Y": 8.640329,
+                "Z": -3.0694745
+              },
+              {
+                "X": 13.96518,
+                "Y": -0.6230712,
+                "Z": 1.6776311
+              },
+              {
+                "X": 35.600445,
+                "Y": -7.659681,
+                "Z": 2.1249664
+              },
+              {
+                "X": 14.547478,
+                "Y": 1.7524492,
+                "Z": 16.926683
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": 22.530447,
+                "Y": 2.955649,
+                "Z": 1.4198143
+              },
+              {
+                "X": -19.834759,
+                "Y": 8.728714,
+                "Z": 5.406661
+              },
+              {
+                "X": -5.27485,
+                "Y": 12.466465,
+                "Z": 8.012838
+              },
+              {
+                "X": 3.5780842,
+                "Y": 0.23352654,
+                "Z": -0.9088912
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 60.903347,
+                "Y": -11.461412,
+                "Z": -10.327388
+              },
+              {
+                "X": 35.14186,
+                "Y": -7.2213984,
+                "Z": -6.062926
+              },
+              {
+                "X": 51.84932,
+                "Y": -7.4753256,
+                "Z": -8.655106
+              },
+              {
+                "X": 51.711666,
+                "Y": -20.65515,
+                "Z": -3.800574
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": 15.797846,
+                "Y": -3.4788105,
+                "Z": -0.9207532
+              },
+              {
+                "X": 3.5570567,
+                "Y": -14.738991,
+                "Z": 0.31899047
+              },
+              {
+                "X": -1.79497,
+                "Y": -9.521413,
+                "Z": -4.405564
+              },
+              {
+                "X": 3.0001059,
+                "Y": -1.4000701,
+                "Z": -3.9656808
+              }
+            ]
+          }
+        },
+        {
+          "Key": "19",
+          "Value": {
+            "Points": [
+              {
+                "X": -5.865848,
+                "Y": 9.38956,
+                "Z": 20.197165
+              },
+              {
+                "X": -6.878533,
+                "Y": -11.916515,
+                "Z": -2.5850558
+              },
+              {
+                "X": -13.440329,
+                "Y": -2.8431544,
+                "Z": -2.697042
+              },
+              {
+                "X": 4.253534,
+                "Y": -8.559231,
+                "Z": 14.947131
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": 10.093251,
+                "Y": -5.651581,
+                "Z": 13.47818
+              },
+              {
+                "X": 5.33939,
+                "Y": 0.1850617,
+                "Z": -12.940505
+              },
+              {
+                "X": -0.80360234,
+                "Y": -12.610281,
+                "Z": -6.0278535
+              },
+              {
+                "X": 12.966648,
+                "Y": 5.276878,
+                "Z": -0.14377068
+              }
+            ]
+          }
+        }
+      ],
       "bAutoWeldKinematics": true,
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Meerkat_02_A'",

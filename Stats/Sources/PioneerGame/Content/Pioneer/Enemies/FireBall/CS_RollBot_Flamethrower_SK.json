@@ -845,7 +845,7 @@
         "ObjectName": "SceneComponent'CS_RollBot_Flamethrower_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.17"
       },
-      "VariableGUID": "338DBC09-46C7E212-918F5D97-F9622C88",
+      "VariableGuid": "338DBC09-46C7E212-918F5D97-F9622C88",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -877,7 +877,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.36"
         }
       ],
-      "VariableGUID": "817481D9-42AF80DB-625C5E93-A7683F11",
+      "VariableGuid": "817481D9-42AF80DB-625C5E93-A7683F11",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -899,7 +899,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentB_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.45"
       },
-      "VariableGUID": "94DA05FB-446B8678-823E779C-594B9D42",
+      "VariableGuid": "94DA05FB-446B8678-823E779C-594B9D42",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentB"
     }
   },
@@ -921,7 +921,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:UnfoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.46"
       },
-      "VariableGUID": "D4DC04F9-4225D85D-AC8A24A4-D605D82E",
+      "VariableGuid": "D4DC04F9-4225D85D-AC8A24A4-D605D82E",
       "InternalVariableName": "UnfoldWeaponsSimpleAnimationSequenceComponent"
     }
   },
@@ -943,7 +943,7 @@
         "ObjectName": "SpottableStyleDriver'CS_RollBot_Flamethrower_SK_C:SpottableStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.49"
       },
-      "VariableGUID": "2D059A7A-4DE53231-4F2561B8-DC4885CE",
+      "VariableGuid": "2D059A7A-4DE53231-4F2561B8-DC4885CE",
       "InternalVariableName": "SpottableStyleDriver"
     }
   },
@@ -965,7 +965,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.11"
       },
-      "VariableGUID": "5CBE594F-4835CDD4-40F781AB-DF661F2A",
+      "VariableGuid": "5CBE594F-4835CDD4-40F781AB-DF661F2A",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -987,7 +987,7 @@
         "ObjectName": "CBP_StunStyleDriver_C'CS_RollBot_Flamethrower_SK_C:CBP_StunStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.6"
       },
-      "VariableGUID": "8ABE4447-4C948477-0D44BE96-8F14CD77",
+      "VariableGuid": "8ABE4447-4C948477-0D44BE96-8F14CD77",
       "InternalVariableName": "CBP_StunStyleDriver"
     }
   },
@@ -1009,7 +1009,7 @@
         "ObjectName": "SteamEffectStyleDriver'CS_RollBot_Flamethrower_SK_C:SteamEffectStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.50"
       },
-      "VariableGUID": "BD8A7C95-46D740E5-AE85AE91-5614F3E1",
+      "VariableGuid": "BD8A7C95-46D740E5-AE85AE91-5614F3E1",
       "InternalVariableName": "SteamEffectStyleDriver"
     }
   },
@@ -1031,7 +1031,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:FoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.41"
       },
-      "VariableGUID": "86233FAB-44CB72F5-41DC0AB9-AF8FEC31",
+      "VariableGuid": "86233FAB-44CB72F5-41DC0AB9-AF8FEC31",
       "InternalVariableName": "FoldWeaponsSimpleAnimationSequenceComponent"
     }
   },
@@ -1053,7 +1053,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:AlertedModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.40"
       },
-      "VariableGUID": "058FB194-4156C7BF-8FAE9F87-24DBBBC8",
+      "VariableGuid": "058FB194-4156C7BF-8FAE9F87-24DBBBC8",
       "InternalVariableName": "AlertedModeAnim"
     }
   },
@@ -1075,7 +1075,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentB_Flipped_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.44"
       },
-      "VariableGUID": "F8CDE615-4B9B9D3E-30F0B296-59E4C660",
+      "VariableGuid": "F8CDE615-4B9B9D3E-30F0B296-59E4C660",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentB_Flipped"
     }
   },
@@ -1097,7 +1097,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentA_Flipped_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.42"
       },
-      "VariableGUID": "B08855C3-4118C336-A30A9E97-D9C7563B",
+      "VariableGuid": "B08855C3-4118C336-A30A9E97-D9C7563B",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentA_Flipped"
     }
   },
@@ -1119,7 +1119,7 @@
         "ObjectName": "ConstructableGroundEngineAudioComponent'CS_RollBot_Flamethrower_SK_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.7"
       },
-      "VariableGUID": "2BE5BF8F-495C20C4-3185A6B0-5B72E8A5",
+      "VariableGuid": "2BE5BF8F-495C20C4-3185A6B0-5B72E8A5",
       "InternalVariableName": "ConstructableGroundEngineAudioComponent"
     }
   },
@@ -1141,7 +1141,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_RollBot_Flamethrower_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.0"
       },
-      "VariableGUID": "AA3C3A4F-4A5A2E1F-0B715282-9CC9F8CD",
+      "VariableGuid": "AA3C3A4F-4A5A2E1F-0B715282-9CC9F8CD",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1163,7 +1163,7 @@
         "ObjectName": "DebrisStyleDriver'CS_RollBot_Flamethrower_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.10"
       },
-      "VariableGUID": "5EF84E00-445151A8-24E99081-2F7074CF",
+      "VariableGuid": "5EF84E00-445151A8-24E99081-2F7074CF",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1185,7 +1185,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_RollBot_Flamethrower_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.5"
       },
-      "VariableGUID": "638E6CA1-47DF6840-2C6C0EB0-B4681219",
+      "VariableGuid": "638E6CA1-47DF6840-2C6C0EB0-B4681219",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1207,7 +1207,7 @@
         "ObjectName": "AIStateStyleDriver'CS_RollBot_Flamethrower_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.1"
       },
-      "VariableGUID": "470F7A80-45197C28-A9A357B8-08A30728",
+      "VariableGuid": "470F7A80-45197C28-A9A357B8-08A30728",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1229,7 +1229,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_RollBot_Flamethrower_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.14"
       },
-      "VariableGUID": "A0FF37BC-4F87A2F3-12747ABA-7492A51C",
+      "VariableGuid": "A0FF37BC-4F87A2F3-12747ABA-7492A51C",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -1251,7 +1251,7 @@
         "ObjectName": "PointLightComponent'CS_RollBot_Flamethrower_SK_C:PointLight_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.16"
       },
-      "VariableGUID": "B6D843E6-4A282348-9E4E9F90-F7F41EBB",
+      "VariableGuid": "B6D843E6-4A282348-9E4E9F90-F7F41EBB",
       "InternalVariableName": "PointLight"
     }
   },
@@ -1273,7 +1273,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_RollBot_Flamethrower_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.4"
       },
-      "VariableGUID": "B4A38DB7-43C518FB-5D6D3984-B8158B24",
+      "VariableGuid": "B4A38DB7-43C518FB-5D6D3984-B8158B24",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1295,7 +1295,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentA_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.43"
       },
-      "VariableGUID": "5DB36277-449A2861-09EF55BD-90EC4CDA",
+      "VariableGuid": "5DB36277-449A2861-09EF55BD-90EC4CDA",
       "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentA"
     }
   },
@@ -1317,7 +1317,7 @@
         "ObjectName": "BP_DamageStyleDriver_Small_C'CS_RollBot_Flamethrower_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.3"
       },
-      "VariableGUID": "FF2526DB-49E77D47-5B28F2BD-679887EC",
+      "VariableGuid": "FF2526DB-49E77D47-5B28F2BD-679887EC",
       "InternalVariableName": "BP_DamageStyleDriver_Small"
     }
   },

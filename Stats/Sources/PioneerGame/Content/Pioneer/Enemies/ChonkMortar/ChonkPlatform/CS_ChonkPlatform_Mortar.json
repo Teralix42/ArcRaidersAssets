@@ -1318,7 +1318,7 @@
         "ObjectName": "SceneComponent'CS_ChonkPlatform_Mortar_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.13"
       },
-      "VariableGUID": "3B747472-4498381C-9D512A8F-3D10F9E1",
+      "VariableGuid": "3B747472-4498381C-9D512A8F-3D10F9E1",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1350,7 +1350,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.22"
         }
       ],
-      "VariableGUID": "57740A38-4BC83687-8DF964A2-EBD0A1BE",
+      "VariableGuid": "57740A38-4BC83687-8DF964A2-EBD0A1BE",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1372,7 +1372,7 @@
         "ObjectName": "BP_DamageStyleDriver_Large_C'CS_ChonkPlatform_Mortar_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.4"
       },
-      "VariableGUID": "02A9DE58-4E2B2ED3-3E3121AB-2B13EDE2",
+      "VariableGuid": "02A9DE58-4E2B2ED3-3E3121AB-2B13EDE2",
       "InternalVariableName": "BP_DamageStyleDriver_Large"
     }
   },
@@ -1394,7 +1394,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_ChonkPlatform_Mortar_C:AnimShockPrepare_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.32"
       },
-      "VariableGUID": "E7378889-4BD81751-80F9A7A0-1D518C93",
+      "VariableGuid": "E7378889-4BD81751-80F9A7A0-1D518C93",
       "InternalVariableName": "AnimShockPrepare"
     }
   },
@@ -1416,7 +1416,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_ChonkPlatform_Mortar_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.0"
       },
-      "VariableGUID": "51B0FAD7-4D1B6794-0DF6BC94-19AB09AB",
+      "VariableGuid": "51B0FAD7-4D1B6794-0DF6BC94-19AB09AB",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1438,7 +1438,7 @@
         "ObjectName": "DebrisStyleDriver'CS_ChonkPlatform_Mortar_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.11"
       },
-      "VariableGUID": "88BE8453-42778EEF-41F9C89D-59096778",
+      "VariableGuid": "88BE8453-42778EEF-41F9C89D-59096778",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1460,7 +1460,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_ChonkPlatform_Mortar_C:AnimShockEnd_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.31"
       },
-      "VariableGUID": "A3C86C83-43A39134-2701FA9F-CAE3A91C",
+      "VariableGuid": "A3C86C83-43A39134-2701FA9F-CAE3A91C",
       "InternalVariableName": "AnimShockEnd"
     }
   },
@@ -1480,7 +1480,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Muzzle",
-      "VariableGUID": "029001BC-4AD4F5DF-29646EB8-7B7E3DC9",
+      "VariableGuid": "029001BC-4AD4F5DF-29646EB8-7B7E3DC9",
       "InternalVariableName": "Muzzle"
     }
   },
@@ -1500,7 +1500,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Sensor",
-      "VariableGUID": "351280BF-4384B612-F2C9CBA3-B75B789A",
+      "VariableGuid": "351280BF-4384B612-F2C9CBA3-B75B789A",
       "InternalVariableName": "Sensor"
     }
   },
@@ -1522,7 +1522,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_ChonkPlatform_Mortar_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.12"
       },
-      "VariableGUID": "CFF7EDD7-4ED717B2-EB41A19C-F3ED58BD",
+      "VariableGuid": "CFF7EDD7-4ED717B2-EB41A19C-F3ED58BD",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -1544,7 +1544,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_ChonkPlatform_Mortar_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.6"
       },
-      "VariableGUID": "660DA4A8-44C28594-4CB9F8A6-D0AE14CB",
+      "VariableGuid": "660DA4A8-44C28594-4CB9F8A6-D0AE14CB",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1566,7 +1566,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_ChonkPlatform_Mortar_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.7"
       },
-      "VariableGUID": "D96A92E9-4805316E-A43A29BC-8CC7CD24",
+      "VariableGuid": "D96A92E9-4805316E-A43A29BC-8CC7CD24",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1588,7 +1588,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_ChonkPlatform_Mortar_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.3"
       },
-      "VariableGUID": "2E399D63-41A1797A-48A2C491-9BE1741E",
+      "VariableGuid": "2E399D63-41A1797A-48A2C491-9BE1741E",
       "InternalVariableName": "BP_CollisionStyleDriver_Medium"
     }
   },
@@ -1610,7 +1610,7 @@
         "ObjectName": "AIStateStyleDriver'CS_ChonkPlatform_Mortar_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.1"
       },
-      "VariableGUID": "78FB1364-4204F48B-A01F93A3-29DC00DF",
+      "VariableGuid": "78FB1364-4204F48B-A01F93A3-29DC00DF",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1632,7 +1632,7 @@
         "ObjectName": "BP_MovingPartAudioStyleDriver_Chonk_C'CS_ChonkPlatform_Mortar_C:BP_MovingPartAudioStyleDriver_Chonk_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.5"
       },
-      "VariableGUID": "66AE96FE-4054C439-C8C53A8B-821935A9",
+      "VariableGuid": "66AE96FE-4054C439-C8C53A8B-821935A9",
       "InternalVariableName": "BP_MovingPartAudioStyleDriver_Chonk"
     }
   },

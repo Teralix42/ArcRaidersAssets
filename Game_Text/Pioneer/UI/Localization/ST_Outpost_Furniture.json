@@ -116,7 +116,18 @@
         "ID_OUTPOST_FURNITURE_LIGHTING": "Lighting",
         "ID_OUTPOST_FURNITURE_DECORATION": "Decoration",
         "ID_OUTPOST_FURNITURE_BEDS": "Beds",
-        "ID_OUTPOST_FURNITURE_TROPHIES": "Trophies"
+        "ID_OUTPOST_FURNITURE_TROPHIES": "Trophies",
+        "ID_OUTPOST_FURNITURE_CLOTHINGRACK": "Clothing Rack",
+        "ID_OUTPOST_FURNITURE_FANCYARMCHAIR": "Fancy Armchair",
+        "ID_OUTPOST_FURNITURE_OFFERINGTABLE": "Offering Display Table",
+        "ID_OUTPOST_FURNITURE_OFFERINGSCONSOLE": "OfferingsConsole",
+        "ID_OUTPOST_FURNITURE_MIDCENTURYTABLE": "MidCenturyTable",
+        "ID_OUTPOST_FURNITURE_DATACABINET": "Data Cabinet",
+        "ID_OUTPOST_FURNITURE_STASH_01_A_DATACABINET": "Battered Data Cabinet",
+        "ID_OUTPOST_FURNITURE_STASH_01_B_DATACABINET": "Sturdy Data Cabinet",
+        "ID_OUTPOST_FURNITURE_STASH_01_C_DATACABINET": "Polished Data Cabinet",
+        "ID_OUTPOST_FURNITURE_STASH_01_D_DATACABINET": "Ornate Data Cabinet",
+        "ID_OUTPOST_FURNITURE_WARDROBE_01_B_NEWSTRING": "Spacious Clothes Rack"
       },
       "KeysToMetaData": {
         "ID_OUTPOST_FURNITURE_WEAPONDISPLAY_01_C": {
@@ -444,6 +455,33 @@
           "Status": "approved"
         },
         "ID_OUTPOST_FURNITURE_TROPHIES": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_CLOTHINGRACK": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_FANCYARMCHAIR": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_OFFERINGTABLE": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_DATACABINET": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_STASH_01_A_DATACABINET": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_STASH_01_B_DATACABINET": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_STASH_01_C_DATACABINET": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_STASH_01_D_DATACABINET": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_FURNITURE_WARDROBE_01_B_NEWSTRING": {
           "Status": "approved"
         }
       }

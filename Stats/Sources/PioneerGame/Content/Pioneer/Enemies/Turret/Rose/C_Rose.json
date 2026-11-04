@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_Turret_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -25,8 +24,7 @@
     },
     "Properties": {
       "OverrideTeamId": "EEmbarkTeamId::Team2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ArticulatedTargetingService",
@@ -130,8 +128,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -212,8 +209,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_Rose_C",
@@ -321,8 +317,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Rose_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -336,8 +331,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Turret_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -359,8 +353,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -530,8 +523,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -545,8 +537,7 @@
     "Template": {
       "ObjectName": "ConstructableCollisionService'Default__C_Turret_SharedBase_C:CollisionService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.5"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -566,8 +557,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Rose_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -581,8 +571,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Turret_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -602,8 +591,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -630,8 +618,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -651,8 +638,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_Rose_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/DataAssets/DA_Rose_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -666,8 +652,7 @@
     "Template": {
       "ObjectName": "DebrisService'Default__C_Turret_SharedBase_C:DebrisService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.11"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -681,8 +666,7 @@
     "Template": {
       "ObjectName": "HealthGroupService'Default__C_Turret_SharedBase_C:HealthGroupService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.12"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -696,8 +680,7 @@
     "Template": {
       "ObjectName": "HealthService'Default__C_Turret_SharedBase_C:HealthService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.13"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -707,8 +690,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Rose_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -722,8 +704,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_Turret_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.15"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -740,8 +721,7 @@
     },
     "Properties": {
       "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::KeepAiming"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -893,8 +873,7 @@
           "ActiveDuringState": 7
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -908,8 +887,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_Turret_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -929,9 +907,8 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Frigate'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Frigate.0"
       },
-      "PartTagQueryToAttachTo": {}
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "bAlwaysAttachToRoot": true
+    }
   },
   {
     "Type": "PlayerDensityTrackerService",
@@ -947,8 +924,7 @@
       "MaxDownwardAngleDegrees": 60.0,
       "HeightMapCellSize": 200.0,
       "RevalidationDelay": 2.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -962,8 +938,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_Turret_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -973,8 +948,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Rose_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -994,10 +968,9 @@
         "ObjectName": "SceneComponent'C_Rose_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.25"
       },
-      "VariableGUID": "DCA4CB95-4C152BCD-3B3FE486-D96F3541",
+      "VariableGuid": "DCA4CB95-4C152BCD-3B3FE486-D96F3541",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1019,10 +992,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "3635F638-4807B57C-52D1368F-FDD458B5",
+      "VariableGuid": "3635F638-4807B57C-52D1368F-FDD458B5",
       "InternalVariableName": "AITargetComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1042,10 +1014,9 @@
         "ObjectName": "ArticulatedTargetingService'C_Rose_C:ArticulatedTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.2"
       },
-      "VariableGUID": "76D8CCE0-4F31CC0A-F8D79292-2F227F22",
+      "VariableGuid": "76D8CCE0-4F31CC0A-F8D79292-2F227F22",
       "InternalVariableName": "ArticulatedTargetingService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1065,10 +1036,9 @@
         "ObjectName": "ConstructableAnimationService'C_Rose_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.7"
       },
-      "VariableGUID": "719F6159-47FAC2E8-2E0F16AC-3EAF986A",
+      "VariableGuid": "719F6159-47FAC2E8-2E0F16AC-3EAF986A",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1088,10 +1058,9 @@
         "ObjectName": "PlayerDensityTrackerService'C_Rose_C:PlayerDensityTrackerService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.23"
       },
-      "VariableGUID": "8F4B4EFC-40E3C9C0-60704D97-EC099F87",
+      "VariableGuid": "8F4B4EFC-40E3C9C0-60704D97-EC099F87",
       "InternalVariableName": "PlayerDensityTrackerService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1143,8 +1112,7 @@
         "ObjectName": "SCS_Node'C_Rose_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.26"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1164,8 +1132,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1179,7 +1146,6 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_Turret_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.25"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

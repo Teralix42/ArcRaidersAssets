@@ -1272,7 +1272,7 @@
         "ObjectName": "SceneComponent'C_HeavyDrone_Missile_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.26"
       },
-      "VariableGUID": "1E18DB67-4631EE7D-B00EAA8C-077BA877",
+      "VariableGuid": "1E18DB67-4631EE7D-B00EAA8C-077BA877",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1296,7 +1296,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "6D84E31D-4BD575DD-8459FDAC-58608BD2",
+      "VariableGuid": "6D84E31D-4BD575DD-8459FDAC-58608BD2",
       "InternalVariableName": "AITargetComponent1"
     }
   },
@@ -1318,7 +1318,7 @@
         "ObjectName": "PioneerConstructableDispersionService'C_HeavyDrone_Missile_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.22"
       },
-      "VariableGUID": "FBC29C9E-48443489-B05D43AC-916D2D24",
+      "VariableGuid": "FBC29C9E-48443489-B05D43AC-916D2D24",
       "InternalVariableName": "PioneerConstructableDispersionService"
     }
   },

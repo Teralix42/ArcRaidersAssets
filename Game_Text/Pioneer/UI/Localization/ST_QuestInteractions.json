@@ -240,7 +240,8 @@
         "ID_QUESTINTERACTIONS_INSTALL_SYNTHETIC_RESIN": "Install Synthetic Resin",
         "ID_QUESTINTERACTIONS_INSTALL_THERMO_LINING": "Install Thermo Lining",
         "ID_QUESTINTERACTIONS_SEARCH_CRASHED_PAYLOAD": "Search Buried Payload",
-        "ID_QUESTINTERACTIONS_LISTEN_TO_RECORDING": "Listen to Recording"
+        "ID_QUESTINTERACTIONS_LISTEN_TO_RECORDING": "Listen to Recording",
+        "ID_QUESTINTERACT_PLACEOFFERING": "Place Flowers"
       },
       "KeysToMetaData": {
         "ID_QUESTINTERACT_FEEDBIRD": {
@@ -941,6 +942,10 @@
         },
         "ID_QUESTINTERACTIONS_LISTEN_TO_RECORDING": {
           "Status": "approved"
+        },
+        "ID_QUESTINTERACT_PLACEOFFERING": {
+          "Status": "approved",
+          "Note": ""
         }
       }
     }

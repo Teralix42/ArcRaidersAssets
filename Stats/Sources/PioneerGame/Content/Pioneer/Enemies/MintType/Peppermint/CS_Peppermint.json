@@ -1341,7 +1341,7 @@
         "ObjectName": "SceneComponent'CS_Peppermint_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.17"
       },
-      "VariableGUID": "528AD28D-4FE00D28-B06BB8BC-FD5101AD",
+      "VariableGuid": "528AD28D-4FE00D28-B06BB8BC-FD5101AD",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1381,7 +1381,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.33"
         }
       ],
-      "VariableGUID": "E0D0C2CB-4EA7D681-08D1E2B7-00BD4F23",
+      "VariableGuid": "E0D0C2CB-4EA7D681-08D1E2B7-00BD4F23",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1404,7 +1404,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.47"
       },
       "AttachToName": "Weapon_Launcher_Socket",
-      "VariableGUID": "737AA4CE-432C5524-A14375A5-F7B03226",
+      "VariableGuid": "737AA4CE-432C5524-A14375A5-F7B03226",
       "InternalVariableName": "ID_Weapon_Blast"
     }
   },
@@ -1426,7 +1426,7 @@
         "ObjectName": "StaticMeshStyleComponent'CS_Peppermint_C:ID_Weapon_Shockwave_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.49"
       },
-      "VariableGUID": "3921F50B-4BC73F54-6E9FEB93-C843C2FE",
+      "VariableGuid": "3921F50B-4BC73F54-6E9FEB93-C843C2FE",
       "InternalVariableName": "ID_Weapon_Shockwave"
     }
   },
@@ -1448,7 +1448,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_Peppermint_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.14"
       },
-      "VariableGUID": "C2821098-49BDE22D-F4E5EB93-01546072",
+      "VariableGuid": "C2821098-49BDE22D-F4E5EB93-01546072",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1470,7 +1470,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Peppermint_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.12"
       },
-      "VariableGUID": "6C6D5FBC-4E61FD46-21A58EA6-B4FCB49E",
+      "VariableGuid": "6C6D5FBC-4E61FD46-21A58EA6-B4FCB49E",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1492,7 +1492,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Peppermint_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.5"
       },
-      "VariableGUID": "35626DF4-47B07785-AC4FC5A8-9ABFFEC2",
+      "VariableGuid": "35626DF4-47B07785-AC4FC5A8-9ABFFEC2",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1514,7 +1514,7 @@
         "ObjectName": "BP_AIStateStyleDriver_Catnip_C'CS_Peppermint_C:BP_AIStateStyleDriver_Catnip_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.2"
       },
-      "VariableGUID": "34B9749D-435F01FD-5E5351AE-D20AA352",
+      "VariableGuid": "34B9749D-435F01FD-5E5351AE-D20AA352",
       "InternalVariableName": "BP_AIStateStyleDriver_Catnip"
     }
   },
@@ -1536,7 +1536,7 @@
         "ObjectName": "BP_MovingPartAudioStyleDriver_Peppermint_C'CS_Peppermint_C:BP_MovingPartAudioStyleDriver_Peppermint_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.4"
       },
-      "VariableGUID": "EB35F782-458A1031-F96B6A86-3307BF88",
+      "VariableGuid": "EB35F782-458A1031-F96B6A86-3307BF88",
       "InternalVariableName": "BP_MovingPartAudioStyleDriver_Peppermint"
     }
   },
@@ -1558,7 +1558,7 @@
         "ObjectName": "ProceduralGaitLimbStyleSetupComponent'CS_Peppermint_C:ProceduralGaitLimbStyleSetupComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.16"
       },
-      "VariableGUID": "F3F64F13-46094E9E-7B689889-EE3326B3",
+      "VariableGuid": "F3F64F13-46094E9E-7B689889-EE3326B3",
       "InternalVariableName": "ProceduralGaitLimbStyleSetupComponent"
     }
   },
@@ -1580,7 +1580,7 @@
         "ObjectName": "BP_DamageStyleDriver_Huge_C'CS_Peppermint_C:BP_DamageStyleDriver_Huge_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.3"
       },
-      "VariableGUID": "ABA6441C-4F1219A1-A9FD8394-ADAB2E8C",
+      "VariableGuid": "ABA6441C-4F1219A1-A9FD8394-ADAB2E8C",
       "InternalVariableName": "BP_DamageStyleDriver_Huge"
     }
   },
@@ -1602,7 +1602,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Peppermint_C:StaggerAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.45"
       },
-      "VariableGUID": "B8B17008-470E91D1-5B5F47A2-75995A21",
+      "VariableGuid": "B8B17008-470E91D1-5B5F47A2-75995A21",
       "InternalVariableName": "StaggerAnim"
     }
   },
@@ -1624,7 +1624,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Peppermint_C:OpenCoreAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.43"
       },
-      "VariableGUID": "687AF155-41374D47-143C9A9C-102A4E94",
+      "VariableGuid": "687AF155-41374D47-143C9A9C-102A4E94",
       "InternalVariableName": "OpenCoreAnim"
     }
   },
@@ -1646,7 +1646,7 @@
         "ObjectName": "GaitGroundContactHelperComponent'CS_Peppermint_C:GaitGroundContactHelperComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.13"
       },
-      "VariableGUID": "868AD724-4980B02B-5D79C3B7-8124D794",
+      "VariableGuid": "868AD724-4980B02B-5D79C3B7-8124D794",
       "InternalVariableName": "GaitGroundContactHelperComponent"
     }
   },
@@ -1668,7 +1668,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Peppermint_C:LookAroundIdleAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.41"
       },
-      "VariableGUID": "A0FC78A4-407A34BD-1C2BE2B9-752B34AF",
+      "VariableGuid": "A0FC78A4-407A34BD-1C2BE2B9-752B34AF",
       "InternalVariableName": "LookAroundIdleAnim"
     }
   },
@@ -1691,7 +1691,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.46"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "7FE6EAE9-48E67D43-397A0CBD-CDC988EF",
+      "VariableGuid": "7FE6EAE9-48E67D43-397A0CBD-CDC988EF",
       "InternalVariableName": "EyeStaticMeshDummy"
     }
   },
@@ -1713,7 +1713,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Peppermint_C:RaiseHindCannonAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.44"
       },
-      "VariableGUID": "ADAB3F5D-4C7CEA02-E0B33BA9-EFFAD898",
+      "VariableGuid": "ADAB3F5D-4C7CEA02-E0B33BA9-EFFAD898",
       "InternalVariableName": "RaiseHindCannonAnim"
     }
   },
@@ -1735,7 +1735,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Peppermint_C:LowerHindCannonAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.42"
       },
-      "VariableGUID": "8647CCC3-461BE735-67DC2BB3-1C089DA1",
+      "VariableGuid": "8647CCC3-461BE735-67DC2BB3-1C089DA1",
       "InternalVariableName": "LowerHindCannonAnim"
     }
   },
@@ -1757,7 +1757,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Peppermint_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.0"
       },
-      "VariableGUID": "26B74356-4DAE730D-D94602BB-5C582954",
+      "VariableGuid": "26B74356-4DAE730D-D94602BB-5C582954",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1780,7 +1780,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.48"
       },
       "AttachToName": "Head_Laser_Socket",
-      "VariableGUID": "7467C9AA-429F5862-5F60AEA3-BA170B47",
+      "VariableGuid": "7467C9AA-429F5862-5F60AEA3-BA170B47",
       "InternalVariableName": "ID_Weapon_Laser"
     }
   },
@@ -1802,7 +1802,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Peppermint_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.6"
       },
-      "VariableGUID": "74D92806-41B0D4DA-935DDCA2-B7E920A9",
+      "VariableGuid": "74D92806-41B0D4DA-935DDCA2-B7E920A9",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },

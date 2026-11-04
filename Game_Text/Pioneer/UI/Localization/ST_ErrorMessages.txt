@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ErrorMessages
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_ERRORMESSAGES_ACCOUNT_BLOCKED]
 ACCOUNT BLOCKED
@@ -23,12 +23,18 @@ Matchmaking Failed
 [ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM]
 You need to enable crossplay to matchmake together with your party.
 
+[ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM_ALT]
+You need to change your crossplay settings to matchmake together with your party.
+
+[ID_ERROR_MATCHMAKING_PREREQUISITE_NO_VALID_PLATFORM_REQUIREMENT]
+Required setting: {0}
+
 [ID_ERROR_MATCHMAKING_PREREQUISITE_SUSPENDED_PERMANENT]
-Your account has been permanently suspended for behavior that violates our code of conduct.
+Your account has been permanently suspended for behavior that violates our code of conduct.
 Due to the severity of your violation, access to your account will not be restored.
 
 [ID_ERROR_MATCHMAKING_PREREQUISITE_SUSPENDED_TEMPORARY]
-Your account has been temporarily suspended for behavior that violates our code of conduct.
+Your account has been temporarily suspended for behavior that violates our code of conduct.
 Your access will be restored: {0}.
 
 [ID_ERROR_MATCHMAKING_PREREQUISITE_SUSPENDED_UNKNOWN]

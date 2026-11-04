@@ -134,7 +134,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_Shotgun_Energy_Adjustable_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Projectile_Shotgun_Energy_Adjustable_01.4"
       },
-      "VariableGUID": "8C8F3D52-4FE13E6B-0CCCD8BB-78970AF8",
+      "VariableGuid": "8C8F3D52-4FE13E6B-0CCCD8BB-78970AF8",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

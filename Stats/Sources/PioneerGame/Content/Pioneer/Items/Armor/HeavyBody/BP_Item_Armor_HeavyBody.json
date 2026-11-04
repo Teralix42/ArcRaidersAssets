@@ -37,9 +37,9 @@
     "Properties": {
       "VisualArmorType": "EArmorType::Heavy",
       "MaxArmorPlates": 1,
-      "ArmorPerPlate": 80.0,
+      "ArmorPerPlate": 90.0,
       "DamageMitigationPerPlate": 0.525,
-      "BaseArmorValue": 80.0,
+      "BaseArmorValue": 90.0,
       "DurabilityLossFromArmorDamage": 0.15,
       "bAllowMobileRepair": true,
       "ArmorZones": [

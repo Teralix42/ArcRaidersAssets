@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ArticulatedTargetingService",
@@ -146,8 +145,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -327,8 +325,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_Tarragon_01_C",
@@ -450,8 +447,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Tarragon_01_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.12"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -465,8 +461,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -492,8 +487,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Leg.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -841,8 +835,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionGameplayEffectApplicatorComponent",
@@ -900,8 +893,7 @@
       "MinKnockbackMagnitude": "EForceMagnitude::Heavy",
       "MaxKnockbackVelocity": 1000.0,
       "MaxKnockbackMagnitude": "EForceMagnitude::VeryHeavy"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -915,8 +907,7 @@
     "Template": {
       "ObjectName": "ConstructableCollisionService'Default__BP_ConstructableBase_C:CollisionService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.5"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -936,8 +927,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Tarragon_01_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.12"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -996,8 +986,7 @@
         }
       ],
       "bHasManyParts": true
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePhysicsMaterialService",
@@ -1007,8 +996,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -1028,8 +1016,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -1182,8 +1169,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -1203,8 +1189,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_Tarragon_01_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_Tarragon_01_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -1228,8 +1213,7 @@
         "ObjectName": "PartScavengeSetup'Da_PartScavengeSetup_Tarragon'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/Da_PartScavengeSetup_Tarragon.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HeadStabilizationComponent",
@@ -1260,8 +1244,7 @@
       "DrainEffectTagTriggers": [
         "AI.PowerState.Drained"
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -1275,8 +1258,7 @@
     "Template": {
       "ObjectName": "HealthGroupService'Default__BP_ConstructableBase_C:HealthGroupService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.12"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -2306,8 +2288,7 @@
         ]
       },
       "NumPartsCategory": "EConstructableNumPartsCategory::Medium"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -2317,8 +2298,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -2332,8 +2312,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasComponent",
@@ -2375,8 +2354,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasEffectModConstraintScaleCurve",
@@ -2472,8 +2450,7 @@
           ]
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasEffectModSinCurve",
@@ -2504,8 +2481,7 @@
         "Stiffness": 0.2,
         "MaxForce": 0.001
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLIntentionComponent",
@@ -2515,8 +2491,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLLocomotionMovementComponent",
@@ -2642,8 +2617,7 @@
           "SubPathString": ""
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLLocomotionPolicySelectorConfig",
@@ -2654,7 +2628,238 @@
       "ObjectName": "MLTickableMultiPolicyComponentAS'C_Tarragon_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.27"
     },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    "Properties": {
+      "Rules": [
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 80.0
+          },
+          "BlockedTags": [
+            "AI.IsStuck"
+          ],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 8,
+            "max": 8
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::NotSpecified",
+            "EAIMovementSpeed::VerySlow",
+            "EAIMovementSpeed::Slow",
+            "EAIMovementSpeed::Normal"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Patrol"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 8,
+            "max": 8
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::Fast",
+            "EAIMovementSpeed::VeryFast"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Sprint"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 80.0
+          },
+          "BlockedTags": [
+            "AI.IsStuck"
+          ],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 8,
+            "max": 8
+          },
+          "AllowedBehaviors": [
+            "ELocomotionTrainingBehaviour::Rotate",
+            "ELocomotionTrainingBehaviour::Stop"
+          ],
+          "AllowedSpeeds": [],
+          "PolicyTag": {
+            "TagName": "ML.Policy.RotateStop"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 80.0
+          },
+          "BlockedTags": [
+            "AI.IsStuck"
+          ],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 7
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::NotSpecified",
+            "EAIMovementSpeed::VerySlow",
+            "EAIMovementSpeed::Slow",
+            "EAIMovementSpeed::Normal"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Patrol"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 7
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::Fast",
+            "EAIMovementSpeed::VeryFast"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Sprint"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 80.0
+          },
+          "BlockedTags": [
+            "AI.IsStuck"
+          ],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 7
+          },
+          "AllowedBehaviors": [
+            "ELocomotionTrainingBehaviour::Rotate",
+            "ELocomotionTrainingBehaviour::Stop"
+          ],
+          "AllowedSpeeds": [],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.RotateStop"
+          }
+        }
+      ]
+    }
   },
   {
     "Type": "MLTickableMultiPolicyComponentAS",
@@ -2669,7 +2874,7 @@
       "PolicyDefinitions": [
         {
           "ModelData": {
-            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_PatrolWalk_09.INF_Tarragon_01_PatrolWalk_09",
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_PatrolWalk_10.INF_Tarragon_01_PatrolWalk_10",
             "SubPathString": ""
           },
           "BehaviorName": "Default",
@@ -2689,7 +2894,7 @@
         },
         {
           "ModelData": {
-            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_RotateStop_06.INF_Tarragon_01_RotateStop_06",
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_RotateStop_07.INF_Tarragon_01_RotateStop_07",
             "SubPathString": ""
           },
           "BehaviorName": "Default",
@@ -2732,8 +2937,7 @@
         "ObjectName": "MLLocomotionPolicySelectorConfig'C_Tarragon_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE.MLLocomotionPolicySelectorConfig_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.26"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MortarProjectileService",
@@ -2743,8 +2947,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PartSeparationBreakService",
@@ -2755,7 +2958,32 @@
       "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
     },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    "Properties": {
+      "Configurations": [
+        {
+          "IdentifierName": "Head",
+          "BreakablePartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+          },
+          "MinDistanceToCountAsDetached": 150.0,
+          "RequiredTimeDetachedToTriggerBreak": 1.5
+        }
+      ]
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -2772,8 +3000,7 @@
     },
     "Properties": {
       "SightRangeStrengthScale": 0.9
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -3305,8 +3532,7 @@
           "ActiveDuringState": 7
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -3320,8 +3546,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -3341,10 +3566,23 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Tarragon'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Tarragon.0"
       },
-      "bAlwaysAttachToRoot": false,
-      "VerticalOffset": 1.217711720397519E-302
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "AttachmentDistance": 5000.0,
+      "PartTagQueryToAttachTo": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Head"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+      }
+    }
   },
   {
     "Type": "ProximityDetectionService",
@@ -3363,8 +3601,7 @@
       },
       "DistanceToCheck": 330.0,
       "bRegisterProximityEvents": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -3378,8 +3615,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -3389,8 +3625,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3410,10 +3645,9 @@
         "ObjectName": "SceneComponent'C_Tarragon_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.36"
       },
-      "VariableGUID": "FE007E63-4C263EFD-AD29D9AA-452205F8",
+      "VariableGuid": "FE007E63-4C263EFD-AD29D9AA-452205F8",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3433,10 +3667,9 @@
         "ObjectName": "MLIntentionComponent'C_Tarragon_01_C:MLIntentionComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.24"
       },
-      "VariableGUID": "C1CB86CE-41D0FA2F-E94BB8A8-EC9D6EC0",
+      "VariableGuid": "C1CB86CE-41D0FA2F-E94BB8A8-EC9D6EC0",
       "InternalVariableName": "MLIntentionComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3456,10 +3689,9 @@
         "ObjectName": "MortarProjectileService'C_Tarragon_01_C:MortarProjectileService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.28"
       },
-      "VariableGUID": "7F5AF6D6-4E0B7E58-A4A3EAA9-4CD10233",
+      "VariableGuid": "7F5AF6D6-4E0B7E58-A4A3EAA9-4CD10233",
       "InternalVariableName": "MortarProjectileService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3479,10 +3711,9 @@
         "ObjectName": "ProximityDetectionService'C_Tarragon_01_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.34"
       },
-      "VariableGUID": "F0CED1C8-4EE33813-62367799-65E56B1D",
+      "VariableGuid": "F0CED1C8-4EE33813-62367799-65E56B1D",
       "InternalVariableName": "ProximityDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3502,10 +3733,9 @@
         "ObjectName": "StuckDetectionService'C_Tarragon_01_C:StuckDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.54"
       },
-      "VariableGUID": "85D16547-4A40520D-D6B486A6-B89F388F",
+      "VariableGuid": "85D16547-4A40520D-D6B486A6-B89F388F",
       "InternalVariableName": "StuckDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3525,10 +3755,9 @@
         "ObjectName": "PartSeparationBreakService'C_Tarragon_01_C:PartSeparationBreakService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.29"
       },
-      "VariableGUID": "A9621E7F-4DDC728B-D4FC28B3-471E320B",
+      "VariableGuid": "A9621E7F-4DDC728B-D4FC28B3-471E320B",
       "InternalVariableName": "PartSeparationBreakService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3548,10 +3777,9 @@
         "ObjectName": "MLLocomotionMovementComponent'C_Tarragon_01_C:MLLocomotionMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.25"
       },
-      "VariableGUID": "389FE568-428956F7-34BCD485-D6F379B7",
+      "VariableGuid": "389FE568-428956F7-34BCD485-D6F379B7",
       "InternalVariableName": "MLLocomotionMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3571,10 +3799,9 @@
         "ObjectName": "MLTickableMultiPolicyComponentAS'C_Tarragon_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.27"
       },
-      "VariableGUID": "801B33DE-4A689F62-C4386294-648CC4C4",
+      "VariableGuid": "801B33DE-4A689F62-C4386294-648CC4C4",
       "InternalVariableName": "MLTickableMultiPolicyComponentAS_Locomotion"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3594,10 +3821,9 @@
         "ObjectName": "ConstructablePhysicsMaterialService'C_Tarragon_01_C:ConstructablePhysicsMaterialService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.11"
       },
-      "VariableGUID": "AC1BCB6C-48C4DC66-D49EFA81-9E5E6B55",
+      "VariableGuid": "AC1BCB6C-48C4DC66-D49EFA81-9E5E6B55",
       "InternalVariableName": "ConstructablePhysicsMaterialService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3617,10 +3843,9 @@
         "ObjectName": "ArticulatedTargetingService'C_Tarragon_01_C:ArticulatedTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.1"
       },
-      "VariableGUID": "E687171C-4A5B7AAD-028DC48A-B09C4BFE",
+      "VariableGuid": "E687171C-4A5B7AAD-028DC48A-B09C4BFE",
       "InternalVariableName": "ArticulatedTargetingService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3640,10 +3865,9 @@
         "ObjectName": "HeadStabilizationComponent'C_Tarragon_01_C:HeadStabilizationComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.16"
       },
-      "VariableGUID": "EB45EB2B-442D765C-00C76CB7-6457602F",
+      "VariableGuid": "EB45EB2B-442D765C-00C76CB7-6457602F",
       "InternalVariableName": "HeadStabilizationComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3663,10 +3887,9 @@
         "ObjectName": "ConstructableCollisionGameplayEffectApplicatorComponent'C_Tarragon_01_C:ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.7"
       },
-      "VariableGUID": "D2CB6DE2-465947CC-93AC93AE-28A13ABB",
+      "VariableGuid": "D2CB6DE2-465947CC-93AC93AE-28A13ABB",
       "InternalVariableName": "ConstructableCollisionGameplayEffectApplicatorComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3686,10 +3909,9 @@
         "ObjectName": "MLGasComponent'C_Tarragon_01_C:MLGasComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.21"
       },
-      "VariableGUID": "85F5589B-48C1EE49-D34955A2-9EDFFD38",
+      "VariableGuid": "85F5589B-48C1EE49-D34955A2-9EDFFD38",
       "InternalVariableName": "MLGasComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -3709,10 +3931,9 @@
         "ObjectName": "ConstructableAnimationService'C_Tarragon_01_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.6"
       },
-      "VariableGUID": "7D7ADF76-4909A2CF-8492B691-C30CD2CC",
+      "VariableGuid": "7D7ADF76-4909A2CF-8492B691-C30CD2CC",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -3836,8 +4057,7 @@
         "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.37"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -3857,8 +4077,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -3872,8 +4091,7 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StuckDetectionService",
@@ -3939,9 +4157,13 @@
           ]
         }
       },
-      "bOnlyPushChangedValues_Client": true
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "Handlers": [
+        {
+          "ObjectName": "StuckHandler_ApplyGameplayEffect'C_Tarragon_01_C:StuckDetectionService_GEN_VARIABLE.StuckHandler_ApplyGameplayEffect_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.55"
+        }
+      ]
+    }
   },
   {
     "Type": "StuckHandler_ApplyGameplayEffect",
@@ -3952,6 +4174,12 @@
       "ObjectName": "StuckDetectionService'C_Tarragon_01_C:StuckDetectionService_GEN_VARIABLE'",
       "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.54"
     },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    "Properties": {
+      "GameplayEffectToApply": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Tarragon_MarkAsStuck_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GE_Tarragon_MarkAsStuck.0"
+      },
+      "bClearOnUnstuck": false
+    }
   }
 ]

@@ -3133,7 +3133,7 @@
         "ObjectName": "SceneComponent'CS_Kebab_Gatling_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.15"
       },
-      "VariableGUID": "77558991-42A31979-FFCD9D8E-40EBCF62",
+      "VariableGuid": "77558991-42A31979-FFCD9D8E-40EBCF62",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -3161,7 +3161,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.22"
         }
       ],
-      "VariableGUID": "EEEE41F2-4F9EA452-B66CC7B3-06D44172",
+      "VariableGuid": "EEEE41F2-4F9EA452-B66CC7B3-06D44172",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -3183,7 +3183,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Kebab_Gatling_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.3"
       },
-      "VariableGUID": "4AA3762C-4D3DE48D-7CBD1F95-2FD97398",
+      "VariableGuid": "4AA3762C-4D3DE48D-7CBD1F95-2FD97398",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -3205,7 +3205,7 @@
         "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Kebab_Gatling_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.2"
       },
-      "VariableGUID": "027EE44C-436C597A-804B8DAF-980ACFC4",
+      "VariableGuid": "027EE44C-436C597A-804B8DAF-980ACFC4",
       "InternalVariableName": "BP_DamageStyleDriver_Medium"
     }
   },
@@ -3227,7 +3227,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_Kebab_Gatling_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.14"
       },
-      "VariableGUID": "D32C3325-4F320B9E-94BD4A89-57B0C818",
+      "VariableGuid": "D32C3325-4F320B9E-94BD4A89-57B0C818",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -3249,7 +3249,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Kebab_Gatling_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.8"
       },
-      "VariableGUID": "31B81B11-4F67D53E-64A64780-117E9048",
+      "VariableGuid": "31B81B11-4F67D53E-64A64780-117E9048",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -3272,7 +3272,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.6"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "ED301457-44978D45-462F5DBF-4C1395F0",
+      "VariableGuid": "ED301457-44978D45-462F5DBF-4C1395F0",
       "InternalVariableName": "EyeProxy"
     }
   },
@@ -3294,7 +3294,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Kebab_Gatling_C:Anim_Raise_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.30"
       },
-      "VariableGUID": "F2E09E3E-4758A097-3A009CA4-D5516A90",
+      "VariableGuid": "F2E09E3E-4758A097-3A009CA4-D5516A90",
       "InternalVariableName": "Anim_Raise"
     }
   },
@@ -3316,7 +3316,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_Kebab_Gatling_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.9"
       },
-      "VariableGUID": "6CD0E13A-4FF29094-CC178585-12508D51",
+      "VariableGuid": "6CD0E13A-4FF29094-CC178585-12508D51",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -3338,7 +3338,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Kebab_Gatling_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.0"
       },
-      "VariableGUID": "0029A07A-4E6C90CC-166F79B8-F2A0A57B",
+      "VariableGuid": "0029A07A-4E6C90CC-166F79B8-F2A0A57B",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -3360,7 +3360,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Kebab_Gatling_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.4"
       },
-      "VariableGUID": "D7278AA4-40AF7502-9EBA9E82-A398E4FB",
+      "VariableGuid": "D7278AA4-40AF7502-9EBA9E82-A398E4FB",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -3382,7 +3382,7 @@
         "ObjectName": "MovingPartAudioStyleDriver'CS_Kebab_Gatling_C:MovingPartAudioStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/CS_Kebab_Gatling.13"
       },
-      "VariableGUID": "5331AB03-441C6E73-4C4C7391-FA20B543",
+      "VariableGuid": "5331AB03-441C6E73-4C4C7391-FA20B543",
       "InternalVariableName": "MovingPartAudioStyleDriver"
     }
   },

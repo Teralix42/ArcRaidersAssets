@@ -833,7 +833,7 @@
         "ObjectName": "SceneComponent'CS_TickBot_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.12"
       },
-      "VariableGUID": "876CA8CB-44138984-9C1D2EA1-D5E08441",
+      "VariableGuid": "876CA8CB-44138984-9C1D2EA1-D5E08441",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -855,7 +855,7 @@
         "ObjectName": "DebrisStyleDriver'CS_TickBot_01_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.9"
       },
-      "VariableGUID": "5B018FAD-4E922FC4-B62ABAA2-F3AA28E1",
+      "VariableGuid": "5B018FAD-4E922FC4-B62ABAA2-F3AA28E1",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -877,7 +877,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Small_C'CS_TickBot_01_C:BP_CollisionStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.2"
       },
-      "VariableGUID": "17834019-419977DE-8EE971BD-90DA95E5",
+      "VariableGuid": "17834019-419977DE-8EE971BD-90DA95E5",
       "InternalVariableName": "BP_CollisionStyleDriver_Small"
     }
   },
@@ -899,7 +899,7 @@
         "ObjectName": "BP_DamageStyleDriver_XSmall_C'CS_TickBot_01_C:BP_DamageStyleDriver_XSmall_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.3"
       },
-      "VariableGUID": "CF4E2055-4800F07E-2F93ABA5-994699C2",
+      "VariableGuid": "CF4E2055-4800F07E-2F93ABA5-994699C2",
       "InternalVariableName": "BP_DamageStyleDriver_XSmall"
     }
   },
@@ -921,7 +921,7 @@
         "ObjectName": "PioneerStepMovementAudioComponent'CS_TickBot_01_C:PioneerStepMovementAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.11"
       },
-      "VariableGUID": "EC8DC01E-42C702F2-66DE7D86-953BA56F",
+      "VariableGuid": "EC8DC01E-42C702F2-66DE7D86-953BA56F",
       "InternalVariableName": "PioneerStepMovementAudioComponent"
     }
   },
@@ -953,7 +953,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.25"
         }
       ],
-      "VariableGUID": "5D8E5E82-47E9598E-3E43559A-EA52B8ED",
+      "VariableGuid": "5D8E5E82-47E9598E-3E43559A-EA52B8ED",
       "InternalVariableName": "Frame"
     }
   },
@@ -975,7 +975,7 @@
         "ObjectName": "CBP_StunStyleDriver_C'CS_TickBot_01_C:CBP_StunStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.6"
       },
-      "VariableGUID": "1B9AB57A-4311C984-7984F3AD-ADBD090A",
+      "VariableGuid": "1B9AB57A-4311C984-7984F3AD-ADBD090A",
       "InternalVariableName": "CBP_StunStyleDriver"
     }
   },
@@ -997,7 +997,7 @@
         "ObjectName": "ExplodeStyleDriver'CS_TickBot_01_C:ExplodeStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.10"
       },
-      "VariableGUID": "D01A5645-445CE969-B5099483-4AB8B644",
+      "VariableGuid": "D01A5645-445CE969-B5099483-4AB8B644",
       "InternalVariableName": "ExplodeStyleDriver"
     }
   },
@@ -1019,7 +1019,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_TickBot_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.5"
       },
-      "VariableGUID": "EBE49C9D-46EFCA22-1131F397-4064966C",
+      "VariableGuid": "EBE49C9D-46EFCA22-1131F397-4064966C",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1041,7 +1041,7 @@
         "ObjectName": "AIStateStyleDriver'CS_TickBot_01_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.0"
       },
-      "VariableGUID": "E465E710-49518480-44C16380-3AB6DBAE",
+      "VariableGuid": "E465E710-49518480-44C16380-3AB6DBAE",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1063,7 +1063,7 @@
         "ObjectName": "SkeletalMeshComponent'CS_TickBot_01_C:Client_Only_SkeletalMesh_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.27"
       },
-      "VariableGUID": "EB91CDE9-4A675493-85F10F91-087AA9FF",
+      "VariableGuid": "EB91CDE9-4A675493-85F10F91-087AA9FF",
       "InternalVariableName": "Client_Only_SkeletalMesh"
     }
   },
@@ -1085,7 +1085,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_TickBot_01_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.4"
       },
-      "VariableGUID": "217F1074-45173C44-B5F65EBF-B12076E4",
+      "VariableGuid": "217F1074-45173C44-B5F65EBF-B12076E4",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1104,7 +1104,7 @@
         "ObjectPath": "/Script/EmbarkConstructable"
       },
       "ComponentTemplate": null,
-      "VariableGUID": "78C68AA6-423BE763-E13944BD-CC61F72A",
+      "VariableGuid": "78C68AA6-423BE763-E13944BD-CC61F72A",
       "InternalVariableName": "PerceptionEye"
     }
   },

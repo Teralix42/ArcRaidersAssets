@@ -22,11 +22,11 @@
 | **[3D models](Objects/Arc/)** | 27 textured ARC `.blend` files. Contain packed textures, probably only work on Blender 5.0+. |
 | **[Images](Images/)** | Extracted icons, UI elements, cosmetics, items, store artwork, maps, and other images. |
 | **[Game text](Game_Text/)** | In-game text, translations, dialogue and credits. |
-| **[Mappings](Mappings/)** | `.usmap` mappings and AES key to use in fmodel ([V2.02 Mappings](Mappings/5.7.4-inheritance+pioneer_2.02.x-PioneerGame.usmap)). |
+| **[Mappings](Mappings/)** | `.usmap` mappings and AES key to use in fmodel ([2.4 Steam mapping](Mappings/ArcRaiders_2.3.0_UE5.7.4_CL1438640.usmap)). |
 | **[Renders](Renders/)** | ARC renders and README previews. |
 | **[Combat stats](Stats/)** | ARC machine health, damage against Raiders, shields and game files. |
 
-**Last Updated:** game version **2.2.0**. Some collections and models may be from different versions.
+**Last Updated:** game version **2.4.0**. Some collections and models may be from different versions.
 
 ### Combat stats
 
@@ -85,6 +85,8 @@ The old Ninja Ripper method is outdated. Use **[FModel](https://fmodel.app/)** w
 2. Point FModel torwards your ARC Raiders game files (Probably "C:\Program Files (x86)\Steam\steamapps\common\ARC Raiders\PioneerGame\Content\Paks").
 3. Add the AES key from **[Mappings/AES.txt](Mappings/AES.txt)** and use the latest **[mapping (`.usmap`) file](Mappings/)**.
 4. Browse and export the assets you need.
+
+The 2.4 Steam store update uses changelist `1438640`. Use the [CL1438640 mapping from ARC Data Raiders](https://github.com/ARC-Data-Raiders/DataRaiders/blob/main/Unpacking/ArcRaiders_2.3.0_UE5.7.4_CL1438640.usmap).
 
 For more help, assets, and an automatic model texturer visit the [Blend Raiders Discord](https://discord.gg/8xZHEudWN2) or the [community archive](https://drive.google.com/drive/folders/1BSm-QteBKxMn7CyHkg72xkPnjQRQJnJP?usp=sharing).
 

@@ -428,6 +428,34 @@
           "VeryHeavy": 5.0
         }
       ],
+      "bMultiplyForceOnDestroyed": true,
+      "ForceDataDestroyed": [
+        {
+          "IdentifierQueryName": "",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.DestroyedBaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( ForceCollector.DestroyedBaseMultiplier )"
+          },
+          "VerySmall": 28.0,
+          "Small": 20.0,
+          "Medium": 15.0,
+          "Heavy": 10.0,
+          "VeryHeavy": 8.0
+        }
+      ],
       "PullResistance": "EPullResistance::TargetAnchored"
     }
   }

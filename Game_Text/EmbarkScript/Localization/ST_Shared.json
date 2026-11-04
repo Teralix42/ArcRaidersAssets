@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Shared",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/EmbarkScript/Localization/ST_Shared",
+    "StringTable": {
+      "TableNamespace": "ST_Shared",
+      "KeysToEntries": {
+        "ID_SHARED_INVALID_DISPLAY_TEXT": "Invalid",
+        "ID_SHARED_ENABLED": "Enabled",
+        "ID_SHARED_DISABLED": "Disabled",
+        "ID_SHARED_HOLD": "(Hold) {0}"
+      },
+      "KeysToMetaData": {
+        "ID_SHARED_INVALID_DISPLAY_TEXT": {
+          "Status": "approved"
+        },
+        "ID_SHARED_ENABLED": {
+          "Status": "approved"
+        },
+        "ID_SHARED_DISABLED": {
+          "Status": "approved"
+        },
+        "ID_SHARED_HOLD": {
+          "Status": "approved"
+        }
+      }
+    }
+  }
+]

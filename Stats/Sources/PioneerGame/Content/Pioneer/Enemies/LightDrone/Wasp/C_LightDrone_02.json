@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_LightDrone_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -25,8 +24,7 @@
     },
     "Properties": {
       "OverrideTeamId": "EEmbarkTeamId::Team2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -96,8 +94,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BP_ConstructableDispersionServiceAutomaticRifle_C",
@@ -159,8 +156,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_LightDrone_02_C",
@@ -277,8 +273,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_LightDrone_02_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -292,8 +287,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_LightDrone_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -307,8 +301,7 @@
     "Template": {
       "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_LightDrone_SharedBase_C:AimAssistTarget'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.4"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -364,8 +357,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -521,8 +513,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -542,8 +533,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_LightDrone_02_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -557,8 +547,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_LightDrone_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -589,8 +578,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -637,8 +625,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -658,8 +645,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_LightDrone_02_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/DA_LightDrone_02_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -682,8 +668,7 @@
         "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Wasp'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/DA_PartScavengeSetup_Wasp.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -893,8 +878,7 @@
           "AdditionalGameplayEffects": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -908,8 +892,7 @@
     "Template": {
       "ObjectName": "HealthService'Default__C_LightDrone_SharedBase_C:HealthService'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.13"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HoverMovementComponentAI",
@@ -943,8 +926,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -980,8 +962,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -995,8 +976,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_LightDrone_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.16"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -1014,8 +994,7 @@
     "Properties": {
       "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::StopAimingInCurrentPose",
       "SightRangeStrengthScale": 0.85
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1192,8 +1171,7 @@
           "bStunnable": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionBoxShape",
@@ -1207,8 +1185,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionBoxShape'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionBoxShape_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleClearShot",
@@ -1227,8 +1204,7 @@
       "ClearShotToWeightCurve": {
         "EditorCurveData": {}
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleDiscovery",
@@ -1242,8 +1218,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleDiscovery'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleDiscovery_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.4"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -1257,8 +1232,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleGameplayTagTarget_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.5"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetCharacterStance",
@@ -1272,8 +1246,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleTargetCharacterStance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetCharacterStance_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.6"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetDistance",
@@ -1287,8 +1260,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetDistance_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetSpeed",
@@ -1302,8 +1274,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetSpeed_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.8"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionTargetAttribute",
@@ -1317,8 +1288,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionTargetAttribute'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionTargetAttribute_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.9"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1332,8 +1302,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_LightDrone_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.19"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1352,9 +1321,9 @@
       "PingInfoDataAsset": {
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Wasp'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Wasp.0"
-      }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      },
+      "bAlwaysAttachToRoot": true
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1368,8 +1337,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_LightDrone_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.22"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1379,8 +1347,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_LightDrone_02_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1400,10 +1367,9 @@
         "ObjectName": "SceneComponent'C_LightDrone_02_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.33"
       },
-      "VariableGUID": "783AD921-4C81C0E1-96CBBEBE-1702469E",
+      "VariableGuid": "783AD921-4C81C0E1-96CBBEBE-1702469E",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1425,10 +1391,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "5D9F2370-484BAEB7-5FFAE7B3-05814EAD",
+      "VariableGuid": "5D9F2370-484BAEB7-5FFAE7B3-05814EAD",
       "InternalVariableName": "AITargetComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1448,10 +1413,9 @@
         "ObjectName": "ConstructableAnimationService'C_LightDrone_02_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.7"
       },
-      "VariableGUID": "5FDDA9B1-4E95C6F8-89495EA4-6A545562",
+      "VariableGuid": "5FDDA9B1-4E95C6F8-89495EA4-6A545562",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1471,10 +1435,9 @@
         "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_LightDrone_02_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.3"
       },
-      "VariableGUID": "24E1E475-40EF6494-D9DC588F-5B6B4219",
+      "VariableGuid": "24E1E475-40EF6494-D9DC588F-5B6B4219",
       "InternalVariableName": "BP_ConstructableDispersionServiceAutomaticRifle"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1518,8 +1481,7 @@
         "ObjectName": "SCS_Node'C_LightDrone_02_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/C_LightDrone_02.34"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1539,8 +1501,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_LightDrone_02_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1554,7 +1515,6 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_LightDrone_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Shared/C_LightDrone_SharedBase.31"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

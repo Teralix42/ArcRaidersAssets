@@ -107,7 +107,7 @@
   {
     "Type": "C_RollBot_01_Blockout_Normal_C",
     "Name": "Default__C_RollBot_01_Blockout_Normal_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.C_RollBot_01_Blockout_Normal_C'",
     "Package": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal",
     "Template": {
@@ -183,7 +183,7 @@
         "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_RollBot_01_Blockout_Normal_C:AimAssistTarget'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.5"
       },
-      "PlayerDormancyDistance": 15000.0,
+      "PlayerDormancyDistance": 20000.0,
       "AITemplateData": {
         "ObjectName": "AITemplateDataAsset'DA_RollBotAI'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_RollBotAI.0"
@@ -223,6 +223,7 @@
         "ObjectName": "ConstructableAbilitySystemComponent'Default__C_RollBot_01_Blockout_Normal_C:AbilitySystem'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.4"
       },
+      "NetCullDistanceSquared": 2.5E+09,
       "RootComponent": {
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_01_Blockout_Normal_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.9"
@@ -1234,7 +1235,7 @@
         "ObjectName": "SceneComponent'C_RollBot_01_Blockout_Normal_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.23"
       },
-      "VariableGUID": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
+      "VariableGuid": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1258,7 +1259,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "B3F91496-4E93D50B-8C71708E-73FB3326",
+      "VariableGuid": "B3F91496-4E93D50B-8C71708E-73FB3326",
       "InternalVariableName": "AITarget"
     }
   },

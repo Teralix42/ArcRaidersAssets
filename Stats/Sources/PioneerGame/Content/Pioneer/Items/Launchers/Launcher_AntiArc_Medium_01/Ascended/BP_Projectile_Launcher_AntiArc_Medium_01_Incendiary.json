@@ -157,7 +157,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_Launcher_AntiArc_Medium_01_Incendiary_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/BP_Projectile_Launcher_AntiArc_Medium_01_Incendiary.5"
       },
-      "VariableGUID": "9485CE3B-47589B49-E40178B1-7CF7F0F9",
+      "VariableGuid": "9485CE3B-47589B49-E40178B1-7CF7F0F9",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

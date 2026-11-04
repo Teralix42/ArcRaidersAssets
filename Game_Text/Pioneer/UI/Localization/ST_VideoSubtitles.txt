@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_VideoSubtitles
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_VIDEOSUB_EXPEDITIONDEPARTURE_0010]
 Hey, heard you're leaving!
@@ -691,6 +691,45 @@ love the weather out there, but hey:
 
 [ID_VIDEOSUB_OUTPOST_UNLOCK_0030]
 no nosy neighbors is a start, isn’t it?
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_010]
+They’re arguing about the ceremony.
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_020]
+I’m not sure what you expected.
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_030]
+I don't know… even a slight amount of cooperation?
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_040]
+Then you should have just asked Ferrovia.
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_050]
+We always just ask Ferrovia. This is supposed to be different. But no, Murteta wants an upfront payment before they'll even discuss it…
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_060]
+And Vaulto?
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_070]
+They’re still talking to me through the wall.
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_080]
+So, same as always.
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_090]
+Four neighbourhoods. Four ways of doing things.
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_100]
+And you think this "ritual" will help?
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_110]
+Well, it’s the one thing we can all agree on.
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_120]
+What?
+
+[ID_VIDEOSUB_PROJECT_SOULSOFFERING_130]
+The human cost.
 
 [ID_VIDEOSUB_QUESTS_ADEADEND_PRESSCONFERENCE_010]
 Project Heartwood represented a

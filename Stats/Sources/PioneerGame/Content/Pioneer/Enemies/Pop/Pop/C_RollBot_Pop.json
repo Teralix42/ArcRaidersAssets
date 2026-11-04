@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__C_Pop_SharedBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -22,8 +21,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -115,8 +113,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_RollBot_Pop_C",
@@ -241,8 +238,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Pop_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -256,8 +252,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Pop_SharedBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -279,8 +274,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -445,8 +439,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -642,8 +635,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -663,8 +655,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Pop_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -678,8 +669,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Pop_SharedBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -699,8 +689,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Pop_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -793,8 +782,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -814,8 +802,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_RollBot_Pop_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_RollBot_Pop_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -838,8 +825,7 @@
         "ObjectName": "PartScavengeSetup'DA_RollBot_Pop_PartScavenge'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_RollBot_Pop_PartScavenge.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "GroundPhysicsMovementComponent",
@@ -859,8 +845,7 @@
         "ObjectName": "Class'SurfaceTrackNetState'",
         "ObjectPath": "/Script/Angelscript"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -958,8 +943,7 @@
           "AdditionalGameplayEffects": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -973,8 +957,7 @@
     "Template": {
       "ObjectName": "HealthService'Default__C_Pop_SharedBase_C:HealthService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.14"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -1032,8 +1015,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -1047,8 +1029,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__C_Pop_SharedBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.16"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -1065,8 +1046,7 @@
     },
     "Properties": {
       "SightRangeStrengthScale": 0.85
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1138,8 +1118,7 @@
           "bStunnable": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1153,8 +1132,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__C_Pop_SharedBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.21"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1174,10 +1152,9 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Pop'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Pop.0"
       },
-      "bResetPositionOnTick": false,
-      "bSkipPingAttachment": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "VerticalOffset": 50.0,
+      "bResetPositionOnTick": true
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1191,8 +1168,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__C_Pop_SharedBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.24"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1202,8 +1178,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1223,10 +1198,9 @@
         "ObjectName": "SceneComponent'C_RollBot_Pop_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.24"
       },
-      "VariableGUID": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
+      "VariableGuid": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1246,10 +1220,9 @@
         "ObjectName": "ConstructableAnimationService'C_RollBot_Pop_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.6"
       },
-      "VariableGUID": "BFAA4ADC-4411A057-33DD09B3-C754AC6B",
+      "VariableGuid": "BFAA4ADC-4411A057-33DD09B3-C754AC6B",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1271,10 +1244,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "34EC5275-4B23087E-D4AFC08C-B2766028",
+      "VariableGuid": "34EC5275-4B23087E-D4AFC08C-B2766028",
       "InternalVariableName": "AITarget"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1310,8 +1282,7 @@
         "ObjectName": "SCS_Node'C_RollBot_Pop_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.25"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1331,8 +1302,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Pop_SK_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1346,8 +1316,7 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__C_Pop_SharedBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.36"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StuckDetectionService",
@@ -1366,7 +1335,6 @@
       "DestroyedPartsToMinDistanceMultiplier": {
         "EditorCurveData": {}
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

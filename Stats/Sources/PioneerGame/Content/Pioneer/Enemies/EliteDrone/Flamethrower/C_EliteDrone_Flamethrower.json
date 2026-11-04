@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -22,8 +21,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_EliteDrone_Flamethrower_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -137,8 +135,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_EliteDrone_Flamethrower_C",
@@ -260,8 +257,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_EliteDrone_Flamethrower_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -275,8 +271,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -306,8 +301,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -363,8 +357,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -524,8 +517,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -545,8 +537,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_EliteDrone_Flamethrower_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.10"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -560,8 +551,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__BP_ConstructableBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -581,8 +571,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_EliteDrone_Flamethrower_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -628,8 +617,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -649,8 +637,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_Hornet_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Shared/DataAssets/DA_Hornet_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -673,8 +660,7 @@
         "ObjectName": "PartScavengeSetup'DA_EliteDrone_Flamethrower_PartScavenge'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EliteDrone_Flamethrower_PartScavenge.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -902,8 +888,7 @@
           "AdditionalGameplayEffects": []
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -1101,8 +1086,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HoverMovementComponentAI",
@@ -1166,8 +1150,7 @@
       "NavMovementProperties": {
         "bUseAccelerationForPaths": false
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -1177,8 +1160,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_EliteDrone_Flamethrower_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -1192,8 +1174,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -1211,8 +1192,7 @@
     "Properties": {
       "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::StopAimingInCurrentPose",
       "SightRangeStrengthScale": 0.85
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1406,8 +1386,7 @@
         }
       ],
       "bUseRepKeyForReplication": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableExplodeService",
@@ -1444,8 +1423,7 @@
           "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableSteamService",
@@ -1474,8 +1452,7 @@
       },
       "AttachSocketName": "Barrel_Socket",
       "bShouldAffectConstructables": true
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1489,8 +1466,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1510,10 +1486,9 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_EliteDrone_Flamethrower'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_EliteDrone_Flamethrower.0"
       },
-      "PartTagQueryToAttachTo": {},
-      "bSkipPingAttachment": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "bAlwaysAttachToRoot": true,
+      "bResetPositionOnTick": true
+    }
   },
   {
     "Type": "ProximityDetectionService",
@@ -1549,8 +1524,7 @@
           "bIncludeAllChildrenRecursively": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1564,8 +1538,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1575,8 +1548,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_EliteDrone_Flamethrower_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1596,10 +1568,9 @@
         "ObjectName": "SceneComponent'C_EliteDrone_Flamethrower_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.27"
       },
-      "VariableGUID": "783AD921-4C81C0E1-96CBBEBE-1702469E",
+      "VariableGuid": "783AD921-4C81C0E1-96CBBEBE-1702469E",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1619,10 +1590,9 @@
         "ObjectName": "HoverMovementComponentAI'C_EliteDrone_Flamethrower_C:HoverMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.16"
       },
-      "VariableGUID": "D0C28280-451F17FB-F3E836B9-5818D92D",
+      "VariableGuid": "D0C28280-451F17FB-F3E836B9-5818D92D",
       "InternalVariableName": "HoverMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1644,10 +1614,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "5D9F2370-484BAEB7-5FFAE7B3-05814EAD",
+      "VariableGuid": "5D9F2370-484BAEB7-5FFAE7B3-05814EAD",
       "InternalVariableName": "AITargetComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1667,10 +1636,9 @@
         "ObjectName": "ProximityDetectionService'C_EliteDrone_Flamethrower_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.25"
       },
-      "VariableGUID": "8BCAB1E1-4461216E-C4E0BD8F-CE01A4E6",
+      "VariableGuid": "8BCAB1E1-4461216E-C4E0BD8F-CE01A4E6",
       "InternalVariableName": "ProximityDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1690,10 +1658,9 @@
         "ObjectName": "PioneerConstructableExplodeService'C_EliteDrone_Flamethrower_C:PioneerConstructableExplodeService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.21"
       },
-      "VariableGUID": "431062CB-41C59786-36BCB894-AFC5FCAF",
+      "VariableGuid": "431062CB-41C59786-36BCB894-AFC5FCAF",
       "InternalVariableName": "PioneerConstructableExplodeService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1713,10 +1680,9 @@
         "ObjectName": "PioneerConstructableSteamService'C_EliteDrone_Flamethrower_C:PioneerConstructableSteamService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.22"
       },
-      "VariableGUID": "402A11EA-454BE06A-BCB835A8-CAB1636B",
+      "VariableGuid": "402A11EA-454BE06A-BCB835A8-CAB1636B",
       "InternalVariableName": "PioneerConstructableSteamService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1736,10 +1702,9 @@
         "ObjectName": "SpawnOrchestratableComponent'C_EliteDrone_Flamethrower_C:SpawnOrchestratableComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.37"
       },
-      "VariableGUID": "8323274F-46A47B5D-7DCA5F9F-4C0EA293",
+      "VariableGuid": "8323274F-46A47B5D-7DCA5F9F-4C0EA293",
       "InternalVariableName": "SpawnOrchestratableComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1759,10 +1724,9 @@
         "ObjectName": "ConstructableAnimationService'C_EliteDrone_Flamethrower_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.6"
       },
-      "VariableGUID": "C9999C62-42BC3121-9D398098-8518F80D",
+      "VariableGuid": "C9999C62-42BC3121-9D398098-8518F80D",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1838,8 +1802,7 @@
         "ObjectName": "SCS_Node'C_EliteDrone_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.28"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnOrchestratableComponent",
@@ -1855,8 +1818,7 @@
         "ObjectName": "SpawnOrchestrationRepository'DA_SmallFlyingDrone_SpawnOrchestrationRepository'",
         "ObjectPath": "/Game/Pioneer/Enemies/Shared/Spawning/DA_SmallFlyingDrone_SpawnOrchestrationRepository.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1876,8 +1838,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_EliteDrone_Flamethrower_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1891,7 +1852,6 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

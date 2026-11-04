@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ITEMNAMES
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_ITEMDISPLAYTAGS_GEIGER_COUNTER]
 Geiger Counter
@@ -314,6 +314,9 @@ Dam Utility Key
 [ID_ITEMNAMES_DART_BOARD]
 Dart Board
 
+[ID_ITEMNAMES_DEADFLOWERS]
+Dead Flowers
+
 [ID_ITEMNAMES_DEFIBRILLATOR]
 Defibrillator
 
@@ -400,6 +403,12 @@ Faded Photograph
 
 [ID_ITEMNAMES_FAMILIAR_DUCK]
 Familiar Duck
+
+[ID_ITEMNAMES_FANCYPLATE]
+Fancy Plate
+
+[ID_ITEMNAMES_FERROVIAOFFERING]
+Ferrovia Offering
 
 [ID_ITEMNAMES_FERTILIZER]
 Fertilizer
@@ -608,6 +617,9 @@ Magnet
 [ID_ITEMNAMES_MAGNETRON]
 Magnetron
 
+[ID_ITEMNAMES_MASKFRAGMENT]
+Mask Fragment
+
 [ID_ITEMNAMES_MATRIARCH_PART]
 Matriarch Reactor
 
@@ -670,6 +682,9 @@ Motor
 
 [ID_ITEMNAMES_MRI_DUCK]
 MRI Duck
+
+[ID_ITEMNAMES_MURTETAOFFERING]
+Murteta Offering
 
 [ID_ITEMNAMES_MUSHROOM]
 Mushroom
@@ -797,6 +812,9 @@ Raider Tool
 [ID_ITEMNAMES_RAIDEXTRACTKEY]
 Raid Extract Key
 
+[ID_ITEMNAMES_RAILWAYLANTERN]
+Railway Lantern
+
 [ID_ITEMNAMES_RAREASCENSIONMODULE]
 RareAscensionModule
 
@@ -863,6 +881,9 @@ Rocketeer Driver
 [ID_ITEMNAMES_ROCKET_THRUSTER]
 Rocket Thruster
 
+[ID_ITEMNAMES_ROCKSALT]
+Rock Salt
+
 [ID_ITEMNAMES_ROLLBOT_PART]
 Surveyor Vault
 
@@ -921,7 +942,7 @@ Reinforced Reception Security Code
 Sensors
 
 [ID_ITEMNAMES_SHEETMETAL]
-SheetMetal
+Sheet Metal
 
 [ID_ITEMNAMES_SHOTGUN_AMMO]
 Shotgun Ammo
@@ -1088,6 +1109,9 @@ Unusable Weapon
 [ID_ITEMNAMES_VASE]
 Vase
 
+[ID_ITEMNAMES_VAULTOOFFERING]
+Vaulto Offering
+
 [ID_ITEMNAMES_VERY_COMFORTABLE_PILLOW]
 Very Comfortable Pillow
 
@@ -1123,6 +1147,9 @@ Frosty Duck
 
 [ID_ITEMNAMES_WIRES]
 Wires
+
+[ID_ITEMNAMES_WITHEREDFLOWERS]
+Withered Flowers
 
 [ID_ITEMNAME_CAMERA]
 Camera

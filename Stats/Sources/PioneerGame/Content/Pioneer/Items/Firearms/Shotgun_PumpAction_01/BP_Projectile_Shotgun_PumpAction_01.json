@@ -156,7 +156,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_Shotgun_PumpAction_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_PumpAction_01/BP_Projectile_Shotgun_PumpAction_01.5"
       },
-      "VariableGUID": "9485CE3B-47589B49-E40178B1-7CF7F0F9",
+      "VariableGuid": "9485CE3B-47589B49-E40178B1-7CF7F0F9",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

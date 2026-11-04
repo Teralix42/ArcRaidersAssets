@@ -120,7 +120,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_SMG_LowTier_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_Projectile_SMG_LowTier_01.4"
       },
-      "VariableGUID": "2BDAD121-46EE66A5-3ED23790-568F25AA",
+      "VariableGuid": "2BDAD121-46EE66A5-3ED23790-568F25AA",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

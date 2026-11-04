@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "snapshot": "Unpack_2.2.0",
+  "snapshot": "Unpack_2.4.0",
   "source_path_root": "PioneerGame",
   "value_type": "Configured stats calculated from inherited defaults, level modifier graphs and applied upgrade modifiers; not live combat measurements.",
   "definitions": {

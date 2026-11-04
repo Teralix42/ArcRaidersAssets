@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ItemSkins
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_ITEMSKINS_ACTIONMENU_SHORTCUT]
 Stencils
@@ -85,6 +85,9 @@ Huntsman
 
 [ID_ITEMSKINS_HUNTSMAN_UNLOCK_REQUIREMENT]
 Requires learning the Huntsman Stencil
+
+[ID_ITEMSKINS_LABEL_STENCIL_APPLIED]
+Stencil applied
 
 [ID_ITEMSKINS_LEARN_AND_CONSUME]
 Learn and consume

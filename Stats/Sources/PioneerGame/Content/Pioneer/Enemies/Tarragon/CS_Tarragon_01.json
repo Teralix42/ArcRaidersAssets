@@ -1066,7 +1066,7 @@
         "ObjectName": "SceneComponent'CS_Tarragon_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.15"
       },
-      "VariableGUID": "15FDCDC3-43B48A66-631028B7-BC1814BF",
+      "VariableGuid": "15FDCDC3-43B48A66-631028B7-BC1814BF",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1088,7 +1088,7 @@
         "ObjectName": "SkeletalMeshStyleComponent'CS_Tarragon_01_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.33"
       },
-      "VariableGUID": "18239FBE-49800AA4-48CDD9AF-C5768081",
+      "VariableGuid": "18239FBE-49800AA4-48CDD9AF-C5768081",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1110,7 +1110,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_IdleToAlert_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.36"
       },
-      "VariableGUID": "AB2FB46E-4B515B84-D30A86AD-E3958959",
+      "VariableGuid": "AB2FB46E-4B515B84-D30A86AD-E3958959",
       "InternalVariableName": "Anim_IdleToAlert"
     }
   },
@@ -1132,7 +1132,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_AlertToIdle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.34"
       },
-      "VariableGUID": "11B18F24-48EFB697-C6284E87-AE7B9C70",
+      "VariableGuid": "11B18F24-48EFB697-C6284E87-AE7B9C70",
       "InternalVariableName": "Anim_AlertToIdle"
     }
   },
@@ -1154,7 +1154,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_HeadOpen_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.35"
       },
-      "VariableGUID": "B55C3671-46859AA5-EF901E8F-05A1520C",
+      "VariableGuid": "B55C3671-46859AA5-EF901E8F-05A1520C",
       "InternalVariableName": "Anim_HeadOpen"
     }
   },
@@ -1176,7 +1176,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_RaiseCannon_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.38"
       },
-      "VariableGUID": "57FB8CA0-4BD76247-495373B1-E7DA71AE",
+      "VariableGuid": "57FB8CA0-4BD76247-495373B1-E7DA71AE",
       "InternalVariableName": "Anim_RaiseCannon"
     }
   },
@@ -1198,7 +1198,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_LowerCannon_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.37"
       },
-      "VariableGUID": "4D03FCD7-4E0C7C85-DDC24C85-BB8E412D",
+      "VariableGuid": "4D03FCD7-4E0C7C85-DDC24C85-BB8E412D",
       "InternalVariableName": "Anim_LowerCannon"
     }
   },
@@ -1220,7 +1220,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Tarragon_01_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.0"
       },
-      "VariableGUID": "A6774317-40B63350-80B543A5-43B889F5",
+      "VariableGuid": "A6774317-40B63350-80B543A5-43B889F5",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1242,7 +1242,7 @@
         "ObjectName": "BP_MovingPartAudioStyleDriver_BullCrab_C'CS_Tarragon_01_C:BP_MovingPartAudioStyleDriver_Tarragon_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.5"
       },
-      "VariableGUID": "35259AB3-4C9D1D5C-081C9E97-8A101242",
+      "VariableGuid": "35259AB3-4C9D1D5C-081C9E97-8A101242",
       "InternalVariableName": "BP_MovingPartAudioStyleDriver_Tarragon"
     }
   },
@@ -1264,7 +1264,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_Tarragon_01_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.3"
       },
-      "VariableGUID": "249BEED8-4760C9FA-2264EA82-0711C640",
+      "VariableGuid": "249BEED8-4760C9FA-2264EA82-0711C640",
       "InternalVariableName": "BP_CollisionStyleDriver_Medium"
     }
   },
@@ -1286,7 +1286,7 @@
         "ObjectName": "BP_AIStateStyleDriver_BullCrab_C'CS_Tarragon_01_C:BP_AIStateStyleDriver_Tarragon_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.2"
       },
-      "VariableGUID": "0F442474-42498182-8B78D7B7-77D05677",
+      "VariableGuid": "0F442474-42498182-8B78D7B7-77D05677",
       "InternalVariableName": "BP_AIStateStyleDriver_Tarragon"
     }
   },
@@ -1308,7 +1308,7 @@
         "ObjectName": "BP_DamageStyleDriver_Large_C'CS_Tarragon_01_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.4"
       },
-      "VariableGUID": "AFB8798F-4C40C49F-6B81EA9F-91B04704",
+      "VariableGuid": "AFB8798F-4C40C49F-6B81EA9F-91B04704",
       "InternalVariableName": "BP_DamageStyleDriver_Large"
     }
   },
@@ -1330,7 +1330,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Tarragon_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.7"
       },
-      "VariableGUID": "76B840A0-4CE1EB52-4D669F81-FCEEF3D1",
+      "VariableGuid": "76B840A0-4CE1EB52-4D669F81-FCEEF3D1",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1352,7 +1352,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_Tarragon_01_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.13"
       },
-      "VariableGUID": "D104E365-48AC5625-EAA43C93-1E89EA14",
+      "VariableGuid": "D104E365-48AC5625-EAA43C93-1E89EA14",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1374,7 +1374,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Tarragon_01_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.6"
       },
-      "VariableGUID": "4F63DCB5-467FFE22-1526F0B9-7100D1AF",
+      "VariableGuid": "4F63DCB5-467FFE22-1526F0B9-7100D1AF",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1396,7 +1396,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Tarragon_01_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.12"
       },
-      "VariableGUID": "29CC7205-49D9C416-F52E87A9-B7384E79",
+      "VariableGuid": "29CC7205-49D9C416-F52E87A9-B7384E79",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1560,6 +1560,16 @@
         "ObjectName": "DismembermentSetup'DA_Tarragon_Dismemberment'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_Tarragon_Dismemberment.0"
       },
+      "PartMassDebrisOverride": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Head"
+          },
+          "Value": {
+            "Mass": 20000.0
+          }
+        }
+      ],
       "CSSC_File": {
         "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSM_Tarragon_01'",
         "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CSSM_Tarragon_01.0"

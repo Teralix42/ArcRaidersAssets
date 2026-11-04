@@ -963,7 +963,7 @@
         "ObjectName": "SceneComponent'C_Runner_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.24"
       },
-      "VariableGUID": "8563F2A5-4F564894-BD2BBE94-FF605B47",
+      "VariableGuid": "8563F2A5-4F564894-BD2BBE94-FF605B47",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -985,7 +985,7 @@
         "ObjectName": "BodyRotationThrusterService'C_Runner_C:BodyRotationThrusterService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.2"
       },
-      "VariableGUID": "8CFA0019-46969E56-E8CFADA8-2B00D5DC",
+      "VariableGuid": "8CFA0019-46969E56-E8CFADA8-2B00D5DC",
       "InternalVariableName": "BodyRotationThrusterService"
     }
   },
@@ -1007,7 +1007,7 @@
         "ObjectName": "GroundPhysicsMovementComponent'C_Runner_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.14"
       },
-      "VariableGUID": "95FA2A97-48E8A8BB-B0742E83-31EE69E2",
+      "VariableGuid": "95FA2A97-48E8A8BB-B0742E83-31EE69E2",
       "InternalVariableName": "GroundPhysicsMovementComponent"
     }
   },
@@ -1029,7 +1029,7 @@
         "ObjectName": "ConstructableAnimationService'C_Runner_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.6"
       },
-      "VariableGUID": "C5744A81-45097F34-E54B4588-C41947EB",
+      "VariableGuid": "C5744A81-45097F34-E54B4588-C41947EB",
       "InternalVariableName": "ConstructableAnimationService"
     }
   },
@@ -1051,7 +1051,7 @@
         "ObjectName": "StuckDetectionService'C_Runner_C:StuckDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.33"
       },
-      "VariableGUID": "C225F606-4606B227-D5F2169B-2C319A68",
+      "VariableGuid": "C225F606-4606B227-D5F2169B-2C319A68",
       "InternalVariableName": "StuckDetectionService"
     }
   },

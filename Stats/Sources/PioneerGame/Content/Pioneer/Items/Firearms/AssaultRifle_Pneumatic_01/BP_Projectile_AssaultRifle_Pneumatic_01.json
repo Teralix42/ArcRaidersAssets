@@ -131,7 +131,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_AssaultRifle_Pneumatic_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/BP_Projectile_AssaultRifle_Pneumatic_01.4"
       },
-      "VariableGUID": "89E137F4-4FFC6E65-F2214499-853526D4",
+      "VariableGuid": "89E137F4-4FFC6E65-F2214499-853526D4",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

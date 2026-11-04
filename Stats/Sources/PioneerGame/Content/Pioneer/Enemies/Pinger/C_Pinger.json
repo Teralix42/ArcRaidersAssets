@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -22,8 +21,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Pinger_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ArticulatedTargetingService",
@@ -95,8 +93,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -232,8 +229,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_Pinger_C",
@@ -356,8 +352,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Pinger_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -371,8 +366,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -394,8 +388,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -451,8 +444,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -612,8 +604,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -633,8 +624,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Pinger_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.11"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -648,8 +638,7 @@
     "Template": {
       "ObjectName": "ConstructablePartReplicationServiceComponent'Default__BP_ConstructableBase_C:SkeletalReplicationService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -669,8 +658,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -692,8 +680,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -713,8 +700,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_Pinger_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_Pinger_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -737,8 +723,7 @@
         "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Pinger'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_PartScavengeSetup_Pinger.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -752,8 +737,7 @@
     "Template": {
       "ObjectName": "HealthGroupService'Default__BP_ConstructableBase_C:HealthGroupService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.12"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -767,8 +751,7 @@
     "Template": {
       "ObjectName": "HealthService'Default__BP_ConstructableBase_C:HealthService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.13"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HoverMovementComponentAI",
@@ -833,8 +816,7 @@
       "NavMovementProperties": {
         "bUseAccelerationForPaths": false
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -844,8 +826,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Pinger_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -859,8 +840,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -878,8 +858,7 @@
     "Properties": {
       "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::KeepAiming",
       "SightRangeStrengthScale": 0.01
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -1068,8 +1047,7 @@
           "ActiveDuringState": 4
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableExplodeService",
@@ -1166,8 +1144,7 @@
           "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -1181,8 +1158,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -1202,10 +1178,9 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Pinger'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Pinger.0"
       },
-      "PartTagQueryToAttachTo": {},
-      "bSkipPingAttachment": false
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+      "bAlwaysAttachToRoot": true,
+      "bResetPositionOnTick": true
+    }
   },
   {
     "Type": "ProximityDetectionService",
@@ -1241,8 +1216,7 @@
           "bIncludeAllChildrenRecursively": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -1256,8 +1230,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -1267,8 +1240,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Pinger_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1288,10 +1260,9 @@
         "ObjectName": "SceneComponent'C_Pinger_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.27"
       },
-      "VariableGUID": "3BF73DE4-460F85C1-42FB1B8F-9FAC5F95",
+      "VariableGuid": "3BF73DE4-460F85C1-42FB1B8F-9FAC5F95",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1311,10 +1282,9 @@
         "ObjectName": "ProximityDetectionService'C_Pinger_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.25"
       },
-      "VariableGUID": "3BB91612-475C68AB-F5A306A3-F02301E9",
+      "VariableGuid": "3BB91612-475C68AB-F5A306A3-F02301E9",
       "InternalVariableName": "ProximityDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1334,10 +1304,9 @@
         "ObjectName": "ConstructableAnimationService'C_Pinger_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.7"
       },
-      "VariableGUID": "D11FD65B-465D0460-BD9877BD-655E5DDC",
+      "VariableGuid": "D11FD65B-465D0460-BD9877BD-655E5DDC",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1357,10 +1326,9 @@
         "ObjectName": "HoverMovementComponentAI'C_Pinger_C:HoverMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.17"
       },
-      "VariableGUID": "7AE0E1D3-4A23D81C-953930B3-F2E0457E",
+      "VariableGuid": "7AE0E1D3-4A23D81C-953930B3-F2E0457E",
       "InternalVariableName": "HoverMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1380,10 +1348,9 @@
         "ObjectName": "PioneerConstructableExplodeService'C_Pinger_C:PioneerConstructableExplodeService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.22"
       },
-      "VariableGUID": "7798E347-45289433-31666A96-DD88E7F9",
+      "VariableGuid": "7798E347-45289433-31666A96-DD88E7F9",
       "InternalVariableName": "PioneerConstructableExplodeService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1403,10 +1370,9 @@
         "ObjectName": "SpawnOrchestratableComponent'C_Pinger_C:SpawnOrchestratableComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.37"
       },
-      "VariableGUID": "3382F875-4D1136D6-5C3253A5-6E2DDADB",
+      "VariableGuid": "3382F875-4D1136D6-5C3253A5-6E2DDADB",
       "InternalVariableName": "SpawnOrchestratableComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1426,10 +1392,9 @@
         "ObjectName": "ArticulatedTargetingService'C_Pinger_C:ArticulatedTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.2"
       },
-      "VariableGUID": "67FE6866-4E37B63D-2DB41A81-532B5916",
+      "VariableGuid": "67FE6866-4E37B63D-2DB41A81-532B5916",
       "InternalVariableName": "ArticulatedTargetingService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -1451,10 +1416,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "408418BE-43DE3B00-AA920BA1-DDE4713D",
+      "VariableGuid": "408418BE-43DE3B00-AA920BA1-DDE4713D",
       "InternalVariableName": "AITarget"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -1530,8 +1494,7 @@
         "ObjectName": "SCS_Node'C_Pinger_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/C_Pinger.28"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnOrchestratableComponent",
@@ -1547,8 +1510,7 @@
         "ObjectName": "SpawnOrchestrationRepository'DA_SmallFlyingDrone_SpawnOrchestrationRepository'",
         "ObjectPath": "/Game/Pioneer/Enemies/Shared/Spawning/DA_SmallFlyingDrone_SpawnOrchestrationRepository.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -1568,8 +1530,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -1583,7 +1544,6 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

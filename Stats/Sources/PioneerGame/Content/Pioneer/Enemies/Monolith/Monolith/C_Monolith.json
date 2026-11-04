@@ -1757,7 +1757,7 @@
         "ObjectName": "SceneComponent'C_Monolith_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.31"
       },
-      "VariableGUID": "25DC4F89-43EB949F-D8B33190-D1262CF2",
+      "VariableGuid": "25DC4F89-43EB949F-D8B33190-D1262CF2",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1779,7 +1779,7 @@
         "ObjectName": "MonolithStyleLandingGearService'C_Monolith_C:MonolithStyleLandingGearService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.24"
       },
-      "VariableGUID": "58644339-41061804-13F453B3-08EF434D",
+      "VariableGuid": "58644339-41061804-13F453B3-08EF434D",
       "InternalVariableName": "MonolithStyleLandingGearService"
     }
   },
@@ -1801,7 +1801,7 @@
         "ObjectName": "SpawnOrchestratableComponent'C_Monolith_C:SpawnOrchestratableComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.46"
       },
-      "VariableGUID": "0FCBBC25-42409FE9-1512BCBC-78795BA2",
+      "VariableGuid": "0FCBBC25-42409FE9-1512BCBC-78795BA2",
       "InternalVariableName": "SpawnOrchestratableComponent"
     }
   },
@@ -1825,7 +1825,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "71A1E044-4B4B50B9-478F8CBF-C712B9ED",
+      "VariableGuid": "71A1E044-4B4B50B9-478F8CBF-C712B9ED",
       "InternalVariableName": "AISmartObject_Right"
     }
   },
@@ -1849,7 +1849,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "445269EE-466346FE-14A791B7-91C74A4A",
+      "VariableGuid": "445269EE-466346FE-14A791B7-91C74A4A",
       "InternalVariableName": "AISmartObject_Left"
     }
   },
@@ -1873,7 +1873,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "3B856F58-466BE319-ECD32A9E-FAD9CFE0",
+      "VariableGuid": "3B856F58-466BE319-ECD32A9E-FAD9CFE0",
       "InternalVariableName": "AITargetComponent"
     }
   },
@@ -1895,7 +1895,7 @@
         "ObjectName": "ConstructableAnimationService'C_Monolith_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.9"
       },
-      "VariableGUID": "F747E687-41712775-26A58FA0-C903D6AD",
+      "VariableGuid": "F747E687-41712775-26A58FA0-C903D6AD",
       "InternalVariableName": "ConstructableAnimationService"
     }
   },
@@ -1917,7 +1917,7 @@
         "ObjectName": "ProximityDetectionService'C_Monolith_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.29"
       },
-      "VariableGUID": "2CB823BD-4766EA26-69EFB69A-C2AB4B16",
+      "VariableGuid": "2CB823BD-4766EA26-69EFB69A-C2AB4B16",
       "InternalVariableName": "ProximityDetectionService"
     }
   },
@@ -1939,7 +1939,7 @@
         "ObjectName": "FloatingMovementComponent'C_Monolith_C:FloatingMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.18"
       },
-      "VariableGUID": "DDBA8C30-4DDAC80B-2C875E8A-953ABCAD",
+      "VariableGuid": "DDBA8C30-4DDAC80B-2C875E8A-953ABCAD",
       "InternalVariableName": "FloatingMovementComponent"
     }
   },
@@ -1961,7 +1961,7 @@
         "ObjectName": "HeatedHullService'C_Monolith_C:HeatedHullService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.21"
       },
-      "VariableGUID": "8F64417C-4431BA09-47B240A3-7F1EFA90",
+      "VariableGuid": "8F64417C-4431BA09-47B240A3-7F1EFA90",
       "InternalVariableName": "HeatedHullService"
     }
   },
@@ -1983,7 +1983,7 @@
         "ObjectName": "CyclicTransformControllerService'C_Monolith_C:CyclicTransformControllerService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.16"
       },
-      "VariableGUID": "974BB5E6-4C12DDEC-F155A5A3-AEFEA2AB",
+      "VariableGuid": "974BB5E6-4C12DDEC-F155A5A3-AEFEA2AB",
       "InternalVariableName": "CyclicTransformControllerService"
     }
   },
@@ -2005,7 +2005,7 @@
         "ObjectName": "WorldItemCacheService'C_Monolith_C:WorldItemCacheService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.49"
       },
-      "VariableGUID": "652A1401-4345550D-B9F6199E-065916D5",
+      "VariableGuid": "652A1401-4345550D-B9F6199E-065916D5",
       "InternalVariableName": "WorldItemCacheService"
     }
   },
@@ -2029,7 +2029,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "1318F281-44E0FCE0-52898482-4B5CA50F",
+      "VariableGuid": "1318F281-44E0FCE0-52898482-4B5CA50F",
       "InternalVariableName": "AISmartObject_Front"
     }
   },

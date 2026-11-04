@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Clans
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_CLANS_APPLICATIONS]
 Join Requests
@@ -288,7 +288,7 @@ You will lose access to this Clan. Another clan member will be appointed as owne
 Leave the Clan?
 
 [ID_CLANS_LEAVING_THE_CLAN_MODAL_DESCRIPTION]
-You will lose Clan bonuses until you join another Clan. Any contract progress in this Clan will be lost.
+You will lose Clan bonuses until you join another Clan. Any contract progress in this Clan will be lost.
 Another Clan member will be appointed as Owner.
 
 [ID_CLANS_LEAVING_THE_CLAN_MODAL_TITLE]
@@ -352,7 +352,7 @@ Next Step {0}/{1}
 OWNER CAN:
 
 [ID_CLANS_OWNERS_ABILITY_DESCRIPTION]
-Configure and customize the Clan
+Configure and customize the Clan
 Manage members and Assign Roles
 
 [ID_CLANS_PARTY_MEMBER_SELECT_AND_ASSIGN]

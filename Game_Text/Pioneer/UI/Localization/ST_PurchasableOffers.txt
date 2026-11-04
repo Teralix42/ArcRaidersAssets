@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_PurchasableOffers
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_PURCHASABLEOFFER_ANTLER_SHAMAN_SKIN_NAME]
 Bonecrown
@@ -784,6 +784,12 @@ The Azimuth Set
 
 [ID_PURCHASABLE_BUNDLE_THENIGHTRUNNERSET_DESC]
 The Azimuth looks like it stepped out of a different future. Clad in sleek technical gear and covered in highly advanced sensors, the Azimuth cuts a silhouette that looks more at home among the stars than the Rust Belt's lethal wilderness.
+
+[ID_PURCHASABLE_BUNDLE_THENOXIOUSSET]
+The Noxious Set
+
+[ID_PURCHASABLE_BUNDLE_THENOXIOUSSET_DESC]
+Breathe easy even when the smoke rolls in.
 
 [ID_PURCHASABLE_BUNDLE_THEOUTLANDERSET]
 The Deadwire Set

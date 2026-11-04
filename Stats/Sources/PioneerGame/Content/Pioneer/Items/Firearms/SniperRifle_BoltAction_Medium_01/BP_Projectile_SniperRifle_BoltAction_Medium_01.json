@@ -119,7 +119,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_SniperRifle_BoltAction_Medium_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/BP_Projectile_SniperRifle_BoltAction_Medium_01.4"
       },
-      "VariableGUID": "371921C3-447533A9-812898A6-88B0A514",
+      "VariableGuid": "371921C3-447533A9-812898A6-88B0A514",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

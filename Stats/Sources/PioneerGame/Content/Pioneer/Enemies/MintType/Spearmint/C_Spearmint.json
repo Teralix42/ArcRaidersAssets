@@ -2253,7 +2253,7 @@
         "ObjectName": "SceneComponent'C_Spearmint_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/C_Spearmint.30"
       },
-      "VariableGUID": "B087557D-49C77690-A40D5D86-E206A849",
+      "VariableGuid": "B087557D-49C77690-A40D5D86-E206A849",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -2275,7 +2275,7 @@
         "ObjectName": "ProjectileDeflectService'C_Spearmint_C:ProjectileDeflectService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/C_Spearmint.27"
       },
-      "VariableGUID": "3012143A-4AFC67F1-BDE40187-B46F6974",
+      "VariableGuid": "3012143A-4AFC67F1-BDE40187-B46F6974",
       "InternalVariableName": "ProjectileDeflectService"
     }
   },
@@ -2299,7 +2299,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "011229FD-433CB416-FEB23B88-8DCEC969",
+      "VariableGuid": "011229FD-433CB416-FEB23B88-8DCEC969",
       "InternalVariableName": "AITarget"
     }
   },
@@ -2321,7 +2321,7 @@
         "ObjectName": "ConstructableAnimationService'C_Spearmint_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/C_Spearmint.6"
       },
-      "VariableGUID": "605C2AAB-4CDD71FF-84DF7391-F0CD822E",
+      "VariableGuid": "605C2AAB-4CDD71FF-84DF7391-F0CD822E",
       "InternalVariableName": "ConstructableAnimationService"
     }
   },
@@ -2343,7 +2343,7 @@
         "ObjectName": "PioneerConstructableDispersionService'C_Spearmint_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/C_Spearmint.23"
       },
-      "VariableGUID": "032A401F-4154ACA1-599C7B95-A69877BD",
+      "VariableGuid": "032A401F-4154ACA1-599C7B95-A69877BD",
       "InternalVariableName": "PioneerConstructableDispersionService"
     }
   },

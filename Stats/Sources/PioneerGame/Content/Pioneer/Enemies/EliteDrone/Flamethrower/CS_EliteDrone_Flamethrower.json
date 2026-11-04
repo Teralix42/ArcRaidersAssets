@@ -938,7 +938,7 @@
         "ObjectName": "SceneComponent'CS_EliteDrone_Flamethrower_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.16"
       },
-      "VariableGUID": "86EFCDD6-43205CD7-B82CAE8B-CE136C93",
+      "VariableGuid": "86EFCDD6-43205CD7-B82CAE8B-CE136C93",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -982,7 +982,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.19"
         }
       ],
-      "VariableGUID": "C575BC83-4FF65CF2-0DA84A8F-75422B19",
+      "VariableGuid": "C575BC83-4FF65CF2-0DA84A8F-75422B19",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1005,7 +1005,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.42"
       },
       "AttachToName": "Eye_Socket",
-      "VariableGUID": "071624AF-46C1AD63-48E1F79A-493E9251",
+      "VariableGuid": "071624AF-46C1AD63-48E1F79A-493E9251",
       "InternalVariableName": "EyeDummyPart"
     }
   },
@@ -1027,7 +1027,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_EliteDrone_Flamethrower_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.12"
       },
-      "VariableGUID": "405AFF53-49E02165-DDEF19A7-3E2D9302",
+      "VariableGuid": "405AFF53-49E02165-DDEF19A7-3E2D9302",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1049,7 +1049,7 @@
         "ObjectName": "BP_DamageStyleDriver_Small_C'CS_EliteDrone_Flamethrower_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.4"
       },
-      "VariableGUID": "DD1B5F8B-46B1B575-E8492991-33399D62",
+      "VariableGuid": "DD1B5F8B-46B1B575-E8492991-33399D62",
       "InternalVariableName": "BP_DamageStyleDriver_Small"
     }
   },
@@ -1071,7 +1071,7 @@
         "ObjectName": "SpottableStyleDriver'CS_EliteDrone_Flamethrower_C:SpottableStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.41"
       },
-      "VariableGUID": "C08C18BF-468A3616-7E574297-DAB9F673",
+      "VariableGuid": "C08C18BF-468A3616-7E574297-DAB9F673",
       "InternalVariableName": "SpottableStyleDriver"
     }
   },
@@ -1093,7 +1093,7 @@
         "ObjectName": "DebrisStyleDriver'CS_EliteDrone_Flamethrower_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.11"
       },
-      "VariableGUID": "5D05C8F6-47EC24C2-6B28AB8D-E52D2797",
+      "VariableGuid": "5D05C8F6-47EC24C2-6B28AB8D-E52D2797",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1115,7 +1115,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_EliteDrone_Flamethrower_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.15"
       },
-      "VariableGUID": "63791E85-46137BFD-77CFDFAA-11C00F98",
+      "VariableGuid": "63791E85-46137BFD-77CFDFAA-11C00F98",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -1137,7 +1137,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_EliteDrone_Flamethrower_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.5"
       },
-      "VariableGUID": "4C0F505B-4ECD9DCF-67C9149B-AEAD990F",
+      "VariableGuid": "4C0F505B-4ECD9DCF-67C9149B-AEAD990F",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1159,7 +1159,7 @@
         "ObjectName": "ConstructableAnimationRepositoryComponent'CS_EliteDrone_Flamethrower_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.7"
       },
-      "VariableGUID": "9C4C8AB1-45B40C84-66C9BD82-32203373",
+      "VariableGuid": "9C4C8AB1-45B40C84-66C9BD82-32203373",
       "InternalVariableName": "ConstructableAnimationRepositoryComponent"
     }
   },
@@ -1181,7 +1181,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_EliteDrone_Flamethrower_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.0"
       },
-      "VariableGUID": "051D3810-4EF9E40C-05B8D3A8-47A4BB15",
+      "VariableGuid": "051D3810-4EF9E40C-05B8D3A8-47A4BB15",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1203,7 +1203,7 @@
         "ObjectName": "SteamEffectStyleDriver'CS_EliteDrone_Flamethrower_C:SteamEffectStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.43"
       },
-      "VariableGUID": "21C93070-47B32DB0-5CA27FBF-4A0C679A",
+      "VariableGuid": "21C93070-47B32DB0-5CA27FBF-4A0C679A",
       "InternalVariableName": "SteamEffectStyleDriver"
     }
   },
@@ -1225,7 +1225,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_EliteDrone_Flamethrower_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.6"
       },
-      "VariableGUID": "44C4379E-442832FC-B30334BE-FB142F2A",
+      "VariableGuid": "44C4379E-442832FC-B30334BE-FB142F2A",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1247,7 +1247,7 @@
         "ObjectName": "AIStateStyleDriver'CS_EliteDrone_Flamethrower_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.1"
       },
-      "VariableGUID": "693B56DD-4463232C-B75E4AB2-5AE10E03",
+      "VariableGuid": "693B56DD-4463232C-B75E4AB2-5AE10E03",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1267,7 +1267,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Eye_Socket",
-      "VariableGUID": "48639111-4650B169-B18DDFBE-2E105C66",
+      "VariableGuid": "48639111-4650B169-B18DDFBE-2E105C66",
       "InternalVariableName": "Light_Proxy"
     }
   },
@@ -1289,7 +1289,7 @@
         "ObjectName": "ConstructableHoverEngineAudioComponent'CS_EliteDrone_Flamethrower_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.8"
       },
-      "VariableGUID": "0D6A2D1E-40E9F847-5D121B88-B202F2E8",
+      "VariableGuid": "0D6A2D1E-40E9F847-5D121B88-B202F2E8",
       "InternalVariableName": "ConstructableHoverEngineAudioComponent"
     }
   },
@@ -1311,7 +1311,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_EliteDrone_Flamethrower_C:CombatModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.40"
       },
-      "VariableGUID": "6A9301E4-4D15A83F-D3D74595-7287F08E",
+      "VariableGuid": "6A9301E4-4D15A83F-D3D74595-7287F08E",
       "InternalVariableName": "CombatModeAnim"
     }
   },
@@ -1331,7 +1331,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Barrel_Socket",
-      "VariableGUID": "2E91480C-49C0FC0B-BCE1509E-8BA8C82F",
+      "VariableGuid": "2E91480C-49C0FC0B-BCE1509E-8BA8C82F",
       "InternalVariableName": "Rifle Left Shell Eject"
     }
   },
@@ -1351,7 +1351,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Barrel_Socket",
-      "VariableGUID": "C28C9140-4612371A-70AA5FBA-870A6FF8",
+      "VariableGuid": "C28C9140-4612371A-70AA5FBA-870A6FF8",
       "InternalVariableName": "Rifle Left Muzzle"
     }
   },
@@ -1373,7 +1373,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_EliteDrone_Flamethrower_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.46"
       },
-      "VariableGUID": "BF55A492-434801C2-DD3A2B81-1B6D60B8",
+      "VariableGuid": "BF55A492-434801C2-DD3A2B81-1B6D60B8",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },
@@ -1395,7 +1395,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Small_C'CS_EliteDrone_Flamethrower_C:BP_CollisionStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.3"
       },
-      "VariableGUID": "846989F6-4DF67A0F-D6A36D89-49B37166",
+      "VariableGuid": "846989F6-4DF67A0F-D6A36D89-49B37166",
       "InternalVariableName": "BP_CollisionStyleDriver_Small"
     }
   },

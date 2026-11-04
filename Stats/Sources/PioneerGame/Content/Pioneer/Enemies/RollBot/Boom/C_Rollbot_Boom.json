@@ -1035,7 +1035,7 @@
         "ObjectName": "SceneComponent'C_Rollbot_Boom_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.25"
       },
-      "VariableGUID": "1B0D024B-4934323F-543B59A7-4D0181A2",
+      "VariableGuid": "1B0D024B-4934323F-543B59A7-4D0181A2",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1057,7 +1057,7 @@
         "ObjectName": "PioneerConstructableExplodeService'C_Rollbot_Boom_C:PioneerConstructableExplodeService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.20"
       },
-      "VariableGUID": "27C57AE8-46F56D57-F68BB584-B4BB428C",
+      "VariableGuid": "27C57AE8-46F56D57-F68BB584-B4BB428C",
       "InternalVariableName": "PioneerConstructableExplodeService"
     }
   },

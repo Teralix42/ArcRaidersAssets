@@ -116,7 +116,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_AssaultRifle_LowTier_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_Projectile_AssaultRifle_LowTier_01.4"
       },
-      "VariableGUID": "C355A5A7-46B63B05-3A57E9B3-2F600667",
+      "VariableGuid": "C355A5A7-46B63B05-3A57E9B3-2F600667",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

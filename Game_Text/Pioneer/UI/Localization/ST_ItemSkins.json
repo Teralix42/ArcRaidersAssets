@@ -70,7 +70,8 @@
         "ID_ITEMSKINS_STATIONMASTER": "Common Blue",
         "ID_ITEMSKINS_STATIONMASTER_UNLOCK_REQUIREMENT": "Requires learning the Common Blue Stencil",
         "ID_ITEMSKINS_BANSHEE_UNLOCK_REQUIREMENT": "Requires learning the Common Blue Stencil",
-        "ID_ITEMSKINS_BANSHEE": "Common Blue"
+        "ID_ITEMSKINS_BANSHEE": "Common Blue",
+        "ID_ITEMSKINS_LABEL_STENCIL_APPLIED": "Stencil applied"
       },
       "KeysToMetaData": {
         "ID_ITEMSKINS_STENCIL_ALREADY_APPLIED": {
@@ -211,6 +212,10 @@
           "Status": "approved"
         },
         "ID_ITEMSKINS_SHOCKWARDEN_UNLOCK_REQUIREMENT": {
+          "Status": "approved"
+        },
+        "ID_ITEMSKINS_LABEL_STENCIL_APPLIED": {
+          "Note": "When a player selects a stencil tile that's already applied to the weapon, show this string in the right panel",
           "Status": "approved"
         }
       }

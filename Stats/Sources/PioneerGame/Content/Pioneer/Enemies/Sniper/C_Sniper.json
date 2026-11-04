@@ -1040,7 +1040,7 @@
         "ObjectName": "SceneComponent'C_Sniper_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.27"
       },
-      "VariableGUID": "4088F6C5-4D9355C1-711002A4-02F8FE38",
+      "VariableGuid": "4088F6C5-4D9355C1-711002A4-02F8FE38",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1062,7 +1062,7 @@
         "ObjectName": "PioneerConstructableDispersionService'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.22"
       },
-      "VariableGUID": "7F507147-4B807554-BC16DA81-0FEFDFF2",
+      "VariableGuid": "7F507147-4B807554-BC16DA81-0FEFDFF2",
       "InternalVariableName": "PioneerConstructableDispersionService"
     }
   },
@@ -1084,7 +1084,7 @@
         "ObjectName": "ProximityDetectionService'C_Sniper_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.25"
       },
-      "VariableGUID": "DB3FB507-498B9327-3A823496-6A06C4A3",
+      "VariableGuid": "DB3FB507-498B9327-3A823496-6A06C4A3",
       "InternalVariableName": "ProximityDetectionService"
     }
   },
@@ -1106,7 +1106,7 @@
         "ObjectName": "ChainArticulationTargetingService'C_Sniper_C:ChainArticulationTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.3"
       },
-      "VariableGUID": "8651A30A-491253B9-8ED773B2-3C34C572",
+      "VariableGuid": "8651A30A-491253B9-8ED773B2-3C34C572",
       "InternalVariableName": "ChainArticulationTargetingService"
     }
   },
@@ -1128,7 +1128,7 @@
         "ObjectName": "SnapSpawnDataService'C_Sniper_C:SnapSpawnDataService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.34"
       },
-      "VariableGUID": "7E67D00D-42B2E0FF-A80A8DBC-5DF7C135",
+      "VariableGuid": "7E67D00D-42B2E0FF-A80A8DBC-5DF7C135",
       "InternalVariableName": "SnapSpawnDataService"
     }
   },

@@ -35,7 +35,19 @@
         "ID_CAMERA_NO_STORAGE_SPACE": "No more album space",
         "ID_CAMERA_NO_STORAGE": "No storage",
         "ID_CAMERA_NO_STORAGE_DESCRIPTION": "No more space. Please remove photos to store more images.",
-        "ID_CAMERA_NO_STORAGE_DESCRIPTION_ALT1": "No more space. Please free up space by removing photos."
+        "ID_CAMERA_NO_STORAGE_DESCRIPTION_ALT1": "No more space. Please free up space by removing photos.",
+        "ID_CAMERA_TO_ADJUSTMENTS_NOT_AVLIBLE_LOW_SETTINGS": "Graphics settings are too low",
+        "ID_CAMERA_TO_ADJUSTMENTS_NOT_AVLIBLE_LOW_SETTINGS_ALT": "Not available with low graphics settings",
+        "ID_CAMERA_OPEN_ALBUM_FOLDER": "Open album folder",
+        "ID_CAMERA_OPEN_ALBUM_FOLDER_DESKTOP": "Open album on desktop",
+        "ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX": "Photos can be found in Codex",
+        "ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX_ALT1": "Pictures can be found in Codex",
+        "ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX_ALT2": "Pictures can be found in Codex, Camera",
+        "ID_CAMERA_FILTER_NONE": "No Filter",
+        "ID_CAMERA_FILTER_CONTRASTPUSH": "Contrast Push",
+        "ID_CAMERA_FILTER_COLORPUSH": "Color Push",
+        "ID_CAMERA_FILTER_CLASSICFILM": "Classic Film Grain",
+        "ID_CAMERA_FILTER_BLACKWHITE": "Black and White"
       },
       "KeysToMetaData": {
         "ID_CAMERA_SETTING_AUTO": {
@@ -128,6 +140,34 @@
           "Status": "approved"
         },
         "ID_CAMERA_ITEMDESC_ADVANCEDCAMERA": {
+          "Status": "approved"
+        },
+        "ID_CAMERA_TO_ADJUSTMENTS_NOT_AVLIBLE_LOW_SETTINGS": {
+          "Note": "Warning if settings are in low settings, that the cameras settings will not work",
+          "Status": "approved"
+        },
+        "ID_CAMERA_TO_ADJUSTMENTS_NOT_AVLIBLE_LOW_SETTINGS_ALT": {
+          "Note": "Warning if settings are in low settings, that the cameras settings will not work",
+          "Status": "approved"
+        },
+        "ID_CAMERA_OPEN_ALBUM_FOLDER": {
+          "Note": "Opens PC albums directory path",
+          "Status": "approved"
+        },
+        "ID_CAMERA_OPEN_ALBUM_FOLDER_DESKTOP": {
+          "Note": "Opens PC albums directory path",
+          "Status": "approved"
+        },
+        "ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX": {
+          "Note": "Indication where the camera can be found in-game",
+          "Status": "approved"
+        },
+        "ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX_ALT1": {
+          "Note": "Indication where the camera can be found in-game",
+          "Status": "approved"
+        },
+        "ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX_ALT2": {
+          "Note": "Indication where the camera can be found in-game",
           "Status": "approved"
         }
       }

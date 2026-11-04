@@ -789,7 +789,7 @@
         "ObjectName": "SceneComponent'CS_Boom_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.12"
       },
-      "VariableGUID": "43130725-4E52E2B6-2833F0AE-41A551E4",
+      "VariableGuid": "43130725-4E52E2B6-2833F0AE-41A551E4",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -821,7 +821,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.20"
         }
       ],
-      "VariableGUID": "AFF216B8-45A46E93-B079B494-EB3B6E15",
+      "VariableGuid": "AFF216B8-45A46E93-B079B494-EB3B6E15",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -843,7 +843,7 @@
         "ObjectName": "CBP_StunStyleDriver_C'CS_Boom_C:CBP_StunStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.7"
       },
-      "VariableGUID": "EB7B8632-4B9E9EC8-D214CBB3-E0F6D5E6",
+      "VariableGuid": "EB7B8632-4B9E9EC8-D214CBB3-E0F6D5E6",
       "InternalVariableName": "CBP_StunStyleDriver"
     }
   },
@@ -865,7 +865,7 @@
         "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Boom_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.3"
       },
-      "VariableGUID": "4B71679A-42481CFC-44F40197-B2515F33",
+      "VariableGuid": "4B71679A-42481CFC-44F40197-B2515F33",
       "InternalVariableName": "BP_DamageStyleDriver_Medium"
     }
   },
@@ -887,7 +887,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Boom_C:ExplosionCoolDownAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.36"
       },
-      "VariableGUID": "051E35CC-4EBA34B4-CF63FE92-DB8BEF9D",
+      "VariableGuid": "051E35CC-4EBA34B4-CF63FE92-DB8BEF9D",
       "InternalVariableName": "ExplosionCoolDownAnim"
     }
   },
@@ -909,7 +909,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Boom_C:PistonExplosionPrepareAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.38"
       },
-      "VariableGUID": "97DD943A-45DF7D5F-AB8D9580-E73CC061",
+      "VariableGuid": "97DD943A-45DF7D5F-AB8D9580-E73CC061",
       "InternalVariableName": "PistonExplosionPrepareAnim"
     }
   },
@@ -931,7 +931,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Boom_C:PistonExplosionReadyAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.39"
       },
-      "VariableGUID": "466B2F1D-49420861-80072AAB-1BC14094",
+      "VariableGuid": "466B2F1D-49420861-80072AAB-1BC14094",
       "InternalVariableName": "PistonExplosionReadyAnim"
     }
   },
@@ -954,7 +954,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.42"
       },
       "AttachToName": "FrameCenterAxis",
-      "VariableGUID": "5BC9A9AF-44C18203-CA913C9D-9460ECD7",
+      "VariableGuid": "5BC9A9AF-44C18203-CA913C9D-9460ECD7",
       "InternalVariableName": "VisionConeDummy"
     }
   },
@@ -976,7 +976,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Boom_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.0"
       },
-      "VariableGUID": "E134AEE5-43985578-5F0B83A7-8129DE73",
+      "VariableGuid": "E134AEE5-43985578-5F0B83A7-8129DE73",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -998,7 +998,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Boom_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.4"
       },
-      "VariableGUID": "94EC50C2-48D84DB6-18CB66B1-E4DD4858",
+      "VariableGuid": "94EC50C2-48D84DB6-18CB66B1-E4DD4858",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1020,7 +1020,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Boom_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.11"
       },
-      "VariableGUID": "0BCC8622-4C77BB8A-C805B98A-3076C9BC",
+      "VariableGuid": "0BCC8622-4C77BB8A-C805B98A-3076C9BC",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1042,7 +1042,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Boom_C:IntoCombatAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.37"
       },
-      "VariableGUID": "5BACD4CF-48470471-EFF58EB3-311F00C7",
+      "VariableGuid": "5BACD4CF-48470471-EFF58EB3-311F00C7",
       "InternalVariableName": "IntoCombatAnim"
     }
   },
@@ -1064,7 +1064,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Boom_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.5"
       },
-      "VariableGUID": "A6D9ECAB-4E81CF78-8B86FC84-702C4EC5",
+      "VariableGuid": "A6D9ECAB-4E81CF78-8B86FC84-702C4EC5",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1086,7 +1086,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Boom_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.1"
       },
-      "VariableGUID": "76B61B31-4653EF48-891925A9-524465A9",
+      "VariableGuid": "76B61B31-4653EF48-891925A9-524465A9",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1108,7 +1108,7 @@
         "ObjectName": "ConstructableGroundEngineAudioComponent'CS_Boom_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.8"
       },
-      "VariableGUID": "0727D737-4146E7D8-77984F93-9906EC6B",
+      "VariableGuid": "0727D737-4146E7D8-77984F93-9906EC6B",
       "InternalVariableName": "ConstructableGroundEngineAudioComponent"
     }
   },
@@ -1130,7 +1130,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Boom_C:AlertedAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.34"
       },
-      "VariableGUID": "74A4BE95-4BB0DCDD-05CD9D88-25BCB40E",
+      "VariableGuid": "74A4BE95-4BB0DCDD-05CD9D88-25BCB40E",
       "InternalVariableName": "AlertedAnim"
     }
   },
@@ -1152,7 +1152,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Boom_C:RevUpPrepareAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.40"
       },
-      "VariableGUID": "3774AE23-4A8A4611-E6A7CC86-522A8B1A",
+      "VariableGuid": "3774AE23-4A8A4611-E6A7CC86-522A8B1A",
       "InternalVariableName": "RevUpPrepareAnim"
     }
   },
@@ -1174,7 +1174,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Boom_C:ExplosionAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.35"
       },
-      "VariableGUID": "E8A0A7E5-4C8A2FA7-5FDC53A8-EEE7B1CE",
+      "VariableGuid": "E8A0A7E5-4C8A2FA7-5FDC53A8-EEE7B1CE",
       "InternalVariableName": "ExplosionAnim"
     }
   },
@@ -1196,7 +1196,7 @@
         "ObjectName": "SpottableStyleDriver'CS_Boom_C:SpottableStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.41"
       },
-      "VariableGUID": "C7AA9930-4A7E917F-9E86DAAD-D8CA760F",
+      "VariableGuid": "C7AA9930-4A7E917F-9E86DAAD-D8CA760F",
       "InternalVariableName": "SpottableStyleDriver"
     }
   },

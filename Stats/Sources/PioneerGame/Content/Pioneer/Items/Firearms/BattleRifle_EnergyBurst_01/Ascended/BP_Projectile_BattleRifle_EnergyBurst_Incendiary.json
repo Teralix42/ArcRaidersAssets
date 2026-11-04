@@ -144,7 +144,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_BattleRifle_EnergyBurst_Incendiary_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/BP_Projectile_BattleRifle_EnergyBurst_Incendiary.4"
       },
-      "VariableGUID": "6E1AAA9E-47B4FF2D-892878AE-21C8CA1C",
+      "VariableGuid": "6E1AAA9E-47B4FF2D-892878AE-21C8CA1C",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

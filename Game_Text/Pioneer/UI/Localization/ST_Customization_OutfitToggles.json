@@ -180,7 +180,13 @@
         "ID_OUTFITTOGGLE_LEGARMOR": "Leg Armor",
         "ID_OUTFITTOGGLE_SHOECOVERS": "Shoe Covers",
         "ID_OUTFITTOGGLE_BOOTCOVERS": "Boot Covers",
-        "ID_OUTFITTOGGLE_FURBOTTOM": "Fur Bottom"
+        "ID_OUTFITTOGGLE_FURBOTTOM": "Fur Bottom",
+        "ID_OUTFITTOGGLE_NOMOHAWK": "No Mohawk",
+        "ID_OUTFITTOGGLE_ONLYHELMET": "Only Helmet",
+        "ID_OUTFITTOGGLE_ONLYRESPIRATOR": "Only Respirator",
+        "ID_OUTFITTOGGLE_CANNISTER": "Cannister",
+        "ID_OUTFITTOGGLE_TATTOOSLEEVE": "Tattoo Sleeve",
+        "ID_OUTFITTOGGLE_PANTSCHAINS": "Pants Chains"
       },
       "KeysToMetaData": {
         "ID_OUTFITTOGGLE_OFF": {
@@ -700,6 +706,24 @@
           "Status": "approved"
         },
         "ID_OUTFITTOGGLE_FURBOTTOM": {
+          "Status": "approved"
+        },
+        "ID_OUTFITTOGGLE_NOMOHAWK": {
+          "Status": "approved"
+        },
+        "ID_OUTFITTOGGLE_ONLYHELMET": {
+          "Status": "approved"
+        },
+        "ID_OUTFITTOGGLE_ONLYRESPIRATOR": {
+          "Status": "approved"
+        },
+        "ID_OUTFITTOGGLE_CANNISTER": {
+          "Status": "approved"
+        },
+        "ID_OUTFITTOGGLE_TATTOOSLEEVE": {
+          "Status": "approved"
+        },
+        "ID_OUTFITTOGGLE_PANTSCHAINS": {
           "Status": "approved"
         }
       }

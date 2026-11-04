@@ -81,8 +81,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 3 | ID.Armor.Light | 5 | LargeFlap_L_01, LargeFlap_L_02, LargeFlap_R_01, LargeFlap_R_02 |
 | 4 | HealthGroup.SubParts | 48 | SubFrame_01, SubFrame_02, SubFrame_03 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

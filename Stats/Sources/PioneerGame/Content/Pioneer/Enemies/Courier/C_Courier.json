@@ -1427,7 +1427,7 @@
         "ObjectName": "SceneComponent'C_Courier_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.28"
       },
-      "VariableGUID": "FBBA6CBC-4DF12FDE-307E5AA2-3FB5E136",
+      "VariableGuid": "FBBA6CBC-4DF12FDE-307E5AA2-3FB5E136",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1449,7 +1449,7 @@
         "ObjectName": "ProximityDetectionService'C_Courier_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.26"
       },
-      "VariableGUID": "B4876F95-44F9D8EF-72FCBEBE-8666393D",
+      "VariableGuid": "B4876F95-44F9D8EF-72FCBEBE-8666393D",
       "InternalVariableName": "ProximityDetectionService"
     }
   },
@@ -1471,7 +1471,7 @@
         "ObjectName": "ArticulatedTargetingService'C_Courier_C:ArticulatedTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.1"
       },
-      "VariableGUID": "FCEBC2C6-49EC9575-8809F5A8-62A5E364",
+      "VariableGuid": "FCEBC2C6-49EC9575-8809F5A8-62A5E364",
       "InternalVariableName": "ArticulatedTargetingService"
     }
   },
@@ -1493,7 +1493,7 @@
         "ObjectName": "CourierDockingStateService'C_Courier_C:CourierDockingStateService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.14"
       },
-      "VariableGUID": "C96EE697-4A8EB9DD-CB7707A8-A01E777E",
+      "VariableGuid": "C96EE697-4A8EB9DD-CB7707A8-A01E777E",
       "InternalVariableName": "CourierDockingStateService"
     }
   },
@@ -1515,7 +1515,7 @@
         "ObjectName": "ConstructableAnimationService'C_Courier_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.6"
       },
-      "VariableGUID": "E4BB0916-46C542BA-061000A0-FA409A58",
+      "VariableGuid": "E4BB0916-46C542BA-061000A0-FA409A58",
       "InternalVariableName": "ConstructableAnimationService"
     }
   },
@@ -1537,7 +1537,7 @@
         "ObjectName": "ProjectileDeflectService'C_Courier_C:ProjectileDeflectService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.25"
       },
-      "VariableGUID": "7A2F608A-4F617467-0494FBA6-740386AF",
+      "VariableGuid": "7A2F608A-4F617467-0494FBA6-740386AF",
       "InternalVariableName": "ProjectileDeflectService"
     }
   },
@@ -1559,7 +1559,7 @@
         "ObjectName": "FloatingMovementComponent'C_Courier_C:FloatingMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.16"
       },
-      "VariableGUID": "79AF74D7-4C023193-90404288-93DB8B7D",
+      "VariableGuid": "79AF74D7-4C023193-90404288-93DB8B7D",
       "InternalVariableName": "FloatingMovementComponent"
     }
   },
@@ -1583,7 +1583,7 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "236BC7BD-469F7395-6C10EBB8-2E1C45E4",
+      "VariableGuid": "236BC7BD-469F7395-6C10EBB8-2E1C45E4",
       "InternalVariableName": "ConstructableStandardInteractionComponent"
     }
   },

@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Inbox
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_INBOX_ARCHIVE_EMPTY_DESCRIPTION]
 There are no archived messages.
@@ -78,9 +78,9 @@ Please claim the message's gift before deleting.
 Link Discord
 
 [ID_INBOX_MESSAGE_ACTION_LINK_DISCORD_BODY]
-Discord + ARC Raiders = ENGAGE! By linking your Discord account and Embark ID you can easily pull in your friends for a round, wherever they are online!
-
-Invite Discord friends to your Party directly from ARC Raiders, even if they’re not yet logged on!
+Discord + ARC Raiders = ENGAGE! By linking your Discord account and Embark ID you can easily pull in your friends for a round, wherever they are online!
+
+Invite Discord friends to your Party directly from ARC Raiders, even if they’re not yet logged on!
 Your status from ARC Raiders can be shared with your Discord friends, letting them know when you’re ready to team up or still fending off ARC Topside!
 
 [ID_INBOX_MESSAGE_ACTION_UNARCHIVE]
@@ -105,62 +105,62 @@ Thank you from the **ARC Raiders team** and **Embark Studios** for being a value
 Happy Holidays!
 
 [ID_INBOX_MESSAGE_COMMUNITYACTIVATION_CTA_BODY]
-Raiders,
-
-When Topside’s threats seem especially daunting, there are few things so reassuring as a loyal squad to have your back. Use these gifts to return the favor the next time you go Topside, or extend an olive branch to any strangers you encounter.
-
+Raiders,
+
+When Topside’s threats seem especially daunting, there are few things so reassuring as a loyal squad to have your back. Use these gifts to return the favor the next time you go Topside, or extend an olive branch to any strangers you encounter.
+
 -The ARC Raiders team
 
 [ID_INBOX_MESSAGE_COMMUNITYACTIVATION_CTA_TITLE]
 The Gift of Caring
 
 [ID_INBOX_MESSAGE_COMMUNITYACTIVATION_REWARD_BODY]
-Raiders,
-
-Recently, Topside has seen a marked increase in Raiders banding together; taking on threats with a renewed sense of solidarity and collaboration. Here’s a small gift to help you face your fellow Raiders with that same spirit in the future.
-
+Raiders,
+
+Recently, Topside has seen a marked increase in Raiders banding together; taking on threats with a renewed sense of solidarity and collaboration. Here’s a small gift to help you face your fellow Raiders with that same spirit in the future.
+
 - The ARC Raiders team
 
 [ID_INBOX_MESSAGE_COMMUNITYACTIVATION_REWARD_BODY_ALT1]
-Raiders,
-
-Recently, Topside has seen a marked increase in Raiders banding together; taking on threats with a renewed sense of solidarity and collaboration. Here’s a small gift to help you meet your fellow Raiders with that same spirit in the future.
-
+Raiders,
+
+Recently, Topside has seen a marked increase in Raiders banding together; taking on threats with a renewed sense of solidarity and collaboration. Here’s a small gift to help you meet your fellow Raiders with that same spirit in the future.
+
 - The ARC Raiders team
 
 [ID_INBOX_MESSAGE_COMMUNITYACTIVATION_REWARD_TITLE]
 A Token of Friendship
 
 [ID_INBOX_MESSAGE_CROSSPROMOTION_ARC_TO_FINALS_BODY]
-Raiders,
-THE FINALS is a free to play multiplayer FPS from Embark Studios. As an ARC Raiders player, you are eligible to receive the Voltage Marauder outfit set.
-
-Bring a touch of Speranza style into the Arena and let everyone know ARC Raiders sent you!
-
-To receive the outfit just download and launch THE FINALS.
-
-Make sure you log in using your existing Embark ID. The Voltage Marauder set will be granted to your account automatically.
-
-See you Topside...
+Raiders,
+THE FINALS is a free to play multiplayer FPS from Embark Studios. As an ARC Raiders player, you are eligible to receive the Voltage Marauder outfit set.
+
+Bring a touch of Speranza style into the Arena and let everyone know ARC Raiders sent you!
+
+To receive the outfit just download and launch THE FINALS.
+
+Make sure you log in using your existing Embark ID. The Voltage Marauder set will be granted to your account automatically.
+
+See you Topside...
 And in the Arena!
 
 [ID_INBOX_MESSAGE_CROSSPROMOTION_ARC_TO_FINALS_TITLE]
 Represent ARC Raiders in THE FINALS!
 
 [ID_INBOX_MESSAGE_CROSSPROMOTION_BODY]
-Hey Raider,
-
-**Unlock an exclusive outfit in ARC Raiders** by completing a special Raider contract in THE FINALS, the world's first Dynamism Shooter from Embark Studios!
-
+Hey Raider,
+
+**Unlock an exclusive outfit in ARC Raiders** by completing a special Raider contract in THE FINALS, the world's first Dynamism Shooter from Embark Studios!
+
 Be sure to connect to the same EmbarkID in both games.
 
 [ID_INBOX_MESSAGE_CROSSPROMOTION_BUTTON]
 Download THE FINALS
 
 [ID_INBOX_MESSAGE_CROSSPROMOTION_REWARD_BODY]
-Congratulations! As a Rising Star in THE FINALS, you've earned some exclusive rewards:
-- [Outfit] Ryder - Red
-- [Backpack] Salvager - Black
+Congratulations! As a Rising Star in THE FINALS, you've earned some exclusive rewards:
+- [Outfit] Ryder - Red
+- [Backpack] Salvager - Black
 - [Charm] Soccer Finals Ticket
 
 [ID_INBOX_MESSAGE_CROSSPROMOTION_REWARD_TITLE]
@@ -215,28 +215,28 @@ ARC Raiders is currently undergoing scheduled maintenance, and the game will be 
 Scheduled Maintenance in Progress
 
 [ID_INBOX_MESSAGE_ONE_MILLION_DISCORD_BODY]
-We are blown away to see so many of you sharing your feedback, reporting issues and chatting. To celebrate, we are sending Toy Robot Backpack Charm to everyone who connected their Discord to Embark ID.
-
+We are blown away to see so many of you sharing your feedback, reporting issues and chatting. To celebrate, we are sending Toy Robot Backpack Charm to everyone who connected their Discord to Embark ID.
+
 The ARC Raiders Team
 
 [ID_INBOX_MESSAGE_ONE_MILLION_DISCORD_TITLE]
 1 Million Raiders on Discord
 
 [ID_INBOX_MESSAGE_PENALIZATION_LEVEL_1_BODY]
-Raider!
-We’ve detected activity on your account that appears to involve potential exploit use. Consider this a warning and know that continued use of exploits could lead to a suspension. 
-Taking advantage of exploits has a real impact on the game’s economy and the way the community experiences ARC Raiders. It is our goal to fix these issues as soon as possible to restore balance. Please report them in the dedicated channels.
-Read more on arcraiders.com/news.
+Raider!
+We’ve detected activity on your account that appears to involve potential exploit use. Consider this a warning and know that continued use of exploits could lead to a suspension. 
+Taking advantage of exploits has a real impact on the game’s economy and the way the community experiences ARC Raiders. It is our goal to fix these issues as soon as possible to restore balance. Please report them in the dedicated channels.
+Read more on arcraiders.com/news.
 The ARC Raiders Team
 
 [ID_INBOX_MESSAGE_PENALIZATION_LEVEL_1_TITLE]
 Fair Play Reminder
 
 [ID_INBOX_MESSAGE_PENALIZATION_LEVEL_2_BODY]
-Raider!
-We’ve confirmed exploit use on your account. Since use of exploits violates our Terms of Service and End User License Agreement, we have taken measures by removing a portion of your Coins. Continuing use of exploits could lead to account suspension.
-Taking advantage of exploits has a real impact on the game’s economy and the way the community experiences ARC Raiders. It is our goal to fix these issues as soon as possible to restore balance. Please report them in the dedicated channels.
-Read more on arcraiders.com/news.
+Raider!
+We’ve confirmed exploit use on your account. Since use of exploits violates our Terms of Service and End User License Agreement, we have taken measures by removing a portion of your Coins. Continuing use of exploits could lead to account suspension.
+Taking advantage of exploits has a real impact on the game’s economy and the way the community experiences ARC Raiders. It is our goal to fix these issues as soon as possible to restore balance. Please report them in the dedicated channels.
+Read more on arcraiders.com/news.
 The ARC Raiders Team
 
 [ID_INBOX_MESSAGE_PENALIZATION_LEVEL_2_TITLE]
@@ -267,21 +267,21 @@ Thank you for taking the time to report. Every action like this helps make ARC R
 Report Received!
 
 [ID_INBOX_MESSAGE_SERVERSLAMENDING_BODY]
-Hey Raider,
-
-Thank you for participating in the Server Slam. The playtest will end on the 19th of October.
-
-Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
-
+Hey Raider,
+
+Thank you for participating in the Server Slam. The playtest will end on the 19th of October.
+
+Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
+
 In the meantime, check out [Season 8 on THE FINALS](TheFinals), the world's first Dynamism Shooter!
 
 [ID_INBOX_MESSAGE_SERVERSLAMENDING_BODY_ALT1]
-Thank you, Raider.
-
-The playtest will end on the 19th of October.
-
-Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
-
+Thank you, Raider.
+
+The playtest will end on the 19th of October.
+
+Please check out [our store page](ARCRaiders) to pre-order ARC Raiders, and we'll see you Topside on October 30th.
+
 While you wait, [THE FINALS](TheFinals) is free to play. Enter the Arena, Contestant! The World is watching!
 
 [ID_INBOX_MESSAGE_SERVERSLAMENDING_TITLE]
@@ -294,10 +294,10 @@ Server Slam Ending Soon!
 Server Slam Ending on the 19th of October
 
 [ID_INBOX_MESSAGE_SERVER_CRASH_COMPENSATION_BODY]
-Hello Raider,
-
-It looks like you ran into some unexpected technical interference topside. Don’t worry, Scrappy managed to recover your belongings and bring them back safely to Speranza.
-
+Hello Raider,
+
+It looks like you ran into some unexpected technical interference topside. Don’t worry, Scrappy managed to recover your belongings and bring them back safely to Speranza.
+
 Claim them here and they’ll be waiting in your stash.
 
 [ID_INBOX_MESSAGE_SERVER_CRASH_COMPENSATION_TITLE]
@@ -313,25 +313,25 @@ Your account has been temporarily suspended due to a violation of our code of co
 Temporary Account Suspension
 
 [ID_INBOX_MESSAGE_TEN_MILLION_PLAYERS_BODY]
-It's been a hell of a ride so far, and we're celebrating a huge milestone... 10 million Raiders in the Rust Belt!
-
-We're proud and humbled by your love for ARC Raiders. There's so much more exciting content to come, so we hope you stay for the journey.
-
-You're one of the first 10 million, so here's something to show for it.
-
-
-See you Topside, Raiders.
-
+It's been a hell of a ride so far, and we're celebrating a huge milestone... 10 million Raiders in the Rust Belt!
+
+We're proud and humbled by your love for ARC Raiders. There's so much more exciting content to come, so we hope you stay for the journey.
+
+You're one of the first 10 million, so here's something to show for it.
+
+
+See you Topside, Raiders.
+
 The ARC Raiders Team
 
 [ID_INBOX_MESSAGE_TEN_MILLION_PLAYERS_TITLE]
 10 Million Raiders!
 
 [ID_INBOX_MESSAGE_TRIALS_COMPENSATION_BODY]
-Hey Raider,
-
-It looks like some of your Trials progress was lost during some unexpected technical interference Topside. Don't worry, we know you would have climbed the ranks anyway, so here are some additional seasonal rewards.
-
+Hey Raider,
+
+It looks like some of your Trials progress was lost during some unexpected technical interference Topside. Don't worry, we know you would have climbed the ranks anyway, so here are some additional seasonal rewards.
+
 Claim them here.
 
 [ID_INBOX_MESSAGE_TRIALS_COMPENSATION_TITLE]
@@ -347,12 +347,12 @@ Good news, Raider!  Since you’ve made a mark for yourself in Tech Test 2, we�
 Your Twitch Drop rewards are ready. Claim them now to use in your next adventure topside.  - The ARC Raiders team
 
 [ID_INBOX_MESSAGE_VALENTINE_2026_BODY]
-Hey Raider,
-
-Today, Speranzans celebrate the companions that always have their back - and so do we. Mark the occasion with a gift from us: 'Bonded Bolts', Speranza's emblem of shared resistance.
-
-Stay safe,
-
+Hey Raider,
+
+Today, Speranzans celebrate the companions that always have their back - and so do we. Mark the occasion with a gift from us: 'Bonded Bolts', Speranza's emblem of shared resistance.
+
+Stay safe,
+
 The ARC Raiders Team
 
 [ID_INBOX_MESSAGE_VALENTINE_2026_TITLE]

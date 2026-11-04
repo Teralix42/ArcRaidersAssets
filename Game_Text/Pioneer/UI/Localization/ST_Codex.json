@@ -121,7 +121,8 @@
         "ID_CODEX_BACK_TO_CATEGORIES_ALT": "Back to World Book",
         "ID_CODEX_BACK_TO_CATEGORIES": "Back to categories",
         "ID_CODEX_PLAYERSTATS_STATS_EXPEDITIONS_COMPLETED": "Expeditions Completed",
-        "ID_CODEX_COLLECTIONS_TITLE": "Collections"
+        "ID_CODEX_COLLECTIONS_TITLE": "Collections",
+        "ID_CODEX_PLAYERSTATS_STATS_REVIVED_BY_STRANGER": "Times Revived By A Stranger"
       },
       "KeysToMetaData": {
         "ID_CODEX_PLAYERSTATS_TITLE": {

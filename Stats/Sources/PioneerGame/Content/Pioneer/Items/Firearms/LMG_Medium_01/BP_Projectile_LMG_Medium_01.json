@@ -117,7 +117,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_LMG_Medium_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/LMG_Medium_01/BP_Projectile_LMG_Medium_01.4"
       },
-      "VariableGUID": "50B18B1C-4F91BE05-6C60CBA2-CAD3EFDD",
+      "VariableGuid": "50B18B1C-4F91BE05-6C60CBA2-CAD3EFDD",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

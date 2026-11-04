@@ -1232,7 +1232,7 @@
         "ObjectName": "SceneComponent'CS_Monolith_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.13"
       },
-      "VariableGUID": "4788BC20-4C71F07E-C4242F9D-FB9EE999",
+      "VariableGuid": "4788BC20-4C71F07E-C4242F9D-FB9EE999",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1268,7 +1268,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.22"
         }
       ],
-      "VariableGUID": "FA9DE8E2-4C42B2C1-77C18EA4-967C235A",
+      "VariableGuid": "FA9DE8E2-4C42B2C1-77C18EA4-967C235A",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1290,7 +1290,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Monolith_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.0"
       },
-      "VariableGUID": "5330BE22-4E2B18C3-E019A4B0-EA18BE43",
+      "VariableGuid": "5330BE22-4E2B18C3-E019A4B0-EA18BE43",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1312,7 +1312,7 @@
         "ObjectName": "CyclicTransformStyleDriver'CS_Monolith_C:CyclicTransformStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.10"
       },
-      "VariableGUID": "107A66CD-4CCC4DF4-97B8109B-A6FE3A93",
+      "VariableGuid": "107A66CD-4CCC4DF4-97B8109B-A6FE3A93",
       "InternalVariableName": "CyclicTransformStyleDriver"
     }
   },
@@ -1334,7 +1334,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_IdleToAlert_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.45"
       },
-      "VariableGUID": "82CE1B34-4719233C-EA12BD84-4DD37BCA",
+      "VariableGuid": "82CE1B34-4719233C-EA12BD84-4DD37BCA",
       "InternalVariableName": "AnimSequence_IdleToAlert"
     }
   },
@@ -1356,7 +1356,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_AlertToIdle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.41"
       },
-      "VariableGUID": "854ACB48-4B0E825B-74C5F89D-A548D226",
+      "VariableGuid": "854ACB48-4B0E825B-74C5F89D-A548D226",
       "InternalVariableName": "AnimSequence_AlertToIdle"
     }
   },
@@ -1378,7 +1378,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_Landing_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.47"
       },
-      "VariableGUID": "5BCB1BDC-4D831AF1-5B2F649F-BC92667B",
+      "VariableGuid": "5BCB1BDC-4D831AF1-5B2F649F-BC92667B",
       "InternalVariableName": "AnimSequence_Landing"
     }
   },
@@ -1400,7 +1400,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_Attack_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.42"
       },
-      "VariableGUID": "45275FE9-4AC9D2D4-32A508B1-A20D8FCB",
+      "VariableGuid": "45275FE9-4AC9D2D4-32A508B1-A20D8FCB",
       "InternalVariableName": "AnimSequence_Attack"
     }
   },
@@ -1422,7 +1422,7 @@
         "ObjectName": "ConstructableHoverEngineAudioComponent'CS_Monolith_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.5"
       },
-      "VariableGUID": "FC302C2E-48FEA69E-173497A1-D5B40D1E",
+      "VariableGuid": "FC302C2E-48FEA69E-173497A1-D5B40D1E",
       "InternalVariableName": "ConstructableHoverEngineAudioComponent"
     }
   },
@@ -1444,7 +1444,7 @@
         "ObjectName": "BP_DamageStyleDriver_Large_C'CS_Monolith_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.2"
       },
-      "VariableGUID": "8F1A2D15-440017C9-16A81AA6-F98D5C43",
+      "VariableGuid": "8F1A2D15-440017C9-16A81AA6-F98D5C43",
       "InternalVariableName": "BP_DamageStyleDriver_Large"
     }
   },
@@ -1466,7 +1466,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_ThumpReady_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.50"
       },
-      "VariableGUID": "08629A49-4A4E88ED-09DFEEAC-872B8C94",
+      "VariableGuid": "08629A49-4A4E88ED-09DFEEAC-872B8C94",
       "InternalVariableName": "AnimSequence_ThumpReady"
     }
   },
@@ -1488,7 +1488,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_AlertToCombat_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.40"
       },
-      "VariableGUID": "ED619973-433229FA-4BE67786-23E00A61",
+      "VariableGuid": "ED619973-433229FA-4BE67786-23E00A61",
       "InternalVariableName": "AnimSequence_AlertToCombat"
     }
   },
@@ -1510,7 +1510,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Monolith_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.11"
       },
-      "VariableGUID": "45CA6742-421E4D1E-4B1490B1-7CB657A3",
+      "VariableGuid": "45CA6742-421E4D1E-4B1490B1-7CB657A3",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1532,7 +1532,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_ThumpActive_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.49"
       },
-      "VariableGUID": "0E40802C-4E73281D-77C967B4-2E027E9D",
+      "VariableGuid": "0E40802C-4E73281D-77C967B4-2E027E9D",
       "InternalVariableName": "AnimSequence_ThumpActive"
     }
   },
@@ -1554,7 +1554,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_CombatToAlert_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.43"
       },
-      "VariableGUID": "69E0580F-41758A23-B26D50A1-9ABEDF25",
+      "VariableGuid": "69E0580F-41758A23-B26D50A1-9ABEDF25",
       "InternalVariableName": "AnimSequence_CombatToAlert"
     }
   },
@@ -1576,7 +1576,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_IdleToCombat_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.46"
       },
-      "VariableGUID": "EC8AC058-4D98652F-A86C38B8-36BDC045",
+      "VariableGuid": "EC8AC058-4D98652F-A86C38B8-36BDC045",
       "InternalVariableName": "AnimSequence_IdleToCombat"
     }
   },
@@ -1598,7 +1598,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_CombatToIdle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.44"
       },
-      "VariableGUID": "72523062-47128AF8-EA2836B2-CDF613FA",
+      "VariableGuid": "72523062-47128AF8-EA2836B2-CDF613FA",
       "InternalVariableName": "AnimSequence_CombatToIdle"
     }
   },
@@ -1620,7 +1620,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_Monolith_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.51"
       },
-      "VariableGUID": "0E38331F-4EB93E6F-2D3CD595-53232B42",
+      "VariableGuid": "0E38331F-4EB93E6F-2D3CD595-53232B42",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },
@@ -1642,7 +1642,7 @@
         "ObjectName": "ConstructableStyleProxyComponent'CS_Monolith_C:EyeProxy_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.7"
       },
-      "VariableGUID": "A9EF37E8-4146C536-3AC23D82-AB1F975D",
+      "VariableGuid": "A9EF37E8-4146C536-3AC23D82-AB1F975D",
       "InternalVariableName": "EyeProxy"
     }
   },
@@ -1664,7 +1664,7 @@
         "ObjectName": "ConstructableStyleProxyComponent'CS_Monolith_C:MineWeaponProxy_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.8"
       },
-      "VariableGUID": "86C0DFD8-4C66EA27-84157DA1-2CB902F4",
+      "VariableGuid": "86C0DFD8-4C66EA27-84157DA1-2CB902F4",
       "InternalVariableName": "MineWeaponProxy"
     }
   },
@@ -1686,7 +1686,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_Spin_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.48"
       },
-      "VariableGUID": "D1FB6303-41911905-8600FD9F-F73DB504",
+      "VariableGuid": "D1FB6303-41911905-8600FD9F-F73DB504",
       "InternalVariableName": "AnimSequence_Spin"
     }
   },
@@ -1708,7 +1708,7 @@
         "ObjectName": "HeatedHullStyleDriver'CS_Monolith_C:HeatedHullStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.12"
       },
-      "VariableGUID": "A7714749-4456CB26-B4717795-89C1FB25",
+      "VariableGuid": "A7714749-4456CB26-B4717795-89C1FB25",
       "InternalVariableName": "HeatedHullStyleDriver"
     }
   },
@@ -1730,7 +1730,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Monolith_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.3"
       },
-      "VariableGUID": "B10F219B-4F2A07D8-D1EA3CAB-8830260E",
+      "VariableGuid": "B10F219B-4F2A07D8-D1EA3CAB-8830260E",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1752,7 +1752,7 @@
         "ObjectName": "ConstructableAnimationRepositoryComponent'CS_Monolith_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.4"
       },
-      "VariableGUID": "B42B3AD2-4278267E-2CF32BA0-CA10B460",
+      "VariableGuid": "B42B3AD2-4278267E-2CF32BA0-CA10B460",
       "InternalVariableName": "ConstructableAnimationRepositoryComponent"
     }
   },

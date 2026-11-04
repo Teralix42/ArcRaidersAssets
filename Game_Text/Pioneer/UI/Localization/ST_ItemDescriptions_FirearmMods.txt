@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ItemDescriptions_FirearmMods
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_ITEMDESC_MAGAZINEHEAVY_EXTENDED_01]
 Slightly extends the ammo capacity of compatible weapons that use heavy ammo.
@@ -109,6 +109,9 @@ Significantly improves dispersion & recoil recovery time.
 
 [ID_ITEMDESC_TECH_PROJECTILESPLITTER]
 Tech mod for the Anvil that replaces its bullets with ones that split into 4 weaker projectiles.
+
+[ID_ITEMDESC_TECH_PROJECTILESPLITTER_LEGACY]
+No longer functional, but can still be sold or recycled.
 
 [ID_ITEMDESC_UNDERBARREL_ANGLEDGRIP_01]
 Slightly reduces horizontal recoil.

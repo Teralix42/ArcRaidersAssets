@@ -11,8 +11,7 @@
     "Template": {
       "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "AITargetComponent",
@@ -25,8 +24,7 @@
     },
     "Properties": {
       "OverrideTeamId": "EEmbarkTeamId::Team2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ArticulatedTargetingService",
@@ -196,8 +194,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BlueprintGeneratedClass",
@@ -388,8 +385,7 @@
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "BP_ConstructableDispersionServiceAutomaticRifle_C",
@@ -451,8 +447,7 @@
           }
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "C_Chonk_C",
@@ -578,8 +573,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Chonk_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.15"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "CapabilityReloadService",
@@ -599,8 +593,7 @@
           "MaxActivationCount": 120
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAbilitySystemComponent",
@@ -614,8 +607,7 @@
     "Template": {
       "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAimAssistTargetComponent",
@@ -641,8 +633,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Leg.0"
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableAnimationService",
@@ -708,8 +699,7 @@
           "bAutomaticallyStartAnimation": false
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionGameplayEffectApplicatorComponent",
@@ -775,8 +765,7 @@
       },
       "MinKnockbackVelocity": 200.0,
       "MaxKnockbackVelocity": 350.0
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableCollisionService",
@@ -834,8 +823,7 @@
           "Value": 1.0
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableItemContainerComponent",
@@ -855,8 +843,7 @@
         "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Chonk_C:Style'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.15"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePartReplicationServiceComponent",
@@ -915,8 +902,7 @@
         }
       ],
       "bHasManyParts": true
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructablePhysicsMaterialService",
@@ -926,8 +912,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableStyleAssemblerComponent",
@@ -947,8 +932,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableTargetingServiceComponent",
@@ -1146,8 +1130,7 @@
           "EditorCurveData": {}
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ConstructableVisualisiblePerceptionComponent",
@@ -1167,8 +1150,7 @@
         "ObjectName": "ConstructablePerceptionServiceConfig'DA_Chonk_Perception'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_Chonk_Perception.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "DebrisService",
@@ -1192,8 +1174,7 @@
         "ObjectName": "PartScavengeSetup'DA_Chonk_PartScavenge'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_Chonk_PartScavenge.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HeadStabilizationComponent",
@@ -1223,8 +1204,7 @@
       "DrainEffectTagTriggers": [
         "AI.PowerState.Drained"
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthGroupService",
@@ -1247,8 +1227,7 @@
           "UserDescription": ""
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "HealthService",
@@ -1896,8 +1875,7 @@
         ]
       },
       "NumPartsCategory": "EConstructableNumPartsCategory::Medium"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InheritableComponentHandler",
@@ -1907,8 +1885,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "InputComponent",
@@ -1922,8 +1899,7 @@
     "Template": {
       "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasComponent",
@@ -1965,8 +1941,7 @@
           ]
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasEffectModConstraintScale",
@@ -1983,8 +1958,7 @@
         "Damping": 0.0,
         "MaxForce": 0.0
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLGasEffectModSinCurve",
@@ -2015,8 +1989,7 @@
         "Stiffness": 0.2,
         "MaxForce": 2.0
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLIntentionComponent",
@@ -2026,8 +1999,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLLocomotionMovementComponent",
@@ -2119,8 +2091,7 @@
           "SubPathString": ""
         }
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "MLLocomotionPolicySelectorConfig",
@@ -2131,7 +2102,114 @@
       "ObjectName": "MLTickableMultiPolicyComponentAS'C_Chonk_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
       "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.30"
     },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    "Properties": {
+      "Rules": [
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 80.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 12,
+            "max": 12
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::VerySlow",
+            "EAIMovementSpeed::Slow",
+            "EAIMovementSpeed::Normal",
+            "EAIMovementSpeed::Fast",
+            "EAIMovementSpeed::VeryFast"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Patrol"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 180.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 0
+          },
+          "AllowedBehaviors": [
+            "ELocomotionTrainingBehaviour::Rotate",
+            "ELocomotionTrainingBehaviour::Stop"
+          ],
+          "AllowedSpeeds": [],
+          "PolicyTag": {
+            "TagName": "ML.Policy.RotateStop"
+          }
+        },
+        {
+          "AllowedVerticalAngleRange": {
+            "min": 0.0,
+            "max": 80.0
+          },
+          "BlockedTags": [],
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "AllowedPartCountRange": {
+            "min": 0,
+            "max": 11
+          },
+          "AllowedBehaviors": [],
+          "AllowedSpeeds": [
+            "EAIMovementSpeed::VerySlow",
+            "EAIMovementSpeed::Slow",
+            "EAIMovementSpeed::Normal",
+            "EAIMovementSpeed::Fast",
+            "EAIMovementSpeed::VeryFast"
+          ],
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment"
+          }
+        }
+      ]
+    }
   },
   {
     "Type": "MLTickableMultiPolicyComponentAS",
@@ -2179,8 +2257,7 @@
         "ObjectName": "MLLocomotionPolicySelectorConfig'C_Chonk_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE.MLLocomotionPolicySelectorConfig_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.29"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableAIStateService",
@@ -2197,8 +2274,7 @@
     },
     "Properties": {
       "SightRangeStrengthScale": 0.9
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableCapabilityService",
@@ -2340,8 +2416,7 @@
           "ActiveDuringState": 4
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionBoxShape",
@@ -2355,8 +2430,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionBoxShape'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionBoxShape_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.2"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleClearShot",
@@ -2375,8 +2449,7 @@
       "ClearShotToWeightCurve": {
         "EditorCurveData": {}
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleDiscovery",
@@ -2390,8 +2463,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleDiscovery'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleDiscovery_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.4"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
@@ -2405,8 +2477,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleGameplayTagTarget_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.5"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetCharacterStance",
@@ -2420,8 +2491,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleTargetCharacterStance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetCharacterStance_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.6"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetDistance",
@@ -2435,8 +2505,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetDistance_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.7"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionRuleTargetSpeed",
@@ -2450,8 +2519,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetSpeed_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.8"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableDispersionTargetAttribute",
@@ -2465,8 +2533,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableDispersionTargetAttribute'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionTargetAttribute_0'",
       "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.9"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerConstructableTimerService",
@@ -2480,8 +2547,7 @@
     "Template": {
       "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "PioneerPingInfoComponent",
@@ -2501,8 +2567,7 @@
         "ObjectName": "PingInfoDataAsset'DA_PingInfo_Bastion'",
         "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Bastion.0"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ProximityDetectionService",
@@ -2537,8 +2602,7 @@
           "bIncludeAllChildrenRecursively": true
         }
       ]
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "ReplicationSettingsComponent",
@@ -2552,8 +2616,7 @@
     "Template": {
       "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SceneComponent",
@@ -2563,8 +2626,7 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2584,10 +2646,9 @@
         "ObjectName": "SceneComponent'C_Chonk_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.45"
       },
-      "VariableGUID": "DA384A1F-4BAE3530-DB0661B5-4D0FD1DC",
+      "VariableGuid": "DA384A1F-4BAE3530-DB0661B5-4D0FD1DC",
       "InternalVariableName": "DefaultSceneRoot"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2607,10 +2668,9 @@
         "ObjectName": "CapabilityReloadService'C_Chonk_C:CapabilityReloadService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.6"
       },
-      "VariableGUID": "DD3D185A-4E710FEF-3F3DD491-C174E558",
+      "VariableGuid": "DD3D185A-4E710FEF-3F3DD491-C174E558",
       "InternalVariableName": "CapabilityReloadService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2630,10 +2690,9 @@
         "ObjectName": "HeadStabilizationComponent'C_Chonk_C:HeadStabilizationComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.19"
       },
-      "VariableGUID": "2B853C74-4339C094-FDE484A6-0A038E83",
+      "VariableGuid": "2B853C74-4339C094-FDE484A6-0A038E83",
       "InternalVariableName": "HeadStabilizationComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2653,10 +2712,9 @@
         "ObjectName": "ProximityDetectionService'C_Chonk_C:ProximityDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.43"
       },
-      "VariableGUID": "FB8ACF04-4C242050-1C6099B6-2C01BEC8",
+      "VariableGuid": "FB8ACF04-4C242050-1C6099B6-2C01BEC8",
       "InternalVariableName": "ProximityDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2676,10 +2734,9 @@
         "ObjectName": "ConstructableAnimationService'C_Chonk_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.9"
       },
-      "VariableGUID": "FFB5D80C-4A3E4AC3-7304E4BC-764045E7",
+      "VariableGuid": "FFB5D80C-4A3E4AC3-7304E4BC-764045E7",
       "InternalVariableName": "ConstructableAnimationService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2699,10 +2756,9 @@
         "ObjectName": "MLIntentionComponent'C_Chonk_C:MLIntentionComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.27"
       },
-      "VariableGUID": "BDD29978-49A21413-499485AC-0EE4ED3C",
+      "VariableGuid": "BDD29978-49A21413-499485AC-0EE4ED3C",
       "InternalVariableName": "MLIntentionComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2722,10 +2778,9 @@
         "ObjectName": "StuckDetectionService'C_Chonk_C:StuckDetectionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.64"
       },
-      "VariableGUID": "DFA2DCE3-429378F8-1C1348AF-3EBA68CC",
+      "VariableGuid": "DFA2DCE3-429378F8-1C1348AF-3EBA68CC",
       "InternalVariableName": "StuckDetectionService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2745,10 +2800,9 @@
         "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
       },
-      "VariableGUID": "B6B4C60A-4CD08ADE-E82DA79A-4036FCA3",
+      "VariableGuid": "B6B4C60A-4CD08ADE-E82DA79A-4036FCA3",
       "InternalVariableName": "BP_ConstructableDispersionServiceAutomaticRifle"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2768,10 +2822,9 @@
         "ObjectName": "MLTickableMultiPolicyComponentAS'C_Chonk_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.30"
       },
-      "VariableGUID": "8CF06E22-47D69F6A-E9629EA9-803699A2",
+      "VariableGuid": "8CF06E22-47D69F6A-E9629EA9-803699A2",
       "InternalVariableName": "MLTickableMultiPolicyComponentAS_Locomotion"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2791,10 +2844,9 @@
         "ObjectName": "MLLocomotionMovementComponent'C_Chonk_C:MLLocomotionMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.28"
       },
-      "VariableGUID": "9AD916B5-40055886-9C07B0AB-80A67522",
+      "VariableGuid": "9AD916B5-40055886-9C07B0AB-80A67522",
       "InternalVariableName": "MLLocomotionMovementComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2816,10 +2868,9 @@
       },
       "ParentComponentOrVariableName": "Style",
       "bIsParentComponentNative": true,
-      "VariableGUID": "6131DF4A-4D9F956D-4547469B-BEB1193A",
+      "VariableGuid": "6131DF4A-4D9F956D-4547469B-BEB1193A",
       "InternalVariableName": "AITargetComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2839,10 +2890,9 @@
         "ObjectName": "ConstructablePhysicsMaterialService'C_Chonk_C:ConstructablePhysicsMaterialService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.14"
       },
-      "VariableGUID": "F6095178-4EF96D14-E8EDA9AA-82B11A00",
+      "VariableGuid": "F6095178-4EF96D14-E8EDA9AA-82B11A00",
       "InternalVariableName": "ConstructablePhysicsMaterialService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2862,10 +2912,9 @@
         "ObjectName": "ConstructableCollisionGameplayEffectApplicatorComponent'C_Chonk_C:ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.10"
       },
-      "VariableGUID": "19C90BD6-4831C745-1472EA96-82A2DB12",
+      "VariableGuid": "19C90BD6-4831C745-1472EA96-82A2DB12",
       "InternalVariableName": "ConstructableCollisionGameplayEffectApplicatorComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2885,10 +2934,9 @@
         "ObjectName": "ArticulatedTargetingService'C_Chonk_C:ArticulatedTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.2"
       },
-      "VariableGUID": "755C269E-472F61B0-C470E49A-FAFE9562",
+      "VariableGuid": "755C269E-472F61B0-C470E49A-FAFE9562",
       "InternalVariableName": "ArticulatedTargetingService"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SCS_Node",
@@ -2908,10 +2956,9 @@
         "ObjectName": "MLGasComponent'C_Chonk_C:MLGasComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.24"
       },
-      "VariableGUID": "15317DF2-4CA76791-29479A98-67633E8E",
+      "VariableGuid": "15317DF2-4CA76791-29479A98-67633E8E",
       "InternalVariableName": "MLGasComponent"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SimpleConstructionScript",
@@ -3043,8 +3090,7 @@
         "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.46"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "SpawnSizeComponent",
@@ -3064,8 +3110,7 @@
         "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
         "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StateInterpolatorComponent",
@@ -3079,8 +3124,7 @@
     "Template": {
       "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
       "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   },
   {
     "Type": "StuckDetectionService",
@@ -3095,7 +3139,6 @@
       "DestroyedPartsToMinDistanceMultiplier": {
         "EditorCurveData": {}
       }
-    },
-    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+    }
   }
 ]

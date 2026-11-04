@@ -608,7 +608,7 @@
         "ObjectName": "SceneComponent'CS_Courier_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.10"
       },
-      "VariableGUID": "4D70BABF-4FC7C331-2CA91F83-69605E60",
+      "VariableGuid": "4D70BABF-4FC7C331-2CA91F83-69605E60",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -630,7 +630,7 @@
         "ObjectName": "BP_DamageStyleDriver_Large_C'CS_Courier_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.3"
       },
-      "VariableGUID": "5FE64AFB-49601039-08DB76BB-E06B4D20",
+      "VariableGuid": "5FE64AFB-49601039-08DB76BB-E06B4D20",
       "InternalVariableName": "BP_DamageStyleDriver_Large"
     }
   },
@@ -652,7 +652,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_Courier_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.27"
       },
-      "VariableGUID": "0FC57FA3-4A63BE24-70CD67A5-9F7F0A5A",
+      "VariableGuid": "0FC57FA3-4A63BE24-70CD67A5-9F7F0A5A",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },
@@ -674,7 +674,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Courier_C:Anim_Breached_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.25"
       },
-      "VariableGUID": "3EA70CF5-4C168FCD-AAF80595-62426CF4",
+      "VariableGuid": "3EA70CF5-4C168FCD-AAF80595-62426CF4",
       "InternalVariableName": "Anim_Breached"
     }
   },
@@ -696,7 +696,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Courier_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.8"
       },
-      "VariableGUID": "84BDE591-4C8CEA9A-3AD9D28D-F0B46A8F",
+      "VariableGuid": "84BDE591-4C8CEA9A-3AD9D28D-F0B46A8F",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -718,7 +718,7 @@
         "ObjectName": "ConstructableHoverEngineAudioComponent'CS_Courier_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.5"
       },
-      "VariableGUID": "7BFA339A-4B0B69EB-E7A8FE86-F05319AF",
+      "VariableGuid": "7BFA339A-4B0B69EB-E7A8FE86-F05319AF",
       "InternalVariableName": "ConstructableHoverEngineAudioComponent"
     }
   },
@@ -750,7 +750,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.18"
         }
       ],
-      "VariableGUID": "9660B367-450C0888-1410BE94-7FA065F7",
+      "VariableGuid": "9660B367-450C0888-1410BE94-7FA065F7",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -773,7 +773,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.26"
       },
       "AttachToName": "ScannerSocket",
-      "VariableGUID": "7A9073C7-4C465711-845D16B8-78CC827E",
+      "VariableGuid": "7A9073C7-4C465711-845D16B8-78CC827E",
       "InternalVariableName": "ScannerStyle"
     }
   },
@@ -795,7 +795,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Courier_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.0"
       },
-      "VariableGUID": "566D75A1-4A593064-C97D90B2-F98F9E4E",
+      "VariableGuid": "566D75A1-4A593064-C97D90B2-F98F9E4E",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -817,7 +817,7 @@
         "ObjectName": "ProjectileDeflectStyleDriver'CS_Courier_C:ProjectileDeflectStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.9"
       },
-      "VariableGUID": "862B5839-47E01C49-52B9FC90-1050C01C",
+      "VariableGuid": "862B5839-47E01C49-52B9FC90-1050C01C",
       "InternalVariableName": "ProjectileDeflectStyleDriver"
     }
   },
@@ -839,7 +839,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Courier_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.4"
       },
-      "VariableGUID": "7BE37AAA-450F51A0-EB519AA4-0F5A3CA5",
+      "VariableGuid": "7BE37AAA-450F51A0-EB519AA4-0F5A3CA5",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -861,7 +861,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Courier_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.1"
       },
-      "VariableGUID": "F32037C3-47834548-466FF786-DD92129E",
+      "VariableGuid": "F32037C3-47834548-466FF786-DD92129E",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1040,6 +1040,143 @@
           }
         }
       ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.12506294,
+                "Y": 202.7371,
+                "Z": 107.34834
+              },
+              {
+                "X": -137.14804,
+                "Y": 20.061253,
+                "Z": -17.900665
+              },
+              {
+                "X": -0.17898701,
+                "Y": -202.69894,
+                "Z": 50.3428
+              },
+              {
+                "X": 194.15524,
+                "Y": 43.842915,
+                "Z": 36.291092
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -18.634335,
+                "Y": -22.510845,
+                "Z": -13.348301
+              },
+              {
+                "X": 26.017225,
+                "Y": -15.313211,
+                "Z": -13.348302
+              },
+              {
+                "X": -26.270252,
+                "Y": 14.874978,
+                "Z": -13.348308
+              },
+              {
+                "X": 15.077825,
+                "Y": 26.115568,
+                "Z": -13.348309
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -34.363937,
+                "Y": 31.975334,
+                "Z": -14.909646
+              },
+              {
+                "X": -34.231956,
+                "Y": -11.2346325,
+                "Z": -63.302578
+              },
+              {
+                "X": -35.3755,
+                "Y": 11.907271,
+                "Z": 60.39658
+              },
+              {
+                "X": -48.784603,
+                "Y": -27.280357,
+                "Z": 12.689347
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": -65.31961,
+                "Y": -11.264172,
+                "Z": 15.115316
+              },
+              {
+                "X": -14.036646,
+                "Y": -37.02834,
+                "Z": -40.656704
+              },
+              {
+                "X": -22.764086,
+                "Y": -7.878368,
+                "Z": 73.170555
+              },
+              {
+                "X": -20.451294,
+                "Y": 34.16219,
+                "Z": -42.50897
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -66.09301,
+                "Y": 11.308568,
+                "Z": -5.5043793
+              },
+              {
+                "X": -24.266178,
+                "Y": -33.558117,
+                "Z": 53.879192
+              },
+              {
+                "X": -31.420336,
+                "Y": -1.3669574,
+                "Z": -67.65079
+              },
+              {
+                "X": -14.699756,
+                "Y": 35.66087,
+                "Z": 54.95138
+              }
+            ]
+          }
+        }
+      ],
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Courier_01_A'",
         "ObjectPath": "/Game/Pioneer/Enemies/Courier/Art/SK_Courier_01_A.1"
@@ -1189,16 +1326,16 @@
             },
             "PartList": [
               {
-                "Key": "2",
-                "Value": "Thruster_C_01"
+                "Key": "4",
+                "Value": "Thruster_R_02"
               },
               {
                 "Key": "3",
                 "Value": "Thruster_L_02"
               },
               {
-                "Key": "4",
-                "Value": "Thruster_R_02"
+                "Key": "2",
+                "Value": "Thruster_C_01"
               }
             ]
           },

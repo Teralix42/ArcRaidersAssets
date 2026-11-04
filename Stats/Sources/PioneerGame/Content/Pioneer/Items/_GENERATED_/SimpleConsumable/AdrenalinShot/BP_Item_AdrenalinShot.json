@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AdrenalinShot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/BP_Item_AdrenalinShot",
+    "SuperStruct": {
+      "ObjectName": "Class'DualUseItem'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AdrenalinShot_C'Default__BP_Item_AdrenalinShot_C'",
+      "ObjectPath": "/Game/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/BP_Item_AdrenalinShot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AdrenalinShot_C",
+    "Name": "Default__BP_Item_AdrenalinShot_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/BP_Item_AdrenalinShot.BP_Item_AdrenalinShot_C'",
+    "Package": "/Game/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/BP_Item_AdrenalinShot",
+    "Properties": {
+      "HoldDuration": 1.0,
+      "Effect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_AdrenalinShot_InitialRegen_C'",
+        "ObjectPath": "/Game/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/GE_AdrenalinShot_InitialRegen.1"
+      },
+      "bStopWhenAtMax": false,
+      "bBlockUseWhileStaminaRegenBlockedByForrestRun": true,
+      "PrimaryAffectedAttribute": {
+        "AttributeName": "Stamina",
+        "Attribute": {
+          "Path": [
+            "Stamina"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'PioneerCharacterAttributeSet'",
+            "ObjectPath": "/Script/Angelscript"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'PioneerCharacterAttributeSet'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      "PrimaryAffectedMaxAttribute": {
+        "AttributeName": "MaxStamina",
+        "Attribute": {
+          "Path": [
+            "MaxStamina"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'PioneerCharacterAttributeSet'",
+            "ObjectPath": "/Script/Angelscript"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'PioneerCharacterAttributeSet'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      "FinishUseEffect": {
+        "ObjectName": "EffectDataAsset'DA_AdrenalineShot_UseSuccess'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_AdrenalineShot_UseSuccess.0"
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_AdrenalinShot'",
+        "ObjectPath": "/Game/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/DA_Item_AdrenalinShot.0"
+      }
+    }
+  }
+]

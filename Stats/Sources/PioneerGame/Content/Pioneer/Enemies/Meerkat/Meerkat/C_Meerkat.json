@@ -26,7 +26,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'C_Meerkat_C:InheritableComponentHandler'",
@@ -188,11 +188,11 @@
       },
       "SpawnSizeComponent": {
         "ObjectName": "SpawnSizeComponent'Default__C_Meerkat_C:SpawnSizeComponent'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.44"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.45"
       },
       "ReplicationSettings": {
         "ObjectName": "ReplicationSettingsComponent'Default__C_Meerkat_C:ReplicationSettings'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.32"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.33"
       },
       "InvestigationComponent": {
         "ObjectName": "AIInvestigationComponent'Default__C_Meerkat_C:InvestigationComponent'",
@@ -236,7 +236,7 @@
       },
       "StateInterpolatorComponent": {
         "ObjectName": "StateInterpolatorComponent'Default__C_Meerkat_C:StateInterpolatorComponent'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.45"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.46"
       },
       "AbilitySystem": {
         "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Meerkat_C:AbilitySystem'",
@@ -1328,6 +1328,32 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
       "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ProximityDetectionService'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ProximityDetectionService'C_Meerkat_C:ProximityDetectionService_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.32"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_Meerkat_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.1"
+            },
+            "SCSVariableName": "ProximityDetectionService",
+            "AssociatedGuid": "6D5E7D18-4C577288-ADCD1A8F-822A1255"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
     }
   },
   {
@@ -2040,6 +2066,28 @@
     }
   },
   {
+    "Type": "ProximityDetectionService",
+    "Name": "ProximityDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ProximityDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Template": {
+      "ObjectName": "ProximityDetectionService'C_Meerkat_SharedBase_C:ProximityDetectionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.20"
+    },
+    "Properties": {
+      "DQMCenterOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 60.0
+      },
+      "DistanceToCheck": 110.0
+    }
+  },
+  {
     "Type": "ReplicationSettingsComponent",
     "Name": "ReplicationSettings",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
@@ -2070,7 +2118,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2079,9 +2127,9 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'C_Meerkat_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.33"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.34"
       },
-      "VariableGUID": "8563F2A5-4F564894-BD2BBE94-FF605B47",
+      "VariableGuid": "8563F2A5-4F564894-BD2BBE94-FF605B47",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -2092,7 +2140,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2103,7 +2151,7 @@
         "ObjectName": "LandingService'C_Meerkat_C:LandingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.19"
       },
-      "VariableGUID": "A85E10F6-456562B4-F256FF90-EFB765CA",
+      "VariableGuid": "A85E10F6-456562B4-F256FF90-EFB765CA",
       "InternalVariableName": "LandingService"
     }
   },
@@ -2114,7 +2162,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2125,7 +2173,7 @@
         "ObjectName": "GroundPhysicsMovementComponent'C_Meerkat_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.14"
       },
-      "VariableGUID": "95FA2A97-48E8A8BB-B0742E83-31EE69E2",
+      "VariableGuid": "95FA2A97-48E8A8BB-B0742E83-31EE69E2",
       "InternalVariableName": "GroundPhysicsMovementComponent"
     }
   },
@@ -2136,7 +2184,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2145,9 +2193,9 @@
       },
       "ComponentTemplate": {
         "ObjectName": "WeldService'C_Meerkat_C:WeldService_GEN_VARIABLE'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.46"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.47"
       },
-      "VariableGUID": "506DC864-4CC64EE0-2A4C75AC-3A1C84C6",
+      "VariableGuid": "506DC864-4CC64EE0-2A4C75AC-3A1C84C6",
       "InternalVariableName": "WeldService"
     }
   },
@@ -2158,7 +2206,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2169,7 +2217,7 @@
         "ObjectName": "ConstructableAnimationService'C_Meerkat_C:ConstructableAnimationService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.6"
       },
-      "VariableGUID": "C5744A81-45097F34-E54B4588-C41947EB",
+      "VariableGuid": "C5744A81-45097F34-E54B4588-C41947EB",
       "InternalVariableName": "ConstructableAnimationService"
     }
   },
@@ -2180,7 +2228,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2191,7 +2239,7 @@
         "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
       },
-      "VariableGUID": "6DC062E7-47690C9F-CAEC2793-C7AE3FC9",
+      "VariableGuid": "6DC062E7-47690C9F-CAEC2793-C7AE3FC9",
       "InternalVariableName": "PioneerConstructableDispersionService"
     }
   },
@@ -2202,7 +2250,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2211,9 +2259,9 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SkiService'C_Meerkat_C:SkiService_GEN_VARIABLE'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.44"
       },
-      "VariableGUID": "1A713299-473B1DCA-ED082293-EACF142D",
+      "VariableGuid": "1A713299-473B1DCA-ED082293-EACF142D",
       "InternalVariableName": "SkiService"
     }
   },
@@ -2224,7 +2272,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
-      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -2235,7 +2283,7 @@
         "ObjectName": "ChainArticulationTargetingService'C_Meerkat_C:ChainArticulationTargetingService_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.3"
       },
-      "VariableGUID": "AE6C93F4-4DCE5B95-C3C8739A-70D0C6BC",
+      "VariableGuid": "AE6C93F4-4DCE5B95-C3C8739A-70D0C6BC",
       "InternalVariableName": "ChainArticulationTargetingService"
     }
   },
@@ -2252,66 +2300,66 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.36"
-        },
-        {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.37"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.35"
-        },
-        {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.38"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.36"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.39"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_5'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.40"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_7'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.41"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.36"
-        },
-        {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.37"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.35"
-        },
-        {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.38"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.36"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.39"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_5'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.40"
         },
         {
-          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_7'",
           "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.41"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.34"
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.35"
       }
     }
   },

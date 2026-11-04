@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_NexonService
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_NEXONSERVICE_DISCONNECT_GUSS]
 Failed to connect to the server.
@@ -33,8 +33,8 @@ Nexon purchased items cannot be claimed with [Claim All]. Please claim them indi
 Failed to claim the purchased item.
 
 [ID_NEXONSERVICE_MESSAGE_PURCHASED_PRODUCT_BODY]
-Your item has arrived. Press [Confirm Purchase] to claim it.
-
+Your item has arrived. Press [Confirm Purchase] to claim it.
+
 You may cancel within 7 days of purchase.
 
 [ID_NEXONSERVICE_MESSAGE_PURCHASED_PRODUCT_BODY_ITEMTITLE]
@@ -61,11 +61,148 @@ PC Café Benefits
 [ID_NEXONSERVICE_PCCAFE_BONUS]
 Active Buff (PC Café)
 
+[ID_NEXONSERVICE_PCCAFE_EVENT]
+PC Café Event
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ALREADY_CLAIMED]
+Already Claimed
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ALREADY_CLAIMED_DESC]
+Reward already claimed. Close this window to refresh the event screen.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ATTENDANCE_CLAIM_PROGRESS]
+{0}/{1} Checked In
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ATTENDANCE_DAY_FORMAT]
+DAY {0}
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ATTENDANCE_SCENE]
+PC Café Event
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ATTENDANCE_SCREEN_INFO]
+Check-in resets daily at 00:00.
+Check in at a PC Café and claim your rewards before the event ends.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ATTENDANCE_TAB_NAME]
+PC Café Event
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_CLAIMED]
+Claimed
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_CLAIM_REWARD]
+Claim Reward
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_DAILYMISSION_TAB_NAME]
+PC Café Event
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_DAILY_MISSION_SCREEN_INFO]
+Unclaimed rewards reset daily at 00:00.
+Claim them on the same day you complete the mission.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_DATE_CHANGED]
+Date Changed
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_DATE_CHANGED_DESC]
+The date has changed. Returning to the PC Café Event screen. Please re-enter to see the latest event details.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_DONE]
+Done
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENDED]
+Event Ended
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENDED_DESC]
+The event has ended. Returning to the PC Café Event screen.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_ATTENDANCE_DETAIL]
+Just log in at a PC Café and watch the supplies stack up! Play ARC Raiders every day to collect your rewards.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_ATTENDANCE_TITLE]
+PC Café Daily Check-In
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_DETAIL]
+The more you play at a PC Café, the more you earn! Complete today's missions to unlock every reward tier.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_OBJECTIVE1_DETAIL]
+Log in to ARC Raiders from a PC Cafe
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_OBJECTIVE1_TITLE]
+Log in to ARC Raiders at a PC Café
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_OBJECTIVE2_DETAIL]
+Play for 1 Hour
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_OBJECTIVE2_TITLE]
+Play for 1 hour
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_OBJECTIVE3_DETAIL]
+Play for 2 Hours
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_OBJECTIVE3_TITLE]
+Play for 2 hours
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_DAILY_MISSION_TITLE]
+PC Café Daily Mission
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_PREMIUM_DETAIL]
+Enjoy premium benefits available only at PC Cafés!
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_ENTRY_PREMIUM_TITLE]
+PC Café Premium Benefits
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_EXPLANATION_TAB_NAME]
+Details
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_LIST_SUBJECT]
+ALL EVENT
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_NO_EVENT_DESC]
+This event is not currently active. Visit <color key="Primary">arcraiders.nexon.com</> for event details.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_PREMIUM_BENEFIT1_DESC]
+Play for free with your Nexon account
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_PREMIUM_BENEFIT1_TITLE]
+Free Play
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_PREMIUM_BENEFIT2_DESC]
+Earn 10% bonus XP while playing
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_PREMIUM_BENEFIT2_TITLE]
+Bonus XP
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_PREMIUM_BENEFIT3_DESC]
++10% bonus materials from Scrappy
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_PREMIUM_BENEFIT3_TITLE]
+Material Boost
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_REMAINING_TIME_DESC]
+until event ends
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_REQUEST_IN_PROGRESS]
+Request in Progress
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_REQUEST_IN_PROGRESS_MESSAGE]
+Your previous request is still being processed. Please wait a moment.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_SYNC_FAILED]
+Failed to Load Event
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_SYNC_FAILED_DESC]
+Failed to load event information. Returning to the PC Café Event screen.
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_UNABLE_CLAIM]
+Unable to Claim Reward
+
+[ID_NEXONSERVICE_PCCAFE_EVENT_UNABLE_CLAIM_DESC]
+Reward unavailable. Close this window to refresh the event screen.
+
 [ID_NEXONSERVICE_PRODUCT_PENDING_CLAIM]
 Pending Claim
 
 [ID_NEXONSERVICE_PURCHASE_CONFIRM_MESSAGE]
-Do you want to confirm this purchase?
+Do you want to confirm this purchase?
 Once confirmed, this purchase cannot be canceled.
 
 [ID_NEXONSERVICE_RATINGSCREEN_BODY]
@@ -90,7 +227,7 @@ Purchase completed. You can check the item in your Inbox.
 Please agree to the Terms of Service to continue.
 
 [ID_NEXONSERVICE_WITHDRAW_CONFIRM_MESSAGE]
-Do you want to cancel this purchase?
+Do you want to cancel this purchase?
 If you cancel, the item will no longer be available.
 
 [ID_NEXON_SERVICE_NEXON]

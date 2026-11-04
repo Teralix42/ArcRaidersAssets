@@ -888,7 +888,7 @@
         "ObjectName": "SceneComponent'CS_TurretEnemy_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.14"
       },
-      "VariableGUID": "E254D663-4B888E7F-8B98FEA3-05C6895A",
+      "VariableGuid": "E254D663-4B888E7F-8B98FEA3-05C6895A",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -916,7 +916,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.17"
         }
       ],
-      "VariableGUID": "38C8BEC6-4D27AF59-D28CDEB7-C60586B8",
+      "VariableGuid": "38C8BEC6-4D27AF59-D28CDEB7-C60586B8",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -939,7 +939,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.30"
       },
       "AttachToName": "Body_01",
-      "VariableGUID": "85CD0280-4CAD6EBF-521B2FB6-A1F6AEC2",
+      "VariableGuid": "85CD0280-4CAD6EBF-521B2FB6-A1F6AEC2",
       "InternalVariableName": "StaticMeshStyle_SM_Turret_01_GroundPlanes_A"
     }
   },
@@ -961,7 +961,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_TurretEnemy_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.4"
       },
-      "VariableGUID": "DCA9FE23-4CE68A0C-403AE7AD-CED8BFD2",
+      "VariableGuid": "DCA9FE23-4CE68A0C-403AE7AD-CED8BFD2",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -983,7 +983,7 @@
         "ObjectName": "HideDecalIfOnSurfaceStyleDriver_Metal'CS_TurretEnemy_SK_C:HideDecalIfOnSurfaceStyleDriver_Metal_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.9"
       },
-      "VariableGUID": "A494548D-4AAAB07F-EDA4058C-63ECABBF",
+      "VariableGuid": "A494548D-4AAAB07F-EDA4058C-63ECABBF",
       "InternalVariableName": "HideDecalIfOnSurfaceStyleDriver_Metal"
     }
   },
@@ -1005,7 +1005,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_TurretEnemy_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.13"
       },
-      "VariableGUID": "0FDDD2A8-4FE85F7E-E19CF894-AC395E24",
+      "VariableGuid": "0FDDD2A8-4FE85F7E-E19CF894-AC395E24",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -1027,7 +1027,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_TurretEnemy_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.10"
       },
-      "VariableGUID": "CAE2D1EA-45DC1E24-D6ADE49D-296EDDA3",
+      "VariableGuid": "CAE2D1EA-45DC1E24-D6ADE49D-296EDDA3",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1049,7 +1049,7 @@
         "ObjectName": "DebrisStyleDriver'CS_TurretEnemy_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.8"
       },
-      "VariableGUID": "106CFBB1-4D1FF6F7-3B3F8D90-73B6CC33",
+      "VariableGuid": "106CFBB1-4D1FF6F7-3B3F8D90-73B6CC33",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1071,7 +1071,7 @@
         "ObjectName": "BP_DamageStyleDriver_Small_C'CS_TurretEnemy_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.3"
       },
-      "VariableGUID": "A877E8C4-43D9730B-920485AE-8BE3F511",
+      "VariableGuid": "A877E8C4-43D9730B-920485AE-8BE3F511",
       "InternalVariableName": "BP_DamageStyleDriver_Small"
     }
   },
@@ -1093,7 +1093,7 @@
         "ObjectName": "MovingPartAudioStyleDriver'CS_TurretEnemy_SK_C:MovingPartAudioStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.12"
       },
-      "VariableGUID": "20879892-4196485A-AA06C5A3-902B7A70",
+      "VariableGuid": "20879892-4196485A-AA06C5A3-902B7A70",
       "InternalVariableName": "MovingPartAudioStyleDriver"
     }
   },
@@ -1115,7 +1115,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_TurretEnemy_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.0"
       },
-      "VariableGUID": "4EF096AE-41ED9EFE-579F1CBC-49E2589B",
+      "VariableGuid": "4EF096AE-41ED9EFE-579F1CBC-49E2589B",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1137,7 +1137,7 @@
         "ObjectName": "AIStateStyleDriver'CS_TurretEnemy_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.1"
       },
-      "VariableGUID": "0CFEF751-4BE131D6-1A5E34BA-0BBE2015",
+      "VariableGuid": "0CFEF751-4BE131D6-1A5E34BA-0BBE2015",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1159,7 +1159,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_TurretEnemy_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.5"
       },
-      "VariableGUID": "6E70AA6E-4D906470-6488FB82-A77898D0",
+      "VariableGuid": "6E70AA6E-4D906470-6488FB82-A77898D0",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },

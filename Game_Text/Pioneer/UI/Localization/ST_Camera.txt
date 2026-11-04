@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Camera
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_CAMERA_ACTION_CAPTURE]
 Take Picture
@@ -19,6 +19,30 @@ Album full
 
 [ID_CAMERA_CAMERA FULL]
 Camera full
+
+[ID_CAMERA_FILTER_BLACKWHITE]
+Black and White
+
+[ID_CAMERA_FILTER_CLASSICFILM]
+Classic Film Grain
+
+[ID_CAMERA_FILTER_COLORPUSH]
+Color Push
+
+[ID_CAMERA_FILTER_CONTRASTPUSH]
+Contrast Push
+
+[ID_CAMERA_FILTER_NONE]
+No Filter
+
+[ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX]
+Photos can be found in Codex
+
+[ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX_ALT1]
+Pictures can be found in Codex
+
+[ID_CAMERA_IMAGES_CAN_BE_FOUND_IN_CODEX_ALT2]
+Pictures can be found in Codex, Camera
 
 [ID_CAMERA_ITEMDESC_ADVANCEDCAMERA]
 A more advanced camera with a few extra bells and whistles.
@@ -49,6 +73,12 @@ No more space. Please free up space by removing photos.
 
 [ID_CAMERA_NO_STORAGE_SPACE]
 No more album space
+
+[ID_CAMERA_OPEN_ALBUM_FOLDER]
+Open album folder
+
+[ID_CAMERA_OPEN_ALBUM_FOLDER_DESKTOP]
+Open album on desktop
 
 [ID_CAMERA_SELFIEANGLE_CENTER]
 Center
@@ -85,3 +115,9 @@ Zoom
 
 [ID_CAMERA_TOGGLE_FLASH]
 Toggle Flash
+
+[ID_CAMERA_TO_ADJUSTMENTS_NOT_AVLIBLE_LOW_SETTINGS]
+Graphics settings are too low
+
+[ID_CAMERA_TO_ADJUSTMENTS_NOT_AVLIBLE_LOW_SETTINGS_ALT]
+Not available with low graphics settings

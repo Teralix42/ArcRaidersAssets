@@ -822,7 +822,7 @@
         "ObjectName": "SceneComponent'CS_Runner_Skinned_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.11"
       },
-      "VariableGUID": "496CF591-43006843-9FB244A1-7B4E2BCF",
+      "VariableGuid": "496CF591-43006843-9FB244A1-7B4E2BCF",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -844,7 +844,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_StateIdle_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.41"
       },
-      "VariableGUID": "8D97BB91-45B7FB45-50CAD9B0-AF616C68",
+      "VariableGuid": "8D97BB91-45B7FB45-50CAD9B0-AF616C68",
       "InternalVariableName": "Anim_StateIdle"
     }
   },
@@ -866,7 +866,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_StateCombat_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.40"
       },
-      "VariableGUID": "F6ACFBAC-4200A501-5A572993-3720DC4F",
+      "VariableGuid": "F6ACFBAC-4200A501-5A572993-3720DC4F",
       "InternalVariableName": "Anim_StateCombat"
     }
   },
@@ -888,7 +888,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_Runner_Skinned_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.47"
       },
-      "VariableGUID": "55196F46-4C001E40-A85BC7B1-B1242088",
+      "VariableGuid": "55196F46-4C001E40-A85BC7B1-B1242088",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },
@@ -936,7 +936,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.23"
         }
       ],
-      "VariableGUID": "56D6D33E-4F973807-505CAC83-6552DD53",
+      "VariableGuid": "56D6D33E-4F973807-505CAC83-6552DD53",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -958,7 +958,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_Runner_Skinned_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.10"
       },
-      "VariableGUID": "AC8FFC36-405CF7F6-104A2985-E12E251B",
+      "VariableGuid": "AC8FFC36-405CF7F6-104A2985-E12E251B",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },
@@ -980,7 +980,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_Runner_Skinned_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.5"
       },
-      "VariableGUID": "E4F3B727-44CF0FF3-3BDAF993-15DE19B6",
+      "VariableGuid": "E4F3B727-44CF0FF3-3BDAF993-15DE19B6",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1002,7 +1002,7 @@
         "ObjectName": "AIStateStyleDriver'CS_Runner_Skinned_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.1"
       },
-      "VariableGUID": "050E94BB-48861034-D8217AB2-3111323F",
+      "VariableGuid": "050E94BB-48861034-D8217AB2-3111323F",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1024,7 +1024,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_Runner_Skinned_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.0"
       },
-      "VariableGUID": "C74E6A7A-4A9FE910-4C03FDA9-D730D9EE",
+      "VariableGuid": "C74E6A7A-4A9FE910-4C03FDA9-D730D9EE",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1046,7 +1046,7 @@
         "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Runner_Skinned_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.3"
       },
-      "VariableGUID": "1C2CE582-4569B8E3-E461E5AE-DD99956E",
+      "VariableGuid": "1C2CE582-4569B8E3-E461E5AE-DD99956E",
       "InternalVariableName": "BP_DamageStyleDriver_Medium"
     }
   },
@@ -1069,7 +1069,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.42"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "BC56BA21-4FD8125C-BE7A11AB-BAF25243",
+      "VariableGuid": "BC56BA21-4FD8125C-BE7A11AB-BAF25243",
       "InternalVariableName": "VisionConeDummy"
     }
   },
@@ -1091,7 +1091,7 @@
         "ObjectName": "ConstructableGroundEngineAudioComponent'CS_Runner_Skinned_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.6"
       },
-      "VariableGUID": "0BF1FC48-451B342A-59C432BA-B48D7AA0",
+      "VariableGuid": "0BF1FC48-451B342A-59C432BA-B48D7AA0",
       "InternalVariableName": "ConstructableGroundEngineAudioComponent"
     }
   },
@@ -1113,7 +1113,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Runner_Skinned_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.4"
       },
-      "VariableGUID": "D10A099B-4AF71A2F-2FBCACBF-76B02495",
+      "VariableGuid": "D10A099B-4AF71A2F-2FBCACBF-76B02495",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1136,7 +1136,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.44"
       },
       "AttachToName": "Thruster_01_C_01",
-      "VariableGUID": "0CEB247B-4AB430F2-ED4893AA-14ED3648",
+      "VariableGuid": "0CEB247B-4AB430F2-ED4893AA-14ED3648",
       "InternalVariableName": "WheelProxy_Center"
     }
   },
@@ -1158,7 +1158,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_AttackCooldown_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.37"
       },
-      "VariableGUID": "C76D6BA6-45342153-643F2DAF-2A2961BE",
+      "VariableGuid": "C76D6BA6-45342153-643F2DAF-2A2961BE",
       "InternalVariableName": "Anim_AttackCooldown"
     }
   },
@@ -1180,7 +1180,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_AttackActive_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.36"
       },
-      "VariableGUID": "CB9A54C3-447E231F-4272078E-FE1AEACB",
+      "VariableGuid": "CB9A54C3-447E231F-4272078E-FE1AEACB",
       "InternalVariableName": "Anim_AttackActive"
     }
   },
@@ -1202,7 +1202,7 @@
         "ObjectName": "DebrisStyleDriver'CS_Runner_Skinned_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.9"
       },
-      "VariableGUID": "27285EEF-482728C6-17EC78B0-4BAC27FB",
+      "VariableGuid": "27285EEF-482728C6-17EC78B0-4BAC27FB",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1224,7 +1224,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_StateAlerted_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.39"
       },
-      "VariableGUID": "DBCF34EB-4AFB6086-EF52CEA4-A04EC07B",
+      "VariableGuid": "DBCF34EB-4AFB6086-EF52CEA4-A04EC07B",
       "InternalVariableName": "Anim_StateAlerted"
     }
   },
@@ -1247,7 +1247,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.45"
       },
       "AttachToName": "Thruster_02_L_01",
-      "VariableGUID": "F8A7C8AA-43279DEF-00CF899A-3AAE2ED5",
+      "VariableGuid": "F8A7C8AA-43279DEF-00CF899A-3AAE2ED5",
       "InternalVariableName": "WheelProxy_FrontLeft"
     }
   },
@@ -1270,7 +1270,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.46"
       },
       "AttachToName": "Thruster_02_R_01",
-      "VariableGUID": "23D39C97-479AC0F8-331B6A95-C6499303",
+      "VariableGuid": "23D39C97-479AC0F8-331B6A95-C6499303",
       "InternalVariableName": "WheelProxy_FrontRight"
     }
   },
@@ -1293,7 +1293,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.43"
       },
       "AttachToName": "Thruster_02_C_01",
-      "VariableGUID": "D71C03B8-4011908D-321A02AF-CC333A4E",
+      "VariableGuid": "D71C03B8-4011908D-321A02AF-CC333A4E",
       "InternalVariableName": "WheelProxy_Back_C_0"
     }
   },
@@ -1315,7 +1315,7 @@
         "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_AttackPrepare_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.38"
       },
-      "VariableGUID": "2F6B2DD2-477317AB-1DDC83B7-583D5CB1",
+      "VariableGuid": "2F6B2DD2-477317AB-1DDC83B7-583D5CB1",
       "InternalVariableName": "Anim_AttackPrepare"
     }
   },

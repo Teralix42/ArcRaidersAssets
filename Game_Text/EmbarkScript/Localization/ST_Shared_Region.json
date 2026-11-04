@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Shared_Region",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/EmbarkScript/Localization/ST_Shared_Region",
+    "StringTable": {
+      "TableNamespace": "ST_Shared_Region",
+      "KeysToEntries": {
+        "ID_REGION_AUTO": "Automatic",
+        "ID_REGION_EUROPE": "Europe",
+        "ID_REGION_NORTH_AMERICA": "North America",
+        "ID_REGION_ASIA": "Asia",
+        "ID_REGION_BRAZIL": "South America",
+        "ID_REGION_OCEANIA": "Oceania",
+        "ID_REGION_JAPAN": "Japan"
+      },
+      "KeysToMetaData": {
+        "ID_REGION_AUTO": {
+          "Status": "approved"
+        },
+        "ID_REGION_EUROPE": {
+          "Status": "approved"
+        },
+        "ID_REGION_NORTH_AMERICA": {
+          "Status": "approved"
+        },
+        "ID_REGION_ASIA": {
+          "Status": "approved"
+        },
+        "ID_REGION_BRAZIL": {
+          "Status": "approved"
+        },
+        "ID_REGION_OCEANIA": {
+          "Status": "approved"
+        },
+        "ID_REGION_JAPAN": {
+          "Status": "approved"
+        }
+      }
+    }
+  }
+]

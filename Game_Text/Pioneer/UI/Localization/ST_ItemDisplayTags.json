@@ -136,7 +136,20 @@
         "ID_ITEMDISPLAYTAG_ASCENDEDUPGRADE_SPRINTSHOOTING": "§ Sprint Shooting",
         "ID_ITEMDISPLAYTAG_FIRINGMODE_4ROUNDBURST": "4-Round Burst",
         "ID_ITEMDISPLAYTAG_FIRINGMODE_5ROUNDBURST": "5-Round Burst",
-        "ID_ITEMDISPLAYTAG_FIRINGMODE_CHARGEDBURST": "Charged Burst"
+        "ID_ITEMDISPLAYTAG_FIRINGMODE_CHARGEDBURST": "Charged Burst",
+        "ID_ITEMDISPLAYTAG_DESIGN_UNLOCK": "Design Unlock",
+        "ID_ITEMDISPLAYTAG_UNLOCK_DESIGN_ALT2": "Unlock: Design",
+        "ID_ITEMDISPLAYTAG_UNLOCK_DESIGN": "Unlock Design",
+        "ID_ITEMDISPLAYTAG_DESIGN_UNLOCK_ALT2": "Design (Unlock)",
+        "ID_ITEMDISPLAYTAG_BLUEPRINT_UNLOCK": "Blueprint Unlock",
+        "ID_ITEMDISPLAYTAG_UNLOCK_BLUEPRINT_ALT2": "Unlock: Blueprint",
+        "ID_ITEMDISPLAYTAG_UNLOCK_BLUEPRINT": "Unlock Blueprint",
+        "ID_ITEMDISPLAYTAG_BLUEPRINT_UNLOCK_ALT2": "Blueprint (Unlock)",
+        "ID_ITEMDISPLAYTAG_STENCIL_UNLOCK": "Stencil Unlock",
+        "ID_ITEMDISPLAYTAG_UNLOCK_STENCIL_ALT2": "Unlock: Stencil",
+        "ID_ITEMDISPLAYTAG_UNLOCK_STENCIL": "Unlock Stencil",
+        "ID_ITEMDISPLAYTAG_STENCIL_UNLOCK_ALT2": "Stencil (Unlock)",
+        "ID_ITEMDISPLAYTAG_UNLOCK": "Unlock"
       },
       "KeysToMetaData": {
         "ID_ITEMDISPLAYTAG_GENERATOR": {
@@ -456,6 +469,58 @@
           "Status": "approved"
         },
         "ID_ITEMDISPLAYTAG_FIRINGMODE_CHARGEDBURST": {
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_DESIGN_UNLOCK": {
+          "Note": "Instead of \"Design\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_UNLOCK_DESIGN_ALT2": {
+          "Note": "Instead of \"Design\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_UNLOCK_DESIGN": {
+          "Note": "Instead of \"Design\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_DESIGN_UNLOCK_ALT2": {
+          "Note": "Instead of \"Design\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_BLUEPRINT_UNLOCK": {
+          "Note": "Instead of \"Blueprint\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_UNLOCK_BLUEPRINT_ALT2": {
+          "Note": "Instead of \"Blueprint\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_UNLOCK_BLUEPRINT": {
+          "Note": "Instead of \"Blueprint\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_BLUEPRINT_UNLOCK_ALT2": {
+          "Note": "Instead of \"Blueprint\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_STENCIL_UNLOCK": {
+          "Note": "Instead of \"Stencil\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_UNLOCK_STENCIL_ALT2": {
+          "Note": "Instead of \"Stencil\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_UNLOCK_STENCIL": {
+          "Note": "Instead of \"Stencil\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_STENCIL_UNLOCK_ALT2": {
+          "Note": "Instead of \"Stencil\" tag",
+          "Status": "approved"
+        },
+        "ID_ITEMDISPLAYTAG_UNLOCK": {
+          "Note": "As a tag",
           "Status": "approved"
         }
       }

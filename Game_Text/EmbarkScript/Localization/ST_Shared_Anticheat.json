@@ -1,0 +1,155 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Shared_Anticheat",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/EmbarkScript/Localization/ST_Shared_Anticheat",
+    "StringTable": {
+      "TableNamespace": "ST_Shared_Anticheat",
+      "KeysToEntries": {
+        "CorruptedNetworkMessageFlow": "Integrity checks on messages between the game client and game server failed.",
+        "ForbiddenModuleLoaded": "A disallowed code module was loaded into the game process.",
+        "CorruptedMemory": "A disallowed game process memory modification was detected.",
+        "VirtualMachineNotAllowed": "The game is running inside a disallowed virtual machine.",
+        "UnknownGameFileForbidden": "A disallowed game file addition was detected.",
+        "SystemFileUntrusted": "A system file failed an integrity check.",
+        "InternalAntiCheatViolation": "An internal anti-cheat integrity check failed.",
+        "RequiredGameFileNotFound": "A disallowed game file removal was detected.",
+        "GameFileMismatch": "A disallowed game file modification was detected.",
+        "IntegrityCatalogMissingMainExecutable": "The primary anti-cheat asset integrity catalog does not include an entry for the game's main executable, which is required.",
+        "IntegrityCatalogCertificateRevoked": "An anti-cheat asset integrity catalog file's certificate has been revoked.",
+        "IntegrityCatalogError": "An anti-cheat asset integrity catalog file is corrupt or invalid.",
+        "ForbiddenToolDetected": "A disallowed tool was detected running in the system.",
+        "IntegrityCatalogNotFound": "An anti-cheat asset integrity catalog file could not be found.",
+        "ForbiddenSystemConfiguration": "A forbidden operating system configuration was detected.",
+        "NoSecureBoot": "We require you to enable SecureBoot & TPM2.0. For more information refer to our FAQ.",
+        "HardwareRestrictedHeader": "Hardware Restricted",
+        "NoSecureBootHeader": "Secure Boot / TPM 2.0",
+        "ForbiddenToolDetectedHeader": "Prohibited Software",
+        "HardwareRestricted": "Due to violations against our code of conduct, your hardware has been permanently restricted from accessing the game. For more information, please contact Player Support.",
+        "NvidiaProfileInspector": "'NVIDIA Profile Inspector' was detected running on the system.",
+        "CheatEngine": "'Cheat Engine' was detected running on the system.",
+        "AutoHotkey": "'AutoHotkey' was detected running on the system.",
+        "AutoClicker": "'Auto Clicker' was detected running on the system.",
+        "Crosshair": "'External Crosshair' was detected running on the system.",
+        "LighthouseNotInstalled": "The required lighthouse service is not installed.",
+        "ServerKickChatMessage": "Due to a violation of our fair-play policy, '{0}#{1}' has been removed from the server.",
+        "NoHVCI": "We require you to enable HVCI, which is referred to as 'Memory Integrity' under 'Core Isolation' in Windows Security settings.",
+        "Aimbot": "An aimbot was detected running on your system.",
+        "Scripting": "Mouse, keyboard and/or controller scripting was detected.",
+        "GpuProfile": "Unfair GPU Profile modifications where detected."
+      },
+      "KeysToMetaData": {
+        "CorruptedNetworkMessageFlow": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "ForbiddenModuleLoaded": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "CorruptedMemory": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "VirtualMachineNotAllowed": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "UnknownGameFileForbidden": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "SystemFileUntrusted": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "InternalAntiCheatViolation": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "RequiredGameFileNotFound": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "GameFileMismatch": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "IntegrityCatalogMissingMainExecutable": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "IntegrityCatalogCertificateRevoked": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "IntegrityCatalogError": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "ForbiddenToolDetected": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "IntegrityCatalogNotFound": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "ForbiddenSystemConfiguration": {
+          "Note": "",
+          "Status": "approved"
+        },
+        "NoSecureBoot": {
+          "Status": "approved"
+        },
+        "HardwareRestrictedHeader": {
+          "Status": "approved"
+        },
+        "NoSecureBootHeader": {
+          "Status": "approved"
+        },
+        "ForbiddenToolDetectedHeader": {
+          "Status": "approved"
+        },
+        "HardwareRestricted": {
+          "Status": "approved"
+        },
+        "NvidiaProfileInspector": {
+          "Status": "approved"
+        },
+        "CheatEngine": {
+          "Status": "approved"
+        },
+        "AutoHotkey": {
+          "Status": "approved"
+        },
+        "AutoClicker": {
+          "Status": "approved"
+        },
+        "Crosshair": {
+          "Status": "approved"
+        },
+        "LighthouseNotInstalled": {
+          "Status": "approved"
+        },
+        "ServerKickChatMessage": {
+          "Status": "approved"
+        },
+        "NoHVCI": {
+          "Status": "approved"
+        },
+        "Aimbot": {
+          "Status": "approved"
+        },
+        "Scripting": {
+          "Status": "approved"
+        },
+        "GpuProfile": {
+          "Status": "approved"
+        }
+      }
+    }
+  }
+]

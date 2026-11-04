@@ -1018,7 +1018,7 @@
         "ObjectName": "SceneComponent'CS_HeavyDrone_Missile_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.18"
       },
-      "VariableGUID": "05B436C9-47669C57-2397FB82-0869BC2D",
+      "VariableGuid": "05B436C9-47669C57-2397FB82-0869BC2D",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1054,7 +1054,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.35"
         }
       ],
-      "VariableGUID": "56311797-463360F3-0ED3BCB2-6CBF4B05",
+      "VariableGuid": "56311797-463360F3-0ED3BCB2-6CBF4B05",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1076,7 +1076,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:CombatModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.48"
       },
-      "VariableGUID": "E76A1554-445EB35E-BCCDEA91-FDFFC503",
+      "VariableGuid": "E76A1554-445EB35E-BCCDEA91-FDFFC503",
       "InternalVariableName": "CombatModeAnim"
     }
   },
@@ -1098,7 +1098,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Large_C'CS_HeavyDrone_Missile_SK_C:BP_CollisionStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.3"
       },
-      "VariableGUID": "32F51F39-4D54DBE2-87ECF2AA-ACFC279A",
+      "VariableGuid": "32F51F39-4D54DBE2-87ECF2AA-ACFC279A",
       "InternalVariableName": "BP_CollisionStyleDriver_Large"
     }
   },
@@ -1120,7 +1120,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_HeavyDrone_Missile_SK_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.55"
       },
-      "VariableGUID": "1D983A5A-48103450-2F551FAC-546A3C5B",
+      "VariableGuid": "1D983A5A-48103450-2F551FAC-546A3C5B",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },
@@ -1142,7 +1142,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_HeavyDrone_Missile_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.6"
       },
-      "VariableGUID": "3D5EAD6B-4189B0D8-1543A2BF-EA93EBAC",
+      "VariableGuid": "3D5EAD6B-4189B0D8-1543A2BF-EA93EBAC",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1164,7 +1164,7 @@
         "ObjectName": "BP_AIStateStyleDriver_HeavyDroneMissile_C'CS_HeavyDrone_Missile_SK_C:BP_AIStateStyleDriver_HeavyDroneMissile_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.2"
       },
-      "VariableGUID": "62B97239-403CC91A-6EF63CBC-4838E509",
+      "VariableGuid": "62B97239-403CC91A-6EF63CBC-4838E509",
       "InternalVariableName": "BP_AIStateStyleDriver_HeavyDroneMissile"
     }
   },
@@ -1186,7 +1186,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.14"
       },
-      "VariableGUID": "C10CF5D7-4B35A44F-0A8DAD8E-7F534384",
+      "VariableGuid": "C10CF5D7-4B35A44F-0A8DAD8E-7F534384",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1208,7 +1208,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:IdleModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.49"
       },
-      "VariableGUID": "5B76DA12-463793C9-FD937CA9-8D804E33",
+      "VariableGuid": "5B76DA12-463793C9-FD937CA9-8D804E33",
       "InternalVariableName": "IdleModeAnim"
     }
   },
@@ -1230,7 +1230,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AttackActiveAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.45"
       },
-      "VariableGUID": "A8BB2279-4B018FE4-6FD1CAA1-9BEB4525",
+      "VariableGuid": "A8BB2279-4B018FE4-6FD1CAA1-9BEB4525",
       "InternalVariableName": "AttackActiveAnim"
     }
   },
@@ -1252,7 +1252,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AttackPreparingAnim_Flaps_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.46"
       },
-      "VariableGUID": "DFD3EC58-43FFB0DF-47C83189-266763B4",
+      "VariableGuid": "DFD3EC58-43FFB0DF-47C83189-266763B4",
       "InternalVariableName": "AttackPreparingAnim_Flaps"
     }
   },
@@ -1274,7 +1274,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_HeavyDrone_Missile_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.0"
       },
-      "VariableGUID": "27103CCC-40C6190A-D2755B82-FDFEE49A",
+      "VariableGuid": "27103CCC-40C6190A-D2755B82-FDFEE49A",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1296,7 +1296,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AlertedModeAnimation_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.44"
       },
-      "VariableGUID": "B3F1CEB3-4FF37F8C-0440F08B-7C4299B3",
+      "VariableGuid": "B3F1CEB3-4FF37F8C-0440F08B-7C4299B3",
       "InternalVariableName": "AlertedModeAnimation"
     }
   },
@@ -1318,7 +1318,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AttackPreparingAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.47"
       },
-      "VariableGUID": "2B1BD4CF-45EDF2E8-B7523293-3DD48D25",
+      "VariableGuid": "2B1BD4CF-45EDF2E8-B7523293-3DD48D25",
       "InternalVariableName": "AttackPreparingAnim"
     }
   },
@@ -1338,7 +1338,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Eye_01",
-      "VariableGUID": "70D484EC-43E021BE-43F2CEA4-29F220F1",
+      "VariableGuid": "70D484EC-43E021BE-43F2CEA4-29F220F1",
       "InternalVariableName": "EyeProxy"
     }
   },
@@ -1358,7 +1358,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "HeavyDrone_01_Missile_Weapon_Body_01",
-      "VariableGUID": "E786B275-464712C3-D3A82386-0DB5E1E6",
+      "VariableGuid": "E786B275-464712C3-D3A82386-0DB5E1E6",
       "InternalVariableName": "LaserOriginPart"
     }
   },
@@ -1380,7 +1380,7 @@
         "ObjectName": "ConstructableHoverEngineAudioComponent'CS_HeavyDrone_Missile_SK_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.9"
       },
-      "VariableGUID": "3E8EF79F-40AC5F75-D5433DA9-10E008AB",
+      "VariableGuid": "3E8EF79F-40AC5F75-D5433DA9-10E008AB",
       "InternalVariableName": "ConstructableHoverEngineAudioComponent"
     }
   },
@@ -1402,7 +1402,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_HeavyDrone_Missile_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.5"
       },
-      "VariableGUID": "F5B93C82-4552664A-BA1B87BD-B3CD5272",
+      "VariableGuid": "F5B93C82-4552664A-BA1B87BD-B3CD5272",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1424,7 +1424,7 @@
         "ObjectName": "CBP_StunStyleDriver_C'CS_HeavyDrone_Missile_SK_C:CBP_StunStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.7"
       },
-      "VariableGUID": "74FF1B89-40F6DE6C-72CAFEA0-86AF7003",
+      "VariableGuid": "74FF1B89-40F6DE6C-72CAFEA0-86AF7003",
       "InternalVariableName": "CBP_StunStyleDriver"
     }
   },
@@ -1446,7 +1446,7 @@
         "ObjectName": "ConstructableAnimationRepositoryComponent'CS_HeavyDrone_Missile_SK_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.8"
       },
-      "VariableGUID": "80C64517-4111389D-19B04193-794E857F",
+      "VariableGuid": "80C64517-4111389D-19B04193-794E857F",
       "InternalVariableName": "ConstructableAnimationRepositoryComponent"
     }
   },
@@ -1468,7 +1468,7 @@
         "ObjectName": "ExplodeStyleDriver'CS_HeavyDrone_Missile_SK_C:ExplodeStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.13"
       },
-      "VariableGUID": "92812110-4C07BA32-44C32396-47766582",
+      "VariableGuid": "92812110-4C07BA32-44C32396-47766582",
       "InternalVariableName": "ExplodeStyleDriver"
     }
   },
@@ -1490,7 +1490,7 @@
         "ObjectName": "BP_DamageStyleDriver_Large_C'CS_HeavyDrone_Missile_SK_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.4"
       },
-      "VariableGUID": "37A7B4AE-431A9FEB-133ECD9A-965A785C",
+      "VariableGuid": "37A7B4AE-431A9FEB-133ECD9A-965A785C",
       "InternalVariableName": "BP_DamageStyleDriver_Large"
     }
   },
@@ -1512,7 +1512,7 @@
         "ObjectName": "DebrisStyleDriver'CS_HeavyDrone_Missile_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.12"
       },
-      "VariableGUID": "CC2BCE80-4917ECA8-C64E3091-89571C36",
+      "VariableGuid": "CC2BCE80-4917ECA8-C64E3091-89571C36",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1534,7 +1534,7 @@
         "ObjectName": "SpottableStyleDriver'CS_HeavyDrone_Missile_SK_C:SpottableStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.52"
       },
-      "VariableGUID": "17C9ADBE-490F846B-38FDDCB3-71F0B17A",
+      "VariableGuid": "17C9ADBE-490F846B-38FDDCB3-71F0B17A",
       "InternalVariableName": "SpottableStyleDriver"
     }
   },
@@ -1556,7 +1556,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_HeavyDrone_Missile_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.17"
       },
-      "VariableGUID": "AAD4091A-4B2D01BC-4C4CE098-F0DB42EF",
+      "VariableGuid": "AAD4091A-4B2D01BC-4C4CE098-F0DB42EF",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },

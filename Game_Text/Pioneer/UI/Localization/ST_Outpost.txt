@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Outpost
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_OUTPOST_ACTION_MENU_HINT]
 More Actions
@@ -484,6 +484,15 @@ No compatible slot available
 
 [ID_OUTPOST_WARNING_NO_FREE_SLOT]
 No free slot available
+
+[ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW]
+No compatible slot available in this view
+
+[ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW_ALT1]
+No compatible slot available in this part of your room
+
+[ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW_ALT2]
+No slot available in this part of your room
 
 [ID_OUTPOST_WARNING_ROOMS_CANT_MOVE]
 Once installed, rooms cannot be moved or swapped.

@@ -116,7 +116,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_HandCannon_SingleAction_01_ProjectileSplitter_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/BP_Projectile_HandCannon_SingleAction_01_ProjectileSplitter.4"
       },
-      "VariableGUID": "D0506523-4D6563C9-4FDAE3B1-88DE0604",
+      "VariableGuid": "D0506523-4D6563C9-4FDAE3B1-88DE0604",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

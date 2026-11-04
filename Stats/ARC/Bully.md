@@ -156,8 +156,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 16 | ID.Joint | 400 | Weakpoint_01_L_01, Weakpoint_01_R_01, Weakpoint_01_L_02, Weakpoint_01_R_02 |
 | 17 | ID.Interior | 400 | Inside_01_L, Inside_01_R, Inside_02_L, Inside_02_R, Inside_03, Inside_04 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

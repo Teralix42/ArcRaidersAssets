@@ -116,7 +116,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_AssaultRifle_Burst_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Burst_01/BP_Projectile_AssaultRifle_Burst_01.4"
       },
-      "VariableGUID": "53C81554-4D48A788-1C40BF9B-EC7FF323",
+      "VariableGuid": "53C81554-4D48A788-1C40BF9B-EC7FF323",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

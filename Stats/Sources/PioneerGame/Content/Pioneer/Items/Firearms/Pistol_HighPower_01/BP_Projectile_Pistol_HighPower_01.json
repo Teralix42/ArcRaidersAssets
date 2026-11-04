@@ -132,7 +132,7 @@
         "ObjectName": "SceneComponent'BP_Projectile_Pistol_HighPower_01_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_HighPower_01/BP_Projectile_Pistol_HighPower_01.4"
       },
-      "VariableGUID": "B6AA49FD-4B058150-6594CA94-E5F1EB80",
+      "VariableGuid": "B6AA49FD-4B058150-6594CA94-E5F1EB80",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

@@ -169,7 +169,10 @@
         "ID_OUTPOST_STORAGE_FOCUS_BUTTON": "Storage",
         "ID_OUTPOST_SWAP_HINT_STORAGE_FULL": "Storage is full",
         "ID_OUTPOST_SWAP_HINT_DISPLACE_FORMAT": "{0} will be put in storage",
-        "ID_OUTPOST_CHANGE_TAB": "Change Tab"
+        "ID_OUTPOST_CHANGE_TAB": "Change Tab",
+        "ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW": "No compatible slot available in this view",
+        "ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW_ALT1": "No compatible slot available in this part of your room",
+        "ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW_ALT2": "No slot available in this part of your room"
       },
       "KeysToMetaData": {
         "ID_OUTPOST_FEATURE_TITLE": {
@@ -719,6 +722,18 @@
           "Status": "approved"
         },
         "ID_OUTPOST_EXPANSION_SELECTED_ROOM": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW_ALT1": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_WARNING_NO_SLOT_IN_VIEW_ALT2": {
+          "Status": "approved"
+        },
+        "ID_OUTPOST_CHANGE_TAB": {
           "Status": "approved"
         }
       }

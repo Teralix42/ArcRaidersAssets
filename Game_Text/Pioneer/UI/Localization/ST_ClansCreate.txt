@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_ClansCreate
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_CLAN_CARD_CREST]
 Badge
@@ -24,9 +24,9 @@ Next step {0} / {1}
 Clan name invalid
 
 [ID_CLAN_CREATE_NAME_REQUIREMENTS]
-Must start with a letter or number.
-Max 4 numbers in a row.
-Only Latin letters, numbers, spaces, and special characters allowed.
+Must start with a letter or number.
+Max 4 numbers in a row.
+Only Latin letters, numbers, spaces, and special characters allowed.
 Special characters are (-), (.), (_), ( ), max 1 in a row.
 
 [ID_CLAN_CREATE_NAME_SIZE_LIMITS]
@@ -57,7 +57,7 @@ Set Clan preferences
 Clan tag invalid
 
 [ID_CLAN_CREATE_TAG_REQUIREMENTS]
-Only Latin letters and numbers.
+Only Latin letters and numbers.
 Max 4 numbers in a row.
 
 [ID_CLAN_CREATE_TAG_SIZE_LIMITS]

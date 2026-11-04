@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_BattlePass
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_BATTLEPASS]
 Raider Deck
@@ -219,7 +219,7 @@ Reward Points now progress {0}
 Active Now:
 
 [ID_BATTLEPASS_COMPLETE_SWITCH_XP]
-All passes completed: Reward Points converted to XP
+All passes completed. All additional Reward Points will convert into XP.
 
 [ID_BATTLEPASS_COMPLETE_SWITCH_XP_ALT1]
 Completed Feats now gives you XP
@@ -468,7 +468,7 @@ Package
 Collected
 
 [ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED]
-Earn another {0} to collect
+Earn {0} to collect
 
 [ID_BATTLEPASS_REWARD_PANEL_NOT_COLLECTED_ALT1]
 Earn another {0}{1} to collect
@@ -489,7 +489,10 @@ Get Premium
 Get Premium Pass to collect
 
 [ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT3]
-Earn another {0} and get Premium Pass to collect
+Get Premium and earn {0} to collect
+
+[ID_BATTLEPASS_REWARD_PANEL_PREMIUM_REQ_ALT4]
+Upgrade to Premium and earn {0} to collect
 
 [ID_BATTLEPASS_REWARD_PANEL_PROGRESS]
 Progress:

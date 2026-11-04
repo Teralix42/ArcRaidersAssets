@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_Inventory
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_INVENTORY_AMPLIFICATION_CONFIRMATION_BODY]
 Weapon amplifications are permanent - they cannot be reversed.
@@ -13,6 +13,9 @@ Amplify weapon
 
 [ID_INVENTORY_AMPLIFICATION_EXCLUSIVITY_DISCLAIMER]
 Blocked by an existing amplification.
+
+[ID_INVENTORY_AMPLIFICATION_FORK_HOVER_BLOCKED]
+Blocks: {0}
 
 [ID_INVENTORY_AMPLIFICATION_GUNSMITH_GENERAL_REQUIREMENT]
 Requires Gunsmith station
@@ -36,8 +39,8 @@ Amplification Module MK. {0}
 Required to unlock Amplification.
 
 [ID_INVENTORY_AMPLIFICATION_ONBOARDING_BODY]
-Past encounters with ARC have given Speranza a little more insight into how their technology works.
-Weapon Amplification is a way to push your favorite weapons beyond their usual limits and make them into something more.
+Past encounters with ARC have given Speranza a little more insight into how their technology works.
+Weapon Amplification is a way to push your favorite weapons beyond their usual limits and make them into something more.
 Unlock the Outpost and upgrade your Gunsmith and Research Stations to Level 4 to amplify your weapons.
 
 [ID_INVENTORY_AMPLIFICATION_ONBOARDING_LABEL]
@@ -298,6 +301,9 @@ In Stash:
 [ID_INVENTORY_ITEM_FOUND_IN_AREAS_HEADER]
 Can be found in
 
+[ID_INVENTORY_ITEM_TOOLTIP_ADDED_COLLECTION]
+Will be added to your collection.
+
 [ID_INVENTORY_ITEM_TOOLTIP_AMMOCOUNT_EXPLANATION]
 {0}/{1}
 
@@ -307,8 +313,20 @@ Ammo Type
 [ID_INVENTORY_ITEM_TOOLTIP_AMPLIFIED_DURABILITY_TITLE]
 Amplified Durability
 
+[ID_INVENTORY_ITEM_TOOLTIP_BLUEPRINT_ADDED_COLLECTION]
+A new blueprint will be added to your collection.
+
 [ID_INVENTORY_ITEM_TOOLTIP_CHARGE]
 Charge
+
+[ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY]
+Compatibility
+
+[ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY_ALT2]
+Compatibility:
+
+[ID_INVENTORY_ITEM_TOOLTIP_COMPATIBILITY_FORMAT]
+Compatibility: {0}
 
 [ID_INVENTORY_ITEM_TOOLTIP_CONDITION]
 Condition
@@ -319,8 +337,14 @@ Content
 [ID_INVENTORY_ITEM_TOOLTIP_CONTENTS]
 Contents
 
+[ID_INVENTORY_ITEM_TOOLTIP_DESIGN_ADDED_COLLECTION]
+A new design will be added to your collection.
+
 [ID_INVENTORY_ITEM_TOOLTIP_DURABILITY_TITLE]
 Durability
+
+[ID_INVENTORY_ITEM_TOOLTIP_FURNITURE_DESIGN_ADDED_COLLECTION]
+A new furniture design will be added to your collection.
 
 [ID_INVENTORY_ITEM_TOOLTIP_MAGAZINE_SIZE_TITLE]
 Magazine Size
@@ -343,11 +367,26 @@ Tracked for quest
 [ID_INVENTORY_ITEM_TOOLTIP_RECIPE_KNOWN]
 Blueprint already learned
 
+[ID_INVENTORY_ITEM_TOOLTIP_REQUIRES]
+Requires
+
+[ID_INVENTORY_ITEM_TOOLTIP_REQUIRES_ALT2]
+Requires:
+
+[ID_INVENTORY_ITEM_TOOLTIP_REQUIRES_FORMAT]
+Requires: {0}
+
+[ID_INVENTORY_ITEM_TOOLTIP_STENCIL_ADDED_COLLECTION]
+A new stencil will be added to your collection.
+
 [ID_INVENTORY_ITEM_TOOLTIP_TRACKING_EXPLANATION]
 Tracked for blueprint
 
 [ID_INVENTORY_ITEM_TOOLTIP_TRACKING_EXPLANATION_ALT2]
 Tracked resource
+
+[ID_INVENTORY_ITEM_TOOLTIP_UNLOCK_ADDED_COLLECTION]
+A new unlock will be added to your collection.
 
 [ID_INVENTORY_ITEM_TOOLTIP_UPGRADE_MODIFIER_TITLE]
 Upgrade Modifiers

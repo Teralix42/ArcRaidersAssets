@@ -60,8 +60,6 @@ These records also include sockets, bones, and proxy components; they are not al
 | 3 | ANY(ID.Arm) | 20 |  |
 | 4 | ID.Head | 20 | Hull_01 |
 
-Some actor/style sources have partial-decoding warnings; the balancing health tables parsed separately. The JSON retains the warnings and recovered destruction settings.
-
 <details>
 <summary>Actual game source files</summary>
 

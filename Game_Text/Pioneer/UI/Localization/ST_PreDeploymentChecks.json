@@ -50,7 +50,10 @@
         "ID_DEPLOYMENTCHECK_CROSSPLAYOFF_BULLETPOINT_SYSTEM": "Crossplay disabled in system settings",
         "ID_DEPLOYMENTCHECK_BULLETPOINT_NOAUGMENT": "No Augment equipped",
         "ID_DEPLOYMENTCHECK_BULLETPOINT_NOSAFEPOCKET": "Augment has no Safe Pocket",
-        "ID_DEPLOYMENTCHECK_BULLETPOINT_RAIDERHATCHKEY_UNUSABLE": "Raider Hatch Keys equipped but the destination has no active Raider Hatches"
+        "ID_DEPLOYMENTCHECK_BULLETPOINT_RAIDERHATCHKEY_UNUSABLE": "Raider Hatch Keys equipped but the destination has no active Raider Hatches",
+        "ID_DEPLOYMENTCHECK_CROSSPLAYOFF_ALT": "Matchmaking times may be longer with your current crossplay setting ({0}). Check if:",
+        "ID_DEPLOYMENTCHECK_CROSSPLAYOFF_ALT2": "Matchmaking times may be longer if crossplay isn't turned to \"On\".",
+        "ID_DEPLOYMENTCHECK_CROSSPLAYOFF_TITLE_ALT": "Crossplay is set to {0}"
       },
       "KeysToMetaData": {
         "ID_DEPLOYMENTCHECK_CROSSPLAYOFF": {
@@ -182,6 +185,18 @@
           "Status": "approved"
         },
         "ID_DEPLOYMENTCHECK_BULLETPOINT_RAIDERHATCHKEY_UNUSABLE": {
+          "Status": "approved"
+        },
+        "ID_DEPLOYMENTCHECK_CROSSPLAYOFF_ALT": {
+          "Note": "might replace ID_DEPLOYMENTCHECK_CROSSPLAYOFF. {0} should be the currently chosen crossplay setting (off or console-only)",
+          "Status": "approved"
+        },
+        "ID_DEPLOYMENTCHECK_CROSSPLAYOFF_ALT2": {
+          "Note": "might replace ID_DEPLOYMENTCHECK_CROSSPLAYOFF. {0} should be the currently chosen crossplay setting (off or console-only)",
+          "Status": "approved"
+        },
+        "ID_DEPLOYMENTCHECK_CROSSPLAYOFF_TITLE_ALT": {
+          "Note": "might replace ID_DEPLOYMENTCHECK_CROSSPLAYOFF_TITLE. {0} is currently chosen crossplay setting",
           "Status": "approved"
         }
       }

@@ -1,6 +1,6 @@
-ARC Raiders 2.2.0 — English
+ARC Raiders 2.4.0 — English
 ST_VOIP
-Source build: CL1430164-EACF9E43-BK4884
+Source build: CL1438640-A968EFC7-BK4912
 
 [ID_VOIP_DISABLE]
 Disable Voice Chat
@@ -48,10 +48,10 @@ Voice in Squad
 Stop Test
 
 [ID_VOIP_MIC_TEST_DESCRIPTION]
-We'll play your voice back to you. 
-
-If the indicator bar fills up, your microphone works correctly.
-
+We'll play your voice back to you. 
+
+If the indicator bar fills up, your microphone works correctly.
+
 You can't communicate with other Raiders while doing the test.
 
 [ID_VOIP_MIC_TEST_OPTION]
@@ -61,18 +61,18 @@ Microphone Test
 Consent To Voice Recording?
 
 [ID_VOIP_MODERATION_NOTIFICATION_BODY]
-We are implementing a new Voice Moderation system with the goal of providing a safe and a fun environment for all Raiders.
- 
-Our system may create recordings of snippets of your Voice Chat and Proximity Chat conversations if it detects potentially harmful behavior. We therefore need your consent if you want to enable Voice Chat or Proximity Chat. Recordings will be temporarily stored until reviewed and not used outside of moderation purpose.
- 
-**Recording Consent**
- 
-When Voice Chat is enabled in ARC RAIDERS, your voice activity may be captured and processed by Embark Studios for the purpose of preventing harmful behavior and significant violations of our Code of Conduct in our [Terms of Service and End User License Agreement](https://id.embark.games/arc-raiders/support/faq/126-terms-of-service-and-end-user-license-agreement).
- 
-If our systems identify potentially harmful activity, a snippet of your conversation may be recorded and temporarily stored for review and validation by our community team.
- 
-If you do not consent to the processing of your data for this purpose, you can always continue to play ARC RAIDERS with Voice Chat, and Proximity Chat, disabled. You can withdraw your consent at any time in the settings.
- 
+We are implementing a new Voice Moderation system with the goal of providing a safe and a fun environment for all Raiders.
+ 
+Our system may create recordings of snippets of your Voice Chat and Proximity Chat conversations if it detects potentially harmful behavior. We therefore need your consent if you want to enable Voice Chat or Proximity Chat. Recordings will be temporarily stored until reviewed and not used outside of moderation purpose.
+ 
+**Recording Consent**
+ 
+When Voice Chat is enabled in ARC RAIDERS, your voice activity may be captured and processed by Embark Studios for the purpose of preventing harmful behavior and significant violations of our Code of Conduct in our [Terms of Service and End User License Agreement](https://id.embark.games/arc-raiders/support/faq/126-terms-of-service-and-end-user-license-agreement).
+ 
+If our systems identify potentially harmful activity, a snippet of your conversation may be recorded and temporarily stored for review and validation by our community team.
+ 
+If you do not consent to the processing of your data for this purpose, you can always continue to play ARC RAIDERS with Voice Chat, and Proximity Chat, disabled. You can withdraw your consent at any time in the settings.
+ 
 Learn more about Voice Moderation in ARC RAIDERS in our [FAQ](https://id.embark.games/arc-raiders/support/faq/130-voice-chat-moderation) and see our [Privacy Policy.](https://id.embark.games/arc-raiders/support/faq/128-privacy-policy)
 
 [ID_VOIP_MODERATION_NOTIFICATION_CANCEL]
@@ -85,14 +85,14 @@ Yes
 Enable Voice Moderation
 
 [ID_VOIP_MODERATION_OPTION_DESC]
-Voice Moderation is an online safety tool for the purpose of preventing harmful behavior. 
- 
-**Recording Consent**
- 
-Once you’ve consented, moderation runs whenever Voice Chat or Proximity Chat is on.
- 
-Select "No" to withdraw your consent, disable Voice & Proximity Chat and stop any moderation.
- 
+Voice Moderation is an online safety tool for the purpose of preventing harmful behavior. 
+ 
+**Recording Consent**
+ 
+Once you’ve consented, moderation runs whenever Voice Chat or Proximity Chat is on.
+ 
+Select "No" to withdraw your consent, disable Voice & Proximity Chat and stop any moderation.
+ 
 **You must enable Voice Moderation in order to use Voice Chat.**
 
 [ID_VOIP_MODERATION_SANCTION_PERMANENT]
@@ -105,8 +105,8 @@ You have been banned from speaking on voice chat for {0} {0}|plural(one=hour, fe
 Noise Suppression should be enabled when playing in environments with significant background noise.
 
 [ID_VOIP_OPTION_DESC]
-Voice Chat is a tool for speaking with other raiders in Speranza, and Topside, if you have a microphone, or to simply listen in if you don't have one.
- 
+Voice Chat is a tool for speaking with other raiders in Speranza, and Topside, if you have a microphone, or to simply listen in if you don't have one.
+ 
 **You must enable Voice Moderation in order to use Voice Chat.**
 
 [ID_VOIP_PLAYSTATION_MIC_USAGE_BODY]

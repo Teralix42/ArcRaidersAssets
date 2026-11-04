@@ -102,7 +102,8 @@
         "ID_PLAYERSKIN_BELLS": "Carriga",
         "ID_PLAYERSKIN_OUTLANDER": "Deadwire",
         "ID_PLAYERSKIN_BUTTERO": "Dead Eye",
-        "ID_PLAYERSKIN_STATIONMASTER": "Caposta"
+        "ID_PLAYERSKIN_STATIONMASTER": "Caposta",
+        "ID_PLAYERSKIN_NOXIOUS": "Noxious"
       },
       "KeysToMetaData": {
         "ID_PLAYERSKIN_ENFORCER": {
@@ -388,6 +389,9 @@
           "Status": "approved"
         },
         "ID_PLAYERSKIN_OUTLANDER": {
+          "Status": "approved"
+        },
+        "ID_PLAYERSKIN_NOXIOUS": {
           "Status": "approved"
         }
       }

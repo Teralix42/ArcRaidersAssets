@@ -1251,7 +1251,7 @@
         "ObjectName": "SceneComponent'CS_LightDrone_02_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.16"
       },
-      "VariableGUID": "C9B8D26B-4C722E0E-7D65F6B0-D104053A",
+      "VariableGuid": "C9B8D26B-4C722E0E-7D65F6B0-D104053A",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1291,7 +1291,7 @@
           "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.28"
         }
       ],
-      "VariableGUID": "0AD1C54F-4269B8F7-4307D0AF-5A4A5A41",
+      "VariableGuid": "0AD1C54F-4269B8F7-4307D0AF-5A4A5A41",
       "InternalVariableName": "SkeletalMeshStyleComponent"
     }
   },
@@ -1313,7 +1313,7 @@
         "ObjectName": "AIStateStyleDriver'CS_LightDrone_02_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.1"
       },
-      "VariableGUID": "32D7C4A3-43476AF0-F3D9E689-726EC0AD",
+      "VariableGuid": "32D7C4A3-43476AF0-F3D9E689-726EC0AD",
       "InternalVariableName": "AIStateStyleDriver"
     }
   },
@@ -1335,7 +1335,7 @@
         "ObjectName": "BP_CollisionStyleDriver_Small_C'CS_LightDrone_02_SK_C:BP_CollisionStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.3"
       },
-      "VariableGUID": "9B1775E6-4E3A3093-34DB708D-56FC433F",
+      "VariableGuid": "9B1775E6-4E3A3093-34DB708D-56FC433F",
       "InternalVariableName": "BP_CollisionStyleDriver_Small"
     }
   },
@@ -1357,7 +1357,7 @@
         "ObjectName": "AIScannerStyleDriver'CS_LightDrone_02_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.0"
       },
-      "VariableGUID": "1E254498-4269ED92-A5606A8A-D0D1B2AA",
+      "VariableGuid": "1E254498-4269ED92-A5606A8A-D0D1B2AA",
       "InternalVariableName": "AIScannerStyleDriver"
     }
   },
@@ -1379,7 +1379,7 @@
         "ObjectName": "SpottableStyleDriver'CS_LightDrone_02_SK_C:SpottableStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.40"
       },
-      "VariableGUID": "92181641-4670BDC0-145A9ABF-EBD1A72F",
+      "VariableGuid": "92181641-4670BDC0-145A9ABF-EBD1A72F",
       "InternalVariableName": "SpottableStyleDriver"
     }
   },
@@ -1401,7 +1401,7 @@
         "ObjectName": "ConstructableHoverEngineAudioComponent'CS_LightDrone_02_SK_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.8"
       },
-      "VariableGUID": "7643CD2C-46117F81-9E3E6389-14FB97C3",
+      "VariableGuid": "7643CD2C-46117F81-9E3E6389-14FB97C3",
       "InternalVariableName": "ConstructableHoverEngineAudioComponent"
     }
   },
@@ -1423,7 +1423,7 @@
         "ObjectName": "LaserFlareStyleDriver'CS_LightDrone_02_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.12"
       },
-      "VariableGUID": "C7779A9B-4AD91C99-28E7BC99-B7DA5DCB",
+      "VariableGuid": "C7779A9B-4AD91C99-28E7BC99-B7DA5DCB",
       "InternalVariableName": "LaserFlareStyleDriver"
     }
   },
@@ -1445,7 +1445,7 @@
         "ObjectName": "BP_DamageStyleDriver_Small_C'CS_LightDrone_02_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.4"
       },
-      "VariableGUID": "EC4082B0-42CC25B9-CFFC7E99-E526B50C",
+      "VariableGuid": "EC4082B0-42CC25B9-CFFC7E99-E526B50C",
       "InternalVariableName": "BP_DamageStyleDriver_Small"
     }
   },
@@ -1467,7 +1467,7 @@
         "ObjectName": "ThrusterStyleDriver'CS_LightDrone_02_SK_C:ThrusterStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.44"
       },
-      "VariableGUID": "A09A803C-4DF5B81D-7CC55095-DFC221CC",
+      "VariableGuid": "A09A803C-4DF5B81D-7CC55095-DFC221CC",
       "InternalVariableName": "ThrusterStyleDriver"
     }
   },
@@ -1489,7 +1489,7 @@
         "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_LightDrone_02_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.5"
       },
-      "VariableGUID": "8C8C787F-47D58B29-A73CAF80-0B18CF4C",
+      "VariableGuid": "8C8C787F-47D58B29-A73CAF80-0B18CF4C",
       "InternalVariableName": "BP_PartStunStyleDriver_Default"
     }
   },
@@ -1509,7 +1509,7 @@
       },
       "ComponentTemplate": null,
       "AttachToName": "Head_01",
-      "VariableGUID": "CAC8BC93-457688FF-25F911AD-8FB1B30B",
+      "VariableGuid": "CAC8BC93-457688FF-25F911AD-8FB1B30B",
       "InternalVariableName": "LaserOrigin"
     }
   },
@@ -1532,7 +1532,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.41"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "1A1FB09F-4054F8BD-6C972483-72B25A21",
+      "VariableGuid": "1A1FB09F-4054F8BD-6C972483-72B25A21",
       "InternalVariableName": "EyeProxy"
     }
   },
@@ -1555,7 +1555,7 @@
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.39"
       },
       "AttachToName": "Head_01",
-      "VariableGUID": "A74E6B6D-451724B4-D139D1BC-B4B0728F",
+      "VariableGuid": "A74E6B6D-451724B4-D139D1BC-B4B0728F",
       "InternalVariableName": "SpotLight"
     }
   },
@@ -1577,7 +1577,7 @@
         "ObjectName": "ConstructableAnimationRepositoryComponent'CS_LightDrone_02_SK_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.7"
       },
-      "VariableGUID": "39195BC4-48E0B427-02B4B1AD-D19D0D37",
+      "VariableGuid": "39195BC4-48E0B427-02B4B1AD-D19D0D37",
       "InternalVariableName": "ConstructableAnimationRepositoryComponent"
     }
   },
@@ -1599,7 +1599,7 @@
         "ObjectName": "SimpleAnimationSequenceComponent'CS_LightDrone_02_SK_C:CombatModeAnim_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.36"
       },
-      "VariableGUID": "22C6DA1D-4DE07786-3134D3BB-353C259C",
+      "VariableGuid": "22C6DA1D-4DE07786-3134D3BB-353C259C",
       "InternalVariableName": "CombatModeAnim"
     }
   },
@@ -1621,7 +1621,7 @@
         "ObjectName": "DebrisStyleDriver'CS_LightDrone_02_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.11"
       },
-      "VariableGUID": "4C62EC1D-4547C8DA-EFD4959D-3BF08468",
+      "VariableGuid": "4C62EC1D-4547C8DA-EFD4959D-3BF08468",
       "InternalVariableName": "DebrisStyleDriver"
     }
   },
@@ -1643,7 +1643,7 @@
         "ObjectName": "CapabilityStyleDriver'CS_LightDrone_02_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.6"
       },
-      "VariableGUID": "4C92B92E-48914FB9-D4148BB4-E7ACDEC3",
+      "VariableGuid": "4C92B92E-48914FB9-D4148BB4-E7ACDEC3",
       "InternalVariableName": "CapabilityStyleDriver"
     }
   },
@@ -1665,7 +1665,7 @@
         "ObjectName": "MuzzleStyleDriver'CS_LightDrone_02_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
         "ObjectPath": "/Game/Pioneer/Enemies/LightDrone/Wasp/CS_LightDrone_02_SK.15"
       },
-      "VariableGUID": "64F31E58-492C1181-9E322CAC-C91D967A",
+      "VariableGuid": "64F31E58-492C1181-9E322CAC-C91D967A",
       "InternalVariableName": "MuzzleStyleDriver"
     }
   },

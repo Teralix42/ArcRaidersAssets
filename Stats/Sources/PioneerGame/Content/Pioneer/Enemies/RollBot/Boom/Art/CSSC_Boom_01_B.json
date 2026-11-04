@@ -1,0 +1,628 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Boom_01_B",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Boom/Art/CSSC_Boom_01_B",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "DummyFrame",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Frame_L",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Armor_01_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Armor_02_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Armor_03_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_04",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_05",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_06",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle"
+          ]
+        },
+        {
+          "Key": "SubFrame_02_L",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Frame_R",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Armor_01_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Armor_02_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Armor_03_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_04",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_05",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_06",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SubFrame_02_R",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": [
+            "Part.Decorator.ID.HeadPivot",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Arm_L",
+          "Value": [
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Arm_R",
+          "Value": [
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Core",
+          "Value": [
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "Hull_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Hull"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Armor_01_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_03_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_03_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Core",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "Hull_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Normal"
+          }
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Normal"
+          }
+        },
+        {
+          "Key": "SubFrame_02_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Normal"
+          }
+        },
+        {
+          "Key": "SubFrame_02_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Normal"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "DummyFrame",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Frame_L",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_01_L",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_L",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_03_L",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "SideCylinder_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_L_04",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_L_05",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_L_06",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SubFrame_02_L",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Frame_R",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_01_R",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_R",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_03_R",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "SideCylinder_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_R_04",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_R_05",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SideCylinder_R_06",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "SubFrame_02_R",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_L",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_R",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Core",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Hull_01",
+          "Value": "EPartResistanceGroup::Normal"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "DummyFrame",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Frame_L",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Armor_01_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_03_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_04",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_05",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SideCylinder_L_06",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ResistanceGroup.Normal"
+          ]
+        },
+        {
+          "Key": "SubFrame_02_L",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Normal"
+          ]
+        },
+        {
+          "Key": "Frame_R",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Armor_01_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_03_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_04",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_05",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SideCylinder_R_06",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SubFrame_02_R",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Normal"
+          ]
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": [
+            "Part.Decorator.ID.HeadPivot",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Arm_L",
+          "Value": [
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Arm_R",
+          "Value": [
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Core",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Hull_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Hull",
+            "Part.Decorator.ResistanceGroup.Normal"
+          ]
+        }
+      ]
+    }
+  }
+]

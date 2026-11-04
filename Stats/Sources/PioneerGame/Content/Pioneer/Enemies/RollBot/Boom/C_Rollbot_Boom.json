@@ -1,0 +1,1145 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_RollBot_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Rollbot_Boom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Rollbot_Boom_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.28"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Rollbot_Boom_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.16"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PioneerConstructableExplodeService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PioneerConstructableExplodeService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "C_Rollbot_Boom_C",
+    "Name": "Default__C_Rollbot_Boom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.C_Rollbot_Boom_C'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom",
+    "Template": {
+      "ObjectName": "C_RollBot_SharedBase_C'Default__C_RollBot_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Rollbot_Boom_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.15"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Rollbot_Boom_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.10"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Rollbot_Boom_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.6"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Rollbot_Boom_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.19"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Rollbot_Boom_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.11"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Rollbot_Boom_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.14"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Rollbot_Boom_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.8"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Rollbot_Boom_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.12"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Rollbot_Boom_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.18"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Rollbot_Boom_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.21"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Rollbot_Boom_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.9"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Rollbot_Boom_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.22"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Rollbot_Boom_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.29"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Rollbot_Boom_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.23"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Rollbot_Boom_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Rollbot_Boom_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.7"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Rollbot_Boom_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.4"
+      },
+      "PlayerDormancyDistance": 8000.0,
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_Rollbot_Boom_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_Rollbot_Boom_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Rollbot_Boom'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_EnemyType_Rollbot_Boom.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.Ground",
+        "Quest.Groups.Enemies.AllARC"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Rollbot_Boom_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.17"
+      },
+      "SpawnBudgetCost": 13,
+      "ThreatLevel": 13,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_S'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 75.0,
+        "AgentHeight": 150.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Rollbot_Boom_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.30"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Rollbot_Boom_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.3"
+      },
+      "NetCullDistanceSquared": 400000000.0,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Rollbot_Boom_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.9"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_RollBot_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_RollBot_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.4"
+    }
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAnimationService'C_RollBot_SharedBase_C:ConstructableAnimationService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.5"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "IntoCombatAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Idle"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AlertedAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_RollBot_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.6"
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_RollBot_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.7"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Rollbot_Boom_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.9"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_RollBot_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.8"
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.9"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_RollBot_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.10"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.HeadPivot"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "Head Pivot Parts",
+            "AutoDescription": " ALL( Part.Decorator.ID.HeadPivot )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 5.0,
+            "MaxRotationSpeedDegPerSec": 1440.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 1000000.0,
+            "bDirectlyUpdatePartOrientations": true,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "bDirectlyUpdatePartOrientations": false,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_RollBot_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.11"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_Rollbot_Boom_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_Rollbot_Boom_Perception.0"
+      }
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_RollBot_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.12"
+    },
+    "Properties": {
+      "NumLootablePartsCategory": "EConstructableNumPartsCategory::Medium",
+      "LootType": {
+        "TagName": "Loot.Enemy.Boom"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_Rollbot_Boom_PartScavenge'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_Rollbot_Boom_PartScavenge.0"
+      }
+    }
+  },
+  {
+    "Type": "GroundPhysicsMovementComponent",
+    "Name": "GroundPhysicsMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'GroundPhysicsMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    },
+    "Template": {
+      "ObjectName": "GroundPhysicsMovementComponent'C_RollBot_SharedBase_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.13"
+    },
+    "Properties": {
+      "Settings": {
+        "ObjectName": "GroundPhysicsMovementSettingsDataAsset'DA_Boom_GroundPhysicsMovementSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_Boom_GroundPhysicsMovementSettings.2"
+      },
+      "NetStateClass": {
+        "ObjectName": "Class'RollBotMovementNetStateWith2TractionControlWheels'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ThrusterPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.HeadPivot"
+          }
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.HeadPivot )"
+      },
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 49.0,
+        "AgentHeight": 49.0,
+        "AgentStepHeight": 40.0
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_RollBot_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.14"
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_RollBot_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.15"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StuckDetectionService'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StuckDetectionService'C_Rollbot_Boom_C:StuckDetectionService_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.31"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_RollBot_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.1"
+            },
+            "SCSVariableName": "StuckDetectionService",
+            "AssociatedGuid": "2640F8EB-46346FD0-DF6196A0-1C6D78AE"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'RollbotControllerComponent'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "RollbotControllerComponent'C_Rollbot_Boom_C:RollbotControllerComponent_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.24"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_RollBot_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.1"
+            },
+            "SCSVariableName": "RollbotControllerComponent",
+            "AssociatedGuid": "C88DE98D-462FB43F-8318DA91-6C60D0DC"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ConstructableAnimationService'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ConstructableAnimationService'C_Rollbot_Boom_C:ConstructableAnimationService_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_RollBot_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.1"
+            },
+            "SCSVariableName": "ConstructableAnimationService",
+            "AssociatedGuid": "05DCF3EA-47208A9F-9F81F6B9-A72CB6F3"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'GroundPhysicsMovementComponent'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "GroundPhysicsMovementComponent'C_Rollbot_Boom_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.13"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_RollBot_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.1"
+            },
+            "SCSVariableName": "GroundPhysicsMovementComponent",
+            "AssociatedGuid": "4775E4C8-4ECCCC79-DA20EF9C-5EC4617C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_RollBot_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.17"
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_RollBot_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.18"
+    },
+    "Properties": {
+      "SightRangeStrengthScale": 0.85
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_RollBot_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.19"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Explode"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.HeadPivot"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.HeadPivot )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Boom_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Capabilities/GA_Boom_SelfDestruct.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Boom_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Capabilities/CSM_Boom_SelfDestruct.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Explode",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchNeverCancel",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Ram"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.HeadPivot"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.HeadPivot )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_BoomRamRoll_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Capabilities/GA_BoomRamRoll.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_BoomRam_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Capabilities/CSM_BoomRam.8"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "RamMove",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetNeverCancel",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableExplodeService",
+    "Name": "PioneerConstructableExplodeService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableExplodeService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    },
+    "Properties": {
+      "DefaultPartExplosionSettings": {
+        "ExplosionEffect": {
+          "ObjectName": "BlueprintGeneratedClass'GE_BoomSelfDestruct_Damage_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Capabilities/GE_BoomSelfDestruct_Damage.0"
+        },
+        "TargetType": {
+          "ObjectName": "BlueprintGeneratedClass'GETT_BoomSelfDestruct_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Capabilities/GETT_BoomSelfDestruct.0"
+        },
+        "ForceDestroyPartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Frame"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+        },
+        "ObliteratePartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Core"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Core",
+          "AutoDescription": " ANY( Part.Decorator.ID.Core )"
+        },
+        "FalloffType": "ERadialImpulseFalloff::RIF_Constant",
+        "bCausePlayerKnockback": true,
+        "KnockbackRadiusFraction": 0.6
+      }
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_RollBot_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.20"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_RollBot_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.21"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Boom'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Boom.0"
+      }
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_RollBot_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.22"
+    }
+  },
+  {
+    "Type": "RollbotControllerComponent",
+    "Name": "RollbotControllerComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'RollbotControllerComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    },
+    "Template": {
+      "ObjectName": "RollbotControllerComponent'C_RollBot_SharedBase_C:RollbotControllerComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.23"
+    },
+    "Properties": {
+      "PartsToStraightenPitchQuery": {
+        "TagDictionary": [],
+        "QueryTokenStream": [],
+        "UserDescription": ""
+      },
+      "PartsToAlwaysStraightenPitchQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.HeadPivot"
+          }
+        ],
+        "UserDescription": "Head Pivot Parts",
+        "AutoDescription": " ALL( Part.Decorator.ID.HeadPivot )"
+      },
+      "bUseMovementStateStraighteningForAlwaysStraightPart": true,
+      "FrameStabilityOrientationAngularSpeed": 400.0,
+      "CenterAxisOrientationAngularSpeed": 500.0,
+      "TractionControlPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Wheel"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "UserDescription": "wheels",
+        "AutoDescription": " ALL( Part.Decorator.ID.Wheel )"
+      },
+      "InnerShellRadius": 48.0,
+      "NakedRadius": 30.0,
+      "ExpectedDefaultRadius": 52.0,
+      "ExpectedDefaultHalfHeight": 8.0,
+      "OpenerAnimations": [],
+      "UnfoldTag": {
+        "TagName": "None"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Rollbot_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Rollbot_Boom_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.25"
+      },
+      "VariableGUID": "1B0D024B-4934323F-543B59A7-4D0181A2",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Rollbot_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PioneerConstructableExplodeService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PioneerConstructableExplodeService'C_Rollbot_Boom_C:PioneerConstructableExplodeService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.20"
+      },
+      "VariableGUID": "27C57AE8-46F56D57-F68BB584-B4BB428C",
+      "InternalVariableName": "PioneerConstructableExplodeService"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Rollbot_Boom_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.27"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Rollbot_Boom_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.27"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Rollbot_Boom_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.26"
+      }
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_RollBot_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.31"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Rollbot_Boom_C'Default__C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_RollBot_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.32"
+    }
+  },
+  {
+    "Type": "StuckDetectionService",
+    "Name": "StuckDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StuckDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Rollbot_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.1"
+    },
+    "Template": {
+      "ObjectName": "StuckDetectionService'C_RollBot_SharedBase_C:StuckDetectionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Shared/C_RollBot_SharedBase.33"
+    },
+    "Properties": {
+      "DestroyedPartsToMinDistanceMultiplier": {
+        "EditorCurveData": {}
+      }
+    }
+  }
+]

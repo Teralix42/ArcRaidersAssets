@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_SMG_Medium_01_Carbine",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_Carbine",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_SMG_Medium_01_Carbine_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_SMG_Medium_01_Carbine.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_CARBINECONVERSION",
+        "SourceString": "Carbine Conversion",
+        "LocalizedString": "Carbine Conversion"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_CARBINECONVERSION",
+        "SourceString": "Repurposes the Canto as a carbine, greatly improving stability and accuracy at the cost of agility.",
+        "LocalizedString": "Repurposes the Canto as a carbine, greatly improving stability and accuracy at the cost of agility."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_CarbineConversion.T_UI_Icon_Upgrade_CarbineConversion",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_ADSRECOIL_POSITIVE",
+            "SourceString": "{0}% Reduced ADS Recoil",
+            "LocalizedString": "{0}% Reduced ADS Recoil"
+          },
+          "ModifierValue": 50.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONMAX_POSITIVE",
+            "SourceString": "{0}% Reduced Max Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Max Shot Dispersion"
+          },
+          "ModifierValue": 20.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONGAIN_POSITIVE",
+            "SourceString": "{0}% Reduced Per-Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Per-Shot Dispersion"
+          },
+          "ModifierValue": 20.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BASEDISPERSION_POSITIVE",
+            "SourceString": "{0}% Reduced Base Dispersion",
+            "LocalizedString": "{0}% Reduced Base Dispersion"
+          },
+          "ModifierValue": 20.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIRERATE_NEGATIVE",
+            "SourceString": "{0}% Reduced Fire Rate",
+            "LocalizedString": "{0}% Reduced Fire Rate"
+          },
+          "ModifierValue": 10.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_EQUIPTIME_NEGATIVE",
+            "SourceString": "{0}% Increased Equip Time",
+            "LocalizedString": "{0}% Increased Equip Time"
+          },
+          "ModifierValue": 20.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_UNEQUIPTIME_NEGATIVE",
+            "SourceString": "{0}% Increased Unequip Time",
+            "LocalizedString": "{0}% Increased Unequip Time"
+          },
+          "ModifierValue": 20.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ],
+      "ModSlotModifications": [
+        {
+          "Type": "EModSlotUpgradeModificationType::Remove",
+          "position": 3,
+          "AddedModData": {
+            "ModSlotAsset": null,
+            "DefaultVisual": null,
+            "UnlocksAtQuality": -1
+          }
+        }
+      ]
+    }
+  }
+]

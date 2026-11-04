@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_Armor_LightBody",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Armor/LightBody/DA_Item_Armor_LightBody",
+    "Properties": {
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/LightBody/SM_Armor_01_Default_Light_Pickup.SM_Armor_01_Default_Light_Pickup",
+        "SubPathString": ""
+      },
+      "Weight": 5.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.LightArmor"
+      },
+      "ItemCategory": "EItemCategory::Armor",
+      "Purpose": "EItemPurpose::Armor",
+      "DropTags": [
+        "Item.Drop.Type.Equipment.Armor",
+        "Item.Drop.Tier.Low"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupArmour'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupArmour.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Armor_LightBody'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/DA_Persistence_Armor_LightBody.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllArmor"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/LightBody/BP_Item_Armor_LightBody.BP_Item_Armor_LightBody_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Armor.Light"
+      ]
+    }
+  }
+]

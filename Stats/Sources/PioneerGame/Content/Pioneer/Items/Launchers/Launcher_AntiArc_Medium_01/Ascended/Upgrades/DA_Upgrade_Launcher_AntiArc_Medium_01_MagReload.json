@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Launcher_AntiArc_Medium_01_MagReload",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/DA_Upgrade_Launcher_AntiArc_Medium_01_MagReload",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_MAGRELOAD",
+        "SourceString": "Mag Reload",
+        "LocalizedString": "Mag Reload"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_MAGRELOAD",
+        "SourceString": "Removes the need to reload one projectile at a time.",
+        "LocalizedString": "Removes the need to reload one projectile at a time."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_MagReload_00.T_UI_Icon_Upgrade_MagReload_00",
+        "SubPathString": ""
+      }
+    }
+  }
+]

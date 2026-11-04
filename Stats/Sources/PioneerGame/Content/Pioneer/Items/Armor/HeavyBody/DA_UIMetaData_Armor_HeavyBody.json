@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Armor_HeavyBody'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/DA_UIMetaData_Armor_HeavyBody.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Armor_HeavyBody'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/DA_Persistence_Armor_HeavyBody.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Armors.ST_ItemNames_Armors",
+        "Key": "ID_ITEMNAMES_ARMORS_HEAVY_SHIELD",
+        "SourceString": "Heavy Shield",
+        "LocalizedString": "Heavy Shield"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Armors.ST_ItemDescriptions_Armors",
+        "Key": "ID_ITEMDESC_ARMOR_HEAVYBODY",
+        "SourceString": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility.",
+        "LocalizedString": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Armor"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_ItemCategory_Armor_Heavy.T_UI_ItemCategory_Armor_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/HeavyBody/T_UI_Icon_Armor_HeavyBody.T_UI_Icon_Armor_HeavyBody",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/HeavyBody/T_UI_Icon_Armor_HeavyBody.T_UI_Icon_Armor_HeavyBody",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Armor_HeavyBody'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/DA_UIMetaData_Armor_HeavyBody.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Armor_HeavyBody_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/Qualities/DA_Persistence_Armor_HeavyBody_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Armors.ST_ItemNames_Armors",
+        "Key": "ID_ITEMNAMES_ARMORS_HEAVY_SHIELD",
+        "SourceString": "Heavy Shield",
+        "LocalizedString": "Heavy Shield"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Armors.ST_ItemDescriptions_Armors",
+        "Key": "ID_ITEMDESC_ARMOR_HEAVYBODY",
+        "SourceString": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility.",
+        "LocalizedString": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility."
+      },
+      "QualityLevel": 4,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Armor"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_ItemCategory_Armor_Heavy.T_UI_ItemCategory_Armor_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/HeavyBody/T_UI_Icon_Armor_HeavyBody.T_UI_Icon_Armor_HeavyBody",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/HeavyBody/T_UI_Icon_Armor_HeavyBody.T_UI_Icon_Armor_HeavyBody",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": true,
+          "StaticTitle": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARMOR_PLATEMITIGATION",
+            "SourceString": "Damage Reduction",
+            "LocalizedString": "Damage Reduction"
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_Stats_Format.ST_Stats_Format",
+            "Key": "ID_STATS_FORMAT_PERCENTAGE",
+            "SourceString": "{0}%",
+            "LocalizedString": "{0}%"
+          },
+          "ModifierValue": 52.5,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::TextOnly"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_MOVEMENTSPEED_NEGATIVE",
+            "SourceString": "{0}% Reduced Movement Speed",
+            "LocalizedString": "{0}% Reduced Movement Speed"
+          },
+          "ModifierValue": 10.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Armor_HeavyBody",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Armor/HeavyBody/DA_UIMetaData_Armor_HeavyBody",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Armor_HeavyBody:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/DA_UIMetaData_Armor_HeavyBody.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Armor_HeavyBody:UIGameplayItemMetaDataItem_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/DA_UIMetaData_Armor_HeavyBody.1"
+        }
+      ]
+    }
+  }
+]

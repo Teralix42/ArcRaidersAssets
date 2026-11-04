@@ -1,0 +1,208 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Rose",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Turret/Rose/Art/CSSC_Rose",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Barrel_L_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Barrel_R_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Main",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Gimbal",
+          "Value": [
+            "Part.Decorator.ID.Joint"
+          ]
+        },
+        {
+          "Key": "AmmoCase",
+          "Value": [
+            "Part.Decorator.ID.Vent"
+          ]
+        },
+        {
+          "Key": "Sensor",
+          "Value": [
+            "Part.Decorator.ID.Sensor"
+          ]
+        },
+        {
+          "Key": "Receiver",
+          "Value": [
+            "Part.Decorator.ID.Arm"
+          ]
+        },
+        {
+          "Key": "Barrel_L",
+          "Value": [
+            "Part.Decorator.ID.Weapon"
+          ]
+        },
+        {
+          "Key": "Barrel_R",
+          "Value": [
+            "Part.Decorator.ID.Weapon"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Main",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Gimbal",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Barrel_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Barrel_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Receiver",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "AmmoCase",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Sensor",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Main",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Gimbal",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "AmmoCase",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Sensor",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Receiver",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Barrel_L",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Barrel_R",
+          "Value": "EPartResistanceGroup::Armor"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Barrel_L_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Barrel_R_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Main",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Gimbal",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "AmmoCase",
+          "Value": [
+            "Part.Decorator.ID.Vent",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Sensor",
+          "Value": [
+            "Part.Decorator.ID.Sensor",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Receiver",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Barrel_L",
+          "Value": [
+            "Part.Decorator.ID.Weapon",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Barrel_R",
+          "Value": [
+            "Part.Decorator.ID.Weapon",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        }
+      ]
+    }
+  }
+]

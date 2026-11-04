@@ -1,0 +1,388 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WeaponQualitySet_SMG_LowTier_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01",
+    "SuperStruct": {
+      "ObjectName": "Class'WeaponQualitySet'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_WeaponQualitySet_SMG_LowTier_01_C:ModifyAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "Horizontal Recoil Modifier Set",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "DoubleProperty",
+          "Name": "Horizontal Recoil Modifier Set",
+          "Flags": "RF_Public",
+          "ElementSize": 8
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Weapon Quality",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Reload Time Modifier Set",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "DoubleProperty",
+          "Name": "Reload Time Modifier Set",
+          "Flags": "RF_Public",
+          "ElementSize": 8
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Durability Burn Rate Modifier Set",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "DoubleProperty",
+          "Name": "Durability Burn Rate Modifier Set",
+          "Flags": "RF_Public",
+          "ElementSize": 8
+        }
+      }
+    ],
+    "FuncMap": {
+      "ModifyAttributes": {
+        "ObjectName": "Function'BP_WeaponQualitySet_SMG_LowTier_01_C:ModifyAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WeaponQualitySet_SMG_LowTier_01_C'Default__BP_WeaponQualitySet_SMG_LowTier_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WeaponQualitySet_SMG_LowTier_01_C",
+    "Name": "Default__BP_WeaponQualitySet_SMG_LowTier_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01.BP_WeaponQualitySet_SMG_LowTier_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01",
+    "Properties": {
+      "Horizontal Recoil Modifier Set": [
+        0.2,
+        0.0,
+        -0.2,
+        -0.4
+      ],
+      "Weapon Quality": 3,
+      "Reload Time Modifier Set": [
+        0.5,
+        0.0,
+        -0.5,
+        -1.0
+      ],
+      "Durability Burn Rate Modifier Set": [
+        0.0,
+        -0.1,
+        -0.2,
+        -0.3
+      ],
+      "VisualModifierPerLevel": [
+        {
+          "Damage": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "FireRate": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Range": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stability": {
+            "Add": -3.5,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Agility": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stealth": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          }
+        },
+        {
+          "Damage": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "FireRate": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Range": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stability": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Agility": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stealth": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          }
+        },
+        {
+          "Damage": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "FireRate": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Range": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stability": {
+            "Add": 3.5,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Agility": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stealth": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          }
+        },
+        {
+          "Damage": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "FireRate": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Range": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stability": {
+            "Add": 6.5,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Agility": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          },
+          "Stealth": {
+            "Add": 0.0,
+            "AddMultiply": 1.0,
+            "Multiply": 1.0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ModifyAttributes",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_SMG_LowTier_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'WeaponQualitySet:ModifyAttributes'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "WeaponQuality",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Stats",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetModifierFromFloatArray_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ModifierAdd_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'WeaponStatModifier'",
+          "ObjectPath": "/Script/PioneerGameplay"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetModifierFromFloatArray_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ModifierAddMult_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'WeaponStatModifier'",
+          "ObjectPath": "/Script/PioneerGameplay"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetModifierFromFloatArray_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ModifierAddMult_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'WeaponStatModifier'",
+          "ObjectPath": "/Script/PioneerGameplay"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_SetFieldsInStruct_StructOut",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetModifierFromFloatArray_Floats_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "CallFunc_GetModifierFromFloatArray_Floats_ImplicitCast",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetModifierFromFloatArray_Floats_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "CallFunc_GetModifierFromFloatArray_Floats_ImplicitCast_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetModifierFromFloatArray_Floats_ImplicitCast_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "CallFunc_GetModifierFromFloatArray_Floats_ImplicitCast_2",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  }
+]

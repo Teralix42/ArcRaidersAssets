@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_46",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_Sniper'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyMetaData_Sniper.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Sniper_Persistence'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_Sniper_Persistence.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Sniper'",
+        "ObjectPath": "/Game/Pioneer/UI/Assets/Enemies/T_UI_Ping_Enemy_Sniper.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Sniper.T_UI_ARC_Sniper",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_SNIPER_NAME",
+        "SourceString": "Sentinel",
+        "LocalizedString": "Sentinel"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_Sniper",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyMetaData_Sniper",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_Sniper:UIEnemyMetaDataItem_46'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyMetaData_Sniper.0"
+        }
+      ]
+    }
+  }
+]

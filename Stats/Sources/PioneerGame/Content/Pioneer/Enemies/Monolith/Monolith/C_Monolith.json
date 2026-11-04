@@ -1,0 +1,2219 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
+    }
+  },
+  {
+    "Type": "AISmartObject",
+    "Name": "AISmartObject_Front_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AISmartObject'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "GlobalCooldown": 0.0,
+      "bRequiresLineOfSight": false,
+      "RelevancyTime": 3600.0,
+      "bMakeRelevantOnSpawn": true,
+      "Slots": [
+        {
+          "UserTags": [
+            "SmartObject.Behavior.Guard.Monolith"
+          ],
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 700.0,
+              "Y": 0.0,
+              "Z": 300.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TransformMode": "ESmartObjectSlotTransformMode::FullyRelative",
+          "BehaviorOrder": {
+            "ObjectName": "BlueprintGeneratedClass'ABO_SmartObject_Guard_Monolith_C'",
+            "ObjectPath": "/Game/Pioneer/Core/AI/Shared/SmartObjects/ABO_SmartObject_Guard_Monolith.1"
+          }
+        }
+      ],
+      "RelativeLocation": {
+        "X": 100.0,
+        "Y": 0.0,
+        "Z": 8E-06
+      }
+    }
+  },
+  {
+    "Type": "AISmartObject",
+    "Name": "AISmartObject_Left_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AISmartObject'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "GlobalCooldown": 0.0,
+      "bRequiresLineOfSight": false,
+      "RelevancyTime": 3600.0,
+      "bMakeRelevantOnSpawn": true,
+      "Slots": [
+        {
+          "UserTags": [
+            "SmartObject.Behavior.Guard.Monolith"
+          ],
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": -700.0,
+              "Z": 300.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TransformMode": "ESmartObjectSlotTransformMode::FullyRelative",
+          "BehaviorOrder": {
+            "ObjectName": "BlueprintGeneratedClass'ABO_SmartObject_Guard_Monolith_C'",
+            "ObjectPath": "/Game/Pioneer/Core/AI/Shared/SmartObjects/ABO_SmartObject_Guard_Monolith.1"
+          }
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -100.0,
+        "Z": 8E-06
+      }
+    }
+  },
+  {
+    "Type": "AISmartObject",
+    "Name": "AISmartObject_Right_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AISmartObject'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "GlobalCooldown": 0.0,
+      "bRequiresLineOfSight": false,
+      "RelevancyTime": 3600.0,
+      "bMakeRelevantOnSpawn": true,
+      "Slots": [
+        {
+          "UserTags": [
+            "SmartObject.Behavior.Guard.Monolith"
+          ],
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 700.0,
+              "Z": 300.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TransformMode": "ESmartObjectSlotTransformMode::FullyRelative",
+          "BehaviorOrder": {
+            "ObjectName": "BlueprintGeneratedClass'ABO_SmartObject_Guard_Monolith_C'",
+            "ObjectPath": "/Game/Pioneer/Core/AI/Shared/SmartObjects/ABO_SmartObject_Guard_Monolith.1"
+          }
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 8E-06
+      }
+    }
+  },
+  {
+    "Type": "AITargetComponent",
+    "Name": "AITargetComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AITargetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "OverrideTeamId": "EEmbarkTeamId::Team2"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Monolith_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Monolith_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.22"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AISmartObject_Left",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AISmartObject'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AISmartObject_Right",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AISmartObject'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AISmartObject_Front",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AISmartObject'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpawnOrchestratableComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpawnOrchestratableComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WorldItemCacheService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'WorldItemCacheService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CyclicTransformControllerService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CyclicTransformControllerService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MonolithStyleLandingGearService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MonolithStyleLandingGearService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeatedHullService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'HeatedHullService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProximityDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProximityDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FloatingMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FloatingMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AITargetComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AITargetComponent'",
+          "ObjectPath": "/Script/EmbarkAI"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "C_Monolith_C",
+    "Name": "Default__C_Monolith_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.C_Monolith_C'",
+    "Package": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith",
+    "Template": {
+      "ObjectName": "BP_ConstructableBase_C'Default__BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Monolith_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.20"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Monolith_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.14"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Monolith_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.10"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Monolith_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.26"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Monolith_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.15"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Monolith_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.19"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Monolith_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.12"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Monolith_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.17"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Monolith_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.25"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Monolith_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.27"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Monolith_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.13"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Monolith_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.28"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Monolith_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.47"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Monolith_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.30"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Monolith_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Monolith_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.11"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Monolith_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.8"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_Monolith_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_Monolith_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Monolith'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_EnemyType_Monolith.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Flying",
+        "Quest.Groups.Enemies.Armored"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Monolith_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.23"
+      },
+      "SpawnBudgetCost": 25,
+      "ThreatLevel": 30,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "AgentRadius": 400.0
+      },
+      "SpawnOrchestrationRepository": {
+        "ObjectName": "SpawnOrchestrationRepository'DA_Monolith_SpawnOrchestrationRepository'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Spawning/DA_Monolith_SpawnOrchestrationRepository.0"
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Monolith_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.48"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Monolith_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.7"
+      },
+      "NetCullDistanceSquared": 6.4E+09,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Monolith_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.13"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__BP_ConstructableBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_Frame'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::WhileTagIsSet",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.Action.Landed"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.Action.Landed )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "LandingAnimation",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::WhileTagIsSet",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.OpenCore"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.OpenCore )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AttackAnimation",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Idle"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AnimSequence_IdleToAlert",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Idle",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Alert"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AnimSequence_AlertToIdle",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Alert"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AnimSequence_AlertToCombat",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::InCombat"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AnimSequence_CombatToAlert",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Idle"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AnimSequence_IdleToCombat",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Idle",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::InCombat"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AnimSequence_CombatToIdle",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__BP_ConstructableBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.5"
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__BP_ConstructableBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Monolith_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.13"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__BP_ConstructableBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.7"
+    },
+    "Properties": {
+      "bHasManyParts": true
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__BP_ConstructableBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__BP_ConstructableBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.9"
+    },
+    "Properties": {
+      "DefaultPartTargetingConfig": {
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__BP_ConstructableBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_Monolith_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_Monolith_Perception.0"
+      }
+    }
+  },
+  {
+    "Type": "CyclicTransformControllerService",
+    "Name": "CyclicTransformControllerService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CyclicTransformControllerService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "bStartSpinning": true
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__BP_ConstructableBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.11"
+    },
+    "Properties": {
+      "NumLootablePartsCategory": "EConstructableNumPartsCategory::Large",
+      "LootType": {
+        "TagName": "Loot.Enemy.Monolith"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_Monolith_PartScavenge'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_Monolith_PartScavenge.0"
+      }
+    }
+  },
+  {
+    "Type": "FloatingMovementComponent",
+    "Name": "FloatingMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatingMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "HorizontalSpeed": 250.0,
+      "HorizontalSpeedWhenDamageSensed": 450.0,
+      "YawRates": [
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": 0.1
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": -0.5
+        }
+      ],
+      "YawSpeedWhenDamaged": -0.5,
+      "MovementBlockingCapabilities": [
+        {
+          "TagName": "Part.Capability.Weapon.Primary"
+        }
+      ],
+      "BaseWobbleTorque": 0.1,
+      "LandingAnimations": [
+        {
+          "AnimationTag": {
+            "TagName": "Animation.Constructable.Action.Landed"
+          },
+          "bShouldAddTag": true,
+          "bShouldRemoveTag": false
+        }
+      ],
+      "LandingRayLength": 1000.0,
+      "NearlyLandedDescentSpeed": 50.0,
+      "LandingCurve": {
+        "ObjectName": "CurveTranslateRotate'Curve_Monolith_Landing'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/Curve_Monolith_Landing.0"
+      },
+      "TakeOffAnimations": [
+        {
+          "AnimationTag": {
+            "TagName": "Animation.Constructable.Action.Landed"
+          },
+          "bShouldAddTag": false,
+          "bShouldRemoveTag": true
+        },
+        {
+          "AnimationTag": {
+            "TagName": "Animation.Constructable.OpenCore"
+          },
+          "bShouldAddTag": false,
+          "bShouldRemoveTag": true
+        }
+      ],
+      "TakeOffCurve": {
+        "ObjectName": "CurveTranslateRotate'Curve_Monolith_TakeOff'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/Curve_Monolith_TakeOff.0"
+      },
+      "ThrusterPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Thruster.Active"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Active )"
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__BP_ConstructableBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.12"
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__BP_ConstructableBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.13"
+    },
+    "Properties": {
+      "NumPartsCategory": "EConstructableNumPartsCategory::Large"
+    }
+  },
+  {
+    "Type": "HeatedHullService",
+    "Name": "HeatedHullService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HeatedHullService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "BuildUpTime": 3.0,
+      "ActiveTime": 20.0,
+      "CoolDownTime": 12.0,
+      "BurningGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Burning_C'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.1"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
+    }
+  },
+  {
+    "Type": "MonolithStyleLandingGearService",
+    "Name": "MonolithStyleLandingGearService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MonolithStyleLandingGearService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "FootExtensionInwardRotationDegrees": 45.0,
+      "LandingUpperLegRotation": {
+        "ExternalCurve": {
+          "ObjectName": "CurveFloat'Curve_Monolith_LandingUpperLegRotation'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/Curve_Monolith_LandingUpperLegRotation.0"
+        }
+      },
+      "LandingLowerLegExtension": {
+        "ExternalCurve": {
+          "ObjectName": "CurveFloat'Curve_Monolith_LandingLowerLegExtension'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/Curve_Monolith_LandingLowerLegExtension.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__BP_ConstructableBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.16"
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__BP_ConstructableBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.17"
+    },
+    "Properties": {
+      "CapabilityUtilityAsset": {
+        "ObjectName": "BTCapabilityUtilityCalculationData'DA_Monolith_CapabilityUtility'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Behavior/DA_Monolith_CapabilityUtility.5"
+      },
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Missile"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Missile )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Monolith_SpiralMineLayer_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/GA_Monolith_SpiralMineLayer.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicCapability_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicCapability.277"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Mine Layer",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Secondary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Head )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Monolith_ScatterAttack_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/ScatterAttack_Prototype/GA_Monolith_ScatterAttack.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Monolith_ScatterAttack_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/ScatterAttack_Prototype/CSM_Monolith_ScatterAttack.12"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Thunder Strike",
+          "UtilityField": "Secondary",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastSeenLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Extract"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Monolith_Extract_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/GA_Monolith_Extract.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Monolith_Extract_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/CSM_Monolith_Extract.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Extraction",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": false
+        },
+        {
+          "Groups": [
+            "Part.Capability.TakeOff.Timed"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster.Active"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Active )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Monolith_TakeOff_Timed_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/GA_Monolith_TakeOff_Timed.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Monolith_TakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/CSM_Monolith_TakeOff.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Take Off",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.TakeOff.Emergency"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster.Active"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Active )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Monolith_TakeOff_Emergency_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/GA_Monolith_TakeOff_Emergency.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Monolith_EmergencyTakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/CSM_Monolith_EmergencyTakeOff.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Emergency Take Off",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.CallReinforcement.AlertNearby"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Monolith_NetworkAlert_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/GA_Monolith_NetworkAlert.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicCapability_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicCapability.277"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "NetworkAlert",
+          "UtilityField": "AlertNearby",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ],
+      "CapabilityGroupDefinitions": [
+        {
+          "Group": {
+            "TagName": "Part.Capability.Weapon.Secondary"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 0.5,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 4
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.CallReinforcement.AlertNearby"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 1.0,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 6
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__BP_ConstructableBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Monolith'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Monolith.0"
+      }
+    }
+  },
+  {
+    "Type": "ProximityDetectionService",
+    "Name": "ProximityDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProximityDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "DQMCenterOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 200.0
+      },
+      "DistanceToCheck": 800.0,
+      "LimitToStandingOnParts": [
+        {
+          "Query": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Armor.Head"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Subframe"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Flap"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Upper"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              5,
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame,\n Part.Decorator.ID.Armor.Head,\n Part.Decorator.ID.Subframe,\n Part.Decorator.ID.Flap,\n Part.Decorator.Group.Relative.Upper )"
+          },
+          "bIncludeAllChildrenRecursively": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Monolith_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.31"
+      },
+      "VariableGUID": "25DC4F89-43EB949F-D8B33190-D1262CF2",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MonolithStyleLandingGearService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MonolithStyleLandingGearService'C_Monolith_C:MonolithStyleLandingGearService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.24"
+      },
+      "VariableGUID": "58644339-41061804-13F453B3-08EF434D",
+      "InternalVariableName": "MonolithStyleLandingGearService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpawnOrchestratableComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpawnOrchestratableComponent'C_Monolith_C:SpawnOrchestratableComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.46"
+      },
+      "VariableGUID": "0FCBBC25-42409FE9-1512BCBC-78795BA2",
+      "InternalVariableName": "SpawnOrchestratableComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AISmartObject'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AISmartObject'C_Monolith_C:AISmartObject_Right_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.3"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "71A1E044-4B4B50B9-478F8CBF-C712B9ED",
+      "InternalVariableName": "AISmartObject_Right"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AISmartObject'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AISmartObject'C_Monolith_C:AISmartObject_Left_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.2"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "445269EE-466346FE-14A791B7-91C74A4A",
+      "InternalVariableName": "AISmartObject_Left"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AITargetComponent'",
+        "ObjectPath": "/Script/EmbarkAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AITargetComponent'C_Monolith_C:AITargetComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.4"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "3B856F58-466BE319-ECD32A9E-FAD9CFE0",
+      "InternalVariableName": "AITargetComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_Monolith_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.9"
+      },
+      "VariableGUID": "F747E687-41712775-26A58FA0-C903D6AD",
+      "InternalVariableName": "ConstructableAnimationService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProximityDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProximityDetectionService'C_Monolith_C:ProximityDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.29"
+      },
+      "VariableGUID": "2CB823BD-4766EA26-69EFB69A-C2AB4B16",
+      "InternalVariableName": "ProximityDetectionService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FloatingMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FloatingMovementComponent'C_Monolith_C:FloatingMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.18"
+      },
+      "VariableGUID": "DDBA8C30-4DDAC80B-2C875E8A-953ABCAD",
+      "InternalVariableName": "FloatingMovementComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'HeatedHullService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "HeatedHullService'C_Monolith_C:HeatedHullService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.21"
+      },
+      "VariableGUID": "8F64417C-4431BA09-47B240A3-7F1EFA90",
+      "InternalVariableName": "HeatedHullService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CyclicTransformControllerService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CyclicTransformControllerService'C_Monolith_C:CyclicTransformControllerService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.16"
+      },
+      "VariableGUID": "974BB5E6-4C12DDEC-F155A5A3-AEFEA2AB",
+      "InternalVariableName": "CyclicTransformControllerService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'WorldItemCacheService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "WorldItemCacheService'C_Monolith_C:WorldItemCacheService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.49"
+      },
+      "VariableGUID": "652A1401-4345550D-B9F6199E-065916D5",
+      "InternalVariableName": "WorldItemCacheService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.45"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AISmartObject'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AISmartObject'C_Monolith_C:AISmartObject_Front_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.1"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "1318F281-44E0FCE0-52898482-4B5CA50F",
+      "InternalVariableName": "AISmartObject_Front"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.37"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.40"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.38"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.39"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.41"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.33"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.42"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.43"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.34"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.44"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.36"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.37"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.40"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.38"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.39"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.41"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.33"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.42"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.43"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.34"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.44"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.36"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Monolith_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.32"
+      }
+    }
+  },
+  {
+    "Type": "SpawnOrchestratableComponent",
+    "Name": "SpawnOrchestratableComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnOrchestratableComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "SpawnOrchestrationRepository": {
+        "ObjectName": "SpawnOrchestrationRepository'DA_Monolith_SpawnOrchestrationRepository'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Spawning/DA_Monolith_SpawnOrchestrationRepository.0"
+      }
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__BP_ConstructableBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.25"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Monolith_C'Default__C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.6"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
+    }
+  },
+  {
+    "Type": "WorldItemCacheService",
+    "Name": "WorldItemCacheService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WorldItemCacheService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.5"
+    },
+    "Properties": {
+      "ValidClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WItem_MotionDetectorMine_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Capabilities/Blueprints/BP_WItem_MotionDetectorMine.0"
+      },
+      "FrameDestroyedTrigger": "DelayedNoReturn"
+    }
+  }
+]

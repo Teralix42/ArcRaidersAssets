@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Launcher_AntiArc_SingleShot_01_HighVelocity",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/Upgrades/DA_Upgrade_Launcher_AntiArc_SingleShot_01_HighVelocity",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Launcher_AntiArc_SingleShot_01_HighVelocity_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_SingleShot_01_HighVelocity.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_HIGHVELOCITY",
+        "SourceString": "High Velocity",
+        "LocalizedString": "High Velocity"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_HIGHVELOCITY",
+        "SourceString": "Increases the velocity of the projectile fired.",
+        "LocalizedString": "Increases the velocity of the projectile fired."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_Increase_Velocity.T_UI_Icon_Upgrade_Increase_Velocity",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_PROJECTILEFIREPOWER_POSITIVE",
+            "SourceString": "{0}% Increased Projectile Velocity",
+            "LocalizedString": "{0}% Increased Projectile Velocity"
+          },
+          "ModifierValue": 100.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_ZOOMDISPERSIONSCALE_POSITIVE",
+            "SourceString": "{0}% Reduced ADS Dispersion",
+            "LocalizedString": "{0}% Reduced ADS Dispersion"
+          },
+          "ModifierValue": 50.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  }
+]

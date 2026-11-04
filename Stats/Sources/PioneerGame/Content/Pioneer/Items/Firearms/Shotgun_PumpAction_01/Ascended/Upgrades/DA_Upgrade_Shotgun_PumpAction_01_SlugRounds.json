@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Shotgun_PumpAction_01_SlugRounds",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shotgun_PumpAction_01/Ascended/Upgrades/DA_Upgrade_Shotgun_PumpAction_01_SlugRounds",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Shotgun_PumpAction_01_SlugRounds_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_PumpAction_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Shotgun_PumpAction_01_SlugRounds.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_SLUGROUNDS",
+        "SourceString": "Slug Rounds",
+        "LocalizedString": "Slug Rounds"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_SLUGROUNDS",
+        "SourceString": "Replaces the normal shotgun shells with a single large projectile that deals massive damage.",
+        "LocalizedString": "Replaces the normal shotgun shells with a single large projectile that deals massive damage."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_SlugRounds.T_UI_Icon_Upgrade_SlugRounds",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_PROJECTILESPERSHOT_NEGATIVE",
+            "SourceString": "-{0} Projectiles Per Shot",
+            "LocalizedString": "-{0} Projectiles Per Shot"
+          },
+          "ModifierValue": 8.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DAMAGE_POSITIVE",
+            "SourceString": "{0}% Increased Projectile Damage",
+            "LocalizedString": "{0}% Increased Projectile Damage"
+          },
+          "ModifierValue": 900.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_ARCARMORDAMAGE_POSITIVE",
+            "SourceString": "{0}% Increased Damage vs ARC Armor",
+            "LocalizedString": "{0}% Increased Damage vs ARC Armor"
+          },
+          "ModifierValue": 200.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BASEDISPERSION_POSITIVE",
+            "SourceString": "{0}% Reduced Base Dispersion",
+            "LocalizedString": "{0}% Reduced Base Dispersion"
+          },
+          "ModifierValue": 40.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREPOWER_NEGATIVE",
+            "SourceString": "{0}% Reduced Bullet Velocity",
+            "LocalizedString": "{0}% Reduced Bullet Velocity"
+          },
+          "ModifierValue": 50.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ]
+    }
+  }
+]

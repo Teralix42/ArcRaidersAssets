@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "Curve_RadialDamageFalloff_Launcher_AntiArc_Medium_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Curve_RadialDamageFalloff_Launcher_AntiArc_Medium_01",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.3,
+            "Value": 1.0,
+            "ArriveTangent": -3.4047987,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 0.25,
+            "ArriveTangent": -0.028421793,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -0.028421793,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

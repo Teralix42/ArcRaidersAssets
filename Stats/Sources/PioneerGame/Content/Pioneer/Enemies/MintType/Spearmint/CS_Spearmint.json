@@ -1,0 +1,4768 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Peppermint'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Peppermint.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.FX.LightCone"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.FX.LightCone )"
+      },
+      "bUseLineTrace": false
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Spearmint_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "VisionConeDummy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaggerAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProjectileDeflectStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProjectileDeflectStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ForProto",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Huge",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Huge_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Huge.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LowerHindCannonAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RaiseHindCannonAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LookAroundIdleAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EyeStaticMeshDummy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OpenCoreAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GaitGroundContactHelperComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'GaitGroundContactHelperComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AIStateStyleDriver_Catnip",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_Catnip_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_Catnip.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Grenade",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserFlareStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LaserFlareStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProceduralGaitLimbStyleSetupComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProceduralGaitLimbStyleSetupComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_MovingPartAudioStyleDriver_Peppermint",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_Peppermint_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Peppermint.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Spearmint_C'Default__CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.11"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AIStateStyleDriver_Catnip_C",
+    "Name": "BP_AIStateStyleDriver_Catnip_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_Catnip.BP_AIStateStyleDriver_Catnip_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Template": {
+      "ObjectName": "BP_AIStateStyleDriver_Catnip_C'Default__BP_AIStateStyleDriver_Catnip_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_Catnip.1"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Peppermint_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Peppermint_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Peppermint_Comms.0"
+            },
+            "StateOscillationFrequency": 10.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Peppermint_Combat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Combat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Peppermint_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Peppermint_Comms.0"
+            },
+            "StateOscillationFrequency": 7.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Peppermint_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Peppermint_Comms.0"
+            },
+            "StateOscillationFrequency": 15.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'Peppermint_Combat'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Combat.0"
+      },
+      "TargetChangedAlertnessMask": 228,
+      "TargetChangedSoundCooldownTime": 2.0,
+      "TagEffectMap": [
+        {
+          "Key": {
+            "TagName": "AI.PowerState.OverCharge"
+          },
+          "Value": {
+            "OnTagAppliedEffect": {
+              "ObjectName": "EffectDataAsset'DA_Boss_EMP_ChargeUp'",
+              "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Boss_EMP_ChargeUp.0"
+            },
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": true,
+            "EffectAttachPartTag": {
+              "TagName": "Part.Decorator.ID.Weapon.Shockwave"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'BullCrab_ShockWave_Prepare'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/BullCrab/BullCrab_ShockWave_Prepare.0"
+            },
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": true,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": true
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.Constructable.OpenCore"
+          },
+          "Value": {
+            "OnTagAppliedEffect": {
+              "ObjectName": "EffectDataAsset'DA_Spearmint_OpenCore'",
+              "ObjectPath": "/Game/Pioneer/Effects/Systems/Enemies/Spearmint/DA_Spearmint_OpenCore.0"
+            },
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": true,
+            "EffectAttachPartTag": {
+              "TagName": "Part.Decorator.ID.Core"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'Peppermint_OpenCore'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_OpenCore.0"
+            },
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": false,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Huge_C",
+    "Name": "BP_DamageStyleDriver_Huge_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Huge.BP_DamageStyleDriver_Huge_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Huge_C'Default__BP_DamageStyleDriver_Huge_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Huge.1"
+    },
+    "Properties": {
+      "PartOverrideSeverityDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Indestructible"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.FX.Bone"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.HealthGroup.Legs"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Large'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Large.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_XL'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_XL.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_XL'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_XL.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Weakpoint"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_CoreDamage_Small'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage_Small.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_CoreDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_CoreDamage_Large'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage_Large.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.HealthGroup.Base"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_XL'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_XL.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_XL'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_XL.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Core"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_CoreDamage_Small'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage_Small.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_CoreDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_CoreDamage_Large'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage_Large.0"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedFire_L'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedFire_L.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_MovingPartAudioStyleDriver_Peppermint_C",
+    "Name": "BP_MovingPartAudioStyleDriver_Peppermint_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Peppermint.BP_MovingPartAudioStyleDriver_Peppermint_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Template": {
+      "ObjectName": "BP_MovingPartAudioStyleDriver_Peppermint_C'Default__BP_MovingPartAudioStyleDriver_Peppermint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Peppermint.1"
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.Stomp"
+          ],
+          "StateEffectMap": [],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Grenade"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Spearmint_GasGrenade_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Spearmint_GasGrenade_Prepare.0"
+                },
+                "bPlayForEachPart": true,
+                "bPlayForMultipleSubsequentSameState": true,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Flash"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_DetonatorFlashDroneSmall_WeaponCommitFlash'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_DetonatorFlashDroneSmall_WeaponCommitFlash.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Missile.Homing"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Salt_Missile_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Salt_Missile_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Peppermint_GrenadeLauncherFire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Peppermint_GrenadeLauncherFire.0"
+                },
+                "bPlayForEachPart": true,
+                "bKillExplicitState": true,
+                "KillExplicitState": "ECapabilityState::CoolingDown",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.CallReinforcements.AirStrike"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_CallReinforcements_AirstrikeMarker_Drop'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_CallReinforcements_AirstrikeMarker_Drop.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::CoolingDown",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_CallReinforcements_Airstrike_Success'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_CallReinforcements_Airstrike_Success.0"
+                },
+                "bPlayForEachPart": false,
+                "bKillExplicitState": false,
+                "KillExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Smoke"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Ready",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Spearmint_SmokeGrenade'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/Capabilities/SmokeGrenade/DA_Spearmint_SmokeGrenade.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ],
+      "Extensions": [
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionLaser'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionLaser_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.7"
+        },
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionShockwave'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionShockwave_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.9"
+        },
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionLaser'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionLaser_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionLaser",
+    "Name": "CapabilityStyleDriverExtensionLaser_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionLaser'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.6"
+    },
+    "Properties": {
+      "LaserImpactEffect": {
+        "ObjectName": "EffectDataAsset'DA_Impacts_Laser'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_Laser.0"
+      },
+      "SizzleSoundEffect": {
+        "ObjectName": "SoundCue'Laser_Large_ProximitySizzle'",
+        "ObjectPath": "/Game/Pioneer/Audio/Weapons/Laser/Laser_Large_ProximitySizzle.0"
+      },
+      "MaxDistanceToPlaySizzleSoundEffect": 1000.0
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionLaser",
+    "Name": "CapabilityStyleDriverExtensionLaser_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionLaser'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.6"
+    },
+    "Properties": {
+      "LaserImpactEffect": {
+        "ObjectName": "EffectDataAsset'DA_Impacts_Laser_FocusBeam'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_Laser_FocusBeam.0"
+      },
+      "SizzleSoundEffect": {
+        "ObjectName": "SoundCue'Laser_Large_ProximitySizzle'",
+        "ObjectPath": "/Game/Pioneer/Audio/Weapons/Laser/Laser_Large_ProximitySizzle.0"
+      },
+      "MaxDistanceToPlaySizzleSoundEffect": 1000.0,
+      "AffectedType": "ELaserExtensionEffectOption::NonScorchesOnly"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionShockwave",
+    "Name": "CapabilityStyleDriverExtensionShockwave_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionShockwave'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.6"
+    },
+    "Properties": {
+      "LaserImpactEffect": {
+        "ObjectName": "EffectDataAsset'DA_Impacts_Large'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_Large.0"
+      },
+      "bDebug": false
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Spearmint_C'Default__CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.11"
+    }
+  },
+  {
+    "Type": "CS_Spearmint_C",
+    "Name": "Default__CS_Spearmint_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.CS_Spearmint_C'",
+    "Package": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -1904.8329,
+          "Y": -2080.1025,
+          "Z": -560.086
+        },
+        "Max": {
+          "X": 1774.5757,
+          "Y": 2080.1172,
+          "Z": 1059.1754
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Spearmint_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.10"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_L'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_L.0"
+      }
+    }
+  },
+  {
+    "Type": "GaitGroundContactHelperComponent",
+    "Name": "GaitGroundContactHelperComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GaitGroundContactHelperComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "GroundContactCheckerDefinitions": [
+        {
+          "Description": "Middle_Left",
+          "LocalStart": {
+            "X": -70.49602,
+            "Y": -418.68594,
+            "Z": -40.011448
+          },
+          "LocalEnd": {
+            "X": 501.26147,
+            "Y": -121.86949,
+            "Z": -134.92798
+          },
+          "Radius": 175.0,
+          "bGeneratedMirroredVersionToo": true
+        },
+        {
+          "Description": "SideArrm_Left",
+          "LocalStart": {
+            "X": -600.0,
+            "Y": -650.0,
+            "Z": 166.6112
+          },
+          "LocalEnd": {
+            "X": 600.0,
+            "Y": -650.0,
+            "Z": 166.6112
+          },
+          "Radius": 200.0,
+          "bGeneratedMirroredVersionToo": true
+        },
+        {
+          "Description": "MiddleDown",
+          "LocalStart": {
+            "X": -403.08914,
+            "Y": 0.0,
+            "Z": 25.89779
+          },
+          "LocalEnd": {
+            "X": 150.30779,
+            "Y": -0.0,
+            "Z": -100.313255
+          },
+          "Radius": 250.0,
+          "bGeneratedMirroredVersionToo": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareStyleDriver",
+    "Name": "LaserFlareStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "LaserObjects": [
+        {
+          "ObjectName": "TargetingLaserObject'CS_Spearmint_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.52"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_AITarget",
+    "Name": "LaserFlareTargeting_AITarget_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_AITarget'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_Spearmint_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.52"
+    }
+  },
+  {
+    "Type": "ProceduralGaitLimbStyleSetupComponent",
+    "Name": "ProceduralGaitLimbStyleSetupComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProceduralGaitLimbStyleSetupComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "SkeletalMeshComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "SetupData": {
+        "ObjectName": "ProceduralLimbStyleSetupData'DA_LeggedBoss_LegStyleSetup'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/GaitSystem/DA_LeggedBoss_LegStyleSetup.2"
+      },
+      "AnimationRepository": {
+        "ObjectName": "GaitAnimationRepository'DAGA_LeggedBoss_Animations'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/GaitSystem/DAGA_LeggedBoss_Animations.0"
+      }
+    }
+  },
+  {
+    "Type": "ProjectileDeflectStyleDriver",
+    "Name": "ProjectileDeflectStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileDeflectStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "DeflectEffect": {
+        "ObjectName": "EffectDataAsset'DA_Spearmint_ShieldImpact'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Enemies/Spearmint/DA_Spearmint_ShieldImpact.0"
+      },
+      "ShieldEffect": {
+        "ObjectName": "EffectDataAsset'DA_Spearmint_Shield'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Enemies/Spearmint/DA_Spearmint_Shield.0"
+      },
+      "ShieldSound": {
+        "ObjectName": "SoundCue'Shield_Deflect'",
+        "ObjectPath": "/Game/Pioneer/Audio/GamePlayEffects/Shield/Shield_Deflect.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Spearmint_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.18"
+      },
+      "VariableGUID": "528AD28D-4FE00D28-B06BB8BC-FD5101AD",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Spearmint_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.42"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.35"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.39"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.32"
+        }
+      ],
+      "VariableGUID": "E0D0C2CB-4EA7D681-08D1E2B7-00BD4F23",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Spearmint_C:Grenade_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.50"
+      },
+      "AttachToName": "Weapon_Launcher_Socket",
+      "VariableGUID": "737AA4CE-432C5524-A14375A5-F7B03226",
+      "InternalVariableName": "Grenade"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LaserFlareStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LaserFlareStyleDriver'CS_Spearmint_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.14"
+      },
+      "VariableGUID": "C2821098-49BDE22D-F4E5EB93-01546072",
+      "InternalVariableName": "LaserFlareStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Spearmint_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.12"
+      },
+      "VariableGUID": "6C6D5FBC-4E61FD46-21A58EA6-B4FCB49E",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Spearmint_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.5"
+      },
+      "VariableGUID": "D823DF7C-42D5BF83-E862C9BB-EDE8B281",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_Catnip_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_Catnip.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AIStateStyleDriver_Catnip_C'CS_Spearmint_C:BP_AIStateStyleDriver_Catnip_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.2"
+      },
+      "VariableGUID": "34B9749D-435F01FD-5E5351AE-D20AA352",
+      "InternalVariableName": "BP_AIStateStyleDriver_Catnip"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_Peppermint_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Peppermint.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MovingPartAudioStyleDriver_Peppermint_C'CS_Spearmint_C:BP_MovingPartAudioStyleDriver_Peppermint_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.4"
+      },
+      "VariableGUID": "EB35F782-458A1031-F96B6A86-3307BF88",
+      "InternalVariableName": "BP_MovingPartAudioStyleDriver_Peppermint"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProceduralGaitLimbStyleSetupComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProceduralGaitLimbStyleSetupComponent'CS_Spearmint_C:ProceduralGaitLimbStyleSetupComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.16"
+      },
+      "VariableGUID": "F3F64F13-46094E9E-7B689889-EE3326B3",
+      "InternalVariableName": "ProceduralGaitLimbStyleSetupComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Huge_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Huge.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Huge_C'CS_Spearmint_C:BP_DamageStyleDriver_Huge_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.3"
+      },
+      "VariableGUID": "ABA6441C-4F1219A1-A9FD8394-ADAB2E8C",
+      "InternalVariableName": "BP_DamageStyleDriver_Huge"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProjectileDeflectStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProjectileDeflectStyleDriver'CS_Spearmint_C:ProjectileDeflectStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.17"
+      },
+      "VariableGUID": "AB825B6F-4C3FFE1F-21C98AA5-BB4C0141",
+      "InternalVariableName": "ProjectileDeflectStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:OpenCoreAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.45"
+      },
+      "VariableGUID": "687AF155-41374D47-143C9A9C-102A4E94",
+      "InternalVariableName": "OpenCoreAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:StaggerAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.47"
+      },
+      "VariableGUID": "44AEB3BD-45C3475B-EC942CAC-BCED496F",
+      "InternalVariableName": "StaggerAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Spearmint_C:VisionConeDummy_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.51"
+      },
+      "AttachToName": "Head_01",
+      "VariableGUID": "7EAE697B-41291A0B-94659897-BE135BC0",
+      "InternalVariableName": "VisionConeDummy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'GaitGroundContactHelperComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GaitGroundContactHelperComponent'CS_Spearmint_C:GaitGroundContactHelperComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.13"
+      },
+      "VariableGUID": "868AD724-4980B02B-5D79C3B7-8124D794",
+      "InternalVariableName": "GaitGroundContactHelperComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:LookAroundIdleAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.43"
+      },
+      "VariableGUID": "A0FC78A4-407A34BD-1C2BE2B9-752B34AF",
+      "InternalVariableName": "LookAroundIdleAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Spearmint_C:EyeStaticMeshDummy_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.48"
+      },
+      "AttachToName": "Head_01",
+      "VariableGUID": "7FE6EAE9-48E67D43-397A0CBD-CDC988EF",
+      "InternalVariableName": "EyeStaticMeshDummy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:RaiseHindCannonAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.46"
+      },
+      "VariableGUID": "ADAB3F5D-4C7CEA02-E0B33BA9-EFFAD898",
+      "InternalVariableName": "RaiseHindCannonAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Spearmint_C:LowerHindCannonAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.44"
+      },
+      "VariableGUID": "8647CCC3-461BE735-67DC2BB3-1C089DA1",
+      "InternalVariableName": "LowerHindCannonAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_Spearmint_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.0"
+      },
+      "VariableGUID": "26B74356-4DAE730D-D94602BB-5C582954",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Spearmint_C:ForProto_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.49"
+      },
+      "AttachToName": "Weapon_Launcher_Socket",
+      "VariableGUID": "7009858B-43E19406-246135B1-207AB905",
+      "InternalVariableName": "ForProto"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Spearmint_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Spearmint_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.6"
+      },
+      "VariableGUID": "74D92806-41B0D4DA-935DDCA2-B7E920A9",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.40"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.36"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.37"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.38"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.31"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.40"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.35"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.36"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.37"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.38"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.39"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.32"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Spearmint_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.19"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "DebrisImpactImpulseScale": 123.0,
+      "bUseMassScaledDebrisImpactScaleMSDIS": true,
+      "DebrisCollisionSizeTreshold": 200.0,
+      "DebrisCollisionMassThreshold": 3000.0,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_LeggedBoss_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Dismemberment/DA_LeggedBoss_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_Spearmint'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/DataAssets/CSSC_Spearmint.0"
+      },
+      "VirtualPartBones": [
+        "Hydraulics_UpperLeg_01_L_01",
+        "Hydraulics_Foot_01_L_01",
+        "Hydraulics_UpperLeg_02_L_01",
+        "Hydraulics_UpperLeg_01_L_02",
+        "Hydraulics_Foot_01_L_02",
+        "Hydraulics_UpperLeg_02_L_02",
+        "Hydraulics_UpperLeg_01_L_03",
+        "Hydraulics_Foot_01_L_03",
+        "Hydraulics_UpperLeg_02_L_03",
+        "Hydraulics_UpperLeg_01_R_01",
+        "Hydraulics_Foot_01_R_01",
+        "Hydraulics_UpperLeg_02_R_01",
+        "Hydraulics_UpperLeg_01_R_02",
+        "Hydraulics_Foot_01_R_02",
+        "Hydraulics_UpperLeg_02_R_02",
+        "Hydraulics_UpperLeg_01_R_03",
+        "Hydraulics_Foot_01_R_03",
+        "Hydraulics_UpperLeg_02_R_03"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 96
+      },
+      "SocketIDs": [
+        {
+          "Key": "1",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Head_Dispenser_4",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Head_01"
+                }
+              },
+              {
+                "Key": "Head_Dispenser_3",
+                "Value": {
+                  "SocketID": 1,
+                  "PartName": "Head_01"
+                }
+              },
+              {
+                "Key": "Head_Dispenser_2",
+                "Value": {
+                  "SocketID": 2,
+                  "PartName": "Head_01"
+                }
+              },
+              {
+                "Key": "Head_Dispenser_1",
+                "Value": {
+                  "SocketID": 3,
+                  "PartName": "Head_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Weapon_Launcher_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Weapon_Launcher_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "30",
+          "Value": {
+            "Items": [
+              {
+                "Key": "UpperLegGroundContact_01_L_01",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "UpperLeg_01_L_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Items": [
+              {
+                "Key": "LowerLegGroundContact_01_L_01",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "LowerLeg_01_L_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "Items": [
+              {
+                "Key": "FootGroundContact_01_L_01",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Foot_01_L_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "41",
+          "Value": {
+            "Items": [
+              {
+                "Key": "UpperLegGroundContact_01_L_02",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "UpperLeg_01_L_02"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "43",
+          "Value": {
+            "Items": [
+              {
+                "Key": "LowerLegGroundContact_01_L_02",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "LowerLeg_01_L_02"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45",
+          "Value": {
+            "Items": [
+              {
+                "Key": "FootGroundContact_01_L_02",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Foot_01_L_02"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "52",
+          "Value": {
+            "Items": [
+              {
+                "Key": "UpperLegGroundContact_01_L_03",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "UpperLeg_01_L_03"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "54",
+          "Value": {
+            "Items": [
+              {
+                "Key": "LowerLegGroundContact_01_L_03",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "LowerLeg_01_L_03"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "56",
+          "Value": {
+            "Items": [
+              {
+                "Key": "FootGroundContact_01_L_03",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Foot_01_L_03"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "63",
+          "Value": {
+            "Items": [
+              {
+                "Key": "UpperLegGroundContact_01_R_01",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "UpperLeg_01_R_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "65",
+          "Value": {
+            "Items": [
+              {
+                "Key": "LowerLegGroundContact_01_R_01",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "LowerLeg_01_R_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "67",
+          "Value": {
+            "Items": [
+              {
+                "Key": "FootGroundContact_01_R_01",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Foot_01_R_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "74",
+          "Value": {
+            "Items": [
+              {
+                "Key": "UpperLegGroundContact_01_R_02",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "UpperLeg_01_R_02"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "76",
+          "Value": {
+            "Items": [
+              {
+                "Key": "LowerLegGroundContact_01_R_02",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "LowerLeg_01_R_02"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "78",
+          "Value": {
+            "Items": [
+              {
+                "Key": "FootGroundContact_01_R_02",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Foot_01_R_02"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "85",
+          "Value": {
+            "Items": [
+              {
+                "Key": "UpperLegGroundContact_01_R_03",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "UpperLeg_01_R_03"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "87",
+          "Value": {
+            "Items": [
+              {
+                "Key": "LowerLegGroundContact_01_R_03",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "LowerLeg_01_R_03"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "89",
+          "Value": {
+            "Items": [
+              {
+                "Key": "FootGroundContact_01_R_03",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Foot_01_R_03"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": -385.37457,
+                "Y": 633.95984,
+                "Z": 275.2472
+              },
+              {
+                "X": 124.109825,
+                "Y": -534.2541,
+                "Z": -55.726257
+              },
+              {
+                "X": 279.02234,
+                "Y": 674.8267,
+                "Z": 54.380253
+              },
+              {
+                "X": -385.3745,
+                "Y": -633.9453,
+                "Z": 275.24747
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": 73.75572,
+                "Y": 371.1507,
+                "Z": 13.767493
+              },
+              {
+                "X": 731.0618,
+                "Y": -33.467846,
+                "Z": 849.40717
+              },
+              {
+                "X": -740.09924,
+                "Y": -165.25075,
+                "Z": 725.7898
+              },
+              {
+                "X": 73.75768,
+                "Y": -371.16046,
+                "Z": 13.774466
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 75.082634,
+                "Y": -31.105438,
+                "Z": -283.75598
+              },
+              {
+                "X": 149.17444,
+                "Y": 236.91025,
+                "Z": 77.39488
+              },
+              {
+                "X": -293.29895,
+                "Y": 4.344138E-06,
+                "Z": -58.24548
+              },
+              {
+                "X": 45.155388,
+                "Y": -93.638535,
+                "Z": 273.93988
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": -140.6694,
+                "Y": 4.05478,
+                "Z": -150.79431
+              },
+              {
+                "X": -247.96014,
+                "Y": 2.560256,
+                "Z": 205.26958
+              },
+              {
+                "X": 161.95056,
+                "Y": 4.0548787,
+                "Z": 68.62685
+              },
+              {
+                "X": 211.56448,
+                "Y": -45.0,
+                "Z": 448.90134
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -24.154531,
+                "Y": 85.43903,
+                "Z": -158.42351
+              },
+              {
+                "X": -105.54351,
+                "Y": -166.8373,
+                "Z": -231.85443
+              },
+              {
+                "X": 67.91311,
+                "Y": -126.158,
+                "Z": 159.33603
+              },
+              {
+                "X": 34.149937,
+                "Y": 13.762175,
+                "Z": 174.55336
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 95.07491,
+                "Y": 189.09906,
+                "Z": 237.45584
+              },
+              {
+                "X": -45.446568,
+                "Y": 74.46003,
+                "Z": -181.25652
+              },
+              {
+                "X": 92.12885,
+                "Y": -10.809463,
+                "Z": 205.0572
+              },
+              {
+                "X": 16.461926,
+                "Y": -143.18565,
+                "Z": 101.28313
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": 463.26785,
+                "Y": 50.574265,
+                "Z": -216.1105
+              },
+              {
+                "X": 369.14258,
+                "Y": 356.01282,
+                "Z": -198.60503
+              },
+              {
+                "X": 466.84976,
+                "Y": 476.1172,
+                "Z": 162.34366
+              },
+              {
+                "X": 434.10956,
+                "Y": 244.87317,
+                "Z": -224.14822
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 434.10336,
+                "Y": -244.88109,
+                "Z": -224.1484
+              },
+              {
+                "X": 463.26733,
+                "Y": -50.578358,
+                "Z": -216.11069
+              },
+              {
+                "X": 466.84717,
+                "Y": -476.11536,
+                "Z": 162.3475
+              },
+              {
+                "X": 369.13928,
+                "Y": -356.0101,
+                "Z": -198.60974
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": 301.96567,
+                "Y": -457.385,
+                "Z": -169.00595
+              },
+              {
+                "X": -32.98197,
+                "Y": -553.68915,
+                "Z": -134.96072
+              },
+              {
+                "X": 369.02197,
+                "Y": -600.3465,
+                "Z": 64.41296
+              },
+              {
+                "X": -19.185621,
+                "Y": -651.0127,
+                "Z": 105.54566
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": -263.03604,
+                "Y": 456.21664,
+                "Z": 155.10208
+              },
+              {
+                "X": 70.41331,
+                "Y": 545.6757,
+                "Z": 142.9759
+              },
+              {
+                "X": -129.90164,
+                "Y": 527.88574,
+                "Z": 75.967
+              },
+              {
+                "X": 71.64398,
+                "Y": 669.43964,
+                "Z": -83.32187
+              }
+            ]
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "Points": [
+              {
+                "X": -55.431004,
+                "Y": 152.01509,
+                "Z": 153.23729
+              },
+              {
+                "X": 78.19764,
+                "Y": 161.14008,
+                "Z": -8.832752
+              },
+              {
+                "X": 85.01317,
+                "Y": 165.38277,
+                "Z": -117.041885
+              },
+              {
+                "X": -29.630772,
+                "Y": 152.65898,
+                "Z": -185.60728
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": -23.82463,
+                "Y": -153.09044,
+                "Z": -185.75458
+              },
+              {
+                "X": 85.01629,
+                "Y": -165.38322,
+                "Z": -117.042305
+              },
+              {
+                "X": -55.42949,
+                "Y": -152.01485,
+                "Z": 153.23703
+              },
+              {
+                "X": 78.470985,
+                "Y": -160.71896,
+                "Z": 8.082799
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "Points": [
+              {
+                "X": -131.04639,
+                "Y": -112.21406,
+                "Z": -139.22838
+              },
+              {
+                "X": -129.27058,
+                "Y": 0.63197345,
+                "Z": -138.1639
+              },
+              {
+                "X": -111.662865,
+                "Y": 104.477715,
+                "Z": -123.62538
+              },
+              {
+                "X": -151.9668,
+                "Y": 83.893394,
+                "Z": -156.64807
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "Points": [
+              {
+                "X": 255.4231,
+                "Y": -41.577103,
+                "Z": -174.29312
+              },
+              {
+                "X": 91.710655,
+                "Y": 98.31152,
+                "Z": -209.72025
+              },
+              {
+                "X": -114.36592,
+                "Y": 135.53378,
+                "Z": -202.87816
+              },
+              {
+                "X": 77.02627,
+                "Y": 118.74431,
+                "Z": 134.5623
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": 138.17216,
+                "Y": -131.43007,
+                "Z": 199.63463
+              },
+              {
+                "X": -38.680832,
+                "Y": -68.33568,
+                "Z": 202.33748
+              },
+              {
+                "X": -255.32603,
+                "Y": 47.862865,
+                "Z": 165.12349
+              },
+              {
+                "X": -77.290535,
+                "Y": -118.61368,
+                "Z": -134.68402
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": 134.28262,
+                "Y": 51.124035,
+                "Z": -209.11116
+              },
+              {
+                "X": 131.37146,
+                "Y": 17.666267,
+                "Z": 107.0558
+              },
+              {
+                "X": 34.035774,
+                "Y": 66.74719,
+                "Z": -195.6351
+              },
+              {
+                "X": 177.90717,
+                "Y": -21.215075,
+                "Z": -205.5608
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": -182.18347,
+                "Y": 16.124754,
+                "Z": 198.62805
+              },
+              {
+                "X": -132.71463,
+                "Y": -16.26512,
+                "Z": -106.99433
+              },
+              {
+                "X": -70.04107,
+                "Y": -66.6764,
+                "Z": 202.15941
+              },
+              {
+                "X": -134.8904,
+                "Y": -50.396748,
+                "Z": 209.16545
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": -204.78328,
+                "Y": -19.253689,
+                "Z": -60.92072
+              },
+              {
+                "X": -31.216213,
+                "Y": 18.947678,
+                "Z": -165.07874
+              },
+              {
+                "X": -102.45131,
+                "Y": 6.002922,
+                "Z": -123.12422
+              },
+              {
+                "X": 46.551537,
+                "Y": 18.342304,
+                "Z": -206.57584
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": 132.62494,
+                "Y": -8.759418,
+                "Z": 107.756836
+              },
+              {
+                "X": -43.505287,
+                "Y": -18.308836,
+                "Z": 204.93803
+              },
+              {
+                "X": 227.9979,
+                "Y": 27.501328,
+                "Z": 46.23901
+              },
+              {
+                "X": 46.595184,
+                "Y": -19.139256,
+                "Z": 156.88815
+              }
+            ]
+          }
+        },
+        {
+          "Key": "19",
+          "Value": {
+            "Points": [
+              {
+                "X": 43.798145,
+                "Y": 225.88623,
+                "Z": 333.42126
+              },
+              {
+                "X": 217.44055,
+                "Y": -38.25291,
+                "Z": 331.32858
+              },
+              {
+                "X": -186.72269,
+                "Y": -39.16147,
+                "Z": 314.47934
+              },
+              {
+                "X": -57.670208,
+                "Y": -214.88606,
+                "Z": 329.03757
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": 28.938633,
+                "Y": 167.75539,
+                "Z": -271.9695
+              },
+              {
+                "X": 29.019072,
+                "Y": -168.12878,
+                "Z": -271.93948
+              },
+              {
+                "X": -217.23746,
+                "Y": 416.1348,
+                "Z": -16.05303
+              },
+              {
+                "X": -217.23584,
+                "Y": -416.14743,
+                "Z": -16.049139
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": 97.61588,
+                "Y": 8.722819,
+                "Z": 49.46596
+              },
+              {
+                "X": 6.2980585,
+                "Y": -390.40634,
+                "Z": -200.13644
+              },
+              {
+                "X": 80.33233,
+                "Y": 117.33489,
+                "Z": -357.28253
+              },
+              {
+                "X": -162.35864,
+                "Y": -52.59196,
+                "Z": -200.41975
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Points": [
+              {
+                "X": -103.49684,
+                "Y": -125.82513,
+                "Z": 425.20078
+              },
+              {
+                "X": -97.64643,
+                "Y": 9.877849,
+                "Z": -49.464005
+              },
+              {
+                "X": 72.47193,
+                "Y": 358.87338,
+                "Z": 200.29178
+              },
+              {
+                "X": 135.2261,
+                "Y": -182.83713,
+                "Z": 317.29068
+              }
+            ]
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "Points": [
+              {
+                "X": -284.96448,
+                "Y": 209.52023,
+                "Z": 222.09825
+              },
+              {
+                "X": -247.08893,
+                "Y": -41.21661,
+                "Z": 110.43535
+              },
+              {
+                "X": -165.93556,
+                "Y": 134.07321,
+                "Z": 130.24567
+              },
+              {
+                "X": -417.3496,
+                "Y": 30.099665,
+                "Z": 127.43868
+              }
+            ]
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "Points": [
+              {
+                "X": -351.8955,
+                "Y": 50.882626,
+                "Z": 107.46263
+              },
+              {
+                "X": -376.47873,
+                "Y": -108.90674,
+                "Z": 137.5833
+              },
+              {
+                "X": -276.50934,
+                "Y": -203.52045,
+                "Z": 224.81499
+              },
+              {
+                "X": -173.98805,
+                "Y": -123.95207,
+                "Z": 128.47346
+              }
+            ]
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "Points": [
+              {
+                "X": 53.66566,
+                "Y": -12.20464,
+                "Z": 25.354185
+              },
+              {
+                "X": 53.664192,
+                "Y": -7.1890917,
+                "Z": 25.357971
+              },
+              {
+                "X": 53.663235,
+                "Y": -2.0744011,
+                "Z": 25.360357
+              },
+              {
+                "X": 53.740147,
+                "Y": 25.361351,
+                "Z": 25.355593
+              }
+            ]
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "Points": [
+              {
+                "X": 53.74845,
+                "Y": -25.267334,
+                "Z": 25.454155
+              },
+              {
+                "X": 53.665688,
+                "Y": 12.193063,
+                "Z": 25.3544
+              },
+              {
+                "X": 53.62893,
+                "Y": 17.644268,
+                "Z": 25.463705
+              },
+              {
+                "X": 53.603985,
+                "Y": -9.765841,
+                "Z": 25.583757
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": 36.343094,
+                "Y": 45.983593,
+                "Z": -101.793945
+              },
+              {
+                "X": -13.641326,
+                "Y": 45.986286,
+                "Z": -101.78605
+              },
+              {
+                "X": 21.67476,
+                "Y": 45.923397,
+                "Z": -101.83753
+              },
+              {
+                "X": 10.66291,
+                "Y": 45.608986,
+                "Z": -102.38121
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": 36.19407,
+                "Y": -45.719143,
+                "Z": -102.15568
+              },
+              {
+                "X": -17.03812,
+                "Y": -45.661293,
+                "Z": -102.21
+              },
+              {
+                "X": -8.981418,
+                "Y": -45.989567,
+                "Z": -101.78385
+              },
+              {
+                "X": 21.625662,
+                "Y": -45.976227,
+                "Z": -101.794
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Points": [
+              {
+                "X": 325.98682,
+                "Y": 47.034668,
+                "Z": -117.15656
+              },
+              {
+                "X": 326.2541,
+                "Y": -46.931427,
+                "Z": -117.02517
+              },
+              {
+                "X": 326.30444,
+                "Y": 137.92297,
+                "Z": -117.01065
+              },
+              {
+                "X": 326.04242,
+                "Y": -136.27759,
+                "Z": -117.1207
+              }
+            ]
+          }
+        },
+        {
+          "Key": "30",
+          "Value": {
+            "Points": [
+              {
+                "X": 232.70091,
+                "Y": 47.65223,
+                "Z": 4.8343596
+              },
+              {
+                "X": -31.191053,
+                "Y": 16.142336,
+                "Z": -61.672817
+              },
+              {
+                "X": 33.683296,
+                "Y": 35.124588,
+                "Z": 51.08872
+              },
+              {
+                "X": 246.20543,
+                "Y": 47.514225,
+                "Z": -128.37889
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Points": [
+              {
+                "X": 231.29753,
+                "Y": 38.876045,
+                "Z": 103.660355
+              },
+              {
+                "X": 823.7117,
+                "Y": 44.58133,
+                "Z": 112.01711
+              },
+              {
+                "X": 556.1544,
+                "Y": 53.702835,
+                "Z": 159.3056
+              },
+              {
+                "X": 46.47028,
+                "Y": 38.873146,
+                "Z": 84.62282
+              }
+            ]
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.339918,
+                "Y": 63.308598,
+                "Z": -22.391462
+              }
+            ]
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "Points": [
+              {
+                "X": 48.701942,
+                "Y": 5.4031134,
+                "Z": -55.365887
+              },
+              {
+                "X": 66.42169,
+                "Y": 23.092115,
+                "Z": -55.37319
+              },
+              {
+                "X": 66.42941,
+                "Y": -0.17851247,
+                "Z": -60.00238
+              },
+              {
+                "X": 43.27414,
+                "Y": 21.326332,
+                "Z": -51.138535
+              }
+            ]
+          }
+        },
+        {
+          "Key": "37",
+          "Value": {
+            "Points": [
+              {
+                "X": -377.36877,
+                "Y": 140.30028,
+                "Z": -15.309606
+              },
+              {
+                "X": -275.75906,
+                "Y": 171.74525,
+                "Z": -93.37302
+              },
+              {
+                "X": -325.1654,
+                "Y": -154.0665,
+                "Z": -68.387825
+              },
+              {
+                "X": -237.58539,
+                "Y": -166.12328,
+                "Z": -112.145905
+              }
+            ]
+          }
+        },
+        {
+          "Key": "38",
+          "Value": {
+            "Points": [
+              {
+                "X": 1.715843,
+                "Y": 44.353573,
+                "Z": -109.30412
+              },
+              {
+                "X": -60.660725,
+                "Y": 56.916504,
+                "Z": -75.53367
+              },
+              {
+                "X": -66.75734,
+                "Y": 9.152361,
+                "Z": -81.74897
+              },
+              {
+                "X": -22.88775,
+                "Y": 66.849174,
+                "Z": -92.42253
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39",
+          "Value": {
+            "Points": [
+              {
+                "X": -8.778085,
+                "Y": 27.203608,
+                "Z": -101.24442
+              },
+              {
+                "X": -34.87775,
+                "Y": 27.20951,
+                "Z": -95.45528
+              },
+              {
+                "X": -46.072144,
+                "Y": 27.286982,
+                "Z": -89.56929
+              },
+              {
+                "X": -55.685673,
+                "Y": 38.560825,
+                "Z": -79.323524
+              }
+            ]
+          }
+        },
+        {
+          "Key": "40",
+          "Value": {
+            "Points": [
+              {
+                "X": -416.2423,
+                "Y": -57.999626,
+                "Z": -31.929474
+              },
+              {
+                "X": -402.0821,
+                "Y": 135.2422,
+                "Z": -14.701417
+              },
+              {
+                "X": -304.98874,
+                "Y": 106.86054,
+                "Z": 112.92137
+              },
+              {
+                "X": -266.78247,
+                "Y": -66.49064,
+                "Z": 162.68861
+              }
+            ]
+          }
+        },
+        {
+          "Key": "41",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.352207,
+                "Y": 58.59427,
+                "Z": -61.187943
+              },
+              {
+                "X": -31.20201,
+                "Y": -7.1400495,
+                "Z": -61.895695
+              },
+              {
+                "X": 34.04838,
+                "Y": 0.6192064,
+                "Z": 51.226593
+              },
+              {
+                "X": -31.270432,
+                "Y": -51.54082,
+                "Z": -62.130432
+              }
+            ]
+          }
+        },
+        {
+          "Key": "43",
+          "Value": {
+            "Points": [
+              {
+                "X": 843.0032,
+                "Y": 44.248547,
+                "Z": 108.97901
+              },
+              {
+                "X": 141.47626,
+                "Y": 39.27481,
+                "Z": 80.38583
+              },
+              {
+                "X": 7.9147344,
+                "Y": 7.1116858,
+                "Z": 44.425705
+              },
+              {
+                "X": 514.47546,
+                "Y": 45.92909,
+                "Z": 137.4918
+              }
+            ]
+          }
+        },
+        {
+          "Key": "44",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.187346,
+                "Y": -63.490456,
+                "Z": -22.32921
+              },
+              {
+                "X": 24.169151,
+                "Y": 38.659283,
+                "Z": -22.325897
+              },
+              {
+                "X": 24.161156,
+                "Y": 5.29353,
+                "Z": -22.324583
+              },
+              {
+                "X": 24.196175,
+                "Y": -42.33906,
+                "Z": -22.330858
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45",
+          "Value": {
+            "Points": [
+              {
+                "X": 43.244514,
+                "Y": -0.067305356,
+                "Z": -55.389366
+              },
+              {
+                "X": 66.418274,
+                "Y": 0.041414686,
+                "Z": -59.985622
+              }
+            ]
+          }
+        },
+        {
+          "Key": "48",
+          "Value": {
+            "Points": [
+              {
+                "X": -373.2396,
+                "Y": -167.642,
+                "Z": -19.501404
+              },
+              {
+                "X": -368.5363,
+                "Y": 181.54271,
+                "Z": -24.293787
+              },
+              {
+                "X": -281.63626,
+                "Y": -173.94243,
+                "Z": -90.25528
+              },
+              {
+                "X": -271.13705,
+                "Y": 171.16891,
+                "Z": -95.48134
+              }
+            ]
+          }
+        },
+        {
+          "Key": "49",
+          "Value": {
+            "Points": [
+              {
+                "X": -61.96554,
+                "Y": 28.007242,
+                "Z": -80.94951
+              },
+              {
+                "X": -0.017065924,
+                "Y": -44.994965,
+                "Z": -110.899956
+              },
+              {
+                "X": -79.17372,
+                "Y": -44.974403,
+                "Z": -72.25951
+              },
+              {
+                "X": -13.481933,
+                "Y": 40.13068,
+                "Z": -102.59107
+              }
+            ]
+          }
+        },
+        {
+          "Key": "50",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.043298,
+                "Y": 0.08316574,
+                "Z": -104.82154
+              },
+              {
+                "X": -51.81644,
+                "Y": 19.337395,
+                "Z": -87.74652
+              },
+              {
+                "X": -8.738825,
+                "Y": 27.326315,
+                "Z": -101.224
+              },
+              {
+                "X": -34.875023,
+                "Y": -27.362501,
+                "Z": -95.42437
+              }
+            ]
+          }
+        },
+        {
+          "Key": "51",
+          "Value": {
+            "Points": [
+              {
+                "X": -398.37485,
+                "Y": 130.48235,
+                "Z": -8.632578
+              },
+              {
+                "X": -296.0818,
+                "Y": 104.687,
+                "Z": 124.509705
+              },
+              {
+                "X": -300.769,
+                "Y": -105.86133,
+                "Z": 118.40793
+              },
+              {
+                "X": -424.21118,
+                "Y": -97.94097,
+                "Z": -41.756298
+              }
+            ]
+          }
+        },
+        {
+          "Key": "52",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.213245,
+                "Y": 31.326332,
+                "Z": -61.517124
+              },
+              {
+                "X": -31.194199,
+                "Y": -51.91408,
+                "Z": -61.634747
+              },
+              {
+                "X": 34.1837,
+                "Y": -40.277203,
+                "Z": 51.32779
+              },
+              {
+                "X": 34.204384,
+                "Y": 46.11995,
+                "Z": 51.346653
+              }
+            ]
+          }
+        },
+        {
+          "Key": "54",
+          "Value": {
+            "Points": [
+              {
+                "X": 881.39526,
+                "Y": -8.633651,
+                "Z": 102.347946
+              },
+              {
+                "X": 19.47739,
+                "Y": -39.456623,
+                "Z": 47.86375
+              },
+              {
+                "X": 40.651436,
+                "Y": 35.95024,
+                "Z": 53.620914
+              },
+              {
+                "X": 100.435234,
+                "Y": -39.563778,
+                "Z": 69.56291
+              }
+            ]
+          }
+        },
+        {
+          "Key": "55",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.303087,
+                "Y": -63.362965,
+                "Z": -22.368973
+              }
+            ]
+          }
+        },
+        {
+          "Key": "56",
+          "Value": {
+            "Points": [
+              {
+                "X": 43.209106,
+                "Y": -21.314047,
+                "Z": -51.118484
+              },
+              {
+                "X": 66.42454,
+                "Y": -23.083973,
+                "Z": -55.376827
+              },
+              {
+                "X": 66.41887,
+                "Y": 0.15311933,
+                "Z": -59.9969
+              },
+              {
+                "X": 43.216614,
+                "Y": 0.15581492,
+                "Z": -55.390266
+              }
+            ]
+          }
+        },
+        {
+          "Key": "59",
+          "Value": {
+            "Points": [
+              {
+                "X": -362.02103,
+                "Y": -161.45714,
+                "Z": -30.902023
+              },
+              {
+                "X": -254.96857,
+                "Y": -168.78403,
+                "Z": -103.71677
+              },
+              {
+                "X": -286.44574,
+                "Y": 174.27432,
+                "Z": -87.74488
+              },
+              {
+                "X": -217.35437,
+                "Y": 140.31577,
+                "Z": -122.48283
+              }
+            ]
+          }
+        },
+        {
+          "Key": "60",
+          "Value": {
+            "Points": [
+              {
+                "X": -62.242504,
+                "Y": -58.20966,
+                "Z": -77.637566
+              },
+              {
+                "X": -21.192371,
+                "Y": -29.458282,
+                "Z": -102.30243
+              },
+              {
+                "X": -87.70867,
+                "Y": -14.236885,
+                "Z": -71.5351
+              },
+              {
+                "X": -2.5993574,
+                "Y": -75.389206,
+                "Z": -104.68568
+              }
+            ]
+          }
+        },
+        {
+          "Key": "61",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.026474,
+                "Y": -52.712135,
+                "Z": -85.60908
+              },
+              {
+                "X": -36.09433,
+                "Y": 0.11940263,
+                "Z": -98.82843
+              },
+              {
+                "X": -9.063186,
+                "Y": 0.13454553,
+                "Z": -104.82326
+              },
+              {
+                "X": -46.7093,
+                "Y": -27.253595,
+                "Z": -89.24658
+              }
+            ]
+          }
+        },
+        {
+          "Key": "62",
+          "Value": {
+            "Points": [
+              {
+                "X": -266.79102,
+                "Y": 57.99835,
+                "Z": 162.68155
+              },
+              {
+                "X": -424.3239,
+                "Y": 90.58487,
+                "Z": -41.448124
+              },
+              {
+                "X": -405.1979,
+                "Y": -132.2458,
+                "Z": -17.524965
+              },
+              {
+                "X": -303.30203,
+                "Y": -106.423035,
+                "Z": 115.11898
+              }
+            ]
+          }
+        },
+        {
+          "Key": "63",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.191046,
+                "Y": -16.15653,
+                "Z": -61.67307
+              },
+              {
+                "X": 246.20186,
+                "Y": -47.51416,
+                "Z": -128.37906
+              },
+              {
+                "X": 232.69722,
+                "Y": -47.65209,
+                "Z": 4.834524
+              },
+              {
+                "X": 33.68328,
+                "Y": -35.138428,
+                "Z": 51.088512
+              }
+            ]
+          }
+        },
+        {
+          "Key": "65",
+          "Value": {
+            "Points": [
+              {
+                "X": 834.89185,
+                "Y": -44.23759,
+                "Z": 110.10758
+              },
+              {
+                "X": 244.74077,
+                "Y": -38.89017,
+                "Z": 107.38139
+              },
+              {
+                "X": 46.469383,
+                "Y": -38.870964,
+                "Z": 84.620155
+              },
+              {
+                "X": 583.8152,
+                "Y": -52.804108,
+                "Z": 154.5411
+              }
+            ]
+          }
+        },
+        {
+          "Key": "66",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.334312,
+                "Y": -63.273975,
+                "Z": -22.398031
+              }
+            ]
+          }
+        },
+        {
+          "Key": "67",
+          "Value": {
+            "Points": [
+              {
+                "X": 48.709946,
+                "Y": -5.410876,
+                "Z": -55.366962
+              },
+              {
+                "X": 66.42807,
+                "Y": 0.19127528,
+                "Z": -60.005688
+              },
+              {
+                "X": 66.39999,
+                "Y": -23.105524,
+                "Z": -55.367054
+              },
+              {
+                "X": 43.26553,
+                "Y": -21.282549,
+                "Z": -51.14831
+              }
+            ]
+          }
+        },
+        {
+          "Key": "70",
+          "Value": {
+            "Points": [
+              {
+                "X": -366.6289,
+                "Y": -182.01234,
+                "Z": -26.429125
+              },
+              {
+                "X": -237.61795,
+                "Y": 165.27107,
+                "Z": -112.12966
+              },
+              {
+                "X": -259.55063,
+                "Y": -170.11925,
+                "Z": -101.184654
+              },
+              {
+                "X": -325.16492,
+                "Y": 153.22946,
+                "Z": -68.38804
+              }
+            ]
+          }
+        },
+        {
+          "Key": "71",
+          "Value": {
+            "Points": [
+              {
+                "X": -37.43993,
+                "Y": -80.53697,
+                "Z": -84.221504
+              },
+              {
+                "X": -69.894875,
+                "Y": -50.364094,
+                "Z": -75.91212
+              },
+              {
+                "X": -23.49707,
+                "Y": -28.485382,
+                "Z": -101.28657
+              },
+              {
+                "X": 13.739161,
+                "Y": -74.92411,
+                "Z": -112.779465
+              }
+            ]
+          }
+        },
+        {
+          "Key": "72",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.197685,
+                "Y": -52.695515,
+                "Z": -85.546844
+              },
+              {
+                "X": -8.426513,
+                "Y": -37.215435,
+                "Z": -97.10557
+              },
+              {
+                "X": -35.488728,
+                "Y": -11.142513,
+                "Z": -97.46326
+              },
+              {
+                "X": -46.246235,
+                "Y": -38.487633,
+                "Z": -84.27133
+              }
+            ]
+          }
+        },
+        {
+          "Key": "73",
+          "Value": {
+            "Points": [
+              {
+                "X": -390.8428,
+                "Y": -128.70712,
+                "Z": 1.143508
+              },
+              {
+                "X": -416.24356,
+                "Y": 57.984535,
+                "Z": -31.930216
+              },
+              {
+                "X": -289.05225,
+                "Y": -102.90039,
+                "Z": 133.66196
+              },
+              {
+                "X": -281.66187,
+                "Y": 99.06328,
+                "Z": 143.2833
+              }
+            ]
+          }
+        },
+        {
+          "Key": "74",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.189331,
+                "Y": -58.59447,
+                "Z": -61.754917
+              },
+              {
+                "X": -31.373318,
+                "Y": 7.140674,
+                "Z": -61.1574
+              },
+              {
+                "X": 34.15592,
+                "Y": -0.6195772,
+                "Z": 51.303753
+              },
+              {
+                "X": -31.22935,
+                "Y": 51.541195,
+                "Z": -61.454945
+              }
+            ]
+          }
+        },
+        {
+          "Key": "76",
+          "Value": {
+            "Points": [
+              {
+                "X": 7.0759735,
+                "Y": -7.1123786,
+                "Z": 44.6371
+              },
+              {
+                "X": 157.47563,
+                "Y": -39.14524,
+                "Z": 84.54794
+              },
+              {
+                "X": 803.97644,
+                "Y": -46.133324,
+                "Z": 116.082085
+              },
+              {
+                "X": 132.1442,
+                "Y": 39.72205,
+                "Z": 78.08279
+              }
+            ]
+          }
+        },
+        {
+          "Key": "77",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.1979,
+                "Y": 63.489574,
+                "Z": -22.331501
+              },
+              {
+                "X": 24.162954,
+                "Y": -38.659496,
+                "Z": -22.325018
+              },
+              {
+                "X": 24.166885,
+                "Y": -5.293769,
+                "Z": -22.325659
+              },
+              {
+                "X": 24.177946,
+                "Y": 42.338715,
+                "Z": -22.327555
+              }
+            ]
+          }
+        },
+        {
+          "Key": "78",
+          "Value": {
+            "Points": [
+              {
+                "X": 43.230446,
+                "Y": 0.06385439,
+                "Z": -55.38411
+              },
+              {
+                "X": 66.43205,
+                "Y": -0.044883206,
+                "Z": -59.988537
+              }
+            ]
+          }
+        },
+        {
+          "Key": "81",
+          "Value": {
+            "Points": [
+              {
+                "X": -254.40251,
+                "Y": -168.86311,
+                "Z": -103.869804
+              },
+              {
+                "X": -357.8941,
+                "Y": -182.5054,
+                "Z": -35.096542
+              },
+              {
+                "X": -265.15836,
+                "Y": 169.95097,
+                "Z": -98.52896
+              },
+              {
+                "X": -373.34464,
+                "Y": 166.84142,
+                "Z": -19.394493
+              }
+            ]
+          }
+        },
+        {
+          "Key": "82",
+          "Value": {
+            "Points": [
+              {
+                "X": -6.6610103,
+                "Y": -44.99266,
+                "Z": -107.657036
+              },
+              {
+                "X": -77.71863,
+                "Y": 4.5184484,
+                "Z": -77.17432
+              },
+              {
+                "X": -3.1509728,
+                "Y": 49.31193,
+                "Z": -105.85552
+              },
+              {
+                "X": -61.598225,
+                "Y": -44.93918,
+                "Z": -80.84444
+              }
+            ]
+          }
+        },
+        {
+          "Key": "83",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.135091,
+                "Y": -0.012850585,
+                "Z": -104.80289
+              },
+              {
+                "X": -8.722942,
+                "Y": -27.314075,
+                "Z": -101.22979
+              },
+              {
+                "X": -50.008446,
+                "Y": -17.14226,
+                "Z": -89.010925
+              },
+              {
+                "X": -50.00809,
+                "Y": 17.142115,
+                "Z": -89.01116
+              }
+            ]
+          }
+        },
+        {
+          "Key": "84",
+          "Value": {
+            "Points": [
+              {
+                "X": -296.08316,
+                "Y": -104.68722,
+                "Z": 124.50794
+              },
+              {
+                "X": -398.3762,
+                "Y": -130.4826,
+                "Z": -8.634228
+              },
+              {
+                "X": -275.72388,
+                "Y": 99.314095,
+                "Z": 151.04942
+              },
+              {
+                "X": -400.77026,
+                "Y": 131.18146,
+                "Z": -11.774304
+              }
+            ]
+          }
+        },
+        {
+          "Key": "85",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.194265,
+                "Y": 51.9269,
+                "Z": -61.634884
+              },
+              {
+                "X": -31.213272,
+                "Y": -31.312698,
+                "Z": -61.517338
+              },
+              {
+                "X": 34.165054,
+                "Y": 45.663998,
+                "Z": 51.311455
+              },
+              {
+                "X": 34.24279,
+                "Y": -42.359787,
+                "Z": 51.38468
+              }
+            ]
+          }
+        },
+        {
+          "Key": "87",
+          "Value": {
+            "Points": [
+              {
+                "X": 881.3949,
+                "Y": 8.64794,
+                "Z": 102.348
+              },
+              {
+                "X": 14.0531435,
+                "Y": 23.015139,
+                "Z": 46.505512
+              },
+              {
+                "X": 90.41992,
+                "Y": 39.575054,
+                "Z": 66.88662
+              },
+              {
+                "X": 40.648846,
+                "Y": -35.936646,
+                "Z": 53.61992
+              }
+            ]
+          }
+        },
+        {
+          "Key": "88",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.298933,
+                "Y": 63.331993,
+                "Z": -22.373486
+              }
+            ]
+          }
+        },
+        {
+          "Key": "89",
+          "Value": {
+            "Points": [
+              {
+                "X": 43.224728,
+                "Y": -0.15161145,
+                "Z": -55.391537
+              },
+              {
+                "X": 66.439125,
+                "Y": 23.131855,
+                "Z": -55.367874
+              },
+              {
+                "X": 66.38218,
+                "Y": -0.18251719,
+                "Z": -59.994938
+              },
+              {
+                "X": 43.2112,
+                "Y": 21.370146,
+                "Z": -51.10544
+              }
+            ]
+          }
+        },
+        {
+          "Key": "92",
+          "Value": {
+            "Points": [
+              {
+                "X": -367.05194,
+                "Y": 181.36322,
+                "Z": -25.861347
+              },
+              {
+                "X": -376.30844,
+                "Y": 140.24165,
+                "Z": -16.382757
+              },
+              {
+                "X": -286.22858,
+                "Y": -175.0934,
+                "Z": -87.85287
+              },
+              {
+                "X": -280.79034,
+                "Y": 172.73515,
+                "Z": -90.810555
+              }
+            ]
+          }
+        },
+        {
+          "Key": "93",
+          "Value": {
+            "Points": [
+              {
+                "X": -71.64193,
+                "Y": 7.097449,
+                "Z": -79.70906
+              },
+              {
+                "X": -2.3447075,
+                "Y": -37.70777,
+                "Z": -110.5907
+              },
+              {
+                "X": -2.4345026,
+                "Y": 74.36874,
+                "Z": -100.77353
+              },
+              {
+                "X": -59.363857,
+                "Y": 53.29135,
+                "Z": -77.56662
+              }
+            ]
+          }
+        },
+        {
+          "Key": "94",
+          "Value": {
+            "Points": [
+              {
+                "X": -34.63453,
+                "Y": 27.290506,
+                "Z": -95.522804
+              },
+              {
+                "X": -7.818258,
+                "Y": 52.709003,
+                "Z": -90.72207
+              },
+              {
+                "X": -8.81598,
+                "Y": 27.221025,
+                "Z": -101.23403
+              },
+              {
+                "X": -47.90933,
+                "Y": 36.927845,
+                "Z": -84.12796
+              }
+            ]
+          }
+        },
+        {
+          "Key": "95",
+          "Value": {
+            "Points": [
+              {
+                "X": -303.30414,
+                "Y": 106.42369,
+                "Z": 115.116486
+              },
+              {
+                "X": -390.8749,
+                "Y": 136.30623,
+                "Z": -17.229721
+              },
+              {
+                "X": -279.13205,
+                "Y": -90.5708,
+                "Z": 146.57646
+              },
+              {
+                "X": -424.20148,
+                "Y": -84.85236,
+                "Z": -42.06455
+              }
+            ]
+          }
+        }
+      ],
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Spearmint_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/Art/SK_Spearmint_01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Spearmint_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/Art/SK_Spearmint_01.1"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_EnemyTrim_Insides'",
+          "ObjectPath": "/Game/Pioneer/MaterialLibrary/Material_Instances/Themes/Enemies/MI_EnemyTrim_Insides.0"
+        }
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel2",
+        "CollisionProfileName": "HarvesterIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Harvester",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "ComponentTags": [
+        "GaitLegs"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "LookAroundIdleAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "GaitLegs",
+          "BoneNames": [],
+          "ClientAlwaysDisabledBones": [
+            "Head_01"
+          ],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::CircularIn",
+            "BlendTime": 3.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Peppermint_01_IdleLookAround_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/GaitSystem/Animations/A_Peppermint_01_IdleLookAround_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AnimationPlaybackMode": "EAnimationPlaybackMode::Loop",
+      "bSampleFirstFrameAtBeginPlay": true,
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "LookAroundIdleAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "LowerHindCannonAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "GaitLegs",
+          "BoneNames": [
+            "Weapon_Launcher_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::CircularIn",
+            "BlendTime": 0.5,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Spearmint_01_LowerHindCannon_02'",
+            "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/Animation/A_Spearmint_01_LowerHindCannon_02.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Peppermint_PartsMovement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_PartsMovement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'Peppermint_PartsMovement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_PartsMovement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'Peppermint_Head_Rotation_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Head_Rotation_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'Peppermint_Head_Rotation_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Head_Rotation_Stop.0"
+      },
+      "AudioFadeOutTime": 0.25,
+      "ComponentTags": [
+        "LowerHindCannonAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "OpenCoreAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "GaitLegs",
+          "BoneNames": [
+            "Head_01_Armor_03_L_01",
+            "Head_01_Armor_03_R_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Spearmint_01_OpenCore_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/Animation/A_Spearmint_01_OpenCore_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Peppermint_PartsMovement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_PartsMovement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'Peppermint_PartsMovement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_PartsMovement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'Peppermint_Head_Rotation_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Head_Rotation_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'Peppermint_Head_Rotation_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Head_Rotation_Stop.0"
+      },
+      "AudioFadeOutTime": 0.25,
+      "ComponentTags": [
+        "OpenCoreAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "RaiseHindCannonAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "GaitLegs",
+          "BoneNames": [
+            "Weapon_Launcher_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::CircularIn",
+            "BlendTime": 0.2,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Spearmint_01_RaiseHindCannon_02'",
+            "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/Animation/A_Spearmint_01_RaiseHindCannon_02.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Peppermint_PartsMovement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_PartsMovement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'Peppermint_PartsMovement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_PartsMovement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'Peppermint_Head_Rotation_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Head_Rotation_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'Peppermint_Head_Rotation_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Peppermint/Peppermint_Head_Rotation_Stop.0"
+      },
+      "AudioFadeOutTime": 0.25,
+      "ComponentTags": [
+        "RaiseHindCannonAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "StaggerAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "GaitLegs",
+          "BoneNames": [
+            "Head_01"
+          ],
+          "ClientAlwaysDisabledBones": [
+            "Head_01"
+          ],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::CircularIn",
+            "BlendTime": 3.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Spearmint_Blockout_01_Recovery_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/GaitSystem/Animations/A_Spearmint_Blockout_01_Recovery_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AnimationPlaybackMode": "EAnimationPlaybackMode::Loop",
+      "bSampleFirstFrameAtBeginPlay": true,
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "StaggerAnim"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "EyeStaticMeshDummy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Eye"
+      ],
+      "PartIDRange": {
+        "BasePartID": 97,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": 931.9814,
+        "Y": 9.147363E-08,
+        "Z": 536.8187
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "ForProto_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Weapon.Dispenser"
+      ],
+      "PartIDRange": {
+        "BasePartID": 98,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": 100.0,
+        "Y": 1.019099E-06,
+        "Z": -4.4256053E-12
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "Grenade_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Weapon.Blast",
+        "Part.Decorator.Group.Relative.Middle"
+      ],
+      "PartIDRange": {
+        "BasePartID": 96,
+        "NrIDs": 1
+      },
+      "SocketIDs": [
+        {
+          "Key": "DriverPoint",
+          "Value": 0
+        },
+        {
+          "Key": "Passenger1",
+          "Value": 1
+        },
+        {
+          "Key": "Passenger2",
+          "Value": 2
+        },
+        {
+          "Key": "Passenger3",
+          "Value": 3
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AIVisibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AudioOcclusion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AITraceProjectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerTraceProjectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "VisionConeDummy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.FX.LightCone"
+      ],
+      "PartIDRange": {
+        "BasePartID": 99,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": 622.9774,
+        "Y": 2.156631E-06,
+        "Z": 109.897705
+      },
+      "RelativeRotation": {
+        "Pitch": -22.5,
+        "Yaw": 1.1238603E-20,
+        "Roll": 5.1130714E-14
+      }
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_Spearmint_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.14"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 93,
+        "PartDisplayName": "LowerLeg_01_Insides_01_R_03"
+      },
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Laser"
+            },
+            {
+              "TagName": "Part.Decorator.Group.Relative.Upper"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "AutoDescription": " ALL( Part.Decorator.ID.Laser,\n Part.Decorator.Group.Relative.Upper )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_Spearmint_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.1"
+          }
+        }
+      },
+      "ActivateState": [],
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_AITarget'CS_Spearmint_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0.LaserFlareTargeting_AITarget_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/CS_Spearmint.15"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_TargetingLaser_SpreadSlow_Attach'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_TargetingLaser_SpreadSlow_Attach.0"
+      }
+    }
+  }
+]

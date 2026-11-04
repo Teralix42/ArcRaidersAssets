@@ -1,0 +1,4662 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_LightDrone'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_LightDrone.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Eye"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.ID.Eye )"
+      },
+      "bUseLineTrace": false,
+      "NumTracesAtPlayerDistance": []
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_HeavyDrone_Missile_SK_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableHoverEngineAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserOriginPart",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EyeProxy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AttackPreparingAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AttackPreparingAnim_Flaps",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AttackActiveAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IdleModeAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserFlareStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LaserFlareStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AIStateStyleDriver_HeavyDroneMissile",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_HeavyDroneMissile_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_HeavyDroneMissile.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ThrusterStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ThrusterStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CollisionStyleDriver_Large",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Large_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Large.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CombatModeAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpottableStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpottableStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Large",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ExplodeStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ExplodeStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationRepositoryComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBP_StunStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlertedModeAnimation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_HeavyDrone_Missile_SK_C'Default__CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.11"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AIStateStyleDriver_HeavyDroneMissile_C",
+    "Name": "BP_AIStateStyleDriver_HeavyDroneMissile_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_HeavyDroneMissile.BP_AIStateStyleDriver_HeavyDroneMissile_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Template": {
+      "ObjectName": "BP_AIStateStyleDriver_HeavyDroneMissile_C'Default__BP_AIStateStyleDriver_HeavyDroneMissile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_HeavyDroneMissile.1"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'HeavyDrone_Idle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/HeavyDrone/HeavyDrone_Idle.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'HeavyDrone_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/HeavyDrone_Comms.0"
+            },
+            "StateOscillationFrequency": 15.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'HeavyDrone_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/HeavyDrone/HeavyDrone_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'HeavyDrone_Search'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/HeavyDrone/HeavyDrone_Search.0"
+            },
+            "StateOscillationFrequency": 7.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'HeavyDrone_EnterCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/HeavyDrone/HeavyDrone_EnterCombat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'HeavyDrone_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/HeavyDrone_Comms.0"
+            },
+            "StateOscillationFrequency": 8.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'HeavyDrone_TargetChange'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/HeavyDrone/HeavyDrone_TargetChange.0"
+      },
+      "TargetChangedSoundCooldownTime": 1.0
+    }
+  },
+  {
+    "Type": "BP_CollisionStyleDriver_Large_C",
+    "Name": "BP_CollisionStyleDriver_Large_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Large.BP_CollisionStyleDriver_Large_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Template": {
+      "ObjectName": "BP_CollisionStyleDriver_Large_C'Default__BP_CollisionStyleDriver_Large_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Large.1"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Large_C",
+    "Name": "BP_DamageStyleDriver_Large_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.BP_DamageStyleDriver_Large_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Large_C'Default__BP_DamageStyleDriver_Large_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.1"
+    },
+    "Properties": {
+      "PartOverrideSeverityDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Indestructible"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Cannon"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_DroneHeavy_Missile_WeaponCommitFire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_DroneHeavy_Missile_WeaponCommitFire.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Ready",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_TriggerGrenadeArmed'",
+                  "ObjectPath": "/Game/Pioneer/Audio/Gadgets/Grenades/TriggerGrenade/DA_TriggerGrenadeArmed.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AttackPreparingAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "AttackPreparingAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromCurrentPosition",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::PlayBackwardFromCurrentPosition"
+                  },
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AttackPreparingAnim_Flaps_GEN_VARIABLE",
+                      "SanitizedComponentName": "AttackPreparingAnim_Flaps",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::Stop"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AttackActiveAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "AttackActiveAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Explode"
+          ],
+          "StateEffectMap": [],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Ram"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_DroneHeavy_Missile_FlyOverContinuous'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Capabilities/DA_DroneHeavy_Missile_FlyOverContinuous.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": true,
+                "StopExplicitState": "ECapabilityState::CoolingDown",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AttackPreparingAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "AttackPreparingAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromCurrentPosition",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  },
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AttackPreparingAnim_Flaps_GEN_VARIABLE",
+                      "SanitizedComponentName": "AttackPreparingAnim_Flaps",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::CoolingDown",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AttackPreparingAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "AttackPreparingAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayBackwardFromCurrentPosition",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  },
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AttackPreparingAnim_Flaps_GEN_VARIABLE",
+                      "SanitizedComponentName": "AttackPreparingAnim_Flaps",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::Stop",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBP_StunStyleDriver_C",
+    "Name": "CBP_StunStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.CBP_StunStyleDriver_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Template": {
+      "ObjectName": "CBP_StunStyleDriver_C'Default__CBP_StunStyleDriver_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.1"
+    }
+  },
+  {
+    "Type": "ConstructableAnimationRepositoryComponent",
+    "Name": "ConstructableAnimationRepositoryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationRepositoryComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "AnimationRepository": {
+        "ObjectName": "ConstructableAnimationRepository'HeavyDroneAnimationRepository'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/HeavyDroneAnimationRepository.0"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableHoverEngineAudioComponent",
+    "Name": "ConstructableHoverEngineAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableHoverEngineAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'HeavyDrone_Engine'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/HeavyDrone/HeavyDrone_Engine.0"
+      },
+      "SpeedInterpolation": {
+        "InterpolationTime": 0.4
+      },
+      "AccelerationInterpolation": {
+        "InterpolationTime": 0.4
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_HeavyDrone_Missile_SK_C'Default__CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.11"
+    },
+    "Properties": {
+      "ProxyPartList": [
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": -9.645898E-16,
+              "Y": 0.21643962,
+              "Z": 2.1389472E-16,
+              "W": 0.976296,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -7.03228E-14,
+              "Y": 3.4223496E-07,
+              "Z": 17.522734
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.ID.Sensor"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 37,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "Eye_01"
+          },
+          "PartName": "EyeProxy",
+          "bIsDestroyed": false
+        },
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 19.712822,
+              "Y": 2.6996538E-08,
+              "Z": -15.699279
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 38,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "HeavyDrone_01_Missile_Weapon_Body_01"
+          },
+          "PartName": "LaserOriginPart",
+          "bIsDestroyed": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CS_HeavyDrone_Missile_SK_C",
+    "Name": "Default__CS_HeavyDrone_Missile_SK_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.CS_HeavyDrone_Missile_SK_C'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -137.01442,
+          "Y": -259.10382,
+          "Z": -146.40956
+        },
+        "Max": {
+          "X": 239.40616,
+          "Y": 259.10388,
+          "Z": 104.26786
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_HeavyDrone_Missile_SK_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.10"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_L'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_L.0"
+      }
+    }
+  },
+  {
+    "Type": "ExplodeStyleDriver",
+    "Name": "ExplodeStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExplodeStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    }
+  },
+  {
+    "Type": "LaserFlareStyleDriver",
+    "Name": "LaserFlareStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "LaserObjects": [
+        {
+          "ObjectName": "TargetingLaserObject'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.54"
+        },
+        {
+          "ObjectName": "TargetingLaserObject'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.53"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_Forward",
+    "Name": "LaserFlareTargeting_Forward_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_Forward'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.53"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 12,
+          "PartDisplayName": "HeavyDrone_01_Missile_Weapon_Body_01"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_Forward",
+    "Name": "LaserFlareTargeting_Forward_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_Forward'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_1'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.54"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 12,
+          "PartDisplayName": "HeavyDrone_01_Missile_Weapon_Body_01"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_HeavyDrone_Missile_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.18"
+      },
+      "VariableGUID": "05B436C9-47669C57-2397FB82-0869BC2D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_HeavyDrone_Missile_SK_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.51"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.35"
+        }
+      ],
+      "VariableGUID": "56311797-463360F3-0ED3BCB2-6CBF4B05",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:CombatModeAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.48"
+      },
+      "VariableGUID": "E76A1554-445EB35E-BCCDEA91-FDFFC503",
+      "InternalVariableName": "CombatModeAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Large_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Large.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_CollisionStyleDriver_Large_C'CS_HeavyDrone_Missile_SK_C:BP_CollisionStyleDriver_Large_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.3"
+      },
+      "VariableGUID": "32F51F39-4D54DBE2-87ECF2AA-ACFC279A",
+      "InternalVariableName": "BP_CollisionStyleDriver_Large"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ThrusterStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ThrusterStyleDriver'CS_HeavyDrone_Missile_SK_C:ThrusterStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.55"
+      },
+      "VariableGUID": "1D983A5A-48103450-2F551FAC-546A3C5B",
+      "InternalVariableName": "ThrusterStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_HeavyDrone_Missile_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.6"
+      },
+      "VariableGUID": "3D5EAD6B-4189B0D8-1543A2BF-EA93EBAC",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_HeavyDroneMissile_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_HeavyDroneMissile.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AIStateStyleDriver_HeavyDroneMissile_C'CS_HeavyDrone_Missile_SK_C:BP_AIStateStyleDriver_HeavyDroneMissile_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.2"
+      },
+      "VariableGUID": "62B97239-403CC91A-6EF63CBC-4838E509",
+      "InternalVariableName": "BP_AIStateStyleDriver_HeavyDroneMissile"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LaserFlareStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LaserFlareStyleDriver'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.14"
+      },
+      "VariableGUID": "C10CF5D7-4B35A44F-0A8DAD8E-7F534384",
+      "InternalVariableName": "LaserFlareStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:IdleModeAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.49"
+      },
+      "VariableGUID": "5B76DA12-463793C9-FD937CA9-8D804E33",
+      "InternalVariableName": "IdleModeAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AttackActiveAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.45"
+      },
+      "VariableGUID": "A8BB2279-4B018FE4-6FD1CAA1-9BEB4525",
+      "InternalVariableName": "AttackActiveAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AttackPreparingAnim_Flaps_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.46"
+      },
+      "VariableGUID": "DFD3EC58-43FFB0DF-47C83189-266763B4",
+      "InternalVariableName": "AttackPreparingAnim_Flaps"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_HeavyDrone_Missile_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.0"
+      },
+      "VariableGUID": "27103CCC-40C6190A-D2755B82-FDFEE49A",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AlertedModeAnimation_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.44"
+      },
+      "VariableGUID": "B3F1CEB3-4FF37F8C-0440F08B-7C4299B3",
+      "InternalVariableName": "AlertedModeAnimation"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_HeavyDrone_Missile_SK_C:AttackPreparingAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.47"
+      },
+      "VariableGUID": "2B1BD4CF-45EDF2E8-B7523293-3DD48D25",
+      "InternalVariableName": "AttackPreparingAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": null,
+      "AttachToName": "Eye_01",
+      "VariableGUID": "70D484EC-43E021BE-43F2CEA4-29F220F1",
+      "InternalVariableName": "EyeProxy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": null,
+      "AttachToName": "HeavyDrone_01_Missile_Weapon_Body_01",
+      "VariableGUID": "E786B275-464712C3-D3A82386-0DB5E1E6",
+      "InternalVariableName": "LaserOriginPart"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableHoverEngineAudioComponent'CS_HeavyDrone_Missile_SK_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.9"
+      },
+      "VariableGUID": "3E8EF79F-40AC5F75-D5433DA9-10E008AB",
+      "InternalVariableName": "ConstructableHoverEngineAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_HeavyDrone_Missile_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.5"
+      },
+      "VariableGUID": "F5B93C82-4552664A-BA1B87BD-B3CD5272",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBP_StunStyleDriver_C'CS_HeavyDrone_Missile_SK_C:CBP_StunStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.7"
+      },
+      "VariableGUID": "74FF1B89-40F6DE6C-72CAFEA0-86AF7003",
+      "InternalVariableName": "CBP_StunStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationRepositoryComponent'CS_HeavyDrone_Missile_SK_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.8"
+      },
+      "VariableGUID": "80C64517-4111389D-19B04193-794E857F",
+      "InternalVariableName": "ConstructableAnimationRepositoryComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ExplodeStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ExplodeStyleDriver'CS_HeavyDrone_Missile_SK_C:ExplodeStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.13"
+      },
+      "VariableGUID": "92812110-4C07BA32-44C32396-47766582",
+      "InternalVariableName": "ExplodeStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Large_C'CS_HeavyDrone_Missile_SK_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.4"
+      },
+      "VariableGUID": "37A7B4AE-431A9FEB-133ECD9A-965A785C",
+      "InternalVariableName": "BP_DamageStyleDriver_Large"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_HeavyDrone_Missile_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.12"
+      },
+      "VariableGUID": "CC2BCE80-4917ECA8-C64E3091-89571C36",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpottableStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpottableStyleDriver'CS_HeavyDrone_Missile_SK_C:SpottableStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.52"
+      },
+      "VariableGUID": "17C9ADBE-490F846B-38FDDCB3-71F0B17A",
+      "InternalVariableName": "SpottableStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.50"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_HeavyDrone_Missile_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.17"
+      },
+      "VariableGUID": "AAD4091A-4B2D01BC-4C4CE098-F0DB42EF",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "AlertedModeAnimation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_C",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_C_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Alerted_FlapHead'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Alerted_FlapHead.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Alerted_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Alerted_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Alerted_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Alerted_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 2,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "bSampleFirstFrameAtBeginPlay": true,
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.2,
+      "ComponentTags": [
+        "AlertedModeAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "AttackActiveAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LauncherArm_R",
+          "TrackForComponentTag": "WeaponArm",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Arm_C_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatAttackActive_RifleArm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatAttackActive_RifleArm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LauncherArm_R",
+          "TrackForComponentTag": "HeavyDrone_01_Missile_Flap_C_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_C_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatActive_FlapHead'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatActive_FlapHead.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatActive_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatActive_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatActive_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatActive_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 2,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "ComponentTags": [
+        "AttackActiveAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "AttackPreparingAnim_Flaps_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LauncherArm_R",
+          "TrackForComponentTag": "Flap_C",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_C_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatPreparing_FlapHead'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatPreparing_FlapHead.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatPreparing_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatPreparing_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatPreparing_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatPreparing_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 2,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "ComponentTags": [
+        "AttackPreparingAnim_Flaps"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "AttackPreparingAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LauncherArm_R",
+          "TrackForComponentTag": "LauncherArm_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Arm_R_01_A",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatAttackPreparing_LauncherArm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatAttackPreparing_LauncherArm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LauncherArm_R",
+          "TrackForComponentTag": "LauncherArm_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Arm_L_01_A",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatAttackPreparing_LauncherArm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatAttackPreparing_LauncherArm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 2,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Launcher_R",
+          "TrackForComponentTag": "Launcher_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Launcher_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatAttackPreparing_Launcher'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatAttackPreparing_Launcher.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.3,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Launcher_R",
+          "TrackForComponentTag": "Launcher_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Launcher_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_CombatAttackPreparing_Launcher'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_CombatAttackPreparing_Launcher.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.3,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "ComponentTags": [
+        "AttackPreparingAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "CombatModeAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "WeaponArm",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Arm_C_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_WeaponArm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_WeaponArm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "WeaponBody",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Body_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_LauncherBody'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_LauncherBody.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.3,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LauncherArm_R",
+          "TrackForComponentTag": "LauncherArm_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Arm_R_01_A",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_LauncherArm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_LauncherArm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LauncherArm_R",
+          "TrackForComponentTag": "LauncherArm_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Arm_L_01_A",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_LauncherArm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_LauncherArm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 2,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Launcher_R",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Launcher_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_Launcher'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_Launcher.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.3,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Launcher_R",
+          "TrackForComponentTag": "Launcher_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Weapon_Launcher_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_Launcher'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_Launcher.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.3,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Hatch_R",
+          "TrackForComponentTag": "Hatch_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Hatch_R_01_A",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Hatch_R",
+          "TrackForComponentTag": "Hatch_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Hatch_L_01_A",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Combat_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Combat_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 2,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::AdditiveLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "bSampleFirstFrameAtBeginPlay": true,
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "ComponentTags": [
+        "CombatModeAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "IdleModeAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_C",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_C_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Idle_FlapHead'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Idle_FlapHead.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_R",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Idle_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Idle_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "Flap_L",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "HeavyDrone_01_Missile_Flap_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_Idle_FlapSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/Animation/Curves/Curve_Idle_FlapSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 2,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "ComponentTags": [
+        "IdleModeAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.37"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.38"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.39"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.40"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.41"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.42"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.43"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.36"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.37"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.38"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.39"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.40"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.41"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.42"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.43"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.35"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.36"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_HeavyDrone_Missile_SK_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.19"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_HeavyDroneMissile'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Art/SK/CSSC_HeavyDroneMissile.0"
+      },
+      "ProxyPartChildren": [
+        {
+          "Key": "Eye_01",
+          "Value": {
+            "ChildrenPartIDs": [
+              37
+            ]
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Body_01",
+          "Value": {
+            "ChildrenPartIDs": [
+              38
+            ]
+          }
+        }
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 37
+      },
+      "SocketGroups": [
+        {
+          "Key": "12",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "Muzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Thruster",
+                "Value": {
+                  "SocketList": [
+                    "Thruster_L_01_Socket"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Thruster",
+                "Value": {
+                  "SocketList": [
+                    "Thruster_L_02_Socket"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Thruster",
+                "Value": {
+                  "SocketList": [
+                    "Thruster_R_01_Socket"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Thruster",
+                "Value": {
+                  "SocketList": [
+                    "Thruster_R_02_Socket"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "SocketIDs": [
+        {
+          "Key": "12",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "HeavyDrone_01_Missile_Weapon_Body_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Thruster_L_01_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Thruster_L_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Thruster_L_02_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Thruster_L_02"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Thruster_R_01_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Thruster_R_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Thruster_R_02_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Thruster_R_02"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 187.71877,
+                "Y": -55.588493,
+                "Z": -20.90612
+              },
+              {
+                "X": -7.6967463,
+                "Y": 98.54958,
+                "Z": -55.849483
+              },
+              {
+                "X": -99.062965,
+                "Y": -101.44178,
+                "Z": 31.145418
+              },
+              {
+                "X": 7.5935364,
+                "Y": -86.04081,
+                "Z": -55.846783
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": 11.08895,
+                "Y": 19.620993,
+                "Z": 3.038038
+              },
+              {
+                "X": 12.787979,
+                "Y": -20.569715,
+                "Z": 3.2492237
+              },
+              {
+                "X": 10.0871725,
+                "Y": -19.22388,
+                "Z": -6.660439
+              },
+              {
+                "X": 12.694324,
+                "Y": -2.0475066,
+                "Z": 0.22293364
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -33.929707,
+                "Y": -9.678004,
+                "Z": 35.442623
+              },
+              {
+                "X": -39.931843,
+                "Y": 9.246444,
+                "Z": 27.879787
+              },
+              {
+                "X": -38.51071,
+                "Y": -9.646375,
+                "Z": 29.730406
+              },
+              {
+                "X": -39.114105,
+                "Y": -2.8179882,
+                "Z": 28.863852
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 28.02257,
+                "Y": 18.79636,
+                "Z": -54.073414
+              },
+              {
+                "X": 33.692852,
+                "Y": 68.04044,
+                "Z": 3.393738
+              },
+              {
+                "X": -17.053974,
+                "Y": -33.257965,
+                "Z": -46.127495
+              },
+              {
+                "X": -32.15692,
+                "Y": 75.94207,
+                "Z": -51.6234
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": 33.9392,
+                "Y": -6.431573,
+                "Z": -10.005042
+              },
+              {
+                "X": 37.38688,
+                "Y": 22.738436,
+                "Z": -24.086046
+              },
+              {
+                "X": 6.514995,
+                "Y": -19.172176,
+                "Z": -25.131918
+              },
+              {
+                "X": -16.817833,
+                "Y": -9.90967,
+                "Z": -10.005039
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": -29.262306,
+                "Y": 19.107828,
+                "Z": -25.621054
+              },
+              {
+                "X": 37.386883,
+                "Y": -22.738382,
+                "Z": -24.086031
+              },
+              {
+                "X": 2.5226946,
+                "Y": 9.909716,
+                "Z": -33.89623
+              },
+              {
+                "X": 24.721645,
+                "Y": 13.128524,
+                "Z": -10.005012
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": 80.71473,
+                "Y": 9.186203,
+                "Z": 32.967865
+              },
+              {
+                "X": -6.055883,
+                "Y": 38.724503,
+                "Z": 49.015083
+              },
+              {
+                "X": -57.537724,
+                "Y": -12.77919,
+                "Z": -3.2680635
+              },
+              {
+                "X": 155.5561,
+                "Y": 27.014442,
+                "Z": -23.656824
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 13.889627,
+                "Y": 8.71243,
+                "Z": 7.5635133
+              },
+              {
+                "X": 33.37445,
+                "Y": -36.21659,
+                "Z": 32.867146
+              },
+              {
+                "X": 7.0069275,
+                "Y": -26.499674,
+                "Z": 24.803637
+              },
+              {
+                "X": 58.573452,
+                "Y": -11.012183,
+                "Z": 21.110868
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": 26.49881,
+                "Y": -38.52052,
+                "Z": 41.287888
+              },
+              {
+                "X": -1.9841547,
+                "Y": 55.63193,
+                "Z": 31.023928
+              },
+              {
+                "X": -87.12953,
+                "Y": 2.1862996,
+                "Z": 3.8027961
+              },
+              {
+                "X": 144.76082,
+                "Y": -27.766186,
+                "Z": -24.763123
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": 13.889525,
+                "Y": -8.712179,
+                "Z": 7.5635047
+              },
+              {
+                "X": 5.743628,
+                "Y": 30.13605,
+                "Z": 26.519344
+              },
+              {
+                "X": 47.488846,
+                "Y": 4.156697,
+                "Z": 16.426636
+              },
+              {
+                "X": 42.98284,
+                "Y": 31.72911,
+                "Z": 31.691124
+              }
+            ]
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "Points": [
+              {
+                "X": -49.886887,
+                "Y": -24.636568,
+                "Z": 22.926523
+              },
+              {
+                "X": -30.348724,
+                "Y": 21.565277,
+                "Z": 12.236354
+              },
+              {
+                "X": -30.18428,
+                "Y": -11.291955,
+                "Z": 12.147711
+              },
+              {
+                "X": -49.893566,
+                "Y": 24.274014,
+                "Z": 22.930899
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.804799,
+                "Y": -21.51603,
+                "Z": -69.283775
+              },
+              {
+                "X": 19.466867,
+                "Y": -1.5609647,
+                "Z": -54.730183
+              },
+              {
+                "X": -8.595063,
+                "Y": -1.5610007,
+                "Z": -0.93166
+              },
+              {
+                "X": -15.409804,
+                "Y": 15.088178,
+                "Z": -69.57846
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "Points": [
+              {
+                "X": 12.056364,
+                "Y": 17.3096,
+                "Z": 27.294132
+              },
+              {
+                "X": 28.258537,
+                "Y": -11.363816,
+                "Z": 25.137049
+              },
+              {
+                "X": -29.447557,
+                "Y": 14.370544,
+                "Z": 32.819782
+              },
+              {
+                "X": -16.637917,
+                "Y": -26.328033,
+                "Z": 31.246325
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "Points": [
+              {
+                "X": -10.280482,
+                "Y": -23.700365,
+                "Z": 10.13777
+              },
+              {
+                "X": -8.160652,
+                "Y": -9.130435,
+                "Z": 10.1377735
+              },
+              {
+                "X": 7.689529,
+                "Y": -5.704354,
+                "Z": 10.137775
+              },
+              {
+                "X": 17.169346,
+                "Y": -26.873617,
+                "Z": 10.142942
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": -61.268665,
+                "Y": -81.466255,
+                "Z": 11.492718
+              },
+              {
+                "X": 21.872887,
+                "Y": -96.36836,
+                "Z": -2.7376041
+              },
+              {
+                "X": -30.615185,
+                "Y": -66.56212,
+                "Z": -2.7375636
+              },
+              {
+                "X": 21.872877,
+                "Y": -66.56212,
+                "Z": -2.7375715
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": -17.073563,
+                "Y": 7.1342783,
+                "Z": 10.157458
+              },
+              {
+                "X": 7.689527,
+                "Y": 5.704417,
+                "Z": 10.1377945
+              },
+              {
+                "X": -2.772163,
+                "Y": 27.043348,
+                "Z": 10.137801
+              },
+              {
+                "X": 13.063408,
+                "Y": 24.731535,
+                "Z": 10.137794
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": -61.268707,
+                "Y": 81.46628,
+                "Z": 11.492762
+              },
+              {
+                "X": 21.87289,
+                "Y": 66.56251,
+                "Z": -2.7374992
+              },
+              {
+                "X": -30.615194,
+                "Y": 96.36875,
+                "Z": -2.737502
+              },
+              {
+                "X": 21.872879,
+                "Y": 96.36875,
+                "Z": -2.7374978
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 30.82017,
+                "Y": -5.057007,
+                "Z": -16.777271
+              },
+              {
+                "X": 30.143938,
+                "Y": 4.7027454,
+                "Z": 43.109245
+              },
+              {
+                "X": 31.33949,
+                "Y": -14.676995,
+                "Z": 33.710438
+              },
+              {
+                "X": 29.943308,
+                "Y": 7.6739087,
+                "Z": 3.4596376
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": 37.44983,
+                "Y": 3.222541,
+                "Z": -22.562647
+              },
+              {
+                "X": 36.054756,
+                "Y": 7.3706822,
+                "Z": 44.73844
+              },
+              {
+                "X": 45.654972,
+                "Y": 3.8183427,
+                "Z": 5.711902
+              },
+              {
+                "X": 22.85965,
+                "Y": 6.0702066,
+                "Z": 18.568401
+              }
+            ]
+          }
+        },
+        {
+          "Key": "19",
+          "Value": {
+            "Points": [
+              {
+                "X": 16.250492,
+                "Y": -12.215225,
+                "Z": 45.98602
+              },
+              {
+                "X": 15.871062,
+                "Y": -3.7413743,
+                "Z": -17.815496
+              },
+              {
+                "X": 24.8087,
+                "Y": 6.2011676,
+                "Z": 44.975395
+              },
+              {
+                "X": 16.269424,
+                "Y": -8.481167,
+                "Z": 20.458956
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": 14.263288,
+                "Y": -16.284101,
+                "Z": 46.461254
+              },
+              {
+                "X": 7.522334,
+                "Y": -28.806,
+                "Z": 39.366997
+              },
+              {
+                "X": 7.8559747,
+                "Y": -18.147346,
+                "Z": -29.741344
+              },
+              {
+                "X": 10.011346,
+                "Y": -19.84542,
+                "Z": 11.952814
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": 12.931045,
+                "Y": -37.031116,
+                "Z": 39.47778
+              },
+              {
+                "X": 14.687068,
+                "Y": -37.198147,
+                "Z": -12.597358
+              },
+              {
+                "X": 13.415056,
+                "Y": -33.49628,
+                "Z": -33.587013
+              },
+              {
+                "X": 22.913136,
+                "Y": -47.837746,
+                "Z": 10.338909
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Points": [
+              {
+                "X": 29.579681,
+                "Y": 12.256396,
+                "Z": -12.476146
+              },
+              {
+                "X": 34.312656,
+                "Y": 17.570969,
+                "Z": 20.599314
+              },
+              {
+                "X": 47.419445,
+                "Y": 32.737762,
+                "Z": -1.2536043
+              },
+              {
+                "X": 40.375183,
+                "Y": 24.585371,
+                "Z": 45.205723
+              }
+            ]
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "Points": [
+              {
+                "X": 56.417805,
+                "Y": -14.896081,
+                "Z": 31.923275
+              },
+              {
+                "X": 51.08672,
+                "Y": 5.5701923,
+                "Z": 41.343708
+              },
+              {
+                "X": 46.581192,
+                "Y": 2.022673,
+                "Z": -14.327587
+              },
+              {
+                "X": 52.657738,
+                "Y": -5.339375,
+                "Z": 13.330462
+              }
+            ]
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "Points": [
+              {
+                "X": 36.112717,
+                "Y": 7.374002,
+                "Z": 44.84916
+              },
+              {
+                "X": 29.724037,
+                "Y": 6.8250313,
+                "Z": 14.465872
+              },
+              {
+                "X": 52.631218,
+                "Y": 2.2409153,
+                "Z": 5.174065
+              },
+              {
+                "X": 28.02706,
+                "Y": 5.0587344,
+                "Z": -25.445698
+              }
+            ]
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "Points": [
+              {
+                "X": 20.2806,
+                "Y": 6.1237493,
+                "Z": -23.700218
+              },
+              {
+                "X": 21.012043,
+                "Y": -1.4980385,
+                "Z": 38.147728
+              },
+              {
+                "X": 8.309452,
+                "Y": -17.441242,
+                "Z": -28.315235
+              },
+              {
+                "X": 7.3330703,
+                "Y": -28.635637,
+                "Z": 35.47045
+              }
+            ]
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "Points": [
+              {
+                "X": 9.278696,
+                "Y": -30.198612,
+                "Z": -27.743254
+              },
+              {
+                "X": 23.070768,
+                "Y": -48.396614,
+                "Z": 20.384737
+              },
+              {
+                "X": 14.363984,
+                "Y": -37.02117,
+                "Z": -6.917648
+              },
+              {
+                "X": 14.868703,
+                "Y": -39.519844,
+                "Z": 44.412296
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": 31.500467,
+                "Y": -15.057768,
+                "Z": -10.053395
+              },
+              {
+                "X": 30.09981,
+                "Y": 5.3432484,
+                "Z": 42.336826
+              },
+              {
+                "X": 29.456413,
+                "Y": 11.970072,
+                "Z": -5.459927
+              },
+              {
+                "X": 31.507763,
+                "Y": -15.13118,
+                "Z": 24.330568
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": 27.270172,
+                "Y": -4.5214124,
+                "Z": -33.712055
+              },
+              {
+                "X": 31.791183,
+                "Y": -5.5726314,
+                "Z": -3.5447693
+              },
+              {
+                "X": 49.665,
+                "Y": -3.7122142,
+                "Z": 16.273632
+              },
+              {
+                "X": 35.556026,
+                "Y": -7.324198,
+                "Z": 42.148293
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Points": [
+              {
+                "X": 24.80859,
+                "Y": -6.2014055,
+                "Z": 44.975582
+              },
+              {
+                "X": 15.870832,
+                "Y": 3.7413309,
+                "Z": -17.815348
+              },
+              {
+                "X": 16.26924,
+                "Y": 8.481061,
+                "Z": 20.45917
+              },
+              {
+                "X": 16.250406,
+                "Y": 12.214939,
+                "Z": 45.986233
+              }
+            ]
+          }
+        },
+        {
+          "Key": "30",
+          "Value": {
+            "Points": [
+              {
+                "X": 7.855783,
+                "Y": 18.147291,
+                "Z": -29.741165
+              },
+              {
+                "X": 10.011112,
+                "Y": 19.845377,
+                "Z": 11.95305
+              },
+              {
+                "X": 8.925083,
+                "Y": 18.561104,
+                "Z": -12.018339
+              },
+              {
+                "X": 10.489948,
+                "Y": 23.939783,
+                "Z": 46.88937
+              }
+            ]
+          }
+        },
+        {
+          "Key": "31",
+          "Value": {
+            "Points": [
+              {
+                "X": 13.414914,
+                "Y": 33.49647,
+                "Z": -33.58683
+              },
+              {
+                "X": 20.198029,
+                "Y": 44.32908,
+                "Z": 2.8136132
+              },
+              {
+                "X": 13.141733,
+                "Y": 37.345383,
+                "Z": 40.97939
+              },
+              {
+                "X": 7.3647118,
+                "Y": 28.41797,
+                "Z": -2.8493662
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Points": [
+              {
+                "X": 42.399124,
+                "Y": -24.343586,
+                "Z": -12.256489
+              },
+              {
+                "X": 37.794785,
+                "Y": -20.349842,
+                "Z": 52.425655
+              },
+              {
+                "X": 38.576717,
+                "Y": -20.991352,
+                "Z": 23.72666
+              },
+              {
+                "X": 29.64086,
+                "Y": 12.047884,
+                "Z": 23.00481
+              }
+            ]
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "Points": [
+              {
+                "X": -43.467537,
+                "Y": -1.7786926,
+                "Z": 25.02916
+              },
+              {
+                "X": -43.710903,
+                "Y": -5.579551,
+                "Z": -34.081654
+              },
+              {
+                "X": -37.405094,
+                "Y": -4.9554768,
+                "Z": -2.034028
+              },
+              {
+                "X": -26.93245,
+                "Y": -5.1369762,
+                "Z": 27.36629
+              }
+            ]
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "Points": [
+              {
+                "X": -41.119606,
+                "Y": -4.136696,
+                "Z": 2.3153965
+              },
+              {
+                "X": -48.905838,
+                "Y": -5.2992063,
+                "Z": -44.940544
+              },
+              {
+                "X": -31.12363,
+                "Y": -6.941718,
+                "Z": -21.11825
+              },
+              {
+                "X": -29.774326,
+                "Y": -4.935837,
+                "Z": 22.355917
+              }
+            ]
+          }
+        },
+        {
+          "Key": "35",
+          "Value": {
+            "Points": [
+              {
+                "X": -20.116251,
+                "Y": 4.254558,
+                "Z": -44.73951
+              },
+              {
+                "X": -7.152664,
+                "Y": 27.73374,
+                "Z": -26.701544
+              },
+              {
+                "X": -22.72612,
+                "Y": -6.31751,
+                "Z": -8.739913
+              },
+              {
+                "X": -8.348001,
+                "Y": 17.910656,
+                "Z": 24.534693
+              }
+            ]
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "Points": [
+              {
+                "X": -13.600298,
+                "Y": 38.057972,
+                "Z": -45.6996
+              },
+              {
+                "X": -22.068533,
+                "Y": 46.746925,
+                "Z": -8.006853
+              },
+              {
+                "X": -9.10799,
+                "Y": 31.195568,
+                "Z": -4.645145
+              },
+              {
+                "X": -10.541716,
+                "Y": 31.0074,
+                "Z": 31.189571
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HeavyDrone_Missile_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Art/SK_HeavyDrone_Missile_01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_HeavyDrone_Missile_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Art/SK_HeavyDrone_Missile_01.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "Minion",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "LinearDamping": 1.0,
+        "AngularDamping": 8.0,
+        "bSimulatePhysics": true
+      }
+    }
+  },
+  {
+    "Type": "SpottableStyleDriver",
+    "Name": "SpottableStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpottableStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.14"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 38,
+        "PartDisplayName": "LaserOriginPart"
+      },
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Arm.02"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "AutoDescription": " ANY( Part.Decorator.ID.Arm.02 )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+          }
+        },
+        "PartList": [
+          {
+            "Key": "12",
+            "Value": "HeavyDrone_01_Missile_Weapon_Body_01"
+          }
+        ]
+      },
+      "ActivateState": [],
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_Forward'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0.LaserFlareTargeting_Forward_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.15"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Flare_TargetingLaser_Heavy'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_Flare_TargetingLaser_Heavy.0"
+      },
+      "AbilityTagsFilter": [
+        "Ability.Ram"
+      ]
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.14"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 38,
+        "PartDisplayName": "LaserOriginPart"
+      },
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Arm.02"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "AutoDescription": " ANY( Part.Decorator.ID.Arm.02 )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+          }
+        },
+        "PartList": [
+          {
+            "Key": "12",
+            "Value": "HeavyDrone_01_Missile_Weapon_Body_01"
+          }
+        ]
+      },
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_Forward'CS_HeavyDrone_Missile_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_1.LaserFlareTargeting_Forward_1'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.16"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Flare_TargetingLaser_Heavy'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_Flare_TargetingLaser_Heavy.0"
+      },
+      "AbilityTagsFilter": [
+        "Ability.FireWeapon.Projectile.Cannon"
+      ]
+    }
+  },
+  {
+    "Type": "ThrusterStyleDriver",
+    "Name": "ThrusterStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ThrusterStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Thruster )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": [
+              {
+                "Key": "32",
+                "Value": "Thruster_R_02"
+              },
+              {
+                "Key": "27",
+                "Value": "Thruster_R_01"
+              },
+              {
+                "Key": "22",
+                "Value": "Thruster_L_02"
+              },
+              {
+                "Key": "17",
+                "Value": "Thruster_L_01"
+              }
+            ]
+          },
+          "ThrusterSocketGroup": "None",
+          "bAttachThrusterFXToChildren": false,
+          "FXThrusterChildren": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": null,
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Drone_Exhaust_Heavy_Array'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Exhaust/DA_Drone_Exhaust_Heavy_Array.0"
+          },
+          "bVectorized": true,
+          "ForceInterpolationAlpha": 0.3,
+          "MinimumThrusterForceNormalized": 0.0,
+          "bUsePeriodicThrusters": false,
+          "bScalePeriodWithMovement": false,
+          "PeriodBias": 3.0,
+          "PeriodMultiplier": 5.0
+        }
+      ],
+      "MovementDefinition": [
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": [
+              {
+                "Key": "32",
+                "Value": "Thruster_R_02"
+              },
+              {
+                "Key": "27",
+                "Value": "Thruster_R_01"
+              },
+              {
+                "Key": "22",
+                "Value": "Thruster_L_02"
+              },
+              {
+                "Key": "17",
+                "Value": "Thruster_L_01"
+              }
+            ]
+          },
+          "RotationRange": {
+            "Minimum": {
+              "Pitch": -20.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Maximum": {
+              "Pitch": 40.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            }
+          },
+          "AngularDeltaSizeFraction": 0.2,
+          "ThrusterMotionParameters": {
+            "ObjectName": "ThrusterMotionParameters'DA_ThrusterMotionParam_HeavyDrone'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/ThrusterStyleDrivers/DA_ThrusterMotionParam_HeavyDrone.0"
+          }
+        }
+      ],
+      "DownWashEffectData": {
+        "ObjectName": "DownWashEffectData'DA_DownwashData_Large'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Downwash/DA_DownwashData_Large.0"
+      },
+      "DownwashRadius": 200.0
+    }
+  }
+]

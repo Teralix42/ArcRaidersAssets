@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_SniperRifle_BoltAction_Medium_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/BP_Item_SniperRifle_BoltAction_Medium_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint_C'Default__BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint_C",
+    "Name": "Default__BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint.BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint",
+    "Template": {
+      "ObjectName": "BP_Item_SniperRifle_BoltAction_Medium_01_Ascended_C'Default__BP_Item_SniperRifle_BoltAction_Medium_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/BP_Item_SniperRifle_BoltAction_Medium_01_Ascended.1"
+    },
+    "Properties": {
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/DA_Item_SniperRifle_BoltAction_Medium_01_AntiWeakPoint.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SniperRifle_BoltAction_Medium_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Upgrades/DA_Upgrade_SniperRifle_BoltAction_Medium_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SniperRifle_BoltAction_Medium_01_AntiWeakPoint'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Upgrades/DA_Upgrade_SniperRifle_BoltAction_Medium_01_AntiWeakPoint.0"
+        }
+      ]
+    }
+  }
+]

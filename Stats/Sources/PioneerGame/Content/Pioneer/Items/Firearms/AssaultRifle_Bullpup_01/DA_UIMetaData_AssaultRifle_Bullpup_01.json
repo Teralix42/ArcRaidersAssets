@@ -1,0 +1,833 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_250",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_AssaultRifle_Bullpup_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_Bullpup_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_Persistence_AssaultRifle_Bullpup_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_ASSAULTRIFLE_BULLPUP_01",
+        "SourceString": "Tempest",
+        "LocalizedString": "Tempest"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_ASSAULTRIFLE_BULLPUP_01_SHORT",
+        "SourceString": "Has moderate fire rate and accuracy.",
+        "LocalizedString": "Has moderate fire rate and accuracy."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.AssaultRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Medium.T_UI_Ammo_Medium",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_T3.T_UI_Icon_AssaultRifle_Bullpup_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T3.T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.386465,
+          "Y": 142.2832,
+          "Z": 205.76085
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -16.113728,
+          "Y": 82.30876,
+          "Z": 119.462234
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37402457,
+          "Y": 0.23885441,
+          "Z": -0.89531624,
+          "W": -0.038249824,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 1.3260324,
+          "Y": 0.22066754,
+          "Z": -1.3094702
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_251",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_AssaultRifle_Bullpup_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/Qualities/DA_Persistence_AssaultRifle_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_ASSAULTRIFLE_BULLPUP_01",
+        "SourceString": "Tempest",
+        "LocalizedString": "Tempest"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_ASSAULTRIFLE_BULLPUP_01_SHORT",
+        "SourceString": "Has moderate fire rate and accuracy.",
+        "LocalizedString": "Has moderate fire rate and accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 1,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.AssaultRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Medium.T_UI_Ammo_Medium",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_T0.T_UI_Icon_AssaultRifle_Bullpup_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T0.T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.386465,
+          "Y": 142.2832,
+          "Z": 205.76085
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -16.113728,
+          "Y": 82.30876,
+          "Z": 119.462234
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37402457,
+          "Y": 0.23885441,
+          "Z": -0.89531624,
+          "W": -0.038249824,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 1.3260324,
+          "Y": 0.22066754,
+          "Z": -1.3094702
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_MODERATE",
+            "SourceString": "Moderate",
+            "LocalizedString": "Moderate"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_252",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_AssaultRifle_Bullpup_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_01_T1'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/Qualities/DA_Persistence_AssaultRifle_01_T1.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_ASSAULTRIFLE_BULLPUP_01",
+        "SourceString": "Tempest",
+        "LocalizedString": "Tempest"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_ASSAULTRIFLE_BULLPUP_01_SHORT",
+        "SourceString": "Has moderate fire rate and accuracy.",
+        "LocalizedString": "Has moderate fire rate and accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 2,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.AssaultRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Medium.T_UI_Ammo_Medium",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_T1.T_UI_Icon_AssaultRifle_Bullpup_01_T1",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T1.T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T1",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.386465,
+          "Y": 142.2832,
+          "Z": 205.76085
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -16.113728,
+          "Y": 82.30876,
+          "Z": 119.462234
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37402457,
+          "Y": 0.23885441,
+          "Z": -0.89531624,
+          "W": -0.038249824,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 1.3260324,
+          "Y": 0.22066754,
+          "Z": -1.3094702
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_MODERATE",
+            "SourceString": "Moderate",
+            "LocalizedString": "Moderate"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_POSITIVE",
+            "SourceString": "{0}% Reduced Horizontal Recoil",
+            "LocalizedString": "{0}% Reduced Horizontal Recoil"
+          },
+          "ModifierValue": 16.6,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 13.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_253",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_AssaultRifle_Bullpup_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_01_T2'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/Qualities/DA_Persistence_AssaultRifle_01_T2.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_ASSAULTRIFLE_BULLPUP_01",
+        "SourceString": "Tempest",
+        "LocalizedString": "Tempest"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_ASSAULTRIFLE_BULLPUP_01_SHORT",
+        "SourceString": "Has moderate fire rate and accuracy.",
+        "LocalizedString": "Has moderate fire rate and accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 3,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.AssaultRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Medium.T_UI_Ammo_Medium",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_T2.T_UI_Icon_AssaultRifle_Bullpup_01_T2",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T2.T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T2",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.386465,
+          "Y": 142.2832,
+          "Z": 205.76085
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -16.113728,
+          "Y": 82.30876,
+          "Z": 119.462234
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37402457,
+          "Y": 0.23885441,
+          "Z": -0.89531624,
+          "W": -0.038249824,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 1.3260324,
+          "Y": 0.22066754,
+          "Z": -1.3094702
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_MODERATE",
+            "SourceString": "Moderate",
+            "LocalizedString": "Moderate"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_POSITIVE",
+            "SourceString": "{0}% Reduced Horizontal Recoil",
+            "LocalizedString": "{0}% Reduced Horizontal Recoil"
+          },
+          "ModifierValue": 33.3,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 26.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_254",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_AssaultRifle_Bullpup_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_01_T3'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/Qualities/DA_Persistence_AssaultRifle_01_T3.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_ASSAULTRIFLE_BULLPUP_01",
+        "SourceString": "Tempest",
+        "LocalizedString": "Tempest"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_ASSAULTRIFLE_BULLPUP_01_SHORT",
+        "SourceString": "Has moderate fire rate and accuracy.",
+        "LocalizedString": "Has moderate fire rate and accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 4,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.AssaultRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Medium.T_UI_Ammo_Medium",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_T3.T_UI_Icon_AssaultRifle_Bullpup_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T3.T_UI_Icon_AssaultRifle_Bullpup_01_Big_A_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.386465,
+          "Y": 142.2832,
+          "Z": 205.76085
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -16.113728,
+          "Y": 82.30876,
+          "Z": 119.462234
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37402457,
+          "Y": 0.23885441,
+          "Z": -0.89531624,
+          "W": -0.038249824,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 1.3260324,
+          "Y": 0.22066754,
+          "Z": -1.3094702
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_MODERATE",
+            "SourceString": "Moderate",
+            "LocalizedString": "Moderate"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_POSITIVE",
+            "SourceString": "{0}% Reduced Horizontal Recoil",
+            "LocalizedString": "{0}% Reduced Horizontal Recoil"
+          },
+          "ModifierValue": 50.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 40.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_AssaultRifle_Bullpup_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_AssaultRifle_Bullpup_01:UIGameplayItemMetaDataItem_250'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_AssaultRifle_Bullpup_01:UIGameplayItemMetaDataItem_254'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.4"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_AssaultRifle_Bullpup_01:UIGameplayItemMetaDataItem_253'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.3"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_AssaultRifle_Bullpup_01:UIGameplayItemMetaDataItem_252'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.2"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_AssaultRifle_Bullpup_01:UIGameplayItemMetaDataItem_251'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_UIMetaData_AssaultRifle_Bullpup_01.1"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_BattleRifle_LeverAction_01_Ascended_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/BP_Item_BattleRifle_LeverAction_01_Ascended",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_BattleRifle_LeverAction_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/BP_Item_BattleRifle_LeverAction_01.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_BattleRifle_LeverAction_01_Ascended_C'Default__BP_Item_BattleRifle_LeverAction_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/BP_Item_BattleRifle_LeverAction_01_Ascended.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_BattleRifle_LeverAction_01_Ascended_C",
+    "Name": "Default__BP_Item_BattleRifle_LeverAction_01_Ascended_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/BP_Item_BattleRifle_LeverAction_01_Ascended.BP_Item_BattleRifle_LeverAction_01_Ascended_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/BP_Item_BattleRifle_LeverAction_01_Ascended",
+    "Template": {
+      "ObjectName": "BP_Item_BattleRifle_LeverAction_01_C'Default__BP_Item_BattleRifle_LeverAction_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/BP_Item_BattleRifle_LeverAction_01.1"
+    },
+    "Properties": {
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_BattleRifle_LeverAction_01_Ascended'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/DA_Item_BattleRifle_LeverAction_01_Ascended.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_BattleRifle_LeverAction_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_LeverAction_01_Ascended.0"
+        }
+      ]
+    }
+  }
+]

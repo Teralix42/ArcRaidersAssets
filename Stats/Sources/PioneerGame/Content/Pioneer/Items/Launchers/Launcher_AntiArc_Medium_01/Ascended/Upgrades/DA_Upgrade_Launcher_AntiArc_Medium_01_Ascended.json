@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Launcher_AntiArc_Medium_01_Ascended",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/DA_Upgrade_Launcher_AntiArc_Medium_01_Ascended",
+    "Properties": {
+      "Children": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Launcher_AntiArc_Medium_01_IncendiaryRounds'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/DA_Upgrade_Launcher_AntiArc_Medium_01_IncendiaryRounds.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Launcher_AntiArc_Medium_01_MagReload'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/DA_Upgrade_Launcher_AntiArc_Medium_01_MagReload.0"
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Inventory.ST_Inventory",
+        "Key": "ID_INVENTORY_ITEM_TOOLTIP_AMPLIFIED_DURABILITY_TITLE",
+        "SourceString": "Amplified Durability",
+        "LocalizedString": "Amplified Durability"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Inventory.ST_Inventory",
+        "Key": "ID_INVENTORY_AMPLIFIED_DURABILITY_INFO",
+        "SourceString": "Amplified weapons have a higher maximum durability.",
+        "LocalizedString": "Amplified weapons have a higher maximum durability."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_Amplified.T_UI_Icon_Upgrade_Amplified",
+        "SubPathString": ""
+      },
+      "bIsAscensionNode": true
+    }
+  }
+]

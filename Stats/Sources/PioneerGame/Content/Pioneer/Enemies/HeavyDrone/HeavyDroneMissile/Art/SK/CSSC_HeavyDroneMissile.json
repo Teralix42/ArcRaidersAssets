@@ -1,0 +1,953 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_HeavyDroneMissile",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Art/SK/CSSC_HeavyDroneMissile",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle",
+          "Value": []
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.Group.Simulated",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.SpecialTarget"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint"
+          ]
+        },
+        {
+          "Key": "Eye_01",
+          "Value": [
+            "Part.Decorator.ID.Eye",
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Group.Critical"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_C_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_L_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_R_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_L_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_R_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_C_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_C_01",
+          "Value": [
+            "Part.Decorator.ID.Arm.01",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Body_01",
+          "Value": [
+            "Part.Decorator.ID.Arm.02",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Weapon.Missile"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_L_01_A",
+          "Value": [
+            "Part.Decorator.ID.Arm.01",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_L_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_R_01_A",
+          "Value": [
+            "Part.Decorator.ID.Arm.01",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_R_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_04",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_05",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_06",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_07",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_08",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_09",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_10",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_11",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_12",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_13",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_14",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_15",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_16",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_C_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_04",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_05",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_06",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_07",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_08",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_09",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_10",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_11",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_12",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_13",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_14",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_15",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterArmor_16",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_C_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_L_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_R_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Core_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Eye_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_C_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Body_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_L_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_R_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Core_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Eye_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_C_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_L_01_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_R_01_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_L_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_R_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_C_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_C_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Body_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_L_01_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_L_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_R_01_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_R_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ThrusterArmor_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_04",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ThrusterArmor_05",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_06",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_07",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_08",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ThrusterArmor_09",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_10",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_11",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_12",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ThrusterArmor_13",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_14",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_15",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterArmor_16",
+          "Value": "EPartResistanceGroup::Armor"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle",
+          "Value": []
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.Group.Simulated",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.SpecialTarget"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Eye_01",
+          "Value": [
+            "Part.Decorator.ID.Eye",
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_C_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_L_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Hatch_R_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_L_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Armor_R_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Flap_C_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_C_01",
+          "Value": [
+            "Part.Decorator.ID.Arm.01",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Body_01",
+          "Value": [
+            "Part.Decorator.ID.Arm.02",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Weapon.Missile",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_L_01_A",
+          "Value": [
+            "Part.Decorator.ID.Arm.01",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_L_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Arm_R_01_A",
+          "Value": [
+            "Part.Decorator.ID.Arm.01",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HeavyDrone_01_Missile_Weapon_Launcher_R_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_04",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_05",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_06",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_07",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_08",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_09",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_10",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_11",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_12",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.SpecialTarget",
+            "Part.Decorator.Group.Movement.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_13",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_14",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_15",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterArmor_16",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        }
+      ]
+    }
+  }
+]

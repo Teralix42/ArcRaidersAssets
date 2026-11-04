@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_BattleRifle_BreachAction_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Item_BattleRifle_BreachAction_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_BattleRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Item_BattleRifle_Base.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_BattleRifle_BreachAction_01_C'Default__BP_Item_BattleRifle_BreachAction_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Item_BattleRifle_BreachAction_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_BattleRifle_BreachAction_01_C",
+    "Name": "Default__BP_Item_BattleRifle_BreachAction_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Item_BattleRifle_BreachAction_01.BP_Item_BattleRifle_BreachAction_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Item_BattleRifle_BreachAction_01",
+    "Template": {
+      "ObjectName": "BP_Item_BattleRifle_Base_C'Default__BP_Item_BattleRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Item_BattleRifle_Base.1"
+    },
+    "Properties": {
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_HeavyAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/HeavyAmmo/DA_Item_HeavyAmmo.0"
+      },
+      "GamepadTriggerDepth": 0.6,
+      "BasePhysicalDamage": 40.0,
+      "BaseFirePower": 50000.0,
+      "BaseClipSize": 1.0,
+      "BaseReloadTime": 2.5,
+      "ReloadGraceTime": 0.2,
+      "AutoReloadDelay": 0.0,
+      "BaseFireRate": 50.0,
+      "BaseBurnRate": 0.006611,
+      "AiArmorDamageMultiplier": 1.5,
+      "AiArmorPropagationMultiplier": 1.0,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_BattleRifle_BreachAction_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Projectile_BattleRifle_BreachAction_01.0"
+      },
+      "bLoopingReloads": false,
+      "bPartialReload": true,
+      "PartialReloadDuration": 1.75,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 0.4,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": -0.2,
+          "PartialTime": 1.0,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 1.65,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_BattleRifle_BreachAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_RecoilProfile_BattleRifle_BreachAction_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_BattleRifle_BreachAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_DispersionState_BattleRifle_BreachAction_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_BattleRifle_BreachAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/Curve_DamageFalloff_BattleRifle_BreachAction_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 1.0,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'BattleRifleBreachCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'BattleRifleBreachCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'BattleRifleBreachCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_BattleRifle_BreachAction_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_WeaponQualitySet_BattleRifle_BreachAction_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 40.0,
+        "FireRate": 6.6,
+        "Range": 53.09,
+        "Stability": 78.1,
+        "Agility": 31.5,
+        "Stealth": 8.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Stock_Default_01'",
+            "ObjectPath": "/Game/Pioneer/Items/WeaponMod/Stock_Default_01/DA_Visual_WeaponMod_Stock_Default_01.0"
+          },
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_BattleRifle_BreachAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_Item_BattleRifle_BreachAction_01.0"
+      },
+      "BaseCameraZoomTime": 1.0
+    }
+  }
+]

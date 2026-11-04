@@ -1,0 +1,3957 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ArticulatedTargetingService",
+    "Name": "ArticulatedTargetingService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArticulatedTargetingService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "ArticulatedTargetingDefinitions": [
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 251,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Head"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": -1.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [
+                "AI.PowerState.Drained"
+              ],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            }
+          ]
+        },
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Shotgun )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Shotgun )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": -1.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [
+                "AI.PowerState.Drained"
+              ],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            }
+          ]
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Tarragon_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Tarragon_01_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.19"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PartSeparationBreakService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PartSeparationBreakService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StuckDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StuckDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProximityDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProximityDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MortarProjectileService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MortarProjectileService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLGasComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLGasComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableCollisionGameplayEffectApplicatorComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableCollisionGameplayEffectApplicatorComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeadStabilizationComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'HeadStabilizationComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArticulatedTargetingService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ArticulatedTargetingService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructablePhysicsMaterialService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructablePhysicsMaterialService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLTickableMultiPolicyComponentAS_Locomotion",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLTickableMultiPolicyComponentAS'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLLocomotionMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLLocomotionMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLIntentionComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLIntentionComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "C_Tarragon_01_C",
+    "Name": "Default__C_Tarragon_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.C_Tarragon_01_C'",
+    "Package": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01",
+    "Template": {
+      "ObjectName": "BP_ConstructableBase_C'Default__BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Tarragon_01_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.18"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Tarragon_01_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.13"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Tarragon_01_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.8"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Tarragon_01_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.31"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Tarragon_01_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.14"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Tarragon_01_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.17"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Tarragon_01_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.10"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Tarragon_01_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.15"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Tarragon_01_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.30"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Tarragon_01_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.32"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Tarragon_01_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.12"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Tarragon_01_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.33"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Tarragon_01_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.52"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Tarragon_01_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.35"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Tarragon_01_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Tarragon_01_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.9"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Tarragon_01_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.5"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_Tarragon_01_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_Tarragon_01_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Tarragon_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyType_Tarragon_01.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Ground",
+        "Quest.Groups.Enemies.Armored"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Tarragon_01_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.20"
+      },
+      "SpawnBudgetCost": 36,
+      "ThreatLevel": 50,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_M_HighSteps'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 300.0,
+        "AgentHeight": 450.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Tarragon_01_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.53"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Tarragon_01_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.4"
+      },
+      "NetCullDistanceSquared": 3.6E+09,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Tarragon_01_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.12"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__BP_ConstructableBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Weakpoint'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Weakpoint.0"
+        },
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Leg'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Leg.0"
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_IdleToAlert",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_IdleToAlert",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Idle",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Alert"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_AlertToIdle",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Idle",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::InCombat"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_AlertToIdle",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::CapabilityStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Ability.FireWeapon.Projectile.Grenade"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Ability.FireWeapon.Projectile.Grenade )"
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": false,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": true,
+          "AnimationComponentTag": "Anim_RaiseCannon",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::CapabilityStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Ability.FireWeapon.Projectile.Grenade"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Ability.FireWeapon.Projectile.Grenade )"
+          },
+          "ActiveCapabilityState": "ECapabilityState::CoolingDown",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": false,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": true,
+          "AnimationComponentTag": "Anim_LowerCannon",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::CapabilityStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Ability.FireWeapon.Projectile.Bullet.Light"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Ability.FireWeapon.Projectile.Bullet.Light )"
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": true,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": true,
+          "AnimationComponentTag": "Anim_HeadOpen",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionGameplayEffectApplicatorComponent",
+    "Name": "ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionGameplayEffectApplicatorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "Mappings": [
+        {
+          "DisplayName": "Legs & Body",
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg,\n Part.Decorator.ID.Frame )"
+          },
+          "Effects": [
+            {
+              "ObjectName": "BlueprintGeneratedClass'GE_Tarragon_CollisionAttack_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GE_Tarragon_CollisionAttack.1"
+            }
+          ],
+          "DamagingPartTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          }
+        }
+      ],
+      "VelocityToDamageCurve": {
+        "EditorCurveData": {}
+      },
+      "MinKnockbackVelocity": 600.0,
+      "MinKnockbackMagnitude": "EForceMagnitude::Heavy",
+      "MaxKnockbackVelocity": 1000.0,
+      "MaxKnockbackMagnitude": "EForceMagnitude::VeryHeavy"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__BP_ConstructableBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.5"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__BP_ConstructableBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Tarragon_01_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.12"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__BP_ConstructableBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.7"
+    },
+    "Properties": {
+      "ReplicationConfigs": [
+        {
+          "InitialReplicatedPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg )"
+          },
+          "InitialReplicationType": "EConstructableReplicationType::Full"
+        },
+        {
+          "InitialReplicatedPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+          },
+          "InitialReplicationType": "EConstructableReplicationType::Full"
+        }
+      ],
+      "bHasManyParts": true
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePhysicsMaterialService",
+    "Name": "ConstructablePhysicsMaterialService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePhysicsMaterialService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__BP_ConstructableBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__BP_ConstructableBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Instant"
+            },
+            "OrientationInterpolationSpeed": 1.0,
+            "MaxRotationSpeedDegPerSec": 360.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 30000.0,
+            "bDirectlyUpdatePartOrientations": false,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": true,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        },
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Shotgun )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 1.0,
+            "MaxRotationSpeedDegPerSec": 360.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 30000.0,
+            "bDirectlyUpdatePartOrientations": false,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": true,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__BP_ConstructableBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_Tarragon_01_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_Tarragon_01_Perception.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__BP_ConstructableBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.11"
+    },
+    "Properties": {
+      "NumLootablePartsCategory": "EConstructableNumPartsCategory::Large",
+      "LootType": {
+        "TagName": "Loot.Enemy.Tarragon"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'Da_PartScavengeSetup_Tarragon'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/Da_PartScavengeSetup_Tarragon.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HeadStabilizationComponent",
+    "Name": "HeadStabilizationComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HeadStabilizationComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "HeadQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.HeadPivot"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.ID.HeadPivot )"
+      },
+      "DrainedSlumpAngle": -20.0,
+      "DrainEffectTagTriggers": [
+        "AI.PowerState.Drained"
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__BP_ConstructableBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.12"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__BP_ConstructableBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.13"
+    },
+    "Properties": {
+      "ChainDestructionEventDefinitions": [
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Front Left",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Weakpoint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Weakpoint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Rear Left",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Weakpoint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Weakpoint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Front Right",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Weakpoint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Weakpoint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Rear Right",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Weakpoint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Weakpoint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Rear )"
+          }
+        }
+      ],
+      "EmotionalStateOnDamageEventDefinitions": [
+        {
+          "TriggerEvent": {
+            "Comment": "Enrage",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Head"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": false,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [
+              "EConstructableHealthChangeReason::BrokeFromAttack",
+              "EConstructableHealthChangeReason::BrokeDueToParentGettingDestroyed",
+              "EConstructableHealthChangeReason::BrokeDueToInstantDestruction",
+              "EConstructableHealthChangeReason::BrokeDueToGroupGettingDestroyed"
+            ],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "NewEmotionalState": "EAIEmotionalState::Enraged"
+        }
+      ],
+      "StunsDefinition": {
+        "StunnableParts": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Thruster"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Leg"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Head"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Weapon.Grenade"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Frame"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Armor"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            5,
+            2,
+            1,
+            6,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            3,
+            1,
+            6
+          ],
+          "AutoDescription": " ALL(  ANY( Part.Decorator.ID.Thruster,\n Part.Decorator.ID.Leg,\n Part.Decorator.ID.Head,\n Part.Decorator.ID.Weapon.Grenade,\n Part.Decorator.ID.Weapon.Shotgun,\n Part.Decorator.ID.Frame ),\n  NONE( Part.Decorator.ID.Armor ) )"
+        },
+        "CustomStunPropagations": [
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Front Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Upper )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Front Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Lower )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Front Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Upper )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Front Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Lower )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Rear Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Upper )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Rear Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Lower )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Rear Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Upper )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Rear Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Lower )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Front Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Lower )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Front Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Upper )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Front Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Lower )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Front Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Upper )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Rear Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Lower )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Rear Left Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Upper )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Lower"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Lower Rear Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Lower )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Leg"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Upper"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                4,
+                0,
+                1,
+                2,
+                3
+              ],
+              "UserDescription": "Upper Rear Right Leg",
+              "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Upper )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Head"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Weapon.Grenade"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "Head, Shotgun, or Grenade Launcher",
+              "AutoDescription": " ANY( Part.Decorator.ID.Head,\n Part.Decorator.ID.Weapon.Shotgun,\n Part.Decorator.ID.Weapon.Grenade )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Weapon.Grenade"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Head"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "Head, Shotgun or Grenade Launcher",
+              "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Shotgun,\n Part.Decorator.ID.Weapon.Grenade,\n Part.Decorator.ID.Head )"
+            }
+          },
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Frame"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "Frame",
+              "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Head"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "Head",
+              "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+            }
+          }
+        ]
+      },
+      "NumPartsCategory": "EConstructableNumPartsCategory::Medium"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasComponent",
+    "Name": "MLGasComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "TagEffects": [
+        {
+          "Priority": -2,
+          "GameplayTag": {
+            "TagName": "Status.Stun.Medium"
+          },
+          "bRemoveOnTagRemoval": true,
+          "Duration": 10.0,
+          "Mods": [
+            {
+              "ObjectName": "MLGasEffectModConstraintScaleCurve'C_Tarragon_01_C:MLGasComponent_GEN_VARIABLE.MLGasEffectModConstraintScaleCurve_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.22"
+            }
+          ]
+        },
+        {
+          "Priority": -2,
+          "GameplayTag": {
+            "TagName": "AI.PowerState.Drained"
+          },
+          "bRemoveOnTagRemoval": true,
+          "Duration": 10.0,
+          "Mods": [
+            {
+              "ObjectName": "MLGasEffectModSinCurve'C_Tarragon_01_C:MLGasComponent_GEN_VARIABLE.MLGasEffectModSinCurve_1'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.23"
+            }
+          ]
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasEffectModConstraintScaleCurve",
+    "Name": "MLGasEffectModConstraintScaleCurve_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasEffectModConstraintScaleCurve'",
+    "Outer": {
+      "ObjectName": "MLGasComponent'C_Tarragon_01_C:MLGasComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.21"
+    },
+    "Properties": {
+      "StiffnessCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 5.816598,
+              "Value": 0.0,
+              "ArriveTangent": 0.02871697,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.028716778,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 7.0,
+              "Value": 0.4,
+              "ArriveTangent": 0.8170462,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.8170428,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "DampingCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Break",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Break",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 6.0,
+              "Value": 0.005,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "MaxForceCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 5.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0009886981,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0009886071,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 7.0,
+              "Value": 0.002,
+              "ArriveTangent": 0.0022767473,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.06338063,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasEffectModSinCurve",
+    "Name": "MLGasEffectModSinCurve_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasEffectModSinCurve'",
+    "Outer": {
+      "ObjectName": "MLGasComponent'C_Tarragon_01_C:MLGasComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.21"
+    },
+    "Properties": {
+      "Wave2Amp": 0.5,
+      "Wave1Freq": 30.0,
+      "Wave2Freq": 7.6,
+      "DeadTime": 1.8,
+      "Period": 3.5,
+      "ActionAxisScale": {
+        "X": 0.7,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "ActionAxisOffset": {
+        "X": -0.2,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Constraint": {
+        "Stiffness": 0.2,
+        "MaxForce": 0.001
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLIntentionComponent",
+    "Name": "MLIntentionComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLIntentionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLLocomotionMovementComponent",
+    "Name": "MLLocomotionMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLLocomotionMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "MaximumSpeed": 1700.0,
+      "MaximumNavigationDistanceInBodyLengths": 20.0,
+      "SpeedMatrix": [
+        {
+          "Key": "EAIMovementSpeed::VerySlow",
+          "Value": 350.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Slow",
+          "Value": 350.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Normal",
+          "Value": 350.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Fast",
+          "Value": 1700.0
+        },
+        {
+          "Key": "EAIMovementSpeed::VeryFast",
+          "Value": 1700.0
+        }
+      ],
+      "SpeedToNavDataOverride": [
+        {
+          "Key": "EAIMovementSpeed::VerySlow",
+          "Value": {
+            "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_M",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EAIMovementSpeed::Slow",
+          "Value": {
+            "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_M",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EAIMovementSpeed::Normal",
+          "Value": {
+            "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_M",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bEnableFlipOverHelp": true,
+      "FlipOverHelpDestroyedPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Leg"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+      },
+      "PartDestroyedCountToFlipOverTorqueMagnitudeScale": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Constant",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Constant",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 1.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "TimeUntilFlipOverHelpAllowed": 2.5,
+      "FlipOverTorqueMagnitudeDegrees": 3700.0,
+      "FlipOverTorqueApplyPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Frame"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+      },
+      "NavAgentProps": {
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_M_HighSteps",
+          "SubPathString": ""
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLLocomotionPolicySelectorConfig",
+    "Name": "MLLocomotionPolicySelectorConfig_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLLocomotionPolicySelectorConfig'",
+    "Outer": {
+      "ObjectName": "MLTickableMultiPolicyComponentAS'C_Tarragon_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.27"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLTickableMultiPolicyComponentAS",
+    "Name": "MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLTickableMultiPolicyComponentAS'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "PolicyDefinitions": [
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_PatrolWalk_09.INF_Tarragon_01_PatrolWalk_09",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Patrol"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_Gallop_08.INF_Tarragon_01_Gallop_08",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Sprint"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_RotateStop_06.INF_Tarragon_01_RotateStop_06",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.RotateStop"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_Dismem_PatrolWalk_06.INF_Tarragon_01_Dismem_PatrolWalk_06",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Patrol"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_Dismem_Gallop_05.INF_Tarragon_01_Dismem_Gallop_05",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Sprint"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/Inference/INF_Tarragon_01_Dismem_RotateStop_05.INF_Tarragon_01_Dismem_RotateStop_05",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.RotateStop"
+          }
+        }
+      ],
+      "PolicySelectorConfig": {
+        "ObjectName": "MLLocomotionPolicySelectorConfig'C_Tarragon_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE.MLLocomotionPolicySelectorConfig_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.26"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MortarProjectileService",
+    "Name": "MortarProjectileService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MortarProjectileService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PartSeparationBreakService",
+    "Name": "PartSeparationBreakService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PartSeparationBreakService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__BP_ConstructableBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.16"
+    },
+    "Properties": {
+      "SightRangeStrengthScale": 0.9
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__BP_ConstructableBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.17"
+    },
+    "Properties": {
+      "CapabilityUtilityAsset": {
+        "ObjectName": "BTCapabilityUtilityCalculationData'DA_Tarragon_CapabilityUtility'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Behavior/DA_Tarragon_CapabilityUtility.12"
+      },
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Ram"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Tarragon_StampedeRam_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Stampede/GA_Tarragon_StampedeRam.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_TarragonStampede_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Stampede/CSM_TarragonStampede.8"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Ram",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [
+            "Capability.Blocking.Stampede"
+          ],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Secondary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Shotgun )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Tarragon_Shotgun_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Shotgun/GA_Tarragon_Shotgun.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Tarragon_Shotgun_NoAiming_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Shotgun/CSM_Tarragon_Shotgun_NoAiming.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Shotgun",
+          "UtilityField": "Shotgun",
+          "TargetFilterAsset": {
+            "ObjectName": "AITargetFilterAsset'DA_Tarragon_Shotgun_TargetFilter'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Shotgun/DA_Tarragon_Shotgun_TargetFilter.0"
+          },
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": false,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [
+              null
+            ],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [
+            "Capability.Blocking.Stampede"
+          ],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Grenade"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Grenade )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Tarragon_GrenadeLauncherMortar_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GrenadeLauncher/GA_Tarragon_GrenadeLauncherMortar.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Tarragon_GrenadeLauncher_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GrenadeLauncher/CSM_Tarragon_GrenadeLauncher.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "GrenadeLauncher",
+          "UtilityField": "GrenadeLauncher",
+          "TargetFilterAsset": {
+            "ObjectName": "AITargetFilterAsset'DA_Tarragon_GrenadeLauncher_TargetFilter'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GrenadeLauncher/DA_Tarragon_GrenadeLauncher_TargetFilter.0"
+          },
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [
+            "Capability.Blocking.Stampede"
+          ],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary.MainTarget"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Grenade"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Grenade )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Tarragon_GrenadeLauncherMortar_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GrenadeLauncher/GA_Tarragon_GrenadeLauncherMortar.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Tarragon_GrenadeLauncher_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GrenadeLauncher/CSM_Tarragon_GrenadeLauncher.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "GrenadeLauncherMainTarget",
+          "UtilityField": "GrenadeLauncherMainTarget",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastSeenProximityLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [
+            "Capability.Blocking.Stampede"
+          ],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Steam.Under"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Tarragon_FirePatches_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/FirePatches/GA_Tarragon_FirePatches.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Tarragon_FirePatches_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/FirePatches/CSM_Tarragon_FirePatches.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "FirePatches",
+          "UtilityField": "FirePatches",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": false
+        },
+        {
+          "Groups": [
+            "Part.Capability.Heat"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Tarragon_ProximityBurn_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/ProximityBurn/GA_Tarragon_ProximityBurn.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Tarragon_ProximityBurn_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/ProximityBurn/CSM_Tarragon_ProximityBurn.8"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "ProximityBurn",
+          "UtilityField": "ProximityBurn",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": false
+        },
+        {
+          "Groups": [
+            "Part.Capability.Explode"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Tarragon_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/SelfDestruct/GA_Tarragon_SelfDestruct.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Tarragon_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/SelfDestruct/CSM_Tarragon_SelfDestruct.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "SelfDestruct",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": false
+        },
+        {
+          "Groups": [
+            "Part.Capability.ShakeOff"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_TarragonThrowoff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/ThrowOff/GA_TarragonThrowoff.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Tarragon_ThrowOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/ThrowOff/CSM_Tarragon_ThrowOff.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "ThrowOff",
+          "UtilityField": "ThrowOff",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ],
+      "CapabilityGroupDefinitions": [
+        {
+          "Group": {
+            "TagName": "Part.Capability.Weapon.Primary.MainTarget"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 0.5,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 4
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.Weapon.Secondary"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 0.5,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 4
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.Weapon.Primary"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 0.5,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 4
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.Steam.Under"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 0.5,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 7
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.Heat"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 0.5,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 7
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.ShakeOff"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 1.0,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 7
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__BP_ConstructableBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Tarragon'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Tarragon.0"
+      },
+      "bAlwaysAttachToRoot": false,
+      "VerticalOffset": 1.217711720397519E-302
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ProximityDetectionService",
+    "Name": "ProximityDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProximityDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "DQMCenterOffset": {
+        "X": -40.0,
+        "Y": 0.0,
+        "Z": 30.0
+      },
+      "DistanceToCheck": 330.0,
+      "bRegisterProximityEvents": false
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Tarragon_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.36"
+      },
+      "VariableGUID": "FE007E63-4C263EFD-AD29D9AA-452205F8",
+      "InternalVariableName": "DefaultSceneRoot"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLIntentionComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLIntentionComponent'C_Tarragon_01_C:MLIntentionComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.24"
+      },
+      "VariableGUID": "C1CB86CE-41D0FA2F-E94BB8A8-EC9D6EC0",
+      "InternalVariableName": "MLIntentionComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MortarProjectileService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MortarProjectileService'C_Tarragon_01_C:MortarProjectileService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.28"
+      },
+      "VariableGUID": "7F5AF6D6-4E0B7E58-A4A3EAA9-4CD10233",
+      "InternalVariableName": "MortarProjectileService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProximityDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProximityDetectionService'C_Tarragon_01_C:ProximityDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.34"
+      },
+      "VariableGUID": "F0CED1C8-4EE33813-62367799-65E56B1D",
+      "InternalVariableName": "ProximityDetectionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StuckDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StuckDetectionService'C_Tarragon_01_C:StuckDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.54"
+      },
+      "VariableGUID": "85D16547-4A40520D-D6B486A6-B89F388F",
+      "InternalVariableName": "StuckDetectionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PartSeparationBreakService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PartSeparationBreakService'C_Tarragon_01_C:PartSeparationBreakService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.29"
+      },
+      "VariableGUID": "A9621E7F-4DDC728B-D4FC28B3-471E320B",
+      "InternalVariableName": "PartSeparationBreakService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLLocomotionMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLLocomotionMovementComponent'C_Tarragon_01_C:MLLocomotionMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.25"
+      },
+      "VariableGUID": "389FE568-428956F7-34BCD485-D6F379B7",
+      "InternalVariableName": "MLLocomotionMovementComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLTickableMultiPolicyComponentAS'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLTickableMultiPolicyComponentAS'C_Tarragon_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.27"
+      },
+      "VariableGUID": "801B33DE-4A689F62-C4386294-648CC4C4",
+      "InternalVariableName": "MLTickableMultiPolicyComponentAS_Locomotion"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructablePhysicsMaterialService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructablePhysicsMaterialService'C_Tarragon_01_C:ConstructablePhysicsMaterialService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.11"
+      },
+      "VariableGUID": "AC1BCB6C-48C4DC66-D49EFA81-9E5E6B55",
+      "InternalVariableName": "ConstructablePhysicsMaterialService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ArticulatedTargetingService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ArticulatedTargetingService'C_Tarragon_01_C:ArticulatedTargetingService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.1"
+      },
+      "VariableGUID": "E687171C-4A5B7AAD-028DC48A-B09C4BFE",
+      "InternalVariableName": "ArticulatedTargetingService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'HeadStabilizationComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "HeadStabilizationComponent'C_Tarragon_01_C:HeadStabilizationComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.16"
+      },
+      "VariableGUID": "EB45EB2B-442D765C-00C76CB7-6457602F",
+      "InternalVariableName": "HeadStabilizationComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableCollisionGameplayEffectApplicatorComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableCollisionGameplayEffectApplicatorComponent'C_Tarragon_01_C:ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.7"
+      },
+      "VariableGUID": "D2CB6DE2-465947CC-93AC93AE-28A13ABB",
+      "InternalVariableName": "ConstructableCollisionGameplayEffectApplicatorComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLGasComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLGasComponent'C_Tarragon_01_C:MLGasComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.21"
+      },
+      "VariableGUID": "85F5589B-48C1EE49-D34955A2-9EDFFD38",
+      "InternalVariableName": "MLGasComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_Tarragon_01_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.6"
+      },
+      "VariableGUID": "7D7ADF76-4909A2CF-8492B691-C30CD2CC",
+      "InternalVariableName": "ConstructableAnimationService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.38"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.43"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.44"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.45"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.46"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.47"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.48"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.49"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.50"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.39"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.40"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.41"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.42"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.38"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.43"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.44"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.45"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.46"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.47"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.48"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.49"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.50"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.39"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.40"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.41"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.42"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.37"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__BP_ConstructableBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.25"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Tarragon_01_C'Default__C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.3"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StuckDetectionService",
+    "Name": "StuckDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StuckDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.2"
+    },
+    "Properties": {
+      "MobilityImpactingPartsQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Leg"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+      },
+      "DestroyedPartsToMinDistanceMultiplier": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 2.0,
+              "Value": 0.5,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 4.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "bOnlyPushChangedValues_Client": true
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StuckHandler_ApplyGameplayEffect",
+    "Name": "StuckHandler_ApplyGameplayEffect_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StuckHandler_ApplyGameplayEffect'",
+    "Outer": {
+      "ObjectName": "StuckDetectionService'C_Tarragon_01_C:StuckDetectionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.54"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  }
+]

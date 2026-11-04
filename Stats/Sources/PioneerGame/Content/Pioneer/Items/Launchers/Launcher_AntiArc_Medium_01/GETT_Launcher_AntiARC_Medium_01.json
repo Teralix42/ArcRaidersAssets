@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GETT_Launcher_AntiARC_Medium_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/GETT_Launcher_AntiARC_Medium_01",
+    "SuperStruct": {
+      "ObjectName": "Class'PioneerSphereTargetType'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GETT_Launcher_AntiARC_Medium_01_C'Default__GETT_Launcher_AntiARC_Medium_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/GETT_Launcher_AntiARC_Medium_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GETT_Launcher_AntiARC_Medium_01_C",
+    "Name": "Default__GETT_Launcher_AntiARC_Medium_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/GETT_Launcher_AntiARC_Medium_01.GETT_Launcher_AntiARC_Medium_01_C'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/GETT_Launcher_AntiARC_Medium_01",
+    "Properties": {
+      "DamageFalloffCurve": {
+        "ObjectName": "CurveFloat'Curve_RadialDamageFalloff_Launcher_AntiArc_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Curve_RadialDamageFalloff_Launcher_AntiArc_Medium_01.0"
+      }
+    }
+  }
+]

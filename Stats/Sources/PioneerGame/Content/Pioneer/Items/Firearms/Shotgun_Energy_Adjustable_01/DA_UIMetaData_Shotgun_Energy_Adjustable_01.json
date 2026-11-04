@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Shotgun_Energy_Adjustable_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_UIMetaData_Shotgun_Energy_Adjustable_01.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Shotgun_Energy_Adjustable_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_Persistence_Shotgun_Energy_Adjustable_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SHOTGUN_ENERGY_ADJUSTABLE_01",
+        "SourceString": "Dolabra",
+        "LocalizedString": "Dolabra"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SHOTGUN_ENERGY_ADJUSTABLE_01",
+        "SourceString": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+        "LocalizedString": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Shotgun"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Energy.T_UI_Ammo_Energy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/T_UI_Icon_Shotgun_Energy_Adjustable_01_T0.T_UI_Icon_Shotgun_Energy_Adjustable_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/T_UI_Icon_Shotgun_Energy_Adjustable_01_Big_A_T0.T_UI_Icon_Shotgun_Energy_Adjustable_01_Big_A_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -9.026014,
+          "Y": 138.61298,
+          "Z": 218.33687
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -20.583931,
+          "Y": 81.91294,
+          "Z": 119.2269
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.390456,
+          "Y": 0.239519,
+          "Z": -0.888273,
+          "W": -0.033843,
+          "IsNormalized": true,
+          "Size": 0.99999976,
+          "SizeSquared": 0.9999995
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 12.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Shotgun_Energy_Adjustable_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_UIMetaData_Shotgun_Energy_Adjustable_01.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Shotgun_Energy_Adjustable_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/Qualities/DA_Persistence_Shotgun_Energy_Adjustable_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SHOTGUN_ENERGY_ADJUSTABLE_01",
+        "SourceString": "Dolabra",
+        "LocalizedString": "Dolabra"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SHOTGUN_ENERGY_ADJUSTABLE_01",
+        "SourceString": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+        "LocalizedString": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat."
+      },
+      "QualityLevel": 5,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Shotgun"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Energy.T_UI_Ammo_Energy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/T_UI_Icon_Shotgun_Energy_Adjustable_01_T0.T_UI_Icon_Shotgun_Energy_Adjustable_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/T_UI_Icon_Shotgun_Energy_Adjustable_01_Big_A_T0.T_UI_Icon_Shotgun_Energy_Adjustable_01_Big_A_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -9.026014,
+          "Y": 138.61298,
+          "Z": 218.33687
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -20.583931,
+          "Y": 81.91294,
+          "Z": 119.2269
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.390456,
+          "Y": 0.239519,
+          "Z": -0.888273,
+          "W": -0.033843,
+          "IsNormalized": true,
+          "Size": 0.99999976,
+          "SizeSquared": 0.9999995
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 12.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_SEMIAUTOMATIC",
+            "SourceString": "Semi-Automatic",
+            "LocalizedString": "Semi-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_WEAPONTRAIT",
+            "SourceString": "Special Trait",
+            "LocalizedString": "Special Trait"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_WEAPONTRAIT_EXPERIMENTAL",
+            "SourceString": "Experimental",
+            "LocalizedString": "Experimental"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Shotgun_Energy_Adjustable_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_UIMetaData_Shotgun_Energy_Adjustable_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Shotgun_Energy_Adjustable_01:UIGameplayItemMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_UIMetaData_Shotgun_Energy_Adjustable_01.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Shotgun_Energy_Adjustable_01:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_UIMetaData_Shotgun_Energy_Adjustable_01.1"
+        }
+      ]
+    }
+  }
+]

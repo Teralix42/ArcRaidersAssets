@@ -1,0 +1,2875 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Spearmint",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/MintType/Spearmint/DataAssets/CSSC_Spearmint",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "FootGroundContact_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Weapon_Launcher_Socket",
+          "Value": [
+            "Part.HealthGroup.Indestructable"
+          ]
+        },
+        {
+          "Key": "Head_Dispenser_4",
+          "Value": []
+        },
+        {
+          "Key": "Head_Dispenser_3",
+          "Value": []
+        },
+        {
+          "Key": "Head_Dispenser_2",
+          "Value": []
+        },
+        {
+          "Key": "Head_Dispenser_1",
+          "Value": []
+        },
+        {
+          "Key": "Body_01",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Eye_01",
+          "Value": [
+            "Part.HealthGroup.Indestructable"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_03_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_03_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_04_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_04_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_06_C_01",
+          "Value": [
+            "Part.HealthGroup.Indestructable"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_07_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_07_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_08_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_08_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_10_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_10_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_L_09",
+          "Value": [
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Head_01_HatchFrame_C_01",
+          "Value": [
+            "Part.Decorator.ID.HatchFrame"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_03_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_03_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_04_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_04_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Weapon_Launcher_01",
+          "Value": [
+            "Part.HealthGroup.Indestructable"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Head_01_Armor_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_02_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_02_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_03_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_03_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_04_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_04_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_06_C_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_07_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_07_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_08_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_08_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_10_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_10_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Head_01_Armor_L_09",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Core_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_02_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_02_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_03_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_03_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_04_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01_Insides_04_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Weapon_Launcher_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Body_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Core_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Eye_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01_Armor_01_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_01_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_02_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_02_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_03_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_03_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_04_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_04_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_06_C_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_07_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_07_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_08_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_08_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_10_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_10_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_Armor_L_09",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Head_01_HatchFrame_C_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01_Insides_01_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Head_01_Insides_01_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Head_01_Insides_02_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Head_01_Insides_02_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Head_01_Insides_03_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Head_01_Insides_03_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Head_01_Insides_04_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Head_01_Insides_04_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Weapon_Launcher_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Ankle_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_01",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Ankle_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_02",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Ankle_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_03",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_03",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Ankle_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_01",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Ankle_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_02",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Ankle_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_03",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_03",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_03",
+          "Value": "EPartResistanceGroup::Armor"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "FootGroundContact_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "FootGroundContact_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "UpperLegGroundContact_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "LowerLegGroundContact_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Weapon_Launcher_Socket",
+          "Value": [
+            "Part.HealthGroup.Indestructable"
+          ]
+        },
+        {
+          "Key": "Head_Dispenser_4",
+          "Value": []
+        },
+        {
+          "Key": "Head_Dispenser_3",
+          "Value": []
+        },
+        {
+          "Key": "Head_Dispenser_2",
+          "Value": []
+        },
+        {
+          "Key": "Head_Dispenser_1",
+          "Value": []
+        },
+        {
+          "Key": "Body_01",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Eye_01",
+          "Value": [
+            "Part.HealthGroup.Indestructable"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_03_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_03_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_04_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_04_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_06_C_01",
+          "Value": [
+            "Part.HealthGroup.Indestructable",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_07_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_07_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_08_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_08_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_10_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_10_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_Armor_L_09",
+          "Value": [
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Head_01_HatchFrame_C_01",
+          "Value": [
+            "Part.Decorator.ID.HatchFrame"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_03_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_03_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_04_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Head_01_Insides_04_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Weapon_Launcher_01",
+          "Value": [
+            "Part.HealthGroup.Indestructable",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Ankle_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.FX.Bone",
+            "Part.Decorator.ID.Ankle"
+          ]
+        },
+        {
+          "Key": "Foot_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.FX.Bone"
+          ]
+        },
+        {
+          "Key": "Hydraulics_Foot_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "Hydraulics_UpperLeg_02_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Insides_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.Legs",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Weakpoint_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Constraint.Kinematic",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Armor.Leg",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        }
+      ]
+    }
+  }
+]

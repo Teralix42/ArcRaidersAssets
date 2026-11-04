@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_HandCannon_SingleAction_01_ProjectileSplitter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Permutations/BP_Item_HandCannon_SingleAction_01_ProjectileSplitter",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_HandCannon_SingleAction_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/BP_Item_HandCannon_SingleAction_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_HandCannon_SingleAction_01_ProjectileSplitter_C'Default__BP_Item_HandCannon_SingleAction_01_ProjectileSplitter_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Permutations/BP_Item_HandCannon_SingleAction_01_ProjectileSplitter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_HandCannon_SingleAction_01_ProjectileSplitter_C",
+    "Name": "Default__BP_Item_HandCannon_SingleAction_01_ProjectileSplitter_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Permutations/BP_Item_HandCannon_SingleAction_01_ProjectileSplitter.BP_Item_HandCannon_SingleAction_01_ProjectileSplitter_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Permutations/BP_Item_HandCannon_SingleAction_01_ProjectileSplitter",
+    "Template": {
+      "ObjectName": "BP_Item_HandCannon_SingleAction_01_Ascended_C'Default__BP_Item_HandCannon_SingleAction_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/BP_Item_HandCannon_SingleAction_01_Ascended.1"
+    },
+    "Properties": {
+      "bUseCustomMultiShotDispersion": true,
+      "MultiShotMovePatternDispersionFrac": 0.8,
+      "MultiShotPatternMinSize": 0.8,
+      "MultiShot": [
+        {
+          "DistanceFrac": 0.9,
+          "ExtraDispersion": 0.2,
+          "bHalfOffset": false,
+          "Projectiles": 3
+        },
+        {
+          "DistanceFrac": 0.0,
+          "ExtraDispersion": 0.0,
+          "bHalfOffset": false,
+          "Projectiles": 1
+        }
+      ],
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_HandCannon_SingleAction_01_ProjectileSplitter_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/BP_Projectile_HandCannon_SingleAction_01_ProjectileSplitter.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 48.0,
+        "Range": 44.567,
+        "Agility": 73.299
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_HandCannon_SingleAction_01_ProjectileSplitter'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Permutations/DA_Item_HandCannon_SingleAction_01_ProjectileSplitter.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_HandCannon_SingleAction_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/DA_Upgrade_HandCannon_SingleAction_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_HandCannon_SingleAction_01_ProjectileSplitter'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/DA_Upgrade_HandCannon_SingleAction_01_ProjectileSplitter.0"
+        }
+      ]
+    }
+  }
+]

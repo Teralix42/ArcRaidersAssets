@@ -1,0 +1,3096 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Bullcrab'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Bullcrab.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Core"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+      },
+      "bUseLineTrace": false,
+      "NumTracesAtPlayerDistance": []
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_BullCrab_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShockWaveActiveAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "JumpAttackAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlertToIdleAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShockWavePreparingAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlertedModeAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AIStateStyleDriver_BullCrab",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_BullCrab_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Large",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_MovingPartAudioStyleDriver_BullCrab",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_BullCrab_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CollisionStyleDriver_Medium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_BullCrab_01_C'Default__CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.10"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AIStateStyleDriver_BullCrab_C",
+    "Name": "BP_AIStateStyleDriver_BullCrab_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.BP_AIStateStyleDriver_BullCrab_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_AIStateStyleDriver_BullCrab_C'Default__BP_AIStateStyleDriver_BullCrab_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.1"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'BullCrab_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/BullCrab/BullCrab_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 5.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_CollisionStyleDriver_Medium_C",
+    "Name": "BP_CollisionStyleDriver_Medium_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.BP_CollisionStyleDriver_Medium_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_CollisionStyleDriver_Medium_C'Default__BP_CollisionStyleDriver_Medium_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.1"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Large_C",
+    "Name": "BP_DamageStyleDriver_Large_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.BP_DamageStyleDriver_Large_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Large_C'Default__BP_DamageStyleDriver_Large_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Chonk.0"
+      },
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedSmoke_M'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedSmoke_M.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_MovingPartAudioStyleDriver_BullCrab_C",
+    "Name": "BP_MovingPartAudioStyleDriver_BullCrab_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.BP_MovingPartAudioStyleDriver_BullCrab_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_MovingPartAudioStyleDriver_BullCrab_C'Default__BP_MovingPartAudioStyleDriver_BullCrab_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.1"
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.Shockwave"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_BullCrab_Shockwave_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_BullCrab_Shockwave_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_BullCrab_Shockwave_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_BullCrab_Shockwave_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "ShockWavePreparingAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "ShockWavePreparingAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::Stop"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "ShockWaveActiveAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "ShockWaveActiveAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Explode"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_BullCrab_Shockwave_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_BullCrab_Shockwave_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_BullCrab_SelfDestruct_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_BullCrab_SelfDestruct_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "ShockWavePreparingAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "ShockWavePreparingAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::Stop"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "ShockWaveActiveAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "ShockWaveActiveAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Jump"
+          ],
+          "StateEffectMap": [],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "JumpAttackAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "JumpAttackAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::PlayBackwardFromCurrentPosition"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Light"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_BullCrab_TaserPrepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_BullCrab_TaserPrepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ],
+      "Extensions": [
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionShockwave'CS_BullCrab_01_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionShockwave_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionShockwave",
+    "Name": "CapabilityStyleDriverExtensionShockwave_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionShockwave'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_BullCrab_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.7"
+    },
+    "Properties": {
+      "bDebug": false
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_BullCrab_01_C'Default__CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.10"
+    }
+  },
+  {
+    "Type": "CS_BullCrab_01_C",
+    "Name": "Default__CS_BullCrab_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.CS_BullCrab_01_C'",
+    "Package": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -334.48932,
+          "Y": -321.25964,
+          "Z": -144.81741
+        },
+        "Max": {
+          "X": 251.7186,
+          "Y": 321.2595,
+          "Z": 192.054
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_BullCrab_01_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.9"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "MuzzleAudioDefinitions": [
+        {
+          "StylePartList": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Weapon.Cannon"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Cannon )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+              }
+            },
+            "PartList": []
+          },
+          "WeaponAudioClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_WeaponAudio_ARC_BullCrabTaser_01_C'",
+            "ObjectPath": "/Game/Pioneer/Audio/Weapons/WeaponSynthAssets/WeaponAudioComponents/ARC/BP_WeaponAudio_ARC_BullCrabTaser_01.0"
+          },
+          "bSharedLoopAcrossParts": false,
+          "SharedLoopLocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDriveIntensityFromFiringParts": false,
+          "IntensityParameterName": "FiringIntensity",
+          "bDriveFireRateFromFiringParts": false,
+          "FireRatePerExtraFiringPart": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_BullCrab_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.13"
+      },
+      "VariableGUID": "1A1DAC6F-40A6BB84-ABA4DD9D-35B56C25",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_BullCrab_01_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.31"
+      },
+      "VariableGUID": "80C10410-4CA90D31-7AF06298-2CAF84B6",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_BullCrab_01_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.6"
+      },
+      "VariableGUID": "59D9F105-4224759B-C88B4BA4-E07EA954",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:ShockWaveActiveAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.35"
+      },
+      "VariableGUID": "477EB3FF-429C3820-D19647AA-715111B1",
+      "InternalVariableName": "ShockWaveActiveAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_BullCrab_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AIStateStyleDriver_BullCrab_C'CS_BullCrab_01_C:BP_AIStateStyleDriver_BullCrab_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.2"
+      },
+      "VariableGUID": "D2D6CC27-4837F61A-CA5FC5B0-F3B56730",
+      "InternalVariableName": "BP_AIStateStyleDriver_BullCrab"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_BullCrab_01_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.11"
+      },
+      "VariableGUID": "556ED884-417826A2-F97FF78B-26FDCA43",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_BullCrab_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.7"
+      },
+      "VariableGUID": "E9A2B6B9-4F2A9706-1D969F99-E1FEE782",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_BullCrab_01_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.3"
+      },
+      "VariableGUID": "8FA52007-473576B7-AAC0F2B9-084F6CBA",
+      "InternalVariableName": "BP_CollisionStyleDriver_Medium"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_BullCrab_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MovingPartAudioStyleDriver_BullCrab_C'CS_BullCrab_01_C:BP_MovingPartAudioStyleDriver_BullCrab_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.5"
+      },
+      "VariableGUID": "90E284CC-4A666936-A33B1BA7-881932B9",
+      "InternalVariableName": "BP_MovingPartAudioStyleDriver_BullCrab"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:AlertedModeAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.32"
+      },
+      "VariableGUID": "AF8F4E0E-4657F34B-69E88980-58785055",
+      "InternalVariableName": "AlertedModeAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_BullCrab_01_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.0"
+      },
+      "VariableGUID": "576669A6-448EA373-737DE19C-62311E34",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:ShockWavePreparingAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.36"
+      },
+      "VariableGUID": "E8AEAB01-448D40CC-E6C6249D-B150A29E",
+      "InternalVariableName": "ShockWavePreparingAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:AlertToIdleAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.33"
+      },
+      "VariableGUID": "ED0A363A-4B770A2F-D57B4791-38A316C9",
+      "InternalVariableName": "AlertToIdleAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_BullCrab_01_C:JumpAttackAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.34"
+      },
+      "VariableGUID": "CA3F04AD-4FCF7564-FA1881A7-92528E7F",
+      "InternalVariableName": "JumpAttackAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_BullCrab_01_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.12"
+      },
+      "VariableGUID": "E681EB26-4FEFC650-4FF4C093-9A1C44B9",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Large_C'CS_BullCrab_01_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.4"
+      },
+      "VariableGUID": "4443787B-4EECE04E-E4172E8E-A6B1A51F",
+      "InternalVariableName": "BP_DamageStyleDriver_Large"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.16"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.16"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.14"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "DebrisImpactImpulseScale": 150.0,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_GenericMediumSizedLegged_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Dismemberment/DA_GenericMediumSizedLegged_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_BullCrab_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CSSC_BullCrab_01.0"
+      },
+      "VirtualPartBones": [
+        "Jaw_01_L_01",
+        "Jaw_01_L_02",
+        "Jaw_01_R_01",
+        "Jaw_01_R_02",
+        "SOCKET_Foot_L_01",
+        "SOCKET_Foot_L_02",
+        "SOCKET_Foot_R_01",
+        "SOCKET_Foot_R_02"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 64
+      },
+      "SocketIDs": [
+        {
+          "Key": "1",
+          "Value": {
+            "Items": [
+              {
+                "Key": "CoreSocket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Core"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 22.99415,
+                "Y": -68.143105,
+                "Z": 30.687294
+              },
+              {
+                "X": -75.740776,
+                "Y": 8.348003,
+                "Z": 59.876774
+              },
+              {
+                "X": -8.675037,
+                "Y": 0.00022162317,
+                "Z": -58.91463
+              },
+              {
+                "X": 22.9941,
+                "Y": 68.14313,
+                "Z": 30.68753
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -4.4615927,
+                "Y": 33.77603,
+                "Z": 14.267072
+              },
+              {
+                "X": -16.965088,
+                "Y": -8.257333,
+                "Z": -36.265358
+              },
+              {
+                "X": 3.0020652,
+                "Y": -13.794938,
+                "Z": 33.971596
+              },
+              {
+                "X": 36.749805,
+                "Y": -10.610602,
+                "Z": -14.922918
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 20.842285,
+                "Y": -28.833902,
+                "Z": 40.39599
+              },
+              {
+                "X": -25.740686,
+                "Y": 33.474888,
+                "Z": 33.444042
+              },
+              {
+                "X": -38.543083,
+                "Y": -27.183214,
+                "Z": 27.681612
+              },
+              {
+                "X": 31.201363,
+                "Y": 30.817553,
+                "Z": 30.948181
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 26.010618,
+                "Y": 29.785358,
+                "Z": 13.419928
+              },
+              {
+                "X": -38.795734,
+                "Y": 27.195484,
+                "Z": 27.409817
+              },
+              {
+                "X": -25.987238,
+                "Y": -33.359097,
+                "Z": 33.326885
+              },
+              {
+                "X": 30.492853,
+                "Y": -31.417477,
+                "Z": 30.880596
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": 38.76013,
+                "Y": -27.41551,
+                "Z": 27.225628
+              },
+              {
+                "X": -20.820492,
+                "Y": -40.002842,
+                "Z": 29.444353
+              },
+              {
+                "X": 15.318717,
+                "Y": 30.638702,
+                "Z": 40.428825
+              },
+              {
+                "X": -30.890263,
+                "Y": 31.20093,
+                "Z": 30.735914
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 7.5483737,
+                "Y": 1.2107215,
+                "Z": -20.893312
+              },
+              {
+                "X": 7.915616,
+                "Y": -10.124752,
+                "Z": 16.703661
+              },
+              {
+                "X": 14.286449,
+                "Y": -12.998983,
+                "Z": -6.675372
+              },
+              {
+                "X": 2.0572586,
+                "Y": 13.741216,
+                "Z": -0.35694554
+              }
+            ]
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "Points": [
+              {
+                "X": -3.8267844,
+                "Y": 5.077342,
+                "Z": -18.155401
+              },
+              {
+                "X": -0.17098767,
+                "Y": -9.075147,
+                "Z": -23.394148
+              },
+              {
+                "X": 1.2157598,
+                "Y": -7.688395,
+                "Z": -11.129828
+              },
+              {
+                "X": 9.473157,
+                "Y": -0.5344427,
+                "Z": -12.480826
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.747738,
+                "Y": -0.28698957,
+                "Z": -22.93112
+              },
+              {
+                "X": 4.092262,
+                "Y": 5.0900507,
+                "Z": -23.104998
+              },
+              {
+                "X": 5.337349,
+                "Y": 3.566798,
+                "Z": -14.02902
+              },
+              {
+                "X": -6.309995,
+                "Y": 2.5941389,
+                "Z": -3.1745431
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.6670453,
+                "Y": -8.237099,
+                "Z": -16.28101
+              },
+              {
+                "X": -9.7560425,
+                "Y": 0.2695483,
+                "Z": -22.918798
+              },
+              {
+                "X": 1.3668377,
+                "Y": -7.537308,
+                "Z": -9.130952
+              },
+              {
+                "X": -4.421028,
+                "Y": 4.483105,
+                "Z": -0.32309857
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.525637,
+                "Y": 0.6095877,
+                "Z": -3.558599
+              },
+              {
+                "X": 0.25390765,
+                "Y": 9.351131,
+                "Z": -16.33859
+              },
+              {
+                "X": 0.3686393,
+                "Y": -9.388778,
+                "Z": -16.440514
+              },
+              {
+                "X": 7.3654246,
+                "Y": -1.5387093,
+                "Z": -2.1720104
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": 3.0759358,
+                "Y": 5.8282022,
+                "Z": -16.120888
+              },
+              {
+                "X": 0.39439812,
+                "Y": -9.587861,
+                "Z": -23.143055
+              },
+              {
+                "X": 4.759303,
+                "Y": -4.1448417,
+                "Z": -9.744366
+              },
+              {
+                "X": -9.494817,
+                "Y": -0.56726015,
+                "Z": -15.676551
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": -3.857712,
+                "Y": 5.346248,
+                "Z": -23.084871
+              },
+              {
+                "X": -0.54961574,
+                "Y": -9.482945,
+                "Z": -20.44652
+              },
+              {
+                "X": -4.0415797,
+                "Y": -4.862563,
+                "Z": -7.402262
+              },
+              {
+                "X": 3.209516,
+                "Y": 5.6946216,
+                "Z": -7.690256
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.8468292,
+                "Y": -6.941687,
+                "Z": -22.7734
+              },
+              {
+                "X": 9.401673,
+                "Y": -0.399589,
+                "Z": -7.224747
+              },
+              {
+                "X": -9.343263,
+                "Y": -0.22185381,
+                "Z": -1.4109678
+              },
+              {
+                "X": -3.6839614,
+                "Y": 5.220171,
+                "Z": -10.8246565
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.472274,
+                "Y": 0.5330766,
+                "Z": -16.25946
+              },
+              {
+                "X": 5.8445015,
+                "Y": -3.4975903,
+                "Z": -22.977072
+              },
+              {
+                "X": 5.3066125,
+                "Y": -3.5975387,
+                "Z": -16.41497
+              },
+              {
+                "X": -7.6871696,
+                "Y": 1.2169629,
+                "Z": -1.9227512
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": -8.588272,
+                "Y": 6.8675625E-05,
+                "Z": -46.882473
+              },
+              {
+                "X": -1.7752674,
+                "Y": 11.983112,
+                "Z": 8.91034
+              },
+              {
+                "X": 8.842412,
+                "Y": -9.758692,
+                "Z": 8.91034
+              },
+              {
+                "X": 6.810534,
+                "Y": 7.440209E-05,
+                "Z": -46.882473
+              }
+            ]
+          }
+        },
+        {
+          "Key": "19",
+          "Value": {
+            "Points": [
+              {
+                "X": -11.639925,
+                "Y": 17.781689,
+                "Z": -40.338974
+              },
+              {
+                "X": -11.639919,
+                "Y": -17.781816,
+                "Z": -40.33888
+              },
+              {
+                "X": -8.381321,
+                "Y": 17.348343,
+                "Z": -0.80224365
+              },
+              {
+                "X": -8.38133,
+                "Y": -17.34848,
+                "Z": -0.80231535
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": 53.27426,
+                "Y": -11.464269,
+                "Z": 6.612404
+              },
+              {
+                "X": 55.351845,
+                "Y": 4.3242793,
+                "Z": -9.812456
+              },
+              {
+                "X": 10.18753,
+                "Y": -6.323241,
+                "Z": 5.470189
+              },
+              {
+                "X": 93.80953,
+                "Y": 10.520325,
+                "Z": 12.672251
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": 7.5068736,
+                "Y": 3.646517,
+                "Z": 51.264824
+              },
+              {
+                "X": 2.1406813,
+                "Y": -1.4685105,
+                "Z": -10.14311
+              },
+              {
+                "X": 70.29177,
+                "Y": 6.6953206,
+                "Z": 20.540068
+              },
+              {
+                "X": 41.14254,
+                "Y": -12.111914,
+                "Z": 45.335346
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Points": [
+              {
+                "X": -57.49398,
+                "Y": -18.93173,
+                "Z": -19.182255
+              },
+              {
+                "X": -59.765717,
+                "Y": 6.5877175,
+                "Z": -43.022903
+              },
+              {
+                "X": -23.620491,
+                "Y": 6.62824,
+                "Z": -5.3082886
+              },
+              {
+                "X": -26.420341,
+                "Y": -8.103539,
+                "Z": -47.183613
+              }
+            ]
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "Points": [
+              {
+                "X": 123.56562,
+                "Y": 10.691307,
+                "Z": 45.148735
+              },
+              {
+                "X": 329.8332,
+                "Y": 6.7881784,
+                "Z": -8.685229
+              },
+              {
+                "X": 6.6135387,
+                "Y": 6.42463,
+                "Z": 10.511334
+              },
+              {
+                "X": 241.60126,
+                "Y": 16.460546,
+                "Z": 34.114937
+              }
+            ]
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "Points": [
+              {
+                "X": 61.634773,
+                "Y": 38.763485,
+                "Z": -86.154945
+              },
+              {
+                "X": 102.378426,
+                "Y": -6.45765,
+                "Z": -122.28318
+              },
+              {
+                "X": 11.123173,
+                "Y": -37.102253,
+                "Z": -57.50805
+              },
+              {
+                "X": 5.588133,
+                "Y": 42.043148,
+                "Z": -39.83843
+              }
+            ]
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "Points": [
+              {
+                "X": 37.92313,
+                "Y": 8.286908,
+                "Z": 28.735872
+              },
+              {
+                "X": 38.394512,
+                "Y": 22.376509,
+                "Z": 28.713608
+              },
+              {
+                "X": 38.333233,
+                "Y": -6.9132676,
+                "Z": 28.703714
+              },
+              {
+                "X": 38.292442,
+                "Y": -24.22539,
+                "Z": 28.711544
+              }
+            ]
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "Points": [
+              {
+                "X": -88.75168,
+                "Y": -6.6197743,
+                "Z": 15.568543
+              },
+              {
+                "X": -88.72154,
+                "Y": 4.797305,
+                "Z": 15.89978
+              },
+              {
+                "X": -88.787186,
+                "Y": -26.132284,
+                "Z": 14.962592
+              },
+              {
+                "X": -86.24037,
+                "Y": 21.432018,
+                "Z": 12.465621
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": -118.66217,
+                "Y": 18.060831,
+                "Z": -31.326649
+              },
+              {
+                "X": -60.67117,
+                "Y": -5.91342,
+                "Z": -41.050632
+              },
+              {
+                "X": -104.25032,
+                "Y": -17.51444,
+                "Z": -34.42054
+              },
+              {
+                "X": -129.38574,
+                "Y": -11.515184,
+                "Z": -24.11627
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": 64.14091,
+                "Y": 6.1825943,
+                "Z": -86.57639
+              },
+              {
+                "X": 97.89033,
+                "Y": 9.332364,
+                "Z": -111.644
+              },
+              {
+                "X": 21.49414,
+                "Y": 19.898726,
+                "Z": -55.282143
+              },
+              {
+                "X": 18.873636,
+                "Y": -25.490648,
+                "Z": -49.134212
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Points": [
+              {
+                "X": -127.21914,
+                "Y": 12.309288,
+                "Z": -21.672184
+              },
+              {
+                "X": -138.28093,
+                "Y": -12.409672,
+                "Z": -19.51487
+              },
+              {
+                "X": -74.445305,
+                "Y": 0.03640122,
+                "Z": -30.956758
+              },
+              {
+                "X": -102.2224,
+                "Y": -5.012762,
+                "Z": -25.860682
+              }
+            ]
+          }
+        },
+        {
+          "Key": "31",
+          "Value": {
+            "Points": [
+              {
+                "X": 10.123202,
+                "Y": -1.9789191,
+                "Z": -10.459573
+              },
+              {
+                "X": 16.010565,
+                "Y": 10.665744,
+                "Z": 17.906675
+              },
+              {
+                "X": 10.053259,
+                "Y": -11.963755,
+                "Z": 7.2175384
+              },
+              {
+                "X": 28.939522,
+                "Y": -2.0031316,
+                "Z": 18.155252
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Points": [
+              {
+                "X": 32.45581,
+                "Y": 3.9524484,
+                "Z": -6.292879
+              },
+              {
+                "X": -6.8974414,
+                "Y": -1.5855564,
+                "Z": -11.290986
+              },
+              {
+                "X": 70.36375,
+                "Y": 3.6836083,
+                "Z": 29.838215
+              },
+              {
+                "X": 10.283714,
+                "Y": 7.6490607,
+                "Z": 50.99583
+              }
+            ]
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "Points": [
+              {
+                "X": -17.169348,
+                "Y": 10.443547,
+                "Z": -8.089801
+              },
+              {
+                "X": -68.145645,
+                "Y": 2.5361652,
+                "Z": -21.27211
+              },
+              {
+                "X": -39.544476,
+                "Y": 16.52482,
+                "Z": -38.930744
+              },
+              {
+                "X": -33.298176,
+                "Y": -18.645222,
+                "Z": -30.787771
+              }
+            ]
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "Points": [
+              {
+                "X": 155.66895,
+                "Y": 12.162698,
+                "Z": 13.403395
+              },
+              {
+                "X": 321.84824,
+                "Y": 6.932051,
+                "Z": -6.921883
+              },
+              {
+                "X": 12.634482,
+                "Y": 21.210249,
+                "Z": 12.498399
+              },
+              {
+                "X": 256.2261,
+                "Y": 6.9781446,
+                "Z": 7.1285615
+              }
+            ]
+          }
+        },
+        {
+          "Key": "35",
+          "Value": {
+            "Points": [
+              {
+                "X": 3.8465872,
+                "Y": -40.03779,
+                "Z": -39.51482
+              },
+              {
+                "X": 45.369316,
+                "Y": -23.010336,
+                "Z": -84.21805
+              },
+              {
+                "X": 9.59966,
+                "Y": 29.931908,
+                "Z": -59.714973
+              },
+              {
+                "X": 91.26018,
+                "Y": 14.511281,
+                "Z": -114.61067
+              }
+            ]
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "Points": [
+              {
+                "X": 37.8206,
+                "Y": -24.350521,
+                "Z": 28.772556
+              },
+              {
+                "X": 37.772385,
+                "Y": 24.308023,
+                "Z": 28.796587
+              },
+              {
+                "X": 37.817287,
+                "Y": -13.7323675,
+                "Z": 28.773432
+              },
+              {
+                "X": 38.190918,
+                "Y": 1.0199955,
+                "Z": 28.695442
+              }
+            ]
+          }
+        },
+        {
+          "Key": "37",
+          "Value": {
+            "Points": [
+              {
+                "X": -88.841125,
+                "Y": -25.918383,
+                "Z": 15.000336
+              },
+              {
+                "X": -87.38418,
+                "Y": 7.6638155,
+                "Z": 13.501972
+              },
+              {
+                "X": -88.67125,
+                "Y": 26.912235,
+                "Z": 16.549068
+              },
+              {
+                "X": -88.537094,
+                "Y": -11.220277,
+                "Z": 14.637593
+              }
+            ]
+          }
+        },
+        {
+          "Key": "38",
+          "Value": {
+            "Points": [
+              {
+                "X": -24.698782,
+                "Y": 6.162776,
+                "Z": -46.73948
+              },
+              {
+                "X": -130.73424,
+                "Y": -24.13235,
+                "Z": -21.16259
+              },
+              {
+                "X": -83.94378,
+                "Y": 0.15185735,
+                "Z": -37.2578
+              },
+              {
+                "X": -134.18898,
+                "Y": 11.780353,
+                "Z": -8.691392
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39",
+          "Value": {
+            "Points": [
+              {
+                "X": 54.17439,
+                "Y": -4.8509817,
+                "Z": -79.07654
+              },
+              {
+                "X": 17.576275,
+                "Y": -7.5957675,
+                "Z": -46.909996
+              },
+              {
+                "X": 24.517149,
+                "Y": 24.455803,
+                "Z": -53.565254
+              },
+              {
+                "X": 83.80578,
+                "Y": -4.503995,
+                "Z": -100.977394
+              }
+            ]
+          }
+        },
+        {
+          "Key": "40",
+          "Value": {
+            "Points": [
+              {
+                "X": -142.2695,
+                "Y": -9.034604,
+                "Z": -6.8370643
+              },
+              {
+                "X": -66.06987,
+                "Y": 2.0988426,
+                "Z": -32.500034
+              },
+              {
+                "X": -100.823906,
+                "Y": -11.232379,
+                "Z": -26.266893
+              },
+              {
+                "X": -142.16672,
+                "Y": 10.837014,
+                "Z": -6.9516034
+              }
+            ]
+          }
+        },
+        {
+          "Key": "42",
+          "Value": {
+            "Points": [
+              {
+                "X": 30.946129,
+                "Y": -5.6985416,
+                "Z": -9.812475
+              },
+              {
+                "X": 83.89975,
+                "Y": -6.732205,
+                "Z": -9.812516
+              },
+              {
+                "X": 37.19178,
+                "Y": -0.54826695,
+                "Z": 18.621145
+              },
+              {
+                "X": 93.12129,
+                "Y": -2.9007797,
+                "Z": 21.778965
+              }
+            ]
+          }
+        },
+        {
+          "Key": "43",
+          "Value": {
+            "Points": [
+              {
+                "X": 70.29173,
+                "Y": -6.6952405,
+                "Z": 20.539955
+              },
+              {
+                "X": 12.050753,
+                "Y": -22.8609,
+                "Z": 40.75043
+              },
+              {
+                "X": 17.709845,
+                "Y": 21.90013,
+                "Z": 40.514244
+              },
+              {
+                "X": -3.2382793,
+                "Y": 0.23815452,
+                "Z": -10.826244
+              }
+            ]
+          }
+        },
+        {
+          "Key": "44",
+          "Value": {
+            "Points": [
+              {
+                "X": -53.54278,
+                "Y": -1.0229057,
+                "Z": -8.184359
+              },
+              {
+                "X": -66.08343,
+                "Y": -5.618554,
+                "Z": -42.155357
+              },
+              {
+                "X": -18.398188,
+                "Y": 6.3015757,
+                "Z": -4.6714106
+              },
+              {
+                "X": -26.334631,
+                "Y": -4.914466,
+                "Z": -47.137733
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45",
+          "Value": {
+            "Points": [
+              {
+                "X": 329.83362,
+                "Y": -6.7882843,
+                "Z": -8.685227
+              },
+              {
+                "X": 241.60176,
+                "Y": -16.460598,
+                "Z": 34.11495
+              },
+              {
+                "X": 6.6136394,
+                "Y": -6.4246697,
+                "Z": 10.511484
+              },
+              {
+                "X": 102.76036,
+                "Y": 16.948889,
+                "Z": 38.95483
+              }
+            ]
+          }
+        },
+        {
+          "Key": "46",
+          "Value": {
+            "Points": [
+              {
+                "X": 53.466553,
+                "Y": -36.019463,
+                "Z": -82.59233
+              },
+              {
+                "X": 102.37843,
+                "Y": 6.457622,
+                "Z": -122.283005
+              },
+              {
+                "X": -3.274289,
+                "Y": -22.903566,
+                "Z": -39.52228
+              },
+              {
+                "X": 28.52366,
+                "Y": 34.75297,
+                "Z": -68.91551
+              }
+            ]
+          }
+        },
+        {
+          "Key": "47",
+          "Value": {
+            "Points": [
+              {
+                "X": 37.953686,
+                "Y": 24.27943,
+                "Z": 28.732634
+              },
+              {
+                "X": 38.309666,
+                "Y": 12.001703,
+                "Z": 28.700798
+              },
+              {
+                "X": 37.848045,
+                "Y": -24.367298,
+                "Z": 28.76113
+              },
+              {
+                "X": 38.10638,
+                "Y": -3.731309,
+                "Z": 28.70011
+              }
+            ]
+          }
+        },
+        {
+          "Key": "48",
+          "Value": {
+            "Points": [
+              {
+                "X": -88.86128,
+                "Y": 25.86077,
+                "Z": 15.001974
+              },
+              {
+                "X": -86.263245,
+                "Y": -21.39275,
+                "Z": 12.481453
+              },
+              {
+                "X": -88.6966,
+                "Y": -14.578743,
+                "Z": 16.185114
+              },
+              {
+                "X": -88.589806,
+                "Y": 19.15623,
+                "Z": 14.85948
+              }
+            ]
+          }
+        },
+        {
+          "Key": "49",
+          "Value": {
+            "Points": [
+              {
+                "X": -86.46377,
+                "Y": 5.8548656,
+                "Z": -36.920135
+              },
+              {
+                "X": -103.96599,
+                "Y": -18.201433,
+                "Z": -33.671467
+              },
+              {
+                "X": -129.38568,
+                "Y": 11.515253,
+                "Z": -24.116423
+              },
+              {
+                "X": -55.11603,
+                "Y": -4.448034,
+                "Z": -41.785763
+              }
+            ]
+          }
+        },
+        {
+          "Key": "50",
+          "Value": {
+            "Points": [
+              {
+                "X": 97.1958,
+                "Y": -8.04142,
+                "Z": -110.8627
+              },
+              {
+                "X": 25.294256,
+                "Y": -25.743872,
+                "Z": -53.182446
+              },
+              {
+                "X": 18.682829,
+                "Y": 24.138529,
+                "Z": -50.043518
+              },
+              {
+                "X": 59.309994,
+                "Y": -12.744555,
+                "Z": -82.774864
+              }
+            ]
+          }
+        },
+        {
+          "Key": "51",
+          "Value": {
+            "Points": [
+              {
+                "X": -72.101074,
+                "Y": -2.8634074,
+                "Z": -31.331692
+              },
+              {
+                "X": -138.2056,
+                "Y": 6.3828816,
+                "Z": -19.739502
+              },
+              {
+                "X": -103.45221,
+                "Y": -0.8821424,
+                "Z": -25.704824
+              },
+              {
+                "X": -92.55314,
+                "Y": 11.406902,
+                "Z": -28.006832
+              }
+            ]
+          }
+        },
+        {
+          "Key": "53",
+          "Value": {
+            "Points": [
+              {
+                "X": 10.187521,
+                "Y": -5.620704,
+                "Z": -3.942004
+              },
+              {
+                "X": 15.152301,
+                "Y": -11.464284,
+                "Z": 10.2697735
+              },
+              {
+                "X": 10.042389,
+                "Y": 11.001469,
+                "Z": -3.288696
+              },
+              {
+                "X": 29.248194,
+                "Y": -0.17052291,
+                "Z": 18.172653
+              }
+            ]
+          }
+        },
+        {
+          "Key": "54",
+          "Value": {
+            "Points": [
+              {
+                "X": -43.53708,
+                "Y": -5.1827807,
+                "Z": -47.774414
+              },
+              {
+                "X": -20.78234,
+                "Y": -22.31053,
+                "Z": -16.665472
+              },
+              {
+                "X": -70.20042,
+                "Y": -0.4438785,
+                "Z": -8.73552
+              },
+              {
+                "X": -15.651654,
+                "Y": 10.6401825,
+                "Z": 5.294618
+              }
+            ]
+          }
+        },
+        {
+          "Key": "55",
+          "Value": {
+            "Points": [
+              {
+                "X": -34.10545,
+                "Y": -8.06698,
+                "Z": -46.331047
+              },
+              {
+                "X": -68.15333,
+                "Y": -2.546749,
+                "Z": -21.314564
+              },
+              {
+                "X": -31.673105,
+                "Y": 17.065722,
+                "Z": -30.629753
+              },
+              {
+                "X": -23.589615,
+                "Y": -15.343983,
+                "Z": -11.843406
+              }
+            ]
+          }
+        },
+        {
+          "Key": "56",
+          "Value": {
+            "Points": [
+              {
+                "X": 311.61566,
+                "Y": -6.671747,
+                "Z": -4.8537083
+              },
+              {
+                "X": 201.965,
+                "Y": 16.281647,
+                "Z": 11.941
+              },
+              {
+                "X": 77.07609,
+                "Y": -23.659723,
+                "Z": 12.654512
+              },
+              {
+                "X": -11.008796,
+                "Y": 1.7121146,
+                "Z": -7.965767
+              }
+            ]
+          }
+        },
+        {
+          "Key": "57",
+          "Value": {
+            "Points": [
+              {
+                "X": 91.2601,
+                "Y": -14.511331,
+                "Z": -114.61058
+              },
+              {
+                "X": 9.667341,
+                "Y": -30.078728,
+                "Z": -59.73809
+              },
+              {
+                "X": -8.064104,
+                "Y": 24.364971,
+                "Z": -27.987364
+              },
+              {
+                "X": 31.380526,
+                "Y": 25.092094,
+                "Z": -74.87429
+              }
+            ]
+          }
+        },
+        {
+          "Key": "58",
+          "Value": {
+            "Points": [
+              {
+                "X": -33.11556,
+                "Y": 15.479899,
+                "Z": -27.572748
+              },
+              {
+                "X": -29.1254,
+                "Y": 24.37183,
+                "Z": -26.71071
+              },
+              {
+                "X": -28.61387,
+                "Y": 7.708776,
+                "Z": -26.600147
+              },
+              {
+                "X": -30.20763,
+                "Y": -7.3052897,
+                "Z": -26.944504
+              }
+            ]
+          }
+        },
+        {
+          "Key": "59",
+          "Value": {
+            "Points": [
+              {
+                "X": -87.748505,
+                "Y": -1.6558118,
+                "Z": 13.862724
+              },
+              {
+                "X": -86.19926,
+                "Y": -21.449871,
+                "Z": 12.425819
+              },
+              {
+                "X": -88.654396,
+                "Y": -13.4340925,
+                "Z": 16.053988
+              },
+              {
+                "X": -88.78573,
+                "Y": 13.341807,
+                "Z": 15.404817
+              }
+            ]
+          }
+        },
+        {
+          "Key": "60",
+          "Value": {
+            "Points": [
+              {
+                "X": -136.89328,
+                "Y": -6.346442,
+                "Z": -0.19669206
+              },
+              {
+                "X": -18.039602,
+                "Y": 2.6898897,
+                "Z": -47.97173
+              },
+              {
+                "X": -65.37191,
+                "Y": -4.09009,
+                "Z": -40.188786
+              },
+              {
+                "X": -116.83832,
+                "Y": 17.54914,
+                "Z": -32.358215
+              }
+            ]
+          }
+        },
+        {
+          "Key": "61",
+          "Value": {
+            "Points": [
+              {
+                "X": 84.753716,
+                "Y": -4.208626,
+                "Z": -101.681465
+              },
+              {
+                "X": 19.140804,
+                "Y": -25.902433,
+                "Z": -49.31743
+              },
+              {
+                "X": 17.152353,
+                "Y": 12.47761,
+                "Z": -46.735004
+              },
+              {
+                "X": 46.998978,
+                "Y": -1.0468873,
+                "Z": -73.82062
+              }
+            ]
+          }
+        },
+        {
+          "Key": "62",
+          "Value": {
+            "Points": [
+              {
+                "X": -141.7474,
+                "Y": 1.8934394,
+                "Z": -8.479472
+              },
+              {
+                "X": -56.841442,
+                "Y": 4.2416906,
+                "Z": -32.893364
+              },
+              {
+                "X": -72.76887,
+                "Y": 4.4780216,
+                "Z": -31.330103
+              },
+              {
+                "X": -119.75972,
+                "Y": -4.625283,
+                "Z": -22.702524
+              }
+            ]
+          }
+        }
+      ],
+      "bEnableKinematicKinematicHitEvents_Server": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_BullCrab_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Art/SK_BullCrab_01.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_BullCrab_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Art/SK_BullCrab_01.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "MinionIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "bSimulatePhysics": true
+      },
+      "ComponentTags": [
+        "BullCrabSkelMeshStyleComponent"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AlertedModeAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "BullCrabSkelMeshStyleComponent",
+          "BoneNames": [
+            "Armor_06_R_01",
+            "Armor_06_R_02",
+            "Armor_06_L_01",
+            "Armor_06_L_02",
+            "Armor_04_R_01",
+            "Armor_04_R_02",
+            "Armor_04_L_01",
+            "Armor_04_L_02"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_BullCrab_01_Alerted_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Animation/A_BullCrab_01_Alerted_01.1"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'BullCrab_Alerted_Anim'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/BullCrab/BullCrab_Alerted_Anim.0"
+      },
+      "ComponentTags": [
+        "AlertedModeAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AlertToIdleAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "BullCrabSkelMeshStyleComponent",
+          "BoneNames": [
+            "Armor_06_R_01",
+            "Armor_06_R_02",
+            "Armor_06_L_01",
+            "Armor_06_L_02",
+            "Armor_04_R_01",
+            "Armor_04_R_02",
+            "Armor_04_L_01",
+            "Armor_04_L_02"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_BullCrab_01_BackToIdle_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Animation/A_BullCrab_01_BackToIdle_01.1"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'BullCrab_Alert_To_Idle_Anim'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/BullCrab/BullCrab_Alert_To_Idle_Anim.0"
+      },
+      "ComponentTags": [
+        "AlertToIdleAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "JumpAttackAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "BullCrabSkelMeshStyleComponent",
+          "BoneNames": [
+            "Armor_06_R_01",
+            "Armor_06_R_02",
+            "Armor_06_L_01",
+            "Armor_06_L_02",
+            "Armor_04_R_01",
+            "Armor_04_R_02",
+            "Armor_04_L_01",
+            "Armor_04_L_02",
+            "Cylinder_01_R_01",
+            "Cylinder_01_R_02",
+            "Cylinder_01_R_03",
+            "Cylinder_01_R_04",
+            "Cylinder_01_L_01",
+            "Cylinder_01_L_02",
+            "Cylinder_01_L_03",
+            "Cylinder_01_L_04"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_BullCrab_01_JumpAttack_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Animation/A_BullCrab_01_JumpAttack_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'BullCrab_JumpPrepare'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/BullCrab/BullCrab_JumpPrepare.0"
+      },
+      "ComponentTags": [
+        "JumpAttackAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "ShockWaveActiveAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "BullCrabSkelMeshStyleComponent",
+          "BoneNames": [
+            "Cylinder_01_R_01",
+            "Cylinder_01_R_02",
+            "Cylinder_01_R_03",
+            "Cylinder_01_R_04",
+            "Cylinder_01_L_01",
+            "Cylinder_01_L_02",
+            "Cylinder_01_L_03",
+            "Cylinder_01_L_04",
+            "Armor_01_C_01",
+            "Armor_01_C_02",
+            "Armor_01_C_03",
+            "Jaw_01_R_01",
+            "Jaw_01_R_02",
+            "Jaw_01_L_01",
+            "Jaw_01_L_02"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_BullCrab_01_ShockWaveActive_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Animation/A_BullCrab_01_ShockWaveActive_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "ShockWaveActiveAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "ShockWavePreparingAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "BullCrabSkelMeshStyleComponent",
+          "BoneNames": [
+            "Cylinder_01_R_01",
+            "Cylinder_01_R_02",
+            "Cylinder_01_R_03",
+            "Cylinder_01_R_04",
+            "Cylinder_01_L_01",
+            "Cylinder_01_L_02",
+            "Cylinder_01_L_03",
+            "Cylinder_01_L_04",
+            "Armor_01_C_01",
+            "Armor_01_C_02",
+            "Armor_01_C_03",
+            "Jaw_01_R_01",
+            "Jaw_01_R_02",
+            "Jaw_01_L_01",
+            "Jaw_01_L_02"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_BullCrab_01_ShockWavePreparing_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Animation/A_BullCrab_01_ShockWavePreparing_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "ShockWavePreparingAnim"
+      ]
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Peppermint",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyType_Peppermint",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/MintType/Peppermint/C_Peppermint.C_Peppermint_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -1166795672,
+      "EnemyTag": {
+        "TagName": "Enemy.Peppermint.Laser"
+      },
+      "ExcludeActorSpawnFlags": 3,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Peppermint'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_Persistence_Enemy_Peppermint.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

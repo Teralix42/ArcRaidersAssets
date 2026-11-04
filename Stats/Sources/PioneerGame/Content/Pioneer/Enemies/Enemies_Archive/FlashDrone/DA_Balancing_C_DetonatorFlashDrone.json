@@ -1,0 +1,317 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_DetonatorFlashDrone",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Enemies_Archive/FlashDrone/DA_Balancing_C_DetonatorFlashDrone",
+    "Properties": {
+      "EntryName": "C_DetonatorFlashDrone",
+      "AttributeData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Light",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Light"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 27.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Head",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 63.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Weapon",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 90.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 90.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Thruster.Shell",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster.Shell"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 45.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Thruster",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 18.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Weapon.Flasher",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Flasher"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 82.0
+        }
+      ],
+      "DamageData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Weapon.Flasher",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Flasher"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DamageType": "EPioneerDamageType::Blunt",
+          "Damage": 1.0
+        }
+      ],
+      "ForceData": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 1.0,
+          "Small": 0.8,
+          "Medium": 1.0,
+          "Heavy": 0.7,
+          "VeryHeavy": 0.6
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 4.0,
+          "Small": 3.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        }
+      ],
+      "ForceDataConstants": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 18.0,
+          "Small": 10.0,
+          "Medium": 5.0,
+          "Heavy": 10.0,
+          "VeryHeavy": 5.0
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 4.0,
+          "Small": 3.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        }
+      ],
+      "ForceDataGrabs": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 50.0,
+          "Small": 30.0,
+          "Medium": 20.0,
+          "Heavy": 15.0,
+          "VeryHeavy": 5.0
+        }
+      ],
+      "PullResistance": "EPullResistance::Yeeted"
+    }
+  }
+]

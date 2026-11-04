@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_RollBot_Pop",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyType_RollBot_Pop",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.C_RollBot_Pop_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -504231823,
+      "EnemyTag": {
+        "TagName": "Enemy.Pop.Explode"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_Drone_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_Drone.0"
+        }
+      },
+      "bMeleeVulnerable": true,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_RollBot_Pop_Persistence'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_RollBot_Pop_Persistence.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Launcher_AntiArc_Medium_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Item_Launcher_AntiArc_Medium_01",
+    "SuperStruct": {
+      "ObjectName": "Class'AntiArcLauncher'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Launcher_AntiArc_Medium_01_C'Default__BP_Item_Launcher_AntiArc_Medium_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Item_Launcher_AntiArc_Medium_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Launcher_AntiArc_Medium_01_C",
+    "Name": "Default__BP_Item_Launcher_AntiArc_Medium_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Item_Launcher_AntiArc_Medium_01.BP_Item_Launcher_AntiArc_Medium_01_C'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Item_Launcher_AntiArc_Medium_01",
+    "Properties": {
+      "NonArcImpactDamage": 20.0,
+      "NonArcImpactProjectile": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_NonArc_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Projectile_Launcher_NonArc.0"
+      },
+      "bUseBulletSubsystem": true,
+      "BulletRadius": 7.0,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_LauncherAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Shared/Projectiles/LauncherAmmo/DA_Item_LauncherAmmo.0"
+      },
+      "BasePhysicalDamage": 0.0,
+      "BaseFirePower": 15000.0,
+      "BaseReloadTime": 3.0,
+      "BaseFireRate": 40.0,
+      "BaseBurnRate": 0.004644,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_BasicMeleeWeapon_Hit'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_BasicMeleeWeapon_Hit.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "AiArmorDamageMultiplier": 2.5,
+      "AiArmorPropagationMultiplier": 0.0,
+      "BurstSize": 1,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_AntiArc_Medium_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Projectile_Launcher_AntiArc_Medium_01.0"
+      },
+      "bLoopingReloads": true,
+      "LoopingReloadEntryTime": 0.3,
+      "LoopingReloadLoopTime": 1.5,
+      "LoopingReloadExitTime": 0.3,
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_Launcher_AntiArc_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_RecoilProfile_Launcher_AntiArc_Medium_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_Launcher_AntiArc_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_DispersionState_Launcher_AntiArc_Medium_01.0"
+      },
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'ShotgunCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_Launcher_AntiArc_Medium_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_WeaponQualitySet_Launcher_AntiArc_Medium_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 100.0,
+        "FireRate": 8.3,
+        "Range": 38.88,
+        "Stability": 97.2,
+        "Agility": 67.9,
+        "Stealth": 1.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": -1
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Stock_Default_01'",
+            "ObjectPath": "/Game/Pioneer/Items/WeaponMod/Stock_Default_01/DA_Visual_WeaponMod_Stock_Default_01.0"
+          },
+          "UnlocksAtQuality": -1
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Launcher_AntiArc_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_Item_Launcher_AntiArc_Medium_01.0"
+      },
+      "BaseCameraZoomTime": 0.8,
+      "ChargeTimerDuration": 1.0,
+      "bWalkOnSecondaryUse": true
+    }
+  }
+]

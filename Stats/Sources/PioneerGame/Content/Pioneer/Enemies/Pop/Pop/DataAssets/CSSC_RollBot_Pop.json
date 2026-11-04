@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_RollBot_Pop",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/CSSC_RollBot_Pop",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": [
+            "Part.Decorator.ID.HeadPivot"
+          ]
+        },
+        {
+          "Key": "Hull_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Frame_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Frame_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hull_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": "EPartResistanceGroup::Normal"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": [
+            "Part.Decorator.ID.HeadPivot"
+          ]
+        },
+        {
+          "Key": "Hull_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Pistol_01_Burst_IncreasedBurst_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst_IncreasedBurst",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_Pistol_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/BP_Item_Pistol_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Pistol_01_Burst_IncreasedBurst_C'Default__BP_Item_Pistol_01_Burst_IncreasedBurst_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst_IncreasedBurst.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Pistol_01_Burst_IncreasedBurst_C",
+    "Name": "Default__BP_Item_Pistol_01_Burst_IncreasedBurst_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst_IncreasedBurst.BP_Item_Pistol_01_Burst_IncreasedBurst_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst_IncreasedBurst",
+    "Template": {
+      "ObjectName": "BP_Item_Pistol_01_Ascended_C'Default__BP_Item_Pistol_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/BP_Item_Pistol_01_Ascended.1"
+    },
+    "Properties": {
+      "BaseVisualStats": {
+        "FireRate": 42.718,
+        "Stability": 49.465
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Pistol_01_Burst_IncreasedBurst'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/DA_Item_Pistol_01_Burst_IncreasedBurst.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Pistol_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Pistol_01_Burst'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Burst.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Pistol_01_IncreasedBurst'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_IncreasedBurst.0"
+        }
+      ]
+    }
+  }
+]

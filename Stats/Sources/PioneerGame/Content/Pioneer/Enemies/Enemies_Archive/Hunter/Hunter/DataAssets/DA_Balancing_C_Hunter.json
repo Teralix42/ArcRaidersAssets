@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_Hunter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Enemies_Archive/Hunter/Hunter/DataAssets/DA_Balancing_C_Hunter",
+    "Properties": {
+      "EntryName": "C_Hunter",
+      "AttributeData": [
+        {
+          "IdentifierQueryName": "",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "Health": 200.0
+        },
+        {
+          "IdentifierQueryName": "",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              3,
+              1,
+              0
+            ],
+            "UserDescription": "Not Frame",
+            "AutoDescription": " NONE( Part.Decorator.ID.Frame )"
+          },
+          "Health": 50.0
+        }
+      ]
+    }
+  }
+]

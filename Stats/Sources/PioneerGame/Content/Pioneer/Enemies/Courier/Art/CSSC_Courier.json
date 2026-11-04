@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Courier",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Courier/Art/CSSC_Courier",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "ScannerSocket",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        },
+        {
+          "Key": "SmallThruster_01",
+          "Value": []
+        },
+        {
+          "Key": "SmallThruster_02",
+          "Value": []
+        },
+        {
+          "Key": "SmallThruster_03",
+          "Value": []
+        },
+        {
+          "Key": "Main",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Hatch_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Thruster_C_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Thruster_C_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Main",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hatch_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Main",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Hatch_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Thruster_C_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": "EPartResistanceGroup::Sturdy"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "ScannerSocket",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        },
+        {
+          "Key": "SmallThruster_01",
+          "Value": []
+        },
+        {
+          "Key": "SmallThruster_02",
+          "Value": []
+        },
+        {
+          "Key": "SmallThruster_03",
+          "Value": []
+        },
+        {
+          "Key": "Main",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Hatch_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Thruster_C_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        }
+      ]
+    }
+  }
+]

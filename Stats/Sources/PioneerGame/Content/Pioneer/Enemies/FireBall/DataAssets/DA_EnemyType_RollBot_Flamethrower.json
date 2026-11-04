@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_RollBot_Flamethrower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyType_RollBot_Flamethrower",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.C_RollBot_Flamethrower_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 299263764,
+      "EnemyTag": {
+        "TagName": "Enemy.MediumRollbot.Flamethrower"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_Drone_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_Drone.0"
+        }
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_RollBot_Flamethrower'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_Persistence_Enemy_RollBot_Flamethrower.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

@@ -1,0 +1,582 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_BullCrab_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Bullcrab/DA_Balancing_C_BullCrab_01",
+    "Properties": {
+      "EntryName": "C_BullCrab_01",
+      "AttributeData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.Group.Indestructible",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Indestructible"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.Group.Indestructible )"
+          },
+          "Health": 5000.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 1100.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Core",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 2000.0
+        },
+        {
+          "IdentifierQueryName": "[Part.Decorator.ID.Leg] [Part.Decorator.Group.Relative.Upper] ",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Upper"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Upper )"
+          },
+          "Health": 240.0
+        },
+        {
+          "IdentifierQueryName": "[Part.Decorator.ID.Leg] [Part.Decorator.Group.Relative.Lower] ",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower )"
+          },
+          "Health": 160.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Heavy",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Heavy"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 48.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Medium",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Medium"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 16.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Light",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Light"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Light )"
+          },
+          "Health": 6.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.HealthGroup.Base",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.HealthGroup.Base"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.HealthGroup.Base )"
+          },
+          "Health": 100.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.HealthGroup.SubParts",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.HealthGroup.SubParts"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.HealthGroup.SubParts )"
+          },
+          "Health": 24.0
+        }
+      ],
+      "DamageData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.Group.Indestructible",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Indestructible"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.Group.Indestructible )"
+          },
+          "DamageType": "EPioneerDamageType::Thermal",
+          "Damage": 0.5
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DamageType": "EPioneerDamageType::Thermal",
+          "Damage": 0.5
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Core",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DamageType": "EPioneerDamageType::Blunt",
+          "Damage": 85.0
+        }
+      ],
+      "ForceData": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 5.0,
+          "Small": 3.0,
+          "Medium": 2.0,
+          "Heavy": 0.5,
+          "VeryHeavy": 0.3
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 5.0,
+          "Small": 2.0,
+          "Medium": 1.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Core",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+          },
+          "VerySmall": 8.0,
+          "Small": 5.0,
+          "Medium": 3.5,
+          "Heavy": 0.5,
+          "VeryHeavy": 0.3
+        }
+      ],
+      "ForceDataConstants": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 2.0,
+          "Small": 2.0,
+          "Medium": 1.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 10.0,
+          "Small": 5.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 0.0,
+          "Small": 0.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Leg",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 0.0,
+          "Small": 0.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        }
+      ],
+      "ForceDataGrabs": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 4.0,
+          "Small": 3.0,
+          "Medium": 3.0,
+          "Heavy": 3.0,
+          "VeryHeavy": 3.0
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 10.0,
+          "Small": 5.0,
+          "Medium": 3.0,
+          "Heavy": 3.0,
+          "VeryHeavy": 3.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 3.0,
+          "Small": 3.0,
+          "Medium": 3.0,
+          "Heavy": 3.0,
+          "VeryHeavy": 3.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Leg",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 3.0,
+          "Small": 3.0,
+          "Medium": 3.0,
+          "Heavy": 3.0,
+          "VeryHeavy": 3.0
+        }
+      ],
+      "PullResistance": "EPullResistance::TargetAnchored"
+    }
+  }
+]

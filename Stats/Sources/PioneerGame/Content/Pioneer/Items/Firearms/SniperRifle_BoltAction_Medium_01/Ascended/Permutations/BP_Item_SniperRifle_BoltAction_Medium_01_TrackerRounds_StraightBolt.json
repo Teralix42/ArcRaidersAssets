@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_SniperRifle_BoltAction_Medium_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/BP_Item_SniperRifle_BoltAction_Medium_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt_C'Default__BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt_C",
+    "Name": "Default__BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt.BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/BP_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt",
+    "Template": {
+      "ObjectName": "BP_Item_SniperRifle_BoltAction_Medium_01_Ascended_C'Default__BP_Item_SniperRifle_BoltAction_Medium_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/BP_Item_SniperRifle_BoltAction_Medium_01_Ascended.1"
+    },
+    "Properties": {
+      "BaseVisualStats": {
+        "FireRate": 10.0,
+        "Range": 65.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineMedium'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineMedium.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Mag_Medium_Sniper_01'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Magazines/Mag_Medium_Sniper_01/DA_Visual_WeaponMod_Mag_Medium_Sniper_01.0"
+          },
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Permutations/DA_Item_SniperRifle_BoltAction_Medium_01_TrackerRounds_StraightBolt.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SniperRifle_BoltAction_Medium_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Upgrades/DA_Upgrade_SniperRifle_BoltAction_Medium_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SniperRifle_BoltAction_Medium_01_TrackerRounds'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Upgrades/DA_Upgrade_SniperRifle_BoltAction_Medium_01_TrackerRounds.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SniperRifle_BoltAction_Medium_01_StraightBolt'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SniperRifle_BoltAction_Medium_01/Ascended/Upgrades/DA_Upgrade_SniperRifle_BoltAction_Medium_01_StraightBolt.0"
+        }
+      ]
+    }
+  }
+]

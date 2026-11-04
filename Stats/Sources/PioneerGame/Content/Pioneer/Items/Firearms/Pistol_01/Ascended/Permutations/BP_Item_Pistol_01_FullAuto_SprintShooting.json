@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Pistol_01_FullAuto_SprintShooting_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_FullAuto_SprintShooting",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_Pistol_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/BP_Item_Pistol_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Pistol_01_FullAuto_SprintShooting_C'Default__BP_Item_Pistol_01_FullAuto_SprintShooting_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_FullAuto_SprintShooting.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Pistol_01_FullAuto_SprintShooting_C",
+    "Name": "Default__BP_Item_Pistol_01_FullAuto_SprintShooting_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_FullAuto_SprintShooting.BP_Item_Pistol_01_FullAuto_SprintShooting_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_FullAuto_SprintShooting",
+    "Template": {
+      "ObjectName": "BP_Item_Pistol_01_Ascended_C'Default__BP_Item_Pistol_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/BP_Item_Pistol_01_Ascended.1"
+    },
+    "Properties": {
+      "BaseVisualStats": {
+        "Damage": 8.0,
+        "FireRate": 53.333,
+        "Stability": 41.728,
+        "Agility": 89.718
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Pistol_01_FullAuto_SprintShooting'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/DA_Item_Pistol_01_FullAuto_SprintShooting.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Pistol_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Pistol_01_FullAuto'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_FullAuto.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Pistol_01_SprintShooting'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_SprintShooting.0"
+        }
+      ]
+    }
+  }
+]

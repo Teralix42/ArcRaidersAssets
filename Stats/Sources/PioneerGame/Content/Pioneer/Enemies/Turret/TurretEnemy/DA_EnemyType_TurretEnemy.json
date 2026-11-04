@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_TurretEnemy",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Turret/TurretEnemy/DA_EnemyType_TurretEnemy",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.C_TurretEnemy_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 913532953,
+      "EnemyTag": {
+        "TagName": "Enemy.Turret.Rifle"
+      },
+      "bMeleeVulnerable": true,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_TurretEnemy'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/DA_Persistence_Enemy_TurretEnemy.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

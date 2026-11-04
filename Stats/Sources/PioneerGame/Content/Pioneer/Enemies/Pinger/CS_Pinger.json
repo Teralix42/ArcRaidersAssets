@@ -1,0 +1,1724 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_Pinger_Scanner'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Snitch/DA_Pinger_Scanner.0"
+      },
+      "ActiveAlertnessStates": 7,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Radar"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Radar )"
+      },
+      "TargetAngle": 35.0,
+      "LengthChangeSpeed": 2000.0,
+      "RotationSpeed": 35.0
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Pinger_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Pinger_Comms.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Pinger_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Pinger_Comms.0"
+            },
+            "StateOscillationFrequency": 10.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Pinger_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Pinger/Pinger_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Pinger_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Pinger/Pinger_Alerted.0"
+            },
+            "StateOscillationFrequency": 4.5,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Pinger_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Pinger/Pinger_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 3.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Fleeing",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 1.5,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'Pinger_Comms'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Pinger_Comms.0"
+      },
+      "bSignalLocalPlayerTargetOnly": false,
+      "TagEffectMap": [
+        {
+          "Key": {
+            "TagName": "Ability.ConstructableTakeoff"
+          },
+          "Value": {
+            "OnTagAppliedEffect": {
+              "ObjectName": "EffectDataAsset'DA_Pinger_ReturnThruster'",
+              "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Snitch/DA_Pinger_ReturnThruster.0"
+            },
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": true,
+            "EffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'Pinger_OrbitThruster'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Pinger/Pinger_OrbitThruster.0"
+            },
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": true,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Pinger_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Pinger/CS_Pinger",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableHoverEngineAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Combat_SimpleAnimationSequenceComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ThrusterStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ThrusterStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationRepositoryComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SimpleAnimationSequenceComponent_Idle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Small",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Pinger_C'Default__CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.10"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Small_C",
+    "Name": "BP_DamageStyleDriver_Small_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.BP_DamageStyleDriver_Small_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Small_C'Default__BP_DamageStyleDriver_Small_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.1"
+    },
+    "Properties": {
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Frame"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedSmoke_XS'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedSmoke_XS.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.CallReinforcements.AlertNearby"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_AlertNearby_Pinger'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_AlertNearby_Pinger.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ],
+      "Extensions": [
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionContinuousTargetLocation'CS_Pinger_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionContinuousTargetLocation_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionContinuousTargetLocation",
+    "Name": "CapabilityStyleDriverExtensionContinuousTargetLocation_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionContinuousTargetLocation'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Pinger_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.5"
+    },
+    "Properties": {
+      "AbilityTags": [
+        "Ability.CallReinforcements.AlertNearby"
+      ],
+      "ParameterName": "TargetLocation",
+      "bGetLocationFromSocket": true,
+      "SocketName": "Chest"
+    }
+  },
+  {
+    "Type": "ConstructableAnimationRepositoryComponent",
+    "Name": "ConstructableAnimationRepositoryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationRepositoryComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "AnimationRepository": {
+        "ObjectName": "ConstructableAnimationRepository'GenericDroneAnimationRepository'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/SmallFlyingDrone/GenericDroneAnimationRepository.0"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableHoverEngineAudioComponent",
+    "Name": "ConstructableHoverEngineAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableHoverEngineAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'Pinger_Engine'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Pinger/Pinger_Engine.0"
+      },
+      "SpeedInterpolation": {
+        "InterpolationTime": 0.3
+      },
+      "AccelerationInterpolation": {
+        "InterpolationTime": 0.4
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Pinger_C'Default__CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.10"
+    }
+  },
+  {
+    "Type": "CS_Pinger_C",
+    "Name": "Default__CS_Pinger_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Pinger/CS_Pinger.CS_Pinger_C'",
+    "Package": "/Game/Pioneer/Enemies/Pinger/CS_Pinger",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -70.34529,
+          "Y": -97.65735,
+          "Z": -65.00463
+        },
+        "Max": {
+          "X": 112.98828,
+          "Y": 97.65738,
+          "Z": 34.507088
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Pinger_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.9"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Pinger_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.12"
+      },
+      "VariableGUID": "FC2D2F6D-4E3DE501-22F5C1A2-8465F67C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Pinger_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.29"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.17"
+        }
+      ],
+      "VariableGUID": "ABD77BA9-42030038-E34B7EA3-B5C69A77",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_Pinger_C:Combat_SimpleAnimationSequenceComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.26"
+      },
+      "VariableGUID": "78FC8961-4F18166E-1B3C0EBE-3B1FB26C",
+      "InternalVariableName": "Combat_SimpleAnimationSequenceComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_Pinger_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.0"
+      },
+      "VariableGUID": "60234417-45ACF450-307208BB-C9546065",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableHoverEngineAudioComponent'CS_Pinger_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.8"
+      },
+      "VariableGUID": "CC445E9B-447CB2B5-EBA373B4-0E70B731",
+      "InternalVariableName": "ConstructableHoverEngineAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Small_C'CS_Pinger_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.3"
+      },
+      "VariableGUID": "44A4356E-4B54463F-7924398D-E82ABF02",
+      "InternalVariableName": "BP_DamageStyleDriver_Small"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Pinger_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.11"
+      },
+      "VariableGUID": "A2CCFB25-4DCB6717-1166FFB0-98B771BE",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Pinger_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.4"
+      },
+      "VariableGUID": "13CD8006-436C1EB8-44B6C59D-DB0CC677",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_Pinger_C:SimpleAnimationSequenceComponent_Idle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.27"
+      },
+      "VariableGUID": "F421F9E0-457FFC16-04B35DB8-3631195A",
+      "InternalVariableName": "SimpleAnimationSequenceComponent_Idle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationRepositoryComponent'CS_Pinger_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.7"
+      },
+      "VariableGUID": "A7BDA0B5-4EB95855-73C998B7-5B11CA66",
+      "InternalVariableName": "ConstructableAnimationRepositoryComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Pinger_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.5"
+      },
+      "VariableGUID": "A300155D-48D5B36F-92F9F4B3-8C321CB0",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_Pinger_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.1"
+      },
+      "VariableGUID": "5FD963BF-49AE6F2A-7510C2BC-CA063AAA",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Pinger_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ThrusterStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ThrusterStyleDriver'CS_Pinger_C:ThrusterStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.30"
+      },
+      "VariableGUID": "14BFE4C7-46E7B3CC-102BF59D-21ED50C0",
+      "InternalVariableName": "ThrusterStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "Combat_SimpleAnimationSequenceComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_01_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_02_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_02",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_L_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_03_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_03",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_04_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_04",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_R_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "SubFrame_01_GEN_VARIABLE",
+          "TrackForComponentTag": "SubFrame_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "SubFrame_01",
+          "AttachSocketName": "Thruster_01_Socket",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_SubFrame_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_SubFrame_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "SubFrame_02_GEN_VARIABLE",
+          "TrackForComponentTag": "SubFrame_02",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "SubFrame_02",
+          "AttachSocketName": "Thruster_02_Socket",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_SubFrame_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_SubFrame_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "SubFrame_03_GEN_VARIABLE",
+          "TrackForComponentTag": "SubFrame_03",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "SubFrame_03",
+          "AttachSocketName": "Thruster_03_Socket",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_SubFrame_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_SubFrame_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Head_GEN_VARIABLE",
+          "TrackForComponentTag": "Head",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Head_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_Head_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_Head_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.2,
+      "ComponentTags": [
+        "Combat"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "SimpleAnimationSequenceComponent_Idle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "StandardPlaySpeed": 0.5,
+      "AnimationPlaybackMode": "EAnimationPlaybackMode::Loop",
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.2,
+      "ComponentTags": [
+        "Idle"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.20"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.20"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Pinger_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.13"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_Pinger'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/DataAssets/CSSC_Pinger.0"
+      },
+      "VirtualPartBones": [
+        "ScannerRoot",
+        "Thruster_L_01",
+        "Thruster_L_02",
+        "Thruster_R_01",
+        "Thruster_R_02",
+        "Thruster_Virtual_L_01",
+        "Thruster_Virtual_L_02",
+        "Thruster_Virtual_R_01",
+        "Thruster_Virtual_R_02"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 12
+      },
+      "SocketIDs": [
+        {
+          "Key": "1",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Laser",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Head_01"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 9.100482,
+                "Y": 1.9343886,
+                "Z": 7.85512
+              },
+              {
+                "X": -19.89611,
+                "Y": 9.528601E-06,
+                "Z": -4.7109723
+              },
+              {
+                "X": 9.517014,
+                "Y": -16.483944,
+                "Z": -31.230698
+              },
+              {
+                "X": -7.224866,
+                "Y": 12.513873,
+                "Z": -42.603333
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.621269,
+                "Y": -0.010259637,
+                "Z": -24.186695
+              },
+              {
+                "X": -1.6147728,
+                "Y": 18.080654,
+                "Z": 29.631725
+              },
+              {
+                "X": -14.529827,
+                "Y": -21.291105,
+                "Z": 29.631721
+              },
+              {
+                "X": 39.018044,
+                "Y": 0.09778515,
+                "Z": 29.631723
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 58.461273,
+                "Y": 0.22616354,
+                "Z": 2.6514254
+              },
+              {
+                "X": 5.346802,
+                "Y": 59.215797,
+                "Z": 2.6514258
+              },
+              {
+                "X": -40.716484,
+                "Y": 0.22619127,
+                "Z": -2.6615016
+              },
+              {
+                "X": -5.020093,
+                "Y": -39.418705,
+                "Z": -2.6615133
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Pinger_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/Art/SK_Pinger_01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Pinger_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/Art/SK_Pinger_01.1"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "MinionIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "LinearDamping": 0.8,
+        "AngularDamping": 8.0,
+        "bSimulatePhysics": true
+      }
+    }
+  },
+  {
+    "Type": "ThrusterStyleDriver",
+    "Name": "ThrusterStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ThrusterStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster.Small"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Small )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "ThrusterSocketGroup": "None",
+          "bAttachThrusterFXToChildren": false,
+          "FXThrusterChildren": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": null,
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Drone_Exhaust_Tiny'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Exhaust/DA_Drone_Exhaust_Tiny.0"
+          },
+          "bVectorized": false,
+          "ForceInterpolationAlpha": 0.3,
+          "MinimumThrusterForceNormalized": 0.0,
+          "bUsePeriodicThrusters": false,
+          "bScalePeriodWithMovement": false,
+          "PeriodBias": 3.0,
+          "PeriodMultiplier": 5.0
+        },
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster.Big"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Big )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Pinger_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Pinger/CS_Pinger.2"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "ThrusterSocketGroup": "None",
+          "bAttachThrusterFXToChildren": false,
+          "FXThrusterChildren": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": null,
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Drone_Exhaust_LIght'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Exhaust/DA_Drone_Exhaust_LIght.0"
+          },
+          "bVectorized": false,
+          "ForceInterpolationAlpha": 0.3,
+          "MinimumThrusterForceNormalized": 0.0,
+          "bUsePeriodicThrusters": false,
+          "bScalePeriodWithMovement": false,
+          "PeriodBias": 3.0,
+          "PeriodMultiplier": 5.0
+        }
+      ]
+    }
+  }
+]

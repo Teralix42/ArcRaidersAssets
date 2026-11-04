@@ -1,0 +1,3041 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Chonk.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Sensor"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Sensor )"
+      }
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Combat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Combat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Chonk_Comms.0"
+            },
+            "StateOscillationFrequency": 7.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Chonk_Comms.0"
+            },
+            "StateOscillationFrequency": 7.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Idle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Idle.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Chonk_Comms.0"
+            },
+            "StateOscillationFrequency": 15.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'Chonk_TargetSwitch'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_TargetSwitch.0"
+      },
+      "TagEffectMap": [
+        {
+          "Key": {
+            "TagName": "AI.PowerState.Drained"
+          },
+          "Value": {
+            "OnTagAppliedEffect": {
+              "ObjectName": "EffectDataAsset'DA_Rollbot_RecoverySteam'",
+              "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Rollbot_RecoverySteam.0"
+            },
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": true,
+            "EffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'Chonk_Drained'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Drained.0"
+            },
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": false,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Chonk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Chonk/CS_Chonk",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AttackCoolingDownAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Large",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sensor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Muzzle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_MovingPartAudioStyleDriver_Chonk",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_Chonk_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CollisionStyleDriver_Medium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserFlareStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LaserFlareStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Chonk_C'Default__CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.9"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_CollisionStyleDriver_Medium_C",
+    "Name": "BP_CollisionStyleDriver_Medium_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.BP_CollisionStyleDriver_Medium_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Template": {
+      "ObjectName": "BP_CollisionStyleDriver_Medium_C'Default__BP_CollisionStyleDriver_Medium_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.1"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Large_C",
+    "Name": "BP_DamageStyleDriver_Large_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.BP_DamageStyleDriver_Large_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Large_C'Default__BP_DamageStyleDriver_Large_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Chonk.0"
+      },
+      "PartOverrideSeverityDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Small'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Small.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Frame"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Arm.Front"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Indestructible"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Head"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedSmoke_Small'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedSmoke_Small.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Weakpoint"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedFire_XS'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedFire_XS.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_MovingPartAudioStyleDriver_Chonk_C",
+    "Name": "BP_MovingPartAudioStyleDriver_Chonk_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.BP_MovingPartAudioStyleDriver_Chonk_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Template": {
+      "ObjectName": "BP_MovingPartAudioStyleDriver_Chonk_C'Default__BP_MovingPartAudioStyleDriver_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.1"
+    },
+    "Properties": {
+      "MultiPartEffects": [
+        {
+          "Sound": {
+            "ObjectName": "SoundCue'Chonk_MainEngine'",
+            "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_MainEngine.0"
+          },
+          "AttachPartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+          },
+          "AttachOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 250.0
+          },
+          "TrackedPartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Lower"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Lower )"
+          },
+          "Mode": "EPartMovementTrackingMode::AngularSpeed",
+          "bAutoNormalize": true,
+          "InterpolationAlpha": 0.1,
+          "MinSpeedForRangeUpdate": 200.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Suppressive"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Chonk_WeaponCommitFire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Chonk_WeaponCommitFire.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::CoolingDown",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::CoolingDown",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Chonk_WeaponCoolDown'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Chonk_WeaponCoolDown.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Chonk_C'Default__CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.9"
+    },
+    "Properties": {
+      "ProxyPartList": [
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.Muzzle"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 52,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "Muzzle"
+          },
+          "PartName": "Muzzle",
+          "bIsDestroyed": false
+        },
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.ID.Sensor"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 53,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "Sensor"
+          },
+          "PartName": "Sensor",
+          "bIsDestroyed": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CS_Chonk_C",
+    "Name": "Default__CS_Chonk_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Chonk/CS_Chonk.CS_Chonk_C'",
+    "Package": "/Game/Pioneer/Enemies/Chonk/CS_Chonk",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -309.40112,
+          "Y": -340.26498,
+          "Z": -128.55013
+        },
+        "Max": {
+          "X": 313.1927,
+          "Y": 340.265,
+          "Z": 281.15942
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Chonk_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.8"
+      }
+    }
+  },
+  {
+    "Type": "LaserFlareStyleDriver",
+    "Name": "LaserFlareStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "LaserObjects": [
+        {
+          "ObjectName": "TargetingLaserObject'CS_Chonk_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_Forward",
+    "Name": "LaserFlareTargeting_Forward_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_Forward'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_Chonk_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.31"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 52,
+          "PartDisplayName": "Muzzle"
+        }
+      ],
+      "_DefaultTraceLength": 12000.0
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "Parts": [
+            {
+              "AssosiatedCapabilityParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.ID.Turret"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": {
+                            "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+                            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+                          }
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "Weapon_01_Barrel_01",
+                    "PartID": 15,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.Muzzle"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.Muzzle )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": {
+                            "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+                            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+                          }
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "Muzzle",
+                    "PartID": 52,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationSocketName": "None"
+            }
+          ],
+          "NiagaraSystemSettings": {
+            "NiagaraSystem": {
+              "AssetPathName": "/Game/Pioneer/Effects/Systems/Weapons/Muzzleflashes/Generic/NS_Muzzleflash_Drone_Chonk.NS_Muzzleflash_Drone_Chonk",
+              "SubPathString": ""
+            },
+            "bCastShadow": false,
+            "bCanBePredicted": true,
+            "NiagaraDataChannelAsset": null
+          }
+        }
+      ],
+      "MuzzleAudioDefinitions": [
+        {
+          "StylePartList": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Turret"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+              }
+            },
+            "PartList": [
+              {
+                "SocketSelection": {
+                  "SocketName": "None"
+                },
+                "StyleProxy": {
+                  "Proxy": {
+                    "RelativeTransform": {
+                      "Rotation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0,
+                        "W": 1.0,
+                        "IsNormalized": true,
+                        "Size": 1.0,
+                        "SizeSquared": 1.0
+                      },
+                      "Translation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "Scale3D": {
+                        "X": 1.0,
+                        "Y": 1.0,
+                        "Z": 1.0
+                      }
+                    },
+                    "ComponentName": "None",
+                    "ComponentDisplayName": "None",
+                    "PropertyOuter": {
+                      "PropertyActorClass": {
+                        "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+                        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+                      }
+                    }
+                  },
+                  "PartID": -1,
+                  "AttachName": "None"
+                },
+                "PartName": "Weapon_01_Barrel_01",
+                "PartID": 15,
+                "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+              }
+            ]
+          },
+          "WeaponAudioClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_WeaponAudio_Chonk_GatlingGun_C'",
+            "ObjectPath": "/Game/Pioneer/Audio/Weapons/WeaponSynthAssets/WeaponAudioComponents/ARC/BP_WeaponAudio_Chonk_GatlingGun.0"
+          },
+          "bSharedLoopAcrossParts": false,
+          "SharedLoopLocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDriveIntensityFromFiringParts": false,
+          "IntensityParameterName": "FiringIntensity",
+          "bDriveFireRateFromFiringParts": false,
+          "FireRatePerExtraFiringPart": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Chonk_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.13"
+      },
+      "VariableGUID": "CFD46628-45A8BB8D-853065AA-751A0967",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Chonk_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.29"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.16"
+        }
+      ],
+      "VariableGUID": "A97313A9-4E66EA17-7D3C3392-4ACC77DD",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": null,
+      "AttachToName": "Sensor",
+      "VariableGUID": "51A43EA8-43A0BD05-408D3E92-24A6DAA4",
+      "InternalVariableName": "Sensor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Large_C'CS_Chonk_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.4"
+      },
+      "VariableGUID": "D4F6CDF1-4AA9333B-C03C568F-496C124B",
+      "InternalVariableName": "BP_DamageStyleDriver_Large"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_Chonk_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.0"
+      },
+      "VariableGUID": "4839283F-4DC50694-E559F394-7A299CBF",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_Chonk_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MovingPartAudioStyleDriver_Chonk_C'CS_Chonk_C:BP_MovingPartAudioStyleDriver_Chonk_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.5"
+      },
+      "VariableGUID": "841244E9-42F6BB4E-CDDD53A1-9D60D06D",
+      "InternalVariableName": "BP_MovingPartAudioStyleDriver_Chonk"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_Chonk_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.1"
+      },
+      "VariableGUID": "B26F2318-4F9C6C5A-6FE09884-0B547ADF",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": null,
+      "AttachToName": "Muzzle",
+      "VariableGUID": "83AFD0BD-4650420C-2C2C2C85-80E1C84A",
+      "InternalVariableName": "Muzzle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Chonk_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.6"
+      },
+      "VariableGUID": "FA5E39EC-416083FA-38337097-FE98A5AD",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Chonk_C:AttackCoolingDownAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.30"
+      },
+      "VariableGUID": "153519E6-4AC0C911-EB12B1AB-3F6C8E65",
+      "InternalVariableName": "AttackCoolingDownAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_Chonk_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.3"
+      },
+      "VariableGUID": "55AD11F2-4AE2EF67-D837E0B7-C3B939ED",
+      "InternalVariableName": "BP_CollisionStyleDriver_Medium"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LaserFlareStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LaserFlareStyleDriver'CS_Chonk_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.10"
+      },
+      "VariableGUID": "ED453F4F-47E240BE-BFEB0B8F-806A72E0",
+      "InternalVariableName": "LaserFlareStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_Chonk_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.12"
+      },
+      "VariableGUID": "428962DD-4089B96F-946C8593-08AED80F",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Chonk_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.7"
+      },
+      "VariableGUID": "D494DB5F-4292FCEE-3A2C06B0-6ACDF688",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.22"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.22"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Chonk_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.14"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_GenericMediumSizedLegged_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Dismemberment/DA_GenericMediumSizedLegged_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSM_Chonk_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Chonk_01/CSSM_Chonk_01.0"
+      },
+      "VirtualPartBones": [
+        "HeadPivot",
+        "Foot_L_01",
+        "Foot_L_02",
+        "Foot_L_03",
+        "Foot_R_01",
+        "Foot_R_02",
+        "Foot_R_03"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 52
+      },
+      "SocketGroups": [
+        {
+          "Key": "15",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "Muzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "SocketIDs": [
+        {
+          "Key": "2",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Sensor",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Head_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Weapon_01_Barrel_01"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 101.5173,
+                "Y": 114.2816,
+                "Z": 35.456333
+              },
+              {
+                "X": 101.51732,
+                "Y": -114.281624,
+                "Z": 35.4564
+              },
+              {
+                "X": -98.738464,
+                "Y": 76.77081,
+                "Z": 86.38615
+              },
+              {
+                "X": -98.738464,
+                "Y": -76.7708,
+                "Z": 86.38614
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 167.42223,
+                "Y": -0.0005344211,
+                "Z": 97.15172
+              },
+              {
+                "X": -200.9158,
+                "Y": -76.81117,
+                "Z": 117.677795
+              },
+              {
+                "X": -204.9848,
+                "Y": -0.0009613002,
+                "Z": 219.85405
+              },
+              {
+                "X": 2.2585933,
+                "Y": -0.0009460212,
+                "Z": 191.1796
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 77.70497,
+                "Y": -18.81701,
+                "Z": -3.3608284
+              },
+              {
+                "X": -7.3041506,
+                "Y": 14.249544,
+                "Z": 81.484314
+              },
+              {
+                "X": -75.281654,
+                "Y": -31.140709,
+                "Z": -3.3377595
+              },
+              {
+                "X": -6.245012,
+                "Y": 15.043064,
+                "Z": -81.474335
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -151.20544,
+                "Y": 99.05285,
+                "Z": -44.37764
+              },
+              {
+                "X": -20.230173,
+                "Y": 45.143276,
+                "Z": -70.38918
+              },
+              {
+                "X": -133.63963,
+                "Y": 64.61997,
+                "Z": 99.55219
+              },
+              {
+                "X": -38.23437,
+                "Y": 8.549246,
+                "Z": 51.640255
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 33.78709,
+                "Y": -7.300226,
+                "Z": -50.722588
+              },
+              {
+                "X": 59.072815,
+                "Y": -60.33678,
+                "Z": 72.73711
+              },
+              {
+                "X": 212.17734,
+                "Y": -58.812374,
+                "Z": 27.349718
+              },
+              {
+                "X": 138.91156,
+                "Y": -58.294178,
+                "Z": -90.45372
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": -73.101845,
+                "Y": 13.380824,
+                "Z": 64.508705
+              },
+              {
+                "X": -76.96782,
+                "Y": 46.880978,
+                "Z": -83.36655
+              },
+              {
+                "X": 53.136036,
+                "Y": -12.42498,
+                "Z": 47.025703
+              },
+              {
+                "X": 59.57965,
+                "Y": 101.58202,
+                "Z": -87.17489
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 41.988926,
+                "Y": -40.394436,
+                "Z": -91.4699
+              },
+              {
+                "X": -129.3729,
+                "Y": -53.99488,
+                "Z": -7.0140395
+              },
+              {
+                "X": 42.341873,
+                "Y": 49.81682,
+                "Z": 45.68109
+              },
+              {
+                "X": 40.403584,
+                "Y": -86.24069,
+                "Z": 87.38439
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": -35.456497,
+                "Y": -64.442955,
+                "Z": 87.83549
+              },
+              {
+                "X": -51.844456,
+                "Y": -87.93956,
+                "Z": 17.328983
+              },
+              {
+                "X": -15.060514,
+                "Y": -142.28111,
+                "Z": 87.83595
+              },
+              {
+                "X": -36.85514,
+                "Y": -176.64058,
+                "Z": 34.19461
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": -5.2668,
+                "Y": 117.70066,
+                "Z": -87.83555
+              },
+              {
+                "X": 51.844482,
+                "Y": 135.84953,
+                "Z": -68.12207
+              },
+              {
+                "X": -0.387741,
+                "Y": 56.40873,
+                "Z": -87.875336
+              },
+              {
+                "X": 51.844482,
+                "Y": 82.19621,
+                "Z": -68.12206
+              }
+            ]
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "Points": [
+              {
+                "X": -71.978615,
+                "Y": 0.6317243,
+                "Z": -9.969466
+              },
+              {
+                "X": -35.863766,
+                "Y": -25.953905,
+                "Z": 66.99654
+              },
+              {
+                "X": 12.3869,
+                "Y": -0.005110963,
+                "Z": -29.276663
+              },
+              {
+                "X": -32.28131,
+                "Y": 69.08548,
+                "Z": 46.288197
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": -17.37952,
+                "Y": 7.3655868,
+                "Z": -27.993105
+              },
+              {
+                "X": -18.858652,
+                "Y": -0.1457248,
+                "Z": -28.124037
+              },
+              {
+                "X": -18.857716,
+                "Y": -0.14217792,
+                "Z": 11.142127
+              },
+              {
+                "X": -18.849777,
+                "Y": 0.06636947,
+                "Z": -9.781933
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "Points": [
+              {
+                "X": -25.710289,
+                "Y": -11.080322,
+                "Z": -72.36894
+              },
+              {
+                "X": 31.101328,
+                "Y": 21.680874,
+                "Z": -66.01069
+              },
+              {
+                "X": -31.66378,
+                "Y": 46.186306,
+                "Z": 28.033016
+              },
+              {
+                "X": -30.716133,
+                "Y": -63.282764,
+                "Z": 3.0090475
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "Points": [
+              {
+                "X": 131.44937,
+                "Y": 27.62637,
+                "Z": -2.5868902
+              },
+              {
+                "X": -20.506166,
+                "Y": -6.286163,
+                "Z": -5.8450775
+              },
+              {
+                "X": 84.714676,
+                "Y": -28.723698,
+                "Z": -44.509647
+              },
+              {
+                "X": 60.328247,
+                "Y": -18.639065,
+                "Z": 55.40154
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": -122.333984,
+                "Y": -26.20386,
+                "Z": -44.488914
+              },
+              {
+                "X": -24.430609,
+                "Y": -12.271465,
+                "Z": -48.469902
+              },
+              {
+                "X": -135.49579,
+                "Y": -0.8024251,
+                "Z": 38.72546
+              },
+              {
+                "X": -79.61921,
+                "Y": 37.963394,
+                "Z": -38.229027
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": 17.685715,
+                "Y": -3.2629485,
+                "Z": -17.261427
+              },
+              {
+                "X": 17.658155,
+                "Y": 8.48918,
+                "Z": -11.902933
+              },
+              {
+                "X": 17.582394,
+                "Y": -8.348426,
+                "Z": -11.810622
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": 11.049779,
+                "Y": 5.8530135,
+                "Z": 6.668686
+              },
+              {
+                "X": 22.009508,
+                "Y": 14.993832,
+                "Z": -9.15681
+              },
+              {
+                "X": 2.1945326,
+                "Y": -0.8106345,
+                "Z": -17.320948
+              },
+              {
+                "X": 11.049781,
+                "Y": -8.447758,
+                "Z": 6.668678
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 125.37011,
+                "Y": 7.871756,
+                "Z": -5.3626547
+              },
+              {
+                "X": 34.433544,
+                "Y": 0.7439512,
+                "Z": -4.7677226
+              },
+              {
+                "X": 91.79197,
+                "Y": 1.1057322,
+                "Z": -4.767743
+              },
+              {
+                "X": 71.10395,
+                "Y": 0.18873248,
+                "Z": -4.767739
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": -55.406654,
+                "Y": 30.268877,
+                "Z": -17.797367
+              },
+              {
+                "X": -18.34525,
+                "Y": -4.550928,
+                "Z": -28.51598
+              },
+              {
+                "X": 31.009167,
+                "Y": 3.13719,
+                "Z": -24.549637
+              },
+              {
+                "X": -65.85263,
+                "Y": -14.807689,
+                "Z": -15.827201
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": -3.4549332,
+                "Y": 29.381865,
+                "Z": 10.694096
+              },
+              {
+                "X": -40.26431,
+                "Y": -19.444546,
+                "Z": 17.027761
+              },
+              {
+                "X": -51.158745,
+                "Y": -12.965656,
+                "Z": -26.111568
+              },
+              {
+                "X": -39.18568,
+                "Y": 32.403137,
+                "Z": -20.31895
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": -18.081131,
+                "Y": 10.5904045,
+                "Z": -0.029626831
+              },
+              {
+                "X": -20.25897,
+                "Y": 5.3448434,
+                "Z": -0.08796076
+              },
+              {
+                "X": -17.49517,
+                "Y": 5.341277,
+                "Z": -10.221316
+              },
+              {
+                "X": -20.22626,
+                "Y": -0.07917126,
+                "Z": -5.453453
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Points": [
+              {
+                "X": 3.4044375,
+                "Y": -5.095578,
+                "Z": -14.3366375
+              },
+              {
+                "X": 12.740067,
+                "Y": 15.582779,
+                "Z": 11.909971
+              },
+              {
+                "X": 11.049747,
+                "Y": -3.9948058,
+                "Z": 6.6686974
+              },
+              {
+                "X": 7.245436,
+                "Y": 15.976626,
+                "Z": -3.783123
+              }
+            ]
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "Points": [
+              {
+                "X": 43.262085,
+                "Y": -2.405055,
+                "Z": -4.7677107
+              },
+              {
+                "X": 23.573492,
+                "Y": -1.4748374,
+                "Z": -4.7827415
+              },
+              {
+                "X": 108.93995,
+                "Y": 8.335535,
+                "Z": -4.8749146
+              },
+              {
+                "X": 69.6258,
+                "Y": -0.50036144,
+                "Z": -4.7676973
+              }
+            ]
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "Points": [
+              {
+                "X": 7.234486,
+                "Y": 18.271334,
+                "Z": -26.460224
+              },
+              {
+                "X": -4.4774237,
+                "Y": -10.172316,
+                "Z": -27.40143
+              },
+              {
+                "X": 35.249626,
+                "Y": -3.003044,
+                "Z": -24.208773
+              },
+              {
+                "X": -65.85879,
+                "Y": 8.560115,
+                "Z": -15.818848
+              }
+            ]
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "Points": [
+              {
+                "X": -36.772762,
+                "Y": 23.480776,
+                "Z": 19.674332
+              },
+              {
+                "X": -55.446735,
+                "Y": -24.786625,
+                "Z": -22.269957
+              },
+              {
+                "X": -34.51645,
+                "Y": -26.444988,
+                "Z": 19.00059
+              },
+              {
+                "X": -55.591133,
+                "Y": 20.047703,
+                "Z": -21.916016
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": -20.952244,
+                "Y": -0.09160712,
+                "Z": -0.07993417
+              },
+              {
+                "X": -19.530222,
+                "Y": -5.529109,
+                "Z": -5.1944942
+              },
+              {
+                "X": -20.232561,
+                "Y": 5.436799,
+                "Z": 0.10336803
+              },
+              {
+                "X": -19.529955,
+                "Y": 5.457403,
+                "Z": -5.245712
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.035863,
+                "Y": -15.444115,
+                "Z": -17.38154
+              },
+              {
+                "X": 2.1983232,
+                "Y": -9.271732,
+                "Z": -17.351627
+              },
+              {
+                "X": 11.049775,
+                "Y": -5.356006,
+                "Z": 6.6686707
+              },
+              {
+                "X": 7.2422004,
+                "Y": 15.908556,
+                "Z": -3.7819161
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Points": [
+              {
+                "X": 37.389526,
+                "Y": -8.67101,
+                "Z": -4.774301
+              },
+              {
+                "X": 70.37523,
+                "Y": -0.41001225,
+                "Z": -4.7676535
+              },
+              {
+                "X": 48.12282,
+                "Y": 8.6898,
+                "Z": -4.7723064
+              },
+              {
+                "X": 23.558886,
+                "Y": 8.541229,
+                "Z": -4.811081
+              }
+            ]
+          }
+        },
+        {
+          "Key": "30",
+          "Value": {
+            "Points": [
+              {
+                "X": -16.615782,
+                "Y": 17.90787,
+                "Z": -28.377033
+              },
+              {
+                "X": -65.87833,
+                "Y": -13.041626,
+                "Z": -15.793723
+              },
+              {
+                "X": -16.92533,
+                "Y": -20.060123,
+                "Z": -28.401907
+              },
+              {
+                "X": 24.198946,
+                "Y": -4.4959874,
+                "Z": -25.09693
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Points": [
+              {
+                "X": -39.658054,
+                "Y": -28.248795,
+                "Z": 17.58471
+              },
+              {
+                "X": -55.48595,
+                "Y": -26.716732,
+                "Z": -22.127682
+              },
+              {
+                "X": -36.552097,
+                "Y": 18.1448,
+                "Z": 19.841606
+              },
+              {
+                "X": -54.036716,
+                "Y": 19.086105,
+                "Z": -13.600698
+              }
+            ]
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "Points": [
+              {
+                "X": -18.09854,
+                "Y": -10.550799,
+                "Z": -0.031231513
+              },
+              {
+                "X": -19.49775,
+                "Y": -5.5057626,
+                "Z": -5.363197
+              },
+              {
+                "X": -17.476713,
+                "Y": -5.3716736,
+                "Z": -10.238136
+              },
+              {
+                "X": -20.232466,
+                "Y": 0.10455954,
+                "Z": -5.4375844
+              }
+            ]
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "Points": [
+              {
+                "X": 19.60455,
+                "Y": -14.994484,
+                "Z": 9.845378
+              },
+              {
+                "X": 2.184875,
+                "Y": 6.3531775,
+                "Z": -17.653172
+              },
+              {
+                "X": 8.750498,
+                "Y": -15.017345,
+                "Z": -19.97566
+              },
+              {
+                "X": 11.04971,
+                "Y": 4.8128834,
+                "Z": 6.66857
+              }
+            ]
+          }
+        },
+        {
+          "Key": "35",
+          "Value": {
+            "Points": [
+              {
+                "X": 71.10419,
+                "Y": -0.18886185,
+                "Z": -4.767707
+              },
+              {
+                "X": 34.433807,
+                "Y": -0.74406004,
+                "Z": -4.767692
+              },
+              {
+                "X": 125.37028,
+                "Y": -7.871857,
+                "Z": -5.3626328
+              },
+              {
+                "X": 91.792175,
+                "Y": -1.1058446,
+                "Z": -4.7677217
+              }
+            ]
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "Points": [
+              {
+                "X": -61.056046,
+                "Y": -29.997225,
+                "Z": -15.936986
+              },
+              {
+                "X": -4.2641354,
+                "Y": -7.1742635,
+                "Z": -27.38427
+              },
+              {
+                "X": 31.009209,
+                "Y": -3.1370192,
+                "Z": -24.549528
+              },
+              {
+                "X": -65.951744,
+                "Y": 12.901342,
+                "Z": -15.711255
+              }
+            ]
+          }
+        },
+        {
+          "Key": "38",
+          "Value": {
+            "Points": [
+              {
+                "X": -30.041323,
+                "Y": 8.10201,
+                "Z": 24.776695
+              },
+              {
+                "X": -2.1362886,
+                "Y": -29.263762,
+                "Z": 10.601903
+              },
+              {
+                "X": -51.1588,
+                "Y": 12.965696,
+                "Z": -26.111631
+              },
+              {
+                "X": -39.18576,
+                "Y": -32.403164,
+                "Z": -20.319118
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39",
+          "Value": {
+            "Points": [
+              {
+                "X": -18.098526,
+                "Y": -10.557521,
+                "Z": -0.080871046
+              },
+              {
+                "X": -17.476748,
+                "Y": -5.4198804,
+                "Z": -10.202057
+              },
+              {
+                "X": -20.95643,
+                "Y": 0.09714241,
+                "Z": 0.11662125
+              },
+              {
+                "X": -19.533989,
+                "Y": -5.513717,
+                "Z": -5.190816
+              }
+            ]
+          }
+        },
+        {
+          "Key": "40",
+          "Value": {
+            "Points": [
+              {
+                "X": 3.4043922,
+                "Y": 5.095592,
+                "Z": -14.336839
+              },
+              {
+                "X": 12.844206,
+                "Y": -15.664494,
+                "Z": 11.966113
+              },
+              {
+                "X": 11.049715,
+                "Y": 3.9948146,
+                "Z": 6.668548
+              },
+              {
+                "X": 2.1649463,
+                "Y": -15.988392,
+                "Z": -17.735243
+              }
+            ]
+          }
+        },
+        {
+          "Key": "41",
+          "Value": {
+            "Points": [
+              {
+                "X": 35.024017,
+                "Y": 1.4744928,
+                "Z": -4.7677846
+              },
+              {
+                "X": 82.82042,
+                "Y": -8.782074,
+                "Z": -4.767826
+              },
+              {
+                "X": 108.383125,
+                "Y": -8.311906,
+                "Z": -4.887421
+              },
+              {
+                "X": 62.20668,
+                "Y": -1.7797676,
+                "Z": -4.7678185
+              }
+            ]
+          }
+        },
+        {
+          "Key": "42",
+          "Value": {
+            "Points": [
+              {
+                "X": 42.659935,
+                "Y": 1.6843889,
+                "Z": -23.613356
+              },
+              {
+                "X": 7.2346106,
+                "Y": -18.27143,
+                "Z": -26.460304
+              },
+              {
+                "X": -18.456345,
+                "Y": 15.419587,
+                "Z": -28.52497
+              },
+              {
+                "X": -65.93832,
+                "Y": -8.560032,
+                "Z": -15.725098
+              }
+            ]
+          }
+        },
+        {
+          "Key": "44",
+          "Value": {
+            "Points": [
+              {
+                "X": -48.231773,
+                "Y": 33.191093,
+                "Z": -29.176416
+              },
+              {
+                "X": -36.060204,
+                "Y": -26.144356,
+                "Z": 20.265347
+              },
+              {
+                "X": -55.486103,
+                "Y": -20.047596,
+                "Z": -22.12745
+              },
+              {
+                "X": -33.05254,
+                "Y": 17.021198,
+                "Z": 22.494186
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45",
+          "Value": {
+            "Points": [
+              {
+                "X": -19.50493,
+                "Y": -5.514519,
+                "Z": -5.307576
+              },
+              {
+                "X": -18.086145,
+                "Y": -0.016136201,
+                "Z": -10.577821
+              },
+              {
+                "X": -19.550919,
+                "Y": 5.504187,
+                "Z": -5.1463943
+              },
+              {
+                "X": -20.950659,
+                "Y": 0.0808889,
+                "Z": -0.07071204
+              }
+            ]
+          }
+        },
+        {
+          "Key": "46",
+          "Value": {
+            "Points": [
+              {
+                "X": 1.9676279,
+                "Y": 15.380905,
+                "Z": -17.661642
+              },
+              {
+                "X": 12.959984,
+                "Y": 9.842683,
+                "Z": 12.0213375
+              },
+              {
+                "X": 11.044436,
+                "Y": -15.887882,
+                "Z": 6.6704526
+              },
+              {
+                "X": 2.2027376,
+                "Y": -5.627964,
+                "Z": -17.509464
+              }
+            ]
+          }
+        },
+        {
+          "Key": "47",
+          "Value": {
+            "Points": [
+              {
+                "X": 48.878757,
+                "Y": -2.8839307,
+                "Z": -4.767709
+              },
+              {
+                "X": 63.51357,
+                "Y": 8.613287,
+                "Z": -4.7827463
+              },
+              {
+                "X": 35.03475,
+                "Y": 1.214809,
+                "Z": -4.7677073
+              },
+              {
+                "X": 66.365944,
+                "Y": -5.563508,
+                "Z": -4.767723
+              }
+            ]
+          }
+        },
+        {
+          "Key": "48",
+          "Value": {
+            "Points": [
+              {
+                "X": -65.92352,
+                "Y": 4.496502,
+                "Z": -15.740895
+              },
+              {
+                "X": -16.925297,
+                "Y": 20.060652,
+                "Z": -28.40186
+              },
+              {
+                "X": -16.61574,
+                "Y": -17.907387,
+                "Z": -28.376982
+              },
+              {
+                "X": 28.929964,
+                "Y": 3.128562,
+                "Z": -24.716684
+              }
+            ]
+          }
+        },
+        {
+          "Key": "50",
+          "Value": {
+            "Points": [
+              {
+                "X": -44.755787,
+                "Y": -10.857712,
+                "Z": 13.623227
+              },
+              {
+                "X": -40.64324,
+                "Y": 29.092186,
+                "Z": 16.765429
+              },
+              {
+                "X": -53.468468,
+                "Y": -25.983866,
+                "Z": -9.948706
+              },
+              {
+                "X": -55.57959,
+                "Y": 17.449537,
+                "Z": -21.93403
+              }
+            ]
+          }
+        },
+        {
+          "Key": "51",
+          "Value": {
+            "Points": [
+              {
+                "X": -17.497086,
+                "Y": 10.497786,
+                "Z": -4.731908
+              },
+              {
+                "X": -20.24298,
+                "Y": 5.387457,
+                "Z": -0.06534821
+              },
+              {
+                "X": -20.232468,
+                "Y": -0.1045794,
+                "Z": -5.437675
+              },
+              {
+                "X": -20.954233,
+                "Y": -0.079719394,
+                "Z": 0.1111965
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "PartsIDsToNotAutoWeldQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Armor.Heavy"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          3,
+          1,
+          0
+        ],
+        "AutoDescription": " NONE( Part.Decorator.ID.Armor.Heavy )"
+      },
+      "bEnableKinematicKinematicHitEvents_Server": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Chonk_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Art/SK_Chonk_01_A.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Chonk_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Art/SK_Chonk_01_A.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "MinionIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "bSimulatePhysics": true
+      },
+      "ComponentTags": [
+        "ChonkSkeletalMeshStyleComponent"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AttackCoolingDownAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "ChonkSkeletalMeshStyleComponent",
+          "BoneNames": [
+            "Weapon_01_Barrel_01",
+            "Weapon_01_Armor_01_L_01",
+            "Weapon_01_Armor_01_R_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Chonk_01_A_CannonOverheatEnter_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Animation/A_Chonk_01_A_CannonOverheatEnter_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "AttackCoolingDownAnim"
+      ]
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_Chonk_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.10"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 52,
+        "PartDisplayName": "Muzzle"
+      },
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Turret"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+          }
+        },
+        "PartList": [
+          {
+            "Key": "15",
+            "Value": "Weapon_01_Barrel_01"
+          }
+        ]
+      },
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_Forward'CS_Chonk_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0.LaserFlareTargeting_Forward_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.11"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Flare_TargetingLaser_Gatlinger'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_Flare_TargetingLaser_Gatlinger.0"
+      }
+    }
+  }
+]

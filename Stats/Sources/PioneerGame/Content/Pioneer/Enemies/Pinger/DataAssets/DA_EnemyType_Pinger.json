@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Pinger",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyType_Pinger",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Pinger/C_Pinger.C_Pinger_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -1562077677,
+      "EnemyTag": {
+        "TagName": "Enemy.ScoutDrone.Pinger"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_OrbitalStrike_Light_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_OrbitalStrike_Light.0"
+        }
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Pinger'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_Persistence_Enemy_Pinger.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

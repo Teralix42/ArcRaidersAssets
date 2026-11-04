@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_HandCannon_SingleAction_01_ProjectileSplitter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/DA_Upgrade_HandCannon_SingleAction_01_ProjectileSplitter",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_HandCannon_SingleAction_01_ProjectileSplitter_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/BP_UpgradeWeaponMod_HandCannon_SingleAction_01_ProjectileSplitter.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_PROJECTILESPLITTER",
+        "SourceString": "Anvil Splitter",
+        "LocalizedString": "Anvil Splitter"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_PROJECTILESPLITTER",
+        "SourceString": "Replaces the Anvil's bullets with rounds that split into four weaker projectiles.",
+        "LocalizedString": "Replaces the Anvil's bullets with rounds that split into four weaker projectiles."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_ProjectileSplitter.T_UI_Icon_Upgrade_ProjectileSplitter",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_PROJECTILESPERSHOT_POSITIVE",
+            "SourceString": "+{0} Projectiles Per Shot",
+            "LocalizedString": "+{0} Projectiles Per Shot"
+          },
+          "ModifierValue": 3.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BASEDISPERSION_POSITIVE",
+            "SourceString": "{0}% Reduced Base Dispersion",
+            "LocalizedString": "{0}% Reduced Base Dispersion"
+          },
+          "ModifierValue": 30.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DISPERSIONRECOVERYTIME_POSITIVE",
+            "SourceString": "{0}% Reduced Dispersion Recovery Time",
+            "LocalizedString": "{0}% Reduced Dispersion Recovery Time"
+          },
+          "ModifierValue": 90.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_ZOOMDISPERSIONSCALE_NEGATIVE",
+            "SourceString": "{0}% Increased ADS Dispersion",
+            "LocalizedString": "{0}% Increased ADS Dispersion"
+          },
+          "ModifierValue": 40.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DAMAGE_NEGATIVE",
+            "SourceString": "{0}% Reduced Projectile Damage",
+            "LocalizedString": "{0}% Reduced Projectile Damage"
+          },
+          "ModifierValue": 70.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HEADSHOTMULTIPLIER_NEGATIVE",
+            "SourceString": "{0}% Reduced Headshot Damage Multiplier",
+            "LocalizedString": "{0}% Reduced Headshot Damage Multiplier"
+          },
+          "ModifierValue": 40.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ]
+    }
+  }
+]

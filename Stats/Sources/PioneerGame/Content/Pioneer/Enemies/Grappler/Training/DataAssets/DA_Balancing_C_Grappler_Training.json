@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_Grappler_Training",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Grappler/Training/DataAssets/DA_Balancing_C_Grappler_Training",
+    "Properties": {
+      "EntryName": "C_Grappler_Training",
+      "AttributeData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 1100.0
+        }
+      ]
+    }
+  }
+]

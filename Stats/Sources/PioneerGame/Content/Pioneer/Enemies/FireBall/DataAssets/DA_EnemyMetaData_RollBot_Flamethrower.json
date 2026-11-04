@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_6",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_RollBot_Flamethrower'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyMetaData_RollBot_Flamethrower.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_RollBot_Flamethrower'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_Persistence_Enemy_RollBot_Flamethrower.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Fireball'",
+        "ObjectPath": "/Game/Pioneer/Core/UI/UI_Elements/Icons/Enemies/T_UI_Ping_Enemy_Fireball.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Fireball.T_UI_ARC_Fireball",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_FIREBALL_NAME",
+        "SourceString": "Fireball",
+        "LocalizedString": "Fireball"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_RollBot_Flamethrower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyMetaData_RollBot_Flamethrower",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_RollBot_Flamethrower:UIEnemyMetaDataItem_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyMetaData_RollBot_Flamethrower.0"
+        }
+      ]
+    }
+  }
+]

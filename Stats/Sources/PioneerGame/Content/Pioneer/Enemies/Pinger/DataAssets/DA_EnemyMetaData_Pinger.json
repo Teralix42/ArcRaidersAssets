@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_10",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_Pinger'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyMetaData_Pinger.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Pinger'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_Persistence_Enemy_Pinger.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Pinger'",
+        "ObjectPath": "/Game/Pioneer/Core/UI/UI_Elements/Icons/Enemies/T_UI_Ping_Enemy_Pinger.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Spotter.T_UI_ARC_Spotter",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_PINGER_NAME",
+        "SourceString": "Spotter",
+        "LocalizedString": "Spotter"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_Pinger",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyMetaData_Pinger",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_Pinger:UIEnemyMetaDataItem_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyMetaData_Pinger.0"
+        }
+      ]
+    }
+  }
+]

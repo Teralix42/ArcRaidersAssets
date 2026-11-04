@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Pistol_Silenced_01_SprintShooting",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_SprintShooting",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_SPRINTSHOOTING",
+        "SourceString": "Sprint Shooting",
+        "LocalizedString": "Sprint Shooting"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_SPRINTSHOOTING",
+        "SourceString": "Ergonomic fittings that allow the weapon to be comfortably fired while sprinting.",
+        "LocalizedString": "Ergonomic fittings that allow the weapon to be comfortably fired while sprinting."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_SprintShooting.T_UI_Icon_Upgrade_SprintShooting",
+        "SubPathString": ""
+      }
+    }
+  }
+]

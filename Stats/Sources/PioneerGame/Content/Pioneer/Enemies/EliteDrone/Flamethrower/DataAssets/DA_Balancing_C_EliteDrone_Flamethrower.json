@@ -1,0 +1,435 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_EliteDrone_Flamethrower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_Balancing_C_EliteDrone_Flamethrower",
+    "Properties": {
+      "EntryName": "C_EliteDrone_Flamethrower",
+      "AttributeData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Heavy",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Body"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Body )"
+          },
+          "Health": 64.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Heavy",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Heavy"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Heavy )"
+          },
+          "Health": 32.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Medium",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Medium"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Medium )"
+          },
+          "Health": 16.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor.Light",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Light"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Light )"
+          },
+          "Health": 6.0
+        },
+        {
+          "IdentifierQueryName": "[Part.Decorator.Group.Indestructible] [Part.Decorator.ID.Weapon.Rifle] ",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Indestructible"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Rifle"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              5,
+              2,
+              2,
+              1,
+              0,
+              3,
+              1,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL(  ALL( Part.Decorator.Group.Indestructible ),\n  NONE( Part.Decorator.ID.Weapon.Rifle ) )"
+          },
+          "Health": 1000.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Head",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+          },
+          "Health": 1300.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 200.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Thruster",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 30.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Weapon.Rifle",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Rifle"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "Health": 1000.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Core",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Core )"
+          },
+          "Health": 167.0
+        }
+      ],
+      "DamageData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DamageType": "EPioneerDamageType::Blunt",
+          "Damage": 30.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Weapon.Rifle",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Rifle"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DamageType": "EPioneerDamageType::Blunt",
+          "Damage": 25.0
+        }
+      ],
+      "ForceData": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 1.6,
+          "Small": 1.12,
+          "Medium": 0.5,
+          "Heavy": 0.56,
+          "VeryHeavy": 0.4
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 4.0,
+          "Small": 2.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.Group.Indestructible",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Indestructible"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.Group.Indestructible )"
+          },
+          "VerySmall": 1.25,
+          "Small": 0.88,
+          "Medium": 0.45,
+          "Heavy": 0.44,
+          "VeryHeavy": 0.32
+        }
+      ],
+      "ForceDataConstants": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 5.0,
+          "Small": 4.5,
+          "Medium": 4.0,
+          "Heavy": 3.5,
+          "VeryHeavy": 3.0
+        },
+        {
+          "IdentifierQueryName": "ForceCollector.TypeLimit",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.TypeLimit"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 4.0,
+          "Small": 3.0,
+          "Medium": 2.0,
+          "Heavy": 1.0,
+          "VeryHeavy": 1.0
+        }
+      ],
+      "ForceDataGrabs": [
+        {
+          "IdentifierQueryName": "ForceCollector.BaseMultiplier",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "ForceCollector.BaseMultiplier"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "VerySmall": 35.200001,
+          "Small": 19.200001,
+          "Medium": 28.799999,
+          "Heavy": 6.4,
+          "VeryHeavy": 3.2
+        }
+      ],
+      "PullResistance": "EPullResistance::MutuallyInfluenced"
+    }
+  }
+]

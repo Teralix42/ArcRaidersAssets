@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_SMG_Medium_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Item_SMG_Medium_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting_C'Default__BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting_C",
+    "Name": "Default__BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting.BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting",
+    "Template": {
+      "ObjectName": "BP_Item_SMG_Medium_01_Ascended_C'Default__BP_Item_SMG_Medium_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Item_SMG_Medium_01_Ascended.1"
+    },
+    "Properties": {
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_SMG_Medium_Incendiary_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Projectile_SMG_Medium_Incendiary.0"
+      },
+      "BaseVisualStats": {
+        "Agility": 80.008
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineMedium'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineMedium.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Mag_Medium_Pistol_SMG_01_A'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Magazines/Mag_Medium_Pistol_01/DA_Visual_WeaponMod_Mag_Medium_Pistol_SMG_01_A.0"
+          },
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/DA_Item_SMG_Medium_01_IncendiaryRounds_SprintShooting.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SMG_Medium_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SMG_Medium_01_IncendiaryRounds'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_IncendiaryRounds.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_SMG_Medium_01_SprintShooting'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_SprintShooting.0"
+        }
+      ]
+    }
+  }
+]

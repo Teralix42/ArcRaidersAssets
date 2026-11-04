@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AssaultRifle_Heavy_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Item_AssaultRifle_Heavy_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_AssaultRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AssaultRifle_Heavy_01_C'Default__BP_Item_AssaultRifle_Heavy_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Item_AssaultRifle_Heavy_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AssaultRifle_Heavy_01_C",
+    "Name": "Default__BP_Item_AssaultRifle_Heavy_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Item_AssaultRifle_Heavy_01.BP_Item_AssaultRifle_Heavy_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Item_AssaultRifle_Heavy_01",
+    "Template": {
+      "ObjectName": "BP_Item_AssaultRifle_Base_C'Default__BP_Item_AssaultRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base.1"
+    },
+    "Properties": {
+      "CriticalDamageMultiplier": 2.0,
+      "VisibleTraceEveryNthProjectile": 1,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_HeavyAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/HeavyAmmo/DA_Item_HeavyAmmo.0"
+      },
+      "BasePhysicalDamage": 16.0,
+      "BaseFirePower": 50000.0,
+      "BaseClipSize": 22.0,
+      "BaseReloadTime": 4.0,
+      "BaseFireRate": 285.0,
+      "BaseBurnRate": 0.001317,
+      "AiArmorDamageMultiplier": 2.0,
+      "AiArmorPropagationMultiplier": 1.0,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_Heavy_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.0"
+      },
+      "bPartialReload": true,
+      "PartialReloadDuration": 3.2,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": -0.2,
+          "PartialTime": 0.6,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": -0.15,
+          "PartialTime": 1.75,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 2.55,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_AssaultRifle_Heavy_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_RecoilProfile_AssaultRifle_Heavy_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_AssaultRifle_Heavy_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_DispersionState_AssaultRifle_Heavy_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_AssaultRifle_Heavy_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Curve_DamageFalloff_AssaultRifle_Heavy_01.0"
+      },
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'AssaultRifleHeavyCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'AssaultRifleHeavyCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_AssaultRifle_Heavy_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_WeaponQualitySet_AssaultRifle_Heavy_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 16.0,
+        "FireRate": 19.0,
+        "Range": 51.595,
+        "Stability": 72.786,
+        "Agility": 49.381,
+        "Stealth": 14.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_AssaultRifle_Heavy_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_Item_AssaultRifle_Heavy_01.0"
+      }
+    }
+  }
+]

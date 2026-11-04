@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_Launcher_AntiArc_Medium_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_Item_Launcher_AntiArc_Medium_01",
+    "Properties": {
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_WeaponActor_Launcher_AntiArc_Medium_01.BP_WeaponActor_Launcher_AntiArc_Medium_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/SM_Launcher_AntiArc_Medium_01_A.SM_Launcher_AntiArc_Medium_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 7.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Hullcracker"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "DropTags": [
+        "Item.Drop.Rarity.04Epic",
+        "Item.Drop.Type.Equipment.Weapon.Firearm"
+      ],
+      "StaticLootAvoidGroups": [
+        "Item.Drop.Type.Equipment.Weapon.Firearm"
+      ],
+      "CanDrop": false,
+      "UnequipTime": 0.45,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 1.05,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.Pistol"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupLauncher'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupLauncher.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_Launcher_AntiArc_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_ItemAnimationContainer_Launcher_AntiArc_Medium_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_LauncherAntiArcMedium01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_ItemSkinSlot_LauncherAntiArcMedium01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_WeaponVisuals_Launcher_AntiArc_Medium_01_A.DA_WeaponVisuals_Launcher_AntiArc_Medium_01_A",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Launcher_AntiArc_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_Persistence_Launcher_AntiArc_Medium_01.0"
+      },
+      "Tags": [
+        "Online.Release.Base",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.LauncherAntiArcMedium01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.LauncherAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Hullcracker"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Item_Launcher_AntiArc_Medium_01.BP_Item_Launcher_AntiArc_Medium_01_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

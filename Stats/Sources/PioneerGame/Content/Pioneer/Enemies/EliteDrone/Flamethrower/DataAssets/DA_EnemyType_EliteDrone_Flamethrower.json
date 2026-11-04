@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_EliteDrone_Flamethrower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyType_EliteDrone_Flamethrower",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.C_EliteDrone_Flamethrower_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -1524715377,
+      "EnemyTag": {
+        "TagName": "Enemy.EliteDrone.Flamethrower"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_Drone_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_Drone.0"
+        }
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_EliteDrone_Flamethrower_Persistence'",
+        "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EliteDrone_Flamethrower_Persistence.0"
+      },
+      "Tags": [
+        "Online.Release.1.17"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Special_BeamRifle_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Item_Special_BeamRifle_01",
+    "SuperStruct": {
+      "ObjectName": "Class'BeamFirearm'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Special_BeamRifle_01_C'Default__BP_Item_Special_BeamRifle_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Item_Special_BeamRifle_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Special_BeamRifle_01_C",
+    "Name": "Default__BP_Item_Special_BeamRifle_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Item_Special_BeamRifle_01.BP_Item_Special_BeamRifle_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Item_Special_BeamRifle_01",
+    "Properties": {
+      "FirstChargeDelay": 1.0,
+      "MaxRange": 20000.0,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_EnergyAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/EnergyAmmo/DA_Item_EnergyAmmo.0"
+      },
+      "bOneAmmoReloadsFullClip": true,
+      "WeaponType": "EWeaponType::Special",
+      "BasePhysicalDamage": 8.0,
+      "BaseFirePower": 50000000.0,
+      "BaseClipSize": 50.0,
+      "BaseReloadTime": 3.0,
+      "BaseFireRate": 500.0,
+      "BaseBurnRate": 0.000299,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_LMG_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_LMG_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_BasicMeleeWeapon_Hit'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_BasicMeleeWeapon_Hit.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "AiArmorDamageMultiplier": 2.5,
+      "AiArmorPropagationMultiplier": 1.0,
+      "AIWeakSpotDamageMultiplier": 1.5,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Special_BeamRifle_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Projectile_Special_BeamRifle_01.0"
+      },
+      "bPartialReload": true,
+      "PartialReloadDuration": 3.0,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": -0.2,
+          "PartialTime": 0.9,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 1.9,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 2.6,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_Special_BeamRifle_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_RecoilProfile_Special_BeamRifle_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_Special_BeamRifle_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_DispersionState_Special_BeamRifle_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_Special_BeamRifle_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/Curve_DamageFalloff_Special_BeamRifle_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 0.125,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'BeamCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'BeamCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'BeamCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "BaseVisualStats": {
+        "Damage": 8.0,
+        "FireRate": 33.333,
+        "Range": 66.363,
+        "Stability": 85.909,
+        "Agility": 45.474,
+        "Stealth": 1.0
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Special_BeamRifle_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_Item_Special_BeamRifle_01.0"
+      },
+      "BaseCameraZoomTime": 0.8,
+      "bWalkOnPrimaryUse": true
+    }
+  }
+]

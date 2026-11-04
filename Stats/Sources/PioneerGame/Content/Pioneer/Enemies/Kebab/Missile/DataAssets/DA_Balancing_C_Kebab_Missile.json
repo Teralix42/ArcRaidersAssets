@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_Kebab_Missile",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Kebab/Missile/DataAssets/DA_Balancing_C_Kebab_Missile",
+    "Properties": {
+      "EntryName": "C_Kebab_Missile",
+      "AttributeData": [
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Frame",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "Part.Decorator.ID.Frame",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+          },
+          "Health": 600.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Joint",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Joint"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "Part.Decorator.ID.Joint",
+            "AutoDescription": " ANY( Part.Decorator.ID.Joint )"
+          },
+          "Health": 250.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Head",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "Part.Decorator.ID.Head",
+            "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+          },
+          "Health": 2000.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Core",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "Part.Decorator.ID.Core",
+            "AutoDescription": " ANY( Part.Decorator.ID.Core )"
+          },
+          "Health": 2000.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Weapon",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "Part.Decorator.ID.Weapon.GatlingGun",
+            "AutoDescription": " ANY( Part.Decorator.ID.Weapon )"
+          },
+          "Health": 125.0
+        },
+        {
+          "IdentifierQueryName": "Part.Decorator.ID.Armor",
+          "IdentifierQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor )"
+          },
+          "Health": 150.0
+        }
+      ]
+    }
+  }
+]

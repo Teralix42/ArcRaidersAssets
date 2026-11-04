@@ -1,0 +1,3101 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "AITargetComponent",
+    "Name": "AITargetComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AITargetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "OverrideTeamId": "EEmbarkTeamId::Team2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ArticulatedTargetingService",
+    "Name": "ArticulatedTargetingService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArticulatedTargetingService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "ArticulatedTargetingDefinitions": [
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 251,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Head"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": 180.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [
+                "GameplayCue.StatusEffect.Stunned"
+              ],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            }
+          ]
+        },
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Turret"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Arm.Front"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Arm.Front )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": -1.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [
+                "GameplayCue.StatusEffect.Stunned",
+                "AI.Behavior.Cooldown"
+              ],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            },
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Turret"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": -1.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [
+                "AI.Behavior.Cooldown",
+                "GameplayCue.StatusEffect.Stunned"
+              ],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            }
+          ]
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Chonk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Chonk/C_Chonk",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Chonk_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.22"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructablePhysicsMaterialService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructablePhysicsMaterialService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLTickableMultiPolicyComponentAS_Locomotion",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLTickableMultiPolicyComponentAS'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StuckDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StuckDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableCollisionGameplayEffectApplicatorComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableCollisionGameplayEffectApplicatorComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_ConstructableDispersionServiceAutomaticRifle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_ConstructableDispersionServiceAutomaticRifle_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLIntentionComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLIntentionComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProximityDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProximityDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeadStabilizationComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'HeadStabilizationComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityReloadService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityReloadService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLGasComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLGasComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArticulatedTargetingService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ArticulatedTargetingService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AITargetComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AITargetComponent'",
+          "ObjectPath": "/Script/EmbarkAI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLLocomotionMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLLocomotionMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "BP_ConstructableDispersionServiceAutomaticRifle_C",
+    "Name": "BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.BP_ConstructableDispersionServiceAutomaticRifle_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Template": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'Default__BP_ConstructableDispersionServiceAutomaticRifle_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.1"
+    },
+    "Properties": {
+      "DispersionSettings": [
+        {
+          "Key": {
+            "TagName": "Part.Capability.Weapon.Primary"
+          },
+          "Value": {
+            "DispersionActiveHalfAngleThreshold": 10.0,
+            "BaseScore": 1.0,
+            "AccuracyErrorAdjustmentFactor": 0.4,
+            "DispersionRules": [
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleGameplayTagTarget_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.36"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleDiscovery'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleDiscovery_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.35"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetDistance_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.38"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetSpeed_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.39"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleClearShot'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleClearShot_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.34"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionTargetAttribute'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionTargetAttribute_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.40"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetCharacterStance'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetCharacterStance_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.37"
+              }
+            ],
+            "DispersionShape": {
+              "ObjectName": "PioneerConstructableDispersionBoxShape'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionBoxShape_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.33"
+            }
+          }
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "C_Chonk_C",
+    "Name": "Default__C_Chonk_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Chonk/C_Chonk.C_Chonk_C'",
+    "Package": "/Game/Pioneer/Enemies/Chonk/C_Chonk",
+    "Template": {
+      "ObjectName": "BP_ConstructableBase_C'Default__BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Chonk_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.21"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Chonk_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.16"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Chonk_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.11"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Chonk_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.32"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Chonk_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.17"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Chonk_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.20"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Chonk_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.13"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Chonk_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.18"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Chonk_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.31"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Chonk_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.41"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Chonk_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.15"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Chonk_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.42"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Chonk_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.62"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Chonk_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.44"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Chonk_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Chonk_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.12"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Chonk_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.8"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_Chonk_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_Chonk_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyType_Chonk.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Bastion&Leaper&Rocketeer",
+        "Quest.Groups.Enemies.Ground",
+        "Quest.Groups.Enemies.Armored"
+      ],
+      "ConstructableTags": [
+        "Enemy.Assault.Elite.Ground"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Chonk_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.23"
+      },
+      "SpawnBudgetCost": 36,
+      "ThreatLevel": 55,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_L'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 400.0,
+        "AgentHeight": 450.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Chonk_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.63"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Chonk_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.7"
+      },
+      "NetCullDistanceSquared": 3.6E+09,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Chonk_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.15"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "CapabilityReloadService",
+    "Name": "CapabilityReloadService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityReloadService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "Definitions": [
+        {
+          "CapabilityGroup": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "MaxActivationCount": 120
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__BP_ConstructableBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Weakpoint'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Weakpoint.0"
+        },
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Leg'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Leg.0"
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::CapabilityStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Ability.FireWeapon.Projectile.Bullet.Suppressive"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Ability.FireWeapon.Projectile.Bullet.Suppressive )"
+          },
+          "ActiveCapabilityState": "ECapabilityState::CoolingDown",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AttackCoolingDownAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionGameplayEffectApplicatorComponent",
+    "Name": "ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionGameplayEffectApplicatorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "Mappings": [
+        {
+          "DisplayName": "Legs & Body",
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame,\n Part.Decorator.ID.Leg )"
+          },
+          "Effects": [
+            {
+              "ObjectName": "BlueprintGeneratedClass'GE_Chonk_CollisionAttack_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Capabilities/GE_Chonk_CollisionAttack.1"
+            }
+          ],
+          "DamagingPartTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          }
+        }
+      ],
+      "VelocityToDamageCurve": {
+        "EditorCurveData": {}
+      },
+      "MinKnockbackVelocity": 200.0,
+      "MaxKnockbackVelocity": 350.0
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__BP_ConstructableBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.5"
+    },
+    "Properties": {
+      "PartCollisionConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "Config": {
+            "SlidingDotThreshold": 0.98,
+            "SlidingRollingThresholdTimeSecs": 0.1,
+            "MinTimeBetweenCollisionCues": 0.3,
+            "ImpactBypassFactor": 1.5,
+            "bCreateShockwave": true,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 250000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 400.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Constant"
+            }
+          }
+        }
+      ],
+      "CollisionTypeThresholds": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": 1.0
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__BP_ConstructableBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Chonk_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.15"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__BP_ConstructableBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.7"
+    },
+    "Properties": {
+      "ReplicationConfigs": [
+        {
+          "InitialReplicatedPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg )"
+          },
+          "InitialReplicationType": "EConstructableReplicationType::Full"
+        },
+        {
+          "InitialReplicatedPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+          },
+          "InitialReplicationType": "EConstructableReplicationType::Full"
+        }
+      ],
+      "bHasManyParts": true
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePhysicsMaterialService",
+    "Name": "ConstructablePhysicsMaterialService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePhysicsMaterialService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__BP_ConstructableBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__BP_ConstructableBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Turret"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Turret )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 1.0,
+            "MaxRotationSpeedDegPerSec": 360.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 700000.0,
+            "bDirectlyUpdatePartOrientations": false,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        },
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 1.0,
+            "MaxRotationSpeedDegPerSec": 100.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 100000.0,
+            "bDirectlyUpdatePartOrientations": false,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": true,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Joint )"
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  },
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 1.0,
+                    "Value": 0.8,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  },
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 3.0,
+                    "Value": 0.6,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  },
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 4.0,
+                    "Value": 0.6,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "MaxRotationSpeedDegPerSec": 150.0,
+        "bDirectlyUpdatePartOrientations": false,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__BP_ConstructableBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_Chonk_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_Chonk_Perception.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__BP_ConstructableBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.11"
+    },
+    "Properties": {
+      "NumLootablePartsCategory": "EConstructableNumPartsCategory::Large",
+      "LootType": {
+        "TagName": "Loot.Enemy.Chonk"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_Chonk_PartScavenge'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_Chonk_PartScavenge.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HeadStabilizationComponent",
+    "Name": "HeadStabilizationComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HeadStabilizationComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "HeadQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.HeadPivot"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.ID.HeadPivot )"
+      },
+      "DrainEffectTagTriggers": [
+        "AI.PowerState.Drained"
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__BP_ConstructableBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.12"
+    },
+    "Properties": {
+      "BaseGroup": {
+        "RequiredTags": {
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": ""
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__BP_ConstructableBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.13"
+    },
+    "Properties": {
+      "ChainDestructionEventDefinitions": [
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Front Left",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.ID.Joint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Middle Left",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Middle"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Middle,\n Part.Decorator.ID.Joint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Middle"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Middle )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Rear Left",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.ID.Joint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Front Right",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.ID.Joint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Middle Right",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Middle"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Middle,\n Part.Decorator.ID.Joint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Middle"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Middle )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Joint, Rear Right",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.ID.Joint )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Rear )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "Weakpoint to Holder destruction",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Weakpoint"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Joint"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Core"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                5,
+                3,
+                2,
+                1,
+                0,
+                3,
+                1,
+                1,
+                3,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL(  ALL( Part.Decorator.Group.Weakpoint ),\n  NONE( Part.Decorator.ID.Joint ),\n  NONE( Part.Decorator.ID.Core ) )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.HealthGroup.SubParts.01"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.HealthGroup.SubParts.01 )"
+          }
+        }
+      ],
+      "StunsDefinition": {
+        "CustomStunPropagations": [
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Head"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Turret"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Part.Decorator.ID.Turret )"
+            }
+          }
+        ]
+      },
+      "NumPartsCategory": "EConstructableNumPartsCategory::Medium"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasComponent",
+    "Name": "MLGasComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "TagEffects": [
+        {
+          "Priority": -3,
+          "GameplayTag": {
+            "TagName": "AI.PowerState.Drained"
+          },
+          "bRemoveOnTagRemoval": true,
+          "Duration": 8.0,
+          "Mods": [
+            {
+              "ObjectName": "MLGasEffectModSinCurve'C_Chonk_C:MLGasComponent_GEN_VARIABLE.MLGasEffectModSinCurve_2'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.26"
+            }
+          ]
+        },
+        {
+          "Priority": -2,
+          "GameplayTag": {
+            "TagName": "Status.Stun.Medium"
+          },
+          "bRemoveOnTagRemoval": true,
+          "Duration": 4.0,
+          "Mods": [
+            {
+              "ObjectName": "MLGasEffectModConstraintScale'C_Chonk_C:MLGasComponent_GEN_VARIABLE.MLGasEffectModConstraintScale_1'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.25"
+            }
+          ]
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasEffectModConstraintScale",
+    "Name": "MLGasEffectModConstraintScale_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasEffectModConstraintScale'",
+    "Outer": {
+      "ObjectName": "MLGasComponent'C_Chonk_C:MLGasComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.24"
+    },
+    "Properties": {
+      "Constraint": {
+        "Stiffness": 0.0,
+        "Damping": 0.0,
+        "MaxForce": 0.0
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasEffectModSinCurve",
+    "Name": "MLGasEffectModSinCurve_2",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasEffectModSinCurve'",
+    "Outer": {
+      "ObjectName": "MLGasComponent'C_Chonk_C:MLGasComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.24"
+    },
+    "Properties": {
+      "Wave2Amp": 0.5,
+      "Wave1Freq": 30.0,
+      "Wave2Freq": 7.6,
+      "DeadTime": 1.8,
+      "Period": 3.5,
+      "ActionAxisScale": {
+        "X": 0.7,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "ActionAxisOffset": {
+        "X": -0.2,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Constraint": {
+        "Stiffness": 0.2,
+        "MaxForce": 2.0
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLIntentionComponent",
+    "Name": "MLIntentionComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLIntentionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLLocomotionMovementComponent",
+    "Name": "MLLocomotionMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLLocomotionMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "MaximumTurnSpeed": 90.0,
+      "SpeedMatrix": [
+        {
+          "Key": "EAIMovementSpeed::VerySlow",
+          "Value": 200.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Slow",
+          "Value": 300.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Normal",
+          "Value": 300.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Fast",
+          "Value": 300.0
+        },
+        {
+          "Key": "EAIMovementSpeed::VeryFast",
+          "Value": 300.0
+        }
+      ],
+      "TurnSpeedMatrix": [
+        {
+          "Key": "EAITurnSpeed::VerySlow",
+          "Value": 50.0
+        },
+        {
+          "Key": "EAITurnSpeed::Slow",
+          "Value": 50.0
+        },
+        {
+          "Key": "EAITurnSpeed::Fast",
+          "Value": 70.0
+        },
+        {
+          "Key": "EAITurnSpeed::VeryFast",
+          "Value": 80.0
+        }
+      ],
+      "bEnableFlipOverHelp": true,
+      "FlipOverHelpThreshold": -0.3,
+      "FlipOverTorqueApplyPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Frame"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+      },
+      "FallbackNavDatas": [
+        {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_M",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_S",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_XS",
+          "SubPathString": ""
+        }
+      ],
+      "NavAgentProps": {
+        "AgentRadius": 300.0,
+        "AgentHeight": 390.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_L",
+          "SubPathString": ""
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLLocomotionPolicySelectorConfig",
+    "Name": "MLLocomotionPolicySelectorConfig_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLLocomotionPolicySelectorConfig'",
+    "Outer": {
+      "ObjectName": "MLTickableMultiPolicyComponentAS'C_Chonk_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.30"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLTickableMultiPolicyComponentAS",
+    "Name": "MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLTickableMultiPolicyComponentAS'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "PolicyDefinitions": [
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Chonk/Inference/NewSystem/INF_Chonk_OmniWalk_002_NewSys.INF_Chonk_OmniWalk_002_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Patrol"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Chonk/Inference/NewSystem/INF_Chonk_RotateStop_002_NewSys.INF_Chonk_RotateStop_002_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.RotateStop"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Chonk/Inference/NewSystem/INF_Chonk_Dismem_002_NewSys.INF_Chonk_Dismem_002_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment"
+          }
+        }
+      ],
+      "PolicySelectorConfig": {
+        "ObjectName": "MLLocomotionPolicySelectorConfig'C_Chonk_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE.MLLocomotionPolicySelectorConfig_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.29"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__BP_ConstructableBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.16"
+    },
+    "Properties": {
+      "SightRangeStrengthScale": 0.9
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__BP_ConstructableBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.17"
+    },
+    "Properties": {
+      "CapabilityUtilityAsset": {
+        "ObjectName": "BTCapabilityUtilityCalculationData'DA_Chonk_CapabilityUtility'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DA_Chonk_CapabilityUtility.3"
+      },
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Turret"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Chonk_GatlingGun_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/GA_Chonk_GatlingGun.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Chonk_Gatlinger_Continuous_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Capabilities/CSM_Chonk_Gatlinger_Continuous.17"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Turret",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.ShakeOff"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.HeadPivot"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.HeadPivot )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Chonk_ShakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Capabilities/GA_Chonk_ShakeOff.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Chonk_ShakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Chonk/Capabilities/CSM_Chonk_ShakeOff.8"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "ShakeOff",
+          "UtilityField": "ShakeOff",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ],
+      "CapabilityGroupDefinitions": [
+        {
+          "Group": {
+            "TagName": "Part.Capability.ShakeOff"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 1.0,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 4
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionBoxShape",
+    "Name": "PioneerConstructableDispersionBoxShape_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionBoxShape'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionBoxShape'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionBoxShape_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleClearShot",
+    "Name": "PioneerConstructableDispersionRuleClearShot_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleClearShot'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleClearShot'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleClearShot_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.3"
+    },
+    "Properties": {
+      "ClearShotToWeightCurve": {
+        "EditorCurveData": {}
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleDiscovery",
+    "Name": "PioneerConstructableDispersionRuleDiscovery_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleDiscovery'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleDiscovery'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleDiscovery_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.4"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
+    "Name": "PioneerConstructableDispersionRuleGameplayTagTarget_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleGameplayTagTarget'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleGameplayTagTarget_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.5"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetCharacterStance",
+    "Name": "PioneerConstructableDispersionRuleTargetCharacterStance_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetCharacterStance'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleTargetCharacterStance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetCharacterStance_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.6"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetDistance",
+    "Name": "PioneerConstructableDispersionRuleTargetDistance_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetDistance'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetDistance_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.7"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetSpeed",
+    "Name": "PioneerConstructableDispersionRuleTargetSpeed_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetSpeed'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetSpeed_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.8"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionTargetAttribute",
+    "Name": "PioneerConstructableDispersionTargetAttribute_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionTargetAttribute'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionTargetAttribute'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionTargetAttribute_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.9"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__BP_ConstructableBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Bastion'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Bastion.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ProximityDetectionService",
+    "Name": "ProximityDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProximityDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "bRegisterProximityEvents": false,
+      "LimitToStandingOnParts": [
+        {
+          "Query": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+          },
+          "bIncludeAllChildrenRecursively": true
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Chonk_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.45"
+      },
+      "VariableGUID": "DA384A1F-4BAE3530-DB0661B5-4D0FD1DC",
+      "InternalVariableName": "DefaultSceneRoot"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityReloadService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityReloadService'C_Chonk_C:CapabilityReloadService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.6"
+      },
+      "VariableGUID": "DD3D185A-4E710FEF-3F3DD491-C174E558",
+      "InternalVariableName": "CapabilityReloadService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'HeadStabilizationComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "HeadStabilizationComponent'C_Chonk_C:HeadStabilizationComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.19"
+      },
+      "VariableGUID": "2B853C74-4339C094-FDE484A6-0A038E83",
+      "InternalVariableName": "HeadStabilizationComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProximityDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProximityDetectionService'C_Chonk_C:ProximityDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.43"
+      },
+      "VariableGUID": "FB8ACF04-4C242050-1C6099B6-2C01BEC8",
+      "InternalVariableName": "ProximityDetectionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_Chonk_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.9"
+      },
+      "VariableGUID": "FFB5D80C-4A3E4AC3-7304E4BC-764045E7",
+      "InternalVariableName": "ConstructableAnimationService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLIntentionComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLIntentionComponent'C_Chonk_C:MLIntentionComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.27"
+      },
+      "VariableGUID": "BDD29978-49A21413-499485AC-0EE4ED3C",
+      "InternalVariableName": "MLIntentionComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StuckDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StuckDetectionService'C_Chonk_C:StuckDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.64"
+      },
+      "VariableGUID": "DFA2DCE3-429378F8-1C1348AF-3EBA68CC",
+      "InternalVariableName": "StuckDetectionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ConstructableDispersionServiceAutomaticRifle_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_Chonk_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.4"
+      },
+      "VariableGUID": "B6B4C60A-4CD08ADE-E82DA79A-4036FCA3",
+      "InternalVariableName": "BP_ConstructableDispersionServiceAutomaticRifle"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLTickableMultiPolicyComponentAS'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLTickableMultiPolicyComponentAS'C_Chonk_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.30"
+      },
+      "VariableGUID": "8CF06E22-47D69F6A-E9629EA9-803699A2",
+      "InternalVariableName": "MLTickableMultiPolicyComponentAS_Locomotion"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLLocomotionMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLLocomotionMovementComponent'C_Chonk_C:MLLocomotionMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.28"
+      },
+      "VariableGUID": "9AD916B5-40055886-9C07B0AB-80A67522",
+      "InternalVariableName": "MLLocomotionMovementComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AITargetComponent'",
+        "ObjectPath": "/Script/EmbarkAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AITargetComponent'C_Chonk_C:AITargetComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.1"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6131DF4A-4D9F956D-4547469B-BEB1193A",
+      "InternalVariableName": "AITargetComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructablePhysicsMaterialService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructablePhysicsMaterialService'C_Chonk_C:ConstructablePhysicsMaterialService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.14"
+      },
+      "VariableGUID": "F6095178-4EF96D14-E8EDA9AA-82B11A00",
+      "InternalVariableName": "ConstructablePhysicsMaterialService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableCollisionGameplayEffectApplicatorComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableCollisionGameplayEffectApplicatorComponent'C_Chonk_C:ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.10"
+      },
+      "VariableGUID": "19C90BD6-4831C745-1472EA96-82A2DB12",
+      "InternalVariableName": "ConstructableCollisionGameplayEffectApplicatorComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ArticulatedTargetingService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ArticulatedTargetingService'C_Chonk_C:ArticulatedTargetingService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.2"
+      },
+      "VariableGUID": "755C269E-472F61B0-C470E49A-FAFE9562",
+      "InternalVariableName": "ArticulatedTargetingService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Chonk_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.61"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLGasComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLGasComponent'C_Chonk_C:MLGasComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.24"
+      },
+      "VariableGUID": "15317DF2-4CA76791-29479A98-67633E8E",
+      "InternalVariableName": "MLGasComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.55"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.56"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.59"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.60"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.47"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.48"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.49"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.50"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.51"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.53"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.58"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.52"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.54"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.57"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.55"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.56"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.59"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.60"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.47"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.48"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.49"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.50"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.51"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.53"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.58"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.52"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.54"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.57"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Chonk_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.46"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__BP_ConstructableBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.25"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Chonk_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/CS_Chonk.2"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Chonk_C'Default__C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.5"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StuckDetectionService",
+    "Name": "StuckDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StuckDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Chonk/C_Chonk.3"
+    },
+    "Properties": {
+      "DestroyedPartsToMinDistanceMultiplier": {
+        "EditorCurveData": {}
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  }
+]

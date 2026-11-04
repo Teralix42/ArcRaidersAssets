@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Shotgun_SemiAuto_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_Item_Shotgun_SemiAuto_01",
+    "SuperStruct": {
+      "ObjectName": "Class'FirearmItem'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Shotgun_SemiAuto_01_C'Default__BP_Item_Shotgun_SemiAuto_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_Item_Shotgun_SemiAuto_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Shotgun_SemiAuto_01_C",
+    "Name": "Default__BP_Item_Shotgun_SemiAuto_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_Item_Shotgun_SemiAuto_01.BP_Item_Shotgun_SemiAuto_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_Item_Shotgun_SemiAuto_01",
+    "Properties": {
+      "CriticalDamageMultiplier": 1.0,
+      "VisibleTraceEveryNthProjectile": 1,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_ShotgunAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/ShotgunAmmo/DA_Item_ShotgunAmmo.0"
+      },
+      "GamepadTriggerDepth": 0.4,
+      "WeaponType": "EWeaponType::Shotgun",
+      "BasePhysicalDamage": 5.5,
+      "BaseFirePower": 50000.0,
+      "BaseClipSize": 6.0,
+      "BaseReloadTime": 3.0,
+      "BaseFireRate": 140.0,
+      "BaseBurnRate": 0.005563,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_BasicMeleeWeapon_Hit'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_BasicMeleeWeapon_Hit.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "AiArmorDamageMultiplier": 0.5,
+      "BurstSize": 1,
+      "bUseCustomMultiShotDispersion": true,
+      "MultiShot": [
+        {
+          "DistanceFrac": 0.0,
+          "ExtraDispersion": 0.0,
+          "bHalfOffset": false,
+          "Projectiles": 1
+        },
+        {
+          "DistanceFrac": 0.5,
+          "ExtraDispersion": 0.1,
+          "bHalfOffset": true,
+          "Projectiles": 4
+        },
+        {
+          "DistanceFrac": 0.9,
+          "ExtraDispersion": 0.1,
+          "bHalfOffset": false,
+          "Projectiles": 4
+        }
+      ],
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Shotgun_SemiAuto_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_Projectile_Shotgun_SemiAuto_01.0"
+      },
+      "LoopingReloadEntryTime": 0.8,
+      "LoopingReloadExitTime": 0.4,
+      "bPartialReload": true,
+      "PartialReloadDuration": 2.8,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 0.55,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": -0.4,
+          "PartialTime": 1.5,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 2.5,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_Shotgun_SemiAuto_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/DA_RecoilProfile_Shotgun_SemiAuto_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_Shotgun_SemiAuto_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/DA_DispersionState_Shotgun_SemiAuto_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_Shotgun_SemiAuto_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/Curve_DamageFalloff_Shotgun_SemiAuto_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 0.925,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'ShotgunSemiAutoCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunSemiAutoCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunSemiAutoCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_Shotgun_SemiAuto_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_WeaponQualitySet_Shotgun_SemiAuto_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 49.5,
+        "FireRate": 14.3,
+        "Range": 22.0,
+        "Stability": 64.6,
+        "Agility": 66.3,
+        "Stealth": 15.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_ShotgunMuzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_ShotgunMuzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineShotgun'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineShotgun.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Mag_Shotgun_01'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Magazines/Mag_Shotgun_01/DA_Visual_WeaponMod_Mag_Shotgun_01.0"
+          },
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Shotgun_SemiAuto_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/DA_Item_Shotgun_SemiAuto_01.0"
+      },
+      "BaseCameraZoomTime": 0.6
+    }
+  }
+]

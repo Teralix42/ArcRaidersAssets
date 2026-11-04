@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_36",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_LightDroneElite'",
+      "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyMetaData_LightDroneElite.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_LightDroneElite'",
+        "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_Persistence_Enemy_LightDroneElite.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Enemy_Drone_Hornet'",
+        "ObjectPath": "/Game/Pioneer/UI/Assets/Enemies/T_UI_Enemy_Drone_Hornet.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Hornet.T_UI_ARC_Hornet",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_HORNET_NAME",
+        "SourceString": "Hornet",
+        "LocalizedString": "Hornet"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_LightDroneElite",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyMetaData_LightDroneElite",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_LightDroneElite:UIEnemyMetaDataItem_36'",
+          "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyMetaData_LightDroneElite.0"
+        }
+      ]
+    }
+  }
+]

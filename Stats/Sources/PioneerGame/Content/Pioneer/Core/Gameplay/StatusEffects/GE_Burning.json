@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "AssetTagsGameplayEffectComponent",
+    "Name": "AssetTagsGameplayEffectComponent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AssetTagsGameplayEffectComponent'",
+    "Outer": {
+      "ObjectName": "GE_Burning_C'Default__GE_Burning_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.2"
+    },
+    "Properties": {
+      "InheritableAssetTags": {
+        "CombinedTags": [
+          "Status.Burning",
+          "Metadata.CanDamageTeam"
+        ],
+        "Added": [
+          "Status.Burning",
+          "Metadata.CanDamageTeam"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Burning_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning",
+    "SuperStruct": {
+      "ObjectName": "Class'PioneerNoAttributeDamageEffect'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Burning_C'Default__GE_Burning_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GE_Burning_C",
+    "Name": "Default__GE_Burning_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.GE_Burning_C'",
+    "Package": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning",
+    "Properties": {
+      "Damage": [
+        {
+          "Type": "EPioneerDamageType::Thermal",
+          "Value": 1.125
+        }
+      ],
+      "DurationPolicy": "EGameplayEffectDurationType::HasDuration",
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 1.5
+        }
+      },
+      "Period": {
+        "Value": 0.1
+      },
+      "bExecutePeriodicEffectOnApplication": false,
+      "GameplayCues": [
+        {
+          "MagnitudeAttribute": {
+            "AttributeName": "",
+            "Attribute": {
+              "Path": [],
+              "ResolvedOwner": null
+            },
+            "AttributeOwner": null
+          },
+          "MinLevel": 0.0,
+          "MaxLevel": 0.0,
+          "GameplayCueTags": [
+            "GameplayCue.StatusEffect.Burning"
+          ],
+          "bReplicateMagnitudeDuringMinimalReplication": false
+        }
+      ],
+      "InheritableGameplayEffectTags": {
+        "CombinedTags": [
+          "Status.Burning",
+          "Metadata.CanDamageTeam"
+        ],
+        "Added": [
+          "Status.Burning",
+          "Metadata.CanDamageTeam"
+        ]
+      },
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Status.Burning"
+        ],
+        "Added": [
+          "Status.Burning"
+        ]
+      },
+      "StackingType": "EGameplayEffectStackingType::AggregateByTarget",
+      "StackLimitCount": 1,
+      "StackPeriodResetPolicy": "EGameplayEffectStackingPeriodPolicy::NeverReset",
+      "GEComponents": [
+        {
+          "ObjectName": "AssetTagsGameplayEffectComponent'Default__GE_Burning_C:AssetTagsGameplayEffectComponent_0'",
+          "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.0"
+        },
+        {
+          "ObjectName": "TargetTagsGameplayEffectComponent'Default__GE_Burning_C:TargetTagsGameplayEffectComponent_0'",
+          "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.3"
+        }
+      ],
+      "DataVersion": {
+        "Value": 2
+      }
+    }
+  },
+  {
+    "Type": "TargetTagsGameplayEffectComponent",
+    "Name": "TargetTagsGameplayEffectComponent_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetTagsGameplayEffectComponent'",
+    "Outer": {
+      "ObjectName": "GE_Burning_C'Default__GE_Burning_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.2"
+    },
+    "Properties": {
+      "InheritableGrantedTagsContainer": {
+        "CombinedTags": [
+          "Status.Burning"
+        ],
+        "Added": [
+          "Status.Burning"
+        ]
+      }
+    }
+  }
+]

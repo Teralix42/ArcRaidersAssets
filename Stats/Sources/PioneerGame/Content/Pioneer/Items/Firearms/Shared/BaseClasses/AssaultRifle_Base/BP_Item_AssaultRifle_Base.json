@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AssaultRifle_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AssaultRifle_Base_C'Default__BP_Item_AssaultRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AssaultRifle_Base_C",
+    "Name": "Default__BP_Item_AssaultRifle_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base.BP_Item_AssaultRifle_Base_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base",
+    "Template": {
+      "ObjectName": "BP_WeaponItem_RifleBase_C'Default__BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.1"
+    },
+    "Properties": {
+      "CriticalDamageMultiplier": 1.5,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_MediumAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/MediumAmmo/DA_Item_MediumAmmo.0"
+      },
+      "BasePhysicalDamage": 12.0,
+      "BaseFirePower": 70000.0,
+      "BaseClipSize": 25.0,
+      "BaseReloadTime": 3.0,
+      "BaseFireRate": 600.0,
+      "FiringMode": "EFiringMode::Auto",
+      "BurstSize": 1,
+      "PreviewArcSplineMeshComponent": null,
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_AssaultRifle_Bullpup_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_WeaponQualitySet_AssaultRifle_Bullpup_01.0"
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": -1
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": -1
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": -1
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineMedium'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineMedium.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": -1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_AssaultRifle_Heavy_01_XRounds",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Heavy_01_XRounds",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_AssaultRifle_Heavy_01_XRounds_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Upgrades/BP_UpgradeWeaponMod_AssaultRifle_Heavy_01_XRounds.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_XROUNDS",
+        "SourceString": "X-Rounds",
+        "LocalizedString": "X-Rounds"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_XROUNDS",
+        "SourceString": "Adds an explosive compound to the projectile, dealing slightly increased damage to Raiders and significantly increased damage to ARC Armor plating.",
+        "LocalizedString": "Adds an explosive compound to the projectile, dealing slightly increased damage to Raiders and significantly increased damage to ARC Armor plating."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_ExplosiveRounds.T_UI_Icon_Upgrade_ExplosiveRounds",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DAMAGEFLAT_POSITIVE",
+            "SourceString": "+{0} Base Damage",
+            "LocalizedString": "+{0} Base Damage"
+          },
+          "ModifierValue": 3.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_ARCARMORDAMAGE_POSITIVE",
+            "SourceString": "{0}% Increased Damage vs ARC Armor",
+            "LocalizedString": "{0}% Increased Damage vs ARC Armor"
+          },
+          "ModifierValue": 25.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_VERTICALRECOIL_NEGATIVE",
+            "SourceString": "{0}% Increased Vertical Recoil",
+            "LocalizedString": "{0}% Increased Vertical Recoil"
+          },
+          "ModifierValue": 20.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_NEGATIVE",
+            "SourceString": "{0}% Increased Horizontal Recoil",
+            "LocalizedString": "{0}% Increased Horizontal Recoil"
+          },
+          "ModifierValue": 20.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREPOWER_NEGATIVE",
+            "SourceString": "{0}% Reduced Bullet Velocity",
+            "LocalizedString": "{0}% Reduced Bullet Velocity"
+          },
+          "ModifierValue": 30.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_CLIPSIZE_NEGATIVE",
+            "SourceString": "-{0} Magazine Size",
+            "LocalizedString": "-{0} Magazine Size"
+          },
+          "ModifierValue": 4.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ]
+    }
+  }
+]

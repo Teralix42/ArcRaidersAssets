@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_BattleRifle_BreachAction_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_Item_BattleRifle_BreachAction_01",
+    "Properties": {
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_WeaponActor_BattleRifle_BreachAction_01.BP_WeaponActor_BattleRifle_BreachAction_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/SM_BattleRifle_BreachAction_A.SM_BattleRifle_BreachAction_A",
+        "SubPathString": ""
+      },
+      "Weight": 8.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Ferro"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "DropTags": [
+        "Item.Drop.Tier.Low",
+        "Item.Drop.Type.Equipment.Weapon.Firearm.HeavyAmmo",
+        "Item.Drop.Rarity.01Common"
+      ],
+      "StaticLootAvoidGroups": [
+        "Item.Drop.Type.Equipment.Weapon.Firearm"
+      ],
+      "UnequipTime": 0.7,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 1.3,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.RifleAndHandCannon"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_AssaultRifle'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_AssaultRifle.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_BattleRifle_BreachAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_ItemAnimationContainer_BattleRifle_BreachAction_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_BattleRifleBreachAction01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_ItemSkinSlot_BattleRifleBreachAction01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_WeaponVisuals_BattleRifle_BreachAction_01.DA_WeaponVisuals_BattleRifle_BreachAction_01",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_QualityVisual_BattleRifle_BreachAction_01.DA_QualityVisual_BattleRifle_BreachAction_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_BreachAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_Persistence_BattleRifle_BreachAction_01.0"
+      },
+      "Tags": [
+        "Online.Release.Base",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.BattleRifleBreachAction01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.HeavyAmmoWeapon"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Item_BattleRifle_BreachAction_01.BP_Item_BattleRifle_BreachAction_01_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

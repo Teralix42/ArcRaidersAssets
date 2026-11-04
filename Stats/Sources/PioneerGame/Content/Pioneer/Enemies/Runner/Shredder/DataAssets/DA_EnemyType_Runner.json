@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Runner",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_EnemyType_Runner",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Runner/C_Runner.C_Runner_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 2015925366,
+      "EnemyTag": {
+        "TagName": "Enemy.Runner.Shrapnel"
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Runner'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_Persistence_Enemy_Runner.0"
+      },
+      "Tags": [
+        "Online.Release.1.2"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

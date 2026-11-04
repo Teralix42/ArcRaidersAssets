@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_BattleRifle_EnergyBurst_01_IncendiaryRounds",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_EnergyBurst_01_IncendiaryRounds",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_INCENDIARYROUNDS",
+        "SourceString": "Incendiary Rounds",
+        "LocalizedString": "Incendiary Rounds"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_INCENDIARYROUNDS",
+        "SourceString": "Adds an incendiary compound to the projectile, setting targets on fire when hit.",
+        "LocalizedString": "Adds an incendiary compound to the projectile, setting targets on fire when hit."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_IncendiaryAmmo.T_UI_Icon_Upgrade_IncendiaryAmmo",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BURNDAMAGEOVERTIME_POSITIVE",
+            "SourceString": "+{0}/s Burn Damage",
+            "LocalizedString": "+{0}/s Burn Damage"
+          },
+          "ModifierValue": 5.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BURNDURATION_POSITIVE",
+            "SourceString": "+{0}s Burn Duration",
+            "LocalizedString": "+{0}s Burn Duration"
+          },
+          "ModifierValue": 2.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  }
+]

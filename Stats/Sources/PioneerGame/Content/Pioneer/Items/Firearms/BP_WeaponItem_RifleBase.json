@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WeaponItem_RifleBase_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase",
+    "SuperStruct": {
+      "ObjectName": "Class'FirearmItem'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WeaponItem_RifleBase_C'Default__BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WeaponItem_RifleBase_C",
+    "Name": "Default__BP_WeaponItem_RifleBase_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.BP_WeaponItem_RifleBase_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase",
+    "Properties": {
+      "BasePhysicalDamage": 0.0,
+      "BaseClipSize": 30.0,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_WeaponBash_Hit_Rifle'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_WeaponBash_Hit_Rifle.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "PreviewArcSplineMeshComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SplineMeshComp_ChargingLauncherArc_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Shared/BP_SplineMeshComp_ChargingLauncherArc.0"
+      }
+    }
+  }
+]

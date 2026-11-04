@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Sniper",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyType_Sniper",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Sniper/C_Sniper.C_Sniper_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -1122989322,
+      "EnemyTag": {
+        "TagName": "Enemy.Sniper.RailGun"
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Sniper_Persistence'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_Sniper_Persistence.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

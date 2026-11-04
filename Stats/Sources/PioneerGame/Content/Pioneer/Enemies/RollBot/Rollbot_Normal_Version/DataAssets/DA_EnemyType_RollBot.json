@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_RollBot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyType_RollBot",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.C_RollBot_01_Blockout_Normal_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 1143392102,
+      "EnemyTag": {
+        "TagName": "Enemy.HeavyRollbot.Surveyor"
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_RollBot_Normal'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_Persistence_Enemy_RollBot_Normal.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

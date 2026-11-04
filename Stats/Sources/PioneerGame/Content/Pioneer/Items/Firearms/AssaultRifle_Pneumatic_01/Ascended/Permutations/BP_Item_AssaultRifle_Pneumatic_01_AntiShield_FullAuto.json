@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_AssaultRifle_Pneumatic_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/BP_Item_AssaultRifle_Pneumatic_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto_C'Default__BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto_C",
+    "Name": "Default__BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto.BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto",
+    "Template": {
+      "ObjectName": "BP_Item_AssaultRifle_Pneumatic_01_Ascended_C'Default__BP_Item_AssaultRifle_Pneumatic_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/BP_Item_AssaultRifle_Pneumatic_01_Ascended.1"
+    },
+    "Properties": {
+      "bNoHealthDamageWhileArmored": true,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_Pneumatic_01_AntiShield_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/BP_Projectile_AssaultRifle_Pneumatic_01_AntiShield.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 6.5,
+        "FireRate": 34.5,
+        "Stability": 65.147
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/DA_Item_AssaultRifle_Pneumatic_01_AntiShield_FullAuto.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_Pneumatic_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Pneumatic_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_Pneumatic_01_AntiShield'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Pneumatic_01_AntiShield.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_Pneumatic_01_FullAuto'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Pneumatic_01_FullAuto.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_ShoveOffFrigate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate",
+    "SuperStruct": {
+      "ObjectName": "Class'ShoveOffFrigate'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_ShoveOffFrigate_C'Default__GA_ShoveOffFrigate_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_ShoveOffFrigate_C",
+    "Name": "Default__GA_ShoveOffFrigate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate.GA_ShoveOffFrigate_C'",
+    "Package": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate"
+  }
+]

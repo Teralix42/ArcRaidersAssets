@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_Launcher_AntiArc_SingleShot_01_HighVelocity_SprintShooting",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/Permutations/DA_Item_Launcher_AntiArc_SingleShot_01_HighVelocity_SprintShooting",
+    "Properties": {
+      "bIsUpgradedVariation": true,
+      "BaseQualityLevel": 3,
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_WeaponActor_Launcher_AntiArc_SingleShot_01.BP_WeaponActor_Launcher_AntiArc_SingleShot_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/SM_Launcher_AntiArc_SingleShot_01_A.SM_Launcher_AntiArc_SingleShot_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 4.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Rascal"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "UnequipTime": 0.4,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 0.65,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.Pistol"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupLauncher'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupLauncher.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_Launcher_AntiArc_SingleShot_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/DA_ItemAnimationContainer_Launcher_AntiArc_SingleShot_01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/Default/DA_WeaponVisuals_Launcher_AntiArc_SingleShot_01_Ascended_Default_A_02.DA_WeaponVisuals_Launcher_AntiArc_SingleShot_01_Ascended_Default_A_02",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Launcher_AntiArc_SingleShot_01_HighVelocity_SprintShooting'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/Permutations/DA_Persistence_Launcher_AntiArc_SingleShot_01_HighVelocity_SprintShooting.0"
+      },
+      "Tags": [
+        "Item.Flag.Upgraded",
+        "Online.Release.2.0"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.LauncherAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Rascal"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/Permutations/BP_Item_Launcher_AntiArc_SingleShot_01_HighVelocity_SprintShooting.BP_Item_Launcher_AntiArc_SingleShot_01_HighVelocity_SprintShooting_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

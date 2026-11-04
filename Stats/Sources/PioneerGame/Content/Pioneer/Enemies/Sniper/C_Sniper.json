@@ -1,0 +1,1231 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_Sniper_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Sniper_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Sniper/C_Sniper",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Sniper_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.33"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Sniper_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.15"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ChainArticulationTargetingService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChainArticulationTargetingService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProximityDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProximityDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SnapSpawnDataService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SnapSpawnDataService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PioneerConstructableDispersionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PioneerConstructableDispersionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "C_Sniper_C",
+    "Name": "Default__C_Sniper_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Sniper/C_Sniper.C_Sniper_C'",
+    "Package": "/Game/Pioneer/Enemies/Sniper/C_Sniper",
+    "Template": {
+      "ObjectName": "C_Sniper_SharedBase_C'Default__C_Sniper_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Sniper_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.14"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Sniper_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.10"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Sniper_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.6"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Sniper_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.18"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Sniper_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.11"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Sniper_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.13"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Sniper_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.8"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Sniper_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.12"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Sniper_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.17"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Sniper_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.23"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Sniper_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.9"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Sniper_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.24"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Sniper_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.35"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Sniper_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.26"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Sniper_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Sniper_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.7"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Sniper_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.5"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_Sniper_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_Sniper_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Sniper'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyType_Sniper.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Ground"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Sniper_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.16"
+      },
+      "SpawnBudgetCost": 6,
+      "ThreatLevel": 20,
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Sniper_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.36"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Sniper_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.4"
+      },
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Sniper_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.9"
+      }
+    }
+  },
+  {
+    "Type": "ChainArticulationTargetingService",
+    "Name": "ChainArticulationTargetingService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChainArticulationTargetingService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.1"
+    },
+    "Properties": {
+      "ArticulatedTargetingDefinitions": [
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Arm"
+                  },
+                  {
+                    "TagName": "Part.Decorator.Group.Relative.Lower"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  2,
+                  0,
+                  1
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Arm,\n Part.Decorator.Group.Relative.Lower )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": 45.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            },
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Arm"
+                  },
+                  {
+                    "TagName": "Part.Decorator.Group.Relative.Upper"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  2,
+                  0,
+                  1
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Arm,\n Part.Decorator.Group.Relative.Upper )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": 12.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::AxisDrivenTransform",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": {
+                "ObjectName": "CurveTranslateRotate'Curve_Sniper_UpperArm_AimRotation'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Curve_Sniper_UpperArm_AimRotation.0"
+              },
+              "bUseRawTargetOrientation": false
+            },
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Head"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": -1.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Sniper_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Sniper_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Critical'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Critical.0"
+        },
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_SniperHead'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_AimAssistPartSetup_SniperHead.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_Sniper_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.5"
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_Sniper_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Sniper_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.9"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Sniper_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.7"
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Sniper_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Sniper_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 10.0,
+            "MaxRotationSpeedDegPerSec": 90.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 100000.0,
+            "bDirectlyUpdatePartOrientations": false,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "RotationOriginConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+          },
+          "SocketName": "Head",
+          "PivotType": "EConstructablePartPivotType::Socket"
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "MaxRotationSpeedDegPerSec": 90.0,
+        "ProjectileSpeedCmPerSec": 100000.0,
+        "bDirectlyUpdatePartOrientations": false,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Sniper_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_Sniper_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_Sniper_Perception.0"
+      }
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_Sniper_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.11"
+    },
+    "Properties": {
+      "LootType": {
+        "TagName": "Loot.Enemy.Sniper"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_Sniper_PartScavenge'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_Sniper_PartScavenge.0"
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_Sniper_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.12"
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_Sniper_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.13"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.1"
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_Sniper_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.15"
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_Sniper_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.16"
+    },
+    "Properties": {
+      "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::KeepAiming",
+      "SightRangeStrengthScale": 0.01,
+      "FullSightOverrideAlertnessStates": 6
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_Sniper_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.17"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Sniper_Projectile_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Capabilities/GA_Sniper_Projectile.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Sniper_Projectile_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Capabilities/CSM_Sniper_Projectile.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "None",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Land"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Land_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/GA_Land.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicCapability_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicCapability.277"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "None",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionBoxShape",
+    "Name": "PioneerConstructableDispersionBoxShape_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionBoxShape'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.22"
+    },
+    "Properties": {
+      "ShrinkageFactor": {
+        "X": 0.8,
+        "Y": 0.8
+      },
+      "GrowFactor": 1.2,
+      "AbsoulteGrow": {
+        "X": 20.0,
+        "Y": 20.0
+      },
+      "bAdditionalAbsoluteGrowByDistance": false
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
+    "Name": "PioneerConstructableDispersionRuleGameplayTagTarget_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleGameplayTagTarget'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.22"
+    },
+    "Properties": {
+      "ScoreDelta": -0.5,
+      "Tags": [
+        "Ability.DodgeRoll.Active"
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetSpeed",
+    "Name": "PioneerConstructableDispersionRuleTargetSpeed_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetSpeed'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.22"
+    },
+    "Properties": {
+      "ScoreDelta": 1.0,
+      "SpeedToWeightCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 0.5,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 2.0,
+              "Value": 0.5,
+              "ArriveTangent": -0.14285715,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": -0.14285715,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 7.0,
+              "Value": -0.5,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "AlignedVelocityFactor": 0.3
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionService",
+    "Name": "PioneerConstructableDispersionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.1"
+    },
+    "Properties": {
+      "PredictionFrequency": 10,
+      "HitDispersionFraction": 0.1,
+      "DispersionSettings": [
+        {
+          "Key": {
+            "TagName": "Part.Capability.Weapon.Primary"
+          },
+          "Value": {
+            "DispersionActiveHalfAngleThreshold": 90.0,
+            "BaseScore": 1.0,
+            "AccuracyErrorAdjustmentFactor": 0.0,
+            "DispersionRules": [
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetSpeed_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.21"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleGameplayTagTarget_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.20"
+              }
+            ],
+            "DispersionShape": {
+              "ObjectName": "PioneerConstructableDispersionBoxShape'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionBoxShape_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.19"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_Sniper_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.18"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_Sniper_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Sentinel'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Sentinel.0"
+      }
+    }
+  },
+  {
+    "Type": "ProximityDetectionService",
+    "Name": "ProximityDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProximityDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.1"
+    },
+    "Properties": {
+      "DQMCenterOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 165.0
+      },
+      "DistanceToCheck": 130.0,
+      "bRegisterOnTopEvents": false
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_Sniper_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.20"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Sniper_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Sniper_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.27"
+      },
+      "VariableGUID": "4088F6C5-4D9355C1-711002A4-02F8FE38",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Sniper_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PioneerConstructableDispersionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PioneerConstructableDispersionService'C_Sniper_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.22"
+      },
+      "VariableGUID": "7F507147-4B807554-BC16DA81-0FEFDFF2",
+      "InternalVariableName": "PioneerConstructableDispersionService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Sniper_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProximityDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProximityDetectionService'C_Sniper_C:ProximityDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.25"
+      },
+      "VariableGUID": "DB3FB507-498B9327-3A823496-6A06C4A3",
+      "InternalVariableName": "ProximityDetectionService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Sniper_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChainArticulationTargetingService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChainArticulationTargetingService'C_Sniper_C:ChainArticulationTargetingService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.3"
+      },
+      "VariableGUID": "8651A30A-491253B9-8ED773B2-3C34C572",
+      "InternalVariableName": "ChainArticulationTargetingService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Sniper_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SnapSpawnDataService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SnapSpawnDataService'C_Sniper_C:SnapSpawnDataService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.34"
+      },
+      "VariableGUID": "7E67D00D-42B2E0FF-A80A8DBC-5DF7C135",
+      "InternalVariableName": "SnapSpawnDataService"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.29"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.32"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.30"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.31"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.29"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.32"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.30"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.31"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Sniper_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.28"
+      }
+    }
+  },
+  {
+    "Type": "SnapSpawnDataService",
+    "Name": "SnapSpawnDataService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SnapSpawnDataService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.1"
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_Sniper_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.24"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Sniper_C'Default__C_Sniper_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/C_Sniper.2"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_Sniper_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Shared/C_Sniper_SharedBase.25"
+    }
+  }
+]

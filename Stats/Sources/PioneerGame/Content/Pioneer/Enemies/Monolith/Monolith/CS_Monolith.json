@@ -1,0 +1,4327 @@
+[
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Monolith_Idle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Idle.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Monolith_Search'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Search.0"
+            },
+            "StateOscillationFrequency": 18.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Monolith_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Monolith_Search'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Search.0"
+            },
+            "StateOscillationFrequency": 15.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Monolith_EnterCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_EnterCombat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Monolith_InCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_InCombat.0"
+            },
+            "StateOscillationFrequency": 8.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Monolith_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_CombatToIdle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_IdleToCombat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_CombatToAlert",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_AlertToCombat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_AlertToIdle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_IdleToAlert",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_ThumpActive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_ThumpReady",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Large",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableHoverEngineAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CyclicTransformStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CyclicTransformStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationRepositoryComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_Spin",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_Attack",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimSequence_Landing",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeatedHullStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'HeatedHullStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MineWeaponProxy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EyeProxy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ThrusterStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ThrusterStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Monolith_C'Default__CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.9"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Large_C",
+    "Name": "BP_DamageStyleDriver_Large_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.BP_DamageStyleDriver_Large_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Large_C'Default__BP_DamageStyleDriver_Large_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Monolith'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Monolith.0"
+      },
+      "SecondaryExplosionsEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Monolith_Secondary'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Monolith_Secondary.0"
+      },
+      "DeathExplosionDelayTime": {
+        "min": 2.0,
+        "max": 5.0
+      },
+      "TimeAfterDeathExplosionToAllowSecondaryExplosions": 0.75,
+      "MaximumAllowedExplosionsOnSameFrame": 1,
+      "MaximumAllowedExplosionsAllowedShort": 1,
+      "MaximumAllowedExplosionsAllowedLong": 6
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.Extract"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_Thump_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_Thump_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_Thump_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_Thump_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::CoolingDown",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_Thump_Cooldown'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_Thump_Cooldown.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Ready",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AnimSequence_ThumpReady_GEN_VARIABLE",
+                      "SanitizedComponentName": "AnimSequence_ThumpReady",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::Stop"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AnimSequence_ThumpActive_GEN_VARIABLE",
+                      "SanitizedComponentName": "AnimSequence_ThumpActive",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.TakeOff.Timed"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_Takeoff_Timed_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_Takeoff_Timed_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "Thruster"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_Takeoff_Timed_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_Takeoff_Timed_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "Thruster"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.TakeOff.Emergency"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_Takeoff_Emergency_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_Takeoff_Emergency_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "ThrusterBase"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_Takeoff_Emergency_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_Takeoff_Emergency_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "ThrusterBase"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Suppressive"
+          ],
+          "StateEffectMap": [],
+          "ResultEffectMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Monolith_MineSpiral_Fire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Monolith_MineSpiral_Fire.0"
+                },
+                "bPlayForEachPart": false,
+                "bKillExplicitState": false,
+                "KillExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAnimationRepositoryComponent",
+    "Name": "ConstructableAnimationRepositoryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationRepositoryComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimationRepository": {
+        "ObjectName": "ConstructableAnimationRepository'DA_Monolith_AnimationRepository'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/DA_Monolith_AnimationRepository.0"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableHoverEngineAudioComponent",
+    "Name": "ConstructableHoverEngineAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableHoverEngineAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "GroundedStartSound": {
+        "ObjectName": "SoundCue'Monolith_Landed'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Landed.0"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'Monolith_Engine'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Engine.0"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Monolith_C'Default__CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.9"
+    },
+    "Properties": {
+      "ProxyPartList": [
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 17.522736
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.ID.Sensor"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 78,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "None"
+          },
+          "PartName": "EyeProxy",
+          "bIsDestroyed": false
+        },
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": -3.5076203E-16,
+              "Y": 0.70710677,
+              "Z": 3.5076203E-16,
+              "W": 0.70710677,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.99999994
+            },
+            "Translation": {
+              "X": -2.8189824E-09,
+              "Y": 1.6093667E-13,
+              "Z": -282.28604
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.ID.Weapon.Missile"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 79,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "None"
+          },
+          "PartName": "MineWeaponProxy",
+          "bIsDestroyed": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyComponent",
+    "Name": "EyeProxy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Sensor"
+      ],
+      "PartIDRange": {
+        "BasePartID": 78,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 17.522736
+      },
+      "bIsEditorOnly": false
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyComponent",
+    "Name": "MineWeaponProxy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Weapon.Missile"
+      ],
+      "PartIDRange": {
+        "BasePartID": 79,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": -2.8189824E-09,
+        "Y": 1.6093667E-13,
+        "Z": -282.28604
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 360.0,
+        "Roll": 2.4148367E-06
+      },
+      "bIsEditorOnly": false
+    }
+  },
+  {
+    "Type": "CS_Monolith_C",
+    "Name": "Default__CS_Monolith_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.CS_Monolith_C'",
+    "Package": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -555.0095,
+          "Y": -555.0094,
+          "Z": -503.13422
+        },
+        "Max": {
+          "X": 555.00946,
+          "Y": 555.0094,
+          "Z": 515.86926
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Monolith_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.6"
+      }
+    }
+  },
+  {
+    "Type": "CyclicTransformStyleDriver",
+    "Name": "CyclicTransformStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CyclicTransformStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "CyclicTransformDefinitions": [
+        {
+          "PartsToTransformQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Spinner"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "Spinning Core",
+            "AutoDescription": " ALL( Part.Decorator.ID.Spinner )"
+          },
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "Evaluation": 6,
+          "MovementType": "ECyclicTransformMovementType::RotateAroundAxis",
+          "SpeedControlType": "ECyclicTransformSpeedControlType::ScaleWithHealth",
+          "LocalMovementAxis": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "CyclesPerSecond": 0.5,
+          "MaximumSpeedDeltaPerSecond": 50.0
+        },
+        {
+          "PartsToTransformQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Fan"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "Spinning Fan",
+            "AutoDescription": " ALL( Part.Decorator.ID.Fan )"
+          },
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "Evaluation": 6,
+          "MovementType": "ECyclicTransformMovementType::RotateAroundAxis",
+          "SpeedControlType": "ECyclicTransformSpeedControlType::None",
+          "LocalMovementAxis": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "CyclesPerSecond": -0.1,
+          "MaximumSpeedDeltaPerSecond": 3.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_XL'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_XL.0"
+      }
+    }
+  },
+  {
+    "Type": "HeatedHullStyleDriver",
+    "Name": "HeatedHullStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HeatedHullStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "VisualStageMap": [
+        {
+          "Key": "EHeatedHullState::BuildingUp",
+          "Value": {
+            "VFXSystem": {
+              "ObjectName": "NiagaraSystem'NS_Monolith_TopHeat_Buildup'",
+              "ObjectPath": "/Game/Pioneer/Effects/Systems/Enemies/Monolith/NS_Monolith_TopHeat_Buildup.13"
+            },
+            "VFXTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 480.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DecalMaterial": null,
+            "DecalFadeInDuration": 0.0,
+            "DecalFadeOutDuration": 3.0,
+            "DecalTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "Sound": {
+              "ObjectName": "SoundCue'WasabiHusk_SteamDischarge'",
+              "ObjectPath": "/Game/Pioneer/Audio/Interactables/WasabiHusk/WasabiHusk_SteamDischarge.0"
+            },
+            "SoundTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 350.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        },
+        {
+          "Key": "EHeatedHullState::Active",
+          "Value": {
+            "VFXSystem": {
+              "ObjectName": "NiagaraSystem'NS_Monolith_TopHeat_Active'",
+              "ObjectPath": "/Game/Pioneer/Effects/Systems/Enemies/Monolith/NS_Monolith_TopHeat_Active.35"
+            },
+            "VFXTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 480.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DecalMaterial": {
+              "ObjectName": "Material'M_FX_Decal_Heat'",
+              "ObjectPath": "/Game/Pioneer/Effects/Prototype/M_FX_Decal_Heat.0"
+            },
+            "DecalFadeInDuration": 3.0,
+            "DecalFadeOutDuration": 10.0,
+            "DecalTransform": {
+              "Rotation": {
+                "X": -0.0,
+                "Y": 0.70710677,
+                "Z": 0.0,
+                "W": 0.70710677,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.99999994
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 380.0
+              },
+              "Scale3D": {
+                "X": 50.0,
+                "Y": 400.0,
+                "Z": 400.0
+              }
+            },
+            "Sound": {
+              "ObjectName": "SoundCue'WasabiHusk_Fire'",
+              "ObjectPath": "/Game/Pioneer/Audio/Interactables/WasabiHusk/WasabiHusk_Fire.0"
+            },
+            "SoundTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 350.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        },
+        {
+          "Key": "EHeatedHullState::CoolingDown",
+          "Value": {
+            "VFXSystem": null,
+            "VFXTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "DecalMaterial": null,
+            "DecalFadeInDuration": 0.0,
+            "DecalFadeOutDuration": 3.0,
+            "DecalTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "Sound": null,
+            "SoundTransform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Monolith_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.13"
+      },
+      "VariableGUID": "4788BC20-4C71F07E-C4242F9D-FB9EE999",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Monolith_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.39"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.22"
+        }
+      ],
+      "VariableGUID": "FA9DE8E2-4C42B2C1-77C18EA4-967C235A",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_Monolith_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.0"
+      },
+      "VariableGUID": "5330BE22-4E2B18C3-E019A4B0-EA18BE43",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CyclicTransformStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CyclicTransformStyleDriver'CS_Monolith_C:CyclicTransformStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.10"
+      },
+      "VariableGUID": "107A66CD-4CCC4DF4-97B8109B-A6FE3A93",
+      "InternalVariableName": "CyclicTransformStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_IdleToAlert_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.45"
+      },
+      "VariableGUID": "82CE1B34-4719233C-EA12BD84-4DD37BCA",
+      "InternalVariableName": "AnimSequence_IdleToAlert"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_AlertToIdle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.41"
+      },
+      "VariableGUID": "854ACB48-4B0E825B-74C5F89D-A548D226",
+      "InternalVariableName": "AnimSequence_AlertToIdle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_Landing_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.47"
+      },
+      "VariableGUID": "5BCB1BDC-4D831AF1-5B2F649F-BC92667B",
+      "InternalVariableName": "AnimSequence_Landing"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_Attack_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.42"
+      },
+      "VariableGUID": "45275FE9-4AC9D2D4-32A508B1-A20D8FCB",
+      "InternalVariableName": "AnimSequence_Attack"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableHoverEngineAudioComponent'CS_Monolith_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.5"
+      },
+      "VariableGUID": "FC302C2E-48FEA69E-173497A1-D5B40D1E",
+      "InternalVariableName": "ConstructableHoverEngineAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Large_C'CS_Monolith_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.2"
+      },
+      "VariableGUID": "8F1A2D15-440017C9-16A81AA6-F98D5C43",
+      "InternalVariableName": "BP_DamageStyleDriver_Large"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_ThumpReady_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.50"
+      },
+      "VariableGUID": "08629A49-4A4E88ED-09DFEEAC-872B8C94",
+      "InternalVariableName": "AnimSequence_ThumpReady"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_AlertToCombat_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.40"
+      },
+      "VariableGUID": "ED619973-433229FA-4BE67786-23E00A61",
+      "InternalVariableName": "AnimSequence_AlertToCombat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Monolith_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.11"
+      },
+      "VariableGUID": "45CA6742-421E4D1E-4B1490B1-7CB657A3",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_ThumpActive_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.49"
+      },
+      "VariableGUID": "0E40802C-4E73281D-77C967B4-2E027E9D",
+      "InternalVariableName": "AnimSequence_ThumpActive"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_CombatToAlert_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.43"
+      },
+      "VariableGUID": "69E0580F-41758A23-B26D50A1-9ABEDF25",
+      "InternalVariableName": "AnimSequence_CombatToAlert"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_IdleToCombat_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.46"
+      },
+      "VariableGUID": "EC8AC058-4D98652F-A86C38B8-36BDC045",
+      "InternalVariableName": "AnimSequence_IdleToCombat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_CombatToIdle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.44"
+      },
+      "VariableGUID": "72523062-47128AF8-EA2836B2-CDF613FA",
+      "InternalVariableName": "AnimSequence_CombatToIdle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ThrusterStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ThrusterStyleDriver'CS_Monolith_C:ThrusterStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.51"
+      },
+      "VariableGUID": "0E38331F-4EB93E6F-2D3CD595-53232B42",
+      "InternalVariableName": "ThrusterStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableStyleProxyComponent'CS_Monolith_C:EyeProxy_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.7"
+      },
+      "VariableGUID": "A9EF37E8-4146C536-3AC23D82-AB1F975D",
+      "InternalVariableName": "EyeProxy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableStyleProxyComponent'CS_Monolith_C:MineWeaponProxy_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.8"
+      },
+      "VariableGUID": "86C0DFD8-4C66EA27-84157DA1-2CB902F4",
+      "InternalVariableName": "MineWeaponProxy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Monolith_C:AnimSequence_Spin_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.48"
+      },
+      "VariableGUID": "D1FB6303-41911905-8600FD9F-F73DB504",
+      "InternalVariableName": "AnimSequence_Spin"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'HeatedHullStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "HeatedHullStyleDriver'CS_Monolith_C:HeatedHullStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.12"
+      },
+      "VariableGUID": "A7714749-4456CB26-B4717795-89C1FB25",
+      "InternalVariableName": "HeatedHullStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Monolith_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.3"
+      },
+      "VariableGUID": "B10F219B-4F2A07D8-D1EA3CAB-8830260E",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Monolith_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationRepositoryComponent'CS_Monolith_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.4"
+      },
+      "VariableGUID": "B42B3AD2-4278267E-2CF32BA0-CA10B460",
+      "InternalVariableName": "ConstructableAnimationRepositoryComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.35"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.37"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.36"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.30"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.35"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.37"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.36"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.30"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Monolith_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.14"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "ScavengeImpactScalar": 0.8,
+      "CenterOfMassImpulseFraction": 0.3,
+      "bUseMassScaledDebrisImpactScaleMSDIS": true,
+      "MSDIS_MassRanges": {
+        "X": 30.0,
+        "Y": 2100.0
+      },
+      "MSDIS_ImpactScaleRanges": {
+        "X": 850.0,
+        "Y": 111.0
+      },
+      "ProjectCenterHitsOutwardsFraction": 0.8,
+      "DebrisLinearDamping": 0.3,
+      "DebrisAngularDamping": 0.3,
+      "DebrisCollisionSizeTreshold": 175.0,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_Monolith_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_Monolith_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_Monolith'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Art/CSSC_Monolith.0"
+      },
+      "VirtualPartBones": [
+        "Fan",
+        "Hydraulic_LowerLeg_01_A",
+        "Hydraulic_LowerLeg_01_B",
+        "Hydraulic_LowerLeg_01_C",
+        "Hydraulic_LowerLeg_01_D",
+        "Piston",
+        "Hydraulic_LowerLeg_02_A",
+        "Foot_A",
+        "HydraulicsFoot_A",
+        "Hydraulic_LowerLeg_02_B",
+        "Foot_B",
+        "HydraulicsFoot_B",
+        "Hydraulic_LowerLeg_02_C",
+        "Foot_C",
+        "HydraulicsFoot_C",
+        "Hydraulic_LowerLeg_02_D",
+        "Foot_D",
+        "HydraulicsFoot_D",
+        "ThrusterBase"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 78
+      },
+      "SocketIDs": [
+        {
+          "Key": "11",
+          "Value": {
+            "Items": [
+              {
+                "Key": "StrikeWeaponSocket_1",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Head"
+                }
+              },
+              {
+                "Key": "StrikeWeaponSocket_2",
+                "Value": {
+                  "SocketID": 1,
+                  "PartName": "Head"
+                }
+              },
+              {
+                "Key": "StrikeWeaponSocket_3",
+                "Value": {
+                  "SocketID": 2,
+                  "PartName": "Head"
+                }
+              },
+              {
+                "Key": "StrikeWeaponSocket_4",
+                "Value": {
+                  "SocketID": 3,
+                  "PartName": "Head"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "73",
+          "Value": {
+            "Items": [
+              {
+                "Key": "ActiveThrustSocket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "ThrusterBase"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": 29.249016,
+                "Y": -277.87207,
+                "Z": 407.3686
+              },
+              {
+                "X": -255.202,
+                "Y": 113.641235,
+                "Z": 407.36853
+              },
+              {
+                "X": 186.99945,
+                "Y": 207.63403,
+                "Z": 407.36853
+              },
+              {
+                "X": 85.11938,
+                "Y": -32.727406,
+                "Z": -436.31238
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -15.37012,
+                "Y": -60.944206,
+                "Z": -190.84169
+              },
+              {
+                "X": -82.932434,
+                "Y": -152.46515,
+                "Z": 105.567055
+              },
+              {
+                "X": 1.6166916,
+                "Y": 53.36108,
+                "Z": 139.31009
+              },
+              {
+                "X": 103.2892,
+                "Y": -45.99624,
+                "Z": 139.3098
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -8.758267,
+                "Y": 47.61307,
+                "Z": 12.590497
+              },
+              {
+                "X": 20.86568,
+                "Y": 26.721365,
+                "Z": -149.26619
+              },
+              {
+                "X": 5.4822845,
+                "Y": 13.135097,
+                "Z": 157.7699
+              },
+              {
+                "X": -29.083073,
+                "Y": -12.048592,
+                "Z": -151.16887
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 36.3469,
+                "Y": -51.26426,
+                "Z": -88.89886
+              },
+              {
+                "X": 2.0347934,
+                "Y": -25.900509,
+                "Z": 10.190916
+              },
+              {
+                "X": -8.194035,
+                "Y": -25.900517,
+                "Z": 94.1952
+              },
+              {
+                "X": -46.20974,
+                "Y": -43.9115,
+                "Z": -88.89884
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": 47.614906,
+                "Y": 11.570652,
+                "Z": 120.65204
+              },
+              {
+                "X": -47.61504,
+                "Y": -1.3551825,
+                "Z": 120.65024
+              },
+              {
+                "X": 35.9378,
+                "Y": -31.397274,
+                "Z": 12.590495
+              },
+              {
+                "X": 8.377093,
+                "Y": 3.4242425,
+                "Z": -159.75905
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 40.460518,
+                "Y": -49.631607,
+                "Z": -111.89409
+              },
+              {
+                "X": -52.25522,
+                "Y": -34.863895,
+                "Z": -88.89885
+              },
+              {
+                "X": -6.68389,
+                "Y": -25.900576,
+                "Z": 94.19518
+              },
+              {
+                "X": 31.145458,
+                "Y": -54.739796,
+                "Z": 10.190909
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": -9.152014,
+                "Y": 47.613102,
+                "Z": -88.89881
+              },
+              {
+                "X": 3.3831222,
+                "Y": -8.320817,
+                "Z": -159.78076
+              },
+              {
+                "X": -47.61311,
+                "Y": 3.3144608,
+                "Z": 12.590576
+              },
+              {
+                "X": 5.482231,
+                "Y": 13.135201,
+                "Z": 157.76985
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": -18.88672,
+                "Y": -25.900522,
+                "Z": -88.89881
+              },
+              {
+                "X": 45.24454,
+                "Y": -45.366898,
+                "Z": -88.89872
+              },
+              {
+                "X": 0.028097352,
+                "Y": -64.06861,
+                "Z": 10.190998
+              },
+              {
+                "X": -1.1823626,
+                "Y": -25.900543,
+                "Z": 94.19512
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": -6.1821213,
+                "Y": 14.897485,
+                "Z": 157.04356
+              },
+              {
+                "X": 35.93789,
+                "Y": -31.397196,
+                "Z": 12.590489
+              },
+              {
+                "X": 47.647068,
+                "Y": -13.037787,
+                "Z": -120.454025
+              },
+              {
+                "X": -19.7088,
+                "Y": 12.326003,
+                "Z": -153.82146
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": -35.578854,
+                "Y": -51.777493,
+                "Z": 94.195175
+              },
+              {
+                "X": 45.38195,
+                "Y": -45.232185,
+                "Z": 75.36718
+              },
+              {
+                "X": 3.1008162,
+                "Y": -25.90054,
+                "Z": -88.898926
+              },
+              {
+                "X": 2.2260375,
+                "Y": -25.900541,
+                "Z": -13.734331
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": 116.787704,
+                "Y": 191.42491,
+                "Z": 120.658485
+              },
+              {
+                "X": -116.78777,
+                "Y": -191.42474,
+                "Z": 120.658554
+              },
+              {
+                "X": 234.41513,
+                "Y": -195.65811,
+                "Z": 32.25
+              },
+              {
+                "X": -234.415,
+                "Y": 195.65845,
+                "Z": 32.250122
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 382.29312,
+                "Y": 197.34898,
+                "Z": -0.3028543
+              },
+              {
+                "X": 117.006325,
+                "Y": 120.94085,
+                "Z": -768.6749
+              },
+              {
+                "X": 383.8435,
+                "Y": -185.15355,
+                "Z": 0.14833808
+              },
+              {
+                "X": 255.4877,
+                "Y": 162.94902,
+                "Z": -482.78745
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": -66.787224,
+                "Y": -90.95658,
+                "Z": -173.3537
+              },
+              {
+                "X": -45.162487,
+                "Y": 81.56979,
+                "Z": -148.67542
+              },
+              {
+                "X": 44.04812,
+                "Y": -165.27943,
+                "Z": 149.9667
+              },
+              {
+                "X": 32.213654,
+                "Y": 214.0798,
+                "Z": 184.71379
+              }
+            ]
+          }
+        },
+        {
+          "Key": "19",
+          "Value": {
+            "Points": [
+              {
+                "X": -47.51082,
+                "Y": -38.635166,
+                "Z": -50.25296
+              },
+              {
+                "X": -11.854953,
+                "Y": 55.782513,
+                "Z": 11.50478
+              },
+              {
+                "X": -45.47418,
+                "Y": 64.87684,
+                "Z": -46.725388
+              },
+              {
+                "X": -13.957758,
+                "Y": -47.633034,
+                "Z": 7.862651
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": -60.3662,
+                "Y": -28.408245,
+                "Z": -47.75038
+              },
+              {
+                "X": -67.088234,
+                "Y": 29.956573,
+                "Z": -63.677574
+              },
+              {
+                "X": -3.6902206,
+                "Y": 59.088707,
+                "Z": 86.53763
+              },
+              {
+                "X": -3.200159,
+                "Y": -64.68027,
+                "Z": 87.69879
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": -36.07048,
+                "Y": -18.48698,
+                "Z": -112.839615
+              },
+              {
+                "X": 29.468275,
+                "Y": 12.110365,
+                "Z": 101.62456
+              },
+              {
+                "X": 134.69006,
+                "Y": 81.265114,
+                "Z": 227.02295
+              },
+              {
+                "X": 128.73856,
+                "Y": -78.64669,
+                "Z": 219.93034
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Points": [
+              {
+                "X": 4.863569,
+                "Y": 181.67056,
+                "Z": -24.217619
+              },
+              {
+                "X": 4.896176,
+                "Y": 181.72531,
+                "Z": -13.205272
+              },
+              {
+                "X": 4.959144,
+                "Y": 181.9255,
+                "Z": -0.33657596
+              },
+              {
+                "X": 4.965662,
+                "Y": 181.96771,
+                "Z": 24.281742
+              }
+            ]
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "Points": [
+              {
+                "X": -53.166122,
+                "Y": 133.8425,
+                "Z": -218.72743
+              },
+              {
+                "X": -8.116801,
+                "Y": -13.3322,
+                "Z": -519.8484
+              },
+              {
+                "X": -106.47737,
+                "Y": -51.340237,
+                "Z": -340.1166
+              },
+              {
+                "X": -52.72519,
+                "Y": -136.60722,
+                "Z": -164.0831
+              }
+            ]
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "Points": [
+              {
+                "X": 313.1899,
+                "Y": 95.51824,
+                "Z": 130.00899
+              },
+              {
+                "X": 432.91177,
+                "Y": 139.57066,
+                "Z": 406.9857
+              },
+              {
+                "X": 435.87204,
+                "Y": -137.5813,
+                "Z": 413.95258
+              },
+              {
+                "X": 278.19785,
+                "Y": -92.518814,
+                "Z": 113.198875
+              }
+            ]
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "Points": [
+              {
+                "X": -30.22946,
+                "Y": -57.21209,
+                "Z": -3.9236705
+              },
+              {
+                "X": -28.020523,
+                "Y": 0.8100824,
+                "Z": 0.81338954
+              },
+              {
+                "X": -20.960636,
+                "Y": -104.40032,
+                "Z": 16.414927
+              },
+              {
+                "X": -22.630272,
+                "Y": 84.489204,
+                "Z": 12.37281
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": -58.152573,
+                "Y": 48.279118,
+                "Z": -2.767681
+              },
+              {
+                "X": -58.410336,
+                "Y": -35.664764,
+                "Z": 219.09067
+              },
+              {
+                "X": 15.509601,
+                "Y": -8.0379,
+                "Z": -164.58865
+              },
+              {
+                "X": -58.44643,
+                "Y": -35.95414,
+                "Z": 333.62338
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": -3.854842,
+                "Y": -49.092587,
+                "Z": 79.93581
+              },
+              {
+                "X": -23.325705,
+                "Y": -37.865463,
+                "Z": -65.566154
+              },
+              {
+                "X": -22.877817,
+                "Y": 55.352646,
+                "Z": 49.0063
+              },
+              {
+                "X": -20.686842,
+                "Y": 29.406208,
+                "Z": -83.14703
+              }
+            ]
+          }
+        },
+        {
+          "Key": "31",
+          "Value": {
+            "Points": [
+              {
+                "X": 257.94177,
+                "Y": 158.2267,
+                "Z": -483.092
+              },
+              {
+                "X": 332.424,
+                "Y": -242.38678,
+                "Z": 2.3913562
+              },
+              {
+                "X": 386.5558,
+                "Y": 241.75232,
+                "Z": -3.2138517
+              },
+              {
+                "X": 137.86154,
+                "Y": 110.077705,
+                "Z": -784.85834
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Points": [
+              {
+                "X": -111.29674,
+                "Y": -23.898045,
+                "Z": -243.8383
+              },
+              {
+                "X": 40.3796,
+                "Y": 220.79602,
+                "Z": 204.97087
+              },
+              {
+                "X": 21.474833,
+                "Y": 53.140545,
+                "Z": -72.07097
+              },
+              {
+                "X": 35.55813,
+                "Y": -215.83208,
+                "Z": 189.59235
+              }
+            ]
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "Points": [
+              {
+                "X": -12.060373,
+                "Y": -57.108955,
+                "Z": 11.149066
+              },
+              {
+                "X": -46.442677,
+                "Y": 49.126938,
+                "Z": -48.402832
+              },
+              {
+                "X": -56.93403,
+                "Y": -59.89638,
+                "Z": -66.57435
+              },
+              {
+                "X": -12.7932625,
+                "Y": 54.853336,
+                "Z": 9.879638
+              }
+            ]
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "Points": [
+              {
+                "X": -57.62745,
+                "Y": 40.647293,
+                "Z": -41.261227
+              },
+              {
+                "X": -67.18886,
+                "Y": -34.651268,
+                "Z": -63.915985
+              },
+              {
+                "X": 2.2692788,
+                "Y": -74.14174,
+                "Z": 79.67729
+              },
+              {
+                "X": -9.106736,
+                "Y": 73.003555,
+                "Z": 75.6558
+              }
+            ]
+          }
+        },
+        {
+          "Key": "35",
+          "Value": {
+            "Points": [
+              {
+                "X": -56.125946,
+                "Y": -7.5880117,
+                "Z": -120.35679
+              },
+              {
+                "X": 112.667046,
+                "Y": 84.57392,
+                "Z": 200.77696
+              },
+              {
+                "X": 117.392235,
+                "Y": -90.02123,
+                "Z": 206.40814
+              },
+              {
+                "X": 23.47409,
+                "Y": -18.391535,
+                "Z": 94.48092
+              }
+            ]
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "Points": [
+              {
+                "X": 4.9281573,
+                "Y": 181.8231,
+                "Z": 24.234144
+              },
+              {
+                "X": 4.9635897,
+                "Y": 181.97542,
+                "Z": -24.234732
+              },
+              {
+                "X": 4.6347585,
+                "Y": 181.36879,
+                "Z": -3.3402255
+              },
+              {
+                "X": 4.636367,
+                "Y": 181.37018,
+                "Z": 4.6794586
+              }
+            ]
+          }
+        },
+        {
+          "Key": "37",
+          "Value": {
+            "Points": [
+              {
+                "X": -53.149452,
+                "Y": 145.17763,
+                "Z": -147.23361
+              },
+              {
+                "X": -52.78246,
+                "Y": -129.89023,
+                "Z": -206.31776
+              },
+              {
+                "X": -105.85611,
+                "Y": 57.00531,
+                "Z": -328.48932
+              },
+              {
+                "X": -8.633447,
+                "Y": -16.206049,
+                "Z": -515.4433
+              }
+            ]
+          }
+        },
+        {
+          "Key": "38",
+          "Value": {
+            "Points": [
+              {
+                "X": 416.85342,
+                "Y": 78.96083,
+                "Z": 421.86215
+              },
+              {
+                "X": 298.7617,
+                "Y": 37.267914,
+                "Z": 70.306496
+              },
+              {
+                "X": 435.14398,
+                "Y": -109.633095,
+                "Z": 398.44437
+              },
+              {
+                "X": 339.7908,
+                "Y": -142.69861,
+                "Z": 209.0531
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39",
+          "Value": {
+            "Points": [
+              {
+                "X": -13.359753,
+                "Y": -76.8162,
+                "Z": 32.253494
+              },
+              {
+                "X": -28.13994,
+                "Y": 28.249527,
+                "Z": 0.55725414
+              },
+              {
+                "X": -29.681011,
+                "Y": 74.8041,
+                "Z": -2.7476096
+              },
+              {
+                "X": -42.340855,
+                "Y": -64.16151,
+                "Z": -28.79307
+              }
+            ]
+          }
+        },
+        {
+          "Key": "41",
+          "Value": {
+            "Points": [
+              {
+                "X": 18.113007,
+                "Y": -2.0606253,
+                "Z": -118.78939
+              },
+              {
+                "X": -58.64943,
+                "Y": -53.38792,
+                "Z": 304.26776
+              },
+              {
+                "X": -57.99312,
+                "Y": 48.03297,
+                "Z": 293.13977
+              },
+              {
+                "X": -59.287556,
+                "Y": -52.3554,
+                "Z": 100.807365
+              }
+            ]
+          }
+        },
+        {
+          "Key": "42",
+          "Value": {
+            "Points": [
+              {
+                "X": -22.278059,
+                "Y": 75.89907,
+                "Z": 56.818935
+              },
+              {
+                "X": -25.739492,
+                "Y": -75.07711,
+                "Z": 42.708652
+              },
+              {
+                "X": -25.13044,
+                "Y": -6.515092,
+                "Z": 93.973305
+              },
+              {
+                "X": -21.897602,
+                "Y": 0.095991574,
+                "Z": -79.54191
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45",
+          "Value": {
+            "Points": [
+              {
+                "X": 228.99126,
+                "Y": -173.84328,
+                "Z": -31.634964
+              },
+              {
+                "X": 133.09291,
+                "Y": 136.35176,
+                "Z": -718.60815
+              },
+              {
+                "X": 402.03247,
+                "Y": -284.7714,
+                "Z": -80.58264
+              },
+              {
+                "X": 215.35483,
+                "Y": 204.82108,
+                "Z": -32.764736
+              }
+            ]
+          }
+        },
+        {
+          "Key": "46",
+          "Value": {
+            "Points": [
+              {
+                "X": -89.84834,
+                "Y": -116.75882,
+                "Z": -172.08304
+              },
+              {
+                "X": 43.91265,
+                "Y": -169.47893,
+                "Z": 156.44177
+              },
+              {
+                "X": 52.53726,
+                "Y": 185.86548,
+                "Z": 198.64392
+              },
+              {
+                "X": -59.012447,
+                "Y": 87.59389,
+                "Z": -164.45833
+              }
+            ]
+          }
+        },
+        {
+          "Key": "47",
+          "Value": {
+            "Points": [
+              {
+                "X": -44.768345,
+                "Y": 63.707806,
+                "Z": -45.502907
+              },
+              {
+                "X": -52.428604,
+                "Y": -40.586567,
+                "Z": -72.23822
+              },
+              {
+                "X": -13.139398,
+                "Y": -48.643513,
+                "Z": 9.280149
+              },
+              {
+                "X": -13.848251,
+                "Y": 42.27633,
+                "Z": 8.052326
+              }
+            ]
+          }
+        },
+        {
+          "Key": "48",
+          "Value": {
+            "Points": [
+              {
+                "X": -10.885244,
+                "Y": 49.695164,
+                "Z": 69.4896
+              },
+              {
+                "X": -63.37558,
+                "Y": -27.164871,
+                "Z": -54.880928
+              },
+              {
+                "X": -62.935925,
+                "Y": 40.506416,
+                "Z": -53.83926
+              },
+              {
+                "X": 6.965398,
+                "Y": -71.3301,
+                "Z": 56.455677
+              }
+            ]
+          }
+        },
+        {
+          "Key": "49",
+          "Value": {
+            "Points": [
+              {
+                "X": 91.216125,
+                "Y": 100.30656,
+                "Z": 46.51435
+              },
+              {
+                "X": 17.72388,
+                "Y": -51.541546,
+                "Z": -96.938286
+              },
+              {
+                "X": 93.13513,
+                "Y": -75.39518,
+                "Z": 177.4998
+              },
+              {
+                "X": 113.66945,
+                "Y": 92.38474,
+                "Z": 201.9717
+              }
+            ]
+          }
+        },
+        {
+          "Key": "50",
+          "Value": {
+            "Points": [
+              {
+                "X": 4.8182883,
+                "Y": 181.59502,
+                "Z": 24.201738
+              },
+              {
+                "X": 4.951014,
+                "Y": 181.8891,
+                "Z": 11.9288645
+              },
+              {
+                "X": 4.931214,
+                "Y": 181.81853,
+                "Z": -0.9405972
+              },
+              {
+                "X": 4.970934,
+                "Y": 182.00328,
+                "Z": -24.289976
+              }
+            ]
+          }
+        },
+        {
+          "Key": "51",
+          "Value": {
+            "Points": [
+              {
+                "X": -105.958405,
+                "Y": 57.042355,
+                "Z": -309.67517
+              },
+              {
+                "X": -52.524952,
+                "Y": 152.38972,
+                "Z": -105.50216
+              },
+              {
+                "X": -52.81176,
+                "Y": -131.90477,
+                "Z": -193.26588
+              },
+              {
+                "X": -7.3716493,
+                "Y": 3.121736,
+                "Z": -519.623
+              }
+            ]
+          }
+        },
+        {
+          "Key": "52",
+          "Value": {
+            "Points": [
+              {
+                "X": 354.25864,
+                "Y": -151.49963,
+                "Z": 283.4401
+              },
+              {
+                "X": 433.20316,
+                "Y": -39.34919,
+                "Z": 458.25885
+              },
+              {
+                "X": 254.621,
+                "Y": -8.535493,
+                "Z": 60.71457
+              },
+              {
+                "X": 373.98093,
+                "Y": 157.81015,
+                "Z": 326.42435
+              }
+            ]
+          }
+        },
+        {
+          "Key": "53",
+          "Value": {
+            "Points": [
+              {
+                "X": -24.27676,
+                "Y": 9.492045,
+                "Z": 8.841895
+              },
+              {
+                "X": -18.886578,
+                "Y": 93.17109,
+                "Z": 20.401237
+              },
+              {
+                "X": -42.422997,
+                "Y": 67.53281,
+                "Z": -28.68269
+              },
+              {
+                "X": -21.613365,
+                "Y": -70.96577,
+                "Z": 14.553498
+              }
+            ]
+          }
+        },
+        {
+          "Key": "55",
+          "Value": {
+            "Points": [
+              {
+                "X": -58.076736,
+                "Y": 30.189764,
+                "Z": 299.54004
+              },
+              {
+                "X": 17.258469,
+                "Y": -2.1813624,
+                "Z": -138.23132
+              },
+              {
+                "X": -58.04009,
+                "Y": 30.482555,
+                "Z": 183.32141
+              },
+              {
+                "X": -58.582127,
+                "Y": 47.98954,
+                "Z": 4.8024626
+              }
+            ]
+          }
+        },
+        {
+          "Key": "56",
+          "Value": {
+            "Points": [
+              {
+                "X": -22.877108,
+                "Y": 54.67557,
+                "Z": 47.90485
+              },
+              {
+                "X": -20.388628,
+                "Y": 39.468445,
+                "Z": -79.50689
+              },
+              {
+                "X": -23.332155,
+                "Y": -38.772842,
+                "Z": -66.52551
+              },
+              {
+                "X": -25.977688,
+                "Y": -67.76901,
+                "Z": 73.87058
+              }
+            ]
+          }
+        },
+        {
+          "Key": "59",
+          "Value": {
+            "Points": [
+              {
+                "X": 138.05624,
+                "Y": 110.194374,
+                "Z": -784.3573
+              },
+              {
+                "X": 312.93613,
+                "Y": -162.61833,
+                "Z": 7.995588
+              },
+              {
+                "X": 280.12778,
+                "Y": 116.105896,
+                "Z": -485.08862
+              },
+              {
+                "X": 316.35504,
+                "Y": 242.49593,
+                "Z": 4.0511723
+              }
+            ]
+          }
+        },
+        {
+          "Key": "60",
+          "Value": {
+            "Points": [
+              {
+                "X": 26.008886,
+                "Y": 214.36823,
+                "Z": 172.2113
+              },
+              {
+                "X": -80.0378,
+                "Y": -118.97876,
+                "Z": -152.56786
+              },
+              {
+                "X": -65.7125,
+                "Y": 104.89244,
+                "Z": -149.92763
+              },
+              {
+                "X": 29.093155,
+                "Y": -220.64642,
+                "Z": 180.03369
+              }
+            ]
+          }
+        },
+        {
+          "Key": "61",
+          "Value": {
+            "Points": [
+              {
+                "X": -13.085498,
+                "Y": 52.0309,
+                "Z": 9.373467
+              },
+              {
+                "X": -46.055416,
+                "Y": -57.492092,
+                "Z": -47.732094
+              },
+              {
+                "X": -46.6067,
+                "Y": 46.48485,
+                "Z": -48.686993
+              },
+              {
+                "X": -12.352563,
+                "Y": -59.931465,
+                "Z": 10.643002
+              }
+            ]
+          }
+        },
+        {
+          "Key": "62",
+          "Value": {
+            "Points": [
+              {
+                "X": -58.977116,
+                "Y": -46.096863,
+                "Z": -44.45937
+              },
+              {
+                "X": 3.1549556,
+                "Y": 51.702026,
+                "Z": 104.26096
+              },
+              {
+                "X": -3.0264688,
+                "Y": -50.520042,
+                "Z": 88.11017
+              },
+              {
+                "X": -60.269142,
+                "Y": 33.723198,
+                "Z": -47.520718
+              }
+            ]
+          }
+        },
+        {
+          "Key": "63",
+          "Value": {
+            "Points": [
+              {
+                "X": 138.7434,
+                "Y": 92.484825,
+                "Z": 231.85382
+              },
+              {
+                "X": -58.47552,
+                "Y": 4.5323358,
+                "Z": -112.74944
+              },
+              {
+                "X": 17.514948,
+                "Y": -6.7185483,
+                "Z": 87.37929
+              },
+              {
+                "X": 110.90274,
+                "Y": -96.76799,
+                "Z": 198.67456
+              }
+            ]
+          }
+        },
+        {
+          "Key": "64",
+          "Value": {
+            "Points": [
+              {
+                "X": 4.9681005,
+                "Y": 181.98428,
+                "Z": -24.28267
+              },
+              {
+                "X": 4.800042,
+                "Y": 181.55296,
+                "Z": -5.956597
+              },
+              {
+                "X": 4.764844,
+                "Y": 181.50539,
+                "Z": 10.261978
+              },
+              {
+                "X": 4.8007374,
+                "Y": 181.55397,
+                "Z": 2.0630567
+              }
+            ]
+          }
+        },
+        {
+          "Key": "65",
+          "Value": {
+            "Points": [
+              {
+                "X": -52.795605,
+                "Y": 139.58713,
+                "Z": -184.23692
+              },
+              {
+                "X": -106.22553,
+                "Y": -27.163086,
+                "Z": -335.025
+              },
+              {
+                "X": -33.826633,
+                "Y": -2.344533,
+                "Z": -570.1478
+              },
+              {
+                "X": -52.929577,
+                "Y": -139.65508,
+                "Z": -143.44896
+              }
+            ]
+          }
+        },
+        {
+          "Key": "66",
+          "Value": {
+            "Points": [
+              {
+                "X": 272.56836,
+                "Y": 59.374958,
+                "Z": 100.66719
+              },
+              {
+                "X": 374.34924,
+                "Y": 157.18265,
+                "Z": 328.62946
+              },
+              {
+                "X": 334.90143,
+                "Y": -146.37001,
+                "Z": 239.52849
+              },
+              {
+                "X": 439.4413,
+                "Y": -10.803481,
+                "Z": 472.14572
+              }
+            ]
+          }
+        },
+        {
+          "Key": "67",
+          "Value": {
+            "Points": [
+              {
+                "X": -14.423078,
+                "Y": -62.440712,
+                "Z": 29.97306
+              },
+              {
+                "X": -26.589104,
+                "Y": 7.289489,
+                "Z": 3.8828988
+              },
+              {
+                "X": -20.205896,
+                "Y": 92.340034,
+                "Z": 17.571705
+              },
+              {
+                "X": -38.477978,
+                "Y": -83.469025,
+                "Z": -21.61286
+              }
+            ]
+          }
+        },
+        {
+          "Key": "69",
+          "Value": {
+            "Points": [
+              {
+                "X": 17.169098,
+                "Y": -2.1385112,
+                "Z": -140.28242
+              },
+              {
+                "X": -59.169754,
+                "Y": -52.154682,
+                "Z": 13.234231
+              },
+              {
+                "X": -36.368027,
+                "Y": 29.972952,
+                "Z": 349.452
+              },
+              {
+                "X": -57.986244,
+                "Y": 40.141724,
+                "Z": 179.15729
+              }
+            ]
+          }
+        },
+        {
+          "Key": "70",
+          "Value": {
+            "Points": [
+              {
+                "X": -22.256989,
+                "Y": -9.552133,
+                "Z": -79.97546
+              },
+              {
+                "X": -9.486556,
+                "Y": 63.821655,
+                "Z": 77.66789
+              },
+              {
+                "X": -21.71216,
+                "Y": 40.139202,
+                "Z": -23.535902
+              },
+              {
+                "X": -26.574873,
+                "Y": -77.15182,
+                "Z": 59.768673
+              }
+            ]
+          }
+        },
+        {
+          "Key": "74",
+          "Value": {
+            "Points": [
+              {
+                "X": 11.45799,
+                "Y": -15.729453,
+                "Z": -21.653477
+              },
+              {
+                "X": -28.078745,
+                "Y": 17.521591,
+                "Z": -21.653473
+              },
+              {
+                "X": 18.393406,
+                "Y": 19.215519,
+                "Z": -21.653477
+              },
+              {
+                "X": -16.327305,
+                "Y": -19.23864,
+                "Z": -21.653475
+              }
+            ]
+          }
+        },
+        {
+          "Key": "75",
+          "Value": {
+            "Points": [
+              {
+                "X": -25.748842,
+                "Y": -30.201101,
+                "Z": -21.653969
+              },
+              {
+                "X": -3.258168,
+                "Y": 24.48975,
+                "Z": -21.653471
+              },
+              {
+                "X": 11.563443,
+                "Y": -13.908653,
+                "Z": -21.653467
+              },
+              {
+                "X": -21.252518,
+                "Y": -1.298112,
+                "Z": -21.653463
+              }
+            ]
+          }
+        },
+        {
+          "Key": "76",
+          "Value": {
+            "Points": [
+              {
+                "X": -34.50342,
+                "Y": -21.795383,
+                "Z": -21.653477
+              },
+              {
+                "X": 15.140157,
+                "Y": 5.320404,
+                "Z": -21.653475
+              },
+              {
+                "X": 6.7699227,
+                "Y": -19.687723,
+                "Z": -21.65347
+              },
+              {
+                "X": -23.729296,
+                "Y": 14.964839,
+                "Z": -21.653482
+              }
+            ]
+          }
+        },
+        {
+          "Key": "77",
+          "Value": {
+            "Points": [
+              {
+                "X": 19.43637,
+                "Y": 45.29075,
+                "Z": 30.505346
+              },
+              {
+                "X": 46.422215,
+                "Y": -15.320302,
+                "Z": 30.505392
+              },
+              {
+                "X": -21.158669,
+                "Y": -44.649525,
+                "Z": 30.505396
+              },
+              {
+                "X": -47.87878,
+                "Y": 15.3201275,
+                "Z": 30.50538
+              }
+            ]
+          }
+        }
+      ],
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Monolith_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Art/SK_Monolith_01_A.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Monolith_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Art/SK_Monolith_01_A.1"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel2",
+        "CollisionProfileName": "HarvesterIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Harvester",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "ComponentTags": [
+        "SkeletalStyle"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_AlertToCombat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Flap_01_A",
+            "Flap_01_B",
+            "Flap_01_C",
+            "Flap_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_AlertToCombat_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_AlertToCombat_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_AlertToIdle'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_AlertToIdle.0"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_AlertToCombat"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_AlertToIdle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Flap_01_A",
+            "Flap_01_B",
+            "Flap_01_C",
+            "Flap_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_AlertToIdle_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_AlertToIdle_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_AlertToIdle'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_AlertToIdle.0"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_AlertToIdle"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_Attack_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "SubFrame_01_A",
+            "SubFrame_01_B",
+            "SubFrame_01_C",
+            "SubFrame_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_OpenSubframes_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_OpenSubframes_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_Attack'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_Attack.0"
+      },
+      "ComponentTags": [
+        "AttackAnimation"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_CombatToAlert_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Flap_01_A",
+            "Flap_01_B",
+            "Flap_01_C",
+            "Flap_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_CombatToAlert_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_CombatToAlert_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_AlertToIdle'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_AlertToIdle.0"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_CombatToAlert"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_CombatToIdle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Flap_01_A",
+            "Flap_01_B",
+            "Flap_01_C",
+            "Flap_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_CombatToIdle_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_CombatToIdle_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_AlertToIdle'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_AlertToIdle.0"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_CombatToIdle"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_IdleToAlert_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Flap_01_A",
+            "Flap_01_B",
+            "Flap_01_C",
+            "Flap_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_IdleToAlert_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_IdleToAlert_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_IdleToAlert'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_IdleToAlert.0"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_IdleToAlert"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_IdleToCombat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Flap_01_A",
+            "Flap_01_B",
+            "Flap_01_C",
+            "Flap_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_IdleToCombat_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_IdleToCombat_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_AlertToIdle'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_AlertToIdle.0"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_IdleToCombat"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_Landing_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "SubFrame_01_A",
+            "SubFrame_01_B",
+            "SubFrame_01_C",
+            "SubFrame_01_D"
+          ],
+          "ClientAlwaysDisabledBones": [
+            "SubFrame_01_A",
+            "SubFrame_01_B",
+            "SubFrame_01_C",
+            "SubFrame_01_D"
+          ],
+          "ServerAlwaysDisabledBones": [
+            "SubFrame_01_A",
+            "SubFrame_01_B",
+            "SubFrame_01_C",
+            "SubFrame_01_D"
+          ],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_ExtendLegs_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_ExtendLegs_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_LandingGear_Forward'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_LandingGear_Forward.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_LandingGear_Backward'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_LandingGear_Backward.0"
+      },
+      "AudioFadeOutTime": 2.0,
+      "ComponentTags": [
+        "LandingAnimation"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_Spin_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Frame"
+          ],
+          "ClientAlwaysDisabledBones": [
+            "Frame"
+          ],
+          "ServerAlwaysDisabledBones": [
+            "Frame"
+          ],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_OpenAndExtendLegs_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_OpenAndExtendLegs_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Monolith_Anim_Spin'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Monolith/Monolith_Anim_Spin.0"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "SpinAnimation"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_ThumpActive_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Piston"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_Thumping_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_Thumping_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_ThumpActive"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimSequence_ThumpReady_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Piston"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Monolith_01_A_ThumpingReady_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/Animation/A_Monolith_01_A_ThumpingReady_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AudioFadeOutTime": 0.75,
+      "ComponentTags": [
+        "AnimSequence_ThumpReady"
+      ]
+    }
+  },
+  {
+    "Type": "ThrusterStyleDriver",
+    "Name": "ThrusterStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ThrusterStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster.Active"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Active )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": [
+              {
+                "Key": "73",
+                "Value": "ThrusterBase"
+              }
+            ]
+          },
+          "ThrusterSocketGroup": "None",
+          "bAttachThrusterFXToChildren": false,
+          "FXThrusterChildren": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Monolith_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/CS_Monolith.1"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Monolith_Exhaust'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Exhaust/DA_Monolith_Exhaust.0"
+          },
+          "bVectorized": false,
+          "ForceInterpolationAlpha": 0.3,
+          "MinimumThrusterForceNormalized": 0.0,
+          "bUsePeriodicThrusters": false,
+          "bScalePeriodWithMovement": true,
+          "PeriodBias": 0.0,
+          "PeriodMultiplier": 0.0
+        }
+      ],
+      "DownWashEffectData": {
+        "ObjectName": "DownWashEffectData'DA_DownwashData_Standard'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Downwash/DA_DownwashData_Standard.0"
+      },
+      "DownwashRadius": 200.0
+    }
+  }
+]

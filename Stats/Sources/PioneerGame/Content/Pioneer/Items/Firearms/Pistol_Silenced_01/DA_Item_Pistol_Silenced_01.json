@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_Pistol_Silenced_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_Item_Pistol_Silenced_01",
+    "Properties": {
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/BP_WeaponActor_Pistol_Silenced_01.BP_WeaponActor_Pistol_Silenced_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/SM_Pistol_Silenced_01_A.SM_Pistol_Silenced_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 3.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Hairpin"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "DropTags": [
+        "Item.Drop.Tier.Low",
+        "Item.Drop.Type.Equipment.Weapon.Firearm.LightAmmo",
+        "Item.Drop.Rarity.01Common"
+      ],
+      "StaticLootAvoidGroups": [
+        "Item.Drop.Type.Equipment.Weapon.Firearm"
+      ],
+      "UnequipTime": 0.35,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 0.55,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.Pistol"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_Pistol'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_Pistol.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_Pistol_Silenced_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_ItemAnimationContainer_Pistol_Silenced_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_PistolSilenced01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_ItemSkinSlot_PistolSilenced01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_WeaponVisuals_Pistol_Silenced_01.DA_WeaponVisuals_Pistol_Silenced_01",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_QualityVisual_Pistol_Silenced_01.DA_QualityVisual_Pistol_Silenced_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Pistol_Silenced_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_Persistence_Pistol_Silenced_01.0"
+      },
+      "Tags": [
+        "Mod.Visual.Mag.Pistol.Light",
+        "Online.Release.Base",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.PistolSilenced01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.LightAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Hairpin"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/BP_Item_Pistol_Silenced_01.BP_Item_Pistol_Silenced_01_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

@@ -1,0 +1,1371 @@
+[
+  {
+    "cls": "UPioneerTargetType",
+    "function": "UPioneerTargetType",
+    "offset": 1248922,
+    "instructions": [
+      {
+        "pc": 0,
+        "opcode": 48,
+        "name": "PshVPtr",
+        "kind": "rW_ARG",
+        "words": [
+          48
+        ],
+        "shorts": [
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 1,
+        "opcode": 201,
+        "name": "FinConstruct",
+        "kind": "QW_ARG",
+        "words": [
+          201,
+          2577642368,
+          517
+        ],
+        "shorts": [
+          0,
+          -19584,
+          -26205,
+          517,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 4,
+        "opcode": 10,
+        "name": "RET",
+        "kind": "W_ARG",
+        "words": [
+          131082
+        ],
+        "shorts": [
+          2
+        ],
+        "annotation": ""
+      }
+    ]
+  },
+  {
+    "cls": "UPioneerSphereTargetType",
+    "function": "UPioneerSphereTargetType",
+    "offset": 1273192,
+    "instructions": [
+      {
+        "pc": 0,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 2,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3715607552,
+          517
+        ],
+        "shorts": [
+          0,
+          -21504,
+          -8841,
+          517,
+          0
+        ],
+        "annotation": "TArray.$beh0() -> token:82"
+      },
+      {
+        "pc": 5,
+        "opcode": 48,
+        "name": "PshVPtr",
+        "kind": "rW_ARG",
+        "words": [
+          48
+        ],
+        "shorts": [
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 6,
+        "opcode": 9,
+        "name": "CALL",
+        "kind": "DW_ARG",
+        "words": [
+          9,
+          121454
+        ],
+        "shorts": [
+          0,
+          -9618,
+          1
+        ],
+        "annotation": "UPioneerTargetType.UPioneerTargetType() -> token:82"
+      },
+      {
+        "pc": 8,
+        "opcode": 77,
+        "name": "SetV4",
+        "kind": "wW_DW_ARG",
+        "words": [
+          131149,
+          1120403456
+        ],
+        "shorts": [
+          2,
+          0,
+          17096
+        ],
+        "annotation": "f32=100.0"
+      },
+      {
+        "pc": 10,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          10485938,
+          134235961
+        ],
+        "shorts": [
+          160,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.Radius"
+      },
+      {
+        "pc": 12,
+        "opcode": 90,
+        "name": "WRTV4",
+        "kind": "rW_ARG",
+        "words": [
+          131162
+        ],
+        "shorts": [
+          2
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 13,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          1
+        ],
+        "shorts": [
+          3,
+          1,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 15,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          10748082,
+          134235961
+        ],
+        "shorts": [
+          164,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bAffectedByOcclusion"
+      },
+      {
+        "pc": 17,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 18,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          0
+        ],
+        "shorts": [
+          3,
+          0,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 20,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          10813618,
+          134235961
+        ],
+        "shorts": [
+          165,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bUseSphericOcclusionSource"
+      },
+      {
+        "pc": 22,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 23,
+        "opcode": 78,
+        "name": "SetV8",
+        "kind": "wW_QW_ARG",
+        "words": [
+          393294,
+          0,
+          1079574528
+        ],
+        "shorts": [
+          6,
+          0,
+          0,
+          0,
+          16473
+        ],
+        "annotation": "f64=100.0"
+      },
+      {
+        "pc": 26,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          11010226,
+          134235961
+        ],
+        "shorts": [
+          168,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.SphereSourceRadius"
+      },
+      {
+        "pc": 28,
+        "opcode": 91,
+        "name": "WRTV8",
+        "kind": "rW_ARG",
+        "words": [
+          393307
+        ],
+        "shorts": [
+          6
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 29,
+        "opcode": 1,
+        "name": "PshGPtr",
+        "kind": "QW_ARG",
+        "words": [
+          1,
+          2871367152,
+          517
+        ],
+        "shorts": [
+          0,
+          -27152,
+          -21723,
+          517,
+          0
+        ],
+        "annotation": "{'name': 'OneVector', 'module': '', 'namespace': 'FVector', 'is_string': False}"
+      },
+      {
+        "pc": 32,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          11534554,
+          134235961
+        ],
+        "shorts": [
+          176,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.SphereSourceRadiusTraceMarginFraction"
+      },
+      {
+        "pc": 34,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          2846004224,
+          517
+        ],
+        "shorts": [
+          0,
+          -27648,
+          -22110,
+          517,
+          0
+        ],
+        "annotation": "FVector.$beh0(FVector) -> token:82"
+      },
+      {
+        "pc": 37,
+        "opcode": 47,
+        "name": "PshC8",
+        "kind": "QW_ARG",
+        "words": [
+          47,
+          2576980378,
+          1070176665
+        ],
+        "shorts": [
+          0,
+          -26214,
+          -26215,
+          -26215,
+          16329
+        ],
+        "annotation": "f64=0.2"
+      },
+      {
+        "pc": 40,
+        "opcode": 47,
+        "name": "PshC8",
+        "kind": "QW_ARG",
+        "words": [
+          47,
+          858993459,
+          1070805811
+        ],
+        "shorts": [
+          0,
+          13107,
+          13107,
+          13107,
+          16339
+        ],
+        "annotation": "f64=0.3"
+      },
+      {
+        "pc": 43,
+        "opcode": 47,
+        "name": "PshC8",
+        "kind": "QW_ARG",
+        "words": [
+          47,
+          0,
+          1071644672
+        ],
+        "shorts": [
+          0,
+          0,
+          0,
+          0,
+          16352
+        ],
+        "annotation": "f64=0.5"
+      },
+      {
+        "pc": 46,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          786436
+        ],
+        "shorts": [
+          12
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 47,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          2845980032,
+          517
+        ],
+        "shorts": [
+          0,
+          13696,
+          -22110,
+          517,
+          0
+        ],
+        "annotation": "FVector.$beh0(token:81, token:81, token:81) -> token:82"
+      },
+      {
+        "pc": 50,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          786436
+        ],
+        "shorts": [
+          12
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 51,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          13107418,
+          134235961
+        ],
+        "shorts": [
+          200,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.OcclusionEffectContribution"
+      },
+      {
+        "pc": 53,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          2846004224,
+          517
+        ],
+        "shorts": [
+          0,
+          -27648,
+          -22110,
+          517,
+          0
+        ],
+        "annotation": "FVector.$beh0(FVector) -> token:82"
+      },
+      {
+        "pc": 56,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          0
+        ],
+        "shorts": [
+          3,
+          0,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 58,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          14680242,
+          134235961
+        ],
+        "shorts": [
+          224,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bTargetConstructablesAsActors"
+      },
+      {
+        "pc": 60,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 61,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          0
+        ],
+        "shorts": [
+          3,
+          0,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 63,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          14745778,
+          134235961
+        ],
+        "shorts": [
+          225,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bAffectedByFacingDirection"
+      },
+      {
+        "pc": 65,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 66,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          1114254,
+          1
+        ],
+        "shorts": [
+          17,
+          1,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 68,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          17825970,
+          134235961
+        ],
+        "shorts": [
+          272,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ConstructableTargetingLevel"
+      },
+      {
+        "pc": 70,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          1114200
+        ],
+        "shorts": [
+          17
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 71,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          0
+        ],
+        "shorts": [
+          3,
+          0,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 73,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          17891506,
+          134235961
+        ],
+        "shorts": [
+          273,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bCheckTeam"
+      },
+      {
+        "pc": 75,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 76,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          1
+        ],
+        "shorts": [
+          3,
+          1,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 78,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          17957042,
+          134235961
+        ],
+        "shorts": [
+          274,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bTargetFriendly"
+      },
+      {
+        "pc": 80,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 81,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          1
+        ],
+        "shorts": [
+          3,
+          1,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 83,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          18022578,
+          134235961
+        ],
+        "shorts": [
+          275,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bTargetHostile"
+      },
+      {
+        "pc": 85,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 86,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          196750,
+          1
+        ],
+        "shorts": [
+          3,
+          1,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 88,
+        "opcode": 178,
+        "name": "LoadThisR",
+        "kind": "W_DW_ARG",
+        "words": [
+          18088114,
+          134235961
+        ],
+        "shorts": [
+          276,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.bTargetNeutral"
+      },
+      {
+        "pc": 90,
+        "opcode": 88,
+        "name": "WRTV1",
+        "kind": "rW_ARG",
+        "words": [
+          196696
+        ],
+        "shorts": [
+          3
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 91,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          1
+        ],
+        "shorts": [
+          1,
+          1,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 93,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 94,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 96,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 99,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          0
+        ],
+        "shorts": [
+          1,
+          0,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 101,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 102,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 104,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 107,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          7
+        ],
+        "shorts": [
+          1,
+          7,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 109,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 110,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 112,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 115,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          6
+        ],
+        "shorts": [
+          1,
+          6,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 117,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 118,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 120,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 123,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          2
+        ],
+        "shorts": [
+          1,
+          2,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 125,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 126,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 128,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 131,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          8
+        ],
+        "shorts": [
+          1,
+          8,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 133,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 134,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 136,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 139,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          3
+        ],
+        "shorts": [
+          1,
+          3,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 141,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 142,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 144,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 147,
+        "opcode": 142,
+        "name": "SetV1",
+        "kind": "wW_DW_ARG",
+        "words": [
+          65678,
+          9
+        ],
+        "shorts": [
+          1,
+          9,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 149,
+        "opcode": 4,
+        "name": "PSF",
+        "kind": "rW_ARG",
+        "words": [
+          65540
+        ],
+        "shorts": [
+          1
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 150,
+        "opcode": 218,
+        "name": "PshThisAddress_INFERRED",
+        "kind": "W_DW_ARG",
+        "words": [
+          15728858,
+          134235961
+        ],
+        "shorts": [
+          240,
+          18233,
+          2048
+        ],
+        "annotation": "UPioneerSphereTargetType.ObjectTypes"
+      },
+      {
+        "pc": 152,
+        "opcode": 61,
+        "name": "CALLSYS",
+        "kind": "QW_ARG",
+        "words": [
+          61,
+          3798298624,
+          517
+        ],
+        "shorts": [
+          0,
+          28672,
+          -7579,
+          517,
+          0
+        ],
+        "annotation": "TArray.Add(EObjectTypeQuery) -> token:82"
+      },
+      {
+        "pc": 155,
+        "opcode": 48,
+        "name": "PshVPtr",
+        "kind": "rW_ARG",
+        "words": [
+          48
+        ],
+        "shorts": [
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 156,
+        "opcode": 201,
+        "name": "FinConstruct",
+        "kind": "QW_ARG",
+        "words": [
+          201,
+          2577639920,
+          517
+        ],
+        "shorts": [
+          0,
+          -22032,
+          -26205,
+          517,
+          0
+        ],
+        "annotation": ""
+      },
+      {
+        "pc": 159,
+        "opcode": 10,
+        "name": "RET",
+        "kind": "W_ARG",
+        "words": [
+          131082
+        ],
+        "shorts": [
+          2
+        ],
+        "annotation": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,431 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_LightDroneElite",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/CSSC_LightDroneElite",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Eye_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Barrel_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Explosive"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ID.Eye",
+            "Part.Decorator.Group.Critical"
+          ]
+        },
+        {
+          "Key": "HornetShield_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "HornetShield_Lower_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "HornetHatch_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "HornetHatch_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "HornetWeaponAttachment",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "weapon_Hornet_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front"
+          ]
+        },
+        {
+          "Key": "HornetThrusterShield_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front"
+          ]
+        },
+        {
+          "Key": "HornetThrusterShield_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "HornetHatch_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HornetHatch_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HornetShield_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HornetShield_Lower_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HornetThrusterShield_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "HornetThrusterShield_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Core_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "HornetWeaponAttachment",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "weapon_Hornet_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Head_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Core_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "HornetShield_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HornetShield_Lower_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HornetHatch_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HornetHatch_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "HornetWeaponAttachment",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "weapon_Hornet_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "HornetThrusterShield_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "HornetThrusterShield_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Eye_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Barrel_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Explosive"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ID.Eye",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "HornetShield_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HornetShield_Lower_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HornetHatch_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HornetHatch_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "HornetWeaponAttachment",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "weapon_Hornet_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "HornetThrusterShield_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "HornetThrusterShield_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        }
+      ]
+    }
+  }
+]

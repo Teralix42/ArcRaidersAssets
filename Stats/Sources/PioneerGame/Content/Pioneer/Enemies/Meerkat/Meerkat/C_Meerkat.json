@@ -1,0 +1,2372 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_Meerkat_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Meerkat_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Meerkat_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.17"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ChainArticulationTargetingService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChainArticulationTargetingService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkiService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkiService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PioneerConstructableDispersionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PioneerConstructableDispersionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LandingService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LandingService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeldService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'WeldService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GroundPhysicsMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'GroundPhysicsMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "C_Meerkat_C",
+    "Name": "Default__C_Meerkat_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.C_Meerkat_C'",
+    "Package": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat",
+    "Template": {
+      "ObjectName": "C_Meerkat_SharedBase_C'Default__C_Meerkat_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Meerkat_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.16"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Meerkat_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.11"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Meerkat_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.7"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Meerkat_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.21"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Meerkat_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.12"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Meerkat_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.15"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Meerkat_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.9"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Meerkat_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.13"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Meerkat_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.20"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Meerkat_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.30"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Meerkat_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.10"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Meerkat_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.31"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Meerkat_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.44"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Meerkat_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.32"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Meerkat_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Meerkat_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.8"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Meerkat_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.5"
+      },
+      "PlayerDormancyDistance": 20000.0,
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_MeerkatAI'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_MeerkatAI.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Meerkat'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyType_Meerkat.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Ground"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Meerkat_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.18"
+      },
+      "SpawnBudgetCost": 16,
+      "ThreatLevel": 8,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_S'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 75.0,
+        "AgentHeight": 150.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Meerkat_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.45"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Meerkat_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.4"
+      },
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Meerkat_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.10"
+      }
+    }
+  },
+  {
+    "Type": "ChainArticulationTargetingService",
+    "Name": "ChainArticulationTargetingService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ChainArticulationTargetingService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Properties": {
+      "ArticulatedTargetingDefinitions": [
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.GatlingGun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.GatlingGun )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Arm.01"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Arm.01 )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "AimWeight",
+              "bLayerOnAnimatedPose": true,
+              "MaxDegreesPerSecond": 40.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::AxisDrivenTransform",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": {
+                "ObjectName": "CurveTranslateRotate'Curve_Meerkat_ArmAim_Shared'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Animation/Curve_Meerkat_ArmAim_Shared.0"
+              },
+              "bUseRawTargetOrientation": false
+            },
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Arm.02"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Arm.02 )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "AimWeight",
+              "bLayerOnAnimatedPose": true,
+              "MaxDegreesPerSecond": 45.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::AxisDrivenTransform",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": {
+                "ObjectName": "CurveTranslateRotate'Curve_Meerkat_ArmAim_Shared'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Animation/Curve_Meerkat_ArmAim_Shared.0"
+              },
+              "bUseRawTargetOrientation": false
+            },
+            {
+              "EvaluationMode": 7,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Arm.03"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Arm.03 )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "AimWeight",
+              "bLayerOnAnimatedPose": true,
+              "MaxDegreesPerSecond": 50.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::AxisDrivenTransform",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": {
+                "ObjectName": "CurveTranslateRotate'Curve_Meerkat_ArmAim_Shared'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Animation/Curve_Meerkat_ArmAim_Shared.0"
+              },
+              "bUseRawTargetOrientation": false
+            },
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Weapon.GatlingGun"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Weapon.GatlingGun )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "AimWeight",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": 750.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Meerkat_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Meerkat_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_Frame'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::CapabilityStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.Action.Attack"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.Action.Attack )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": false,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Ability.FireWeapon.Projectile.Bullet.Suppressive"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Ability.FireWeapon.Projectile.Bullet.Suppressive )"
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": true,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "RaiseWeaponAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "RaiseWeapon",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": true
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::CapabilityStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.Action.Attack"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.Action.Attack )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": false,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Ability.FlipOver"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Active",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": false,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "FlipOverAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": true
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_Meerkat_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.5"
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_Meerkat_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Meerkat_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.10"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Meerkat_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.7"
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Meerkat_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Meerkat_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.1"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Meerkat_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.GatlingGun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.GatlingGun )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 0.2,
+            "MaxRotationSpeedDegPerSec": 75.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 0.2,
+            "ProjectileSpeedCmPerSec": 1000000.0,
+            "bDirectlyUpdatePartOrientations": false,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "RotationOriginConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.GatlingGun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.GatlingGun )"
+          },
+          "SocketName": "Muzzle",
+          "PivotType": "EConstructablePartPivotType::Socket"
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "OrientationInterpolationSpeed": 0.2,
+        "PredictionResponsivenessUNorm": 0.2,
+        "ProjectileSpeedCmPerSec": 10000000.0,
+        "bDirectlyUpdatePartOrientations": false,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      },
+      "bUseRepKeyForReplication": false
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Meerkat_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_MeerkatPerception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_MeerkatPerception.0"
+      }
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_Meerkat_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.11"
+    },
+    "Properties": {
+      "NumLootablePartsCategory": "EConstructableNumPartsCategory::Medium",
+      "LootType": {
+        "TagName": "Loot.Enemy.Meerkat"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Meerkat'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_PartScavengeSetup_Meerkat.0"
+      }
+    }
+  },
+  {
+    "Type": "GroundPhysicsMovementComponent",
+    "Name": "GroundPhysicsMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GroundPhysicsMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Properties": {
+      "Settings": {
+        "ObjectName": "GroundPhysicsMovementSettingsDataAsset'DA_Meerkat_GroundPhysicsMovementSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_Meerkat_GroundPhysicsMovementSettings.2"
+      },
+      "ThrusterPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Wheel"
+          }
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Wheel )"
+      },
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 80.0,
+        "AgentHeight": 180.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_S",
+          "SubPathString": ""
+        }
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_Meerkat_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.12"
+    },
+    "Properties": {
+      "SubGroups": [
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Arm"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Arm )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 50.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 0.0,
+          "RadialForceRadius": 0.0,
+          "AdditionalGameplayEffects": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_Meerkat_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.13"
+    },
+    "Properties": {
+      "ChainDestructionEventDefinitions": [
+        {
+          "TriggerEvent": {
+            "Comment": "FrontRightArmor",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Thruster"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.ID.Thruster )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Armor.Light"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.ID.Armor.Light )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "FrontLeftArmor",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Front"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Thruster"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.ID.Thruster,\n Part.Decorator.Group.Relative.Left )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Armor.Light"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.Group.Relative.Front,\n Part.Decorator.ID.Armor.Light,\n Part.Decorator.Group.Relative.Left )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "RearRightArmor",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Right"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Thruster"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.Group.Relative.Right,\n Part.Decorator.ID.Thruster,\n Part.Decorator.Group.Relative.Rear )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Armor.Light"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.Group.Relative.Right,\n Part.Decorator.ID.Armor.Light,\n Part.Decorator.Group.Relative.Rear )"
+          }
+        },
+        {
+          "TriggerEvent": {
+            "Comment": "RearLeftArmor",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Rear"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Left"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                3,
+                0,
+                1,
+                2
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Thruster,\n Part.Decorator.Group.Relative.Rear,\n Part.Decorator.Group.Relative.Left )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOncePerPart",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "PartsToDestroyQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Light"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Light,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear )"
+          }
+        }
+      ],
+      "StunsDefinition": {
+        "StunnableParts": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Thruster"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Wheel"
+            },
+            {
+              "TagName": "Part.Decorator.ID.Weapon"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            3,
+            0,
+            1,
+            2
+          ],
+          "AutoDescription": " ANY( Part.Decorator.ID.Thruster,\n Part.Decorator.ID.Wheel,\n Part.Decorator.ID.Weapon )"
+        },
+        "CustomStunPropagations": [
+          {
+            "Source": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Frame"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+            },
+            "Destination": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Wheel"
+                },
+                {
+                  "TagName": "Part.Decorator.Group.Relative.Middle"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                2,
+                0,
+                1
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Wheel,\n Part.Decorator.Group.Relative.Middle )"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_Meerkat_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.15"
+    }
+  },
+  {
+    "Type": "LandingService",
+    "Name": "LandingService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LandingService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Properties": {
+      "LandingStraightness": 0.5,
+      "WhileLandedTag": {
+        "TagName": "Animation.Constructable.Action.Landed"
+      }
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_Meerkat_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.16"
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_Meerkat_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.17"
+    },
+    "Properties": {
+      "CapabilityUtilityAsset": {
+        "ObjectName": "BTCapabilityUtilityCalculationData'DA_Meerkat_CapabilityUtility'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_Meerkat_CapabilityUtility.3"
+      },
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Turret.Gatling"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.GatlingGun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.GatlingGun )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Meerkat_GatlingGun_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Capabilities/GA_Meerkat_GatlingGun.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Meerkat_Continuous_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Capabilities/CSM_Meerkat_Continuous.39"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Gatling",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Turret.Tracking"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Eye"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Eye )"
+          },
+          "GrantedAbilityType": null,
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicCapability_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicCapability.277"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "TargetAngleTracking",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Land"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Wheel"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Wheel )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Land_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/GA_Land.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicCapability_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicCapability.277"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Land",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.TakeOff"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Wheel"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Wheel )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_TakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/GA_TakeOff.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicCapability_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicCapability.277"
+          },
+          "RequiredIntactnessUNorm": 0.25,
+          "bRequireTargetToStart": false,
+          "OptionalName": "TakeOff",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Ram"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_MeerkatThrowoff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Capabilities/GA_MeerkatThrowoff.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Meerkat_ThrowOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Capabilities/CSM_Meerkat_ThrowOff.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "ThrowOff",
+          "UtilityField": "ThrowOff",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.FlipOver"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Arm"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Meerkat_FlipOver_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Capabilities/GA_Meerkat_FlipOver.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Meerkat_FlipOver_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/Capabilities/CSM_Meerkat_FlipOver.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "FlipOver",
+          "UtilityField": "FlipOver",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [
+            "Ability.FlipOver"
+          ],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ],
+      "CapabilityGroupDefinitions": [
+        {
+          "Group": {
+            "TagName": "Part.Capability.Ram"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 1.0,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 7
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.FlipOver"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 0.5,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 7
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionBoxShape",
+    "Name": "PioneerConstructableDispersionBoxShape_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionBoxShape'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+    },
+    "Properties": {
+      "ShrinkageFactor": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "GrowFactor": 2.5
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleClearShot",
+    "Name": "PioneerConstructableDispersionRuleClearShot_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleClearShot'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+    },
+    "Properties": {
+      "ClearShotToWeightCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": -0.6,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 1.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleDiscovery",
+    "Name": "PioneerConstructableDispersionRuleDiscovery_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleDiscovery'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+    },
+    "Properties": {
+      "ScoreDelta": -0.8
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
+    "Name": "PioneerConstructableDispersionRuleGameplayTagTarget_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleGameplayTagTarget'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+    },
+    "Properties": {
+      "ScoreDelta": -1.0,
+      "Tags": [
+        "Ability.DodgeRoll.Active"
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
+    "Name": "PioneerConstructableDispersionRuleGameplayTagTarget_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleGameplayTagTarget'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+    },
+    "Properties": {
+      "ScoreDelta": -0.2,
+      "Tags": [
+        "Ability.Crouch",
+        "Ability.Slide"
+      ],
+      "DecayPerSecond": 0.1
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetDistance",
+    "Name": "PioneerConstructableDispersionRuleTargetDistance_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetDistance'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+    },
+    "Properties": {
+      "ScoreDelta": -0.55,
+      "DistanceToWeightCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": -0.2,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 22.79452,
+              "Value": -0.009733,
+              "ArriveTangent": 0.021611,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.021611,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 100.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetSpeed",
+    "Name": "PioneerConstructableDispersionRuleTargetSpeed_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetSpeed'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+    },
+    "Properties": {
+      "ScoreDelta": -0.6,
+      "SpeedToWeightCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": -0.35,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 2.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.18,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.18,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 7.5,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "AlignedVelocityFactor": 0.3
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionService",
+    "Name": "PioneerConstructableDispersionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Properties": {
+      "PredictionFrequency": 5,
+      "DispersionSettings": [
+        {
+          "Key": {
+            "TagName": "Part.Capability.Turret.Gatling"
+          },
+          "Value": {
+            "DispersionActiveHalfAngleThreshold": 10.0,
+            "BaseScore": 0.75,
+            "AccuracyErrorAdjustmentFactor": 0.8,
+            "DispersionRules": [
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleGameplayTagTarget_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.25"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleGameplayTagTarget_1'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.26"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleDiscovery'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleDiscovery_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.24"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetDistance_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.27"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetSpeed_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.28"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleClearShot'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleClearShot_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.23"
+              }
+            ],
+            "DispersionShape": {
+              "ObjectName": "PioneerConstructableDispersionBoxShape'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionBoxShape_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.22"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_Meerkat_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.18"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_Meerkat_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Meerkat'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Meerkat.0"
+      }
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_Meerkat_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.21"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Meerkat_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.33"
+      },
+      "VariableGUID": "8563F2A5-4F564894-BD2BBE94-FF605B47",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LandingService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LandingService'C_Meerkat_C:LandingService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.19"
+      },
+      "VariableGUID": "A85E10F6-456562B4-F256FF90-EFB765CA",
+      "InternalVariableName": "LandingService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'GroundPhysicsMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GroundPhysicsMovementComponent'C_Meerkat_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.14"
+      },
+      "VariableGUID": "95FA2A97-48E8A8BB-B0742E83-31EE69E2",
+      "InternalVariableName": "GroundPhysicsMovementComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'WeldService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "WeldService'C_Meerkat_C:WeldService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.46"
+      },
+      "VariableGUID": "506DC864-4CC64EE0-2A4C75AC-3A1C84C6",
+      "InternalVariableName": "WeldService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_Meerkat_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.6"
+      },
+      "VariableGUID": "C5744A81-45097F34-E54B4588-C41947EB",
+      "InternalVariableName": "ConstructableAnimationService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PioneerConstructableDispersionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PioneerConstructableDispersionService'C_Meerkat_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.29"
+      },
+      "VariableGUID": "6DC062E7-47690C9F-CAEC2793-C7AE3FC9",
+      "InternalVariableName": "PioneerConstructableDispersionService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkiService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkiService'C_Meerkat_C:SkiService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.43"
+      },
+      "VariableGUID": "1A713299-473B1DCA-ED082293-EACF142D",
+      "InternalVariableName": "SkiService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Meerkat_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.42"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChainArticulationTargetingService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChainArticulationTargetingService'C_Meerkat_C:ChainArticulationTargetingService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.3"
+      },
+      "VariableGUID": "AE6C93F4-4DCE5B95-C3C8739A-70D0C6BC",
+      "InternalVariableName": "ChainArticulationTargetingService"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.36"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.37"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.38"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.39"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.40"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.41"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.36"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.37"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.38"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.39"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.40"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.41"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Meerkat_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.34"
+      }
+    }
+  },
+  {
+    "Type": "SkiService",
+    "Name": "SkiService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkiService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_Meerkat_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.26"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Meerkat_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.1"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Meerkat_C'Default__C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.2"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_Meerkat_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Shared/C_Meerkat_SharedBase.27"
+    }
+  },
+  {
+    "Type": "WeldService",
+    "Name": "WeldService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WeldService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Meerkat_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.1"
+    }
+  }
+]

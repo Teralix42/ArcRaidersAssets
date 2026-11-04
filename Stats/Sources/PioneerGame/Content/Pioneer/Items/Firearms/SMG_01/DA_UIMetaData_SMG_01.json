@@ -1,0 +1,853 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_SMG_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_SMG_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_Persistence_SMG_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SMG_01",
+        "SourceString": "Bobcat",
+        "LocalizedString": "Bobcat"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SMG_01_SHORT",
+        "SourceString": "Has high fire rate but low accuracy.",
+        "LocalizedString": "Has high fire rate but low accuracy."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.SMG"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Light.T_UI_Ammo_Light",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_T3.T_UI_Icon_SMG_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_Big_A_T3.T_UI_Icon_SMG_01_Big_A_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.375046,
+          "Y": 82.60065,
+          "Z": 124.92101
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -11.874413,
+          "Y": 53.46832,
+          "Z": 77.95873
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.39479947,
+          "Y": 0.23968135,
+          "Z": -0.88635147,
+          "W": -0.032669917,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.15461117,
+          "Y": -0.27877647,
+          "Z": 0.9281785,
+          "W": 0.19199935,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_SMG_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_SMG_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/Qualities/DA_Persistence_SMG_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SMG_01",
+        "SourceString": "Bobcat",
+        "LocalizedString": "Bobcat"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SMG_01_SHORT",
+        "SourceString": "Has high fire rate but low accuracy.",
+        "LocalizedString": "Has high fire rate but low accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 1,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.SMG"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Light.T_UI_Ammo_Light",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_T0.T_UI_Icon_SMG_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_Big_A_T0.T_UI_Icon_SMG_01_Big_A_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.375046,
+          "Y": 82.60065,
+          "Z": 124.92101
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -11.874413,
+          "Y": 53.46832,
+          "Z": 77.95873
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.39479947,
+          "Y": 0.23968135,
+          "Z": -0.88635147,
+          "W": -0.032669917,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.15461117,
+          "Y": -0.27877647,
+          "Z": 0.9281785,
+          "W": 0.19199935,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYWEAK",
+            "SourceString": "Very Weak",
+            "LocalizedString": "Very Weak"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_SMG_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_SMG_01_T1'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/Qualities/DA_Persistence_SMG_01_T1.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SMG_01",
+        "SourceString": "Bobcat",
+        "LocalizedString": "Bobcat"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SMG_01_SHORT",
+        "SourceString": "Has high fire rate but low accuracy.",
+        "LocalizedString": "Has high fire rate but low accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 2,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.SMG"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Light.T_UI_Ammo_Light",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_T1.T_UI_Icon_SMG_01_T1",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_Big_A_T1.T_UI_Icon_SMG_01_Big_A_T1",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.375046,
+          "Y": 82.60065,
+          "Z": 124.92101
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -11.874413,
+          "Y": 53.46832,
+          "Z": 77.95873
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.39479947,
+          "Y": 0.23968135,
+          "Z": -0.88635147,
+          "W": -0.032669917,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.15461117,
+          "Y": -0.27877647,
+          "Z": 0.9281785,
+          "W": 0.19199935,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYWEAK",
+            "SourceString": "Very Weak",
+            "LocalizedString": "Very Weak"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONMAX_POSITIVE",
+            "SourceString": "{0}% Reduced Max Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Max Shot Dispersion"
+          },
+          "ModifierValue": 15.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_POSITIVE",
+            "SourceString": "{0}% Reduced Horizontal Recoil",
+            "LocalizedString": "{0}% Reduced Horizontal Recoil"
+          },
+          "ModifierValue": 15.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 13.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_SMG_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_SMG_01_T2'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/Qualities/DA_Persistence_SMG_01_T2.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SMG_01",
+        "SourceString": "Bobcat",
+        "LocalizedString": "Bobcat"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SMG_01_SHORT",
+        "SourceString": "Has high fire rate but low accuracy.",
+        "LocalizedString": "Has high fire rate but low accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 3,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.SMG"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Light.T_UI_Ammo_Light",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_T2.T_UI_Icon_SMG_01_T2",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_Big_A_T2.T_UI_Icon_SMG_01_Big_A_T2",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.375046,
+          "Y": 82.60065,
+          "Z": 124.92101
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -11.874413,
+          "Y": 53.46832,
+          "Z": 77.95873
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.39479947,
+          "Y": 0.23968135,
+          "Z": -0.88635147,
+          "W": -0.032669917,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.15461117,
+          "Y": -0.27877647,
+          "Z": 0.9281785,
+          "W": 0.19199935,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYWEAK",
+            "SourceString": "Very Weak",
+            "LocalizedString": "Very Weak"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONMAX_POSITIVE",
+            "SourceString": "{0}% Reduced Max Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Max Shot Dispersion"
+          },
+          "ModifierValue": 30.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_POSITIVE",
+            "SourceString": "{0}% Reduced Horizontal Recoil",
+            "LocalizedString": "{0}% Reduced Horizontal Recoil"
+          },
+          "ModifierValue": 30.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 26.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_SMG_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_SMG_01_T3'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/Qualities/DA_Persistence_SMG_01_T3.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SMG_01",
+        "SourceString": "Bobcat",
+        "LocalizedString": "Bobcat"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SMG_01_SHORT",
+        "SourceString": "Has high fire rate but low accuracy.",
+        "LocalizedString": "Has high fire rate but low accuracy."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 4,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.SMG"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Light.T_UI_Ammo_Light",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_T3.T_UI_Icon_SMG_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/SMG_01/T_UI_Icon_SMG_01_Big_A_T3.T_UI_Icon_SMG_01_Big_A_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.375046,
+          "Y": 82.60065,
+          "Z": 124.92101
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -11.874413,
+          "Y": 53.46832,
+          "Z": 77.95873
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.39479947,
+          "Y": 0.23968135,
+          "Z": -0.88635147,
+          "W": -0.032669917,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.15461117,
+          "Y": -0.27877647,
+          "Z": 0.9281785,
+          "W": 0.19199935,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYWEAK",
+            "SourceString": "Very Weak",
+            "LocalizedString": "Very Weak"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONMAX_POSITIVE",
+            "SourceString": "{0}% Reduced Max Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Max Shot Dispersion"
+          },
+          "ModifierValue": 45.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_POSITIVE",
+            "SourceString": "{0}% Reduced Horizontal Recoil",
+            "LocalizedString": "{0}% Reduced Horizontal Recoil"
+          },
+          "ModifierValue": 45.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 40.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_SMG_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_SMG_01:UIGameplayItemMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_SMG_01:UIGameplayItemMetaDataItem_4'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.4"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_SMG_01:UIGameplayItemMetaDataItem_3'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.3"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_SMG_01:UIGameplayItemMetaDataItem_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.2"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_SMG_01:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_01/DA_UIMetaData_SMG_01.1"
+        }
+      ]
+    }
+  }
+]

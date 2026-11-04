@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/UniqueWeapons/BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst_C'Default__BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst_C",
+    "Name": "Default__BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst.BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/BP_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst",
+    "Template": {
+      "ObjectName": "BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C'Default__BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/UniqueWeapons/BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base.1"
+    },
+    "Properties": {
+      "BaseVisualStats": {
+        "Damage": 22.5,
+        "FireRate": 16.716,
+        "Range": 75.597,
+        "Stability": 71.911,
+        "Agility": 46.689
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/DA_Item_BattleRifle_EnergyBurst_01_BiggerMag_ChargedBurst.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_BattleRifle_EnergyBurst_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_EnergyBurst_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_BattleRifle_EnergyBurst_01_BiggerMag'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_EnergyBurst_01_BiggerMag.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_BattleRifle_EnergyBurst_01_ChargedBurst'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_EnergyBurst_01_ChargedBurst.0"
+        }
+      ]
+    }
+  }
+]

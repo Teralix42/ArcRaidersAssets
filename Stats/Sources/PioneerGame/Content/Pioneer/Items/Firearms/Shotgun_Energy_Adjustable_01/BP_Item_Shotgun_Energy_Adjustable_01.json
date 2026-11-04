@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Shotgun_Energy_Adjustable_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Item_Shotgun_Energy_Adjustable_01",
+    "SuperStruct": {
+      "ObjectName": "Class'AdjustableEnergyShotgunItem'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Shotgun_Energy_Adjustable_01_C'Default__BP_Item_Shotgun_Energy_Adjustable_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Item_Shotgun_Energy_Adjustable_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Shotgun_Energy_Adjustable_01_C",
+    "Name": "Default__BP_Item_Shotgun_Energy_Adjustable_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Item_Shotgun_Energy_Adjustable_01.BP_Item_Shotgun_Energy_Adjustable_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Item_Shotgun_Energy_Adjustable_01",
+    "Properties": {
+      "HitsForFullDamage": 2,
+      "HighDispersionValue": 10.0,
+      "MaxRangeLowDispersion": 10000.0,
+      "FireEffect": {
+        "ObjectName": "NiagaraSystem'NS_EnergyShotgun'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Weapons/EnergyShotgun/NS_EnergyShotgun.53"
+      },
+      "HitEffectPlayer": {
+        "ObjectName": "NiagaraSystem'NS_EnergyShotgun_ArrayImpact_Player'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Weapons/EnergyShotgun/NS_EnergyShotgun_ArrayImpact_Player.93"
+      },
+      "HitEffectNonPlayer": {
+        "ObjectName": "NiagaraSystem'NS_EnergyShotgun_ArrayImpact_Env'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Weapons/EnergyShotgun/NS_EnergyShotgun_ArrayImpact_Env.43"
+      },
+      "CriticalDamageMultiplier": 1.0,
+      "VisibleTraceEveryNthProjectile": 1,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_EnergyAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/EnergyAmmo/DA_Item_EnergyAmmo.0"
+      },
+      "bOneAmmoReloadsFullClip": true,
+      "BasePhysicalDamage": 25.0,
+      "BaseFirePower": 70000.0,
+      "BaseClipSize": 8.0,
+      "BaseReloadTime": 3.25,
+      "BaseFireRate": 55.0,
+      "BaseBurnRate": 0.003582,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_BasicMeleeWeapon_Hit'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_BasicMeleeWeapon_Hit.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "AiArmorDamageMultiplier": 1.5,
+      "AiArmorPropagationMultiplier": 1.5,
+      "AIWeakSpotDamageMultiplier": 1.5,
+      "BurstSize": 1,
+      "bUseCustomMultiShotDispersion": true,
+      "MultiShot": [
+        {
+          "DistanceFrac": 0.0,
+          "ExtraDispersion": 0.0,
+          "bHalfOffset": false,
+          "Projectiles": 1
+        },
+        {
+          "DistanceFrac": 0.5,
+          "ExtraDispersion": 0.5,
+          "bHalfOffset": true,
+          "Projectiles": 8
+        },
+        {
+          "DistanceFrac": 0.9,
+          "ExtraDispersion": 1.0,
+          "bHalfOffset": false,
+          "Projectiles": 10
+        }
+      ],
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Shotgun_Energy_Adjustable_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Projectile_Shotgun_Energy_Adjustable_01.0"
+      },
+      "bPartialReload": true,
+      "PartialReloadDuration": 3.25,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 1.65,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 2.45,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 3.1,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_Shotgun_Energy_Adjustable_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_RecoilProfile_Shotgun_Energy_Adjustable_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_Shotgun_Energy_Adjustable_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_DispersionState_Shotgun_Energy_Adjustable_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_Shotgun_Energy_Adjustable_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/Curve_DamageFalloff_Shotgun_Energy_Adjustable_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 1.0,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'ShotgunEnergyCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunEnergyCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunEnergyCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "BaseVisualStats": {
+        "Damage": 50.0,
+        "FireRate": 8.7,
+        "Range": 53.38,
+        "Stability": 79.4,
+        "Agility": 29.3,
+        "Stealth": 1.0
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Shotgun_Energy_Adjustable_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_Item_Shotgun_Energy_Adjustable_01.0"
+      },
+      "BaseCameraZoomTime": 1.5
+    }
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Sniper",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Sniper/CSSC_Sniper",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Muzzle",
+          "Value": [
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Laser",
+          "Value": []
+        },
+        {
+          "Key": "Body",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "ArmPivot",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "Arm",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "HeadOrienter",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.HeadPivot"
+          ]
+        },
+        {
+          "Key": "Head",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Barrel",
+          "Value": [
+            "Part.Decorator.ID.Weapon"
+          ]
+        },
+        {
+          "Key": "Weakpoint",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Weakpoint",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Body",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "ArmPivot",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "HeadOrienter",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Barrel",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Weakpoint",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Muzzle",
+          "Value": [
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Laser",
+          "Value": []
+        },
+        {
+          "Key": "Body",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "ArmPivot",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "Arm",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "HeadOrienter",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.HeadPivot"
+          ]
+        },
+        {
+          "Key": "Head",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Barrel",
+          "Value": [
+            "Part.Decorator.ID.Weapon"
+          ]
+        },
+        {
+          "Key": "Weakpoint",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        }
+      ]
+    }
+  }
+]

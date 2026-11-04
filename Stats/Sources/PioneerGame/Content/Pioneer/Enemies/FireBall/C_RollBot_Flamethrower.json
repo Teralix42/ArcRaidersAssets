@@ -1,0 +1,2004 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_Fireball_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.0"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "AITargetComponent",
+    "Name": "AITarget_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AITargetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_RollBot_Flamethrower_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_Fireball_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_RollBot_Flamethrower_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.17"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "StuckDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StuckDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProximityDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProximityDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SteamService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PioneerConstructableSteamService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AITarget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AITargetComponent'",
+          "ObjectPath": "/Script/EmbarkAI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RollbotControllerComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'RollbotControllerComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GroundPhysicsMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'GroundPhysicsMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Shield Upper",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Rifle Left",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Rifle Right",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "C_RollBot_Flamethrower_C",
+    "Name": "Default__C_RollBot_Flamethrower_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.C_RollBot_Flamethrower_C'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower",
+    "Template": {
+      "ObjectName": "C_Fireball_SharedBase_C'Default__C_Fireball_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_RollBot_Flamethrower_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.16"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_RollBot_Flamethrower_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.11"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_RollBot_Flamethrower_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.7"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_RollBot_Flamethrower_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.20"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_RollBot_Flamethrower_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.12"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_RollBot_Flamethrower_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.15"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_RollBot_Flamethrower_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.9"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_RollBot_Flamethrower_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.13"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_RollBot_Flamethrower_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.19"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_RollBot_Flamethrower_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.22"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Flamethrower_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.10"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_RollBot_Flamethrower_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.23"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_RollBot_Flamethrower_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.37"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_RollBot_Flamethrower_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.25"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_RollBot_Flamethrower_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_RollBot_Flamethrower_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.8"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_RollBot_Flamethrower_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.5"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_RollBotAI_Flamethrower'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_RollBotAI_Flamethrower.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_RollBot_Flamethrower'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyType_RollBot_Flamethrower.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Ground",
+        "Quest.Groups.Enemies.Tick&Fireball&Pop",
+        "Quest.Groups.Enemies.Armored"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_RollBot_Flamethrower_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.18"
+      },
+      "bCanSelfDamage": false,
+      "SpawnBudgetCost": 12,
+      "ThreatLevel": 6,
+      "ImpactForceMultiplier": 5.0,
+      "PayloadForceMultiplier": 5.0,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_XS'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 50.0,
+        "AgentHeight": 100.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_RollBot_Flamethrower_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.38"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_RollBot_Flamethrower_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.4"
+      },
+      "NetCullDistanceSquared": 100000000.0,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Flamethrower_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.10"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Fireball_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Fireball_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_Frame'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::None",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": false,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "UnfoldAnim_A",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::None",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": false,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "UnfoldAnim_B",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::WhileTagIsSet",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.Rollbot.Unfold"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.Rollbot.Unfold )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": false,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "UnfoldWeapons",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::WhileTagIsSet",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.Rollbot.Fold"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.Rollbot.Fold )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "FoldWeapons",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Idle"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AlertedModeAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::None",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "UnfoldAnim_A_Flipped",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::None",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "UnfoldAnim_B_Flipped",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_Fireball_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.5"
+    },
+    "Properties": {
+      "PartCollisionConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Heavy"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Heavy )"
+          },
+          "Config": {
+            "SlidingDotThreshold": 0.9800000190734863,
+            "SlidingRollingThresholdTimeSecs": 0.10000000149011612,
+            "MinTimeBetweenCollisionCues": 0.30000001192092896,
+            "ImpactBypassFactor": 2.5,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            }
+          }
+        }
+      ],
+      "CollisionTypeThresholds": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": 0.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Small",
+          "Value": 200.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Medium",
+          "Value": 400.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Heavy",
+          "Value": 900.0
+        },
+        {
+          "Key": "EConstructableCollisionType::VeryHeavy",
+          "Value": 1800.0
+        }
+      ],
+      "CollisionEffects": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_VerySmall_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_VerySmall.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_VerySmall_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_VerySmall.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Small",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Small_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Small.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Small_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Small.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Medium",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Medium_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Medium.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Medium_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Medium.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Heavy",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Heavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Heavy.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Heavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Heavy.0"
+            },
+            "bSelfDamage": true,
+            "bCreateShockwave": true,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 100000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 500.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::VeryHeavy",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_VeryHeavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_VeryHeavy.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_VeryHeavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_VeryHeavy.0"
+            },
+            "bSelfDamage": true,
+            "bCreateShockwave": true,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 200000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_Fireball_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Flamethrower_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.10"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Fireball_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.7"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Fireball_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Fireball_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 5.0,
+            "MaxRotationSpeedDegPerSec": 1440.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 1000000.0,
+            "bDirectlyUpdatePartOrientations": true,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "OrientationInterpolationSpeed": 5.0,
+        "MaxRotationSpeedDegPerSec": 1440.0,
+        "ProjectileSpeedCmPerSec": 100000.0,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Fireball_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_RollBotFlamethrowerPerception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_RollBotFlamethrowerPerception.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_Fireball_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.11"
+    },
+    "Properties": {
+      "LootType": {
+        "TagName": "Loot.Enemy.Fireball"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Rollbot_Flamethrower'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_PartScavengeSetup_Rollbot_Flamethrower.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "GroundPhysicsMovementComponent",
+    "Name": "GroundPhysicsMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GroundPhysicsMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "Properties": {
+      "Settings": {
+        "ObjectName": "GroundPhysicsMovementSettingsDataAsset'DA_SmallBall_GroundPhysicsMovementSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Movement/DA_SmallBall_GroundPhysicsMovementSettings.2"
+      },
+      "NetStateClass": {
+        "ObjectName": "Class'SurfaceTrackNetState'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ThrusterPartQuery": {
+        "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+      },
+      "bUseRVOAvoidance": true,
+      "AvoidanceRadius": 200.0,
+      "AvoidanceHalfHeight": 100.0,
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 35.0,
+        "AgentHeight": 70.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_XS",
+          "SubPathString": ""
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_Fireball_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.12"
+    },
+    "Properties": {
+      "BaseGroup": {
+        "RequiredTags": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Rollbot.Root"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Root Part",
+          "AutoDescription": " ANY( Part.Decorator.ID.Rollbot.Root )"
+        }
+      },
+      "SubGroups": [
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 1000.0,
+          "DestructionMaxLevel": 0.5,
+          "RadialForce": 0.0,
+          "RadialForceRadius": 0.0,
+          "AdditionalGameplayEffects": []
+        },
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 3000.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 0.0,
+          "RadialForceRadius": 0.0,
+          "AdditionalGameplayEffects": []
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_Fireball_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.13"
+    },
+    "Properties": {
+      "AbilityOnDamageEventDefinitions": [
+        {
+          "TriggerEvent": {
+            "Comment": "spread fire when core is destroyed",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Rollbot.Root"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ANY( Part.Decorator.ID.Rollbot.Root )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerOnFirstPartFulfilledRequirements",
+            "bHealthThresholdTrigger": true,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [
+              "EConstructableHealthChangeReason::BrokeDueToInstantDestruction",
+              "EConstructableHealthChangeReason::BrokeDueToParentGettingDestroyed",
+              "EConstructableHealthChangeReason::BrokeFromAttack"
+            ],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "GameplayAbility": {
+            "ObjectName": "BlueprintGeneratedClass'GA_RollbotFlamethrower_Explosion_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.0"
+          }
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_Fireball_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.15"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_Fireball_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.16"
+    },
+    "Properties": {
+      "SightRangeStrengthScale": 0.85
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_Fireball_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.17"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Dispenser"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Dispenser )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Rollbot_Flamethrower_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/GA_Rollbot_Flamethrower.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_RollBotFlamethrower_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/CSM_RollBotFlamethrower.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Primary",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Secondary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Dispenser"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Dispenser )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_RollbotFlamethrower_Explosion_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_RollBotFlamethrower_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/CSM_RollBotFlamethrower.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Secondary",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Scan"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Laser"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Laser )"
+          },
+          "GrantedAbilityType": null,
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicScan_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicScan.70"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Scan",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": false,
+            "bTargetEnemies": false,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.SmartObject"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Dispenser"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Dispenser )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Rollbot_Flamethrower_Small_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/GA_Rollbot_Flamethrower_Small.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_RollBotFlamethrower_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/CSM_RollBotFlamethrower.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Destroy Smart Object",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": false,
+            "bTargetEnemies": false,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableSteamService",
+    "Name": "SteamService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableSteamService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "Properties": {
+      "SteamTags": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Weapon.Dispenser"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Dispenser )"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_Fireball_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.18"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_Fireball_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Fireball'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Fireball.0"
+      },
+      "bResetPositionOnTick": false,
+      "bSkipPingAttachment": false
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ProximityDetectionService",
+    "Name": "ProximityDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProximityDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "Properties": {
+      "DistanceToCheck": 40.0,
+      "bRegisterOnTopEvents": false
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_Fireball_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.20"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "RollbotControllerComponent",
+    "Name": "RollbotControllerComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'RollbotControllerComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "Properties": {
+      "InnerShellRadius": 28.7,
+      "NakedRadius": 28.5,
+      "ExpectedDefaultRadius": 35.0,
+      "OpenerAnimations": [
+        {
+          "StandardAnimation": "UnfoldAnim_A",
+          "FlippedAnimation": "UnfoldAnim_B_Flipped"
+        },
+        {
+          "StandardAnimation": "UnfoldAnim_B",
+          "FlippedAnimation": "UnfoldAnim_A_Flipped"
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_RollBot_Flamethrower_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.27"
+      },
+      "VariableGUID": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
+      "InternalVariableName": "DefaultSceneRoot"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StuckDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StuckDetectionService'C_RollBot_Flamethrower_C:StuckDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.39"
+      },
+      "VariableGUID": "4450FB0E-4BF115A3-4FA2DA93-9DDC8196",
+      "InternalVariableName": "StuckDetectionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PioneerConstructableSteamService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PioneerConstructableSteamService'C_RollBot_Flamethrower_C:SteamService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.21"
+      },
+      "VariableGUID": "FE2DFC27-4950B238-CFD04A9B-8F26F94A",
+      "InternalVariableName": "SteamService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProximityDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProximityDetectionService'C_RollBot_Flamethrower_C:ProximityDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.24"
+      },
+      "VariableGUID": "EC1B6392-42864C54-F00CA791-45B09AEA",
+      "InternalVariableName": "ProximityDetectionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'GroundPhysicsMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GroundPhysicsMovementComponent'C_RollBot_Flamethrower_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.14"
+      },
+      "VariableGUID": "0EDE5EEC-42F54953-C14313A1-35C7E8EF",
+      "InternalVariableName": "GroundPhysicsMovementComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'RollbotControllerComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "RollbotControllerComponent'C_RollBot_Flamethrower_C:RollbotControllerComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.26"
+      },
+      "VariableGUID": "7B523F42-48EC75FB-D4EE39A8-8F98DA45",
+      "InternalVariableName": "RollbotControllerComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_RollBot_Flamethrower_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.6"
+      },
+      "VariableGUID": "BFAA4ADC-4411A057-33DD09B3-C754AC6B",
+      "InternalVariableName": "ConstructableAnimationService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Flamethrower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AITargetComponent'",
+        "ObjectPath": "/Script/EmbarkAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AITargetComponent'C_RollBot_Flamethrower_C:AITarget_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.1"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "34EC5275-4B23087E-D4AFC08C-B2766028",
+      "InternalVariableName": "AITarget"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.32"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.33"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.34"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.30"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.31"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.29"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.32"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.33"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.34"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.30"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.31"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.29"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_RollBot_Flamethrower_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.28"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_Fireball_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.24"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Flamethrower_C'Default__C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.3"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_Fireball_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/C_Fireball_SharedBase.25"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StuckDetectionService",
+    "Name": "StuckDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StuckDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Flamethrower_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.2"
+    },
+    "Properties": {
+      "MinDistMovedToNotBeStuck": 50.0,
+      "DestroyedPartsToMinDistanceMultiplier": {
+        "EditorCurveData": {}
+      },
+      "StuckStackingDistance": 250.0
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  }
+]

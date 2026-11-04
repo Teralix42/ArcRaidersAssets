@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_40",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_HeavyDroneLaser'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyMetaData_HeavyDroneLaser.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_HeavyDrone_Laser'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_Persistence_Enemy_HeavyDrone_Laser.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Rocketeer_Laser'",
+        "ObjectPath": "/Game/Pioneer/UI/Assets/Enemies/T_UI_Ping_Enemy_Rocketeer_Laser.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_LaserRocketeer.T_UI_ARC_LaserRocketeer",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_LASERROCKETEER_NAME",
+        "SourceString": "Vaporizer",
+        "LocalizedString": "Vaporizer"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_HeavyDroneLaser",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyMetaData_HeavyDroneLaser",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_HeavyDroneLaser:UIEnemyMetaDataItem_40'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyMetaData_HeavyDroneLaser.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Projectile_AssaultRifle_Heavy_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Projectile_AssaultRifle_Base.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Projectile_AssaultRifle_Heavy_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Projectile_AssaultRifle_Heavy_01_C'Default__BP_Projectile_AssaultRifle_Heavy_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Projectile_AssaultRifle_Heavy_01_C",
+    "Name": "Default__BP_Projectile_AssaultRifle_Heavy_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.BP_Projectile_AssaultRifle_Heavy_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01",
+    "Template": {
+      "ObjectName": "BP_Projectile_AssaultRifle_Base_C'Default__BP_Projectile_AssaultRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Projectile_AssaultRifle_Base.1"
+    },
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_AssaultRifle_Heavy_01_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.7"
+      },
+      "ProjectileMovement": {
+        "ObjectName": "ProjectileMovementComponent'Default__BP_Projectile_AssaultRifle_Heavy_01_C:ProjectileMovement'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.3"
+      },
+      "NewTrailEffect": {
+        "ObjectName": "NiagaraSystem'NS_BulletTrail_Ribbon_HeavyAR'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Weapons/BulletTrails/NS_BulletTrail_Ribbon_HeavyAR.22"
+      },
+      "PredictionComponent": {
+        "ObjectName": "PredictedProjectileComponent'Default__BP_Projectile_AssaultRifle_Heavy_01_C:PredictionComponent'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.2"
+      },
+      "DetonationEffectPreset": {
+        "ObjectName": "EffectDataAsset'DA_Impacts_Large'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_Large.0"
+      },
+      "DetonationEffectSizeParam": 1.6,
+      "ImpactForce": "EForceMagnitude::Small",
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_AssaultRifle_Heavy_01_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.7"
+      }
+    }
+  },
+  {
+    "Type": "PredictedProjectileComponent",
+    "Name": "PredictionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PredictedProjectileComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_AssaultRifle_Heavy_01_C'Default__BP_Projectile_AssaultRifle_Heavy_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.1"
+    },
+    "Template": {
+      "ObjectName": "PredictedProjectileComponent'Default__BP_Projectile_AssaultRifle_Base_C:PredictionComponent'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Projectile_AssaultRifle_Base.3"
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_AssaultRifle_Heavy_01_C'Default__BP_Projectile_AssaultRifle_Heavy_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.1"
+    },
+    "Template": {
+      "ObjectName": "ProjectileMovementComponent'Default__BP_Projectile_AssaultRifle_Base_C:ProjectileMovement'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Projectile_AssaultRifle_Base.4"
+    },
+    "Properties": {
+      "ProjectileGravityScale": 1.2
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_Heavy_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Projectile_AssaultRifle_Heavy_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Projectile_AssaultRifle_Heavy_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.4"
+      },
+      "VariableGUID": "2A3C96D9-43AFC10F-D3443C8F-02E2E1DB",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_Heavy_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Projectile_AssaultRifle_Heavy_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_AssaultRifle_Heavy_01_C'Default__BP_Projectile_AssaultRifle_Heavy_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Projectile_AssaultRifle_Heavy_01.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Projectile_AssaultRifle_Base_C:Mesh'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Projectile_AssaultRifle_Base.8"
+    }
+  }
+]

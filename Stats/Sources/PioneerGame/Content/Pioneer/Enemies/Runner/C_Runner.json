@@ -1,0 +1,1161 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_Runner_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Runner_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Runner/C_Runner",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Runner_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.30"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Runner_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.17"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BodyRotationThrusterService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BodyRotationThrusterService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StuckDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StuckDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GroundPhysicsMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'GroundPhysicsMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BodyRotationThrusterService",
+    "Name": "BodyRotationThrusterService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodyRotationThrusterService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.1"
+    }
+  },
+  {
+    "Type": "C_Runner_C",
+    "Name": "Default__C_Runner_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Runner/C_Runner.C_Runner_C'",
+    "Package": "/Game/Pioneer/Enemies/Runner/C_Runner",
+    "Template": {
+      "ObjectName": "C_Runner_SharedBase_C'Default__C_Runner_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Runner_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.16"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Runner_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.11"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Runner_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.7"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Runner_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.20"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Runner_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.12"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Runner_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.15"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Runner_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.9"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Runner_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.13"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Runner_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.19"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Runner_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.21"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Runner_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.10"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Runner_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.22"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Runner_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.31"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Runner_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.23"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Runner_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Runner_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.8"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Runner_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.5"
+      },
+      "ClientForcePredictionData": {
+        "bAllowClientForcePrediction": true,
+        "ForceApplicationBaseMultipliers": [
+          {
+            "Key": "EForceMagnitude::VerySmall",
+            "Value": 0.576
+          },
+          {
+            "Key": "EForceMagnitude::Small",
+            "Value": 0.2048
+          },
+          {
+            "Key": "EForceMagnitude::Medium",
+            "Value": 0.1728
+          },
+          {
+            "Key": "EForceMagnitude::Heavy",
+            "Value": 0.117146
+          },
+          {
+            "Key": "EForceMagnitude::VeryHeavy",
+            "Value": 0.090112
+          }
+        ],
+        "ForceApplicationTypeLimits": [
+          {
+            "Key": "EForceMagnitude::VerySmall",
+            "Value": 4.0
+          },
+          {
+            "Key": "EForceMagnitude::Small",
+            "Value": 3.0
+          },
+          {
+            "Key": "EForceMagnitude::Medium",
+            "Value": 1.0
+          },
+          {
+            "Key": "EForceMagnitude::Heavy",
+            "Value": 1.0
+          },
+          {
+            "Key": "EForceMagnitude::VeryHeavy",
+            "Value": 1.0
+          }
+        ]
+      },
+      "PlayerDormancyDistance": 8000.0,
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_RunnerAI'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_RunnerAI.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Runner'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_EnemyType_Runner.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Ground",
+        "Quest.Groups.Enemies.Armored"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Runner_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.18"
+      },
+      "SpawnBudgetCost": 16,
+      "ThreatLevel": 18,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_Humanoid'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 42.0,
+        "AgentHeight": 184.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Runner_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.32"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Runner_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.4"
+      },
+      "NetCullDistanceSquared": 400000000.0,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Runner_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.10"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Runner_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Runner_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_Shredder_SmallThruster'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_AimAssistPartSetup_Shredder_SmallThruster.0"
+        },
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_Shredder_Frame'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_AimAssistPartSetup_Shredder_Frame.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.1"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_StateCombat",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_StateAlerted",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Idle",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_StateIdle",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_Runner_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.5"
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_Runner_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Runner_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.10"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Runner_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.7"
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Runner_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Runner_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.GatlingGun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.GatlingGun )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 1.0,
+            "MaxRotationSpeedDegPerSec": 75.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 0.0,
+            "ProjectileSpeedCmPerSec": 1000000.0,
+            "bDirectlyUpdatePartOrientations": true,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "RotationOriginConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.GatlingGun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.GatlingGun )"
+          },
+          "SocketName": "Muzzle",
+          "PivotType": "EConstructablePartPivotType::Socket"
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      },
+      "bUseRepKeyForReplication": false
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Runner_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_RunnerPerception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_RunnerPerception.0"
+      }
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_Runner_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.11"
+    },
+    "Properties": {
+      "LootType": {
+        "TagName": "Loot.Enemy.Runner"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Runner'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_PartScavengeSetup_Runner.0"
+      }
+    }
+  },
+  {
+    "Type": "GroundPhysicsMovementComponent",
+    "Name": "GroundPhysicsMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GroundPhysicsMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.1"
+    },
+    "Properties": {
+      "bCalculateThrusterHeightRelativePlane": true,
+      "ThrusterRelativePlaneHeight": -30.0,
+      "Settings": {
+        "ObjectName": "GroundPhysicsMovementSettingsDataAsset'DA_Runner_GroundPhysicsMovementSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_Runner_GroundPhysicsMovementSettings.2"
+      },
+      "ThrusterPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Wheel"
+          }
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Wheel )"
+      },
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 45.0,
+        "AgentHeight": 180.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_Humanoid",
+          "SubPathString": ""
+        }
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_Runner_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.12"
+    },
+    "Properties": {
+      "SubGroups": [
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Arm"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Arm )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 50.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 0.0,
+          "RadialForceRadius": 0.0,
+          "AdditionalGameplayEffects": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_Runner_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.13"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.1"
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_Runner_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.15"
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_Runner_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.16"
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_Runner_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.17"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Blast"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Blast )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Runner_Shrapnel_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/Capabilities/Shrapnel/GA_Runner_Shrapnel.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Runner_Shrapnel_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/Capabilities/Shrapnel/CSM_Runner_Shrapnel.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Shrapnel",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_Runner_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.18"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_Runner_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Shredder'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Shredder.0"
+      }
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_Runner_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.20"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Runner_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Runner_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.24"
+      },
+      "VariableGUID": "8563F2A5-4F564894-BD2BBE94-FF605B47",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Runner_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BodyRotationThrusterService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BodyRotationThrusterService'C_Runner_C:BodyRotationThrusterService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.2"
+      },
+      "VariableGUID": "8CFA0019-46969E56-E8CFADA8-2B00D5DC",
+      "InternalVariableName": "BodyRotationThrusterService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Runner_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'GroundPhysicsMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GroundPhysicsMovementComponent'C_Runner_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.14"
+      },
+      "VariableGUID": "95FA2A97-48E8A8BB-B0742E83-31EE69E2",
+      "InternalVariableName": "GroundPhysicsMovementComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Runner_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_Runner_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.6"
+      },
+      "VariableGUID": "C5744A81-45097F34-E54B4588-C41947EB",
+      "InternalVariableName": "ConstructableAnimationService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Runner_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StuckDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StuckDetectionService'C_Runner_C:StuckDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.33"
+      },
+      "VariableGUID": "C225F606-4606B227-D5F2169B-2C319A68",
+      "InternalVariableName": "StuckDetectionService"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.27"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.28"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.29"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.26"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.27"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.28"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.29"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.26"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Runner_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.25"
+      }
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_Runner_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.24"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Runner_C'Default__C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.3"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_Runner_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/C_Runner_SharedBase.25"
+    }
+  },
+  {
+    "Type": "StuckDetectionService",
+    "Name": "StuckDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StuckDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Runner_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/C_Runner.1"
+    },
+    "Properties": {
+      "MinDistMovedToNotBeStuck": 75.0,
+      "DestroyedPartsToMinDistanceMultiplier": {
+        "EditorCurveData": {}
+      },
+      "StuckStackingDistance": 300.0
+    }
+  }
+]

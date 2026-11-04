@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_AssaultRifle_Heavy_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_Item_AssaultRifle_Heavy_01",
+    "Properties": {
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_WeaponActor_AssaultRifle_Heavy_01.BP_WeaponActor_AssaultRifle_Heavy_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/SM_AssaultRifle_Heavy_01_A.SM_AssaultRifle_Heavy_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 11.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Bettina"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "DropTags": [
+        "Item.Drop.Tier.High",
+        "Item.Drop.Rarity.04Epic",
+        "Item.Drop.Type.Equipment.Weapon.Firearm.HeavyAmmo"
+      ],
+      "StaticLootAvoidGroups": [
+        "Item.Drop.Type.Equipment.Weapon.Firearm"
+      ],
+      "UnequipTime": 0.52,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 1.2,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.AssaultRifle"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_AssaultRifle'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_AssaultRifle.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_AssaultRifle_Heavy_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_ItemAnimationContainer_AssaultRifle_Heavy_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_AssaultRifleHeavy01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_ItemSkinSlot_AssaultRifleHeavy01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_WeaponVisuals_AssaultRifle_Heavy_01.DA_WeaponVisuals_AssaultRifle_Heavy_01",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_QualityVisual_AssaultRifle_Heavy_01.DA_QualityVisual_AssaultRifle_Heavy_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_Heavy_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/DA_Persistence_AssaultRifle_Heavy_01.0"
+      },
+      "Tags": [
+        "Online.Release.Base",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.AssaultRifleHeavy01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.HeavyAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Bettina"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/BP_Item_AssaultRifle_Heavy_01.BP_Item_AssaultRifle_Heavy_01_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

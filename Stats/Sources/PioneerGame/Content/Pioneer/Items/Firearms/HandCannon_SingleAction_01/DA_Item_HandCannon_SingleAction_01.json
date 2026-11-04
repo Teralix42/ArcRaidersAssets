@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_HandCannon_SingleAction_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_Item_HandCannon_SingleAction_01",
+    "Properties": {
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_WeaponActor_HandCannon_SingleAction_01.BP_WeaponActor_HandCannon_SingleAction_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/SM_Handcannon_SingleAction_01.SM_Handcannon_SingleAction_01",
+        "SubPathString": ""
+      },
+      "Weight": 5.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Anvil"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "DropTags": [
+        "Item.Drop.Tier.Mid",
+        "Item.Drop.Type.Equipment.Weapon.Firearm.HeavyAmmo",
+        "Item.Drop.Rarity.03Rare"
+      ],
+      "StaticLootAvoidGroups": [
+        "Item.Drop.Type.Equipment.Weapon.Firearm"
+      ],
+      "UnequipTime": 0.4,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 0.65,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.RifleAndHandCannon"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_Pistol'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_Pistol.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_HandCannon_SingleAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_ItemAnimationContainer_HandCannon_SingleAction_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_HandCannonSingleAction01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_ItemSkinSlot_HandCannonSingleAction01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_WeaponVisuals_HandCannon_01.DA_WeaponVisuals_HandCannon_01",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_QualityVisual_HandCannon_SingleAction_01.DA_QualityVisual_HandCannon_SingleAction_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_HandCannon_SingleAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_Persistence_HandCannon_SingleAction_01.0"
+      },
+      "Tags": [
+        "Online.Release.Base",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.HandCannonSingleAction01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.HeavyAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Anvil"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Item_HandCannon_SingleAction_01.BP_Item_HandCannon_SingleAction_01_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

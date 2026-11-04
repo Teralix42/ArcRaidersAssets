@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_BattleRifle_EnergyBurst_01_ChargedBurst_IncreasedBurst_IncendiaryRounds",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/DA_Item_BattleRifle_EnergyBurst_01_ChargedBurst_IncreasedBurst_IncendiaryRounds",
+    "Properties": {
+      "bIsUpgradedVariation": true,
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/UniqueWeapons/BP_WeaponActor_BattleRifle_EnergyBurst_01_ChargedBurst.BP_WeaponActor_BattleRifle_EnergyBurst_01_ChargedBurst_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Shared/DefaultWhiteboxes/SM_WhiteBox_BattleRifle.SM_WhiteBox_BattleRifle",
+        "SubPathString": ""
+      },
+      "Weight": 10.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Aphelion"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "CanDrop": false,
+      "UnequipTime": 0.6,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 1.1,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.RifleAndHandCannon"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_AssaultRifle'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_AssaultRifle.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_BattleRifle_EnergyBurst_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/DA_ItemAnimationContainer_BattleRifle_EnergyBurst_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_BattleRifleEnergyBurst01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/DA_ItemSkinSlot_BattleRifleEnergyBurst01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Default/DA_WeaponVisuals_BattleRifle_EnergyBurst_01_Ascended_Default_A.DA_WeaponVisuals_BattleRifle_EnergyBurst_01_Ascended_Default_A",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/DA_QualityVisual_BattleRifle_EnergyBurst_01.DA_QualityVisual_BattleRifle_EnergyBurst_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_EnergyBurst_01_ChargedBurst_IncreasedBurst_IncendiaryRounds'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/DA_Persistence_BattleRifle_EnergyBurst_01_ChargedBurst_IncreasedBurst_IncendiaryRounds.0"
+      },
+      "Tags": [
+        "Item.Flag.Upgraded",
+        "Online.Release.2.0",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.BattleRifleEnergyBurst01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.EnergyAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Aphelion",
+        "Quest.Groups.Items.WeaponBurstResearch"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Permutations/BP_Item_BattleRifle_EnergyBurst_01_ChargedBurst_IncreasedBurst_IncendiaryRounds.BP_Item_BattleRifle_EnergyBurst_01_ChargedBurst_IncreasedBurst_IncendiaryRounds_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

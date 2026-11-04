@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_BullCrab",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Bullcrab/DA_EnemyType_BullCrab",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.C_BullCrab_01_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -541195755,
+      "EnemyTag": {
+        "TagName": "Enemy.BullCrab.Leaper"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_OrbitalStrike_Heavy_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_OrbitalStrike_Heavy.0"
+        }
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_BullCrab'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_Persistence_Enemy_BullCrab.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Tarragon_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyType_Tarragon_01",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Tarragon/C_Tarragon_01.C_Tarragon_01_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -12981809,
+      "EnemyTag": {
+        "TagName": "Enemy.Tarragon.Tarragon"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_OrbitalStrike_Heavy_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_OrbitalStrike_Heavy.0"
+        }
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Tarragon_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_Persistence_Enemy_Tarragon_01.0"
+      },
+      "Tags": [
+        "Online.Release.2.0"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

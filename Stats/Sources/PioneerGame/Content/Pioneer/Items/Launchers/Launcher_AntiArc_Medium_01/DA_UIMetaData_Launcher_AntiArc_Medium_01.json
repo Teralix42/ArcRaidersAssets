@@ -1,0 +1,764 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Launcher_AntiArc_Medium_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Launcher_AntiArc_Medium_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Qualities/DA_Persistence_Launcher_AntiArc_Medium_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_GRENADELAUNCHER_ANTIARCLAUNCHER",
+        "SourceString": "Hullcracker",
+        "LocalizedString": "Hullcracker"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_LAUNCHER_ANTIARC_MEDIUM_01_SHORT",
+        "SourceString": "Fires explosive projectiles that only detonate when hitting ARC.",
+        "LocalizedString": "Fires explosive projectiles that only detonate when hitting ARC."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 1,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Special"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Launcher.T_UI_Ammo_Launcher",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_T0.T_UI_Icon_Launcher_AntiArc_Medium_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T0.T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.43763754,
+          "Y": 0.019107671,
+          "Z": -0.8980928,
+          "W": 0.039211586,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 132.6449,
+          "Y": 27.599566,
+          "Z": 192.78775
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -25.356863,
+          "Y": 89.05043,
+          "Z": 120.688835
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": 0.25574565,
+          "Y": -0.33724028,
+          "Z": 0.6705438,
+          "W": 0.6092899,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_PUMPACTION",
+            "SourceString": "Pump-Action",
+            "LocalizedString": "Pump-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYSTRONG",
+            "SourceString": "Very Strong",
+            "LocalizedString": "Very Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Launcher_AntiArc_Medium_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Launcher_AntiArc_Medium_01_T1'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Qualities/DA_Persistence_Launcher_AntiArc_Medium_01_T1.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_GRENADELAUNCHER_ANTIARCLAUNCHER",
+        "SourceString": "Hullcracker",
+        "LocalizedString": "Hullcracker"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_LAUNCHER_ANTIARC_MEDIUM_01_SHORT",
+        "SourceString": "Fires explosive projectiles that only detonate when hitting ARC.",
+        "LocalizedString": "Fires explosive projectiles that only detonate when hitting ARC."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 2,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Special"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Launcher.T_UI_Ammo_Launcher",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_T1.T_UI_Icon_Launcher_AntiArc_Medium_01_T1",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T1.T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T1",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.43763754,
+          "Y": 0.019107671,
+          "Z": -0.8980928,
+          "W": 0.039211586,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 132.6449,
+          "Y": 27.599566,
+          "Z": 192.78775
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -25.356863,
+          "Y": 89.05043,
+          "Z": 120.688835
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": 0.25574565,
+          "Y": -0.33724028,
+          "Z": 0.6705438,
+          "W": 0.6092899,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_PUMPACTION",
+            "SourceString": "Pump-Action",
+            "LocalizedString": "Pump-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYSTRONG",
+            "SourceString": "Very Strong",
+            "LocalizedString": "Very Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIRERATE_POSITIVE",
+            "SourceString": "{0}% Increased Fire Rate",
+            "LocalizedString": "{0}% Increased Fire Rate"
+          },
+          "ModifierValue": 18.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_16",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Launcher_AntiArc_Medium_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Launcher_AntiArc_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_Persistence_Launcher_AntiArc_Medium_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_GRENADELAUNCHER_ANTIARCLAUNCHER",
+        "SourceString": "Hullcracker",
+        "LocalizedString": "Hullcracker"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_LAUNCHER_ANTIARC_MEDIUM_01_SHORT",
+        "SourceString": "Fires explosive projectiles that only detonate when hitting ARC.",
+        "LocalizedString": "Fires explosive projectiles that only detonate when hitting ARC."
+      },
+      "QualityLevel": 4,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Special"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Launcher.T_UI_Ammo_Launcher",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_T3.T_UI_Icon_Launcher_AntiArc_Medium_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T3.T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.43763754,
+          "Y": 0.019107671,
+          "Z": -0.8980928,
+          "W": 0.039211586,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 132.6449,
+          "Y": 27.599566,
+          "Z": 192.78775
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -25.356863,
+          "Y": 89.05043,
+          "Z": 120.688835
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": 0.25574565,
+          "Y": -0.33724028,
+          "Z": 0.6705438,
+          "W": 0.6092899,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Launcher_AntiArc_Medium_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Launcher_AntiArc_Medium_01_T2'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Qualities/DA_Persistence_Launcher_AntiArc_Medium_01_T2.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_GRENADELAUNCHER_ANTIARCLAUNCHER",
+        "SourceString": "Hullcracker",
+        "LocalizedString": "Hullcracker"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_LAUNCHER_ANTIARC_MEDIUM_01_SHORT",
+        "SourceString": "Fires explosive projectiles that only detonate when hitting ARC.",
+        "LocalizedString": "Fires explosive projectiles that only detonate when hitting ARC."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 3,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Special"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Launcher.T_UI_Ammo_Launcher",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_T2.T_UI_Icon_Launcher_AntiArc_Medium_01_T2",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T2.T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T2",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.43763754,
+          "Y": 0.019107671,
+          "Z": -0.8980928,
+          "W": 0.039211586,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 132.6449,
+          "Y": 27.599566,
+          "Z": 192.78775
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -25.356863,
+          "Y": 89.05043,
+          "Z": 120.688835
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": 0.25574565,
+          "Y": -0.33724028,
+          "Z": 0.6705438,
+          "W": 0.6092899,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_PUMPACTION",
+            "SourceString": "Pump-Action",
+            "LocalizedString": "Pump-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYSTRONG",
+            "SourceString": "Very Strong",
+            "LocalizedString": "Very Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIRERATE_POSITIVE",
+            "SourceString": "{0}% Increased Fire Rate",
+            "LocalizedString": "{0}% Increased Fire Rate"
+          },
+          "ModifierValue": 35.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Launcher_AntiArc_Medium_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Launcher_AntiArc_Medium_01_T3'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Qualities/DA_Persistence_Launcher_AntiArc_Medium_01_T3.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_GRENADELAUNCHER_ANTIARCLAUNCHER",
+        "SourceString": "Hullcracker",
+        "LocalizedString": "Hullcracker"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_LAUNCHER_ANTIARC_MEDIUM_01_SHORT",
+        "SourceString": "Fires explosive projectiles that only detonate when hitting ARC.",
+        "LocalizedString": "Fires explosive projectiles that only detonate when hitting ARC."
+      },
+      "QualityLevel": 4,
+      "UpgradeLevel": 4,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Special"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Launcher.T_UI_Ammo_Launcher",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_T3.T_UI_Icon_Launcher_AntiArc_Medium_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T3.T_UI_Icon_Launcher_AntiArc_Medium_01_BigIcon_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.43763754,
+          "Y": 0.019107671,
+          "Z": -0.8980928,
+          "W": 0.039211586,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 132.6449,
+          "Y": 27.599566,
+          "Z": 192.78775
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -25.356863,
+          "Y": 89.05043,
+          "Z": 120.688835
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": 0.25574565,
+          "Y": -0.33724028,
+          "Z": 0.6705438,
+          "W": 0.6092899,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_PUMPACTION",
+            "SourceString": "Pump-Action",
+            "LocalizedString": "Pump-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYSTRONG",
+            "SourceString": "Very Strong",
+            "LocalizedString": "Very Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIRERATE_POSITIVE",
+            "SourceString": "{0}% Increased Fire Rate",
+            "LocalizedString": "{0}% Increased Fire Rate"
+          },
+          "ModifierValue": 53.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Launcher_AntiArc_Medium_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Launcher_AntiArc_Medium_01:UIGameplayItemMetaDataItem_16'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.2"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Launcher_AntiArc_Medium_01:UIGameplayItemMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Launcher_AntiArc_Medium_01:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.1"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Launcher_AntiArc_Medium_01:UIGameplayItemMetaDataItem_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.3"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Launcher_AntiArc_Medium_01:UIGameplayItemMetaDataItem_3'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/DA_UIMetaData_Launcher_AntiArc_Medium_01.4"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_AntiArc_SingleShot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Projectile_Launcher_AntiArc_SingleShot_01.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C",
+    "Name": "Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary",
+    "Template": {
+      "ObjectName": "BP_Projectile_Launcher_AntiArc_SingleShot_01_C'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Projectile_Launcher_AntiArc_SingleShot_01.1"
+    },
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.8"
+      },
+      "ProjectileMovement": {
+        "ObjectName": "ProjectileMovementComponent'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:ProjectileMovement'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.4"
+      },
+      "PredictionComponent": {
+        "ObjectName": "PredictedProjectileComponent'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:PredictionComponent'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.3"
+      },
+      "ImpactForce": "EForceMagnitude::Medium",
+      "ImpactEffects": [
+        {
+          "TargetType": {
+            "ObjectName": "BlueprintGeneratedClass'GETT_Launcher_AntiARC_SingleShot_01_C'",
+            "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/GETT_Launcher_AntiARC_SingleShot_01.0"
+          },
+          "DamageEffect": {
+            "GameplayEffect": {
+              "ObjectName": "Class'PioneerSimpleTagOnlyDamageEffect'",
+              "ObjectPath": "/Script/Angelscript"
+            },
+            "Modifiers": [
+              {
+                "SetByCaller": {
+                  "TagName": "Attribute.Damage.Explosive"
+                },
+                "Magnitude": 45.0
+              }
+            ]
+          },
+          "bIgnoreHitDamageMultipliers": false
+        }
+      ],
+      "ImpactWorldItem": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.8"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.0"
+    }
+  },
+  {
+    "Type": "PredictedProjectileComponent",
+    "Name": "PredictionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PredictedProjectileComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.1"
+    },
+    "Template": {
+      "ObjectName": "PredictedProjectileComponent'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_C:PredictionComponent'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Projectile_Launcher_AntiArc_SingleShot_01.3"
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.1"
+    },
+    "Template": {
+      "ObjectName": "ProjectileMovementComponent'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_C:ProjectileMovement'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Projectile_Launcher_AntiArc_SingleShot_01.4"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.5"
+      },
+      "VariableGUID": "9485CE3B-47589B49-E40178B1-7CF7F0F9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/Ascended/BP_Projectile_Launcher_AntiArc_SingleShot_01_Incendiary.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Projectile_Launcher_AntiArc_SingleShot_01_C:Mesh'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Projectile_Launcher_AntiArc_SingleShot_01.8"
+    }
+  }
+]

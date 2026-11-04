@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Kebab_Gatling",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_EnemyType_Kebab_Gatling",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.C_Kebab_Gatling_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 1895600671,
+      "EnemyTag": {
+        "TagName": "Enemy.Kebab.Gatling"
+      },
+      "ExcludeActorSpawnFlags": 3,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Kebab_Gatling'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_Persistence_Enemy_Kebab_Gatling.0"
+      },
+      "Tags": [
+        "Online.Release.2.0"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

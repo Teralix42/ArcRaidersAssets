@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Pistol_01_Burst",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Burst",
+    "Properties": {
+      "Children": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Pistol_01_IncreasedBurst'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_IncreasedBurst.0"
+        }
+      ],
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Pistol_01_Burst_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_Burst.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_BURSTFIRE",
+        "SourceString": "Burst Fire",
+        "LocalizedString": "Burst Fire"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_BURSTFIRE",
+        "SourceString": "Makes the weapon fire in a burst.",
+        "LocalizedString": "Makes the weapon fire in a burst."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_Burst_03.T_UI_Icon_Upgrade_Burst_03",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BURSTSIZE_POSITIVE",
+            "SourceString": "+{0} Projectiles in Burst",
+            "LocalizedString": "+{0} Projectiles in Burst"
+          },
+          "ModifierValue": 2.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  }
+]

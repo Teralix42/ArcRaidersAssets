@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AssaultRifle_Heavy_01_SemiAuto_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Permutations/BP_Item_AssaultRifle_Heavy_01_SemiAuto",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_AssaultRifle_Heavy_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/BP_Item_AssaultRifle_Heavy_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AssaultRifle_Heavy_01_SemiAuto_C'Default__BP_Item_AssaultRifle_Heavy_01_SemiAuto_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Permutations/BP_Item_AssaultRifle_Heavy_01_SemiAuto.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AssaultRifle_Heavy_01_SemiAuto_C",
+    "Name": "Default__BP_Item_AssaultRifle_Heavy_01_SemiAuto_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Permutations/BP_Item_AssaultRifle_Heavy_01_SemiAuto.BP_Item_AssaultRifle_Heavy_01_SemiAuto_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Permutations/BP_Item_AssaultRifle_Heavy_01_SemiAuto",
+    "Template": {
+      "ObjectName": "BP_Item_AssaultRifle_Heavy_01_Ascended_C'Default__BP_Item_AssaultRifle_Heavy_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/BP_Item_AssaultRifle_Heavy_01_Ascended.1"
+    },
+    "Properties": {
+      "BaseVisualStats": {
+        "Damage": 19.0,
+        "FireRate": 16.8,
+        "Range": 55.339,
+        "Stability": 78.414
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_AssaultRifle_Heavy_01_SemiAuto'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Permutations/DA_Item_AssaultRifle_Heavy_01_SemiAuto.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_Heavy_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Heavy_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_Heavy_01_SemiAuto'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Heavy_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Heavy_01_SemiAuto.0"
+        }
+      ]
+    }
+  }
+]

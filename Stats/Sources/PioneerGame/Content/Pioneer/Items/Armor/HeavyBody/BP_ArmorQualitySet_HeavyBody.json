@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ArmorQualitySet_HeavyBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody",
+    "SuperStruct": {
+      "ObjectName": "Class'ArmorQualitySet'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ArmorQualitySet_HeavyBody_C:ModifyAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.2"
+      }
+    ],
+    "FuncMap": {
+      "ModifyAttributes": {
+        "ObjectName": "Function'BP_ArmorQualitySet_HeavyBody_C:ModifyAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ArmorQualitySet_HeavyBody_C'Default__BP_ArmorQualitySet_HeavyBody_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ArmorQualitySet_HeavyBody_C",
+    "Name": "Default__BP_ArmorQualitySet_HeavyBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.BP_ArmorQualitySet_HeavyBody_C'",
+    "Package": "/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody",
+    "Properties": {
+      "GameplayEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "Class'SprintSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                0.9
+              ]
+            }
+          ]
+        },
+        {
+          "EffectClass": {
+            "ObjectName": "Class'RunSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                0.9,
+                0.9,
+                0.9,
+                0.9
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ModifyAttributes",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArmorQualitySet_HeavyBody_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ArmorQualitySet:ModifyAttributes'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Quality",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Stats",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'ArmorModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "Class'ArmorModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  }
+]

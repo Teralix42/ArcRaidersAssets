@@ -1,0 +1,286 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Special_Railgun_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_UIMetaData_Special_Railgun_01.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Special_Railgun_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/Qualities/DA_Persistence_Special_Railgun_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_SNIPERRIFLE_RAILGUN_01",
+        "SourceString": "Jupiter",
+        "LocalizedString": "Jupiter"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SPECIAL_RAILGUN_01_SHORT",
+        "SourceString": "Fires projectiles at an incredible velocity, capable of damaging multiple targets with one shot.",
+        "LocalizedString": "Fires projectiles at an incredible velocity, capable of damaging multiple targets with one shot."
+      },
+      "QualityLevel": 5,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.SniperRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Energy.T_UI_Ammo_Energy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/T_UI_Icon_Special_Railgun_01_T0.T_UI_Icon_Special_Railgun_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/T_UI_Icon_Special_Railgun_01_Big_A_T0.T_UI_Icon_Special_Railgun_01_Big_A_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -11.532308,
+          "Y": 164.01819,
+          "Z": 242.01614
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -22.374023,
+          "Y": 101.41788,
+          "Z": 143.8853
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.374687,
+          "Y": 0.17106377,
+          "Z": -0.91117996,
+          "W": -0.009897869,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.15183073,
+          "Y": -0.25825548,
+          "Z": 0.9411072,
+          "W": 0.15674439,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_BOLTACTION",
+            "SourceString": "Bolt-Action",
+            "LocalizedString": "Bolt-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYSTRONG",
+            "SourceString": "Very Strong",
+            "LocalizedString": "Very Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_WEAPONTRAIT",
+            "SourceString": "Special Trait",
+            "LocalizedString": "Special Trait"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_WEAPONTRAIT_EXPERIMENTAL",
+            "SourceString": "Experimental",
+            "LocalizedString": "Experimental"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_250",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Special_Railgun_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_UIMetaData_Special_Railgun_01.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Special_Railgun_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_Persistence_Special_Railgun_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_SNIPERRIFLE_RAILGUN_01",
+        "SourceString": "Jupiter",
+        "LocalizedString": "Jupiter"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SPECIAL_RAILGUN_01_SHORT",
+        "SourceString": "Fires projectiles at an incredible velocity, capable of damaging multiple targets with one shot.",
+        "LocalizedString": "Fires projectiles at an incredible velocity, capable of damaging multiple targets with one shot."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.SniperRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Energy.T_UI_Ammo_Energy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/T_UI_Icon_Special_Railgun_01_T3.T_UI_Icon_Special_Railgun_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/T_UI_Icon_Special_Railgun_01_Big_A_T3.T_UI_Icon_Special_Railgun_01_Big_A_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -11.532308,
+          "Y": 164.01819,
+          "Z": 242.01614
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -22.374023,
+          "Y": 101.41788,
+          "Z": 143.8853
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.374687,
+          "Y": 0.17106377,
+          "Z": -0.91117996,
+          "W": -0.009897869,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.15183073,
+          "Y": -0.25825548,
+          "Z": 0.9411072,
+          "W": 0.15674439,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Special_Railgun_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_UIMetaData_Special_Railgun_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Special_Railgun_01:UIGameplayItemMetaDataItem_250'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_UIMetaData_Special_Railgun_01.1"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Special_Railgun_01:UIGameplayItemMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_UIMetaData_Special_Railgun_01.0"
+        }
+      ]
+    }
+  }
+]

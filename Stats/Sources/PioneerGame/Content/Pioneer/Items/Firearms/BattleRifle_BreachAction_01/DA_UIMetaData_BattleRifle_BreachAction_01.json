@@ -1,0 +1,763 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_BattleRifle_BreachAction_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_BreachAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_Persistence_BattleRifle_BreachAction_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_BATTLERIFLE_BREACHACTION_01",
+        "SourceString": "Ferro",
+        "LocalizedString": "Ferro"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_BATTLERIFLE_BREACHACTION_01_SHORT",
+        "SourceString": "Packs a punch, but must be reloaded between every shot.",
+        "LocalizedString": "Packs a punch, but must be reloaded between every shot."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.BattleRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T3.T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T3.T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -24.967607,
+          "Y": 181.78821,
+          "Z": 272.22485
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -39.474113,
+          "Y": 121.61064,
+          "Z": 169.69336
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37886578,
+          "Y": 0.23905796,
+          "Z": -0.89327836,
+          "W": -0.036956254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_16",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_BattleRifle_BreachAction_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_BreachAction_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/Qualities/DA_Persistence_BattleRifle_BreachAction_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_BATTLERIFLE_BREACHACTION_01",
+        "SourceString": "Ferro",
+        "LocalizedString": "Ferro"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_BATTLERIFLE_BREACHACTION_01_SHORT",
+        "SourceString": "Packs a punch, but must be reloaded between every shot.",
+        "LocalizedString": "Packs a punch, but must be reloaded between every shot."
+      },
+      "QualityLevel": 1,
+      "UpgradeLevel": 1,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.BattleRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T0.T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T0.T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -24.967607,
+          "Y": 181.78821,
+          "Z": 272.22485
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -39.474113,
+          "Y": 121.61064,
+          "Z": 169.69336
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37886578,
+          "Y": 0.23905796,
+          "Z": -0.89327836,
+          "W": -0.036956254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_BREAKACTION",
+            "SourceString": "Break-Action",
+            "LocalizedString": "Break-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_23",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_BattleRifle_BreachAction_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_BreachAction_01_T1'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/Qualities/DA_Persistence_BattleRifle_BreachAction_01_T1.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_BATTLERIFLE_BREACHACTION_01",
+        "SourceString": "Ferro",
+        "LocalizedString": "Ferro"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_BATTLERIFLE_BREACHACTION_01_SHORT",
+        "SourceString": "Packs a punch, but must be reloaded between every shot.",
+        "LocalizedString": "Packs a punch, but must be reloaded between every shot."
+      },
+      "QualityLevel": 1,
+      "UpgradeLevel": 2,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.BattleRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T1.T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T1",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T1.T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T1",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -24.967607,
+          "Y": 181.78821,
+          "Z": 272.22485
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -39.474113,
+          "Y": 121.61064,
+          "Z": 169.69336
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37886578,
+          "Y": 0.23905796,
+          "Z": -0.89327836,
+          "W": -0.036956254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_BREAKACTION",
+            "SourceString": "Break-Action",
+            "LocalizedString": "Break-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 13.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_30",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_BattleRifle_BreachAction_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_BreachAction_01_T2'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/Qualities/DA_Persistence_BattleRifle_BreachAction_01_T2.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_BATTLERIFLE_BREACHACTION_01",
+        "SourceString": "Ferro",
+        "LocalizedString": "Ferro"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_BATTLERIFLE_BREACHACTION_01_SHORT",
+        "SourceString": "Packs a punch, but must be reloaded between every shot.",
+        "LocalizedString": "Packs a punch, but must be reloaded between every shot."
+      },
+      "QualityLevel": 1,
+      "UpgradeLevel": 3,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.BattleRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T2.T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T2",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T2.T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T2",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -24.967607,
+          "Y": 181.78821,
+          "Z": 272.22485
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -39.474113,
+          "Y": 121.61064,
+          "Z": 169.69336
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37886578,
+          "Y": 0.23905796,
+          "Z": -0.89327836,
+          "W": -0.036956254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_BREAKACTION",
+            "SourceString": "Break-Action",
+            "LocalizedString": "Break-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 26.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_37",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_BattleRifle_BreachAction_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_BreachAction_01_T3'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/Qualities/DA_Persistence_BattleRifle_BreachAction_01_T3.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_BATTLERIFLE_BREACHACTION_01",
+        "SourceString": "Ferro",
+        "LocalizedString": "Ferro"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_BATTLERIFLE_BREACHACTION_01_SHORT",
+        "SourceString": "Packs a punch, but must be reloaded between every shot.",
+        "LocalizedString": "Packs a punch, but must be reloaded between every shot."
+      },
+      "QualityLevel": 1,
+      "UpgradeLevel": 4,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.BattleRifle"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T3.T_UI_Icon_BattleRifle_BreachAction_01_SmallIcon_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T3.T_UI_Icon_BattleRifle_BreachAction_01_BigIcon_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -24.967607,
+          "Y": 181.78821,
+          "Z": 272.22485
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -39.474113,
+          "Y": 121.61064,
+          "Z": 169.69336
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.37886578,
+          "Y": 0.23905796,
+          "Z": -0.89327836,
+          "W": -0.036956254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.1474611,
+          "Y": -0.2840483,
+          "Z": 0.9336462,
+          "W": 0.16086204,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_BREAKACTION",
+            "SourceString": "Break-Action",
+            "LocalizedString": "Break-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 39.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_BattleRifle_BreachAction_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_BattleRifle_BreachAction_01:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_BattleRifle_BreachAction_01:UIGameplayItemMetaDataItem_16'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.1"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_BattleRifle_BreachAction_01:UIGameplayItemMetaDataItem_23'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.2"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_BattleRifle_BreachAction_01:UIGameplayItemMetaDataItem_30'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.3"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_BattleRifle_BreachAction_01:UIGameplayItemMetaDataItem_37'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_UIMetaData_BattleRifle_BreachAction_01.4"
+        }
+      ]
+    }
+  }
+]

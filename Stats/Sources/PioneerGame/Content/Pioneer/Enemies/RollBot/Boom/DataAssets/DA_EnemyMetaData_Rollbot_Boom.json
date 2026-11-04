@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_Rollbot_Boom'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_EnemyMetaData_Rollbot_Boom.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Rollbot_Boom'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_Persistence_Enemy_Rollbot_Boom.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Boom'",
+        "ObjectPath": "/Game/Pioneer/UI/Assets/Enemies/T_UI_Ping_Enemy_Boom.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Comet.T_UI_ARC_Comet",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_BOOM_NAME",
+        "SourceString": "Comet",
+        "LocalizedString": "Comet"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_Rollbot_Boom",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_EnemyMetaData_Rollbot_Boom",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_Rollbot_Boom:UIEnemyMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_EnemyMetaData_Rollbot_Boom.0"
+        }
+      ]
+    }
+  }
+]

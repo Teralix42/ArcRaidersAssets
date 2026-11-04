@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Meerkat",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyType_Meerkat",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.C_Meerkat_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 836476952,
+      "EnemyTag": {
+        "TagName": "Enemy.Meerkat.Meerkat"
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Meerkat'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_Persistence_Enemy_Meerkat.0"
+      },
+      "Tags": [
+        "Online.Release.2.0"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

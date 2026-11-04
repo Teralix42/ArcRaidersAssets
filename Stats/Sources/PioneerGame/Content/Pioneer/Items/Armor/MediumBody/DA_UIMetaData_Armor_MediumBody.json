@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Armor_MediumBody'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/MediumBody/DA_UIMetaData_Armor_MediumBody.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Armor_MediumBody'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/MediumBody/DA_Persistence_Armor_MediumBody.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Armors.ST_ItemNames_Armors",
+        "Key": "ID_ITEMNAMES_ARMORS_MEDIUM_SHIELD",
+        "SourceString": "Medium Shield",
+        "LocalizedString": "Medium Shield"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Armors.ST_ItemDescriptions_Armors",
+        "Key": "ID_ITEMDESC_ARMOR_MEDIUMBODY",
+        "SourceString": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility.",
+        "LocalizedString": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Armor"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_ItemCategory_Armor_Medium.T_UI_ItemCategory_Armor_Medium",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/MediumBody/T_UI_Icon_Armor_MediumBody.T_UI_Icon_Armor_MediumBody",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/MediumBody/T_UI_Icon_Armor_MediumBody.T_UI_Icon_Armor_MediumBody",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Armor_MediumBody'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/MediumBody/DA_UIMetaData_Armor_MediumBody.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Armor_MediumBody_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/MediumBody/Qualities/DA_Persistence_Armor_MediumBody_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Armors.ST_ItemNames_Armors",
+        "Key": "ID_ITEMNAMES_ARMORS_MEDIUM_SHIELD",
+        "SourceString": "Medium Shield",
+        "LocalizedString": "Medium Shield"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Armors.ST_ItemDescriptions_Armors",
+        "Key": "ID_ITEMDESC_ARMOR_MEDIUMBODY",
+        "SourceString": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility.",
+        "LocalizedString": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility."
+      },
+      "QualityLevel": 3,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Armor"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_ItemCategory_Armor_Medium.T_UI_ItemCategory_Armor_Medium",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/MediumBody/T_UI_Icon_Armor_MediumBody.T_UI_Icon_Armor_MediumBody",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/MediumBody/T_UI_Icon_Armor_MediumBody.T_UI_Icon_Armor_MediumBody",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": true,
+          "StaticTitle": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARMOR_PLATEMITIGATION",
+            "SourceString": "Damage Reduction",
+            "LocalizedString": "Damage Reduction"
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_Stats_Format.ST_Stats_Format",
+            "Key": "ID_STATS_FORMAT_PERCENTAGE",
+            "SourceString": "{0}%",
+            "LocalizedString": "{0}%"
+          },
+          "ModifierValue": 42.5,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::TextOnly"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_MOVEMENTSPEED_NEGATIVE",
+            "SourceString": "{0}% Reduced Movement Speed",
+            "LocalizedString": "{0}% Reduced Movement Speed"
+          },
+          "ModifierValue": 5.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Armor_MediumBody",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Armor/MediumBody/DA_UIMetaData_Armor_MediumBody",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Armor_MediumBody:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Armor/MediumBody/DA_UIMetaData_Armor_MediumBody.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Armor_MediumBody:UIGameplayItemMetaDataItem_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Armor/MediumBody/DA_UIMetaData_Armor_MediumBody.1"
+        }
+      ]
+    }
+  }
+]

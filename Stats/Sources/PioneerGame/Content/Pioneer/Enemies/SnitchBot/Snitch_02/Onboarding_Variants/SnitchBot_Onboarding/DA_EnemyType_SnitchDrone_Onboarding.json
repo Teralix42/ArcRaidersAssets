@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_SnitchDrone_Onboarding",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/Onboarding_Variants/SnitchBot_Onboarding/DA_EnemyType_SnitchDrone_Onboarding",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/Onboarding_Variants/SnitchBot_Onboarding/C_SnitchBot_Onboarding.C_SnitchBot_Onboarding_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -688136541,
+      "EnemyTag": {
+        "TagName": "Enemy.ScoutDrone.SnitchOnboarding"
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_SnitchBot_Onboarding'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/Onboarding_Variants/SnitchBot_Onboarding/DA_Persistence_Enemy_SnitchBot_Onboarding.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_11",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_TickBot'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/DA_EnemyMetaData_TickBot.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_TickBot'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/DA_Persistence_Enemy_TickBot.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Tick'",
+        "ObjectPath": "/Game/Pioneer/Core/UI/UI_Elements/Icons/Enemies/T_UI_Ping_Enemy_Tick.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Tick.T_UI_ARC_Tick",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_TICKBOT_NAME",
+        "SourceString": "Tick",
+        "LocalizedString": "Tick"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_TickBot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Tick/DA_EnemyMetaData_TickBot",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_TickBot:UIEnemyMetaDataItem_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/DA_EnemyMetaData_TickBot.0"
+        }
+      ]
+    }
+  }
+]

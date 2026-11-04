@@ -1,0 +1,259 @@
+[
+  {
+    "Type": "UIFloatingPointStat",
+    "Name": "UIFloatingPointStat_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIFloatingPointStat'",
+    "Outer": {
+      "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+    },
+    "Properties": {
+      "StatValue": 30.0,
+      "StatName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats.ST_Stats",
+        "Key": "ID_STATS_CLIP_SIZE",
+        "SourceString": "Magazine Size",
+        "LocalizedString": "Magazine Size"
+      },
+      "PropertyHash": 5719756472294914043,
+      "AttirbuteOverride": "ItemWeaponAttributeSet.ClipSize"
+    }
+  },
+  {
+    "Type": "UIFloatingPointStat",
+    "Name": "UIFloatingPointStat_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIFloatingPointStat'",
+    "Outer": {
+      "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+    },
+    "Properties": {
+      "StatValue": 1.5,
+      "DefaultFormat": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats_Format.ST_Stats_Format",
+        "Key": "ID_STATS_FORMAT_TIME",
+        "SourceString": "{0} sec",
+        "LocalizedString": "{0} sec"
+      },
+      "CompareMode": "EStatCompareMode::LowerBetter",
+      "StatName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats.ST_Stats",
+        "Key": "ID_STATS_RELOAD_TIME",
+        "SourceString": "Reload Time",
+        "LocalizedString": "Reload Time"
+      },
+      "PropertyHash": 11459588356633373008
+    }
+  },
+  {
+    "Type": "UIFloatingPointStat",
+    "Name": "UIFloatingPointStat_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIFloatingPointStat'",
+    "Outer": {
+      "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+    },
+    "Properties": {
+      "StatValue": 820.0,
+      "DefaultFormat": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats_Format.ST_Stats_Format",
+        "Key": "ID_STATS_FORMAT_RPM",
+        "SourceString": "{0} RPM",
+        "LocalizedString": "{0} RPM"
+      },
+      "StatName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats.ST_Stats",
+        "Key": "ID_STATS_FIRE_RATE",
+        "SourceString": "Fire Rate",
+        "LocalizedString": "Fire Rate"
+      },
+      "PropertyHash": 7074053219601788491
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Pistol_01_Stats",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIStatsMetaDataItem'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIProgressBarStat",
+    "Name": "UIProgressBarStat_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIProgressBarStat'",
+    "Outer": {
+      "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+    },
+    "Properties": {
+      "StatValue": 7.0,
+      "StatMaximum": 100.0,
+      "StatName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats.ST_Stats",
+        "Key": "ID_STATS_DAMAGE",
+        "SourceString": "Damage",
+        "LocalizedString": "Damage"
+      },
+      "PropertyHash": 10137393538295655899,
+      "Modifiers": [
+        {
+          "Key": "BurstSize",
+          "Value": {
+            "Value": 1.0,
+            "Operation": "EGameplayModOp::Multiplicitive"
+          }
+        },
+        {
+          "Key": "ProjectilesPerShot",
+          "Value": {
+            "Value": 1.0,
+            "Operation": "EGameplayModOp::Multiplicitive"
+          }
+        }
+      ],
+      "AttirbuteOverride": "ItemWeaponAttributeSet.PhysicalDamage"
+    }
+  },
+  {
+    "Type": "UIProgressBarStat",
+    "Name": "UIProgressBarStat_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIProgressBarStat'",
+    "Outer": {
+      "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+    },
+    "Properties": {
+      "StatValue": 4002.44140625,
+      "StatMaximum": 20000.0,
+      "StatName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats.ST_Stats",
+        "Key": "ID_STATS_DAMAGE_RANGE",
+        "SourceString": "Effective Range",
+        "LocalizedString": "Effective Range"
+      },
+      "PropertyHash": 16184565767913286649
+    }
+  },
+  {
+    "Type": "UIProgressBarStat",
+    "Name": "UIProgressBarStat_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIProgressBarStat'",
+    "Outer": {
+      "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+    },
+    "Properties": {
+      "StatValue": 2.5103628635406494,
+      "StatMaximum": 5.0,
+      "StatName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats.ST_Stats",
+        "Key": "ID_STATS_HANDLING",
+        "SourceString": "Handling",
+        "LocalizedString": "Handling"
+      },
+      "PropertyHash": 14152601356635535659
+    }
+  },
+  {
+    "Type": "UIProgressBarStat",
+    "Name": "UIProgressBarStat_6",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIProgressBarStat'",
+    "Outer": {
+      "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+    },
+    "Properties": {
+      "StatValue": 3.8489503860473633,
+      "StatMaximum": 10.0,
+      "StatName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Stats.ST_Stats",
+        "Key": "ID_STATS_ACCURACY",
+        "SourceString": "Accuracy",
+        "LocalizedString": "Accuracy"
+      },
+      "PropertyHash": 11413389022466731458
+    }
+  },
+  {
+    "Type": "UIStatsGroup",
+    "Name": "UIStatsGroup_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIStatsGroup'",
+    "Outer": {
+      "ObjectName": "UIStatsMetaDataItem'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.9"
+    },
+    "Properties": {
+      "Stats": [
+        {
+          "ObjectName": "UIProgressBarStat'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0.UIProgressBarStat_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.4"
+        },
+        {
+          "ObjectName": "UIFloatingPointStat'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0.UIFloatingPointStat_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.0"
+        },
+        {
+          "ObjectName": "UIFloatingPointStat'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0.UIFloatingPointStat_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.1"
+        },
+        {
+          "ObjectName": "UIFloatingPointStat'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0.UIFloatingPointStat_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.2"
+        },
+        {
+          "ObjectName": "UIProgressBarStat'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0.UIProgressBarStat_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.5"
+        },
+        {
+          "ObjectName": "UIProgressBarStat'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0.UIProgressBarStat_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.6"
+        },
+        {
+          "ObjectName": "UIProgressBarStat'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0.UIProgressBarStat_6'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIStatsMetaDataItem",
+    "Name": "UIStatsMetaDataItem_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIStatsMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Pistol_01_Stats'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.3"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Pistol_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_Persistence_Pistol_01.0"
+      },
+      "StatGroups": [
+        {
+          "Key": "Default",
+          "Value": {
+            "ObjectName": "UIStatsGroup'DA_UIMetaData_Pistol_01_Stats:UIStatsMetaDataItem_0.UIStatsGroup_0'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_UIMetaData_Pistol_01_Stats.8"
+          }
+        }
+      ]
+    }
+  }
+]

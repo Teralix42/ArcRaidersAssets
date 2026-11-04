@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Chonk",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyType_Chonk",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Chonk/C_Chonk.C_Chonk_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -1616729167,
+      "EnemyTag": {
+        "TagName": "Enemy.Chonk.GatlingGun"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_OrbitalStrike_Heavy_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_OrbitalStrike_Heavy.0"
+        }
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Chonk_Persistence'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Chonk/DataAssets/DA_Chonk_Persistence.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

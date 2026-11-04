@@ -1,0 +1,256 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ModifiedProjectileBase_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ModifiedProjectileBase_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ModifiedProjectileBase_C:ExecuteUbergraph_BP_ModifiedProjectileBase'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ModifiedProjectileBase'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ModifiedProjectileBase_C:ReceiveTick'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.3"
+      },
+      {
+        "ObjectName": "Function'BP_ModifiedProjectileBase_C:ExecuteUbergraph_BP_ModifiedProjectileBase'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ModifiedProjectileBase": {
+        "ObjectName": "Function'BP_ModifiedProjectileBase_C:ExecuteUbergraph_BP_ModifiedProjectileBase'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.2"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_ModifiedProjectileBase_C:ReceiveTick'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.3"
+      }
+    },
+    "ClassFlags": "CLASS_Abstract | CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ModifiedProjectileBase_C'Default__BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ModifiedProjectileBase_C",
+    "Name": "Default__BP_ModifiedProjectileBase_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.BP_ModifiedProjectileBase_C'",
+    "Package": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_ModifiedProjectileBase_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.9"
+      },
+      "ProjectileMovement": {
+        "ObjectName": "ProjectileMovementComponent'Default__BP_ModifiedProjectileBase_C:ProjectileMovement'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.5"
+      },
+      "PredictionComponent": {
+        "ObjectName": "PredictedProjectileComponent'Default__BP_ModifiedProjectileBase_C:PredictionComponent'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.4"
+      },
+      "PrimaryActorTick": {
+        "bCanEverTick": true
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_ModifiedProjectileBase_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.9"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ModifiedProjectileBase",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PredictedProjectileComponent",
+    "Name": "PredictionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PredictedProjectileComponent'",
+    "Outer": {
+      "ObjectName": "BP_ModifiedProjectileBase_C'Default__BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.1"
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_ModifiedProjectileBase_C'Default__BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.1"
+    },
+    "Properties": {
+      "bRotationFollowsVelocity": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ModifiedProjectileBase_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ModifiedProjectileBase_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.6"
+      },
+      "VariableGUID": "D7AC9F7D-490FBF82-AF2DF1A2-FB85ECD6",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ModifiedProjectileBase_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ModifiedProjectileBase_C'Default__BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PrototypeProjectile'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/Shared/Blockout/SM_PrototypeProjectile.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Blockout_Metal_Painted_Yellow'",
+          "ObjectPath": "/Game/Pioneer/MaterialLibrary/MI_Generic/Blockout/MI_Blockout_Metal_Painted_Yellow.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_96",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_RollBot_Normal'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyMetaData_RollBot_Normal.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_RollBot_Normal'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_Persistence_Enemy_RollBot_Normal.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Rollbot'",
+        "ObjectPath": "/Game/Pioneer/Core/UI/UI_Elements/Icons/Enemies/T_UI_Ping_Enemy_Rollbot.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Rollbot.T_UI_ARC_Rollbot",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_ROLLBOT_NAME",
+        "SourceString": "ARC Surveyor",
+        "LocalizedString": "ARC Surveyor"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_RollBot_Normal",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyMetaData_RollBot_Normal",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_RollBot_Normal:UIEnemyMetaDataItem_96'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyMetaData_RollBot_Normal.0"
+        }
+      ]
+    }
+  }
+]

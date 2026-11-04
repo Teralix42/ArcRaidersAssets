@@ -1,0 +1,1854 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_Snitch_Scanner'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Snitch/DA_Snitch_Scanner.0"
+      },
+      "ActiveAlertnessStates": 7,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Radar"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Radar )"
+      },
+      "TargetAngle": 15.0,
+      "NumTracesAtPlayerDistance": [
+        {
+          "Key": "ETraceDistance::Near",
+          "Value": "ETracesAmount::High"
+        },
+        {
+          "Key": "ETraceDistance::Medium",
+          "Value": "ETracesAmount::High"
+        },
+        {
+          "Key": "ETraceDistance::Far",
+          "Value": "ETracesAmount::Low"
+        }
+      ],
+      "LengthChangeSpeed": 2000.0
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Snitch_IdleRepeating'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_IdleRepeating.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Snitch_IdleRepeating'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_IdleRepeating.0"
+            },
+            "StateOscillationFrequency": 5.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Snitch_EnterAlerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_EnterAlerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Snitch_AlertRepeating'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_AlertRepeating.0"
+            },
+            "StateOscillationFrequency": 4.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Snitch_EnterCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_EnterCombat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Snitch_CombatRepeating'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_CombatRepeating.0"
+            },
+            "StateOscillationFrequency": 3.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Fleeing",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 1.5,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TagEffectMap": [
+        {
+          "Key": {
+            "TagName": "Ability.ConstructableTakeoff"
+          },
+          "Value": {
+            "OnTagAppliedEffect": {
+              "ObjectName": "EffectDataAsset'DA_Snitch_ReturnThruster'",
+              "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Snitch/DA_Snitch_ReturnThruster.0"
+            },
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": true,
+            "EffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'Snitch_OrbitThruster'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_OrbitThruster.0"
+            },
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": true,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_SnitchBot_01_SK_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableHoverEngineAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Combat_SimpleAnimationSequenceComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ThrusterStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ThrusterStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationRepositoryComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SimpleAnimationSequenceComponent_Idle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Small",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_SnitchBot_01_SK_C'Default__CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.9"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Small_C",
+    "Name": "BP_DamageStyleDriver_Small_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.BP_DamageStyleDriver_Small_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Small_C'Default__BP_DamageStyleDriver_Small_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.1"
+    },
+    "Properties": {
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Frame"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedSmoke_XS'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedSmoke_XS.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.CallReinforcements.AirStrike"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_CallReinforcements_AirstrikeMarker_Drop'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_CallReinforcements_AirstrikeMarker_Drop.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::CoolingDown",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_CallReinforcements_Airstrike_Success'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_CallReinforcements_Airstrike_Success.0"
+                },
+                "bPlayForEachPart": false,
+                "bKillExplicitState": false,
+                "KillExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.CallReinforcements.AlertNearby"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_AlertNearby_Snitch'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_AlertNearby_Snitch.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAnimationRepositoryComponent",
+    "Name": "ConstructableAnimationRepositoryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationRepositoryComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "AnimationRepository": {
+        "ObjectName": "ConstructableAnimationRepository'GenericDroneAnimationRepository'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/SmallFlyingDrone/GenericDroneAnimationRepository.0"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableHoverEngineAudioComponent",
+    "Name": "ConstructableHoverEngineAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableHoverEngineAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'Snitch_Engine'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Snitch/Snitch_Engine.0"
+      },
+      "SpeedInterpolation": {
+        "InterpolationTime": 0.3
+      },
+      "AccelerationInterpolation": {
+        "InterpolationTime": 0.4
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_SnitchBot_01_SK_C'Default__CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.9"
+    }
+  },
+  {
+    "Type": "CS_SnitchBot_01_SK_C",
+    "Name": "Default__CS_SnitchBot_01_SK_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.CS_SnitchBot_01_SK_C'",
+    "Package": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -92.21385,
+          "Y": -150.08574,
+          "Z": -67.96576
+        },
+        "Max": {
+          "X": 172.79372,
+          "Y": 149.95506,
+          "Z": 36.33796
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_SnitchBot_01_SK_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.8"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_SnitchBot_01_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.11"
+      },
+      "VariableGUID": "FC2D2F6D-4E3DE501-22F5C1A2-8465F67C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_SnitchBot_01_SK_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.28"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.16"
+        }
+      ],
+      "VariableGUID": "ABD77BA9-42030038-E34B7EA3-B5C69A77",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_SnitchBot_01_SK_C:Combat_SimpleAnimationSequenceComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.25"
+      },
+      "VariableGUID": "78FC8961-4F18166E-1B3C0EBE-3B1FB26C",
+      "InternalVariableName": "Combat_SimpleAnimationSequenceComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_SnitchBot_01_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.0"
+      },
+      "VariableGUID": "60234417-45ACF450-307208BB-C9546065",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableHoverEngineAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableHoverEngineAudioComponent'CS_SnitchBot_01_SK_C:ConstructableHoverEngineAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.7"
+      },
+      "VariableGUID": "CC445E9B-447CB2B5-EBA373B4-0E70B731",
+      "InternalVariableName": "ConstructableHoverEngineAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Small_C'CS_SnitchBot_01_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.3"
+      },
+      "VariableGUID": "44A4356E-4B54463F-7924398D-E82ABF02",
+      "InternalVariableName": "BP_DamageStyleDriver_Small"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_SnitchBot_01_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.10"
+      },
+      "VariableGUID": "A2CCFB25-4DCB6717-1166FFB0-98B771BE",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_SnitchBot_01_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.4"
+      },
+      "VariableGUID": "66D78E5B-4D91580B-23B8028F-4AE5F162",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_SnitchBot_01_SK_C:SimpleAnimationSequenceComponent_Idle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.26"
+      },
+      "VariableGUID": "F421F9E0-457FFC16-04B35DB8-3631195A",
+      "InternalVariableName": "SimpleAnimationSequenceComponent_Idle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationRepositoryComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationRepositoryComponent'CS_SnitchBot_01_SK_C:ConstructableAnimationRepositoryComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.6"
+      },
+      "VariableGUID": "A7BDA0B5-4EB95855-73C998B7-5B11CA66",
+      "InternalVariableName": "ConstructableAnimationRepositoryComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_SnitchBot_01_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.5"
+      },
+      "VariableGUID": "A300155D-48D5B36F-92F9F4B3-8C321CB0",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_SnitchBot_01_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.1"
+      },
+      "VariableGUID": "5FD963BF-49AE6F2A-7510C2BC-CA063AAA",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ThrusterStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ThrusterStyleDriver'CS_SnitchBot_01_SK_C:ThrusterStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.29"
+      },
+      "VariableGUID": "14BFE4C7-46E7B3CC-102BF59D-21ED50C0",
+      "InternalVariableName": "ThrusterStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "Combat_SimpleAnimationSequenceComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_01_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_02_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_02",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_L_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_03_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_03",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "LargeFlap_04_GEN_VARIABLE",
+          "TrackForComponentTag": "LargeFlap_04",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "LargeFlap_R_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_LargeFlap_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_LargeFlap_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "SubFrame_01_GEN_VARIABLE",
+          "TrackForComponentTag": "SubFrame_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "SubFrame_01",
+          "AttachSocketName": "Thruster_01_Socket",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_SubFrame_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_SubFrame_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "SubFrame_02_GEN_VARIABLE",
+          "TrackForComponentTag": "SubFrame_02",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "SubFrame_02",
+          "AttachSocketName": "Thruster_02_Socket",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_SubFrame_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_SubFrame_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "SubFrame_03_GEN_VARIABLE",
+          "TrackForComponentTag": "SubFrame_03",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "SubFrame_03",
+          "AttachSocketName": "Thruster_03_Socket",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_SubFrame_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_SubFrame_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Head_GEN_VARIABLE",
+          "TrackForComponentTag": "Head",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Head_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'TransformCurve_Head_Combat'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Animation/PingerSnitch/TransformCurve_Head_Combat.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.2,
+      "ComponentTags": [
+        "Combat"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "SimpleAnimationSequenceComponent_Idle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "StandardPlaySpeed": 0.5,
+      "AnimationPlaybackMode": "EAnimationPlaybackMode::Loop",
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.2,
+      "ComponentTags": [
+        "Idle"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.13"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.19"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.13"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.19"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_SnitchBot_01_SK_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.12"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_SnitchBot'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CSSC_SnitchBot.0"
+      },
+      "VirtualPartBones": [
+        "ScannerRoot",
+        "Frame_Thruster_L",
+        "Frame_Thruster_Re",
+        "Frame_Thruster_R",
+        "Thruster_01",
+        "Thruster_02",
+        "Thruster_03"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 16
+      },
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": -27.449245,
+                "Y": -12.221176,
+                "Z": 21.579105
+              },
+              {
+                "X": -22.629143,
+                "Y": 39.194855,
+                "Z": -2.0980923
+              },
+              {
+                "X": 22.629166,
+                "Y": -39.194862,
+                "Z": 12.998114
+              },
+              {
+                "X": 24.308517,
+                "Y": 17.661182,
+                "Z": 21.579111
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -23.442738,
+                "Y": -29.874424,
+                "Z": 39.82856
+              },
+              {
+                "X": 12.272754,
+                "Y": 32.3759,
+                "Z": 25.39576
+              },
+              {
+                "X": 25.12783,
+                "Y": -13.937181,
+                "Z": 39.82856
+              },
+              {
+                "X": -39.219395,
+                "Y": 23.962336,
+                "Z": 25.395782
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 5.9894013,
+                "Y": -14.545238,
+                "Z": -32.313766
+              },
+              {
+                "X": 32.417088,
+                "Y": -13.44133,
+                "Z": 11.4257145
+              },
+              {
+                "X": 17.812725,
+                "Y": -18.142416,
+                "Z": -9.904203
+              },
+              {
+                "X": 12.655579,
+                "Y": -30.192354,
+                "Z": 6.8464656
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 13.639377,
+                "Y": -13.366859,
+                "Z": -17.62501
+              },
+              {
+                "X": 23.972273,
+                "Y": -17.052338,
+                "Z": 11.040032
+              },
+              {
+                "X": 0.5166724,
+                "Y": -31.029419,
+                "Z": 2.5545568
+              },
+              {
+                "X": 9.6496,
+                "Y": -16.434837,
+                "Z": -23.755249
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": 6.711983,
+                "Y": -14.135553,
+                "Z": -32.066586
+              },
+              {
+                "X": 8.674473,
+                "Y": -28.680494,
+                "Z": 1.533002
+              },
+              {
+                "X": 20.116241,
+                "Y": -16.822733,
+                "Z": 2.5882692
+              },
+              {
+                "X": 16.538036,
+                "Y": -11.741255,
+                "Z": -15.889145
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 11.682877,
+                "Y": -28.252232,
+                "Z": 1.8904456
+              },
+              {
+                "X": 31.327429,
+                "Y": -16.292944,
+                "Z": 10.88399
+              },
+              {
+                "X": 21.735065,
+                "Y": -11.017977,
+                "Z": -7.726962
+              },
+              {
+                "X": 5.511267,
+                "Y": -16.277893,
+                "Z": -28.529104
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": 20.839144,
+                "Y": 74.57172,
+                "Z": 14.728285
+              },
+              {
+                "X": 62.67796,
+                "Y": 16.395206,
+                "Z": 16.67379
+              },
+              {
+                "X": -31.059422,
+                "Y": 58.795666,
+                "Z": 6.5666995
+              },
+              {
+                "X": 11.747144,
+                "Y": 22.374691,
+                "Z": -0.3667667
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.8094697,
+                "Y": 27.514708,
+                "Z": -0.6897996
+              },
+              {
+                "X": -14.150886,
+                "Y": 64.963486,
+                "Z": 16.59187
+              },
+              {
+                "X": 45.94221,
+                "Y": 56.884144,
+                "Z": -2.1795368
+              },
+              {
+                "X": 57.257782,
+                "Y": 1.3776152,
+                "Z": 6.409633
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": 22.566912,
+                "Y": 16.14863,
+                "Z": -0.6843319
+              },
+              {
+                "X": 72.6851,
+                "Y": 16.908707,
+                "Z": 15.540106
+              },
+              {
+                "X": -12.3026495,
+                "Y": 64.36651,
+                "Z": -6.5044336
+              },
+              {
+                "X": 36.923206,
+                "Y": 57.145466,
+                "Z": 16.46075
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ScoutDrone_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/Art/SK_ScoutDrone_01_A.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_ScoutDrone_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Shared/Art/SK_ScoutDrone_01_A.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "MinionIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "LinearDamping": 0.5,
+        "AngularDamping": 1.0,
+        "bSimulatePhysics": true
+      }
+    }
+  },
+  {
+    "Type": "ThrusterStyleDriver",
+    "Name": "ThrusterStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ThrusterStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.EffectSource"
+                },
+                {
+                  "TagName": "Part.Decorator.ID.Thruster"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                2,
+                0,
+                1
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.EffectSource,\n Part.Decorator.ID.Thruster )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_SnitchBot_01_SK_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CS_SnitchBot_01_SK.2"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": [
+              {
+                "Key": "13",
+                "Value": "Thruster_03"
+              },
+              {
+                "Key": "14",
+                "Value": "Thruster_02"
+              },
+              {
+                "Key": "15",
+                "Value": "Thruster_01"
+              }
+            ]
+          },
+          "ThrusterSocketGroup": "None",
+          "bAttachThrusterFXToChildren": false,
+          "FXThrusterChildren": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": null,
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Drone_Exhaust_Tiny_Array'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Exhaust/DA_Drone_Exhaust_Tiny_Array.0"
+          },
+          "bVectorized": true,
+          "ForceInterpolationAlpha": 0.3,
+          "MinimumThrusterForceNormalized": 0.0,
+          "bUsePeriodicThrusters": false,
+          "bScalePeriodWithMovement": false,
+          "PeriodBias": 3.0,
+          "PeriodMultiplier": 5.0
+        }
+      ]
+    }
+  }
+]

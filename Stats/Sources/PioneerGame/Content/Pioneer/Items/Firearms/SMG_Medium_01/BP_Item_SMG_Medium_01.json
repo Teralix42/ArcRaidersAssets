@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_SMG_Medium_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/BP_Item_SMG_Medium_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_SMG_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SMG_Base/BP_Item_SMG_Base.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_SMG_Medium_01_C'Default__BP_Item_SMG_Medium_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/BP_Item_SMG_Medium_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_SMG_Medium_01_C",
+    "Name": "Default__BP_Item_SMG_Medium_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/SMG_Medium_01/BP_Item_SMG_Medium_01.BP_Item_SMG_Medium_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/BP_Item_SMG_Medium_01",
+    "Template": {
+      "ObjectName": "BP_Item_SMG_Base_C'Default__BP_Item_SMG_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SMG_Base/BP_Item_SMG_Base.1"
+    },
+    "Properties": {
+      "CriticalDamageMultiplier": 1.75,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_MediumAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/MediumAmmo/DA_Item_MediumAmmo.0"
+      },
+      "BasePhysicalDamage": 6.5,
+      "BaseFirePower": 70000.0,
+      "BaseClipSize": 20.0,
+      "BaseReloadTime": 3.5,
+      "BaseFireRate": 850.0,
+      "BaseBurnRate": 0.001275,
+      "AiArmorDamageMultiplier": 0.8,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_SMG_Medium_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/BP_Projectile_SMG_Medium_01.0"
+      },
+      "bPartialReload": true,
+      "PartialReloadDuration": 2.5,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 0.5,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 0.86,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 1.64,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 2.05,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_SMG_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/DA_RecoilProfile_SMG_Medium_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_SMG_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/DA_DispersionState_SMG_Medium_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_SMG_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/Curve_DamageFalloff_SMG_Medium_01.0"
+      },
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'SMGCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'SMGCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'SMGCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_SMG_Medium_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/BP_WeaponQualitySet_SMG_Medium_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 6.5,
+        "FireRate": 56.667,
+        "Range": 50.825,
+        "Stability": 44.084,
+        "Agility": 75.008,
+        "Stealth": 24.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineMedium'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineMedium.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Mag_Medium_Pistol_SMG_01_A'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Magazines/Mag_Medium_Pistol_01/DA_Visual_WeaponMod_Mag_Medium_Pistol_SMG_01_A.0"
+          },
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_SMG_Medium_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/SMG_Medium_01/DA_Item_SMG_Medium_01.0"
+      }
+    }
+  }
+]

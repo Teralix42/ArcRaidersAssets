@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Special_Railgun_01_StraightBolt",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_StraightBolt",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Special_Railgun_01_StraightBolt_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Special_Railgun_01_StraightBolt.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_STRAIGHTBOLT",
+        "SourceString": "Ergonomic Bolt",
+        "LocalizedString": "Ergonomic Bolt"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_STRAIGHTBOLT",
+        "SourceString": "Ergonomic bolt that allows the user to perform the bolt-action while scoped.",
+        "LocalizedString": "Ergonomic bolt that allows the user to perform the bolt-action while scoped."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_StraightBolt.T_UI_Icon_Upgrade_StraightBolt",
+        "SubPathString": ""
+      }
+    }
+  }
+]

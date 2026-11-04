@@ -1,0 +1,2837 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Rollbot_Small'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Rollbot_Small.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Eye"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.ID.Eye )"
+      },
+      "TargetAngle": 20.0,
+      "RotationSpeed": 50.0
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Rollbot_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Rollbot_Comms.0"
+            },
+            "StateOscillationFrequency": 15.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'RollBot_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBot_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'RollBot_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBot_Alerted.0"
+            },
+            "StateOscillationFrequency": 5.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'RollBot_EnterCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBot_EnterCombat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Rollbot_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Rollbot_Comms.0"
+            },
+            "StateOscillationFrequency": 3.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'Rollbot_Comms'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Rollbot_Comms.0"
+      },
+      "IdleColor": {
+        "R": 0.491021,
+        "G": 0.552012,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "BAC4FF"
+      },
+      "LightIntensity": 0.0,
+      "TargetChangedSoundCooldownTime": 1.0,
+      "bUseLight": true,
+      "bLightOnlyAtNight": false
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_RollBot_Flamethrower_SK_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OpenShellSimpleAnimationSequenceComponentA_Flipped",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OpenShellSimpleAnimationSequenceComponentB_Flipped",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlertedModeAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FoldWeaponsSimpleAnimationSequenceComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SteamEffectStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SteamEffectStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBP_StunStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserFlareStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LaserFlareStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpottableStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpottableStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "UnfoldWeaponsSimpleAnimationSequenceComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OpenShellSimpleAnimationSequenceComponentB",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Small",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OpenShellSimpleAnimationSequenceComponentA",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableGroundEngineAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableGroundEngineAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_RollBot_Flamethrower_SK_C'Default__CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.9"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Small_C",
+    "Name": "BP_DamageStyleDriver_Small_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.BP_DamageStyleDriver_Small_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Small_C'Default__BP_DamageStyleDriver_Small_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Rollbot_Small'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Rollbot_Small.0"
+      },
+      "PartDestroyedEffectRadius": 50.0,
+      "PartOverrideSeverityDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Indestructible"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Flamethrower"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_RollBot_WeaponCommitFire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_RollBot_WeaponCommitFire.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Active",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Shader_SmallRollbot_FlamethrowerAudio'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Shared/Audio/DA_Shader_SmallRollbot_FlamethrowerAudio.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "TagName": "DialogueIntent.Targeted"
+              }
+            }
+          ],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBP_StunStyleDriver_C",
+    "Name": "CBP_StunStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.CBP_StunStyleDriver_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Template": {
+      "ObjectName": "CBP_StunStyleDriver_C'Default__CBP_StunStyleDriver_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.1"
+    }
+  },
+  {
+    "Type": "ConstructableGroundEngineAudioComponent",
+    "Name": "ConstructableGroundEngineAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableGroundEngineAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "SurfaceEffect": {
+        "SurfaceEffects": {
+          "ObjectName": "EffectDataAsset'DA_RollBot_Surface'",
+          "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/DA_RollBot_Surface.0"
+        },
+        "AttachSocket": "Frame_01",
+        "MaxDistance": 6500.0
+      },
+      "LandSound": {
+        "ObjectName": "SoundCue'Vehicle_Impact_Generic'",
+        "ObjectPath": "/Game/Pioneer/Audio/PhysicsObjects/Vehicle/Vehicle_Impact_Generic.0"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'RollBot_Engine'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBot_Engine.0"
+      },
+      "PassBy": {
+        "PassBySound": {
+          "ObjectName": "SoundCue'RollBot_PassBy'",
+          "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBot_PassBy.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_RollBot_Flamethrower_SK_C'Default__CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.9"
+    }
+  },
+  {
+    "Type": "CS_RollBot_Flamethrower_SK_C",
+    "Name": "Default__CS_RollBot_Flamethrower_SK_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.CS_RollBot_Flamethrower_SK_C'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -34.20691,
+          "Y": -33.958843,
+          "Z": -34.206905
+        },
+        "Max": {
+          "X": 34.24194,
+          "Y": 33.958843,
+          "Z": 34.20691
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_RollBot_Flamethrower_SK_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.8"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_S'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_S.0"
+      }
+    }
+  },
+  {
+    "Type": "LaserFlareStyleDriver",
+    "Name": "LaserFlareStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "LaserObjects": [
+        {
+          "ObjectName": "TargetingLaserObject'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.51"
+        },
+        {
+          "ObjectName": "TargetingLaserObject'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.52"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_Forward",
+    "Name": "LaserFlareTargeting_Forward_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_Forward'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.51"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 5,
+          "PartDisplayName": "Arm_L_01"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_Forward",
+    "Name": "LaserFlareTargeting_Forward_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_Forward'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_1'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.52"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 9,
+          "PartDisplayName": "Scanner"
+        }
+      ],
+      "ConeAngle": 10.0,
+      "_DefaultTraceLength": 2000.0
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "MuzzleStyleDrivers": [
+        {
+          "ObjectName": "OneShotMuzzleStyleDriver'CS_RollBot_Flamethrower_SK_C:MuzzleStyleDriver_GEN_VARIABLE.OneShotMuzzleStyleDriver_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.15"
+        }
+      ],
+      "MuzzleAudioDefinitions": [
+        {
+          "StylePartList": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Weapon.Rifle"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Rifle )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+              }
+            },
+            "PartList": []
+          },
+          "WeaponAudioClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_WeaponAudio_ARC_HornetGuns_C'",
+            "ObjectPath": "/Game/Pioneer/Audio/Weapons/WeaponSynthAssets/WeaponAudioComponents/ARC/BP_WeaponAudio_ARC_HornetGuns.0"
+          },
+          "bSharedLoopAcrossParts": false,
+          "SharedLoopLocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDriveIntensityFromFiringParts": false,
+          "IntensityParameterName": "FiringIntensity",
+          "bDriveFireRateFromFiringParts": false,
+          "FireRatePerExtraFiringPart": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OneShotMuzzleStyleDriver",
+    "Name": "OneShotMuzzleStyleDriver_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OneShotMuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "MuzzleStyleDriver'CS_RollBot_Flamethrower_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.14"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_SharedRifleEffect'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Effects/DA_SharedRifleEffect.0"
+      },
+      "SelectedParts": [
+        {
+          "PartID": 5,
+          "PartDisplayName": "Arm_L_01"
+        },
+        {
+          "PartID": 6,
+          "PartDisplayName": "Ear_01_A"
+        }
+      ],
+      "PartRestriction": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Weapon.Rifle"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Rifle )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+          }
+        }
+      },
+      "bPartRestriction": true
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "Intensity": 50.0,
+      "CastShadows": false
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_RollBot_Flamethrower_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.17"
+      },
+      "VariableGUID": "338DBC09-46C7E212-918F5D97-F9622C88",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_RollBot_Flamethrower_SK_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.48"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.36"
+        }
+      ],
+      "VariableGUID": "817481D9-42AF80DB-625C5E93-A7683F11",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentB_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.45"
+      },
+      "VariableGUID": "94DA05FB-446B8678-823E779C-594B9D42",
+      "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentB"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:UnfoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.46"
+      },
+      "VariableGUID": "D4DC04F9-4225D85D-AC8A24A4-D605D82E",
+      "InternalVariableName": "UnfoldWeaponsSimpleAnimationSequenceComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpottableStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpottableStyleDriver'CS_RollBot_Flamethrower_SK_C:SpottableStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.49"
+      },
+      "VariableGUID": "2D059A7A-4DE53231-4F2561B8-DC4885CE",
+      "InternalVariableName": "SpottableStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LaserFlareStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LaserFlareStyleDriver'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.11"
+      },
+      "VariableGUID": "5CBE594F-4835CDD4-40F781AB-DF661F2A",
+      "InternalVariableName": "LaserFlareStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBP_StunStyleDriver_C'CS_RollBot_Flamethrower_SK_C:CBP_StunStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.6"
+      },
+      "VariableGUID": "8ABE4447-4C948477-0D44BE96-8F14CD77",
+      "InternalVariableName": "CBP_StunStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SteamEffectStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SteamEffectStyleDriver'CS_RollBot_Flamethrower_SK_C:SteamEffectStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.50"
+      },
+      "VariableGUID": "BD8A7C95-46D740E5-AE85AE91-5614F3E1",
+      "InternalVariableName": "SteamEffectStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:FoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.41"
+      },
+      "VariableGUID": "86233FAB-44CB72F5-41DC0AB9-AF8FEC31",
+      "InternalVariableName": "FoldWeaponsSimpleAnimationSequenceComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:AlertedModeAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.40"
+      },
+      "VariableGUID": "058FB194-4156C7BF-8FAE9F87-24DBBBC8",
+      "InternalVariableName": "AlertedModeAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentB_Flipped_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.44"
+      },
+      "VariableGUID": "F8CDE615-4B9B9D3E-30F0B296-59E4C660",
+      "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentB_Flipped"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentA_Flipped_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.42"
+      },
+      "VariableGUID": "B08855C3-4118C336-A30A9E97-D9C7563B",
+      "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentA_Flipped"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableGroundEngineAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableGroundEngineAudioComponent'CS_RollBot_Flamethrower_SK_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.7"
+      },
+      "VariableGUID": "2BE5BF8F-495C20C4-3185A6B0-5B72E8A5",
+      "InternalVariableName": "ConstructableGroundEngineAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_RollBot_Flamethrower_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.0"
+      },
+      "VariableGUID": "AA3C3A4F-4A5A2E1F-0B715282-9CC9F8CD",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_RollBot_Flamethrower_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.10"
+      },
+      "VariableGUID": "5EF84E00-445151A8-24E99081-2F7074CF",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_RollBot_Flamethrower_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.5"
+      },
+      "VariableGUID": "638E6CA1-47DF6840-2C6C0EB0-B4681219",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_RollBot_Flamethrower_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.1"
+      },
+      "VariableGUID": "470F7A80-45197C28-A9A357B8-08A30728",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_RollBot_Flamethrower_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.14"
+      },
+      "VariableGUID": "A0FF37BC-4F87A2F3-12747ABA-7492A51C",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'CS_RollBot_Flamethrower_SK_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.16"
+      },
+      "VariableGUID": "B6D843E6-4A282348-9E4E9F90-F7F41EBB",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_RollBot_Flamethrower_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.4"
+      },
+      "VariableGUID": "B4A38DB7-43C518FB-5D6D3984-B8158B24",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SimpleAnimationSequenceComponent'CS_RollBot_Flamethrower_SK_C:OpenShellSimpleAnimationSequenceComponentA_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.43"
+      },
+      "VariableGUID": "5DB36277-449A2861-09EF55BD-90EC4CDA",
+      "InternalVariableName": "OpenShellSimpleAnimationSequenceComponentA"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Small_C'CS_RollBot_Flamethrower_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.3"
+      },
+      "VariableGUID": "FF2526DB-49E77D47-5B28F2BD-679887EC",
+      "InternalVariableName": "BP_DamageStyleDriver_Small"
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "AlertedModeAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Ear_01_B",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_Alerted_Ear'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_Alerted_Ear.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Ear_01_A",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_Alerted_Ear'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_Alerted_Ear.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Armor_01_01_GEN_VARIABLE",
+          "TrackForComponentTag": "Armor_01_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_Alerted_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_Alerted_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Armor_01_02_GEN_VARIABLE",
+          "TrackForComponentTag": "Armor_01_02",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_Alerted_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_Alerted_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.25,
+      "ComponentTags": [
+        "AlertedModeAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "FoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Arm_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_CloseWeapon_Arm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_CloseWeapon_Arm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Arm_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_CloseWeapon_Arm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_CloseWeapon_Arm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "FoldWeapons"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "OpenShellSimpleAnimationSequenceComponentA_Flipped_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Armor_01_01_GEN_VARIABLE",
+          "TrackForComponentTag": "Armor_01_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_OpenClose_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_OpenClose_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 4,
+          "TranslationCurveInterpretation": 16,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_AdjustOppositeSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_AdjustOppositeSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 4,
+          "TranslationCurveInterpretation": 16,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "UnfoldAnim_A_Flipped"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "OpenShellSimpleAnimationSequenceComponentA_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Armor_01_01_GEN_VARIABLE",
+          "TrackForComponentTag": "Armor_01_01",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_OpenClose_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_OpenClose_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_AdjustOppositeSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_AdjustOppositeSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "UnfoldAnim_A"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "OpenShellSimpleAnimationSequenceComponentB_Flipped_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Armor_01_02_GEN_VARIABLE",
+          "TrackForComponentTag": "Armor_01_02",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_OpenClose_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_OpenClose_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 4,
+          "TranslationCurveInterpretation": 16,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_AdjustOppositeSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_AdjustOppositeSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 4,
+          "TranslationCurveInterpretation": 16,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "UnfoldAnim_B_Flipped"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "OpenShellSimpleAnimationSequenceComponentB_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "Armor_01_02_GEN_VARIABLE",
+          "TrackForComponentTag": "Armor_01_02",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_OpenClose_Hatch'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_OpenClose_Hatch.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Armor_01_A_02",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_AdjustOppositeSide'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_AdjustOppositeSide.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'SmallPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Movement.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'SmallPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/SmallPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "UnfoldAnim_B"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAnimationSequenceComponent",
+    "Name": "UnfoldWeaponsSimpleAnimationSequenceComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleAnimationSequenceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "AnimationTracks": [
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Arm_R_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_DeployWeapon_Arm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_DeployWeapon_Arm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 0,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        },
+        {
+          "ComponentIdentificationType": "ETrackComponentIdentificationType::bone",
+          "TrackForComponentName": "None",
+          "TrackForComponentTag": "None",
+          "ComponentPicker": {
+            "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+            "SanitizedComponentName": "SkeletalMeshStyleComponent",
+            "ClassFilter": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "bOptional": false
+          },
+          "TrackForBoneName": "Arm_L_01",
+          "AttachSocketName": "None",
+          "CurveTranslateRotate": {
+            "ObjectName": "CurveTranslateRotate'Curve_RollBot_Flamethrower_DeployWeapon_Arm'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Shared/Animation/Curve_RollBot_Flamethrower_DeployWeapon_Arm.0"
+          },
+          "ScaleCurve": null,
+          "RotationCurveInterpretation": 0,
+          "TranslationCurveInterpretation": 4,
+          "bApplyTranslationScaling": false,
+          "bApplyRotationScaling": false,
+          "TranslationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "RotationScale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AnimationTrackApplicationMode": "EAnimationTrackApplicationMode::OverrideLocal",
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "EaseOutBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "bLockEaseDirectionToAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "UnfoldWeapons"
+      ]
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.35"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.38"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.39"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.37"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.34"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.35"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.38"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.39"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.36"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.37"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_RollBot_Flamethrower_SK_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.18"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_Fireball_Dismemberment_AttachedFrame'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_Fireball_Dismemberment_AttachedFrame.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_RollBot_Flamethrower'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/CSSC_RollBot_Flamethrower.0"
+      },
+      "VirtualPartBones": [
+        "DummyParent_Root",
+        "FrameCenterAxis",
+        "Scanner",
+        "PerceptionPart"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 11
+      },
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -16.005365,
+                "Y": 27.987633,
+                "Z": -5.203842
+              },
+              {
+                "X": -14.417704,
+                "Y": -8.502862,
+                "Z": -29.227304
+              },
+              {
+                "X": -15.625622,
+                "Y": -26.69675,
+                "Z": 10.1163
+              },
+              {
+                "X": -13.275917,
+                "Y": 9.409786,
+                "Z": 29.30218
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -0.99792284,
+                "Y": 11.88484,
+                "Z": 31.409674
+              },
+              {
+                "X": -8.860785,
+                "Y": 22.964895,
+                "Z": -20.569477
+              },
+              {
+                "X": -7.6584225,
+                "Y": -30.341204,
+                "Z": -4.4728546
+              },
+              {
+                "X": -28.277063,
+                "Y": 7.5740776,
+                "Z": 12.260511
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 23.131289,
+                "Y": -15.376824,
+                "Z": 5.3539224
+              },
+              {
+                "X": 3.9671597,
+                "Y": 19.38518,
+                "Z": 19.443514
+              },
+              {
+                "X": -24.334896,
+                "Y": -12.562025,
+                "Z": 5.446852
+              },
+              {
+                "X": -2.1210463,
+                "Y": 9.977723,
+                "Z": -25.824442
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 4.165685,
+                "Y": 29.941479,
+                "Z": -1.9453522
+              },
+              {
+                "X": -10.484161,
+                "Y": 8.624316,
+                "Z": -5.774067
+              },
+              {
+                "X": 5.0333633,
+                "Y": 10.095949,
+                "Z": 11.019374
+              },
+              {
+                "X": 9.249179,
+                "Y": 15.307622,
+                "Z": -4.1709595
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.26575735,
+                "Y": 1.3313776,
+                "Z": 15.248944
+              },
+              {
+                "X": -12.517176,
+                "Y": 1.3315264,
+                "Z": -8.329485
+              },
+              {
+                "X": 13.132262,
+                "Y": 0.63462806,
+                "Z": -4.9266605
+              },
+              {
+                "X": 0.05980026,
+                "Y": 9.16957,
+                "Z": -15.579918
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.8708324,
+                "Y": -23.761904,
+                "Z": 6.3171973
+              },
+              {
+                "X": -11.0927515,
+                "Y": -11.244039,
+                "Z": -3.7630234
+              },
+              {
+                "X": 8.424699,
+                "Y": -10.213532,
+                "Z": -7.3014393
+              },
+              {
+                "X": -6.1588125,
+                "Y": -23.884827,
+                "Z": 3.2373748
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": -13.79802,
+                "Y": -8.951869,
+                "Z": -5.452408
+              },
+              {
+                "X": 12.517155,
+                "Y": -1.3315357,
+                "Z": 8.329465
+              },
+              {
+                "X": 5.1629677,
+                "Y": -9.872827,
+                "Z": -12.994529
+              },
+              {
+                "X": -10.893203,
+                "Y": -9.180954,
+                "Z": 11.1550665
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_FireBall_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Art/SK/SK_FireBall_01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_FireBall_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Art/SK/SK_FireBall_01.1"
+      },
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "Minion",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "bSimulatePhysics": true
+      }
+    }
+  },
+  {
+    "Type": "SpottableStyleDriver",
+    "Name": "SpottableStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpottableStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    }
+  },
+  {
+    "Type": "SteamEffectStyleDriver",
+    "Name": "SteamEffectStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SteamEffectStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+    },
+    "Properties": {
+      "SteamEffectDefinitions": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Flamethrower"
+          ],
+          "Effect": [
+            {
+              "SteamEffect": {
+                "ObjectName": "EffectDataAsset'DA_Rollbot_Flamethrower'",
+                "ObjectPath": "/Game/Pioneer/Enemies/FireBall/DataAssets/DA_Rollbot_Flamethrower.0"
+              },
+              "ComponentName": "FrameCenterAxis",
+              "SocketName": "None",
+              "bVisualizeLocation": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.11"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 5,
+        "PartDisplayName": "Arm_L_01"
+      },
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Weapon.Rifle"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Rifle )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+          }
+        }
+      },
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_Forward'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0.LaserFlareTargeting_Forward_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.12"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Flare_TargetingLaser_Small'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_Flare_TargetingLaser_Small.0"
+      }
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.11"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 9,
+        "PartDisplayName": "Scanner"
+      },
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Laser"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "AutoDescription": " ANY( Part.Decorator.ID.Laser )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_RollBot_Flamethrower_SK_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.2"
+          }
+        },
+        "PartList": [
+          {
+            "Key": "9",
+            "Value": "Scanner"
+          }
+        ]
+      },
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_Forward'CS_RollBot_Flamethrower_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_1.LaserFlareTargeting_Forward_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/FireBall/CS_RollBot_Flamethrower_SK.13"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Drone_InvestigationCone'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Snitch/DA_Drone_InvestigationCone.0"
+      }
+    }
+  }
+]

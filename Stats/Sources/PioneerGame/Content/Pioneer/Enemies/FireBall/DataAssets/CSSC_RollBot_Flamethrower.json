@@ -1,0 +1,258 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_RollBot_Flamethrower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/DataAssets/CSSC_RollBot_Flamethrower",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root"
+          ]
+        },
+        {
+          "Key": "Armor_01_A_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Armor_01_A_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Arm_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Dispenser",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Ear_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Arm_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Dispenser",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Ear_01_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Scanner",
+          "Value": [
+            "Part.Decorator.ID.Laser"
+          ]
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Armor_01_A_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_A_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Ear_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Ear_01_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Frame_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "Arm_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Arm_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_01_A_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_01_A_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Frame_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_L_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Ear_01_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Arm_R_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Ear_01_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Scanner",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": "EPartResistanceGroup::Normal"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root"
+          ]
+        },
+        {
+          "Key": "Armor_01_A_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_01_A_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "FrameCenterAxis",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Arm_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Dispenser",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Ear_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Arm_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Dispenser",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Ear_01_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Scanner",
+          "Value": [
+            "Part.Decorator.ID.Laser"
+          ]
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        }
+      ]
+    }
+  }
+]

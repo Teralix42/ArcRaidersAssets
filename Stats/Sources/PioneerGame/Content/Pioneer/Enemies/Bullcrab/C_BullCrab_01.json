@@ -1,0 +1,2359 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "AITargetComponent",
+    "Name": "AITargetComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AITargetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "OverrideTeamId": "EEmbarkTeamId::Team2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_BullCrab_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_BullCrab_01_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.19"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructablePhysicsMaterialService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructablePhysicsMaterialService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLTickableMultiPolicyComponentAS_Locomotion",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLTickableMultiPolicyComponentAS'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReachabilityService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ReachabilityService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLIntentionComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLIntentionComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StuckDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StuckDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableCollisionGameplayEffectApplicatorComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableCollisionGameplayEffectApplicatorComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PioneerConstructableDispersionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PioneerConstructableDispersionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AITargetComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AITargetComponent'",
+          "ObjectPath": "/Script/EmbarkAI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GameplayCueQueueComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'GameplayCueQueueComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PartEffectServiceComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PartEffectServiceComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLGasComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLGasComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MLLocomotionMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MLLocomotionMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "InitialIntensity",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Lights",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Lights",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SpotLightComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "C_BullCrab_01_C",
+    "Name": "Default__C_BullCrab_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.C_BullCrab_01_C'",
+    "Package": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01",
+    "Template": {
+      "ObjectName": "BP_ConstructableBase_C'Default__BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.2"
+    },
+    "Properties": {
+      "InitialIntensity": 5000.0,
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_BullCrab_01_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.18"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_BullCrab_01_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.13"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_BullCrab_01_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.8"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_BullCrab_01_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.29"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_BullCrab_01_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.14"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_BullCrab_01_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.17"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_BullCrab_01_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.10"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_BullCrab_01_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.15"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_BullCrab_01_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.28"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_BullCrab_01_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.36"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_BullCrab_01_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.12"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_BullCrab_01_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.37"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_BullCrab_01_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.56"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_BullCrab_01_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.39"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_BullCrab_01_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_BullCrab_01_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.9"
+      },
+      "ConstructableConfig": {
+        "InitialGameplayEffects": [
+          null
+        ]
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_BullCrab_01_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.5"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_BullCrab_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_BullCrab_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_BullCrab'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_EnemyType_BullCrab.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Bastion&Leaper&Rocketeer",
+        "Quest.Groups.Enemies.Ground",
+        "Quest.Groups.Enemies.Armored"
+      ],
+      "ConstructableTags": [
+        "Enemy.Assault.Elite.Ground"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_BullCrab_01_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.20"
+      },
+      "bCanSelfDamage": false,
+      "SpawnBudgetCost": 36,
+      "ThreatLevel": 50,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_M'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 300.0,
+        "AgentHeight": 390.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_BullCrab_01_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.57"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_BullCrab_01_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.4"
+      },
+      "NetCullDistanceSquared": 3.6E+09,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_BullCrab_01_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.12"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__BP_ConstructableBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Core'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Core.0"
+        },
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Leg'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Leg.0"
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": false,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AlertedModeAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Idle",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Alert"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": true,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AlertToIdleAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionGameplayEffectApplicatorComponent",
+    "Name": "ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionGameplayEffectApplicatorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "Mappings": [
+        {
+          "DisplayName": "Legs & Body",
+          "PartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg,\n Part.Decorator.ID.Frame )"
+          },
+          "Effects": [
+            {
+              "ObjectName": "BlueprintGeneratedClass'GE_BullCrab_CollisionAttack_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/GE_BullCrab_CollisionAttack.1"
+            }
+          ],
+          "DamagingPartTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          }
+        }
+      ],
+      "BlockedTag": {
+        "TagName": "Bullcrab.CollisionEffects.Blocked"
+      },
+      "VelocityToDamageCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 150.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 650.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "MinKnockbackVelocity": 500.0
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__BP_ConstructableBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.5"
+    },
+    "Properties": {
+      "PartCollisionConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "Config": {
+            "SlidingDotThreshold": 0.9800000190734863,
+            "SlidingRollingThresholdTimeSecs": 0.10000000149011612,
+            "MinTimeBetweenCollisionCues": 0.30000001192092896,
+            "ImpactBypassFactor": 1.5,
+            "bCreateShockwave": true,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 250000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 400.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Constant"
+            }
+          }
+        }
+      ],
+      "CollisionTypeThresholds": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": 20.0
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__BP_ConstructableBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_BullCrab_01_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.12"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__BP_ConstructableBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.7"
+    },
+    "Properties": {
+      "ReplicationConfigs": [
+        {
+          "InitialReplicatedPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg )"
+          },
+          "InitialReplicationType": "EConstructableReplicationType::Full"
+        }
+      ],
+      "bHasManyParts": true
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePhysicsMaterialService",
+    "Name": "ConstructablePhysicsMaterialService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePhysicsMaterialService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__BP_ConstructableBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__BP_ConstructableBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Cannon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Cannon )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 1.0,
+            "MaxRotationSpeedDegPerSec": 0.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 5000.0,
+            "bDirectlyUpdatePartOrientations": true,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "MaxRotationSpeedDegPerSec": 50.0,
+        "ProjectileSpeedCmPerSec": 4750.0,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__BP_ConstructableBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_BullCrab_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_BullCrab_Perception.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__BP_ConstructableBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.11"
+    },
+    "Properties": {
+      "NumLootablePartsCategory": "EConstructableNumPartsCategory::Medium",
+      "LootType": {
+        "TagName": "Loot.Enemy.Bull"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_BullCrab'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_PartScavengeSetup_BullCrab.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "GameplayCueQueueComponent",
+    "Name": "GameplayCueQueueComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GameplayCueQueueComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__BP_ConstructableBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.12"
+    },
+    "Properties": {
+      "SubGroups": [
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 1000.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 50.0,
+          "RadialForceRadius": 1000.0,
+          "AdditionalGameplayEffects": []
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__BP_ConstructableBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.13"
+    },
+    "Properties": {
+      "NumPartsCategory": "EConstructableNumPartsCategory::Large"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasComponent",
+    "Name": "MLGasComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "TagEffects": [
+        {
+          "Priority": -2,
+          "GameplayTag": {
+            "TagName": "Status.Stun.Medium"
+          },
+          "bRemoveOnTagRemoval": true,
+          "Duration": 4.0,
+          "Mods": [
+            {
+              "ObjectName": "MLGasEffectModConstraintScale'C_BullCrab_01_C:MLGasComponent_GEN_VARIABLE.MLGasEffectModConstraintScale_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.22"
+            }
+          ]
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLGasEffectModConstraintScale",
+    "Name": "MLGasEffectModConstraintScale_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLGasEffectModConstraintScale'",
+    "Outer": {
+      "ObjectName": "MLGasComponent'C_BullCrab_01_C:MLGasComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.21"
+    },
+    "Properties": {
+      "Constraint": {
+        "Stiffness": 0.0,
+        "Damping": 0.0,
+        "MaxForce": 0.0
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLIntentionComponent",
+    "Name": "MLIntentionComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLIntentionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLLocomotionMovementComponent",
+    "Name": "MLLocomotionMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLLocomotionMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "MaximumTurnSpeed": 70.0,
+      "MaximumNavigationDistanceInBodyLengths": 20.0,
+      "SpeedMatrix": [
+        {
+          "Key": "EAIMovementSpeed::VerySlow",
+          "Value": 300.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Slow",
+          "Value": 300.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Normal",
+          "Value": 300.0
+        },
+        {
+          "Key": "EAIMovementSpeed::Fast",
+          "Value": 800.0
+        },
+        {
+          "Key": "EAIMovementSpeed::VeryFast",
+          "Value": 900.0
+        }
+      ],
+      "TurnSpeedMatrix": [
+        {
+          "Key": "EAITurnSpeed::VerySlow",
+          "Value": 50.0
+        },
+        {
+          "Key": "EAITurnSpeed::Slow",
+          "Value": 50.0
+        },
+        {
+          "Key": "EAITurnSpeed::Fast",
+          "Value": 70.0
+        },
+        {
+          "Key": "EAITurnSpeed::VeryFast",
+          "Value": 80.0
+        }
+      ],
+      "SpeedToMinTargetDistance": [
+        {
+          "Key": "EAIMovementSpeed::VeryFast",
+          "Value": 1000.0
+        }
+      ],
+      "FallbackNavDatas": [
+        {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_S",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_XS",
+          "SubPathString": ""
+        }
+      ],
+      "NavAgentProps": {
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Angelscript.EmbarkConstructableRecastNavMesh_M",
+          "SubPathString": ""
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLLocomotionPolicySelectorConfig",
+    "Name": "MLLocomotionPolicySelectorConfig_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLLocomotionPolicySelectorConfig'",
+    "Outer": {
+      "ObjectName": "MLTickableMultiPolicyComponentAS'C_BullCrab_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.26"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "MLTickableMultiPolicyComponentAS",
+    "Name": "MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MLTickableMultiPolicyComponentAS'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "PolicyDefinitions": [
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Bullcrab/Inference/NewSystem/INF_BC_PatrolWalk_003_NewSys.INF_BC_PatrolWalk_003_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Patrol"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Bullcrab/Inference/NewSystem/INF_BC_Sprint_004_NewSys.INF_BC_Sprint_004_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Sprint"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Bullcrab/Inference/NewSystem/INF_BC_RotateStop_004_NewSys.INF_BC_RotateStop_004_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.RotateStop"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Bullcrab/Inference/NewSystem/INF_BC_DismemPatrol_001_NewSys.INF_BC_DismemPatrol_001_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Patrol"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Bullcrab/Inference/NewSystem/INF_BC_DismemRotateStop_003_NewSys.INF_BC_DismemRotateStop_003_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.RotateStop"
+          }
+        },
+        {
+          "ModelData": {
+            "AssetPathName": "/Game/Pioneer/Enemies/Bullcrab/Inference/NewSystem/INF_BC_DismemSprint_002_NewSys.INF_BC_DismemSprint_002_NewSys",
+            "SubPathString": ""
+          },
+          "BehaviorName": "Default",
+          "PolicyTag": {
+            "TagName": "ML.Policy.Dismemberment.Sprint"
+          }
+        }
+      ],
+      "PolicySelectorConfig": {
+        "ObjectName": "MLLocomotionPolicySelectorConfig'C_BullCrab_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE.MLLocomotionPolicySelectorConfig_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.25"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PartEffectServiceComponent",
+    "Name": "PartEffectServiceComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PartEffectServiceComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "StatusDefinition": [
+        {
+          "ApprovedStatusTags": [
+            "Status.Stun.Medium",
+            "Status.Stun.Small",
+            "Status.Stun.VeryLarge",
+            "Status.Stun.VerySmall",
+            "Status.Stun.Large"
+          ],
+          "TagFilter": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Leg )"
+          },
+          "bFilterByParts": true,
+          "PartFilter": []
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__BP_ConstructableBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.16"
+    },
+    "Properties": {
+      "SightRangeStrengthScale": 0.85
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__BP_ConstructableBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.17"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Ultimate"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_BullCrab_ShortRangeJumpAttack_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/GA_BullCrab_ShortRangeJumpAttack.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_BullCrab_ShortRangeJumpAttack_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/CSM_BullCrab_ShortRangeJumpAttack.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Short Range Jump Attack",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetNeverCancel",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Secondary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_BullCrab_OverCharge_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/GA_BullCrab_OverCharge.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_BullCrab_OverCharge_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/CSM_BullCrab_OverCharge.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Overcharge",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Tertiary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_BullCrab_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/GA_BullCrab_SelfDestruct.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_BullCrab_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/CSM_BullCrab_SelfDestruct.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "SelfDestruct",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Scan"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+          },
+          "GrantedAbilityType": null,
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicScan_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicScan.70"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Scan",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Fourth"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Core"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Core )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_BullCrab_AntiStuckJump_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/GA_BullCrab_AntiStuckJump.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_BullCrab_ShortRangeJumpAttack_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/Capabilities/CSM_BullCrab_ShortRangeJumpAttack.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Anti Stuck Jump Attack",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionBoxShape",
+    "Name": "PioneerConstructableDispersionBoxShape_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionBoxShape'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.35"
+    },
+    "Properties": {
+      "ShrinkageFactor": {
+        "X": 0.9,
+        "Y": 0.6
+      },
+      "GrowFactor": 3.0
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleDiscovery",
+    "Name": "PioneerConstructableDispersionRuleDiscovery_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleDiscovery'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.35"
+    },
+    "Properties": {
+      "ScoreDelta": -0.4,
+      "bActive": false
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
+    "Name": "PioneerConstructableDispersionRuleGameplayTagTarget_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleGameplayTagTarget'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.35"
+    },
+    "Properties": {
+      "ScoreDelta": -0.5,
+      "Tags": [
+        "Ability.DodgeRoll.Active"
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
+    "Name": "PioneerConstructableDispersionRuleGameplayTagTarget_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleGameplayTagTarget'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.35"
+    },
+    "Properties": {
+      "ScoreDelta": -0.2,
+      "Tags": [
+        "Ability.Crouch",
+        "Ability.Slide"
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetDistance",
+    "Name": "PioneerConstructableDispersionRuleTargetDistance_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetDistance'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.35"
+    },
+    "Properties": {
+      "ScoreDelta": -0.6,
+      "DistanceToWeightCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 20.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableDispersionService",
+    "Name": "PioneerConstructableDispersionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "DispersionSettings": [
+        {
+          "Key": {
+            "TagName": "Part.Capability.Weapon.Secondary"
+          },
+          "Value": {
+            "DispersionActiveHalfAngleThreshold": 90.0,
+            "BaseScore": 1.0,
+            "AccuracyErrorAdjustmentFactor": 0.4,
+            "DispersionRules": [
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleGameplayTagTarget_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.32"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleGameplayTagTarget_1'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.33"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleDiscovery'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleDiscovery_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.31"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetDistance_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.34"
+              }
+            ],
+            "DispersionShape": {
+              "ObjectName": "PioneerConstructableDispersionBoxShape'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionBoxShape_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.30"
+            }
+          }
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__BP_ConstructableBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Bison'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Bison.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ReachabilityService",
+    "Name": "ReachabilityService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReachabilityService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_BullCrab_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.40"
+      },
+      "VariableGUID": "B54F4034-4B70A4F2-210C6DBB-287B1348",
+      "InternalVariableName": "DefaultSceneRoot"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructablePhysicsMaterialService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructablePhysicsMaterialService'C_BullCrab_01_C:ConstructablePhysicsMaterialService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.11"
+      },
+      "VariableGUID": "70192242-4AF0B4AD-D228469E-9190CDFF",
+      "InternalVariableName": "ConstructablePhysicsMaterialService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_BullCrab_01_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.6"
+      },
+      "VariableGUID": "B46EC8F4-427DBD83-7FE459A8-3778BD06",
+      "InternalVariableName": "ConstructableAnimationService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StuckDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StuckDetectionService'C_BullCrab_01_C:StuckDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.58"
+      },
+      "VariableGUID": "EACE8992-4CF24E2A-EECB9ABF-E6F68AA3",
+      "InternalVariableName": "StuckDetectionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableCollisionGameplayEffectApplicatorComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableCollisionGameplayEffectApplicatorComponent'C_BullCrab_01_C:ConstructableCollisionGameplayEffectApplicatorComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.7"
+      },
+      "VariableGUID": "A6FB100A-4BD17289-5677F69C-A150131E",
+      "InternalVariableName": "ConstructableCollisionGameplayEffectApplicatorComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ReachabilityService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ReachabilityService'C_BullCrab_01_C:ReachabilityService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.38"
+      },
+      "VariableGUID": "675D76BA-46553420-455A56A9-946404BB",
+      "InternalVariableName": "ReachabilityService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLLocomotionMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLLocomotionMovementComponent'C_BullCrab_01_C:MLLocomotionMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.24"
+      },
+      "VariableGUID": "922D42D0-47C131B0-0AAF22BD-8F0F217B",
+      "InternalVariableName": "MLLocomotionMovementComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLGasComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLGasComponent'C_BullCrab_01_C:MLGasComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.21"
+      },
+      "VariableGUID": "FC5CD090-4EEB2DEF-2DB648A2-15F2C1E2",
+      "InternalVariableName": "MLGasComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PartEffectServiceComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PartEffectServiceComponent'C_BullCrab_01_C:PartEffectServiceComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.27"
+      },
+      "VariableGUID": "410AC335-433B149E-A96D31AA-12E4D68A",
+      "InternalVariableName": "PartEffectServiceComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLTickableMultiPolicyComponentAS'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLTickableMultiPolicyComponentAS'C_BullCrab_01_C:MLTickableMultiPolicyComponentAS_Locomotion_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.26"
+      },
+      "VariableGUID": "44665E53-481974B8-7903E9AC-3F1CE209",
+      "InternalVariableName": "MLTickableMultiPolicyComponentAS_Locomotion"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'GameplayCueQueueComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "GameplayCueQueueComponent'C_BullCrab_01_C:GameplayCueQueueComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.16"
+      },
+      "VariableGUID": "F96BF282-47EB7650-D4721A90-8E7A322A",
+      "InternalVariableName": "GameplayCueQueueComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AITargetComponent'",
+        "ObjectPath": "/Script/EmbarkAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AITargetComponent'C_BullCrab_01_C:AITargetComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.1"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "C58975B8-40275C70-9F66FEA7-E206FE1A",
+      "InternalVariableName": "AITargetComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MLIntentionComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MLIntentionComponent'C_BullCrab_01_C:MLIntentionComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.23"
+      },
+      "VariableGUID": "3701FD49-48AF1FE6-642907AF-29A44ED0",
+      "InternalVariableName": "MLIntentionComponent"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_BullCrab_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PioneerConstructableDispersionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PioneerConstructableDispersionService'C_BullCrab_01_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.35"
+      },
+      "VariableGUID": "9C3C0D9A-43662FC7-B26348AB-6981B978",
+      "InternalVariableName": "PioneerConstructableDispersionService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.47"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.48"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.49"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.51"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.52"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.54"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.45"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.43"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.44"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.53"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.46"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.50"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.42"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.47"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.48"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.49"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.51"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.52"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.54"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.45"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.43"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.44"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.53"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.46"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.50"
+        },
+        {
+          "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.42"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_BullCrab_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.41"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__BP_ConstructableBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.25"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_BullCrab_01_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/CS_BullCrab_01.1"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_BullCrab_01_C'Default__C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.3"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StuckDetectionService",
+    "Name": "StuckDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StuckDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_BullCrab_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/C_BullCrab_01.2"
+    },
+    "Properties": {
+      "MobilityImpactingPartsQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Leg"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+      },
+      "DestroyedPartsToMinDistanceMultiplier": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 2.0,
+              "Value": 0.5,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 4.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  }
+]

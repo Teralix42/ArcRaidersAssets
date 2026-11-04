@@ -1,0 +1,2347 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Boom'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Boom.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.FX.LightCone"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.FX.LightCone )"
+      },
+      "TargetAngle": 20.0,
+      "RotationSpeed": 50.0
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'RollbotBig_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/RollbotBig_Comms.0"
+            },
+            "StateOscillationFrequency": 15.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'RollBotBig_Boom_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBotBig_Boom_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'RollBotBig_Boom_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBotBig_Boom_Alerted.0"
+            },
+            "StateOscillationFrequency": 5.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 4.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "RepeatingTargetProximitySound": {
+        "ObjectName": "SoundCue'RollBot_Boom_Proximity'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBot_Boom_Proximity.0"
+      },
+      "TargetProximityNiagaraEffect": {
+        "ObjectName": "NiagaraSystem'NS_Pop_ExplodeRadiusLight'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Enemies/RollBot/NS_Pop_ExplodeRadiusLight.31"
+      },
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'RollbotBig_Comms'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/RollbotBig_Comms.0"
+      },
+      "TargetChangedSoundCooldownTime": 1.0,
+      "LocalPlayerTargetedMusicEvent": {
+        "TagName": "None"
+      },
+      "TargetProximityRepeatRate": {
+        "X": 0.15,
+        "Y": 1.3
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Boom_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "VisionConeDummy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PistonExplosionReadyAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PistonExplosionPrepareAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ExplosionCoolDownAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ExplosionAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RevUpPrepareAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AlertedAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IntoCombatAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableGroundEngineAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableGroundEngineAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Medium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Medium_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBP_StunStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpottableStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpottableStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Boom_C'Default__CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.10"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Medium_C",
+    "Name": "BP_DamageStyleDriver_Medium_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.BP_DamageStyleDriver_Medium_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Medium_C'Default__BP_DamageStyleDriver_Medium_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Medium'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Medium.0"
+      },
+      "PartOverrideSeverityDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Indestructible"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.Explode"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Boom_SelfDestruct_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Boom_SelfDestruct_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": true,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Boom_SelfDestruct_Explosion'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Boom_SelfDestruct_Explosion.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": true,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Ready",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Boom_SelfDestruct_Ready'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Boom_SelfDestruct_Ready.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": true,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Ready",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "ExplosionAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "ExplosionAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::CoolingDown",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "ExplosionCoolDownAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "ExplosionCoolDownAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "PistonExplosionPrepareAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "PistonExplosionPrepareAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Ram"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_RollBot_RamRoll_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_RollBot_RamRoll_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::CoolingDown",
+                "bAttachToPart": true,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_RollBot_RamRoll_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_RollBot_RamRoll_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": true,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "RevUpPrepareAnim_GEN_VARIABLE",
+                      "SanitizedComponentName": "RevUpPrepareAnim",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        }
+      ],
+      "Extensions": [
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionContinuousDirectionUpdate'CS_Boom_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionContinuousDirectionUpdate_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.6"
+        },
+        {
+          "ObjectName": "SupressSpawningDestructionEffectIfCapabilityHasChangedState'CS_Boom_C:CapabilityStyleDriver_GEN_VARIABLE.SupressSpawningDestructionEffectIfCapabilityHasChangedState_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.43"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionContinuousDirectionUpdate",
+    "Name": "CapabilityStyleDriverExtensionContinuousDirectionUpdate_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionContinuousDirectionUpdate'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Boom_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.5"
+    },
+    "Properties": {
+      "AbilityTags": [
+        "Ability.Ram"
+      ]
+    }
+  },
+  {
+    "Type": "CBP_StunStyleDriver_C",
+    "Name": "CBP_StunStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.CBP_StunStyleDriver_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Template": {
+      "ObjectName": "CBP_StunStyleDriver_C'Default__CBP_StunStyleDriver_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.1"
+    }
+  },
+  {
+    "Type": "ConstructableGroundEngineAudioComponent",
+    "Name": "ConstructableGroundEngineAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableGroundEngineAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "SurfaceEffect": {
+        "SurfaceEffects": {
+          "ObjectName": "EffectDataAsset'DA_RollBotBig_Surface'",
+          "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/DA_RollBotBig_Surface.0"
+        },
+        "AttachSocket": "Frame_01"
+      },
+      "LandSound": {
+        "ObjectName": "SoundCue'Vehicle_Impact_Generic'",
+        "ObjectPath": "/Game/Pioneer/Audio/PhysicsObjects/Vehicle/Vehicle_Impact_Generic.0"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'RollBotBig_Boom_Engine'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBotBig_Boom_Engine.0"
+      },
+      "PassBy": {
+        "PassBySound": {
+          "ObjectName": "SoundCue'RollBotBig_PassBy'",
+          "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBotBig_PassBy.0"
+        },
+        "PitchRange": {
+          "X": 0.8,
+          "Y": 1.2
+        }
+      },
+      "AccelerationInterpolation": {
+        "InterpolationTime": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Boom_C'Default__CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.10"
+    }
+  },
+  {
+    "Type": "CS_Boom_C",
+    "Name": "Default__CS_Boom_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.CS_Boom_C'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -54.068,
+          "Y": -55.32101,
+          "Z": -54.068104
+        },
+        "Max": {
+          "X": 79.87019,
+          "Y": 55.321,
+          "Z": 61.64499
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Boom_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.9"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Boom_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.12"
+      },
+      "VariableGUID": "43130725-4E52E2B6-2833F0AE-41A551E4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Boom_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.33"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.20"
+        }
+      ],
+      "VariableGUID": "AFF216B8-45A46E93-B079B494-EB3B6E15",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBP_StunStyleDriver_C'CS_Boom_C:CBP_StunStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.7"
+      },
+      "VariableGUID": "EB7B8632-4B9E9EC8-D214CBB3-E0F6D5E6",
+      "InternalVariableName": "CBP_StunStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Medium_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Boom_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.3"
+      },
+      "VariableGUID": "4B71679A-42481CFC-44F40197-B2515F33",
+      "InternalVariableName": "BP_DamageStyleDriver_Medium"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Boom_C:ExplosionCoolDownAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.36"
+      },
+      "VariableGUID": "051E35CC-4EBA34B4-CF63FE92-DB8BEF9D",
+      "InternalVariableName": "ExplosionCoolDownAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Boom_C:PistonExplosionPrepareAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.38"
+      },
+      "VariableGUID": "97DD943A-45DF7D5F-AB8D9580-E73CC061",
+      "InternalVariableName": "PistonExplosionPrepareAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Boom_C:PistonExplosionReadyAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.39"
+      },
+      "VariableGUID": "466B2F1D-49420861-80072AAB-1BC14094",
+      "InternalVariableName": "PistonExplosionReadyAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Boom_C:VisionConeDummy_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.42"
+      },
+      "AttachToName": "FrameCenterAxis",
+      "VariableGUID": "5BC9A9AF-44C18203-CA913C9D-9460ECD7",
+      "InternalVariableName": "VisionConeDummy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_Boom_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.0"
+      },
+      "VariableGUID": "E134AEE5-43985578-5F0B83A7-8129DE73",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Boom_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.4"
+      },
+      "VariableGUID": "94EC50C2-48D84DB6-18CB66B1-E4DD4858",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Boom_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.11"
+      },
+      "VariableGUID": "0BCC8622-4C77BB8A-C805B98A-3076C9BC",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Boom_C:IntoCombatAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.37"
+      },
+      "VariableGUID": "5BACD4CF-48470471-EFF58EB3-311F00C7",
+      "InternalVariableName": "IntoCombatAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Boom_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.5"
+      },
+      "VariableGUID": "A6D9ECAB-4E81CF78-8B86FC84-702C4EC5",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_Boom_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.1"
+      },
+      "VariableGUID": "76B61B31-4653EF48-891925A9-524465A9",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableGroundEngineAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableGroundEngineAudioComponent'CS_Boom_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.8"
+      },
+      "VariableGUID": "0727D737-4146E7D8-77984F93-9906EC6B",
+      "InternalVariableName": "ConstructableGroundEngineAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Boom_C:AlertedAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.34"
+      },
+      "VariableGUID": "74A4BE95-4BB0DCDD-05CD9D88-25BCB40E",
+      "InternalVariableName": "AlertedAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Boom_C:RevUpPrepareAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.40"
+      },
+      "VariableGUID": "3774AE23-4A8A4611-E6A7CC86-522A8B1A",
+      "InternalVariableName": "RevUpPrepareAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Boom_C:ExplosionAnim_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.35"
+      },
+      "VariableGUID": "E8A0A7E5-4C8A2FA7-5FDC53A8-EEE7B1CE",
+      "InternalVariableName": "ExplosionAnim"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Boom_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpottableStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpottableStyleDriver'CS_Boom_C:SpottableStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.41"
+      },
+      "VariableGUID": "C7AA9930-4A7E917F-9E86DAAD-D8CA760F",
+      "InternalVariableName": "SpottableStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.19"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.20"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Boom_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.13"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_Boom_Dismemberment_CenterChainAttached'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_Boom_Dismemberment_CenterChainAttached.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_Boom_01_B'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Art/CSSC_Boom_01_B.0"
+      },
+      "VirtualPartBones": [
+        "DummyParent_Root",
+        "SideCylinder_L_01",
+        "SideCylinder_L_02",
+        "SideCylinder_L_03",
+        "SideCylinder_L_04",
+        "SideCylinder_L_05",
+        "SideCylinder_L_06",
+        "SubFrame_01_C",
+        "SubFrame_02_L",
+        "SideCylinder_R_01",
+        "SideCylinder_R_02",
+        "SideCylinder_R_03",
+        "SideCylinder_R_04",
+        "SideCylinder_R_05",
+        "SideCylinder_R_06",
+        "SubFrame_02_R"
+      ],
+      "PartOverlapFilterQuery_Server": {
+        "TagDictionary": [],
+        "QueryTokenStream": []
+      },
+      "PartOverlapFilterQuery_Client": {
+        "TagDictionary": [],
+        "QueryTokenStream": []
+      },
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 30
+      },
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.32864678,
+                "Y": -3.1268818,
+                "Z": -15.806519
+              },
+              {
+                "X": -1.3022155,
+                "Y": -12.389721,
+                "Z": 10.223997
+              },
+              {
+                "X": -10.31949,
+                "Y": 11.4609585,
+                "Z": -4.678287
+              },
+              {
+                "X": 15.085207,
+                "Y": 3.20647,
+                "Z": 4.678279
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -2.0938814,
+                "Y": -15.60708,
+                "Z": -6.2484403
+              },
+              {
+                "X": 4.7760916,
+                "Y": -11.959332,
+                "Z": 4.2905746
+              },
+              {
+                "X": 0.40773737,
+                "Y": -12.830914,
+                "Z": 6.633314
+              },
+              {
+                "X": 2.0498114,
+                "Y": -20.394434,
+                "Z": 1.3194473
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": -14.628681,
+                "Y": 6.143084,
+                "Z": 19.555126
+              },
+              {
+                "X": 5.277207,
+                "Y": -10.1734295,
+                "Z": 26.53883
+              },
+              {
+                "X": 0.5736273,
+                "Y": -3.7985754,
+                "Z": -32.13501
+              },
+              {
+                "X": -10.796424,
+                "Y": -5.7487626,
+                "Z": -10.4238825
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -4.822657,
+                "Y": 1.397208,
+                "Z": -32.364002
+              },
+              {
+                "X": 8.5559435,
+                "Y": 7.391667,
+                "Z": 34.899094
+              },
+              {
+                "X": 10.962989,
+                "Y": -16.74665,
+                "Z": 12.128835
+              },
+              {
+                "X": -19.560263,
+                "Y": 6.3507504,
+                "Z": 1.2379514
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": -1.7854351,
+                "Y": -3.0674517,
+                "Z": 27.106794
+              },
+              {
+                "X": -2.1044447,
+                "Y": 6.303789,
+                "Z": -39.61987
+              },
+              {
+                "X": -0.32418814,
+                "Y": -13.402294,
+                "Z": -8.349489
+              },
+              {
+                "X": -16.296211,
+                "Y": 17.499472,
+                "Z": -8.2460985
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": -2.1452887,
+                "Y": 17.801548,
+                "Z": 5.2280703
+              },
+              {
+                "X": -4.776089,
+                "Y": 16.212255,
+                "Z": -4.290579
+              },
+              {
+                "X": -0.4077351,
+                "Y": 15.340674,
+                "Z": -6.633319
+              },
+              {
+                "X": -2.0498085,
+                "Y": 7.7771525,
+                "Z": -1.319452
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.98618394,
+                "Y": -6.2029552,
+                "Z": 40.55199
+              },
+              {
+                "X": -7.130667,
+                "Y": 16.79123,
+                "Z": 4.221392
+              },
+              {
+                "X": 4.310356,
+                "Y": -6.087405,
+                "Z": -33.87595
+              },
+              {
+                "X": 21.081272,
+                "Y": -12.032988,
+                "Z": 12.704671
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": -1.9851422,
+                "Y": -0.5012957,
+                "Z": 37.61639
+              },
+              {
+                "X": -0.31263828,
+                "Y": 2.1139243,
+                "Z": -29.92956
+              },
+              {
+                "X": 19.411524,
+                "Y": -6.038535,
+                "Z": -1.4384419
+              },
+              {
+                "X": -7.2313113,
+                "Y": 16.813643,
+                "Z": -3.1685817
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 19.42681,
+                "Y": -6.08821,
+                "Z": -0.45040753
+              },
+              {
+                "X": -7.9439797,
+                "Y": 15.051922,
+                "Z": -14.327776
+              },
+              {
+                "X": 3.8344278,
+                "Y": -10.57106,
+                "Z": -35.962467
+              },
+              {
+                "X": -0.7749274,
+                "Y": 4.219923,
+                "Z": 31.9038
+              }
+            ]
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "Points": [
+              {
+                "X": 17.588367,
+                "Y": -12.778696,
+                "Z": 6.5948844
+              },
+              {
+                "X": -7.2062807,
+                "Y": 12.481656,
+                "Z": 17.561771
+              },
+              {
+                "X": 3.9003632,
+                "Y": 12.004059,
+                "Z": -18.889889
+              },
+              {
+                "X": -18.026623,
+                "Y": -13.097116,
+                "Z": -4.43219
+              }
+            ]
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.95730937,
+                "Y": 46.25698,
+                "Z": 5.868266
+              },
+              {
+                "X": 8.152279,
+                "Y": 2.344897,
+                "Z": 15.648421
+              },
+              {
+                "X": 8.152277,
+                "Y": 2.3448727,
+                "Z": -15.648347
+              },
+              {
+                "X": -8.455232,
+                "Y": 2.3448868,
+                "Z": 3.611583E-05
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": 8.272967,
+                "Y": -2.3448741,
+                "Z": 7.8620167
+              },
+              {
+                "X": -8.29417,
+                "Y": -2.3448665,
+                "Z": -15.648378
+              },
+              {
+                "X": -8.414862,
+                "Y": -2.3448741,
+                "Z": 7.8620167
+              },
+              {
+                "X": 8.272967,
+                "Y": -2.3448765,
+                "Z": -7.8620033
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": -5.9417067,
+                "Y": -23.184313,
+                "Z": -27.768879
+              },
+              {
+                "X": 5.941755,
+                "Y": -23.184288,
+                "Z": 27.768873
+              },
+              {
+                "X": 23.006424,
+                "Y": 18.57896,
+                "Z": -16.677162
+              },
+              {
+                "X": -23.006424,
+                "Y": 18.578978,
+                "Z": 16.677166
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Points": [
+              {
+                "X": -47.900955,
+                "Y": -9.369491,
+                "Z": -12.057503
+              },
+              {
+                "X": 9.922267,
+                "Y": 6.6795897,
+                "Z": -49.90651
+              },
+              {
+                "X": -30.885817,
+                "Y": 1.5966802,
+                "Z": 59.38835
+              },
+              {
+                "X": 42.69885,
+                "Y": 12.275665,
+                "Z": 30.724884
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Boom_01_B'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Art/SK_Boom_01_B.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Boom_01_B'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Art/SK_Boom_01_B.1"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "Minion",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "bSimulatePhysics": true
+      },
+      "ComponentTags": [
+        "SkeletalStyle"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AlertedAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Arm_L",
+            "Arm_R",
+            "DummyParent_Root"
+          ],
+          "ClientAlwaysDisabledBones": [
+            "DummyParent_Root"
+          ],
+          "ServerAlwaysDisabledBones": [
+            "DummyParent_Root"
+          ],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Boom_01_B_Alerted_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Animation/A_Boom_01_B_Alerted_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "AlertedAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "ExplosionAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Frame_L",
+            "Frame_R",
+            "Hull_01",
+            "DummyParent_Root",
+            "SideCylinder_L_01",
+            "SideCylinder_L_02",
+            "SideCylinder_L_03",
+            "SideCylinder_L_04",
+            "SideCylinder_L_05",
+            "SideCylinder_L_06",
+            "SideCylinder_R_01",
+            "SideCylinder_R_02",
+            "SideCylinder_R_03",
+            "SideCylinder_R_04",
+            "SideCylinder_R_05",
+            "SideCylinder_R_06"
+          ],
+          "ClientAlwaysDisabledBones": [
+            "DummyParent_Root"
+          ],
+          "ServerAlwaysDisabledBones": [
+            "DummyParent_Root"
+          ],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Boom_01_B_Explosion_03'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Animation/A_Boom_01_B_Explosion_03.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'BigPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/BigPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'BigPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/BigPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "ExplosionAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "ExplosionCoolDownAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Frame_L",
+            "Frame_R",
+            "Hull_01",
+            "SideCylinder_L_01",
+            "SideCylinder_L_02",
+            "SideCylinder_L_03",
+            "SideCylinder_L_04",
+            "SideCylinder_L_05",
+            "SideCylinder_L_06",
+            "SideCylinder_R_01",
+            "SideCylinder_R_02",
+            "SideCylinder_R_03",
+            "SideCylinder_R_04",
+            "SideCylinder_R_05",
+            "SideCylinder_R_06"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Boom_01_B_ExplosionCoolDown_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Animation/A_Boom_01_B_ExplosionCoolDown_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "ExplosionCoolDownAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "IntoCombatAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "Frame_L",
+            "Frame_R",
+            "Hull_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Boom_01_B_IntoCombat_02'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Animation/A_Boom_01_B_IntoCombat_02.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "IntoCombatAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "PistonExplosionPrepareAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "SideCylinder_L_01",
+            "SideCylinder_L_02",
+            "SideCylinder_L_03",
+            "SideCylinder_L_04",
+            "SideCylinder_L_05",
+            "SideCylinder_L_06",
+            "SideCylinder_R_01",
+            "SideCylinder_R_02",
+            "SideCylinder_R_03",
+            "SideCylinder_R_04",
+            "SideCylinder_R_05",
+            "SideCylinder_R_06",
+            "Frame_L",
+            "Frame_R",
+            "Hull_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Boom_01_B_PistonsExplosionPrepare_03'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Animation/A_Boom_01_B_PistonsExplosionPrepare_03.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "PistonExplosionPrepareAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "PistonExplosionReadyAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "SideCylinder_L_01",
+            "SideCylinder_L_02",
+            "SideCylinder_L_03",
+            "SideCylinder_L_04",
+            "SideCylinder_L_05",
+            "SideCylinder_L_06",
+            "SideCylinder_R_01",
+            "SideCylinder_R_02",
+            "SideCylinder_R_03",
+            "SideCylinder_R_04",
+            "SideCylinder_R_05",
+            "SideCylinder_R_06"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Boom_01_B_PistonsExplosionReady_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Animation/A_Boom_01_B_PistonsExplosionReady_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "PistonExplosionReadyAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "RevUpPrepareAnim_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalStyle",
+          "BoneNames": [
+            "SubFrame_01_C",
+            "SubFrame_02_L",
+            "SubFrame_02_R"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Boom_01_B_RevUp_02'",
+            "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/Animation/A_Boom_01_B_RevUp_02.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationBackwardsSound": {
+        "ObjectName": "SoundCue'MediumPart_Movement'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Movement.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AnimationBackwardsFinishedSound": {
+        "ObjectName": "SoundCue'MediumPart_Stop'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Animations/MediumPart_Stop.0"
+      },
+      "AudioFadeOutTime": 0.15,
+      "ComponentTags": [
+        "RevUpPrepareAnim"
+      ]
+    }
+  },
+  {
+    "Type": "SpottableStyleDriver",
+    "Name": "SpottableStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpottableStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "VisionConeDummy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Boom_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.2"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.FX.LightCone"
+      ],
+      "PartIDRange": {
+        "BasePartID": 30,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": 39.85437,
+        "Y": 1.0958357,
+        "Z": 37.347782
+      }
+    }
+  },
+  {
+    "Type": "SupressSpawningDestructionEffectIfCapabilityHasChangedState",
+    "Name": "SupressSpawningDestructionEffectIfCapabilityHasChangedState_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SupressSpawningDestructionEffectIfCapabilityHasChangedState'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Boom_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/CS_Boom.5"
+    },
+    "Properties": {
+      "AbilityTags": [
+        "Ability.Explode"
+      ]
+    }
+  }
+]

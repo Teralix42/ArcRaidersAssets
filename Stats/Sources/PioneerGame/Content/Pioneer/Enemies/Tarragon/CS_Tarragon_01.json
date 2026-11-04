@@ -1,0 +1,3401 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Chonk.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Eye"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Eye )"
+      },
+      "SocketName": "VisionCone",
+      "ScanDistance": 500.0
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Tarragon_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_LowerCannon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_RaiseCannon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_HeadOpen",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_AlertToIdle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_IdleToAlert",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserFlareStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LaserFlareStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Large",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AIStateStyleDriver_Tarragon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_BullCrab_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CollisionStyleDriver_Medium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_MovingPartAudioStyleDriver_Tarragon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_BullCrab_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Tarragon_01_C'Default__CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.11"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AIStateStyleDriver_BullCrab_C",
+    "Name": "BP_AIStateStyleDriver_Tarragon_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.BP_AIStateStyleDriver_BullCrab_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_AIStateStyleDriver_BullCrab_C'Default__BP_AIStateStyleDriver_BullCrab_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.1"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Tarragon_IntoCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_IntoCombat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Tarragon_Combat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_Combat.0"
+            },
+            "StateOscillationFrequency": 8.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Tarragon_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Tarragon_Alert'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_Alert.0"
+            },
+            "StateOscillationFrequency": 7.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Tarragon_IntoIdle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_IntoIdle.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Tarragon_Idle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_Idle.0"
+            },
+            "StateOscillationFrequency": 5.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "EmotionalStateEffects": [
+        {
+          "Key": "EAIEmotionalState::Enraged",
+          "Value": {
+            "PartEffect": {
+              "EffectAsset": {
+                "ObjectName": "EffectDataAsset'DA_Tarragon_HeadlessFX'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Headless/DA_Tarragon_HeadlessFX.0"
+              },
+              "AttachmentPartTagQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.HeadPivot"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.HeadPivot )"
+              },
+              "AttachmentSocketName": "None"
+            },
+            "bSuppressAlertnessStateSounds": true
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'Tarragon_TargetSwitch'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_TargetSwitch.0"
+      },
+      "TargetChangedSoundCooldownTime": 8.0
+    }
+  },
+  {
+    "Type": "BP_CollisionStyleDriver_Medium_C",
+    "Name": "BP_CollisionStyleDriver_Medium_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.BP_CollisionStyleDriver_Medium_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_CollisionStyleDriver_Medium_C'Default__BP_CollisionStyleDriver_Medium_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.1"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Large_C",
+    "Name": "BP_DamageStyleDriver_Large_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.BP_DamageStyleDriver_Large_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Large_C'Default__BP_DamageStyleDriver_Large_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Chonk.0"
+      },
+      "PartOverrideSeverityDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Small'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Small.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Frame"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Arm.Front"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Indestructible"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Head"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedSmoke_Small'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedSmoke_Small.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Weakpoint"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedFire_XS'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedFire_XS.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_MovingPartAudioStyleDriver_BullCrab_C",
+    "Name": "BP_MovingPartAudioStyleDriver_Tarragon_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.BP_MovingPartAudioStyleDriver_BullCrab_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_MovingPartAudioStyleDriver_BullCrab_C'Default__BP_MovingPartAudioStyleDriver_BullCrab_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.1"
+    },
+    "Properties": {
+      "MultiPartEffects": [
+        {
+          "Sound": {
+            "ObjectName": "SoundCue'Tarragon_MainEngine'",
+            "ObjectPath": "/Game/Pioneer/Audio/Drones/Tarragon/Tarragon_MainEngine.0"
+          },
+          "AttachPartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+          },
+          "AttachOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 150.0
+          },
+          "TrackedPartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg )"
+          },
+          "Mode": "EPartMovementTrackingMode::AngularSpeed",
+          "bAutoNormalize": true,
+          "InterpolationAlpha": 0.2,
+          "MinSpeedForRangeUpdate": 200.0
+        }
+      ],
+      "EmotionalStateCustomParameters": [
+        {
+          "Key": "EAIEmotionalState::Enraged",
+          "Value": {
+            "CustomParameters": [
+              {
+                "Key": "IsHeadless",
+                "Value": 1.0
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Light"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tarragon_Shotgun_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Shotgun/DA_Tarragon_Shotgun_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tarragon_Shotgun_Activate'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Shotgun/DA_Tarragon_Shotgun_Activate.0"
+                },
+                "bPlayForEachPart": false,
+                "bKillExplicitState": false,
+                "KillExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": true,
+                "AttachSocketName": "Muzzle"
+              }
+            }
+          ],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Ram"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tarragon_StampedeProximityEffect'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Stampede/DA_Tarragon_StampedeProximityEffect.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Grenade"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tarragon_GrenadeLauncher_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/GrenadeLauncher/DA_Tarragon_GrenadeLauncher_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Heat"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tarragon_StampedeProximityEffect'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Capabilities/Stampede/DA_Tarragon_StampedeProximityEffect.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Explode"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_BullCrab_Shockwave_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_BullCrab_Shockwave_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tarragon_SelfDestruct_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Tarragon_SelfDestruct_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "Anim_IdleToAlert_GEN_VARIABLE",
+                      "SanitizedComponentName": "Anim_IdleToAlert",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::Stop"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "Anim_IdleToAlert_GEN_VARIABLE",
+                      "SanitizedComponentName": "Anim_IdleToAlert",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        }
+      ],
+      "Extensions": [
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionRamMoveAbility'CS_Tarragon_01_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionRamMoveAbility_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.9"
+        },
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionProximityEffectAbility'CS_Tarragon_01_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionProximityEffectAbility_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionProximityEffectAbility",
+    "Name": "CapabilityStyleDriverExtensionProximityEffectAbility_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionProximityEffectAbility'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Tarragon_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.7"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionRamMoveAbility",
+    "Name": "CapabilityStyleDriverExtensionRamMoveAbility_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionRamMoveAbility'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_Tarragon_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.7"
+    },
+    "Properties": {
+      "SpeedIntensityMultiplier": 1.5
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Tarragon_01_C'Default__CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.11"
+    }
+  },
+  {
+    "Type": "CS_Tarragon_01_C",
+    "Name": "Default__CS_Tarragon_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.CS_Tarragon_01_C'",
+    "Package": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -371.45743,
+          "Y": -237.85892,
+          "Z": -333.5714
+        },
+        "Max": {
+          "X": 232.83824,
+          "Y": 237.85912,
+          "Z": 118.447395
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Tarragon_01_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.10"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_S'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_S.0"
+      }
+    }
+  },
+  {
+    "Type": "LaserFlareStyleDriver",
+    "Name": "LaserFlareStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "LaserObjects": [
+        {
+          "ObjectName": "TargetingLaserObject'CS_Tarragon_01_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.39"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_Forward",
+    "Name": "LaserFlareTargeting_Forward_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_Forward'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_Tarragon_01_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.39"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 26,
+          "PartDisplayName": "Gun"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Tarragon_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.15"
+      },
+      "VariableGUID": "15FDCDC3-43B48A66-631028B7-BC1814BF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Tarragon_01_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.33"
+      },
+      "VariableGUID": "18239FBE-49800AA4-48CDD9AF-C5768081",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_IdleToAlert_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.36"
+      },
+      "VariableGUID": "AB2FB46E-4B515B84-D30A86AD-E3958959",
+      "InternalVariableName": "Anim_IdleToAlert"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_AlertToIdle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.34"
+      },
+      "VariableGUID": "11B18F24-48EFB697-C6284E87-AE7B9C70",
+      "InternalVariableName": "Anim_AlertToIdle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_HeadOpen_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.35"
+      },
+      "VariableGUID": "B55C3671-46859AA5-EF901E8F-05A1520C",
+      "InternalVariableName": "Anim_HeadOpen"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_RaiseCannon_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.38"
+      },
+      "VariableGUID": "57FB8CA0-4BD76247-495373B1-E7DA71AE",
+      "InternalVariableName": "Anim_RaiseCannon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Tarragon_01_C:Anim_LowerCannon_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.37"
+      },
+      "VariableGUID": "4D03FCD7-4E0C7C85-DDC24C85-BB8E412D",
+      "InternalVariableName": "Anim_LowerCannon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_Tarragon_01_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.0"
+      },
+      "VariableGUID": "A6774317-40B63350-80B543A5-43B889F5",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_BullCrab_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_BullCrab.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MovingPartAudioStyleDriver_BullCrab_C'CS_Tarragon_01_C:BP_MovingPartAudioStyleDriver_Tarragon_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.5"
+      },
+      "VariableGUID": "35259AB3-4C9D1D5C-081C9E97-8A101242",
+      "InternalVariableName": "BP_MovingPartAudioStyleDriver_Tarragon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_Tarragon_01_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.3"
+      },
+      "VariableGUID": "249BEED8-4760C9FA-2264EA82-0711C640",
+      "InternalVariableName": "BP_CollisionStyleDriver_Medium"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AIStateStyleDriver_BullCrab_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/AIStateStyleDrivers/BP_AIStateStyleDriver_BullCrab.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AIStateStyleDriver_BullCrab_C'CS_Tarragon_01_C:BP_AIStateStyleDriver_Tarragon_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.2"
+      },
+      "VariableGUID": "0F442474-42498182-8B78D7B7-77D05677",
+      "InternalVariableName": "BP_AIStateStyleDriver_Tarragon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Large_C'CS_Tarragon_01_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.4"
+      },
+      "VariableGUID": "AFB8798F-4C40C49F-6B81EA9F-91B04704",
+      "InternalVariableName": "BP_DamageStyleDriver_Large"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Tarragon_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.7"
+      },
+      "VariableGUID": "76B840A0-4CE1EB52-4D669F81-FCEEF3D1",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LaserFlareStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LaserFlareStyleDriver'CS_Tarragon_01_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.13"
+      },
+      "VariableGUID": "D104E365-48AC5625-EAA43C93-1E89EA14",
+      "InternalVariableName": "LaserFlareStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Tarragon_01_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.6"
+      },
+      "VariableGUID": "4F63DCB5-467FFE22-1526F0B9-7100D1AF",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Tarragon_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.32"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Tarragon_01_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.12"
+      },
+      "VariableGUID": "29CC7205-49D9C416-F52E87A9-B7384E79",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.23"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.23"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Tarragon_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.16"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "DebrisImpactImpulseScale": 600.0,
+      "ScavengeImpactScalar": 1.1,
+      "ProjectCenterHitsOutwardsFraction": 0.7,
+      "DebrisLinearDamping": 0.8,
+      "DebrisAngularDamping": 0.8,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_Tarragon_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/DataAssets/DA_Tarragon_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSM_Tarragon_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CSSM_Tarragon_01.0"
+      },
+      "VirtualPartBones": [
+        "HeadPivot",
+        "Foot_L_01",
+        "Foot_R_01",
+        "Foot_L_02",
+        "Foot_R_02"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 60
+      },
+      "SocketGroups": [
+        {
+          "Key": "26",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "Muzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "LauncherMuzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "0",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "FirePatchMuzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "SocketIDs": [
+        {
+          "Key": "0",
+          "Value": {
+            "Items": [
+              {
+                "Key": "FirePatchMuzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Body_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Items": [
+              {
+                "Key": "VisionCone",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Eye_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Gun"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Items": [
+              {
+                "Key": "LauncherMuzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "RocketLauncher"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": -221.3118,
+                "Y": -136.64743,
+                "Z": -98.83654
+              },
+              {
+                "X": -52.72995,
+                "Y": -75.88774,
+                "Z": -118.47571
+              },
+              {
+                "X": -37.05891,
+                "Y": 132.7916,
+                "Z": -114.93882
+              },
+              {
+                "X": 73.48185,
+                "Y": -187.95718,
+                "Z": -42.655674
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": 86.61691,
+                "Y": 74.27944,
+                "Z": -20.015482
+              },
+              {
+                "X": 14.4503355,
+                "Y": 22.403893,
+                "Z": -51.893723
+              },
+              {
+                "X": 49.600143,
+                "Y": -9.363289,
+                "Z": 87.54344
+              },
+              {
+                "X": -104.288284,
+                "Y": -15.625667,
+                "Z": -27.322237
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -46.346302,
+                "Y": -49.187416,
+                "Z": 47.383675
+              },
+              {
+                "X": -62.48559,
+                "Y": 55.69556,
+                "Z": -42.994312
+              },
+              {
+                "X": -51.927845,
+                "Y": -25.682596,
+                "Z": -76.46258
+              },
+              {
+                "X": 101.10706,
+                "Y": -2.8781464,
+                "Z": 25.940409
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 71.557655,
+                "Y": -16.747429,
+                "Z": -45.949677
+              },
+              {
+                "X": 139.3759,
+                "Y": -5.0478373,
+                "Z": 60.82987
+              },
+              {
+                "X": -105.9008,
+                "Y": -10.211954,
+                "Z": 58.497757
+              },
+              {
+                "X": -78.57971,
+                "Y": 0.03874333,
+                "Z": -36.338818
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -128.78116,
+                "Y": 6.3218513,
+                "Z": 43.319706
+              },
+              {
+                "X": -131.17947,
+                "Y": 36.669155,
+                "Z": -60.73203
+              },
+              {
+                "X": 105.07527,
+                "Y": 9.872342,
+                "Z": -1.7335103
+              },
+              {
+                "X": 2.4943426,
+                "Y": -27.097324,
+                "Z": 47.729572
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 34.067413,
+                "Y": 11.252744,
+                "Z": 19.25677
+              },
+              {
+                "X": 33.51106,
+                "Y": 8.622361,
+                "Z": 2.4261303
+              },
+              {
+                "X": 62.745922,
+                "Y": 3.304975,
+                "Z": 25.41324
+              },
+              {
+                "X": 28.438347,
+                "Y": -17.968534,
+                "Z": 35.845318
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": -58.56193,
+                "Y": -6.1705027,
+                "Z": -20.878319
+              },
+              {
+                "X": -32.258327,
+                "Y": 16.803375,
+                "Z": -3.1837745
+              },
+              {
+                "X": -17.708399,
+                "Y": -13.256937,
+                "Z": -8.828189
+              },
+              {
+                "X": -30.9014,
+                "Y": 10.298541,
+                "Z": -42.95626
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 162.78714,
+                "Y": 10.048986,
+                "Z": -81.66019
+              },
+              {
+                "X": 188.90494,
+                "Y": 76.963524,
+                "Z": -10.850085
+              },
+              {
+                "X": 157.21829,
+                "Y": 161.37915,
+                "Z": -12.886502
+              },
+              {
+                "X": 126.987404,
+                "Y": -14.554406,
+                "Z": -2.8366795
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": 88.44476,
+                "Y": -17.00256,
+                "Z": 15.196281
+              },
+              {
+                "X": 54.772797,
+                "Y": 50.39523,
+                "Z": 17.552973
+              },
+              {
+                "X": 85.20884,
+                "Y": 80.0826,
+                "Z": -14.8202305
+              },
+              {
+                "X": 58.595894,
+                "Y": -69.89521,
+                "Z": -15.372689
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": -92.55627,
+                "Y": -74.75621,
+                "Z": -0.6202776
+              },
+              {
+                "X": 41.31822,
+                "Y": -92.41395,
+                "Z": -20.26696
+              },
+              {
+                "X": -23.405188,
+                "Y": -67.841736,
+                "Z": 21.943893
+              },
+              {
+                "X": -38.908512,
+                "Y": -109.69732,
+                "Z": -23.838945
+              }
+            ]
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "Points": [
+              {
+                "X": 20.696714,
+                "Y": 113.029915,
+                "Z": 23.81573
+              },
+              {
+                "X": 24.538023,
+                "Y": 60.9643,
+                "Z": -21.821873
+              },
+              {
+                "X": -43.381092,
+                "Y": 74.0627,
+                "Z": -4.821225
+              },
+              {
+                "X": 83.40876,
+                "Y": 65.05902,
+                "Z": 22.743843
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": 17.585903,
+                "Y": -4.837597,
+                "Z": 37.09949
+              },
+              {
+                "X": 8.18911,
+                "Y": -0.5718054,
+                "Z": -21.925035
+              },
+              {
+                "X": -31.13132,
+                "Y": 20.059853,
+                "Z": 5.5263057
+              },
+              {
+                "X": 95.83661,
+                "Y": -25.066238,
+                "Z": 19.801903
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "Points": [
+              {
+                "X": 33.52688,
+                "Y": 9.709201,
+                "Z": 25.569431
+              },
+              {
+                "X": 43.82117,
+                "Y": -21.292192,
+                "Z": -21.735744
+              },
+              {
+                "X": -93.1925,
+                "Y": 23.614407,
+                "Z": -29.179447
+              },
+              {
+                "X": -33.736572,
+                "Y": -5.568397,
+                "Z": -1.7827803
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "Points": [
+              {
+                "X": 20.190897,
+                "Y": 12.954577,
+                "Z": 48.976364
+              },
+              {
+                "X": 44.11271,
+                "Y": 21.86232,
+                "Z": 31.18406
+              },
+              {
+                "X": 42.89146,
+                "Y": 2.1856465,
+                "Z": -5.9128118
+              },
+              {
+                "X": 48.24534,
+                "Y": -12.81762,
+                "Z": 25.46741
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": -48.159737,
+                "Y": 7.1297326,
+                "Z": -25.391563
+              },
+              {
+                "X": -42.95959,
+                "Y": 8.086388,
+                "Z": 5.5078907
+              },
+              {
+                "X": -43.9897,
+                "Y": -20.967985,
+                "Z": 0.19544674
+              },
+              {
+                "X": -33.36103,
+                "Y": -21.82977,
+                "Z": -40.852024
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": 75.46155,
+                "Y": -59.05007,
+                "Z": 2.3568783
+              },
+              {
+                "X": -0.041463897,
+                "Y": 81.02517,
+                "Z": 11.027679
+              },
+              {
+                "X": -32.12775,
+                "Y": -83.713646,
+                "Z": 4.9374933
+              },
+              {
+                "X": 80.48568,
+                "Y": 27.030592,
+                "Z": 9.435633
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": -35.68932,
+                "Y": -83.85276,
+                "Z": 0.20037691
+              },
+              {
+                "X": 4.6462326,
+                "Y": 85.92123,
+                "Z": -29.289335
+              },
+              {
+                "X": -26.342527,
+                "Y": 51.41254,
+                "Z": 34.733757
+              },
+              {
+                "X": 45.21598,
+                "Y": -0.0016613512,
+                "Z": -22.801159
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 49.926456,
+                "Y": 7.567196,
+                "Z": -28.792242
+              },
+              {
+                "X": -51.31265,
+                "Y": -29.435196,
+                "Z": 31.600847
+              },
+              {
+                "X": -50.67353,
+                "Y": 23.92425,
+                "Z": -17.549347
+              },
+              {
+                "X": 30.1083,
+                "Y": -24.111235,
+                "Z": 106.816895
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": -17.818554,
+                "Y": 17.219257,
+                "Z": -19.227089
+              },
+              {
+                "X": -4.1713176,
+                "Y": -21.380442,
+                "Z": 20.83158
+              },
+              {
+                "X": -1.5026046,
+                "Y": -21.566698,
+                "Z": -27.908245
+              },
+              {
+                "X": 7.898587,
+                "Y": 17.378141,
+                "Z": 20.942757
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": 85.53301,
+                "Y": -5.2112865,
+                "Z": -2.5812814
+              },
+              {
+                "X": -5.407192,
+                "Y": 2.7068639,
+                "Z": -2.6080594
+              },
+              {
+                "X": -3.8625016,
+                "Y": 0.03833813,
+                "Z": 71.55222
+              },
+              {
+                "X": 81.809265,
+                "Y": 8.00478,
+                "Z": 70.94675
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": -13.792936,
+                "Y": -2.4595025,
+                "Z": 1.8597995
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Points": [
+              {
+                "X": 9.193874,
+                "Y": 16.829254,
+                "Z": -12.586003
+              },
+              {
+                "X": 34.691856,
+                "Y": 4.8114977,
+                "Z": -10.337488
+              },
+              {
+                "X": 23.891792,
+                "Y": -18.326584,
+                "Z": -10.932854
+              },
+              {
+                "X": 3.654535,
+                "Y": -4.604283,
+                "Z": -3.0112422
+              }
+            ]
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "Points": [
+              {
+                "X": 9.79609,
+                "Y": -10.347741,
+                "Z": -12.433422
+              },
+              {
+                "X": 6.4262624,
+                "Y": 10.654661,
+                "Z": -5.132415
+              },
+              {
+                "X": 34.69214,
+                "Y": -4.8112755,
+                "Z": -10.337604
+              },
+              {
+                "X": 21.881365,
+                "Y": 19.753078,
+                "Z": -11.07906
+              }
+            ]
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "Points": [
+              {
+                "X": -11.714591,
+                "Y": 12.100297,
+                "Z": -16.401052
+              },
+              {
+                "X": -10.042343,
+                "Y": 7.220707,
+                "Z": -28.294964
+              },
+              {
+                "X": -16.860378,
+                "Y": -8.33882,
+                "Z": -15.444838
+              },
+              {
+                "X": 6.9214215,
+                "Y": 22.739618,
+                "Z": -10.209028
+              }
+            ]
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "Points": [
+              {
+                "X": -7.0775747,
+                "Y": -9.9678135,
+                "Z": -24.50848
+              },
+              {
+                "X": 12.197343,
+                "Y": -27.677124,
+                "Z": -5.018965
+              },
+              {
+                "X": 1.9564039,
+                "Y": -18.4461,
+                "Z": -14.887942
+              },
+              {
+                "X": -16.815578,
+                "Y": 2.5350595,
+                "Z": -11.748377
+              }
+            ]
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "Points": [
+              {
+                "X": 1.3740166,
+                "Y": 14.659312,
+                "Z": -13.305308
+              },
+              {
+                "X": -4.6991,
+                "Y": -17.278734,
+                "Z": -13.917277
+              },
+              {
+                "X": -14.9809265,
+                "Y": 0.20014052,
+                "Z": 8.489688
+              },
+              {
+                "X": 7.7292533,
+                "Y": -0.46050858,
+                "Z": -21.25513
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": -57.08062,
+                "Y": -7.609771,
+                "Z": -1.0151347
+              },
+              {
+                "X": 10.576515,
+                "Y": 16.056187,
+                "Z": 33.371845
+              },
+              {
+                "X": 82.24642,
+                "Y": 44.97419,
+                "Z": -12.979762
+              },
+              {
+                "X": -135.12778,
+                "Y": 5.243662,
+                "Z": 20.65488
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": -73.20407,
+                "Y": -33.722225,
+                "Z": -31.312798
+              },
+              {
+                "X": 70.45265,
+                "Y": 4.1114945,
+                "Z": -2.2543483
+              },
+              {
+                "X": -0.44065657,
+                "Y": 1.7915515,
+                "Z": 20.07894
+              },
+              {
+                "X": 135.76636,
+                "Y": -5.30586,
+                "Z": -20.830652
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Points": [
+              {
+                "X": 35.947598,
+                "Y": -22.38898,
+                "Z": -41.084324
+              },
+              {
+                "X": 67.803986,
+                "Y": 22.926655,
+                "Z": -28.200325
+              },
+              {
+                "X": 62.571503,
+                "Y": -8.76928,
+                "Z": 23.153461
+              },
+              {
+                "X": -29.344131,
+                "Y": -0.7378978,
+                "Z": 22.086458
+              }
+            ]
+          }
+        },
+        {
+          "Key": "30",
+          "Value": {
+            "Points": [
+              {
+                "X": -15.8594,
+                "Y": 32.818935,
+                "Z": -11.366013
+              },
+              {
+                "X": -15.859359,
+                "Y": -32.818787,
+                "Z": -11.36597
+              },
+              {
+                "X": 7.157771,
+                "Y": 32.81895,
+                "Z": -11.35268
+              },
+              {
+                "X": 18.40051,
+                "Y": -32.818764,
+                "Z": -6.0607977
+              }
+            ]
+          }
+        },
+        {
+          "Key": "31",
+          "Value": {
+            "Points": [
+              {
+                "X": 12.739505,
+                "Y": -18.44762,
+                "Z": -35.510857
+              },
+              {
+                "X": 3.7155535,
+                "Y": 9.05354,
+                "Z": -36.232487
+              },
+              {
+                "X": -1.4331825,
+                "Y": -14.790895,
+                "Z": -12.363793
+              },
+              {
+                "X": 1.4176267,
+                "Y": 22.288431,
+                "Z": -15.818961
+              }
+            ]
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "Points": [
+              {
+                "X": 163.39136,
+                "Y": 17.895947,
+                "Z": -10.95227
+              },
+              {
+                "X": 156.64258,
+                "Y": 21.819376,
+                "Z": 37.325535
+              },
+              {
+                "X": 91.70928,
+                "Y": 22.298748,
+                "Z": 0.44294116
+              },
+              {
+                "X": 28.616571,
+                "Y": 24.527569,
+                "Z": 25.93835
+              }
+            ]
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.83930546,
+                "Y": -16.12237,
+                "Z": -19.01323
+              },
+              {
+                "X": -11.881175,
+                "Y": -16.898033,
+                "Z": 0.17311813
+              },
+              {
+                "X": 29.256247,
+                "Y": -12.293027,
+                "Z": -19.562284
+              },
+              {
+                "X": 11.393695,
+                "Y": -13.830716,
+                "Z": 2.5947921
+              }
+            ]
+          }
+        },
+        {
+          "Key": "35",
+          "Value": {
+            "Points": [
+              {
+                "X": -77.153114,
+                "Y": -5.067135,
+                "Z": 13.884974
+              }
+            ]
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "Points": [
+              {
+                "X": -53.715233,
+                "Y": 10.872639,
+                "Z": -32.459797
+              },
+              {
+                "X": -76.90481,
+                "Y": 12.365152,
+                "Z": -22.077326
+              },
+              {
+                "X": -30.98889,
+                "Y": 26.177242,
+                "Z": -26.48683
+              },
+              {
+                "X": -58.924145,
+                "Y": 20.860971,
+                "Z": -6.460116
+              }
+            ]
+          }
+        },
+        {
+          "Key": "37",
+          "Value": {
+            "Points": [
+              {
+                "X": 18.056011,
+                "Y": 23.817852,
+                "Z": -42.42625
+              },
+              {
+                "X": 95.98636,
+                "Y": 35.020134,
+                "Z": -15.879918
+              },
+              {
+                "X": 43.01567,
+                "Y": 37.39022,
+                "Z": 31.526493
+              },
+              {
+                "X": -41.076363,
+                "Y": 25.469141,
+                "Z": 34.834938
+              }
+            ]
+          }
+        },
+        {
+          "Key": "38",
+          "Value": {
+            "Points": [
+              {
+                "X": -14.549977,
+                "Y": 22.93832,
+                "Z": 17.509953
+              },
+              {
+                "X": -22.694784,
+                "Y": 22.934875,
+                "Z": 1.8619337
+              },
+              {
+                "X": -29.798643,
+                "Y": 12.274421,
+                "Z": 2.4576232
+              },
+              {
+                "X": -19.286087,
+                "Y": 12.22341,
+                "Z": 22.873487
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39",
+          "Value": {
+            "Points": [
+              {
+                "X": 138.05872,
+                "Y": -21.435726,
+                "Z": 2.26336
+              },
+              {
+                "X": -1.7734894,
+                "Y": -9.2620945,
+                "Z": 29.774237
+              },
+              {
+                "X": 87.86776,
+                "Y": -23.719202,
+                "Z": 37.016586
+              },
+              {
+                "X": 192.12502,
+                "Y": -20.570124,
+                "Z": 18.870647
+              }
+            ]
+          }
+        },
+        {
+          "Key": "40",
+          "Value": {
+            "Points": [
+              {
+                "X": 31.17342,
+                "Y": 11.882628,
+                "Z": -19.176577
+              },
+              {
+                "X": -11.88104,
+                "Y": 16.897964,
+                "Z": 0.17325309
+              },
+              {
+                "X": -12.638215,
+                "Y": 17.446306,
+                "Z": -20.476154
+              },
+              {
+                "X": 11.393959,
+                "Y": 13.830625,
+                "Z": 2.594882
+              }
+            ]
+          }
+        },
+        {
+          "Key": "42",
+          "Value": {
+            "Points": [
+              {
+                "X": -77.185394,
+                "Y": 4.997751,
+                "Z": 13.904093
+              }
+            ]
+          }
+        },
+        {
+          "Key": "43",
+          "Value": {
+            "Points": [
+              {
+                "X": -30.988811,
+                "Y": -26.177317,
+                "Z": -26.48686
+              },
+              {
+                "X": -55.07239,
+                "Y": -3.215604,
+                "Z": -38.097034
+              },
+              {
+                "X": -44.659298,
+                "Y": -23.800703,
+                "Z": -15.187065
+              },
+              {
+                "X": -82.85712,
+                "Y": -7.043108,
+                "Z": -24.51719
+              }
+            ]
+          }
+        },
+        {
+          "Key": "44",
+          "Value": {
+            "Points": [
+              {
+                "X": -25.25354,
+                "Y": -22.12266,
+                "Z": 34.73964
+              },
+              {
+                "X": 82.021194,
+                "Y": -35.90943,
+                "Z": 6.1868944
+              },
+              {
+                "X": 44.21245,
+                "Y": -27.080378,
+                "Z": -39.150574
+              },
+              {
+                "X": 4.1171927,
+                "Y": -8.229555,
+                "Z": -45.29227
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45",
+          "Value": {
+            "Points": [
+              {
+                "X": -19.091469,
+                "Y": -12.357553,
+                "Z": 22.955328
+              },
+              {
+                "X": -22.689224,
+                "Y": -22.921963,
+                "Z": 1.9444965
+              },
+              {
+                "X": -29.81307,
+                "Y": -12.244332,
+                "Z": 2.4686654
+              },
+              {
+                "X": -23.137505,
+                "Y": -17.878342,
+                "Z": 12.173735
+              }
+            ]
+          }
+        },
+        {
+          "Key": "46",
+          "Value": {
+            "Points": [
+              {
+                "X": 14.250716,
+                "Y": -18.851484,
+                "Z": 6.920264
+              },
+              {
+                "X": 23.864376,
+                "Y": 13.428019,
+                "Z": -2.351507
+              },
+              {
+                "X": -4.6454844,
+                "Y": 13.253702,
+                "Z": 22.129238
+              },
+              {
+                "X": -2.874209,
+                "Y": -25.45997,
+                "Z": 22.23808
+              }
+            ]
+          }
+        },
+        {
+          "Key": "47",
+          "Value": {
+            "Points": [
+              {
+                "X": 27.254759,
+                "Y": -7.252938,
+                "Z": -15.599376
+              },
+              {
+                "X": 20.666948,
+                "Y": -2.6745467,
+                "Z": -15.679471
+              },
+              {
+                "X": 38.29104,
+                "Y": -14.955035,
+                "Z": -15.488348
+              },
+              {
+                "X": -8.42161,
+                "Y": 16.841908,
+                "Z": -15.596671
+              }
+            ]
+          }
+        },
+        {
+          "Key": "49",
+          "Value": {
+            "Points": [
+              {
+                "X": -77.53946,
+                "Y": 3.3277867,
+                "Z": -4.1499953
+              }
+            ]
+          }
+        },
+        {
+          "Key": "50",
+          "Value": {
+            "Points": [
+              {
+                "X": -24.581944,
+                "Y": -15.981585,
+                "Z": -23.925808
+              }
+            ]
+          }
+        },
+        {
+          "Key": "51",
+          "Value": {
+            "Points": [
+              {
+                "X": -16.95832,
+                "Y": 1.6458633,
+                "Z": -26.933111
+              },
+              {
+                "X": -61.234318,
+                "Y": -15.210479,
+                "Z": 6.3228087
+              },
+              {
+                "X": -25.027496,
+                "Y": -10.674784,
+                "Z": -22.629808
+              },
+              {
+                "X": -41.231533,
+                "Y": 15.622604,
+                "Z": -9.961183
+              }
+            ]
+          }
+        },
+        {
+          "Key": "52",
+          "Value": {
+            "Points": [
+              {
+                "X": -17.09904,
+                "Y": -11.020906,
+                "Z": 20.660116
+              },
+              {
+                "X": -25.710186,
+                "Y": 0.17527913,
+                "Z": 13.392808
+              },
+              {
+                "X": -26.715569,
+                "Y": -11.037632,
+                "Z": 2.1820533
+              },
+              {
+                "X": -23.783926,
+                "Y": -11.215278,
+                "Z": 12.214629
+              }
+            ]
+          }
+        },
+        {
+          "Key": "53",
+          "Value": {
+            "Points": [
+              {
+                "X": 20.143444,
+                "Y": 0.92905766,
+                "Z": 1.4224392
+              },
+              {
+                "X": -4.569888,
+                "Y": -12.883379,
+                "Z": 22.02094
+              },
+              {
+                "X": 2.8440747,
+                "Y": 24.709158,
+                "Z": 17.279646
+              },
+              {
+                "X": 17.955406,
+                "Y": -17.405653,
+                "Z": 2.5115874
+              }
+            ]
+          }
+        },
+        {
+          "Key": "54",
+          "Value": {
+            "Points": [
+              {
+                "X": 25.548002,
+                "Y": 6.004232,
+                "Z": -15.664875
+              },
+              {
+                "X": -2.5806503,
+                "Y": -12.79656,
+                "Z": -15.496161
+              },
+              {
+                "X": 38.378662,
+                "Y": 14.818697,
+                "Z": -15.588681
+              },
+              {
+                "X": 20.470673,
+                "Y": 2.6978223,
+                "Z": -15.56975
+              }
+            ]
+          }
+        },
+        {
+          "Key": "56",
+          "Value": {
+            "Points": [
+              {
+                "X": -77.55644,
+                "Y": -3.4027174,
+                "Z": -4.1661587
+              },
+              {
+                "X": -71.82734,
+                "Y": -0.07823039,
+                "Z": -5.634377
+              }
+            ]
+          }
+        },
+        {
+          "Key": "57",
+          "Value": {
+            "Points": [
+              {
+                "X": -24.600464,
+                "Y": 15.8768635,
+                "Z": -23.946653
+              }
+            ]
+          }
+        },
+        {
+          "Key": "58",
+          "Value": {
+            "Points": [
+              {
+                "X": -41.231445,
+                "Y": -15.622551,
+                "Z": -9.961236
+              },
+              {
+                "X": -16.958122,
+                "Y": -1.6457565,
+                "Z": -26.93327
+              },
+              {
+                "X": -60.30131,
+                "Y": 11.286685,
+                "Z": 5.3919044
+              },
+              {
+                "X": -26.296497,
+                "Y": 25.59915,
+                "Z": -21.458952
+              }
+            ]
+          }
+        },
+        {
+          "Key": "59",
+          "Value": {
+            "Points": [
+              {
+                "X": -19.118494,
+                "Y": 11.256913,
+                "Z": 18.010117
+              },
+              {
+                "X": -23.805233,
+                "Y": 11.129123,
+                "Z": 12.231173
+              },
+              {
+                "X": -26.67897,
+                "Y": 11.1267395,
+                "Z": 2.17354
+              },
+              {
+                "X": -25.709377,
+                "Y": -0.1733306,
+                "Z": 13.393676
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "PartsIDsToNotAutoWeldQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Neck"
+          },
+          {
+            "TagName": "Part.Decorator.ID.FootCollision"
+          },
+          {
+            "TagName": "Part.Decorator.ID.Interior"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          3,
+          3,
+          0,
+          1,
+          2
+        ],
+        "AutoDescription": " NONE( Part.Decorator.ID.Neck,\n Part.Decorator.ID.FootCollision,\n Part.Decorator.ID.Interior )"
+      },
+      "bEnableKinematicKinematicHitEvents_Server": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Tarragon_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Art/SK_Tarragon_01.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Tarragon_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Art/SK_Tarragon_01.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "MinionIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "bSimulatePhysics": true
+      },
+      "ComponentTags": [
+        "SkeletalMeshStyleComponent"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_AlertToIdle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalMeshStyleComponent",
+          "BoneNames": [
+            "Neck_01",
+            "NeckPivot_01",
+            "HeadPivot"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Sinusoidal",
+            "BlendTime": 1.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Tarragon_01_AlertToIdle_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Animation/A_Tarragon_01_AlertToIdle_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_AlertToIdle"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_HeadOpen_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalMeshStyleComponent",
+          "BoneNames": [
+            "Flap_01_C_01",
+            "Flap_01_C_02",
+            "Flap_02_L",
+            "Flap_02_R"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Tarragon_01_HeadOpen_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Animation/A_Tarragon_01_HeadOpen_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_HeadOpen"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_IdleToAlert_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalMeshStyleComponent",
+          "BoneNames": [
+            "Neck_01",
+            "NeckPivot_01",
+            "HeadPivot"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Sinusoidal",
+            "BlendTime": 1.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Tarragon_01_IdleToAlert_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Animation/A_Tarragon_01_IdleToAlert_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_IdleToAlert"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_LowerCannon_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalMeshStyleComponent",
+          "BoneNames": [
+            "RocketLauncher",
+            "RocketLauncherLock"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Tarragon_01_LowerCannon_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Animation/A_Tarragon_01_LowerCannon_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_LowerCannon"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_RaiseCannon_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkeletalMeshStyleComponent",
+          "BoneNames": [
+            "RocketLauncher",
+            "RocketLauncherLock"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Tarragon_01_RaiseCannon_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/Animation/A_Tarragon_01_RaiseCannon_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_RaiseCannon"
+      ]
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_Tarragon_01_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.13"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 26,
+        "PartDisplayName": "Gun"
+      },
+      "AttachSocket": "Muzzle",
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Weapon.Shotgun"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Shotgun )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_Tarragon_01_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.1"
+          }
+        },
+        "PartList": [
+          {
+            "Key": "26",
+            "Value": "Gun"
+          }
+        ]
+      },
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_Forward'CS_Tarragon_01_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0.LaserFlareTargeting_Forward_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tarragon/CS_Tarragon_01.14"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Flare_TargetingLaser_Turret'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_Flare_TargetingLaser_Turret.0"
+      }
+    }
+  }
+]

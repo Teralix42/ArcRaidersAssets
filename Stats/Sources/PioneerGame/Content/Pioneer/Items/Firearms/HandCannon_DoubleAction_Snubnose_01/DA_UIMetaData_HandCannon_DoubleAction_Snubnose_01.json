@@ -1,0 +1,854 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_HandCannon_DoubleAction_Snubnose_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_Persistence_HandCannon_DoubleAction_Snubnose_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Bantam",
+        "LocalizedString": "Bantam"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range.",
+        "LocalizedString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range."
+      },
+      "QualityLevel": 2,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.HandCannon"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T3.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T3.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.57111007,
+          "Y": 77.85183,
+          "Z": 109.118416
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.3421044,
+          "Y": 59.52813,
+          "Z": 82.38766
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.360728,
+          "Y": 0.238262,
+          "Z": -0.900756,
+          "W": -0.041782,
+          "IsNormalized": true,
+          "Size": 1.0000002,
+          "SizeSquared": 1.0000006
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.147461,
+          "Y": -0.284048,
+          "Z": 0.933646,
+          "W": 0.160862,
+          "IsNormalized": true,
+          "Size": 0.99999976,
+          "SizeSquared": 0.9999995
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/Qualities/DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Bantam",
+        "LocalizedString": "Bantam"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range.",
+        "LocalizedString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range."
+      },
+      "QualityLevel": 2,
+      "UpgradeLevel": 1,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.HandCannon"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T0.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T0.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.57111007,
+          "Y": 77.85183,
+          "Z": 109.118416
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.3421044,
+          "Y": 59.52813,
+          "Z": 82.38766
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.360728,
+          "Y": 0.238262,
+          "Z": -0.900756,
+          "W": -0.041782,
+          "IsNormalized": true,
+          "Size": 1.0000002,
+          "SizeSquared": 1.0000006
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.147461,
+          "Y": -0.284048,
+          "Z": 0.933646,
+          "W": 0.160862,
+          "IsNormalized": true,
+          "Size": 0.99999976,
+          "SizeSquared": 0.9999995
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_DOUBLEACTION",
+            "SourceString": "Double-Action",
+            "LocalizedString": "Double-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T1'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/Qualities/DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T1.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Bantam",
+        "LocalizedString": "Bantam"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range.",
+        "LocalizedString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range."
+      },
+      "QualityLevel": 2,
+      "UpgradeLevel": 2,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.HandCannon"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T1.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T1",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T1.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T1",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.57111007,
+          "Y": 77.85183,
+          "Z": 109.118416
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.3421044,
+          "Y": 59.52813,
+          "Z": 82.38766
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.360728,
+          "Y": 0.238262,
+          "Z": -0.900756,
+          "W": -0.041782,
+          "IsNormalized": true,
+          "Size": 1.0000002,
+          "SizeSquared": 1.0000006
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.147461,
+          "Y": -0.284048,
+          "Z": 0.933646,
+          "W": 0.160862,
+          "IsNormalized": true,
+          "Size": 0.99999976,
+          "SizeSquared": 0.9999995
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_DOUBLEACTION",
+            "SourceString": "Double-Action",
+            "LocalizedString": "Double-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 14.7,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DISPERSIONRECOVERYTIME_NEGATIVE",
+            "SourceString": "{0}% Increased Dispersion Recovery Time",
+            "LocalizedString": "{0}% Increased Dispersion Recovery Time"
+          },
+          "ModifierValue": 6.25,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONGAIN_POSITIVE",
+            "SourceString": "{0}% Reduced Per-Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Per-Shot Dispersion"
+          },
+          "ModifierValue": 8.1,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T2'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/Qualities/DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T2.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Bantam",
+        "LocalizedString": "Bantam"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range.",
+        "LocalizedString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range."
+      },
+      "QualityLevel": 2,
+      "UpgradeLevel": 3,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.HandCannon"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T2.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T2",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T2.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T2",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.57111007,
+          "Y": 77.85183,
+          "Z": 109.118416
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.3421044,
+          "Y": 59.52813,
+          "Z": 82.38766
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.360728,
+          "Y": 0.238262,
+          "Z": -0.900756,
+          "W": -0.041782,
+          "IsNormalized": true,
+          "Size": 1.0000002,
+          "SizeSquared": 1.0000006
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.147461,
+          "Y": -0.284048,
+          "Z": 0.933646,
+          "W": 0.160862,
+          "IsNormalized": true,
+          "Size": 0.99999976,
+          "SizeSquared": 0.9999995
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_DOUBLEACTION",
+            "SourceString": "Double-Action",
+            "LocalizedString": "Double-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 29.4,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DISPERSIONRECOVERYTIME_NEGATIVE",
+            "SourceString": "{0}% Increased Dispersion Recovery Time",
+            "LocalizedString": "{0}% Increased Dispersion Recovery Time"
+          },
+          "ModifierValue": 12.5,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONGAIN_POSITIVE",
+            "SourceString": "{0}% Reduced Per-Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Per-Shot Dispersion"
+          },
+          "ModifierValue": 16.2,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.5"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T3'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/Qualities/DA_Persistence_HandCannon_DoubleAction_Snubnose_01_T3.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Bantam",
+        "LocalizedString": "Bantam"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_HANDCANNON_DOUBLEACTION_SNUBNOSE_01",
+        "SourceString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range.",
+        "LocalizedString": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range."
+      },
+      "QualityLevel": 2,
+      "UpgradeLevel": 4,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.HandCannon"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Heavy.T_UI_Ammo_Heavy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T3.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T3.T_UI_Icon_HandCannon_DoubleAction_Snubnose_01_BigIcon_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.57111007,
+          "Y": 77.85183,
+          "Z": 109.118416
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -4.3421044,
+          "Y": 59.52813,
+          "Z": 82.38766
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.360728,
+          "Y": 0.238262,
+          "Z": -0.900756,
+          "W": -0.041782,
+          "IsNormalized": true,
+          "Size": 1.0000002,
+          "SizeSquared": 1.0000006
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.147461,
+          "Y": -0.284048,
+          "Z": 0.933646,
+          "W": 0.160862,
+          "IsNormalized": true,
+          "Size": 0.99999976,
+          "SizeSquared": 0.9999995
+        },
+        "Scale3D": {
+          "X": 1.2,
+          "Y": -1.2,
+          "Z": 1.2
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_DOUBLEACTION",
+            "SourceString": "Double-Action",
+            "LocalizedString": "Double-Action"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_STRONG",
+            "SourceString": "Strong",
+            "LocalizedString": "Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ],
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_RELOADSPEED_POSITIVE",
+            "SourceString": "{0}% Reduced Reload Time",
+            "LocalizedString": "{0}% Reduced Reload Time"
+          },
+          "ModifierValue": 44.1,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DISPERSIONRECOVERYTIME_NEGATIVE",
+            "SourceString": "{0}% Increased Dispersion Recovery Time",
+            "LocalizedString": "{0}% Increased Dispersion Recovery Time"
+          },
+          "ModifierValue": 18.75,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_FIREDISPERSIONGAIN_POSITIVE",
+            "SourceString": "{0}% Reduced Per-Shot Dispersion",
+            "LocalizedString": "{0}% Reduced Per-Shot Dispersion"
+          },
+          "ModifierValue": 24.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01:UIGameplayItemMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.1"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01:UIGameplayItemMetaDataItem_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.2"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01:UIGameplayItemMetaDataItem_3'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.3"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01:UIGameplayItemMetaDataItem_4'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_UIMetaData_HandCannon_DoubleAction_Snubnose_01.4"
+        }
+      ]
+    }
+  }
+]

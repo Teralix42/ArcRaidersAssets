@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Armor_LightBody'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/DA_UIMetaData_Armor_LightBody.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Armor_LightBody'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/DA_Persistence_Armor_LightBody.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Armors.ST_ItemNames_Armors",
+        "Key": "ID_ITEMNAMES_ARMORS_LIGHT_SHIELD",
+        "SourceString": "Light Shield",
+        "LocalizedString": "Light Shield"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Armors.ST_ItemDescriptions_Armors",
+        "Key": "ID_ITEMDESC_ARMOR_LIGHTBODY",
+        "SourceString": "A lightweight shield that blocks a small portion of incoming damage without impacting mobility.",
+        "LocalizedString": "A lightweight shield that blocks a small portion of incoming damage without impacting mobility."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Armor"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_ItemCategory_Armor_Light.T_UI_ItemCategory_Armor_Light",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/LightBody/T_UI_Icon_Armor_LightBody.T_UI_Icon_Armor_LightBody",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/LightBody/T_UI_Icon_Armor_LightBody.T_UI_Icon_Armor_LightBody",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Armor_LightBody'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/DA_UIMetaData_Armor_LightBody.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Armor_LightBody_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/Qualities/DA_Persistence_Armor_LightBody_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Armors.ST_ItemNames_Armors",
+        "Key": "ID_ITEMNAMES_ARMORS_LIGHT_SHIELD",
+        "SourceString": "Light Shield",
+        "LocalizedString": "Light Shield"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Armors.ST_ItemDescriptions_Armors",
+        "Key": "ID_ITEMDESC_ARMOR_LIGHTBODY",
+        "SourceString": "A lightweight shield that blocks a small portion of incoming damage without impacting mobility.",
+        "LocalizedString": "A lightweight shield that blocks a small portion of incoming damage without impacting mobility."
+      },
+      "QualityLevel": 2,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Armor"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_ItemCategory_Armor_Light.T_UI_ItemCategory_Armor_Light",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/LightBody/T_UI_Icon_Armor_LightBody.T_UI_Icon_Armor_LightBody",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Armor/LightBody/T_UI_Icon_Armor_LightBody.T_UI_Icon_Armor_LightBody",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": true,
+          "StaticTitle": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARMOR_PLATEMITIGATION",
+            "SourceString": "Damage Reduction",
+            "LocalizedString": "Damage Reduction"
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_Stats_Format.ST_Stats_Format",
+            "Key": "ID_STATS_FORMAT_PERCENTAGE",
+            "SourceString": "{0}%",
+            "LocalizedString": "{0}%"
+          },
+          "ModifierValue": 40.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::TextOnly"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Armor_LightBody",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Armor/LightBody/DA_UIMetaData_Armor_LightBody",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Armor_LightBody:UIGameplayItemMetaDataItem_1'",
+          "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/DA_UIMetaData_Armor_LightBody.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Armor_LightBody:UIGameplayItemMetaDataItem_2'",
+          "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/DA_UIMetaData_Armor_LightBody.1"
+        }
+      ]
+    }
+  }
+]

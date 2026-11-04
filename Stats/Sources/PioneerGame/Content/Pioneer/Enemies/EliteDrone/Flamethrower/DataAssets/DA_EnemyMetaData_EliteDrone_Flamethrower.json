@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_EliteDrone_Flamethrower'",
+      "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyMetaData_EliteDrone_Flamethrower.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_EliteDrone_Flamethrower_Persistence'",
+        "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EliteDrone_Flamethrower_Persistence.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Hornet_Flame'",
+        "ObjectPath": "/Game/Pioneer/UI/Assets/Enemies/T_UI_Ping_Enemy_Hornet_Flame.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Firefly.T_UI_ARC_Firefly",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_HORNETFLAMETHROWER_NAME",
+        "SourceString": "Firefly",
+        "LocalizedString": "Firefly"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_EliteDrone_Flamethrower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyMetaData_EliteDrone_Flamethrower",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_EliteDrone_Flamethrower:UIEnemyMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyMetaData_EliteDrone_Flamethrower.0"
+        }
+      ]
+    }
+  }
+]

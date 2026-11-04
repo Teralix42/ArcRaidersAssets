@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_SnitchDrone",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_EnemyType_SnitchDrone",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.C_SnitchBot_01_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 1786451563,
+      "EnemyTag": {
+        "TagName": "Enemy.ScoutDrone.Snitch"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_Drone_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_Drone.0"
+        }
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_SnitchBot'",
+        "ObjectPath": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_Persistence_Enemy_SnitchBot.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

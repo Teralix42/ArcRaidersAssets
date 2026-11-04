@@ -1,0 +1,738 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Rollbot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/CSSC_Rollbot",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "CenterAxis",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "RifleHinge_L_01",
+          "Value": [
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "RifleBody_L",
+          "Value": [
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Weapon.Rifle"
+          ]
+        },
+        {
+          "Key": "LaserSource_L",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Lower_L",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Upper_L",
+          "Value": []
+        },
+        {
+          "Key": "RifleHinge_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "RifleBody_R",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Weapon.Rifle"
+          ]
+        },
+        {
+          "Key": "LaserSource_R",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Lower_R",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Upper_R",
+          "Value": []
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        },
+        {
+          "Key": "Core",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "Antenna_A",
+          "Value": [
+            "Part.Decorator.ID.Antenna.01",
+            "Part.Decorator.ID.Antenna"
+          ]
+        },
+        {
+          "Key": "Antenna_B",
+          "Value": [
+            "Part.Decorator.ID.Antenna"
+          ]
+        },
+        {
+          "Key": "Lid_01",
+          "Value": []
+        },
+        {
+          "Key": "Arm_A_01",
+          "Value": []
+        },
+        {
+          "Key": "Arm_B_01",
+          "Value": []
+        },
+        {
+          "Key": "Lid_02",
+          "Value": []
+        },
+        {
+          "Key": "Arm_A_02",
+          "Value": []
+        },
+        {
+          "Key": "Arm_B_02",
+          "Value": []
+        },
+        {
+          "Key": "Lid_03",
+          "Value": []
+        },
+        {
+          "Key": "Arm_A_03",
+          "Value": []
+        },
+        {
+          "Key": "Arm_B_03",
+          "Value": []
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Armor_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "RifleBody_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "RifleBody_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Core",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "RifleHinge_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "RifleHinge_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_01_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_01_L_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_01_L_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_01_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_01_R_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_01_R_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_L_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_L_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_R_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_R_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Frame",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "CenterAxis",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "RifleHinge_L_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "RifleBody_L",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LaserSource_L",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Muzzle_Lower_L",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Muzzle_Upper_L",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "RifleHinge_R_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "RifleBody_R",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LaserSource_R",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Muzzle_Lower_R",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Muzzle_Upper_R",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Core",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Antenna_A",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Antenna_B",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Lid_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_A_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_B_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Lid_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_A_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_B_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Lid_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_A_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_B_03",
+          "Value": "EPartResistanceGroup::Normal"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "DummyParent_Root",
+          "Value": [
+            "Part.Decorator.ID.Rollbot.Root"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Outer",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Inner",
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "CenterAxis",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "RifleHinge_L_01",
+          "Value": [
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "RifleBody_L",
+          "Value": [
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LaserSource_L",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Lower_L",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Upper_L",
+          "Value": []
+        },
+        {
+          "Key": "RifleHinge_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "RifleBody_R",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.ArticulatedTargeting",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LaserSource_R",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Lower_R",
+          "Value": []
+        },
+        {
+          "Key": "Muzzle_Upper_R",
+          "Value": []
+        },
+        {
+          "Key": "PerceptionPart",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        },
+        {
+          "Key": "Core",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Antenna_A",
+          "Value": [
+            "Part.Decorator.ID.Antenna.01",
+            "Part.Decorator.ID.Antenna"
+          ]
+        },
+        {
+          "Key": "Antenna_B",
+          "Value": [
+            "Part.Decorator.ID.Antenna"
+          ]
+        },
+        {
+          "Key": "Lid_01",
+          "Value": []
+        },
+        {
+          "Key": "Arm_A_01",
+          "Value": []
+        },
+        {
+          "Key": "Arm_B_01",
+          "Value": []
+        },
+        {
+          "Key": "Lid_02",
+          "Value": []
+        },
+        {
+          "Key": "Arm_A_02",
+          "Value": []
+        },
+        {
+          "Key": "Arm_B_02",
+          "Value": []
+        },
+        {
+          "Key": "Lid_03",
+          "Value": []
+        },
+        {
+          "Key": "Arm_A_03",
+          "Value": []
+        },
+        {
+          "Key": "Arm_B_03",
+          "Value": []
+        }
+      ]
+    }
+  }
+]

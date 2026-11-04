@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Tick",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Tick/DA_EnemyType_Tick",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Tick/C_TickBot.C_TickBot_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -352140120,
+      "EnemyTag": {
+        "TagName": "Enemy.Tick.Crabber"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_Drone_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_Drone.0"
+        }
+      },
+      "bMeleeVulnerable": true,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_TickBot'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/DA_Persistence_Enemy_TickBot.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

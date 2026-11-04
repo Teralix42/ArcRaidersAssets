@@ -1,0 +1,1075 @@
+[
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 4.5,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 4.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 4.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 1.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Rose_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_Emerge",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EyeProxy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_FireR",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_FireL",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MultiStageCustomCapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MultiStageCustomCapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Rose_C'Default__CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Rose_C'Default__CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.5"
+    },
+    "Properties": {
+      "ProxyPartList": [
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 1.1671716E-06,
+              "Y": -1.3656368E-11,
+              "Z": 150.23032
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.ID.Eye"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 7,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "Sensor"
+          },
+          "PartName": "EyeProxy",
+          "bIsDestroyed": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyComponent",
+    "Name": "EyeProxy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Eye"
+      ],
+      "PartIDRange": {
+        "BasePartID": 7,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": 1.1671716E-06,
+        "Y": -1.3656368E-11,
+        "Z": 150.23032
+      },
+      "bIsEditorOnly": false
+    }
+  },
+  {
+    "Type": "CS_Rose_C",
+    "Name": "Default__CS_Rose_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.CS_Rose_C'",
+    "Package": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -648.985,
+          "Y": -513.5354,
+          "Z": -141.32828
+        },
+        "Max": {
+          "X": 893.6591,
+          "Y": 513.5354,
+          "Z": 430.89612
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Rose_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.3"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "MultiStageCustomCapabilityStyleDriver",
+    "Name": "MultiStageCustomCapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MultiStageCustomCapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet"
+          ],
+          "WindupEffect": {
+            "ObjectName": "EffectDataAsset'DA_TargetingLaser_Frigate_Barrage'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_TargetingLaser_Frigate_Barrage.0"
+          },
+          "WindupAtTargetLocationEffect": {
+            "ObjectName": "EffectDataAsset'DA_TargetingLaser_Frigate_Targeting_Windup'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_TargetingLaser_Frigate_Targeting_Windup.0"
+          },
+          "WindupTime": 0.3,
+          "WindupProgressFXParameterName": "Progress",
+          "ActiveEffect": null,
+          "ActiveEffectFXDTimeoutDuration": 5.0,
+          "FXAttachSocketName": "None",
+          "bTraceForTargetLocation": true,
+          "TracePastTargetLength": 2000.0,
+          "TraceSphereRadius": 0.0,
+          "AbilityDataExtractor": {
+            "ObjectName": "MultiTargetProjectileAbilityDataExtractor'CS_Rose_C:MultiStageCustomCapabilityStyleDriver_GEN_VARIABLE.MultiTargetProjectileAbilityDataExtractor_0'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.8"
+          },
+          "Windup2Time": 0.5,
+          "Windup2ProgressFXParameterName": "Progress2",
+          "EndEffect": null,
+          "CapabilityStartEffect": {
+            "ObjectName": "EffectDataAsset'DA_TargetingLaser_Frigate_Targeting_Main'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_TargetingLaser_Frigate_Targeting_Main.0"
+          },
+          "CapabilityStartEffectFXDTimeoutDuration": 10.0,
+          "CameraProximityFXParameterName": "CameraProximity",
+          "CameraProximityNormalizeRadius": 10000.0,
+          "CameraProximityFalloffExponent": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MultiTargetProjectileAbilityDataExtractor",
+    "Name": "MultiTargetProjectileAbilityDataExtractor_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MultiTargetProjectileAbilityDataExtractor'",
+    "Outer": {
+      "ObjectName": "MultiStageCustomCapabilityStyleDriver'CS_Rose_C:MultiStageCustomCapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.7"
+    },
+    "Properties": {
+      "AbilityClass": {
+        "ObjectName": "BlueprintGeneratedClass'GA_Rose_Barrage_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/Capabilities/GA_Rose_Barrage.0"
+      }
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "MultiStagedMuzzleDefinitions": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet"
+          ],
+          "MuzzlePartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+          },
+          "MuzzleScopingTagParent": {
+            "TagName": "None"
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Frigate_MainGun_MuzzleFlash'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Gameplay/DA_Frigate_MainGun_MuzzleFlash.0"
+          },
+          "AudioEnvironmentParameters": [
+            {
+              "TagName": "AudioEnvironment.OnFrigate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Rose_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.10"
+      },
+      "VariableGUID": "B89F1657-4BFB5052-F2762A8B-1178F0AB",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_Rose_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.9"
+      },
+      "VariableGUID": "CA2057FF-47DDB55C-7A8C8DAD-287FB134",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Rose_C:Anim_Emerge_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.24"
+      },
+      "VariableGUID": "DB620DC1-490A9DA6-7A8A35B9-81A3478A",
+      "InternalVariableName": "Anim_Emerge"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Rose_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.2"
+      },
+      "VariableGUID": "10FB3250-40DBE705-8866C4A1-AA22AFE3",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Rose_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.6"
+      },
+      "VariableGUID": "5C1F7A65-4E244DE2-32D2C89D-288D7A31",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_Rose_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.0"
+      },
+      "VariableGUID": "0103E377-4852EBAD-A33B27BB-F0267EAC",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Rose_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.23"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.20"
+        }
+      ],
+      "VariableGUID": "484F05B1-413D0753-A7B4018E-7D226161",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MultiStageCustomCapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MultiStageCustomCapabilityStyleDriver'CS_Rose_C:MultiStageCustomCapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.7"
+      },
+      "VariableGUID": "E7FF7294-4EC99D4F-5145FEB6-B9A0EB4C",
+      "InternalVariableName": "MultiStageCustomCapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Rose_C:Anim_FireL_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.25"
+      },
+      "VariableGUID": "63E5CBB2-4E2EBE39-B9DB02A0-E0BFD370",
+      "InternalVariableName": "Anim_FireL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableStyleProxyComponent'CS_Rose_C:EyeProxy_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.4"
+      },
+      "AttachToName": "Sensor",
+      "VariableGUID": "5F55395B-4797F285-E21E95A3-5A650A12",
+      "InternalVariableName": "EyeProxy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Rose_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Rose_C:Anim_FireR_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.26"
+      },
+      "VariableGUID": "85E8A9FA-45A174A5-DE0CBFA4-30465BFB",
+      "InternalVariableName": "Anim_FireR"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.12"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.13"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.12"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Rose_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.11"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_Rose'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/Art/CSSC_Rose.0"
+      },
+      "ProxyPartChildren": [
+        {
+          "Key": "Sensor",
+          "Value": {
+            "ChildrenPartIDs": [
+              7
+            ]
+          }
+        }
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 7
+      },
+      "SocketGroups": [
+        {
+          "Key": "5",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "Barrel_L_Muzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "Barrel_R_Muzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "SocketIDs": [
+        {
+          "Key": "5",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Barrel_L_Muzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Barrel_L"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Barrel_R_Muzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Barrel_R"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "bUseOptimizedBoundsCalculation": false,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Rose_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/Art/SK_Rose_01_A.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Rose_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/Art/SK_Rose_01_A.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "Minion",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "ComponentTags": [
+        "Mesh"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_Emerge_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "Mesh",
+          "BoneNames": [
+            "gimbal",
+            "ammocase",
+            "receiver",
+            "barrel_l",
+            "barrel_r"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Rose_01_A_Emerge_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/Animations/A_Rose_01_A_Emerge_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": true
+        }
+      ],
+      "bSampleFirstFrameAtBeginPlay": true,
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'Frigate_Cannon_Emerge'",
+        "ObjectPath": "/Game/Pioneer/Audio/Weapons/EnemyWeapons/Frigate_Cannon/Frigate_Cannon_Emerge.0"
+      },
+      "AnimationFinishedSound": {
+        "ObjectName": "SoundCue'Frigate_Cannon_Emerge_Finished'",
+        "ObjectPath": "/Game/Pioneer/Audio/Weapons/EnemyWeapons/Frigate_Cannon/Frigate_Cannon_Emerge_Finished.0"
+      },
+      "ComponentTags": [
+        "Anim_Emerge"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_FireL_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "Mesh",
+          "BoneNames": [
+            "barrel_l"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'AS_Rose_FireL'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/Animations/AS_Rose_FireL.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_FireL"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_FireR_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Rose_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/CS_Rose.1"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "Mesh",
+          "BoneNames": [
+            "barrel_r"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'AS_Rose_FireR'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/Animations/AS_Rose_FireR.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": true
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_FireR"
+      ]
+    }
+  }
+]

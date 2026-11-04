@@ -1,0 +1,168 @@
+{
+  "snapshot": "Unpack_2.2.0",
+  "scope": "Configured armor fields and movement effects",
+  "shields": [
+    {
+      "name": "Light Shield",
+      "base_armor_value": 40.0,
+      "armor_per_plate": 40.0,
+      "max_armor_plates": 1,
+      "damage_mitigation_per_plate": 0.4,
+      "armor_zones": [
+        "EArmorZone::Body",
+        "EArmorZone::Head",
+        "EArmorZone::Legs"
+      ],
+      "mobile_repair": true,
+      "movement_effects": [
+        {
+          "EffectClass": {
+            "ObjectName": "Class'SprintSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "EffectClass": {
+            "ObjectName": "Class'RunSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                1.0
+              ]
+            }
+          ]
+        }
+      ],
+      "source_paths": {
+        "item": "Content/Pioneer/Items/Armor/LightBody/BP_Item_Armor_LightBody.json",
+        "quality": "Content/Pioneer/Items/Armor/LightBody/BP_ArmorQualitySet_LightBody.json",
+        "name": "Content/Pioneer/Items/Armor/LightBody/DA_UIMetaData_Armor_LightBody.json"
+      }
+    },
+    {
+      "name": "Medium Shield",
+      "base_armor_value": 70.0,
+      "armor_per_plate": 70.0,
+      "max_armor_plates": 1,
+      "damage_mitigation_per_plate": 0.425,
+      "armor_zones": [
+        "EArmorZone::Body",
+        "EArmorZone::Head",
+        "EArmorZone::Legs"
+      ],
+      "mobile_repair": true,
+      "movement_effects": [
+        {
+          "EffectClass": {
+            "ObjectName": "Class'SprintSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                0.95
+              ]
+            }
+          ]
+        },
+        {
+          "EffectClass": {
+            "ObjectName": "Class'RunSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                0.95
+              ]
+            }
+          ]
+        }
+      ],
+      "source_paths": {
+        "item": "Content/Pioneer/Items/Armor/MediumBody/BP_Item_Armor_MediumBody.json",
+        "quality": "Content/Pioneer/Items/Armor/MediumBody/BP_ArmorQualitySet_MediumBody.json",
+        "name": "Content/Pioneer/Items/Armor/MediumBody/DA_UIMetaData_Armor_MediumBody.json"
+      }
+    },
+    {
+      "name": "Heavy Shield",
+      "base_armor_value": 80.0,
+      "armor_per_plate": 80.0,
+      "max_armor_plates": 1,
+      "damage_mitigation_per_plate": 0.525,
+      "armor_zones": [
+        "EArmorZone::Body",
+        "EArmorZone::Head",
+        "EArmorZone::Legs"
+      ],
+      "mobile_repair": true,
+      "movement_effects": [
+        {
+          "EffectClass": {
+            "ObjectName": "Class'SprintSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                0.9
+              ]
+            }
+          ]
+        },
+        {
+          "EffectClass": {
+            "ObjectName": "Class'RunSpeedMultiplierByCallerEffect'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "Modifiers": [
+            {
+              "SetByCaller": {
+                "TagName": "GameplayEffect.SetByCaller.Param1"
+              },
+              "Modifier": [
+                0.9,
+                0.9,
+                0.9,
+                0.9
+              ]
+            }
+          ]
+        }
+      ],
+      "source_paths": {
+        "item": "Content/Pioneer/Items/Armor/HeavyBody/BP_Item_Armor_HeavyBody.json",
+        "quality": "Content/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.json",
+        "name": "Content/Pioneer/Items/Armor/HeavyBody/DA_UIMetaData_Armor_HeavyBody.json"
+      }
+    }
+  ]
+}

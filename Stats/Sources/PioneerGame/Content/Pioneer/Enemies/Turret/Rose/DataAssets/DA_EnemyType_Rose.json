@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Rose",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Turret/Rose/DataAssets/DA_EnemyType_Rose",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Turret/Rose/C_Rose.C_Rose_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -1690775559,
+      "EnemyTag": {
+        "TagName": "Enemy.Turret.Rose"
+      },
+      "ExcludeActorSpawnFlags": 3,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Rose'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/Rose/DataAssets/DA_Persistence_Enemy_Rose.0"
+      },
+      "Tags": [
+        "Online.Release.2.0"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

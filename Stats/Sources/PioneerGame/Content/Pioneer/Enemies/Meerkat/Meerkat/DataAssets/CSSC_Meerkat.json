@@ -1,0 +1,441 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Meerkat",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/CSSC_Meerkat",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Arm_01",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Arm.01"
+          ]
+        },
+        {
+          "Key": "Arm_02",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Arm.Back",
+            "Part.Decorator.ID.Arm.02"
+          ]
+        },
+        {
+          "Key": "Arm_03",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Arm.Back",
+            "Part.Decorator.ID.Arm.03"
+          ]
+        },
+        {
+          "Key": "Barrel_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun"
+          ]
+        },
+        {
+          "Key": "Hatch_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "BodyArmor_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "BodyArmor_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "LegUpper_L_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "LegLower_L_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "LegArmor_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "LegArmor_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "LegUpper_R_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "LegLower_R_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "LegArmor_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "LegArmor_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Thruster_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Barrel_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Hatch_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "BodyArmor_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "BodyArmor_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LegUpper_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LegLower_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LegArmor_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LegArmor_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "LegUpper_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LegLower_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LegArmor_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LegArmor_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Arm_01",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Arm.01"
+          ]
+        },
+        {
+          "Key": "Arm_02",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Arm.Back",
+            "Part.Decorator.ID.Arm.02"
+          ]
+        },
+        {
+          "Key": "Arm_03",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Arm.Back",
+            "Part.Decorator.ID.Arm.03"
+          ]
+        },
+        {
+          "Key": "Barrel_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun"
+          ]
+        },
+        {
+          "Key": "Hatch_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "BodyArmor_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "BodyArmor_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "LegUpper_L_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "LegLower_L_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "LegArmor_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "LegArmor_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "LegUpper_R_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "LegLower_R_01",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "LegArmor_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "LegArmor_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Wheel",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        }
+      ]
+    }
+  }
+]

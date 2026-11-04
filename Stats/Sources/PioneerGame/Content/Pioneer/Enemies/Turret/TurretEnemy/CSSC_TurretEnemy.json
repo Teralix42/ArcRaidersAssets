@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_TurretEnemy",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CSSC_TurretEnemy",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Body_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Arm_01",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Turret"
+          ]
+        },
+        {
+          "Key": "Laser",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        },
+        {
+          "Key": "MuzzleProxy",
+          "Value": [
+            "Part.Decorator.Muzzle"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Body_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Arm_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Laser",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "MuzzleProxy",
+          "Value": "EPartResistanceGroup::Normal"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Body_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.HealthGroup.Base",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Arm_01",
+          "Value": [
+            "Part.Decorator.ID.Arm",
+            "Part.Decorator.ID.Turret"
+          ]
+        },
+        {
+          "Key": "Laser",
+          "Value": [
+            "Part.Decorator.ID.Eye"
+          ]
+        },
+        {
+          "Key": "MuzzleProxy",
+          "Value": [
+            "Part.Decorator.Muzzle"
+          ]
+        }
+      ]
+    }
+  }
+]

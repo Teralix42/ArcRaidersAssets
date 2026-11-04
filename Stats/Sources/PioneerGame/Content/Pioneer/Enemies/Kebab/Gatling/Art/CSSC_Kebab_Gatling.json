@@ -1,0 +1,638 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Kebab_Gatling",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Kebab/Gatling/Art/CSSC_Kebab_Gatling",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "GunTop_L_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunTop_R_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunMid_L_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunMid_R_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunBot_L_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunBot_R_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Turret_01_Laser",
+          "Value": [
+            "Part.Decorator.ID.Segment.Top"
+          ]
+        },
+        {
+          "Key": "Turret_02_Laser",
+          "Value": [
+            "Part.Decorator.ID.Segment.Middle"
+          ]
+        },
+        {
+          "Key": "Turret_03_Laser",
+          "Value": [
+            "Part.Decorator.ID.Segment.Bottom"
+          ]
+        },
+        {
+          "Key": "DummyFrame",
+          "Value": [
+            "Part.Decorator.ID.DummyRoot"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "CenterAxis_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Turret_01",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.ID.Segment.Top"
+          ]
+        },
+        {
+          "Key": "Armor_01",
+          "Value": [
+            "Part.Decorator.ID.Armor"
+          ]
+        },
+        {
+          "Key": "GunTop_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top"
+          ]
+        },
+        {
+          "Key": "GunTop_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "Turret_02",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.ID.Segment.Middle"
+          ]
+        },
+        {
+          "Key": "Armor_02",
+          "Value": [
+            "Part.Decorator.ID.Armor"
+          ]
+        },
+        {
+          "Key": "GunMid_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle"
+          ]
+        },
+        {
+          "Key": "GunMid_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle"
+          ]
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        },
+        {
+          "Key": "Turret_03",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.ID.Segment.Bottom"
+          ]
+        },
+        {
+          "Key": "Armor_03",
+          "Value": [
+            "Part.Decorator.ID.Armor"
+          ]
+        },
+        {
+          "Key": "GunBot_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom"
+          ]
+        },
+        {
+          "Key": "GunBot_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom"
+          ]
+        },
+        {
+          "Key": "Weakpoint_03",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Propagation.PreferParent"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Armor_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Weakpoint_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "DummyFrame",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Frame_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Turret_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Turret_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Turret_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "GunTop_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "GunTop_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "GunMid_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "GunMid_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "GunBot_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "GunBot_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Head_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "CenterAxis_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "DummyFrame",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Frame_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "CenterAxis_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Turret_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "GunTop_L_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "GunTop_R_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Weakpoint_01",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "Turret_02",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "GunMid_L_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "GunMid_R_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "Turret_03",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_03",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "GunBot_L_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "GunBot_R_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Weakpoint_03",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "GunTop_L_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunTop_R_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunMid_L_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunMid_R_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunBot_L_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "GunBot_R_01_Muzzle",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom",
+            "Part.Decorator.Muzzle"
+          ]
+        },
+        {
+          "Key": "Turret_01_Laser",
+          "Value": [
+            "Part.Decorator.ID.Segment.Top"
+          ]
+        },
+        {
+          "Key": "Turret_02_Laser",
+          "Value": [
+            "Part.Decorator.ID.Segment.Middle"
+          ]
+        },
+        {
+          "Key": "Turret_03_Laser",
+          "Value": [
+            "Part.Decorator.ID.Segment.Bottom"
+          ]
+        },
+        {
+          "Key": "DummyFrame",
+          "Value": [
+            "Part.Decorator.ID.DummyRoot",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "CenterAxis_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Turret_01",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.ID.Segment.Top",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_01",
+          "Value": [
+            "Part.Decorator.ID.Armor",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "GunTop_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "GunTop_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Top",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "Turret_02",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.ID.Segment.Middle",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_02",
+          "Value": [
+            "Part.Decorator.ID.Armor",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "GunMid_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "GunMid_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Middle",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "Turret_03",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.ID.Segment.Bottom",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_03",
+          "Value": [
+            "Part.Decorator.ID.Armor",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "GunBot_L_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "GunBot_R_01",
+          "Value": [
+            "Part.Decorator.ID.Weapon.GatlingGun",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ID.Segment.Bottom",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Weakpoint_03",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        }
+      ]
+    }
+  }
+]

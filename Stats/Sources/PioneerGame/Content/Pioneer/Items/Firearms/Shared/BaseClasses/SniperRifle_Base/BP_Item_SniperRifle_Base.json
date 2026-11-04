@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_SniperRifle_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Item_SniperRifle_Base",
+    "SuperStruct": {
+      "ObjectName": "Class'FirearmItem'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_SniperRifle_Base_C'Default__BP_Item_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Item_SniperRifle_Base.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_SniperRifle_Base_C",
+    "Name": "Default__BP_Item_SniperRifle_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Item_SniperRifle_Base.BP_Item_SniperRifle_Base_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Item_SniperRifle_Base",
+    "Properties": {
+      "CriticalDamageMultiplier": 2.5,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_MediumAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/MediumAmmo/DA_Item_MediumAmmo.0"
+      },
+      "WeaponType": "EWeaponType::Sniper",
+      "BasePhysicalDamage": 50.0,
+      "BaseFirePower": 70000.0,
+      "BaseReloadTime": 3.0,
+      "BaseFireRate": 45.0,
+      "BaseBurnRate": 0.016667,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_BasicMeleeWeapon_Hit'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_BasicMeleeWeapon_Hit.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "AiArmorDamageMultiplier": 2.5,
+      "AiArmorPropagationMultiplier": 1.0,
+      "AIWeakSpotDamageMultiplier": 1.5,
+      "FiringMode": "EFiringMode::BoltAction",
+      "BurstSize": 1,
+      "LoopingReloadEntryTime": 0.800000011920929,
+      "LoopingReloadExitTime": 0.4000000059604645,
+      "WeaponFireGameplayCueMagnitude": 0.8,
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineMedium'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineMedium.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "BaseCooldownTime": 2.0
+    }
+  }
+]

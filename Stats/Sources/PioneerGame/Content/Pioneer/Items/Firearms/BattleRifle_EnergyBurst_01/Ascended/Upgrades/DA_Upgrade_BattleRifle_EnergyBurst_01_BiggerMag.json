@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_BattleRifle_EnergyBurst_01_BiggerMag",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_EnergyBurst_01_BiggerMag",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_BattleRifle_EnergyBurst_01_BiggerMag_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/BP_UpgradeWeaponMod_BattleRifle_EnergyBurst_01_BiggerMag.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_BIGGERMAG",
+        "SourceString": "Bigger Mag",
+        "LocalizedString": "Bigger Mag"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_BIGGERMAG",
+        "SourceString": "Increases the magazine capacity.",
+        "LocalizedString": "Increases the magazine capacity."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_IncreaseMag.T_UI_Icon_Upgrade_IncreaseMag",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_CLIPSIZE_POSITIVE",
+            "SourceString": "+{0} Magazine Size",
+            "LocalizedString": "+{0} Magazine Size"
+          },
+          "ModifierValue": 6.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  }
+]

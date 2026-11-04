@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_HeavyDrone_Laser",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyType_HeavyDrone_Laser",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/C_HeavyDrone_Laser.C_HeavyDrone_Laser_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 1639912088,
+      "EnemyTag": {
+        "TagName": "Enemy.HeavyDrone.Missile"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_OrbitalStrike_Heavy_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_OrbitalStrike_Heavy.0"
+        }
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_HeavyDrone_Laser'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_Persistence_Enemy_HeavyDrone_Laser.0"
+      },
+      "Tags": [
+        "Online.Release.1.22"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

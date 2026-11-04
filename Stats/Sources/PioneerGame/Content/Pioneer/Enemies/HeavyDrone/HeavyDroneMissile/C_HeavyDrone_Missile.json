@@ -1,0 +1,1395 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_HeavyDrone_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.0"
+    }
+  },
+  {
+    "Type": "AITargetComponent",
+    "Name": "AITargetComponent1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AITargetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.2"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_HeavyDrone_Missile_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_HeavyDrone_Missile_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.30"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_HeavyDrone_Missile_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.16"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PioneerConstructableDispersionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PioneerConstructableDispersionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AITargetComponent1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AITargetComponent'",
+          "ObjectPath": "/Script/EmbarkAI"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "C_HeavyDrone_Missile_C",
+    "Name": "Default__C_HeavyDrone_Missile_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.C_HeavyDrone_Missile_C'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile",
+    "Template": {
+      "ObjectName": "C_HeavyDrone_SharedBase_C'Default__C_HeavyDrone_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_HeavyDrone_Missile_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.14"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_HeavyDrone_Missile_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.10"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_HeavyDrone_Missile_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.6"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_HeavyDrone_Missile_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.19"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_HeavyDrone_Missile_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.11"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_HeavyDrone_Missile_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.13"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_HeavyDrone_Missile_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.8"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_HeavyDrone_Missile_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.12"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_HeavyDrone_Missile_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.18"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_HeavyDrone_Missile_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.23"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_HeavyDrone_Missile_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.9"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_HeavyDrone_Missile_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.24"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_HeavyDrone_Missile_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.31"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_HeavyDrone_Missile_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.25"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_HeavyDrone_Missile_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_HeavyDrone_Missile_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.7"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_HeavyDrone_Missile_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.5"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_HeavyDroneMissile_AI'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_HeavyDroneMissile_AI.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_HeavyDroneMissile'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyType_HeavyDroneMissile.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Flying",
+        "Quest.Groups.Enemies.Bastion&Leaper&Rocketeer",
+        "Quest.Groups.Enemies.Armored"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_HeavyDrone_Missile_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.17"
+      },
+      "SpawnBudgetCost": 25,
+      "ThreatLevel": 60,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "AgentRadius": 250.0,
+        "AgentHeight": 500.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_HeavyDrone_Missile_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.32"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_HeavyDrone_Missile_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.4"
+      },
+      "NetCullDistanceSquared": 3.6E+09,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_HeavyDrone_Missile_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.9"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_HeavyDrone_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_HeavyDrone_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Critical'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Critical.0"
+        },
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_Thruster'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Thruster.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_HeavyDrone_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.6"
+    },
+    "Properties": {
+      "DefaultCollisionConfig": {
+        "MinTimeBetweenCollisionCues": 5.0
+      },
+      "CollisionTypeThresholds": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": 50.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Small",
+          "Value": 100.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Medium",
+          "Value": 500.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Heavy",
+          "Value": 800.0
+        },
+        {
+          "Key": "EConstructableCollisionType::VeryHeavy",
+          "Value": 1000.0
+        }
+      ],
+      "CollisionEffects": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_VerySmall_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_VerySmall.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_VerySmall_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_VerySmall.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Small",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Small_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Small.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Small_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Small.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Medium",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Medium_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Medium.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Medium_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Medium.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Heavy",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Heavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Heavy.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Heavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Heavy.0"
+            },
+            "bSelfDamage": true,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::VeryHeavy",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_VeryHeavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_VeryHeavy.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_VeryHeavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_VeryHeavy.0"
+            },
+            "bSelfDamage": true,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_HeavyDrone_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.7"
+    },
+    "Properties": {
+      "OpenedSound": {
+        "ObjectName": "SoundCue'Scavenge_DroneHeavy_Complete'",
+        "ObjectPath": "/Game/Pioneer/Audio/Interactables/Scavenging/Scavenge_DroneHeavy_Complete.0"
+      },
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_HeavyDrone_Missile_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.9"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_HeavyDrone_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.8"
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_HeavyDrone_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.9"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_HeavyDrone_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.10"
+    },
+    "Properties": {
+      "RotationOriginConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Missile"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Missile )"
+          },
+          "SocketName": "Muzzle",
+          "PivotType": "EConstructablePartPivotType::FirstOfSocketGroup"
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "MaxRotationSpeedDegPerSec": 120.0,
+        "ProjectileSpeedCmPerSec": 500000.0,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_HeavyDrone_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.11"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_HeavyDronePerception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/DataAssets/DA_HeavyDronePerception.0"
+      }
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_HeavyDrone_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.12"
+    },
+    "Properties": {
+      "NumLootablePartsCategory": "EConstructableNumPartsCategory::Medium",
+      "LootType": {
+        "TagName": "Loot.Enemy.Rocketeer"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_HeavyDrone'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_PartScavengeSetup_HeavyDrone.0"
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_HeavyDrone_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.13"
+    },
+    "Properties": {
+      "SubGroups": [
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Thruster,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Left )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 0.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 50.0,
+          "RadialForceRadius": 100.0,
+          "AdditionalGameplayEffects": []
+        },
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Left"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Thruster,\n Part.Decorator.Group.Relative.Left,\n Part.Decorator.Group.Relative.Rear )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 0.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 50.0,
+          "RadialForceRadius": 100.0,
+          "AdditionalGameplayEffects": []
+        },
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Front"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Thruster,\n Part.Decorator.Group.Relative.Front,\n Part.Decorator.Group.Relative.Right )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 0.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 50.0,
+          "RadialForceRadius": 100.0,
+          "AdditionalGameplayEffects": []
+        },
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Thruster"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Right"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Rear"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Thruster,\n Part.Decorator.Group.Relative.Right,\n Part.Decorator.Group.Relative.Rear )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 0.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 50.0,
+          "RadialForceRadius": 100.0,
+          "AdditionalGameplayEffects": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_HeavyDrone_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.14"
+    },
+    "Properties": {
+      "NumPartsCategory": "EConstructableNumPartsCategory::Medium"
+    }
+  },
+  {
+    "Type": "HoverMovementComponentAI",
+    "Name": "HoverMovementComponent1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'HoverMovementComponentAI'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.2"
+    },
+    "Template": {
+      "ObjectName": "HoverMovementComponentAI'C_HeavyDrone_SharedBase_C:HoverMovementComponent1_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.15"
+    },
+    "Properties": {
+      "SpeedMatrix": [
+        {
+          "Key": "EAIMovementSpeed::VerySlow",
+          "Value": {
+            "MaxLean": 16.0,
+            "RotationSpeed": 0.6,
+            "AdditionalForce": 300.0
+          }
+        }
+      ],
+      "BrokenThrusterSpeedMatrixMultipliers": [
+        {
+          "Key": "EAIMovementSpeed::Fast",
+          "Value": 0.95
+        },
+        {
+          "Key": "EAIMovementSpeed::VeryFast",
+          "Value": 0.85
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.2"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'HoverMovementComponentAI'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "HoverMovementComponentAI'C_HeavyDrone_Missile_C:HoverMovementComponent1_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.1"
+            },
+            "SCSVariableName": "HoverMovementComponent1",
+            "AssociatedGuid": "B141EE19-4C92BEDB-C3E80182-748738C2"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_HeavyDrone_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.17"
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_HeavyDrone_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.18"
+    },
+    "Properties": {
+      "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::StopAimingInCurrentPose",
+      "SightRangeStrengthScale": 0.85
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_HeavyDrone_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.19"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Missile"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Missile )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_HeavyDroneMissile_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Capabilities/GA_HeavyDroneMissile.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_HeavyDroneMissile_Prefire_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Capabilities/CSM_HeavyDroneMissile_Prefire.51"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Default missile",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastSeenProximityLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Secondary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Missile"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Missile )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_HeavyDroneMissile_FlyOver_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Capabilities/GA_HeavyDroneMissile_FlyOver.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_HeavyDroneMissile_FlyOver_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Capabilities/CSM_HeavyDroneMissile_FlyOver.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "FlyOver",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetNeverCancel",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastSeenProximityLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Explode"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Explosive"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.Group.Explosive )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Shared_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Capabilities/SelfDestruct/GA_Shared_SelfDestruct.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'SM_BasicCapability_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Abilities/RobotAbilities/StateMachines/SM_BasicCapability.277"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Explode",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Scan"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Sensor"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Sensor )"
+          },
+          "GrantedAbilityType": null,
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_FlyingDrone_Scan_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Behavior/CSM_FlyingDrone_Scan.6"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Scan",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": false,
+            "bTargetEnemies": false,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Missile.Rain"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon.Missile"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Weapon.Missile )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_HeavyDroneMissile_FlyOverProjectile_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Capabilities/GA_HeavyDroneMissile_FlyOverProjectile.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_HeavyDroneMissile_NoAiming_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Capabilities/CSM_HeavyDroneMissile_NoAiming.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "FlyOver Individual Missile",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionBoxShape",
+    "Name": "PioneerConstructableDispersionBoxShape_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionBoxShape'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_HeavyDrone_Missile_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.22"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionBoxShape",
+    "Name": "PioneerConstructableDispersionBoxShape_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionBoxShape'",
+    "Outer": {
+      "ObjectName": "PioneerConstructableDispersionService'C_HeavyDrone_Missile_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.22"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionService",
+    "Name": "PioneerConstructableDispersionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.2"
+    },
+    "Properties": {
+      "DispersionSettings": [
+        {
+          "Key": {
+            "TagName": "Part.Capability.Weapon.Secondary"
+          },
+          "Value": {
+            "DispersionActiveHalfAngleThreshold": 5.0,
+            "BaseScore": 1.0,
+            "AccuracyErrorAdjustmentFactor": 0.4,
+            "DispersionRules": [],
+            "DispersionShape": {
+              "ObjectName": "PioneerConstructableDispersionBoxShape'C_HeavyDrone_Missile_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionBoxShape_1'",
+              "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.21"
+            }
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Capability.Weapon.Primary"
+          },
+          "Value": {
+            "DispersionActiveHalfAngleThreshold": 5.0,
+            "BaseScore": 1.0,
+            "AccuracyErrorAdjustmentFactor": 0.4,
+            "DispersionRules": [],
+            "DispersionShape": {
+              "ObjectName": "PioneerConstructableDispersionBoxShape'C_HeavyDrone_Missile_C:PioneerConstructableDispersionService_GEN_VARIABLE.PioneerConstructableDispersionBoxShape_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.20"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_HeavyDrone_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.21"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_HeavyDrone_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.22"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Rocketeer'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Rocketeer.0"
+      }
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_HeavyDrone_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.24"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_HeavyDrone_Missile_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_HeavyDrone_Missile_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.26"
+      },
+      "VariableGUID": "1E18DB67-4631EE7D-B00EAA8C-077BA877",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_HeavyDrone_Missile_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AITargetComponent'",
+        "ObjectPath": "/Script/EmbarkAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AITargetComponent'C_HeavyDrone_Missile_C:AITargetComponent1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.1"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6D84E31D-4BD575DD-8459FDAC-58608BD2",
+      "InternalVariableName": "AITargetComponent1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_HeavyDrone_Missile_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.30"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PioneerConstructableDispersionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PioneerConstructableDispersionService'C_HeavyDrone_Missile_C:PioneerConstructableDispersionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.22"
+      },
+      "VariableGUID": "FBC29C9E-48443489-B05D43AC-916D2D24",
+      "InternalVariableName": "PioneerConstructableDispersionService"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_HeavyDrone_Missile_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.28"
+        },
+        {
+          "ObjectName": "SCS_Node'C_HeavyDrone_Missile_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.29"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_HeavyDrone_Missile_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.28"
+        },
+        {
+          "ObjectName": "SCS_Node'C_HeavyDrone_Missile_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.29"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_HeavyDrone_Missile_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.27"
+      }
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_HeavyDrone_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.34"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_HeavyDrone_Missile_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/CS_HeavyDrone_Missile_SK.1"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_HeavyDrone_Missile_C'Default__C_HeavyDrone_Missile_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.3"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_HeavyDrone_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/Shared/C_HeavyDrone_SharedBase.35"
+    }
+  }
+]

@@ -1,0 +1,2655 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Runner'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Runner.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.FX.LightCone"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.FX.LightCone )"
+      },
+      "bUseLineTrace": false
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Runner_Combat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Runner/Runner_Combat.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 8.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Runner_Alert'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Runner/Runner_Alert.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 10.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Runner_Idle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Runner/Runner_Idle.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 25.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "bSignalLocalPlayerTargetOnly": false
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Runner_Skinned_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Medium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Medium_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableGroundEngineAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableGroundEngineAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "VisionConeDummy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_StateIdle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_AttackCooldown",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_StateCombat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_AttackPrepare",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_StateAlerted",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Anim_AttackActive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelProxy_Center",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelProxy_FrontRight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelProxy_Back_C_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WheelProxy_FrontLeft",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ThrusterStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ThrusterStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Runner_Skinned_C'Default__CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.8"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Medium_C",
+    "Name": "BP_DamageStyleDriver_Medium_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.BP_DamageStyleDriver_Medium_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Medium_C'Default__BP_DamageStyleDriver_Medium_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.1"
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Light"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Runner_Blast_Active'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/Capabilities/Shrapnel/DA_Runner_Blast_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Runner_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shared/Capabilities/Shrapnel/DA_Runner_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "Anim_AttackPrepare_GEN_VARIABLE",
+                      "SanitizedComponentName": "Anim_AttackPrepare",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "Anim_AttackActive_GEN_VARIABLE",
+                      "SanitizedComponentName": "Anim_AttackActive",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableGroundEngineAudioComponent",
+    "Name": "ConstructableGroundEngineAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableGroundEngineAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "ThrusterStyleDriverDataParams": {
+        "bUseThrusterStyleDriverNormalizedForce": true,
+        "ThrusterStyleDriverNormalizedForcePart": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Thruster.Big"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Big )"
+        }
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'Runner_Engine'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Runner/Runner_Engine.0"
+      },
+      "RelativeLocation": {
+        "X": -2.5325107E-07,
+        "Y": 0.0,
+        "Z": 39.352474
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Runner_Skinned_C'Default__CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.8"
+    }
+  },
+  {
+    "Type": "CS_Runner_Skinned_C",
+    "Name": "Default__CS_Runner_Skinned_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.CS_Runner_Skinned_C'",
+    "Package": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -28.301052,
+          "Y": -30.430042,
+          "Z": -13.829907
+        },
+        "Max": {
+          "X": 33.57704,
+          "Y": 30.806028,
+          "Z": 121.51698
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Runner_Skinned_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.7"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "Parts": [
+            {
+              "AssosiatedCapabilityParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.ID.Weapon.Blast"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Blast )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": null
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "Weapon_01",
+                    "PartID": 21,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+                  }
+                },
+                "PartList": []
+              },
+              "EffectLocationSocketName": "None"
+            }
+          ],
+          "NiagaraSystemSettings": {
+            "NiagaraSystem": {
+              "AssetPathName": "/Game/Pioneer/Effects/Systems/Explosion/NS_Runner_ShrapnelAttack.NS_Runner_ShrapnelAttack",
+              "SubPathString": ""
+            },
+            "bCastShadow": false,
+            "bCanBePredicted": true,
+            "NiagaraDataChannelAsset": null
+          }
+        }
+      ],
+      "MuzzleAudioDefinitions": [
+        {
+          "StylePartList": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Weapon.Blast"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Weapon.Blast )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+              }
+            },
+            "PartList": [
+              {
+                "SocketSelection": {
+                  "SocketName": "None"
+                },
+                "StyleProxy": {
+                  "Proxy": {
+                    "RelativeTransform": {
+                      "Rotation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0,
+                        "W": 1.0,
+                        "IsNormalized": true,
+                        "Size": 1.0,
+                        "SizeSquared": 1.0
+                      },
+                      "Translation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "Scale3D": {
+                        "X": 1.0,
+                        "Y": 1.0,
+                        "Z": 1.0
+                      }
+                    },
+                    "ComponentName": "None",
+                    "ComponentDisplayName": "None",
+                    "PropertyOuter": {
+                      "PropertyActorClass": null
+                    }
+                  },
+                  "PartID": -1,
+                  "AttachName": "None"
+                },
+                "PartName": "Weapon_01",
+                "PartID": 21,
+                "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+              }
+            ]
+          },
+          "WeaponAudioClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_WeaponAudio_ARC_RunnerGun_01_C'",
+            "ObjectPath": "/Game/Pioneer/Audio/Weapons/WeaponSynthAssets/WeaponAudioComponents/ARC/BP_WeaponAudio_ARC_RunnerGun_01.0"
+          },
+          "bSharedLoopAcrossParts": false,
+          "SharedLoopLocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDriveIntensityFromFiringParts": false,
+          "IntensityParameterName": "FiringIntensity",
+          "bDriveFireRateFromFiringParts": false,
+          "FireRatePerExtraFiringPart": 1.0
+        }
+      ],
+      "bUseCustomActivation": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Runner_Skinned_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.11"
+      },
+      "VariableGUID": "496CF591-43006843-9FB244A1-7B4E2BCF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_StateIdle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.41"
+      },
+      "VariableGUID": "8D97BB91-45B7FB45-50CAD9B0-AF616C68",
+      "InternalVariableName": "Anim_StateIdle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_StateCombat_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.40"
+      },
+      "VariableGUID": "F6ACFBAC-4200A501-5A572993-3720DC4F",
+      "InternalVariableName": "Anim_StateCombat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ThrusterStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ThrusterStyleDriver'CS_Runner_Skinned_C:ThrusterStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.47"
+      },
+      "VariableGUID": "55196F46-4C001E40-A85BC7B1-B1242088",
+      "InternalVariableName": "ThrusterStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Runner_Skinned_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.35"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_66'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.23"
+        }
+      ],
+      "VariableGUID": "56D6D33E-4F973807-505CAC83-6552DD53",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_Runner_Skinned_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.10"
+      },
+      "VariableGUID": "AC8FFC36-405CF7F6-104A2985-E12E251B",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Runner_Skinned_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.5"
+      },
+      "VariableGUID": "E4F3B727-44CF0FF3-3BDAF993-15DE19B6",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_Runner_Skinned_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.1"
+      },
+      "VariableGUID": "050E94BB-48861034-D8217AB2-3111323F",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_Runner_Skinned_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.0"
+      },
+      "VariableGUID": "C74E6A7A-4A9FE910-4C03FDA9-D730D9EE",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Medium_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Runner_Skinned_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.3"
+      },
+      "VariableGUID": "1C2CE582-4569B8E3-E461E5AE-DD99956E",
+      "InternalVariableName": "BP_DamageStyleDriver_Medium"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Runner_Skinned_C:VisionConeDummy_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.42"
+      },
+      "AttachToName": "Head_01",
+      "VariableGUID": "BC56BA21-4FD8125C-BE7A11AB-BAF25243",
+      "InternalVariableName": "VisionConeDummy"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableGroundEngineAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableGroundEngineAudioComponent'CS_Runner_Skinned_C:ConstructableGroundEngineAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.6"
+      },
+      "VariableGUID": "0BF1FC48-451B342A-59C432BA-B48D7AA0",
+      "InternalVariableName": "ConstructableGroundEngineAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Runner_Skinned_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.4"
+      },
+      "VariableGUID": "D10A099B-4AF71A2F-2FBCACBF-76B02495",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Runner_Skinned_C:WheelProxy_Center_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.44"
+      },
+      "AttachToName": "Thruster_01_C_01",
+      "VariableGUID": "0CEB247B-4AB430F2-ED4893AA-14ED3648",
+      "InternalVariableName": "WheelProxy_Center"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_AttackCooldown_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.37"
+      },
+      "VariableGUID": "C76D6BA6-45342153-643F2DAF-2A2961BE",
+      "InternalVariableName": "Anim_AttackCooldown"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_AttackActive_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.36"
+      },
+      "VariableGUID": "CB9A54C3-447E231F-4272078E-FE1AEACB",
+      "InternalVariableName": "Anim_AttackActive"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Runner_Skinned_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.9"
+      },
+      "VariableGUID": "27285EEF-482728C6-17EC78B0-4BAC27FB",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_StateAlerted_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.39"
+      },
+      "VariableGUID": "DBCF34EB-4AFB6086-EF52CEA4-A04EC07B",
+      "InternalVariableName": "Anim_StateAlerted"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Runner_Skinned_C:WheelProxy_FrontLeft_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.45"
+      },
+      "AttachToName": "Thruster_02_L_01",
+      "VariableGUID": "F8A7C8AA-43279DEF-00CF899A-3AAE2ED5",
+      "InternalVariableName": "WheelProxy_FrontLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Runner_Skinned_C:WheelProxy_FrontRight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.46"
+      },
+      "AttachToName": "Thruster_02_R_01",
+      "VariableGUID": "23D39C97-479AC0F8-331B6A95-C6499303",
+      "InternalVariableName": "WheelProxy_FrontRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_Runner_Skinned_C:WheelProxy_Back_C_0_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.43"
+      },
+      "AttachToName": "Thruster_02_C_01",
+      "VariableGUID": "D71C03B8-4011908D-321A02AF-CC333A4E",
+      "InternalVariableName": "WheelProxy_Back_C_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Runner_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.34"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_Runner_Skinned_C:Anim_AttackPrepare_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.38"
+      },
+      "VariableGUID": "2F6B2DD2-477317AB-1DDC83B7-583D5CB1",
+      "InternalVariableName": "Anim_AttackPrepare"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.13"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_66'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.30"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.32"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.31"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.29"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.33"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.13"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.21"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Runner_Skinned_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.12"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_Runner_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/DataAssets/DA_Runner_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_Runner'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/Art/CSSC_Runner.0"
+      },
+      "VirtualPartBones": [
+        "DummyParent_Root",
+        "HatchHydraulics_01_C_01",
+        "HatchHydraulics_01_L_01",
+        "HatchHydraulics_01_R_01",
+        "HatchHydraulics_02_C_01",
+        "HatchHydraulics_02_L_01",
+        "HatchHydraulics_02_R_01",
+        "Antenna"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 22
+      },
+      "SocketGroups": [
+        {
+          "Key": "15",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Thruster",
+                "Value": {
+                  "SocketList": [
+                    "Thruster_02_C_01_Socket"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Thruster",
+                "Value": {
+                  "SocketList": [
+                    "Thruster_02_L_01_Socket"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Thruster",
+                "Value": {
+                  "SocketList": [
+                    "Thruster_02_R_01_Socket"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "SocketIDs": [
+        {
+          "Key": "15",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Thruster_02_C_01_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Thruster_02_C_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Thruster_02_L_01_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Thruster_02_L_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Thruster_02_R_01_Socket",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Thruster_02_R_01"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": 11.401048,
+                "Y": 11.67209,
+                "Z": 8.317096
+              },
+              {
+                "X": 4.6337533,
+                "Y": 8.025926,
+                "Z": 43.189404
+              },
+              {
+                "X": -7.7784014,
+                "Y": -17.748161,
+                "Z": -13.086241
+              },
+              {
+                "X": -11.088964,
+                "Y": -19.206633,
+                "Z": 30.658358
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.7500143,
+                "Y": -9.339871E-06,
+                "Z": -16.327242
+              },
+              {
+                "X": -1.4526885,
+                "Y": 1.2886689E-05,
+                "Z": 2.1556668
+              },
+              {
+                "X": 9.999716,
+                "Y": 1.7348368E-05,
+                "Z": 32.83355
+              },
+              {
+                "X": 9.801556,
+                "Y": 1.14515415E-05,
+                "Z": 12.805706
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.9877088,
+                "Y": 9.268549,
+                "Z": 21.98614
+              },
+              {
+                "X": 2.3707156,
+                "Y": -9.243439,
+                "Z": 21.753916
+              },
+              {
+                "X": 0.021992547,
+                "Y": -9.156999,
+                "Z": 0.48233578
+              },
+              {
+                "X": 0.9401979,
+                "Y": 0.00025909423,
+                "Z": -14.584988
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -3.4852319,
+                "Y": 0.000119126096,
+                "Z": -16.424831
+              },
+              {
+                "X": 1.1153537,
+                "Y": -1.2663344E-05,
+                "Z": 4.486469
+              },
+              {
+                "X": 0.4919425,
+                "Y": 6.571918,
+                "Z": 36.550964
+              },
+              {
+                "X": -0.31089666,
+                "Y": -7.4236813,
+                "Z": 26.303686
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.5646909,
+                "Y": 10.401571,
+                "Z": -18.831669
+              },
+              {
+                "X": 1.8969514,
+                "Y": -9.864086,
+                "Z": -22.687271
+              },
+              {
+                "X": 0.036289312,
+                "Y": 13.008846,
+                "Z": 14.827083
+              },
+              {
+                "X": 3.3008432,
+                "Y": -4.4375668,
+                "Z": 7.750748
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.478187,
+                "Y": 3.8064573,
+                "Z": 21.069613
+              },
+              {
+                "X": 1.7715135,
+                "Y": -2.2797348,
+                "Z": -28.874382
+              },
+              {
+                "X": 0.2674346,
+                "Y": -11.250325,
+                "Z": -6.5758243
+              },
+              {
+                "X": 2.5162225,
+                "Y": 6.3387213,
+                "Z": -17.25116
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": 1.4832108,
+                "Y": 10.648041,
+                "Z": -17.05553
+              },
+              {
+                "X": 2.7754416,
+                "Y": -5.936499,
+                "Z": -5.9068685
+              },
+              {
+                "X": 2.4566474,
+                "Y": -6.205463,
+                "Z": -23.452574
+              },
+              {
+                "X": 2.3627734,
+                "Y": 1.2094963,
+                "Z": 22.53858
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": -0.27842745,
+                "Y": -14.079996,
+                "Z": -7.0447664
+              },
+              {
+                "X": 10.095057,
+                "Y": 9.79746,
+                "Z": -7.001555
+              },
+              {
+                "X": 2.3231227,
+                "Y": -5.217847,
+                "Z": 17.405975
+              },
+              {
+                "X": -10.814994,
+                "Y": 10.917686,
+                "Z": 10.090935
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": 8.174266,
+                "Y": -8.784219E-06,
+                "Z": -2.2264678
+              },
+              {
+                "X": -1.9209592,
+                "Y": 7.8672123,
+                "Z": -2.9543083
+              },
+              {
+                "X": -12.068528,
+                "Y": 8.127612,
+                "Z": -1.0953602
+              },
+              {
+                "X": 1.0884273,
+                "Y": -8.287645,
+                "Z": 1.5134056
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": -11.381691,
+                "Y": 7.7991977,
+                "Z": -2.964223
+              },
+              {
+                "X": 13.518149,
+                "Y": -1.7606943,
+                "Z": -9.690106
+              },
+              {
+                "X": 5.093734,
+                "Y": 8.702622,
+                "Z": 2.8737764
+              },
+              {
+                "X": -7.853074,
+                "Y": -8.089312,
+                "Z": -7.3790207
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 7.6659985,
+                "Y": -8.011126,
+                "Z": -1.611133
+              },
+              {
+                "X": -0.17257158,
+                "Y": -7.9515495,
+                "Z": -2.2689936
+              },
+              {
+                "X": 9.263005,
+                "Y": 7.8387165,
+                "Z": -4.2185435
+              },
+              {
+                "X": -12.350138,
+                "Y": 8.072734,
+                "Z": -0.88599664
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": 20.57112,
+                "Y": 7.329406,
+                "Z": -5.739357
+              },
+              {
+                "X": -10.392663,
+                "Y": 14.225684,
+                "Z": -9.868076
+              },
+              {
+                "X": 13.032774,
+                "Y": -24.17452,
+                "Z": -5.544544
+              },
+              {
+                "X": -15.923909,
+                "Y": -6.292741,
+                "Z": -9.867965
+              }
+            ]
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "Points": [
+              {
+                "X": 0.7701338,
+                "Y": 7.468498,
+                "Z": -5.2935786
+              },
+              {
+                "X": 11.605029,
+                "Y": -5.710319,
+                "Z": -5.2916427
+              },
+              {
+                "X": 16.74238,
+                "Y": 1.4630893,
+                "Z": -5.2885823
+              },
+              {
+                "X": 0.73996276,
+                "Y": -5.54513,
+                "Z": -5.320569
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": -5.9814463,
+                "Y": 13.434518,
+                "Z": -2.9670038
+              },
+              {
+                "X": 12.735694,
+                "Y": 7.3529463,
+                "Z": -2.9670084
+              },
+              {
+                "X": -13.933034,
+                "Y": -4.4161544,
+                "Z": -2.9670055
+              },
+              {
+                "X": 5.981442,
+                "Y": -13.434543,
+                "Z": -2.9670095
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Runner_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/Art/SK_Runner_01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Runner_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/Art/SK_Runner_01.1"
+      },
+      "bPerBoneMotionBlur": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "Minion",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "LinearDamping": 1.0,
+        "AngularDamping": 4.0,
+        "bSimulatePhysics": true
+      },
+      "ComponentTags": [
+        "SkelMesh"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_AttackActive_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkelMesh",
+          "BoneNames": [
+            "Head_01",
+            "Weapon_01",
+            "Body_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Runner_AttackActive_02'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Animation/A_Runner_AttackActive_02.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_AttackActive"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_AttackCooldown_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkelMesh",
+          "BoneNames": [
+            "Head_01",
+            "Weapon_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Runner_AttackCooldown_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Animation/A_Runner_AttackCooldown_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "AnimationSound": {
+        "ObjectName": "SoundCue'RollBotBig_RecoverySteam'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/RollBot/RollBotBig_RecoverySteam.0"
+      },
+      "AudioFadeOutTime": 2.0,
+      "ComponentTags": [
+        "Anim_AttackCooldown"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_AttackPrepare_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkelMesh",
+          "BoneNames": [
+            "Head_01",
+            "Weapon_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Runner_AttackPrepare_02'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Animation/A_Runner_AttackPrepare_02.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_AttackPrepare"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_StateAlerted_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkelMesh",
+          "BoneNames": [
+            "Hatch_01_C_01",
+            "Hatch_01_L_01",
+            "Hatch_01_R_01",
+            "Thruster_02_C_01",
+            "Thruster_02_L_01",
+            "Thruster_02_R_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Runner_StateAlerted_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Animation/A_Runner_StateAlerted_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_StateAlerted"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_StateCombat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkelMesh",
+          "BoneNames": [
+            "Hatch_01_C_01",
+            "Hatch_01_L_01",
+            "Hatch_01_R_01",
+            "Thruster_02_C_01",
+            "Thruster_02_L_01",
+            "Thruster_02_R_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Runner_StateCombat_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Animation/A_Runner_StateCombat_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_StateCombat"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "Anim_StateIdle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "SkelMesh",
+          "BoneNames": [
+            "Hatch_01_C_01",
+            "Hatch_01_L_01",
+            "Hatch_01_R_01",
+            "Thruster_02_C_01",
+            "Thruster_02_L_01",
+            "Thruster_02_R_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_Runner_StateIdle_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Animation/A_Runner_StateIdle_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      },
+      "ComponentTags": [
+        "Anim_StateIdle"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "VisionConeDummy_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.FX.LightCone"
+      ],
+      "PartIDRange": {
+        "BasePartID": 26,
+        "NrIDs": 1
+      },
+      "RelativeLocation": {
+        "X": 13.2887745,
+        "Y": 5.8822956,
+        "Z": 2.1961784
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "WheelProxy_Back_C_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Wheel"
+      ],
+      "PartIDRange": {
+        "BasePartID": 23,
+        "NrIDs": 1
+      },
+      "SizeCullScaleFactor": 100.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "MinionTiny",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 15.184956,
+        "Y": 0.0,
+        "Z": 26.88725
+      },
+      "RelativeRotation": {
+        "Pitch": 47.103367,
+        "Yaw": 1.9186857E-16,
+        "Roll": 4.381034E-21
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "WheelProxy_Center_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Wheel"
+      ],
+      "PartIDRange": {
+        "BasePartID": 25,
+        "NrIDs": 1
+      },
+      "SizeCullScaleFactor": 100.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "MinionTiny",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 5.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "WheelProxy_FrontLeft_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Wheel"
+      ],
+      "PartIDRange": {
+        "BasePartID": 22,
+        "NrIDs": 1
+      },
+      "SizeCullScaleFactor": 100.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "MinionTiny",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 22.601385,
+        "Y": 6.1003003,
+        "Z": 25.966593
+      },
+      "RelativeRotation": {
+        "Pitch": 55.74641,
+        "Yaw": -13.236568,
+        "Roll": -20.00513
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "WheelProxy_FrontRight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "PartTags": [
+        "Part.Decorator.ID.Wheel"
+      ],
+      "PartIDRange": {
+        "BasePartID": 24,
+        "NrIDs": 1
+      },
+      "SizeCullScaleFactor": 100.0,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "MinionTiny",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 22.595192,
+        "Y": -6.0836554,
+        "Z": 25.977324
+      },
+      "RelativeRotation": {
+        "Pitch": 57.93466,
+        "Yaw": 1.087479,
+        "Roll": 8.041297
+      }
+    }
+  },
+  {
+    "Type": "ThrusterStyleDriver",
+    "Name": "ThrusterStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ThrusterStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster.Small"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Small )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": [
+              {
+                "Key": "17",
+                "Value": "Thruster_02_R_01"
+              },
+              {
+                "Key": "16",
+                "Value": "Thruster_02_L_01"
+              },
+              {
+                "Key": "15",
+                "Value": "Thruster_02_C_01"
+              }
+            ]
+          },
+          "ThrusterSocketGroup": "None",
+          "bAttachThrusterFXToChildren": false,
+          "FXThrusterChildren": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": null,
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Runner_Hover_Exhaust'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/Art/DA_Runner_Hover_Exhaust.0"
+          },
+          "bVectorized": true,
+          "ForceInterpolationAlpha": 0.3,
+          "MinimumThrusterForceNormalized": 0.0,
+          "bUsePeriodicThrusters": false,
+          "bScalePeriodWithMovement": false,
+          "PeriodBias": 3.0,
+          "PeriodMultiplier": 5.0
+        },
+        {
+          "ThrusterParts": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Thruster.Big"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Thruster.Big )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Runner_Skinned_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Runner/CS_Runner_Skinned.2"
+              },
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": [
+              {
+                "Key": "14",
+                "Value": "Thruster_01_C_01"
+              }
+            ]
+          },
+          "ThrusterSocketGroup": "None",
+          "bAttachThrusterFXToChildren": false,
+          "FXThrusterChildren": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": null,
+              "AlternatePropertyActorClass": null,
+              "bIsPropertyOuterConstructable": false
+            },
+            "PartList": []
+          },
+          "Effect": {
+            "ObjectName": "EffectDataAsset'DA_Runner_ThrusterBurst'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Runner/Shredder/Art/DA_Runner_ThrusterBurst.0"
+          },
+          "bVectorized": false,
+          "ForceInterpolationAlpha": 0.3,
+          "MinimumThrusterForceNormalized": 0.5,
+          "bUsePeriodicThrusters": true,
+          "bScalePeriodWithMovement": true,
+          "PeriodBias": 3.0,
+          "PeriodMultiplier": 5.0
+        }
+      ],
+      "bUseChildThrustersAsForce": true,
+      "DownWashEffectData": {
+        "ObjectName": "DownWashEffectData'DA_DownwashData_Smaller'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Downwash/DA_DownwashData_Smaller.0"
+      },
+      "DownwashRadius": 70.0
+    }
+  }
+]

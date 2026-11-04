@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_AssaultRifle_LowTier_01_Ascended",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Ascended/DA_Item_AssaultRifle_LowTier_01_Ascended",
+    "Properties": {
+      "bIsUpgradedVariation": true,
+      "BaseQualityLevel": 3,
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_WeaponActor_AssaultRifle_LowTier_01.BP_WeaponActor_AssaultRifle_LowTier_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/SM_AssaultRifle_LowTier_01_A.SM_AssaultRifle_LowTier_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 6.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Rattler"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "UnequipTime": 0.44,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 1.0,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.AssaultRifle"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_AssaultRifle'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_AssaultRifle.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_AssaultRifle_LowTier_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/DA_ItemAnimationContainer_AssaultRifle_LowTier_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_AssaultRifleLowTier01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/DA_ItemSkinSlot_AssaultRifleLowTier01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Ascended/Default/DA_WeaponVisuals_AssaultRifle_LowTier_01_Ascended_Default_A.DA_WeaponVisuals_AssaultRifle_LowTier_01_Ascended_Default_A",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/DA_QualityVisual_AssaultRifle_LowTier_01.DA_QualityVisual_AssaultRifle_LowTier_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_LowTier_01_Ascended'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Ascended/DA_Persistence_AssaultRifle_LowTier_01_Ascended.0"
+      },
+      "Tags": [
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.AssaultRifleLowTier01",
+        "Item.Flag.Upgraded",
+        "Online.Release.2.0"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.MediumAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Rattler"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Ascended/BP_Item_AssaultRifle_LowTier_01_Ascended.BP_Item_AssaultRifle_LowTier_01_Ascended_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

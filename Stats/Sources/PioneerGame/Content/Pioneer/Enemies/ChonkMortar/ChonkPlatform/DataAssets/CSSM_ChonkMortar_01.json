@@ -1,0 +1,1432 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSM_ChonkMortar_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/CSSM_ChonkMortar_01",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Muzzle",
+          "Value": []
+        },
+        {
+          "Key": "Sensor",
+          "Value": []
+        },
+        {
+          "Key": "Body_01",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "HeadPivot",
+          "Value": [
+            "Part.Decorator.ID.HeadPivot"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_03_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_03_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_04_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_04_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "Insides_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts.01"
+          ]
+        },
+        {
+          "Key": "Insides_02_C_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts.02"
+          ]
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": [
+            "Part.Decorator.Group.Weakpoint"
+          ]
+        },
+        {
+          "Key": "Weapon_Pivot_01",
+          "Value": [
+            "Part.Decorator.ID.Arm.Front"
+          ]
+        },
+        {
+          "Key": "Weapon_01_Barrel_01",
+          "Value": [
+            "Part.Decorator.ID.Turret"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_L_01",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_L_01",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_L_02",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_L_02",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_L_03",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_L_03",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_R_01",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_R_01",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_R_02",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_R_02",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_R_03",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_R_03",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear"
+          ]
+        }
+      ],
+      "ConstraintNameToTagsMap": [
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": [
+            "ML.Actuated"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": [
+            "ML.Actuated"
+          ]
+        }
+      ],
+      "BoneNameToExtraPartTagsMap": [
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": [
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.Rotation",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": [
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.Rotation",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": [
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.Rotation",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "Body_01",
+          "Value": [
+            "ML.Observed.ContactState",
+            "ML.ContactPenalty"
+          ]
+        },
+        {
+          "Key": "Foot_L_01",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "Foot_L_02",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "Foot_L_03",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "Foot_R_01",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "Foot_R_02",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "Foot_R_03",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": [
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": [
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": [
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Location",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Location",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": [
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Location",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": [
+            "ML.Observed.Rotation",
+            "ML.Observed.Location",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": [
+            "ML.Observed.Rotation",
+            "ML.Observed.Location",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": [
+            "ML.Observed.Rotation",
+            "ML.Observed.Location",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.ContactState"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Core_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_01_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_01_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_01_L_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_01_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_01_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Weakpoint_01_R_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Insides_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Insides_02_C_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Weapon_01_Barrel_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Weapon_Pivot_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Body_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "HeadPivot",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_02_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_02_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_03_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_03_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_04_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_04_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Core_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Insides_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Insides_02_C_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "Weapon_Pivot_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Weapon_01_Barrel_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Weakpoint_01_L_01",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Weakpoint_01_L_02",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Weakpoint_01_L_03",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Weakpoint_01_R_01",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_02",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Weakpoint_01_R_02",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Foot_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_03",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Weakpoint_01_R_03",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Muzzle",
+          "Value": []
+        },
+        {
+          "Key": "Sensor",
+          "Value": []
+        },
+        {
+          "Key": "Body_01",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "ML.Observed.ContactState",
+            "ML.ContactPenalty"
+          ]
+        },
+        {
+          "Key": "HeadPivot",
+          "Value": [
+            "Part.Decorator.ID.HeadPivot"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_02_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_02_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_03_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_03_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_04_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Armor_04_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Insides_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts.01",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Insides_02_C_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts.02",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Weakpoint_02",
+          "Value": [
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "Weapon_Pivot_01",
+          "Value": [
+            "Part.Decorator.ID.Arm.Front",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Weapon_01_Barrel_01",
+          "Value": [
+            "Part.Decorator.ID.Turret",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.Rotation",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Location",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_L_01",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_L_01",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.Rotation",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Location",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_L_02",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_L_02",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.Rotation",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_L_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Location",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_L_03",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_L_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_L_03",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.Rotation",
+            "ML.Observed.Location",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_R_01",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_R_01",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.Rotation",
+            "ML.Observed.Location",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_R_02",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_R_02",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Middle",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.Group.Upper",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.ContactState",
+            "ML.Observed.Rotation"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_R_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.Group.Lower",
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.Group.Scavenge",
+            "ML.Observed.Rotation",
+            "ML.Observed.Location",
+            "ML.Observed.AngularVelocity",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.ContactState"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Foot_R_03",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "ML.Observed.AMPLinVel",
+            "ML.Observed.Foot",
+            "ML.Observed.Location"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_Armor_01_R_03",
+          "Value": [
+            "Part.Decorator.HealthGroup.Legs"
+          ]
+        },
+        {
+          "Key": "Weakpoint_01_R_03",
+          "Value": [
+            "Part.Decorator.ID.Joint",
+            "Part.Decorator.Propagation.PreferParent",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        }
+      ]
+    }
+  }
+]

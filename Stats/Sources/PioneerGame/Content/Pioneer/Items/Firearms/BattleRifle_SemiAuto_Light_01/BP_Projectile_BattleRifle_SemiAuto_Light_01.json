@@ -1,0 +1,166 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Projectile_BattleRifle_SemiAuto_Light_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_BattleRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Projectile_BattleRifle_Base.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Projectile_BattleRifle_SemiAuto_Light_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Projectile_BattleRifle_SemiAuto_Light_01_C'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Projectile_BattleRifle_SemiAuto_Light_01_C",
+    "Name": "Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.BP_Projectile_BattleRifle_SemiAuto_Light_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01",
+    "Template": {
+      "ObjectName": "BP_Projectile_BattleRifle_Base_C'Default__BP_Projectile_BattleRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Projectile_BattleRifle_Base.1"
+    },
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.7"
+      },
+      "ProjectileMovement": {
+        "ObjectName": "ProjectileMovementComponent'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C:ProjectileMovement'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.3"
+      },
+      "NewTrailEffect": {
+        "ObjectName": "NiagaraSystem'NS_BulletTrail_Ribbon_LightRifle'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Weapons/BulletTrails/NS_BulletTrail_Ribbon_LightRifle.22"
+      },
+      "PredictionComponent": {
+        "ObjectName": "PredictedProjectileComponent'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C:PredictionComponent'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.2"
+      },
+      "DetonationEffectPreset": {
+        "ObjectName": "EffectDataAsset'DA_Impacts_Tiny'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_Tiny.0"
+      },
+      "DetonationEffectSizeParam": 0.8,
+      "ImpactForce": "EForceMagnitude::Small",
+      "BulletFlyby": {
+        "ObjectName": "SoundCue'ProjectileFlyBy_Pistol'",
+        "ObjectPath": "/Game/Pioneer/Audio/Weapons/Projectiles/Flybys/ProjectileFlyBy_Pistol.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.7"
+      }
+    }
+  },
+  {
+    "Type": "PredictedProjectileComponent",
+    "Name": "PredictionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PredictedProjectileComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_BattleRifle_SemiAuto_Light_01_C'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.1"
+    },
+    "Template": {
+      "ObjectName": "PredictedProjectileComponent'Default__BP_Projectile_BattleRifle_Base_C:PredictionComponent'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Projectile_BattleRifle_Base.3"
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_BattleRifle_SemiAuto_Light_01_C'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.1"
+    },
+    "Template": {
+      "ObjectName": "ProjectileMovementComponent'Default__BP_Projectile_BattleRifle_Base_C:ProjectileMovement'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Projectile_BattleRifle_Base.4"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_BattleRifle_SemiAuto_Light_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Projectile_BattleRifle_SemiAuto_Light_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Projectile_BattleRifle_SemiAuto_Light_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.4"
+      },
+      "VariableGUID": "EB310364-43765542-A50F78AB-2421B4D7",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_BattleRifle_SemiAuto_Light_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Projectile_BattleRifle_SemiAuto_Light_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_BattleRifle_SemiAuto_Light_01_C'Default__BP_Projectile_BattleRifle_SemiAuto_Light_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Projectile_BattleRifle_Base_C:Mesh'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Projectile_BattleRifle_Base.8"
+    }
+  }
+]

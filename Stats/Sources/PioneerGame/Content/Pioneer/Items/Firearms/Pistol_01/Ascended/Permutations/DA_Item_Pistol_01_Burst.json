@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_Pistol_01_Burst",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/DA_Item_Pistol_01_Burst",
+    "Properties": {
+      "bIsUpgradedVariation": true,
+      "BaseQualityLevel": 3,
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_01/BP_WeaponActor_Pistol_01.BP_WeaponActor_Pistol_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_01/SM_Pistol_01_A.SM_Pistol_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 4.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Burletta"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "UnequipTimeToItems": 0.25,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.Pistol"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_Pistol'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_Pistol.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_Pistol_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_ItemAnimationContainer_Pistol_01.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_Pistol01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_ItemSkinSlot_Pistol01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Default/DA_WeaponVisuals_Pistol_01_Ascended_Default_A.DA_WeaponVisuals_Pistol_01_Ascended_Default_A",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_QualityVisual_Pistol_01.DA_QualityVisual_Pistol_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Pistol_01_Burst'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/DA_Persistence_Pistol_01_Burst.0"
+      },
+      "Tags": [
+        "Mod.Visual.Mag.Pistol.Light",
+        "Item.Flag.Upgraded",
+        "Online.Release.2.0",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.Pistol01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.LightAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Burletta",
+        "Quest.Groups.Items.WeaponBurstResearch"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst.BP_Item_Pistol_01_Burst_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

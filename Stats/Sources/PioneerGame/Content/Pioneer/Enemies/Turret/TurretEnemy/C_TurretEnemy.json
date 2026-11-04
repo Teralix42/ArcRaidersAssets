@@ -1,0 +1,1174 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_Turret_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.0"
+    }
+  },
+  {
+    "Type": "AITargetComponent",
+    "Name": "AITargetComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AITargetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.3"
+    },
+    "Properties": {
+      "OverrideTeamId": "EEmbarkTeamId::Team2"
+    }
+  },
+  {
+    "Type": "ArticulatedTargetingService",
+    "Name": "ArticulatedTargetingService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArticulatedTargetingService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.3"
+    },
+    "Properties": {
+      "ArticulatedTargetingDefinitions": [
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Turret"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Head"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": 240.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            },
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Arm"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ALL( Part.Decorator.ID.Arm )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": 240.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_TurretEnemy_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_Turret_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_TurretEnemy_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.38"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_TurretEnemy_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.17"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_ConstructableDispersionServiceAutomaticRifle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_ConstructableDispersionServiceAutomaticRifle_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SnapSpawnDataService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SnapSpawnDataService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AITargetComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AITargetComponent'",
+          "ObjectPath": "/Script/EmbarkAI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArticulatedTargetingService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ArticulatedTargetingService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ConstructableDispersionServiceAutomaticRifle_C",
+    "Name": "BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.BP_ConstructableDispersionServiceAutomaticRifle_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.3"
+    },
+    "Template": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'Default__BP_ConstructableDispersionServiceAutomaticRifle_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.1"
+    },
+    "Properties": {
+      "DispersionSettings": [
+        {
+          "Key": {
+            "TagName": "Part.Capability.Weapon.Primary"
+          },
+          "Value": {
+            "DispersionActiveHalfAngleThreshold": 10.0,
+            "BaseScore": 0.8,
+            "AccuracyErrorAdjustmentFactor": 0.4,
+            "DispersionRules": [
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleGameplayTagTarget_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.24"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleDiscovery'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleDiscovery_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.23"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetDistance_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.26"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetSpeed_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.27"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleClearShot'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleClearShot_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.22"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionTargetAttribute'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionTargetAttribute_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.28"
+              },
+              {
+                "ObjectName": "PioneerConstructableDispersionRuleTargetCharacterStance'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionRuleTargetCharacterStance_0'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.25"
+              }
+            ],
+            "DispersionShape": {
+              "ObjectName": "PioneerConstructableDispersionBoxShape'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE.PioneerConstructableDispersionBoxShape_0'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.21"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "C_TurretEnemy_C",
+    "Name": "Default__C_TurretEnemy_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.C_TurretEnemy_C'",
+    "Package": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy",
+    "Template": {
+      "ObjectName": "C_Turret_SharedBase_C'Default__C_Turret_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_TurretEnemy_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.16"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_TurretEnemy_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.12"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_TurretEnemy_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.8"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_TurretEnemy_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.20"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_TurretEnemy_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.13"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_TurretEnemy_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.15"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_TurretEnemy_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.10"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_TurretEnemy_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.14"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_TurretEnemy_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.19"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_TurretEnemy_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.29"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_TurretEnemy_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.11"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_TurretEnemy_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.30"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_TurretEnemy_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.40"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_TurretEnemy_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.31"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_TurretEnemy_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_TurretEnemy_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.9"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_TurretEnemy_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.7"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_TurretEnemyAI'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/DA_TurretEnemyAI.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_TurretEnemy'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/DA_EnemyType_TurretEnemy.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Ground"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_TurretEnemy_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.18"
+      },
+      "SpawnBudgetCost": 6,
+      "ThreatLevel": 4,
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_TurretEnemy_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.41"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_TurretEnemy_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.6"
+      },
+      "NetCullDistanceSquared": 100000000.0,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_TurretEnemy_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.11"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Turret_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Turret_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_TurretHead'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/DA_AimAssistPartSetup_TurretHead.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_Turret_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.5"
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_Turret_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_TurretEnemy_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.11"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Turret_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.7"
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Turret_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Turret_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Arm"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Arm )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 1.0,
+            "MaxRotationSpeedDegPerSec": 150.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 15000.0,
+            "bDirectlyUpdatePartOrientations": false,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "RotationOriginConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Arm"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Arm )"
+          },
+          "SocketName": "Muzzle",
+          "PivotType": "EConstructablePartPivotType::FirstOfSocketGroup"
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "MaxRotationSpeedDegPerSec": 150.0,
+        "PredictionResponsivenessUNorm": 0.6,
+        "ProjectileSpeedCmPerSec": 15000.0,
+        "bDirectlyUpdatePartOrientations": false,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Turret_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_TurretEnemyPerception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/DA_TurretEnemyPerception.0"
+      }
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_Turret_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.11"
+    },
+    "Properties": {
+      "LootType": {
+        "TagName": "Loot.Enemy.Turret"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_TurretEnemy'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/DA_PartScavengeSetup_TurretEnemy.0"
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_Turret_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.12"
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_Turret_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.13"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.3"
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_Turret_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.15"
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_Turret_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.16"
+    },
+    "Properties": {
+      "OutOfCombatAimingBehavior": "EOutOfCombatAimingBehavior::KeepAiming"
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_Turret_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.17"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Weapon.Primary"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Turret"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Shared_LightRifle_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Shared/Projectiles/GA_Shared_LightRifle.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_TurretEnemy_Rifle_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/Behavior/CSM_TurretEnemy_Rifle.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Turret",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastSeenLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionBoxShape",
+    "Name": "PioneerConstructableDispersionBoxShape_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionBoxShape'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionBoxShape'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionBoxShape_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.2"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleClearShot",
+    "Name": "PioneerConstructableDispersionRuleClearShot_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleClearShot'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleClearShot'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleClearShot_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.3"
+    },
+    "Properties": {
+      "ClearShotToWeightCurve": {
+        "EditorCurveData": {}
+      }
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleDiscovery",
+    "Name": "PioneerConstructableDispersionRuleDiscovery_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleDiscovery'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleDiscovery'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleDiscovery_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.4"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleGameplayTagTarget",
+    "Name": "PioneerConstructableDispersionRuleGameplayTagTarget_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleGameplayTagTarget'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleGameplayTagTarget'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleGameplayTagTarget_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.5"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetCharacterStance",
+    "Name": "PioneerConstructableDispersionRuleTargetCharacterStance_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetCharacterStance'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleTargetCharacterStance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetCharacterStance_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.6"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetDistance",
+    "Name": "PioneerConstructableDispersionRuleTargetDistance_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetDistance'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleTargetDistance'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetDistance_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.7"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionRuleTargetSpeed",
+    "Name": "PioneerConstructableDispersionRuleTargetSpeed_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionRuleTargetSpeed'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionRuleTargetSpeed'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionRuleTargetSpeed_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.8"
+    }
+  },
+  {
+    "Type": "PioneerConstructableDispersionTargetAttribute",
+    "Name": "PioneerConstructableDispersionTargetAttribute_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableDispersionTargetAttribute'",
+    "Outer": {
+      "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableDispersionTargetAttribute'Default__BP_ConstructableDispersionServiceAutomaticRifle_C:PioneerConstructableDispersionTargetAttribute_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.9"
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_Turret_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.18"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_Turret_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Turret'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Turret.0"
+      }
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_Turret_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.20"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_TurretEnemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_TurretEnemy_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.32"
+      },
+      "VariableGUID": "91151A37-4BF52BCF-20D84C91-8733EC6A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_TurretEnemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ConstructableDispersionServiceAutomaticRifle_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/BP_ConstructableDispersionServiceAutomaticRifle.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_ConstructableDispersionServiceAutomaticRifle_C'C_TurretEnemy_C:BP_ConstructableDispersionServiceAutomaticRifle_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.4"
+      },
+      "VariableGUID": "B31E529A-49BAD025-1491398F-665F68AA",
+      "InternalVariableName": "BP_ConstructableDispersionServiceAutomaticRifle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_TurretEnemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ArticulatedTargetingService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ArticulatedTargetingService'C_TurretEnemy_C:ArticulatedTargetingService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.2"
+      },
+      "VariableGUID": "E27F208F-41330565-E95D0A94-54CFE4DB",
+      "InternalVariableName": "ArticulatedTargetingService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_TurretEnemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SnapSpawnDataService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SnapSpawnDataService'C_TurretEnemy_C:SnapSpawnDataService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.39"
+      },
+      "VariableGUID": "D4ECE31C-4B9F523E-342521BE-703B4D1C",
+      "InternalVariableName": "SnapSpawnDataService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_TurretEnemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AITargetComponent'",
+        "ObjectPath": "/Script/EmbarkAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AITargetComponent'C_TurretEnemy_C:AITargetComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.1"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "F412BDEB-4B106E9D-170F4092-8BB21707",
+      "InternalVariableName": "AITargetComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.3"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.37"
+        },
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.36"
+        },
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.34"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.37"
+        },
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.36"
+        },
+        {
+          "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.34"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_TurretEnemy_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.33"
+      }
+    }
+  },
+  {
+    "Type": "SnapSpawnDataService",
+    "Name": "SnapSpawnDataService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SnapSpawnDataService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.3"
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_Turret_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.24"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_TurretEnemy_C'Default__C_TurretEnemy_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/C_TurretEnemy.5"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_Turret_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/Shared/C_Turret_SharedBase.25"
+    }
+  }
+]

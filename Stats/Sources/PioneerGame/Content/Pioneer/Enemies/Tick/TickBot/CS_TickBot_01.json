@@ -1,0 +1,1386 @@
+[
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": null,
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 1.5,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 0.5
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'TickBot_Signal'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tick/TickBot_Signal.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 2.5,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.2,
+              "Y": 0.5
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'TickBot_Signal_IntoCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tick/TickBot_Signal_IntoCombat.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 1.5,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "IdleColor": {
+        "R": 0.3675,
+        "G": 0.4125,
+        "B": 0.75,
+        "A": 1.0,
+        "Hex": "A3ACE1"
+      },
+      "AlertColor": {
+        "R": 2.0,
+        "G": 1.92,
+        "B": 0.54,
+        "A": 1.0,
+        "Hex": "FFFFC2"
+      },
+      "CombatColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "LightIntensity": 500.0,
+      "bLightOnlyAtNight": false,
+      "TagEffectMap": [
+        {
+          "Key": {
+            "TagName": "AI.Reaction.Stimulus"
+          },
+          "Value": {
+            "OnTagAppliedEffect": null,
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": false,
+            "EffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'Tick_React'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Tick/Tick_React.0"
+            },
+            "SoundCoolDownTime": 0.0,
+            "bStopSoundWhenTagRemoved": false,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": false
+          }
+        },
+        {
+          "Key": {
+            "TagName": "AI.Behavior.Cloak"
+          },
+          "Value": {
+            "OnTagAppliedEffect": null,
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": false,
+            "EffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "OnTagAppliedSound": null,
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": false,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MI_EnemyPreset_Cloak_01'",
+              "ObjectPath": "/Game/Pioneer/MaterialLibrary/Material_Instances/Enemies/MI_EnemyPreset_Cloak_01.0"
+            },
+            "bRemoveEffectOnConstructableDestroyed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_TickBot_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PerceptionEye",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CBP_StunStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Frame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Client_Only_SkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CollisionStyleDriver_Small",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Small_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Small.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PioneerStepMovementAudioComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PioneerStepMovementAudioComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ExplodeStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ExplodeStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_XSmall",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_XSmall_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_XSmall.0"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_TickBot_01_C'Default__CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.8"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_CollisionStyleDriver_Small_C",
+    "Name": "BP_CollisionStyleDriver_Small_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Small.BP_CollisionStyleDriver_Small_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_CollisionStyleDriver_Small_C'Default__BP_CollisionStyleDriver_Small_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Small.1"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_XSmall_C",
+    "Name": "BP_DamageStyleDriver_XSmall_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_XSmall.BP_DamageStyleDriver_XSmall_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_XSmall_C'Default__BP_DamageStyleDriver_XSmall_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_XSmall.1"
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.Jump"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tick_Jump'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Tick_Jump.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tick_JumpPrepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Tick_JumpPrepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": [
+            {
+              "ParameterName": "Jumping",
+              "ResultToValue": [
+                {
+                  "Key": "ECapabilityResult::Failed",
+                  "Value": 0.0
+                },
+                {
+                  "Key": "ECapabilityResult::Succeeded",
+                  "Value": 0.0
+                }
+              ],
+              "StateToValue": [
+                {
+                  "Key": "ECapabilityState::Preparing",
+                  "Value": 1.0
+                },
+                {
+                  "Key": "ECapabilityState::CoolingDown",
+                  "Value": 0.0
+                }
+              ],
+              "LimitToMaterials": [],
+              "bApplyStateChangeOverTime": false,
+              "TimeToBlendStateChange": 1.0
+            }
+          ]
+        },
+        {
+          "AbilityTags": [
+            "Ability.Grab"
+          ],
+          "StateEffectMap": [],
+          "ResultEffectMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Tick_Grab'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Tick_Grab.0"
+                },
+                "bPlayForEachPart": false,
+                "bKillExplicitState": false,
+                "KillExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "TagName": "DialogueIntent.Grabbed.Self"
+              }
+            }
+          ],
+          "AnimationMap": [],
+          "MaterialParameters": [
+            {
+              "ParameterName": "Grabbing",
+              "ResultToValue": [
+                {
+                  "Key": "ECapabilityResult::Succeeded",
+                  "Value": 1.0
+                },
+                {
+                  "Key": "ECapabilityResult::Failed",
+                  "Value": 0.0
+                }
+              ],
+              "StateToValue": [
+                {
+                  "Key": "ECapabilityState::CoolingDown",
+                  "Value": 0.0
+                }
+              ],
+              "LimitToMaterials": [],
+              "bApplyStateChangeOverTime": false,
+              "TimeToBlendStateChange": 1.0
+            }
+          ]
+        },
+        {
+          "AbilityTags": [
+            "Ability.Dig"
+          ],
+          "StateEffectMap": [],
+          "ResultEffectMap": [
+            {
+              "Key": "ECapabilityResult::Succeeded",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_TickDiggingEffect'",
+                  "ObjectPath": "/Game/Pioneer/Enemies/Tick/DA_TickDiggingEffect.0"
+                },
+                "bPlayForEachPart": false,
+                "bKillExplicitState": false,
+                "KillExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.CallReinforcements.AlertNearby"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_AlertNearby_TickBot'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_AlertNearby_TickBot.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CBP_StunStyleDriver_C",
+    "Name": "CBP_StunStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.CBP_StunStyleDriver_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Template": {
+      "ObjectName": "CBP_StunStyleDriver_C'Default__CBP_StunStyleDriver_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.1"
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_TickBot_01_C'Default__CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.8"
+    },
+    "Properties": {
+      "ProxyPartList": [
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.38268343,
+              "Z": 0.0,
+              "W": 0.9238795,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.99999994
+            },
+            "Translation": {
+              "X": 35.0,
+              "Y": 0.0,
+              "Z": 10.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.ID.Eye"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 1,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "None"
+          },
+          "PartName": "PerceptionEye",
+          "bIsDestroyed": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CS_TickBot_01_C",
+    "Name": "Default__CS_TickBot_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.CS_TickBot_01_C'",
+    "Package": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -46.355682,
+          "Y": -40.083298,
+          "Z": -20.24457
+        },
+        "Max": {
+          "X": 35.0,
+          "Y": 40.08331,
+          "Z": 15.02171
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_TickBot_01_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.7"
+      },
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_XS'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_XS.0"
+      }
+    }
+  },
+  {
+    "Type": "ExplodeStyleDriver",
+    "Name": "ExplodeStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExplodeStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "ExplodeStyles": [
+        {
+          "PartTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.Group.Critical"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Explosive"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": "ALL ( Part.Decorator.Group.Critical, Part.Decorator.Group.Explosive )"
+          },
+          "StyleInfo": {
+            "StyleBitMask": 255,
+            "ProgressEffect": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerStepMovementAudioComponent",
+    "Name": "PioneerStepMovementAudioComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerStepMovementAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "MoveSound": {
+        "ObjectName": "SoundCue'Tick_Move'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Tick/Tick_Move.0"
+      },
+      "FootplantEffect": {
+        "ObjectName": "EffectDataAsset'DA_Tick_FootPlant'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Tick/DA_Tick_FootPlant.0"
+      },
+      "DefaultSpeedRange": {
+        "X": 10.0,
+        "Y": 600.0
+      },
+      "StateOverrideSoundsettings": [
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Status.Grabbing"
+              },
+              {
+                "TagName": "Status.Jumping"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Status.Grabbing,\n Status.Jumping )"
+          },
+          "bIsMovingOnGround": false,
+          "SpeedRange": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "StepInterval": {
+            "X": 0.1,
+            "Y": 0.1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_TickBot_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.12"
+      },
+      "VariableGUID": "876CA8CB-44138984-9C1D2EA1-D5E08441",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_TickBot_01_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.9"
+      },
+      "VariableGUID": "5B018FAD-4E922FC4-B62ABAA2-F3AA28E1",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Small_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Small.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_CollisionStyleDriver_Small_C'CS_TickBot_01_C:BP_CollisionStyleDriver_Small_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.2"
+      },
+      "VariableGUID": "17834019-419977DE-8EE971BD-90DA95E5",
+      "InternalVariableName": "BP_CollisionStyleDriver_Small"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_XSmall_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_XSmall.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_XSmall_C'CS_TickBot_01_C:BP_DamageStyleDriver_XSmall_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.3"
+      },
+      "VariableGUID": "CF4E2055-4800F07E-2F93ABA5-994699C2",
+      "InternalVariableName": "BP_DamageStyleDriver_XSmall"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PioneerStepMovementAudioComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PioneerStepMovementAudioComponent'CS_TickBot_01_C:PioneerStepMovementAudioComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.11"
+      },
+      "VariableGUID": "EC8DC01E-42C702F2-66DE7D86-953BA56F",
+      "InternalVariableName": "PioneerStepMovementAudioComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_TickBot_01_C:Frame_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.28"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.25"
+        }
+      ],
+      "VariableGUID": "5D8E5E82-47E9598E-3E43559A-EA52B8ED",
+      "InternalVariableName": "Frame"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'CBP_StunStyleDriver_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/CBP_StunStyleDriver.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CBP_StunStyleDriver_C'CS_TickBot_01_C:CBP_StunStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.6"
+      },
+      "VariableGUID": "1B9AB57A-4311C984-7984F3AD-ADBD090A",
+      "InternalVariableName": "CBP_StunStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ExplodeStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ExplodeStyleDriver'CS_TickBot_01_C:ExplodeStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.10"
+      },
+      "VariableGUID": "D01A5645-445CE969-B5099483-4AB8B644",
+      "InternalVariableName": "ExplodeStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_TickBot_01_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.5"
+      },
+      "VariableGUID": "EBE49C9D-46EFCA22-1131F397-4064966C",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_TickBot_01_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.0"
+      },
+      "VariableGUID": "E465E710-49518480-44C16380-3AB6DBAE",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'CS_TickBot_01_C:Client_Only_SkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.27"
+      },
+      "VariableGUID": "EB91CDE9-4A675493-85F10F91-087AA9FF",
+      "InternalVariableName": "Client_Only_SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_TickBot_01_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.4"
+      },
+      "VariableGUID": "217F1074-45173C44-B5F65EBF-B12076E4",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TickBot_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": null,
+      "VariableGUID": "78C68AA6-423BE763-E13944BD-CC61F72A",
+      "InternalVariableName": "PerceptionEye"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.24"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.14"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.24"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_TickBot_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.13"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Client_Only_SkeletalMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ClientSide_Tick_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/Animation/ABP_ClientSide_Tick.1"
+      },
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Tick_02_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/Art/SK_Tick_02_A.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Tick_02_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/Art/SK_Tick_02_A.2"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "SizeCullScaleFactor": 500.0,
+      "bDontUpdateOverlapsWhenMoving": true,
+      "RelativeScale3D": {
+        "X": 0.9,
+        "Y": 0.9,
+        "Z": 0.9
+      },
+      "bUseAttachParentBound": true
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "Frame_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TickBot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.1"
+    },
+    "Properties": {
+      "DebrisImpactImpulseScale": 0.0,
+      "bCreateDynamicMaterialInstance": true,
+      "bPerformExtraClientNonPartPrimitiveCleanupOnHide": true,
+      "PartTags": [
+        "Part.Decorator.ID.Frame",
+        "Part.Decorator.Group.Scavenge"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 1
+      },
+      "ChildrenPartIDs": [
+        1
+      ],
+      "SocketIDs": [
+        {
+          "Key": "Antenna",
+          "Value": 0
+        },
+        {
+          "Key": "LegUpper_L_01",
+          "Value": 1
+        },
+        {
+          "Key": "LegUpper_L_02",
+          "Value": 2
+        },
+        {
+          "Key": "LegUpper_L_03",
+          "Value": 3
+        },
+        {
+          "Key": "LegUpper_R_01",
+          "Value": 4
+        },
+        {
+          "Key": "LegUpper_R_02",
+          "Value": 5
+        },
+        {
+          "Key": "LegUpper_R_03",
+          "Value": 6
+        }
+      ],
+      "MeshSurfacePoints": [
+        {
+          "X": -10.119766,
+          "Y": 20.629305,
+          "Z": -2.9336143
+        },
+        {
+          "X": 22.72358,
+          "Y": 0.15024254,
+          "Z": 15.001334
+        },
+        {
+          "X": -37.05392,
+          "Y": 0.15029906,
+          "Z": 11.108141
+        },
+        {
+          "X": -6.029515,
+          "Y": -15.543143,
+          "Z": 7.921815
+        }
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Tick_Body_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/Art/SM_Tick_Body_01_A.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Tick_01'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Tick/Shared/Art/MI_Tick_01.0"
+        }
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "bUseCCD": true,
+        "CollisionProfileName": "MinionIgnorePlayers",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "RagdollProxy",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "PlayerPawnPhysics",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "AngularDamping": 0.6,
+        "bSimulatePhysics": true
+      },
+      "bVisible": false
+    }
+  }
+]

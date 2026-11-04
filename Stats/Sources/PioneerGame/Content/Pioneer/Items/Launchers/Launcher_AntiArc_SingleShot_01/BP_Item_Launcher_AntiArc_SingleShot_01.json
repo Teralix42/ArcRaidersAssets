@@ -1,0 +1,162 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Launcher_AntiArc_SingleShot_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Item_Launcher_AntiArc_SingleShot_01",
+    "SuperStruct": {
+      "ObjectName": "Class'AntiArcLauncher'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Launcher_AntiArc_SingleShot_01_C'Default__BP_Item_Launcher_AntiArc_SingleShot_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Item_Launcher_AntiArc_SingleShot_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Launcher_AntiArc_SingleShot_01_C",
+    "Name": "Default__BP_Item_Launcher_AntiArc_SingleShot_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Item_Launcher_AntiArc_SingleShot_01.BP_Item_Launcher_AntiArc_SingleShot_01_C'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Item_Launcher_AntiArc_SingleShot_01",
+    "Properties": {
+      "NonArcImpactDamage": 20.0,
+      "NonArcImpactProjectile": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_AntiArc_SingleShot_01_NonArc_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Projectile_Launcher_AntiArc_SingleShot_01_NonArc.0"
+      },
+      "bUseBulletSubsystem": true,
+      "BulletRadius": 7.0,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_LauncherAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Shared/Projectiles/LauncherAmmo/DA_Item_LauncherAmmo.0"
+      },
+      "BasePhysicalDamage": 0.0,
+      "BaseFirePower": 7500.0,
+      "BaseClipSize": 1.0,
+      "BaseReloadTime": 3.5,
+      "BaseFireRate": 40.0,
+      "BaseBurnRate": 0.007389,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_BasicMeleeWeapon_Hit'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_BasicMeleeWeapon_Hit.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "AiArmorDamageMultiplier": 2.5,
+      "AiArmorPropagationMultiplier": 0.0,
+      "BurstSize": 1,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Launcher_AntiArc_SingleShot_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_Projectile_Launcher_AntiArc_SingleShot_01.0"
+      },
+      "LoopingReloadEntryTime": 0.3,
+      "LoopingReloadLoopTime": 1.5,
+      "LoopingReloadExitTime": 0.3,
+      "bPartialReload": true,
+      "PartialReloadDuration": 3.15,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": -0.15,
+          "PartialTime": 0.73,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": -0.3,
+          "PartialTime": 1.35,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 2.5,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 2.9,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_Launcher_AntiArc_SingleShot_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/DA_RecoilProfile_Launcher_AntiArc_SingleShot_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_Launcher_AntiArc_SingleShot_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/DA_DispersionState_Launcher_AntiArc_SingleShot_01.0"
+      },
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'ShotgunCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'ShotgunCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_Launcher_AntiArc_SingleShot_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/BP_WeaponQualitySet_Launcher_AntiArc_SingleShot_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 75.0,
+        "FireRate": 7.67,
+        "Range": 28.33,
+        "Stability": 87.8,
+        "Agility": 78.1,
+        "Stealth": 1.0
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Launcher_AntiArc_SingleShot_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_SingleShot_01/DA_Item_Launcher_AntiArc_SingleShot_01.0"
+      },
+      "BaseCameraZoomTime": 0.8,
+      "ChargeTimerDuration": 1.0,
+      "bWalkOnSecondaryUse": true
+    }
+  }
+]

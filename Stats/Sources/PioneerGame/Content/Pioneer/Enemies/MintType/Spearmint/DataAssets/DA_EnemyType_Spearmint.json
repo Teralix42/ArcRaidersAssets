@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Spearmint",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/MintType/Spearmint/DataAssets/DA_EnemyType_Spearmint",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/MintType/Spearmint/C_Spearmint.C_Spearmint_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 1225943433,
+      "EnemyTag": {
+        "TagName": "Enemy.Spearmint.Summoner"
+      },
+      "ExcludeActorSpawnFlags": 3,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Spearmint'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Spearmint/DataAssets/DA_Persistence_Enemy_Spearmint.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_Pistol_Silenced_01_SemiAuto_SprintShooting",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/DA_Item_Pistol_Silenced_01_SemiAuto_SprintShooting",
+    "Properties": {
+      "bIsUpgradedVariation": true,
+      "BaseQualityLevel": 3,
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/BP_WeaponActor_Pistol_Silenced_01.BP_WeaponActor_Pistol_Silenced_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/SM_Pistol_Silenced_01_A.SM_Pistol_Silenced_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 3.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Hairpin"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "UnequipTime": 0.35,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 0.55,
+      "DisplayTags": [
+        "UI.Crosshair.Firearm.Pistol"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_Pistol'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_Pistol.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_Pistol_Silenced_01_SemiAuto'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/DA_ItemAnimationContainer_Pistol_Silenced_01_SemiAuto.0"
+      },
+      "SkinSlot": {
+        "ObjectName": "ItemSkinSlotAsset'DA_ItemSkinSlot_PistolSilenced01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_ItemSkinSlot_PistolSilenced01.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Default/DA_WeaponVisuals_Pistol_Silenced_01_Ascended_Default_A.DA_WeaponVisuals_Pistol_Silenced_01_Ascended_Default_A",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_QualityVisual_Pistol_Silenced_01.DA_QualityVisual_Pistol_Silenced_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Pistol_Silenced_01_SemiAuto_SprintShooting'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/DA_Persistence_Pistol_Silenced_01_SemiAuto_SprintShooting.0"
+      },
+      "Tags": [
+        "Mod.Visual.Mag.Pistol.Light",
+        "Item.Flag.Upgraded",
+        "Online.Release.2.0",
+        "ItemSkin.ItemType.SkinnableItem",
+        "ItemSkin.SkinnableItem.PistolSilenced01"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.LightAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Hairpin"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_SemiAuto_SprintShooting.BP_Item_Pistol_Silenced_01_SemiAuto_SprintShooting_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

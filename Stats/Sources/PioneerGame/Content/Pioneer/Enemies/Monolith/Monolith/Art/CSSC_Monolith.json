@@ -1,0 +1,1869 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Monolith",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Monolith/Monolith/Art/CSSC_Monolith",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "StrikeWeaponSocket_1",
+          "Value": []
+        },
+        {
+          "Key": "StrikeWeaponSocket_2",
+          "Value": []
+        },
+        {
+          "Key": "StrikeWeaponSocket_3",
+          "Value": []
+        },
+        {
+          "Key": "StrikeWeaponSocket_4",
+          "Value": []
+        },
+        {
+          "Key": "ActiveThrustSocket",
+          "Value": []
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "CenterSpinner",
+          "Value": [
+            "Part.Decorator.ID.Spinner"
+          ]
+        },
+        {
+          "Key": "Core_A",
+          "Value": [
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "CoreArmor_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core"
+          ]
+        },
+        {
+          "Key": "Core_B",
+          "Value": [
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "CoreArmor_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core"
+          ]
+        },
+        {
+          "Key": "Core_C",
+          "Value": [
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "CoreArmor_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core"
+          ]
+        },
+        {
+          "Key": "Core_D",
+          "Value": [
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "CoreArmor_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core"
+          ]
+        },
+        {
+          "Key": "Fan",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ID.Fan"
+          ]
+        },
+        {
+          "Key": "Head",
+          "Value": [
+            "Part.Decorator.ID.Armor.Head"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Piston",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_A",
+          "Value": [
+            "Part.Decorator.ID.Subframe"
+          ]
+        },
+        {
+          "Key": "Armor_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Armor_03_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Duct_01_A",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Flap_01_A",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_A",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Armor_04_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Armor_05_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_A",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "Armor_06_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Foot_A",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_B",
+          "Value": [
+            "Part.Decorator.ID.Subframe"
+          ]
+        },
+        {
+          "Key": "Armor_01_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Armor_03_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Duct_01_B",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Flap_01_B",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_B",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Armor_04_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Armor_05_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_B",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "Armor_06_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Foot_B",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": [
+            "Part.Decorator.ID.Subframe"
+          ]
+        },
+        {
+          "Key": "Armor_01_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Armor_03_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Duct_01_C",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Flap_01_C",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_C",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Armor_04_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Armor_05_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_C",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "Armor_06_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Foot_C",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_D",
+          "Value": [
+            "Part.Decorator.ID.Subframe"
+          ]
+        },
+        {
+          "Key": "Armor_01_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Armor_02_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Armor_03_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Duct_01_D",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Flap_01_D",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_D",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "Armor_04_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge"
+          ]
+        },
+        {
+          "Key": "Armor_05_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_D",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower"
+          ]
+        },
+        {
+          "Key": "Armor_06_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Foot_D",
+          "Value": [
+            "Part.Decorator.ID.Foot"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "ThrusterBase",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Thruster.Active"
+          ]
+        },
+        {
+          "Key": "ThrusterPart_A",
+          "Value": [
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "ThrusterPart_B",
+          "Value": [
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "ThrusterPart_C",
+          "Value": [
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "ThrusterShield",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Core_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Core_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Core_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "Core_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          }
+        },
+        {
+          "Key": "CoreArmor_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "CoreArmor_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "CoreArmor_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "CoreArmor_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_03_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_04_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_05_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_06_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_03_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_04_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_05_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_06_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_03_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_04_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_05_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_06_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_01_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_02_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_03_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_04_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_05_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Armor_06_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterBase",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterPart_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterPart_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterPart_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ThrusterShield",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Duct_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Duct_01_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Duct_01_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Duct_01_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "CenterSpinner",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Head",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Fan",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Frame",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "SubFrame_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "SubFrame_01_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "SubFrame_01_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Piston",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "UpperLeg_01_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "LowerLeg_01_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Foot_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HydraulicsFoot_A",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Foot_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HydraulicsFoot_B",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Foot_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HydraulicsFoot_C",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Foot_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "HydraulicsFoot_D",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "CenterSpinner",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Core_A",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "CoreArmor_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Core_B",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "CoreArmor_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Core_C",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "CoreArmor_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Core_D",
+          "Value": "EPartResistanceGroup::WeakPoint"
+        },
+        {
+          "Key": "CoreArmor_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Fan",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Head",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_B",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_C",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_D",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Piston",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "SubFrame_01_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_01_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_03_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Duct_01_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Flap_01_A",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_04_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_05_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "LowerLeg_01_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_06_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Foot_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HydraulicsFoot_A",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "SubFrame_01_B",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_01_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_03_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Duct_01_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Flap_01_B",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_B",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_04_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_05_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_B",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "LowerLeg_01_B",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_06_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Foot_B",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HydraulicsFoot_B",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_01_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_03_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Duct_01_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Flap_01_C",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_C",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_04_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_05_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_C",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "LowerLeg_01_C",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_06_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Foot_C",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HydraulicsFoot_C",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "SubFrame_01_D",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_01_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_02_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_03_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Duct_01_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Flap_01_D",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "UpperLeg_01_D",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_04_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Armor_05_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_D",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "LowerLeg_01_D",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Armor_06_D",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Foot_D",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "HydraulicsFoot_D",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "ThrusterBase",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterPart_A",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterPart_B",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterPart_C",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ThrusterShield",
+          "Value": "EPartResistanceGroup::Armor"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "StrikeWeaponSocket_1",
+          "Value": []
+        },
+        {
+          "Key": "StrikeWeaponSocket_2",
+          "Value": []
+        },
+        {
+          "Key": "StrikeWeaponSocket_3",
+          "Value": []
+        },
+        {
+          "Key": "StrikeWeaponSocket_4",
+          "Value": []
+        },
+        {
+          "Key": "ActiveThrustSocket",
+          "Value": []
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "CenterSpinner",
+          "Value": [
+            "Part.Decorator.ID.Spinner",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Core_A",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "CoreArmor_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Core_B",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "CoreArmor_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Core_C",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "CoreArmor_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Core_D",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.WeakPoint"
+          ]
+        },
+        {
+          "Key": "CoreArmor_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Core",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Fan",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ID.Fan",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Head",
+          "Value": [
+            "Part.Decorator.ID.Armor.Head",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_01_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Piston",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_A",
+          "Value": [
+            "Part.Decorator.ID.Subframe",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_01_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_03_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Duct_01_A",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Flap_01_A",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_A",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_04_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_05_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_A",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_06_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Foot_A",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_A",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_B",
+          "Value": [
+            "Part.Decorator.ID.Subframe",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_01_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_03_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Duct_01_B",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Flap_01_B",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_B",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_04_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_05_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_B",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_06_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Foot_B",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_B",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_C",
+          "Value": [
+            "Part.Decorator.ID.Subframe",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_01_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_03_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Duct_01_C",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Flap_01_C",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_C",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_04_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_05_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_C",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_06_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Foot_C",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_C",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "SubFrame_01_D",
+          "Value": [
+            "Part.Decorator.ID.Subframe",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_01_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_02_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_03_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Duct_01_D",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Flap_01_D",
+          "Value": [
+            "Part.Decorator.ID.Flap.Medium"
+          ]
+        },
+        {
+          "Key": "UpperLeg_01_D",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_04_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Armor_05_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Hydraulic_LowerLeg_02_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "LowerLeg_01_D",
+          "Value": [
+            "Part.Decorator.ID.Leg",
+            "Part.Decorator.Group.Relative.Lower",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Armor_06_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Foot_D",
+          "Value": [
+            "Part.Decorator.ID.Foot",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "HydraulicsFoot_D",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "ThrusterBase",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ID.Thruster.Active",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterPart_A",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterPart_B",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterPart_C",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ThrusterShield",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        }
+      ]
+    }
+  }
+]

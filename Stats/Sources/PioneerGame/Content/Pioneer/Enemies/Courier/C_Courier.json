@@ -1,0 +1,1700 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__BP_ConstructableBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.0"
+    }
+  },
+  {
+    "Type": "ArticulatedTargetingService",
+    "Name": "ArticulatedTargetingService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArticulatedTargetingService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "ArticulatedTargetingDefinitions": [
+        {
+          "ShouldBeActiveInStates": [
+            "EAIAlertness::Idle",
+            "EAIAlertness::Alert",
+            "EAIAlertness::InCombat"
+          ],
+          "PartToGetTargetFrom": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+          },
+          "PartsToMove": [
+            {
+              "EvaluationMode": 255,
+              "ObjectQuery": {
+                "TokenStreamVersion": 0,
+                "TagDictionary": [
+                  {
+                    "TagName": "Part.Decorator.ID.Sensor"
+                  }
+                ],
+                "QueryTokenStream": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "UserDescription": "",
+                "AutoDescription": " ANY( Part.Decorator.ID.Sensor )"
+              },
+              "Weight": 1.0,
+              "AimWeightCurveName": "None",
+              "bLayerOnAnimatedPose": false,
+              "MaxDegreesPerSecond": -1.0,
+              "AimingSupressionTag": {
+                "TagName": "None"
+              },
+              "AimingSupressionTags": [],
+              "TransformEvaluationMode": "EArticulatedTransformEvaluationMode::Default",
+              "AxisDrivenTransformAxis": "EArticulatedAxisDrivenTransformAxis::pitch",
+              "AxisDrivenTransformCurve": null,
+              "bUseRawTargetOrientation": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Courier_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Courier/C_Courier",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_Courier_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.19"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableStandardInteractionComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStandardInteractionComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FloatingMovementComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FloatingMovementComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProjectileDeflectService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProjectileDeflectService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CourierDockingStateService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CourierDockingStateService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArticulatedTargetingService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ArticulatedTargetingService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProximityDetectionService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ProximityDetectionService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "C_Courier_C",
+    "Name": "Default__C_Courier_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Courier/C_Courier.C_Courier_C'",
+    "Package": "/Game/Pioneer/Enemies/Courier/C_Courier",
+    "Template": {
+      "ObjectName": "BP_ConstructableBase_C'Default__BP_ConstructableBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_Courier_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.18"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Courier_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.12"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_Courier_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.7"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_Courier_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.22"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Courier_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.13"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_Courier_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.17"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Courier_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.9"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_Courier_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.15"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_Courier_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.21"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_Courier_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.23"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Courier_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.11"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_Courier_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.24"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_Courier_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.38"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_Courier_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.27"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_Courier_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_Courier_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.8"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Courier_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.5"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_Courier_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/DataAssets/DA_Courier_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_Courier'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/DataAssets/DA_EnemyType_Courier.0"
+      },
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_Courier_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.20"
+      },
+      "SpawnBudgetCost": 10,
+      "ThreatLevel": 1,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "AgentRadius": 300.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_Courier_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.39"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Courier_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.4"
+      },
+      "NetCullDistanceSquared": 3.6E+09,
+      "NetUpdateFrequency": 1000.0,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Courier_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.11"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__BP_ConstructableBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.3"
+    }
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__BP_ConstructableBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssist_PartSetup_Critical'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssist_PartSetup_Critical.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::WhileTagIsSet",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Ability.TakeOff.Emergency"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Ability.TakeOff.Emergency )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "Anim_Breached",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__BP_ConstructableBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.5"
+    }
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__BP_ConstructableBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Courier_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.11"
+      }
+    }
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__BP_ConstructableBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.7"
+    }
+  },
+  {
+    "Type": "ConstructableStandardInteractionComponent",
+    "Name": "ConstructableStandardInteractionComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStandardInteractionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Frame"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+      },
+      "bEnabledByDefault": true,
+      "EnemyEnableTags": {
+        "TagName": "Ability.TakeOff.Emergency"
+      },
+      "bInvertEnemyEnableTags": true,
+      "EnemyCompletedInteractionGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_CourierBreached_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GE_CourierBreached.0"
+      },
+      "InteractionType": "EStandardInteractionType::Hold",
+      "HoldDuration": 3.0,
+      "bEquipRaiderToolDuringInitialization": true,
+      "bRaiderToolOnlyRequiredOnFirstUse": false,
+      "AnimationContainer": {
+        "ObjectName": "InteractionAnimationContainer'DA_InteractionAnimation_HuskBreach'",
+        "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/DataAssets/DA_InteractionAnimation_HuskBreach.0"
+      },
+      "AnimationAlignmentTransformComponent": {
+        "ComponentName": "ConstructableStandardInteractionComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "ConstructableStandardInteractionComponent"
+      },
+      "PromptText": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_IngameInteractions.ST_IngameInteractions",
+        "Key": "ID_INTERACTION_DISRUPT",
+        "SourceString": "Disrupt",
+        "LocalizedString": "Disrupt"
+      },
+      "bStartEnabled": true,
+      "PromptProxyComponentSelector": {
+        "ComponentName": "AbilitySystem",
+        "SanitizedComponentName": "AbilitySystem"
+      },
+      "AnimationNotificationSounds": [
+        {
+          "Key": {
+            "TagName": "Interaction.Notify.Impact"
+          },
+          "Value": {
+            "ObjectName": "SoundCue'DoorBreach_Start'",
+            "ObjectPath": "/Game/Pioneer/Audio/Interactables/DoorBreach/DoorBreach_Start.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Interaction.Notify.Jimmying"
+          },
+          "Value": {
+            "ObjectName": "SoundCue'DoorBreach_Progress'",
+            "ObjectPath": "/Game/Pioneer/Audio/Interactables/DoorBreach/DoorBreach_Progress.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Interaction.Notify.Complete"
+          },
+          "Value": {
+            "ObjectName": "SoundCue'DoorBreach_Complete'",
+            "ObjectPath": "/Game/Pioneer/Audio/Interactables/DoorBreach/DoorBreach_Complete.0"
+          }
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      }
+    }
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__BP_ConstructableBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Courier_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.2"
+      }
+    }
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__BP_ConstructableBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.9"
+    },
+    "Properties": {
+      "DefaultPartTargetingConfig": {
+        "OrientationInterpolationFilter": {
+          "OrientationFilterType": "EOrientationFilterType::MinJerk"
+        },
+        "MaxRotationSpeedDegPerSec": 45.0,
+        "PredictionResponsivenessUNorm": 0.5,
+        "ProjectileSpeedCmPerSec": 1000000.0,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    }
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__BP_ConstructableBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_Courier_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/DataAssets/DA_Courier_Perception.0"
+      }
+    }
+  },
+  {
+    "Type": "CourierDockingStateService",
+    "Name": "CourierDockingStateService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CourierDockingStateService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "DockApproachTime": 1.5,
+      "DockApproachMaxSpeed": 800.0,
+      "TakeOffQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Ability.TakeOff.Emergency"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Ability.TakeOff.Emergency )"
+      },
+      "DockedCapabilityTag": {
+        "TagName": "Part.Capability.Dock"
+      }
+    }
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__BP_ConstructableBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.11"
+    },
+    "Properties": {
+      "LootType": {
+        "TagName": "Loot.Enemy.Courier"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_PartScavengeSetup_Courier'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/DataAssets/DA_PartScavengeSetup_Courier.0"
+      }
+    }
+  },
+  {
+    "Type": "FloatingMovementComponent",
+    "Name": "FloatingMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatingMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "HorizontalSpeed": 1000.0,
+      "bModifySpeedWhenDamaged": false,
+      "VerticalSpeed": 2500.0,
+      "OvershootRadius": 400.0,
+      "VelocityInterpSpeed": 2.0,
+      "MaxAcceleration": 2000.0,
+      "AgentRadius": 300.0,
+      "bIsAvoidanceEnabled": true,
+      "MaxObstacleAvoidanceRadius": 1000.0,
+      "AvoidanceProximityFalloff": 0.8,
+      "AvoidancePushRadius": 300.0,
+      "bAvoidanceCanSeparateVertically": true,
+      "YawRates": [
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": 0.0
+        }
+      ],
+      "LandingDescentSpeed": 500.0,
+      "LandingRayLength": 500.0,
+      "StuckEpsilon": 25.0,
+      "NearlyLandedDescentSpeed": 150.0,
+      "LandingCurve": {
+        "ObjectName": "CurveTranslateRotate'Curve_Courier_Landing'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/Animation/Curve_Courier_Landing.0"
+      },
+      "LandingGroundOffset": 100.0,
+      "TakeOffRayLength": 1000.0,
+      "TakeOffCurve": {
+        "ObjectName": "CurveTranslateRotate'Curve_Courier_TakeOff'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/Animation/Curve_Courier_TakeOff.0"
+      },
+      "ThrusterPartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Thruster"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      "ThrusterSocketGroup": "Thruster",
+      "AvoidanceRadius": 450.0,
+      "NavAgentProps": {
+        "bCanFly": true
+      }
+    }
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__BP_ConstructableBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.12"
+    }
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__BP_ConstructableBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.13"
+    },
+    "Properties": {
+      "AbilityOnDamageEventDefinitions": [
+        {
+          "TriggerEvent": {
+            "Comment": "Yeet away from Frigate docking slots",
+            "AffectedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Frame"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+            },
+            "ActivationRequiredPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ActivationBlockedPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "TriggerType": "EPartDamageEventTriggerType::TriggerWhenAllPartsFulfillRequirements",
+            "bHealthThresholdTrigger": false,
+            "HealthThreshold": 0.01,
+            "bCanRetriggerAfterHealing": false,
+            "HealthChangeReasonTriggers": [
+              "EConstructableHealthChangeReason::BrokeFromAttack",
+              "EConstructableHealthChangeReason::BrokeDueToParentGettingDestroyed",
+              "EConstructableHealthChangeReason::BrokeDueToInstantDestruction",
+              "EConstructableHealthChangeReason::BrokeDueToGroupGettingDestroyed"
+            ],
+            "bConstructableDestroyedTrigger": false,
+            "bOverrideTargetToDamageInstigator": false,
+            "TargetOverrideOrder": null,
+            "OnDefinitionTriggered": {
+              "Object": null,
+              "FunctionName": "None"
+            }
+          },
+          "GameplayAbility": {
+            "ObjectName": "BlueprintGeneratedClass'GA_ShoveOffFrigate_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    }
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__BP_ConstructableBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.14"
+    }
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__BP_ConstructableBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.16"
+    }
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__BP_ConstructableBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.17"
+    },
+    "Properties": {
+      "CapabilityUtilityAsset": {
+        "ObjectName": "BTCapabilityUtilityCalculationData'DA_Courier_CapabilityUtility'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/DA_Courier_CapabilityUtility.2"
+      },
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Scan"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Sensor"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Sensor )"
+          },
+          "GrantedAbilityType": null,
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Courier_Scan_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/CSM_Courier_Scan.82"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Scan",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": false,
+            "bTargetEnemies": false,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.TakeOff.Emergency"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Courier_EmergencyTakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_Courier_EmergencyTakeOff.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Courier_TakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/CSM_Courier_TakeOff.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Emergency Take Off",
+          "UtilityField": "TakeOff",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.CallReinforcement.AlertNearby"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Courier_AlertNearby_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_Courier_AlertNearby.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Courier_AlertNearby_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/CSM_Courier_AlertNearby.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Alert Nearby",
+          "UtilityField": "AlertNearby",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchToMostRelevantIdentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.TakeOff.Timed"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Courier_TakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_Courier_TakeOff.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Courier_TakeOff_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/CSM_Courier_TakeOff.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "TakeOff",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Land"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Courier_Land_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_Courier_Land.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Courier_Land_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/CSM_Courier_Land.6"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Land",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        },
+        {
+          "Groups": [
+            "Part.Capability.Dock"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Courier_Dock_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/GA_Courier_Dock.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Courier_Dock_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Courier/Capabilities/CSM_Courier_Dock.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": false,
+          "OptionalName": "Dock",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::KeepSameTargetCancelWhenUnidentified",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ],
+      "CapabilityGroupDefinitions": [
+        {
+          "Group": {
+            "TagName": "Part.Capability.TakeOff.Emergency"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 1.0,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 4
+        },
+        {
+          "Group": {
+            "TagName": "Part.Capability.CallReinforcement.AlertNearby"
+          },
+          "bIsAutonomous": true,
+          "bAlwaysActive": false,
+          "ScoreToStart": 1.0,
+          "ScoreToCancel": -1.0,
+          "ActiveDuringState": 4
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__BP_ConstructableBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.18"
+    }
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__BP_ConstructableBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.19"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_EnemyCourier'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_EnemyCourier.0"
+      }
+    }
+  },
+  {
+    "Type": "ProjectileDeflectService",
+    "Name": "ProjectileDeflectService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileDeflectService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "ShieldBlockTagQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Capability.Blocking.Ultimate"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Capability.Blocking.Ultimate )"
+      },
+      "CancelCapabilityGroupsWithTags": [
+        "Part.Capability.Weapon.Primary",
+        "Part.Capability.Weapon.Secondary"
+      ],
+      "ShieldActiveTags": [
+        "Capability.Blocking.Laser",
+        "Ability.Shield"
+      ],
+      "ShieldActivationTag": {
+        "TagName": "Ability.TakeOff.Emergency"
+      },
+      "RequiredPartTags": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Frame"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+      },
+      "OriginPartTag": {
+        "TagName": "Part.Decorator.ID.Frame"
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_4M_ShieldSphere'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Capabilities/Shield/SM_4M_ShieldSphere.1"
+      },
+      "ZOffset": 150.0,
+      "Range": 360.0,
+      "MaxBuffer": 20,
+      "BufferReplenishTime": 1.5,
+      "BufferReplenishTimePostDepletion": 1.5,
+      "ShieldTimeOutBufferDepletion": 7,
+      "MinBufferToStart": 10,
+      "bStartActive": false,
+      "ShieldCooldown": 8.0,
+      "ShieldDurationExtensionOnDeflect": 0.5,
+      "bBlockPlayersWhenActive": false,
+      "AutonomousActivationShieldDuration": 7.0,
+      "bAutoActivateFromProximityObjects": true,
+      "ProximityObjectMinimumSpeed": 100.0,
+      "ShieldDurationExtensionOnNewOverlap": 2.0,
+      "bAutoActivateFromDamage": true,
+      "DamageActivationNormalizedDamageToActivate": 0.08
+    }
+  },
+  {
+    "Type": "ProximityDetectionService",
+    "Name": "ProximityDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProximityDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "DQMCenterOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 50.0
+      },
+      "DistanceToCheck": 200.0,
+      "bRegisterProximityEvents": false,
+      "LimitToStandingOnParts": [
+        {
+          "Query": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+          },
+          "bIncludeAllChildrenRecursively": true
+        }
+      ],
+      "bAddAdditonalCustomProximityCheck": true
+    }
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__BP_ConstructableBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.20"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_Courier_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.28"
+      },
+      "VariableGUID": "FBBA6CBC-4DF12FDE-307E5AA2-3FB5E136",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProximityDetectionService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProximityDetectionService'C_Courier_C:ProximityDetectionService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.26"
+      },
+      "VariableGUID": "B4876F95-44F9D8EF-72FCBEBE-8666393D",
+      "InternalVariableName": "ProximityDetectionService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ArticulatedTargetingService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ArticulatedTargetingService'C_Courier_C:ArticulatedTargetingService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.1"
+      },
+      "VariableGUID": "FCEBC2C6-49EC9575-8809F5A8-62A5E364",
+      "InternalVariableName": "ArticulatedTargetingService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CourierDockingStateService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CourierDockingStateService'C_Courier_C:CourierDockingStateService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.14"
+      },
+      "VariableGUID": "C96EE697-4A8EB9DD-CB7707A8-A01E777E",
+      "InternalVariableName": "CourierDockingStateService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_Courier_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.6"
+      },
+      "VariableGUID": "E4BB0916-46C542BA-061000A0-FA409A58",
+      "InternalVariableName": "ConstructableAnimationService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ProjectileDeflectService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ProjectileDeflectService'C_Courier_C:ProjectileDeflectService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.25"
+      },
+      "VariableGUID": "7A2F608A-4F617467-0494FBA6-740386AF",
+      "InternalVariableName": "ProjectileDeflectService"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FloatingMovementComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FloatingMovementComponent'C_Courier_C:FloatingMovementComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.16"
+      },
+      "VariableGUID": "79AF74D7-4C023193-90404288-93DB8B7D",
+      "InternalVariableName": "FloatingMovementComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_Courier_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStandardInteractionComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableStandardInteractionComponent'C_Courier_C:ConstructableStandardInteractionComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.10"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "236BC7BD-469F7395-6C10EBB8-2E1C45E4",
+      "InternalVariableName": "ConstructableStandardInteractionComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.30"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.31"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.32"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.34"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.33"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.36"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.30"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.31"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.32"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.34"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.35"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.33"
+        },
+        {
+          "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.36"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_Courier_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.29"
+      }
+    }
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__BP_ConstructableBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.25"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Courier_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Courier/CS_Courier.2"
+      }
+    }
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_Courier_C'Default__C_Courier_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Courier/C_Courier.3"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__BP_ConstructableBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/BP_ConstructableBase.26"
+    }
+  }
+]

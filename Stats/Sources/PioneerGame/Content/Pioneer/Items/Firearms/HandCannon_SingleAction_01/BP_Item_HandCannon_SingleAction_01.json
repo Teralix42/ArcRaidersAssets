@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_HandCannon_SingleAction_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Item_HandCannon_SingleAction_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_HandCannon_SingleAction_01_C'Default__BP_Item_HandCannon_SingleAction_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Item_HandCannon_SingleAction_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_HandCannon_SingleAction_01_C",
+    "Name": "Default__BP_Item_HandCannon_SingleAction_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Item_HandCannon_SingleAction_01.BP_Item_HandCannon_SingleAction_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Item_HandCannon_SingleAction_01",
+    "Template": {
+      "ObjectName": "BP_WeaponItem_RifleBase_C'Default__BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.1"
+    },
+    "Properties": {
+      "CriticalDamageMultiplier": 2.5,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_HeavyAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/HeavyAmmo/DA_Item_HeavyAmmo.0"
+      },
+      "GamepadTriggerDepth": 0.8,
+      "WeaponType": "EWeaponType::HandCannon",
+      "BasePhysicalDamage": 40.0,
+      "BaseFirePower": 50000.0,
+      "BaseClipSize": 6.0,
+      "BaseReloadTime": 2.5,
+      "BaseFireRate": 50.0,
+      "BaseBurnRate": 0.005333,
+      "AiArmorDamageMultiplier": 1.5,
+      "AiArmorPropagationMultiplier": 1.0,
+      "BurstSize": 1,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_HandCannon_SingleAction_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Projectile_HandCannon_SingleAction_01.0"
+      },
+      "bLoopingReloads": true,
+      "LoopingReloadEntryTime": 0.8,
+      "LoopingReloadLoopTime": 0.7,
+      "LoopingReloadExitTime": 0.55,
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_HandCannon_SingleAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_RecoilProfile_HandCannon_SingleAction_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_HandCannon_SingleAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_DispersionState_HandCannon_SingleAction_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_HandCannon_SingleAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Curve_DamageFalloff_HandCannon_SingleAction_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 0.9,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'HandCanonCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'HandCanonCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'HandCanonCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_HandCannon_SingleAction_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_WeaponQualitySet_HandCannon_SingleAction_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 40.0,
+        "FireRate": 8.333,
+        "Range": 50.21,
+        "Stability": 75.769,
+        "Agility": 69.105,
+        "Stealth": 10.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_HandCannon_SingleAction_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_Item_HandCannon_SingleAction_01.0"
+      },
+      "BaseCameraZoomTime": 0.4
+    }
+  }
+]

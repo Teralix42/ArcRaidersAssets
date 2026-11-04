@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_BattleRifle_EnergyBurst_01_ChargedBurst",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_EnergyBurst_01_ChargedBurst",
+    "Properties": {
+      "Children": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_BattleRifle_EnergyBurst_01_IncreasedBurst'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_EnergyBurst_01_IncreasedBurst.0"
+        }
+      ],
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_BattleRifle_EnergyBurst_01_ChargedBurst_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/Upgrades/BP_UpgradeWeaponMod_BattleRifle_EnergyBurst_01_ChargedBurst.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_CHARGEDBURST",
+        "SourceString": "Charged Burst",
+        "LocalizedString": "Charged Burst"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_CHARGEDBURST",
+        "SourceString": "Changes the firing mode to charge and release. The longer the charge is held, the more projectiles are fired upon release.",
+        "LocalizedString": "Changes the firing mode to charge and release. The longer the charge is held, the more projectiles are fired upon release."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_MagReload_01.T_UI_Icon_Upgrade_MagReload_01",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BURSTSIZEMAX_POSITIVE",
+            "SourceString": "+{0} Max Projectiles in Burst",
+            "LocalizedString": "+{0} Max Projectiles in Burst"
+          },
+          "ModifierValue": 2.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_CLIPSIZE_POSITIVE",
+            "SourceString": "+{0} Magazine Size",
+            "LocalizedString": "+{0} Magazine Size"
+          },
+          "ModifierValue": 2.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DAMAGEFLAT_NEGATIVE",
+            "SourceString": "-{0} Base Damage",
+            "LocalizedString": "-{0} Base Damage"
+          },
+          "ModifierValue": 2.5,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_VERTICALRECOIL_NEGATIVE",
+            "SourceString": "{0}% Increased Vertical Recoil",
+            "LocalizedString": "{0}% Increased Vertical Recoil"
+          },
+          "ModifierValue": 60.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_HORIZONTALRECOIL_NEGATIVE",
+            "SourceString": "{0}% Increased Horizontal Recoil",
+            "LocalizedString": "{0}% Increased Horizontal Recoil"
+          },
+          "ModifierValue": 60.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ]
+    }
+  }
+]

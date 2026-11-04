@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Special_Railgun_01_Scoped",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_Scoped",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_SCOPED",
+        "SourceString": "Scoped",
+        "LocalizedString": "Scoped"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_SCOPED",
+        "SourceString": "Adds a scope to the weapon, allowing it to be fired from a scoped view.",
+        "LocalizedString": "Adds a scope to the weapon, allowing it to be fired from a scoped view."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_ScopeVariant.T_UI_Icon_Upgrade_ScopeVariant",
+        "SubPathString": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_46",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_BullCrab'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_EnemyMetaData_BullCrab.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_BullCrab'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_Persistence_Enemy_BullCrab.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Bison'",
+        "ObjectPath": "/Game/Pioneer/Core/UI/UI_Elements/Icons/Enemies/T_UI_Ping_Enemy_Bison.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Bison.T_UI_ARC_Bison",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_BULL_NAME",
+        "SourceString": "Leaper",
+        "LocalizedString": "Leaper"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_BullCrab",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Bullcrab/DA_EnemyMetaData_BullCrab",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_BullCrab:UIEnemyMetaDataItem_46'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Bullcrab/DA_EnemyMetaData_BullCrab.0"
+        }
+      ]
+    }
+  }
+]

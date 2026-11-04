@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_Special_BeamRifle_01_RampingDamage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/DA_Upgrade_Special_BeamRifle_01_RampingDamage",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_RAMPINGDAMAGE",
+        "SourceString": "Ramping Damage",
+        "LocalizedString": "Ramping Damage"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_RAMPINGDAMAGE",
+        "SourceString": "Gradually increases the Equalizer's damage while its laser remains in contact with a valid target.",
+        "LocalizedString": "Gradually increases the Equalizer's damage while its laser remains in contact with a valid target."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_RampingDamage.T_UI_Icon_Upgrade_RampingDamage",
+        "SubPathString": ""
+      }
+    }
+  }
+]

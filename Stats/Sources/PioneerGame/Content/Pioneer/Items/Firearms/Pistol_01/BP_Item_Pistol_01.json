@@ -1,0 +1,163 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Pistol_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/BP_Item_Pistol_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Pistol_01_C'Default__BP_Item_Pistol_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/BP_Item_Pistol_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Pistol_01_C",
+    "Name": "Default__BP_Item_Pistol_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Pistol_01/BP_Item_Pistol_01.BP_Item_Pistol_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_01/BP_Item_Pistol_01",
+    "Template": {
+      "ObjectName": "BP_WeaponItem_RifleBase_C'Default__BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.1"
+    },
+    "Properties": {
+      "CriticalDamageMultiplier": 2.5,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_LightAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/LightAmmo/DA_Item_LightAmmo.0"
+      },
+      "GamepadTriggerDepth": 0.3,
+      "WeaponType": "EWeaponType::Pistol",
+      "BasePhysicalDamage": 10.0,
+      "BaseFirePower": 45000.0,
+      "BaseClipSize": 12.0,
+      "BaseReloadTime": 2.5,
+      "ReloadGraceTime": 0.2,
+      "BaseFireRate": 500.0,
+      "BaseBurnRate": 0.001531,
+      "AiArmorDamageMultiplier": 0.2,
+      "AiArmorPropagationMultiplier": 0.1,
+      "BurstSize": 1,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Pistol_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/BP_Projectile_Pistol_01.0"
+      },
+      "bPartialReload": true,
+      "PartialReloadDuration": 1.4,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 0.25,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 0.75,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.1,
+          "PartialTime": 1.2,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "PartialReloadAnimationScale": 0.9,
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_Pistol_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_RecoilProfile_Pistol_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_Pistol_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_DispersionState_Pistol_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_Pistol_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/Curve_DamageFalloff_Pistol_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 0.25,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'PistolCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'PistolCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'PistolCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_Pistol_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/BP_WeaponQualitySet_Pistol_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 10.0,
+        "FireRate": 33.333,
+        "Range": 35.532,
+        "Stability": 71.689,
+        "Agility": 84.391,
+        "Stealth": 24.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineLight'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineLight.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Mag_Light_Pistol_01'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Magazines/Mag_Light_Pistol_01/DA_Visual_WeaponMod_Mag_Light_Pistol_01.0"
+          },
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Pistol_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_01/DA_Item_Pistol_01.0"
+      },
+      "BaseCameraZoomTime": 0.2
+    }
+  }
+]

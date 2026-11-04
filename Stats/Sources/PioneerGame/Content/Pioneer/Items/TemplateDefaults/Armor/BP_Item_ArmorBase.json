@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_ArmorBase_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase",
+    "SuperStruct": {
+      "ObjectName": "Class'ArmorItemBase'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_ArmorBase_C'Default__BP_Item_ArmorBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_ArmorBase_C",
+    "Name": "Default__BP_Item_ArmorBase_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase.BP_Item_ArmorBase_C'",
+    "Package": "/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase",
+    "Properties": {
+      "RechargerItem": {
+        "ObjectName": "ItemDataAsset'DA_Item_Armorpack'",
+        "ObjectPath": "/Game/Pioneer/Items/_GENERATED_/SimpleConsumable/ArmorPack/DA_Item_Armorpack.0"
+      },
+      "EquipChargeUpConfig": {
+        "ReceivePeriod": 0.25
+      }
+    }
+  }
+]

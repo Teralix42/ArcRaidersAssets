@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_11",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Special_BeamRifle_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_UIMetaData_Special_BeamRifle_01.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Special_BeamRifle_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_Persistence_Special_BeamRifle_01.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_BEAMRIFLE_01",
+        "SourceString": "Equalizer",
+        "LocalizedString": "Equalizer"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SPECIAL_BEAMRIFLE_01",
+        "SourceString": "A high capacity experimental beam rifle.",
+        "LocalizedString": "A high capacity experimental beam rifle."
+      },
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Special"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Energy.T_UI_Ammo_Energy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/T_UI_Icon_Special_BeamRifle_01_T3.T_UI_Icon_Special_BeamRifle_01_T3",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/T_UI_Icon_Special_BeamRifle_01_Big_A_T3.T_UI_Icon_Special_BeamRifle_01_Big_A_T3",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.15548347,
+          "Y": 0.17819929,
+          "Z": -0.6387979,
+          "W": 0.7321251,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -62.333176,
+          "Y": 232.08679,
+          "Z": 143.5161
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -39.986115,
+          "Y": 102.20373,
+          "Z": 126.01667
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.36695495,
+          "Y": -0.087708555,
+          "Z": -0.92372465,
+          "W": 0.0662121,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 0.79946816,
+          "Y": -0.799468,
+          "Z": 0.79946816
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.16308454,
+          "Y": -0.1874366,
+          "Z": 0.9577297,
+          "W": 0.14499934,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -3.6290483,
+          "Y": -1.3459151,
+          "Z": -1.7529233
+        },
+        "Scale3D": {
+          "X": 0.78784543,
+          "Y": 0.78784543,
+          "Z": 0.78784543
+        }
+      }
+    }
+  },
+  {
+    "Type": "UIGameplayItemMetaDataItem",
+    "Name": "UIGameplayItemMetaDataItem_18",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIGameplayItemMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_Special_BeamRifle_01'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_UIMetaData_Special_BeamRifle_01.2"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Special_BeamRifle_01_T0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/Qualities/DA_Persistence_Special_BeamRifle_01_T0.0"
+      },
+      "ItemName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_Firearms.ST_ItemNames_Firearms",
+        "Key": "ST_ITEMNAME_FIREARM_SPECIAL_BEAMRIFLE_01",
+        "SourceString": "Equalizer",
+        "LocalizedString": "Equalizer"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_Firearms.ST_ItemDescriptions_Firearms",
+        "Key": "ID_ITEMDESC_SPECIAL_BEAMRIFLE_01",
+        "SourceString": "A high capacity experimental beam rifle.",
+        "LocalizedString": "A high capacity experimental beam rifle."
+      },
+      "QualityLevel": 5,
+      "DisplayTags": [
+        "UI.ItemClassification.Category.Firearm.Special"
+      ],
+      "TinyIcon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/ItemCategories/T_UI_Ammo_Energy.T_UI_Ammo_Energy",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/T_UI_Icon_Special_BeamRifle_01_T0.T_UI_Icon_Special_BeamRifle_01_T0",
+        "SubPathString": ""
+      },
+      "BigIcon": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/T_UI_Icon_Special_BeamRifle_01_Big_A_T0.T_UI_Icon_Special_BeamRifle_01_Big_A_T0",
+        "SubPathString": ""
+      },
+      "ItemCaptureCameraTransformSmall": {
+        "Rotation": {
+          "X": 0.15548347,
+          "Y": 0.17819929,
+          "Z": -0.6387979,
+          "W": 0.7321251,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -62.333176,
+          "Y": 232.08679,
+          "Z": 143.5161
+        }
+      },
+      "ItemCaptureCameraTransformBig": {
+        "Rotation": {
+          "X": 0.3097513,
+          "Y": 0.3097513,
+          "Z": -0.63565254,
+          "W": 0.63565254,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -39.986115,
+          "Y": 102.20373,
+          "Z": 126.01667
+        }
+      },
+      "ItemCaptureActorTransformSmall": {
+        "Rotation": {
+          "X": -0.36695495,
+          "Y": -0.087708555,
+          "Z": -0.92372465,
+          "W": 0.0662121,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Scale3D": {
+          "X": 0.79946816,
+          "Y": -0.799468,
+          "Z": 0.79946816
+        }
+      },
+      "ItemCaptureActorTransformBig": {
+        "Rotation": {
+          "X": 0.16308454,
+          "Y": -0.1874366,
+          "Z": 0.9577297,
+          "W": 0.14499934,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -3.6290483,
+          "Y": -1.3459151,
+          "Z": -1.7529233
+        },
+        "Scale3D": {
+          "X": 0.78784543,
+          "Y": 0.78784543,
+          "Z": 0.78784543
+        }
+      },
+      "Traits": [
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE",
+            "SourceString": "Firing Mode",
+            "LocalizedString": "Firing Mode"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_FIRINGMODE_FULLYAUTOMATIC",
+            "SourceString": "Fully-Automatic",
+            "LocalizedString": "Fully-Automatic"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY",
+            "SourceString": "ARC Armor Penetration",
+            "LocalizedString": "ARC Armor Penetration"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Static.ST_ItemStats_Static",
+            "Key": "ID_ITEMSTATS_STATIC_ARCARMOREFFICIENCY_VERYSTRONG",
+            "SourceString": "Very Strong",
+            "LocalizedString": "Very Strong"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        },
+        {
+          "HeaderText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_WEAPONTRAIT",
+            "SourceString": "Special Trait",
+            "LocalizedString": "Special Trait"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDisplayTags.ST_ItemDisplayTags",
+            "Key": "ID_ITEMDISPLAYTAG_WEAPONTRAIT_EXPERIMENTAL",
+            "SourceString": "Experimental",
+            "LocalizedString": "Experimental"
+          },
+          "DisplayType": "EInventoryItemTraitDisplayType::Default",
+          "ModifierValue": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_Special_BeamRifle_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_UIMetaData_Special_BeamRifle_01",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Special_BeamRifle_01:UIGameplayItemMetaDataItem_11'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_UIMetaData_Special_BeamRifle_01.0"
+        },
+        {
+          "ObjectName": "UIGameplayItemMetaDataItem'DA_UIMetaData_Special_BeamRifle_01:UIGameplayItemMetaDataItem_18'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_UIMetaData_Special_BeamRifle_01.1"
+        }
+      ]
+    }
+  }
+]

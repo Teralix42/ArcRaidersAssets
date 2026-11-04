@@ -1,0 +1,550 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_EliteDrone_FlameThrower",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/CSSC_EliteDrone_FlameThrower",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Barrel_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Eye_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Explosive"
+          ]
+        },
+        {
+          "Key": "Head",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ID.Eye",
+            "Part.Decorator.Group.Critical"
+          ]
+        },
+        {
+          "Key": "ShieldLower_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Body"
+          ]
+        },
+        {
+          "Key": "Hatch_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "Hatch_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "ShieldUpper_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Upper"
+          ]
+        },
+        {
+          "Key": "ShieldWing_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ID.Wing"
+          ]
+        },
+        {
+          "Key": "ShieldWing_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ID.Wing"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium"
+          ]
+        },
+        {
+          "Key": "WeaponAttachment",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Core",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Core"
+          ]
+        },
+        {
+          "Key": "ShieldCore_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy"
+          ]
+        },
+        {
+          "Key": "Weapon",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Hatch_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Hatch_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldLower_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldUpper_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldWing_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldWing_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldThruster_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldThruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldThruster_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldThruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "ShieldCore_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Core",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "WeaponAttachment",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Weapon",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Head",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ShieldLower_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Hatch_L",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Hatch_R",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ShieldUpper_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ShieldWing_L",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "ShieldWing_R",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ShieldThruster_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ShieldThruster_L_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ShieldThruster_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ShieldThruster_R_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "WeaponAttachment",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Core",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "ShieldCore_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "Weapon",
+          "Value": "EPartResistanceGroup::Sturdy"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Barrel_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Eye_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Frame",
+          "Value": [
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Explosive"
+          ]
+        },
+        {
+          "Key": "Head",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ID.Eye",
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ShieldLower_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Body",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Hatch_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Hatch_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ShieldUpper_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.Group.Relative.Upper",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ShieldWing_L",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ID.Wing",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "ShieldWing_R",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ID.Wing",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ShieldThruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Medium",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "WeaponAttachment",
+          "Value": [
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Core",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "ShieldCore_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Heavy",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "Weapon",
+          "Value": [
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_RollbotFlamethrower_Explosion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion",
+    "SuperStruct": {
+      "ObjectName": "Class'WorldItemProjectileAbility'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_RollbotFlamethrower_Explosion_C'Default__GA_RollbotFlamethrower_Explosion_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_RollbotFlamethrower_Explosion_C",
+    "Name": "Default__GA_RollbotFlamethrower_Explosion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.GA_RollbotFlamethrower_Explosion_C'",
+    "Package": "/Game/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion",
+    "Properties": {
+      "WorldItemClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WItem_Shared_RollbotFlamethrower_IncendiaryGrenade_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Capabilities/IncendiarySpread/BP_WItem_Shared_RollbotFlamethrower_IncendiaryGrenade.0"
+      },
+      "bSimulatePhysicsForVelocity": true,
+      "ImpactEffects": [
+        {
+          "TargetType": null,
+          "DamageEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Burning_C'",
+            "ObjectPath": "/Game/Pioneer/Core/Gameplay/StatusEffects/GE_Burning.1"
+          }
+        }
+      ],
+      "MuzzleSocketName": "None",
+      "MuzzleSpeed": 1.0
+    }
+  }
+]

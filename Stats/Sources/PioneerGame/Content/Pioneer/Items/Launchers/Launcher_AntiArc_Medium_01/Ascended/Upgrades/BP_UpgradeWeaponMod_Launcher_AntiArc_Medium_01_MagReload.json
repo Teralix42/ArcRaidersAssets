@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload",
+    "SuperStruct": {
+      "ObjectName": "Class'NonItemWeaponMod'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C:ModifyWeaponAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload.2"
+      }
+    ],
+    "FuncMap": {
+      "ModifyWeaponAttributes": {
+        "ObjectName": "Function'BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C:ModifyWeaponAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C'Default__BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C",
+    "Name": "Default__BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload.BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload",
+    "Properties": {
+      "ModData": {
+        "BakedModifiersDelta": {
+          "PhysicalDamage": {
+            "Add": -2.0
+          },
+          "CriticalDamageMultiplier": {
+            "Add": -1.0
+          },
+          "FireRate": {
+            "Add": 300.0
+          },
+          "HorizontalRecoil": {
+            "AddMultiply": 1.5
+          },
+          "VerticalRecoil": {
+            "AddMultiply": 2.0
+          },
+          "DispersionRecoverySpeed": {
+            "AddMultiply": 3.0
+          },
+          "FireDispersionMax": {
+            "AddMultiply": 3.0
+          },
+          "BaseDispersion": {
+            "AddMultiply": 1.5
+          },
+          "ZoomDispersionScale": {
+            "AddMultiply": 0.5
+          },
+          "FiringModeOverride": {
+            "bOverridden": true,
+            "CurrentFiringMode": "EFiringMode::Auto"
+          },
+          "BitMask": 55687
+        }
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ModifyWeaponAttributes",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Launcher_AntiArc_Medium_01_MagReload.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'NonItemWeaponMod:ModifyWeaponAttributes'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Stats",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ModifierAdd_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'WeaponStatModifier'",
+          "ObjectPath": "/Script/PioneerGameplay"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_SetFieldsInStruct_StructOut",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  }
+]

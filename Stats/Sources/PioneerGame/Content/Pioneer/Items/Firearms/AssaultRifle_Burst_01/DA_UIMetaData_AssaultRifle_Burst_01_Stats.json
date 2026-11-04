@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_UIMetaData_AssaultRifle_Burst_01_Stats",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Burst_01/DA_UIMetaData_AssaultRifle_Burst_01_Stats",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIStatsMetaDataItem'DA_UIMetaData_AssaultRifle_Burst_01_Stats:UIStatsMetaDataItem_0'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Burst_01/DA_UIMetaData_AssaultRifle_Burst_01_Stats.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "UIStatsMetaDataItem",
+    "Name": "UIStatsMetaDataItem_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIStatsMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_UIMetaData_AssaultRifle_Burst_01_Stats'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Burst_01/DA_UIMetaData_AssaultRifle_Burst_01_Stats.0"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_AssaultRifle_Burst_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Burst_01/DA_Persistence_AssaultRifle_Burst_01.0"
+      }
+    }
+  }
+]

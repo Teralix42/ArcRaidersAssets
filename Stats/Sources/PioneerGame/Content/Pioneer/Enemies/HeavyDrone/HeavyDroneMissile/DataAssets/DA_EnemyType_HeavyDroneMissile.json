@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_HeavyDroneMissile",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyType_HeavyDroneMissile",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.C_HeavyDrone_Missile_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 903845622,
+      "EnemyTag": {
+        "TagName": "Enemy.HeavyDrone.Missile"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_OrbitalStrike_Heavy_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_OrbitalStrike_Heavy.0"
+        }
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_HeavyDroneMissile'",
+        "ObjectPath": "/Game/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_Persistence_Enemy_HeavyDroneMissile.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

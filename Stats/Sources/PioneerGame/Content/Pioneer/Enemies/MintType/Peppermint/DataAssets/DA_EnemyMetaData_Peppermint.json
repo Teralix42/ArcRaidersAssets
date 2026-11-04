@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_46",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_Peppermint'",
+      "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyMetaData_Peppermint.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Peppermint'",
+        "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_Persistence_Enemy_Peppermint.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Peppermint'",
+        "ObjectPath": "/Game/Pioneer/Core/UI/UI_Elements/Icons/Enemies/T_UI_Ping_Enemy_Peppermint.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Baron.T_UI_ARC_Baron",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_PEPPERMINT_NAME",
+        "SourceString": "Queen",
+        "LocalizedString": "Queen"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_Peppermint",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyMetaData_Peppermint",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_Peppermint:UIEnemyMetaDataItem_46'",
+          "ObjectPath": "/Game/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyMetaData_Peppermint.0"
+        }
+      ]
+    }
+  }
+]

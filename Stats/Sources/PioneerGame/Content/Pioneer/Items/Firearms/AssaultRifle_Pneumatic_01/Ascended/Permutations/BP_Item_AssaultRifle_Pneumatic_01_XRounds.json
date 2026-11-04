@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AssaultRifle_Pneumatic_01_XRounds_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_XRounds",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_AssaultRifle_Pneumatic_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/BP_Item_AssaultRifle_Pneumatic_01_Ascended.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AssaultRifle_Pneumatic_01_XRounds_C'Default__BP_Item_AssaultRifle_Pneumatic_01_XRounds_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_XRounds.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AssaultRifle_Pneumatic_01_XRounds_C",
+    "Name": "Default__BP_Item_AssaultRifle_Pneumatic_01_XRounds_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_XRounds.BP_Item_AssaultRifle_Pneumatic_01_XRounds_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/BP_Item_AssaultRifle_Pneumatic_01_XRounds",
+    "Template": {
+      "ObjectName": "BP_Item_AssaultRifle_Pneumatic_01_Ascended_C'Default__BP_Item_AssaultRifle_Pneumatic_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/BP_Item_AssaultRifle_Pneumatic_01_Ascended.1"
+    },
+    "Properties": {
+      "AiArmorDamageMultiplier": 1.0,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_Pneumatic_01_XRounds_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/BP_Projectile_AssaultRifle_Pneumatic_01_XRounds.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 15.0,
+        "FireRate": 24.0,
+        "Range": 41.784,
+        "Stability": 75.927,
+        "Stealth": 20.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_AssaultRifle_Pneumatic_01_XRounds'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Permutations/DA_Item_AssaultRifle_Pneumatic_01_XRounds.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_Pneumatic_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Pneumatic_01_Ascended.0"
+        },
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_Pneumatic_01_XRounds'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Pneumatic_01_XRounds.0"
+        }
+      ]
+    }
+  }
+]

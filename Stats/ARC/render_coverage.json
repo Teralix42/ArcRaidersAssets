@@ -1,0 +1,575 @@
+{
+  "models": 25,
+  "views_per_model": 6,
+  "images": 336,
+  "titles": false,
+  "enemies": [
+    {
+      "enemy": "Bastion",
+      "blend": "Bastion.blend",
+      "configured_frame_hp": 2050,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 19
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 28
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 46
+        }
+      ]
+    },
+    {
+      "enemy": "Bombardier",
+      "blend": "Bombardier.blend",
+      "configured_frame_hp": 2670,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 18
+        },
+        {
+          "letter": "B",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 47
+        }
+      ]
+    },
+    {
+      "enemy": "Bully",
+      "blend": "Bully.blend",
+      "configured_frame_hp": 3000,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 20
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 32
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 56
+        }
+      ]
+    },
+    {
+      "enemy": "Comet",
+      "blend": "Comet.blend",
+      "configured_frame_hp": 150,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 10
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 24
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 30
+        }
+      ]
+    },
+    {
+      "enemy": "Fireball",
+      "blend": "Fireball.blend",
+      "configured_frame_hp": 20,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 5
+        },
+        {
+          "letter": "B",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 9
+        }
+      ]
+    },
+    {
+      "enemy": "Firefly",
+      "blend": "Firefly.blend",
+      "configured_frame_hp": 200,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 4
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 9
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 20
+        }
+      ]
+    },
+    {
+      "enemy": "Hornet",
+      "blend": "Hornet.blend",
+      "configured_frame_hp": 200,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 5
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 9
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 15
+        }
+      ]
+    },
+    {
+      "enemy": "Hydra",
+      "blend": "Hydra.blend",
+      "configured_frame_hp": 1050,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 5
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 19
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 22
+        }
+      ]
+    },
+    {
+      "enemy": "Leaper",
+      "blend": "Leaper.blend",
+      "configured_frame_hp": 1100,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 12
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 36
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 60
+        }
+      ]
+    },
+    {
+      "enemy": "Matriarch",
+      "blend": "Matriarch.blend",
+      "configured_frame_hp": 23100,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 49
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 69
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 96
+        }
+      ]
+    },
+    {
+      "enemy": "Pop",
+      "blend": "Pop.blend",
+      "configured_frame_hp": 20,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 4
+        }
+      ]
+    },
+    {
+      "enemy": "Queen",
+      "blend": "Queen.blend",
+      "configured_frame_hp": 23100,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 48
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 64
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 87
+        }
+      ]
+    },
+    {
+      "enemy": "Reclaimer",
+      "blend": "Reclaimer.blend",
+      "configured_frame_hp": 830,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 5
+        }
+      ]
+    },
+    {
+      "enemy": "Rocketeer",
+      "blend": "Rocketeer.blend",
+      "configured_frame_hp": 1100,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 9
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 13
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 37
+        }
+      ]
+    },
+    {
+      "enemy": "Sentinel",
+      "blend": "Sentinel.blend",
+      "configured_frame_hp": 300,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 7
+        }
+      ]
+    },
+    {
+      "enemy": "Shredder",
+      "blend": "Shredder.blend",
+      "configured_frame_hp": 385,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 16
+        },
+        {
+          "letter": "B",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 22
+        }
+      ]
+    },
+    {
+      "enemy": "Skulker",
+      "blend": "Skulker.blend",
+      "configured_frame_hp": 230,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 10
+        },
+        {
+          "letter": "B",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 21
+        }
+      ]
+    },
+    {
+      "enemy": "Snitch",
+      "blend": "Snitch.blend",
+      "configured_frame_hp": 158,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 5
+        },
+        {
+          "letter": "B",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 9
+        }
+      ]
+    },
+    {
+      "enemy": "Spotter",
+      "blend": "Spotter.blend",
+      "configured_frame_hp": 80,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 4
+        }
+      ]
+    },
+    {
+      "enemy": "Surveyor",
+      "blend": "Surveyor.blend",
+      "configured_frame_hp": 257,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 19
+        },
+        {
+          "letter": "B",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 31
+        }
+      ]
+    },
+    {
+      "enemy": "Tick",
+      "blend": "Tick.blend",
+      "configured_frame_hp": 10,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 19
+        }
+      ]
+    },
+    {
+      "enemy": "Turbine",
+      "blend": "Turbine.blend",
+      "configured_frame_hp": 4000,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 19
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 45
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 78
+        }
+      ]
+    },
+    {
+      "enemy": "Turret",
+      "blend": "Turret.blend",
+      "configured_frame_hp": 80,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 3
+        }
+      ]
+    },
+    {
+      "enemy": "Vaporizer",
+      "blend": "Vaporizer.blend",
+      "configured_frame_hp": 1500,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 4
+        },
+        {
+          "letter": "B",
+          "stage": 1,
+          "key": "NO_ARMOR",
+          "label": "Without armor",
+          "visible_parts": 32
+        },
+        {
+          "letter": "C",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 47
+        }
+      ]
+    },
+    {
+      "enemy": "Wasp",
+      "blend": "Wasp.blend",
+      "configured_frame_hp": 110,
+      "layers": [
+        {
+          "letter": "A",
+          "stage": 2,
+          "key": "CORE",
+          "label": "Core + limb structure",
+          "visible_parts": 5
+        },
+        {
+          "letter": "B",
+          "stage": 0,
+          "key": "FULL",
+          "label": "Full model",
+          "visible_parts": 11
+        }
+      ]
+    }
+  ]
+}

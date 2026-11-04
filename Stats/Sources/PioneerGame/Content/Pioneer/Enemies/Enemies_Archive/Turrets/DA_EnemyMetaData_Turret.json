@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_7",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_Turret'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Enemies_Archive/Turrets/DA_EnemyMetaData_Turret.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_TurretEnemy'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/DA_Persistence_Enemy_TurretEnemy.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Turret'",
+        "ObjectPath": "/Game/Pioneer/Core/UI/UI_Elements/Icons/Enemies/T_UI_Ping_Enemy_Turret.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Turret.T_UI_ARC_Turret",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_TURRET_NAME",
+        "SourceString": "Turret",
+        "LocalizedString": "Turret"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_Turret",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Enemies_Archive/Turrets/DA_EnemyMetaData_Turret",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_Turret:UIEnemyMetaDataItem_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Enemies_Archive/Turrets/DA_EnemyMetaData_Turret.0"
+        }
+      ]
+    }
+  }
+]

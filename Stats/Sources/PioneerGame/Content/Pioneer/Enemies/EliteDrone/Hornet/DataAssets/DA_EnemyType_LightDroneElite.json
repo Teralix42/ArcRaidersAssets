@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_LightDroneElite",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyType_LightDroneElite",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.C_LightDrone_Elite_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": 664422097,
+      "EnemyTag": {
+        "TagName": "Enemy.EliteDrone.Taser"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_Drone_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_Drone.0"
+        }
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_LightDroneElite'",
+        "ObjectPath": "/Game/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_Persistence_Enemy_LightDroneElite.0"
+      },
+      "Tags": [
+        "Online.Release.Base"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

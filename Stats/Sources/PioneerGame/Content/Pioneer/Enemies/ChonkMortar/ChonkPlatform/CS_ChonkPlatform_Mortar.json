@@ -1,0 +1,3218 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Chonk.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Sensor"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Sensor )"
+      }
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Combat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Combat.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Chonk_Comms.0"
+            },
+            "StateOscillationFrequency": 7.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Chonk_Comms.0"
+            },
+            "StateOscillationFrequency": 7.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Idle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Idle.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'Chonk_Comms'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/DroneInternalComms/Chonk_Comms.0"
+            },
+            "StateOscillationFrequency": 15.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'Chonk_TargetSwitch'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_TargetSwitch.0"
+      },
+      "TagEffectMap": [
+        {
+          "Key": {
+            "TagName": "AI.PowerState.Drained"
+          },
+          "Value": {
+            "OnTagAppliedEffect": {
+              "ObjectName": "EffectDataAsset'DA_Rollbot_RecoverySteam'",
+              "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Rollbot_RecoverySteam.0"
+            },
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": true,
+            "EffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'Chonk_Drained'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_Drained.0"
+            },
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": false,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": true
+          }
+        },
+        {
+          "Key": {
+            "TagName": "ML.Policy.Pose.InProgress"
+          },
+          "Value": {
+            "OnTagAppliedEffect": null,
+            "EffectCooldownTime": 0.0,
+            "bStopEffectWhenTagRemoved": false,
+            "EffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "OnTagAppliedSound": {
+              "ObjectName": "SoundCue'HeavyDroneBomber_CommitFire'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Drone_Signals/HeavyDroneBomber_CommitFire.0"
+            },
+            "SoundCoolDownTime": 5.0,
+            "bStopSoundWhenTagRemoved": false,
+            "SoundFadeOutTime": 0.25,
+            "OnTagAppliedDialogueIntent": {
+              "TagName": "None"
+            },
+            "MaterialParameterBlend": {
+              "ParameterName": "None",
+              "SimpleBlendMinMax": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "SimpleBlendDuration": 0.0,
+              "bUseCustomCurveInsteadOfMinMax": false,
+              "LimitToMaterials": [],
+              "CustomSampleCurve": {
+                "EditorCurveData": {
+                  "Keys": [],
+                  "DefaultValue": 3.4028235E+38,
+                  "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                  "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+                },
+                "ExternalCurve": null
+              }
+            },
+            "OnTagAppliedMaterial": null,
+            "bRemoveEffectOnConstructableDestroyed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_ChonkPlatform_Mortar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimShockEnd",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimShockPrepare",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalStyleSequence'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Large",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_MovingPartAudioStyleDriver_Chonk",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_Chonk_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CollisionStyleDriver_Medium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sensor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Muzzle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableStyleProxyComponent'",
+          "ObjectPath": "/Script/EmbarkConstructable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_ChonkPlatform_Mortar_C'Default__CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.10"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_CollisionStyleDriver_Medium_C",
+    "Name": "BP_CollisionStyleDriver_Medium_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.BP_CollisionStyleDriver_Medium_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Template": {
+      "ObjectName": "BP_CollisionStyleDriver_Medium_C'Default__BP_CollisionStyleDriver_Medium_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.1"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Large_C",
+    "Name": "BP_DamageStyleDriver_Large_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.BP_DamageStyleDriver_Large_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Large_C'Default__BP_DamageStyleDriver_Large_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Chonk'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Chonk.0"
+      },
+      "PartOverrideSeverityDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Armor"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Small'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Small.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Frame"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Arm.Front"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Indestructible"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_ConstructableDamage_Default'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_ConstructableDamage_Default.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Head"
+          },
+          "Value": {
+            "SeverityToEffect": [
+              {
+                "Key": "ESimplifiedDamageSeverity::Ineffective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Normal",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              },
+              {
+                "Key": "ESimplifiedDamageSeverity::Effective",
+                "Value": {
+                  "ObjectName": "EffectDataAsset'DA_Impacts_NoDamage'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_NoDamage.0"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Leg"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedSmoke_Small'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedSmoke_Small.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.Group.Weakpoint"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedFire_XS'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedFire_XS.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_MovingPartAudioStyleDriver_Chonk_C",
+    "Name": "BP_MovingPartAudioStyleDriver_Chonk_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.BP_MovingPartAudioStyleDriver_Chonk_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Template": {
+      "ObjectName": "BP_MovingPartAudioStyleDriver_Chonk_C'Default__BP_MovingPartAudioStyleDriver_Chonk_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.1"
+    },
+    "Properties": {
+      "MultiPartEffects": [
+        {
+          "Sound": {
+            "ObjectName": "SoundCue'Chonk_MainEngine'",
+            "ObjectPath": "/Game/Pioneer/Audio/Drones/Chonk/Chonk_MainEngine.0"
+          },
+          "AttachPartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Frame )"
+          },
+          "AttachOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 250.0
+          },
+          "TrackedPartQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Leg"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Relative.Lower"
+              },
+              {
+                "TagName": "Part.Decorator.Group.Lower"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              2
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Leg,\n Part.Decorator.Group.Relative.Lower,\n Part.Decorator.Group.Lower )"
+          },
+          "Mode": "EPartMovementTrackingMode::AngularSpeed",
+          "bAutoNormalize": true,
+          "InterpolationAlpha": 0.1,
+          "MinSpeedForRangeUpdate": 200.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Suppressive"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Chonk_WeaponCommitFire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Chonk_WeaponCommitFire.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::CoolingDown",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::CoolingDown",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Chonk_WeaponCoolDown'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Chonk_WeaponCoolDown.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Shockwave"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_ChonkMortar_Shockwave_Active'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_ChonkMortar_Shockwave_Active.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            },
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_ChonkMortar_PushBack_Prepare'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_ChonkMortar_PushBack_Prepare.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AnimShockPrepare_GEN_VARIABLE",
+                      "SanitizedComponentName": "AnimShockPrepare",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Animations": [
+                  {
+                    "AnimationComponent": {
+                      "ComponentName": "AnimShockEnd_GEN_VARIABLE",
+                      "SanitizedComponentName": "AnimShockEnd",
+                      "ClassFilter": {
+                        "ObjectName": "Class'SimpleAnimationSequenceComponent'",
+                        "ObjectPath": "/Script/Angelscript"
+                      },
+                      "bOptional": false
+                    },
+                    "OnCapabilityStateEntered": "ECapabilityStateAnimation::PlayForwardFromStart",
+                    "OnCapabilityStateExited": "ECapabilityStateAnimation::None"
+                  }
+                ]
+              }
+            }
+          ],
+          "MaterialParameters": []
+        }
+      ],
+      "Extensions": [
+        {
+          "ObjectName": "CapabilityStyleDriverExtensionShockwave'CS_ChonkPlatform_Mortar_C:CapabilityStyleDriver_GEN_VARIABLE.CapabilityStyleDriverExtensionShockwave_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriverExtensionShockwave",
+    "Name": "CapabilityStyleDriverExtensionShockwave_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriverExtensionShockwave'",
+    "Outer": {
+      "ObjectName": "CapabilityStyleDriver'CS_ChonkPlatform_Mortar_C:CapabilityStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.7"
+    },
+    "Properties": {
+      "bDebug": false
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_ChonkPlatform_Mortar_C'Default__CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.10"
+    },
+    "Properties": {
+      "ProxyPartList": [
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.Muzzle"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 53,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "Muzzle"
+          },
+          "PartName": "Muzzle",
+          "bIsDestroyed": false
+        },
+        {
+          "RelativeToParentTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "PartTags": [
+            "Part.Decorator.ID.Sensor"
+          ],
+          "InitialRelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "PartIDRange": {
+            "BasePartID": 54,
+            "NrIDs": 1
+          },
+          "ParentPart": {
+            "ParentStyleComponent": null,
+            "ParentPartID": 0,
+            "AttachSocketName": "Sensor"
+          },
+          "PartName": "Sensor",
+          "bIsDestroyed": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CS_ChonkPlatform_Mortar_C",
+    "Name": "Default__CS_ChonkPlatform_Mortar_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.CS_ChonkPlatform_Mortar_C'",
+    "Package": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -371.28137,
+          "Y": -408.3181,
+          "Z": 0.6991458
+        },
+        "Max": {
+          "X": 341.04254,
+          "Y": 408.31793,
+          "Z": 663.95245
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_ChonkPlatform_Mortar_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.9"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "Parts": [
+            {
+              "AssosiatedCapabilityParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.ID.Turret"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": {
+                            "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+                            "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+                          }
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "Weapon_01_Barrel_01",
+                    "PartID": 16,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.Muzzle"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.Muzzle )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": {
+                            "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+                            "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+                          }
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "Muzzle",
+                    "PartID": 53,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationSocketName": "None"
+            }
+          ],
+          "NiagaraSystemSettings": {
+            "NiagaraSystem": {
+              "AssetPathName": "/Game/Pioneer/Effects/Systems/Weapons/Muzzleflashes/Generic/NS_Muzzleflash_Drone_Mortar.NS_Muzzleflash_Drone_Mortar",
+              "SubPathString": ""
+            },
+            "bCastShadow": false,
+            "bCanBePredicted": true,
+            "NiagaraDataChannelAsset": null
+          }
+        }
+      ],
+      "MuzzleAudioDefinitions": [
+        {
+          "StylePartList": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Turret"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+              }
+            },
+            "PartList": [
+              {
+                "SocketSelection": {
+                  "SocketName": "None"
+                },
+                "StyleProxy": {
+                  "Proxy": {
+                    "RelativeTransform": {
+                      "Rotation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0,
+                        "W": 1.0,
+                        "IsNormalized": true,
+                        "Size": 1.0,
+                        "SizeSquared": 1.0
+                      },
+                      "Translation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "Scale3D": {
+                        "X": 1.0,
+                        "Y": 1.0,
+                        "Z": 1.0
+                      }
+                    },
+                    "ComponentName": "None",
+                    "ComponentDisplayName": "None",
+                    "PropertyOuter": {
+                      "PropertyActorClass": {
+                        "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+                        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+                      }
+                    }
+                  },
+                  "PartID": -1,
+                  "AttachName": "None"
+                },
+                "PartName": "Weapon_01_Barrel_01",
+                "PartID": 16,
+                "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+              }
+            ]
+          },
+          "WeaponAudioClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_WeaponAudio_Chonk_Mortar_C'",
+            "ObjectPath": "/Game/Pioneer/Audio/Weapons/WeaponSynthAssets/WeaponAudioComponents/ARC/BP_WeaponAudio_Chonk_Mortar.0"
+          },
+          "bSharedLoopAcrossParts": false,
+          "SharedLoopLocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDriveIntensityFromFiringParts": false,
+          "IntensityParameterName": "FiringIntensity",
+          "bDriveFireRateFromFiringParts": false,
+          "FireRatePerExtraFiringPart": 1.0
+        }
+      ],
+      "bUseCustomActivation": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_ChonkPlatform_Mortar_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.13"
+      },
+      "VariableGUID": "3B747472-4498381C-9D512A8F-3D10F9E1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_ChonkPlatform_Mortar_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.30"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.22"
+        }
+      ],
+      "VariableGUID": "57740A38-4BC83687-8DF964A2-EBD0A1BE",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Large_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Large.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Large_C'CS_ChonkPlatform_Mortar_C:BP_DamageStyleDriver_Large_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.4"
+      },
+      "VariableGUID": "02A9DE58-4E2B2ED3-3E3121AB-2B13EDE2",
+      "InternalVariableName": "BP_DamageStyleDriver_Large"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_ChonkPlatform_Mortar_C:AnimShockPrepare_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.32"
+      },
+      "VariableGUID": "E7378889-4BD81751-80F9A7A0-1D518C93",
+      "InternalVariableName": "AnimShockPrepare"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_ChonkPlatform_Mortar_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.0"
+      },
+      "VariableGUID": "51B0FAD7-4D1B6794-0DF6BC94-19AB09AB",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_ChonkPlatform_Mortar_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.11"
+      },
+      "VariableGUID": "88BE8453-42778EEF-41F9C89D-59096778",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalStyleSequence'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalStyleSequence'CS_ChonkPlatform_Mortar_C:AnimShockEnd_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.31"
+      },
+      "VariableGUID": "A3C86C83-43A39134-2701FA9F-CAE3A91C",
+      "InternalVariableName": "AnimShockEnd"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": null,
+      "AttachToName": "Muzzle",
+      "VariableGUID": "029001BC-4AD4F5DF-29646EB8-7B7E3DC9",
+      "InternalVariableName": "Muzzle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableStyleProxyComponent'",
+        "ObjectPath": "/Script/EmbarkConstructable"
+      },
+      "ComponentTemplate": null,
+      "AttachToName": "Sensor",
+      "VariableGUID": "351280BF-4384B612-F2C9CBA3-B75B789A",
+      "InternalVariableName": "Sensor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_ChonkPlatform_Mortar_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.12"
+      },
+      "VariableGUID": "CFF7EDD7-4ED717B2-EB41A19C-F3ED58BD",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_ChonkPlatform_Mortar_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.6"
+      },
+      "VariableGUID": "660DA4A8-44C28594-4CB9F8A6-D0AE14CB",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_ChonkPlatform_Mortar_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.7"
+      },
+      "VariableGUID": "D96A92E9-4805316E-A43A29BC-8CC7CD24",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CollisionStyleDriver_Medium_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/CollisionStyleDrivers/BP_CollisionStyleDriver_Medium.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_CollisionStyleDriver_Medium_C'CS_ChonkPlatform_Mortar_C:BP_CollisionStyleDriver_Medium_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.3"
+      },
+      "VariableGUID": "2E399D63-41A1797A-48A2C491-9BE1741E",
+      "InternalVariableName": "BP_CollisionStyleDriver_Medium"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_ChonkPlatform_Mortar_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.1"
+      },
+      "VariableGUID": "78FB1364-4204F48B-A01F93A3-29DC00DF",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MovingPartAudioStyleDriver_Chonk_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/MovingPartAudioStyleDrivers/BP_MovingPartAudioStyleDriver_Chonk.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MovingPartAudioStyleDriver_Chonk_C'CS_ChonkPlatform_Mortar_C:BP_MovingPartAudioStyleDriver_Chonk_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.5"
+      },
+      "VariableGUID": "66AE96FE-4054C439-C8C53A8B-821935A9",
+      "InternalVariableName": "BP_MovingPartAudioStyleDriver_Chonk"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.20"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.28"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.20"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_ChonkPlatform_Mortar_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.14"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_GenericMediumSizedLegged_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/Dismemberment/DA_GenericMediumSizedLegged_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSM_ChonkMortar_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/CSSM_ChonkMortar_01.0"
+      },
+      "VirtualPartBones": [
+        "HeadPivot",
+        "Foot_L_01",
+        "Foot_L_02",
+        "Foot_L_03",
+        "Foot_R_01",
+        "Foot_R_02",
+        "Foot_R_03"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 53
+      },
+      "SocketGroups": [
+        {
+          "Key": "16",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "Muzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "SocketIDs": [
+        {
+          "Key": "2",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Sensor",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Head_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Weapon_01_Barrel_01"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": -177.74348,
+                "Y": 8.392189E-05,
+                "Z": 103.859695
+              },
+              {
+                "X": -20.187643,
+                "Y": 135.52173,
+                "Z": 89.059944
+              },
+              {
+                "X": 164.26895,
+                "Y": 37.23601,
+                "Z": -27.143692
+              },
+              {
+                "X": 49.475243,
+                "Y": -122.85651,
+                "Z": 76.785194
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -21.751036,
+                "Y": -130.03204,
+                "Z": 3.1415226
+              },
+              {
+                "X": 211.79465,
+                "Y": -0.0011901759,
+                "Z": 164.91174
+              },
+              {
+                "X": -136.04745,
+                "Y": -146.33527,
+                "Z": 271.13318
+              },
+              {
+                "X": -136.04745,
+                "Y": 146.33255,
+                "Z": 271.1332
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 90.140755,
+                "Y": 37.077457,
+                "Z": 58.80372
+              },
+              {
+                "X": -40.16541,
+                "Y": 12.753151,
+                "Z": 54.806973
+              },
+              {
+                "X": 108.78288,
+                "Y": -1.4280208,
+                "Z": 72.02753
+              },
+              {
+                "X": 32.66162,
+                "Y": 0.8113657,
+                "Z": 67.90296
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": 29.517454,
+                "Y": -37.9356,
+                "Z": -57.093376
+              },
+              {
+                "X": -111.329765,
+                "Y": -2.9833517,
+                "Z": -56.647926
+              },
+              {
+                "X": -44.7259,
+                "Y": -21.7589,
+                "Z": -70.13712
+              },
+              {
+                "X": -7.9092455,
+                "Y": -5.313596,
+                "Z": -63.460587
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 95.68438,
+                "Y": -103.09304,
+                "Z": 64.28781
+              },
+              {
+                "X": -15.080176,
+                "Y": -81.614944,
+                "Z": 49.864033
+              },
+              {
+                "X": 93.29339,
+                "Y": 3.1678548,
+                "Z": 65.78867
+              },
+              {
+                "X": -34.40982,
+                "Y": 47.665382,
+                "Z": 26.256313
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": 51.609997,
+                "Y": -53.256603,
+                "Z": -30.65185
+              },
+              {
+                "X": -133.32587,
+                "Y": 66.34894,
+                "Z": -29.856909
+              },
+              {
+                "X": -51.971092,
+                "Y": -16.89745,
+                "Z": 54.707573
+              },
+              {
+                "X": -3.680659,
+                "Y": 116.916565,
+                "Z": -59.113617
+              }
+            ]
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "Points": [
+              {
+                "X": 23.350986,
+                "Y": -31.630106,
+                "Z": 124.23277
+              },
+              {
+                "X": -78.69299,
+                "Y": -79.47667,
+                "Z": 81.398155
+              },
+              {
+                "X": -88.269455,
+                "Y": -6.065986,
+                "Z": 5.5126867
+              },
+              {
+                "X": -39.451317,
+                "Y": 42.478348,
+                "Z": 95.22719
+              }
+            ]
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "Points": [
+              {
+                "X": 97.573654,
+                "Y": 71.14273,
+                "Z": -82.96641
+              },
+              {
+                "X": 84.13059,
+                "Y": -21.551031,
+                "Z": -23.027905
+              },
+              {
+                "X": -22.411924,
+                "Y": 31.745382,
+                "Z": -124.050476
+              },
+              {
+                "X": 31.050459,
+                "Y": -45.432125,
+                "Z": -89.85668
+              }
+            ]
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "Points": [
+              {
+                "X": -93.206535,
+                "Y": 56.370106,
+                "Z": 68.08677
+              },
+              {
+                "X": -34.113293,
+                "Y": 4.272955,
+                "Z": 122.68238
+              },
+              {
+                "X": -42.467175,
+                "Y": 52.27453,
+                "Z": 118.04866
+              },
+              {
+                "X": -84.88324,
+                "Y": 45.88175,
+                "Z": 116.34024
+              }
+            ]
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "Points": [
+              {
+                "X": 93.1804,
+                "Y": -56.08259,
+                "Z": -66.6359
+              },
+              {
+                "X": 38.99974,
+                "Y": 9.191359,
+                "Z": -123.56523
+              },
+              {
+                "X": 66.847565,
+                "Y": -24.578495,
+                "Z": -119.37616
+              },
+              {
+                "X": 85.02916,
+                "Y": -58.764065,
+                "Z": -115.0668
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "Points": [
+              {
+                "X": -88.77818,
+                "Y": -21.21885,
+                "Z": -31.421436
+              },
+              {
+                "X": 10.075995,
+                "Y": -4.1971684,
+                "Z": -98.820114
+              },
+              {
+                "X": 36.126167,
+                "Y": 85.467575,
+                "Z": -31.612585
+              },
+              {
+                "X": 70.00049,
+                "Y": -59.367496,
+                "Z": -31.48509
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "Points": [
+              {
+                "X": 30.339115,
+                "Y": -46.303177,
+                "Z": -35.64885
+              },
+              {
+                "X": -38.11346,
+                "Y": -65.43551,
+                "Z": -114.336685
+              },
+              {
+                "X": 30.338945,
+                "Y": 47.61953,
+                "Z": -35.649117
+              },
+              {
+                "X": -19.954065,
+                "Y": 64.21173,
+                "Z": -108.26683
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "Points": [
+              {
+                "X": -49.225693,
+                "Y": 115.376816,
+                "Z": -9.632677
+              },
+              {
+                "X": -85.71134,
+                "Y": -55.962395,
+                "Z": -9.390981
+              },
+              {
+                "X": 101.899284,
+                "Y": 64.989365,
+                "Z": 15.179588
+              },
+              {
+                "X": 67.08845,
+                "Y": -101.362495,
+                "Z": -9.904277
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "Points": [
+              {
+                "X": -17.22687,
+                "Y": 8.581747,
+                "Z": -20.710115
+              },
+              {
+                "X": -32.472473,
+                "Y": 0.17637071,
+                "Z": 16.082743
+              },
+              {
+                "X": -16.724005,
+                "Y": -12.247166,
+                "Z": -19.971573
+              },
+              {
+                "X": -27.982227,
+                "Y": 0.18962088,
+                "Z": 3.7387023
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "Points": [
+              {
+                "X": -25.999443,
+                "Y": -52.135426,
+                "Z": -30.806328
+              },
+              {
+                "X": 64.574776,
+                "Y": 45.940937,
+                "Z": -30.806343
+              },
+              {
+                "X": 64.574776,
+                "Y": -45.940884,
+                "Z": -30.806328
+              },
+              {
+                "X": -25.999443,
+                "Y": 52.135494,
+                "Z": -30.806343
+              }
+            ]
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "Points": [
+              {
+                "X": 131.61772,
+                "Y": 5.3408246E-05,
+                "Z": 10.606667
+              },
+              {
+                "X": 208.9594,
+                "Y": -1.9075118E-05,
+                "Z": 16.146797
+              },
+              {
+                "X": 61.83544,
+                "Y": 35.3075,
+                "Z": 5.578189
+              },
+              {
+                "X": 64.10383,
+                "Y": -21.984137,
+                "Z": 5.7705193
+              }
+            ]
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.242435,
+                "Y": -14.547511,
+                "Z": -20.347023
+              },
+              {
+                "X": 2.1868272,
+                "Y": -0.97272265,
+                "Z": -20.279795
+              },
+              {
+                "X": 2.0540626,
+                "Y": 18.399828,
+                "Z": -20.930317
+              },
+              {
+                "X": 25.30254,
+                "Y": 18.520805,
+                "Z": -28.845402
+              }
+            ]
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "Points": [
+              {
+                "X": 203.09056,
+                "Y": 5.19776,
+                "Z": -12.470719
+              },
+              {
+                "X": 112.46308,
+                "Y": 9.627321,
+                "Z": -6.519988
+              },
+              {
+                "X": 177.43216,
+                "Y": 0.008232219,
+                "Z": -12.466388
+              },
+              {
+                "X": 49.86036,
+                "Y": -10.425235,
+                "Z": -5.928336
+              }
+            ]
+          }
+        },
+        {
+          "Key": "19",
+          "Value": {
+            "Points": [
+              {
+                "X": 40.629578,
+                "Y": 21.076775,
+                "Z": -29.385426
+              },
+              {
+                "X": -53.15278,
+                "Y": 28.41887,
+                "Z": -25.927042
+              },
+              {
+                "X": -14.869096,
+                "Y": -30.54548,
+                "Z": -33.84556
+              },
+              {
+                "X": 90.40824,
+                "Y": 5.5685463,
+                "Z": -25.385006
+              }
+            ]
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "Points": [
+              {
+                "X": -66.72983,
+                "Y": -20.642733,
+                "Z": -26.775526
+              },
+              {
+                "X": -59.683807,
+                "Y": 28.742172,
+                "Z": -33.239807
+              },
+              {
+                "X": -63.692074,
+                "Y": -34.960846,
+                "Z": -7.6165385
+              },
+              {
+                "X": -62.24978,
+                "Y": 24.913416,
+                "Z": 1.6528612
+              }
+            ]
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "Points": [
+              {
+                "X": -22.014326,
+                "Y": -0.06396613,
+                "Z": -12.559038
+              },
+              {
+                "X": -17.86666,
+                "Y": -0.121589646,
+                "Z": -17.975536
+              },
+              {
+                "X": -15.461926,
+                "Y": 12.791312,
+                "Z": -15.47976
+              },
+              {
+                "X": -23.682772,
+                "Y": 6.5415497,
+                "Z": -6.21194
+              }
+            ]
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.3157854,
+                "Y": 18.737238,
+                "Z": -21.134726
+              },
+              {
+                "X": 2.3527718,
+                "Y": -19.147469,
+                "Z": -20.533508
+              },
+              {
+                "X": 2.2101846,
+                "Y": 0.833597,
+                "Z": -20.306559
+              },
+              {
+                "X": 2.4403238,
+                "Y": -6.114834,
+                "Z": -20.855429
+              }
+            ]
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "Points": [
+              {
+                "X": 197.52885,
+                "Y": 0.006273419,
+                "Z": -13.5100765
+              },
+              {
+                "X": 28.334333,
+                "Y": 2.135634,
+                "Z": -5.9539948
+              },
+              {
+                "X": 117.546745,
+                "Y": -6.820128,
+                "Z": -5.9213223
+              },
+              {
+                "X": 72.784485,
+                "Y": -4.9187245,
+                "Z": -5.9213243
+              }
+            ]
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "Points": [
+              {
+                "X": -14.767142,
+                "Y": 36.48995,
+                "Z": -33.837456
+              },
+              {
+                "X": 1.3022282,
+                "Y": -34.12169,
+                "Z": -32.55921
+              },
+              {
+                "X": 78.243004,
+                "Y": -0.27486914,
+                "Z": -26.362669
+              },
+              {
+                "X": -79.59613,
+                "Y": 1.1083952,
+                "Z": -18.782667
+              }
+            ]
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "Points": [
+              {
+                "X": -59.36983,
+                "Y": 7.219932,
+                "Z": -33.539566
+              },
+              {
+                "X": -62.117546,
+                "Y": 40.37294,
+                "Z": -31.238052
+              },
+              {
+                "X": -60.88082,
+                "Y": 21.925583,
+                "Z": 11.210019
+              },
+              {
+                "X": -65.151276,
+                "Y": -30.411081,
+                "Z": -16.994644
+              }
+            ]
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "Points": [
+              {
+                "X": -24.510683,
+                "Y": 0.070929505,
+                "Z": -6.444465
+              },
+              {
+                "X": -21.887602,
+                "Y": -0.083694525,
+                "Z": -12.779656
+              },
+              {
+                "X": -17.219006,
+                "Y": 6.639711,
+                "Z": -17.369648
+              },
+              {
+                "X": -17.219002,
+                "Y": -6.6397257,
+                "Z": -17.369665
+              }
+            ]
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.3578603,
+                "Y": 19.137812,
+                "Z": -20.546005
+              },
+              {
+                "X": 2.4242952,
+                "Y": -4.425841,
+                "Z": -21.151667
+              },
+              {
+                "X": 2.4366465,
+                "Y": 8.972306,
+                "Z": -21.077776
+              },
+              {
+                "X": 2.2868814,
+                "Y": -11.125929,
+                "Z": -20.410812
+              }
+            ]
+          }
+        },
+        {
+          "Key": "30",
+          "Value": {
+            "Points": [
+              {
+                "X": 196.89458,
+                "Y": -0.08478564,
+                "Z": -13.513587
+              },
+              {
+                "X": 28.406717,
+                "Y": 1.9517565,
+                "Z": -5.975881
+              },
+              {
+                "X": 63.69951,
+                "Y": 10.34021,
+                "Z": -5.942158
+              },
+              {
+                "X": 105.869736,
+                "Y": -10.143542,
+                "Z": -6.0046597
+              }
+            ]
+          }
+        },
+        {
+          "Key": "31",
+          "Value": {
+            "Points": [
+              {
+                "X": 99.32665,
+                "Y": -11.4828005,
+                "Z": -24.668129
+              },
+              {
+                "X": -79.65506,
+                "Y": -8.066356,
+                "Z": -18.75945
+              },
+              {
+                "X": 39.58828,
+                "Y": -10.294736,
+                "Z": -29.469034
+              },
+              {
+                "X": -28.340542,
+                "Y": -5.5084887,
+                "Z": -35.000748
+              }
+            ]
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "Points": [
+              {
+                "X": -60.763012,
+                "Y": 24.313816,
+                "Z": 11.413794
+              },
+              {
+                "X": -64.500114,
+                "Y": -32.7684,
+                "Z": -12.809388
+              },
+              {
+                "X": -61.178524,
+                "Y": 33.62057,
+                "Z": -31.812809
+              },
+              {
+                "X": -52.515247,
+                "Y": -8.435016,
+                "Z": -40.083836
+              }
+            ]
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "Points": [
+              {
+                "X": -21.15002,
+                "Y": -6.6602345,
+                "Z": -12.266746
+              },
+              {
+                "X": -17.306562,
+                "Y": -6.4715223,
+                "Z": -17.338636
+              },
+              {
+                "X": -21.951689,
+                "Y": 0.07892904,
+                "Z": -12.652731
+              },
+              {
+                "X": -15.411612,
+                "Y": -12.762651,
+                "Z": -15.555015
+              }
+            ]
+          }
+        },
+        {
+          "Key": "35",
+          "Value": {
+            "Points": [
+              {
+                "X": 10.606047,
+                "Y": -18.368921,
+                "Z": -23.6811
+              },
+              {
+                "X": 2.2238722,
+                "Y": -9.693337,
+                "Z": -20.323221
+              },
+              {
+                "X": 2.242431,
+                "Y": 14.547621,
+                "Z": -20.347025
+              },
+              {
+                "X": 28.870165,
+                "Y": -10.549297,
+                "Z": -33.57187
+              }
+            ]
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "Points": [
+              {
+                "X": 128.81323,
+                "Y": -2.614303,
+                "Z": -5.921217
+              },
+              {
+                "X": 192.93839,
+                "Y": -5.0608044,
+                "Z": -12.53487
+              },
+              {
+                "X": 69.258766,
+                "Y": -9.606284,
+                "Z": -6.571774
+              },
+              {
+                "X": 28.211403,
+                "Y": 3.2036831,
+                "Z": -5.929745
+              }
+            ]
+          }
+        },
+        {
+          "Key": "37",
+          "Value": {
+            "Points": [
+              {
+                "X": -79.71733,
+                "Y": -16.07937,
+                "Z": -18.739302
+              },
+              {
+                "X": -7.221038,
+                "Y": -34.5955,
+                "Z": -33.72081
+              },
+              {
+                "X": -14.869373,
+                "Y": 30.545437,
+                "Z": -33.845478
+              },
+              {
+                "X": 90.4081,
+                "Y": -5.5685005,
+                "Z": -25.384792
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39",
+          "Value": {
+            "Points": [
+              {
+                "X": -52.29013,
+                "Y": 22.608055,
+                "Z": -40.29868
+              },
+              {
+                "X": -62.87732,
+                "Y": 7.571767,
+                "Z": -2.3805919
+              },
+              {
+                "X": -57.9964,
+                "Y": -40.092407,
+                "Z": -21.420372
+              },
+              {
+                "X": -62.71402,
+                "Y": 42.274746,
+                "Z": -1.3030639
+              }
+            ]
+          }
+        },
+        {
+          "Key": "40",
+          "Value": {
+            "Points": [
+              {
+                "X": -18.913874,
+                "Y": -12.7885,
+                "Z": -11.006351
+              },
+              {
+                "X": -22.01426,
+                "Y": 0.063971,
+                "Z": -12.559005
+              },
+              {
+                "X": -17.28774,
+                "Y": -6.6124654,
+                "Z": -17.3002
+              },
+              {
+                "X": -23.687983,
+                "Y": -6.5214133,
+                "Z": -6.214736
+              }
+            ]
+          }
+        },
+        {
+          "Key": "41",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.3529317,
+                "Y": -18.841743,
+                "Z": -21.178732
+              },
+              {
+                "X": 2.241923,
+                "Y": 19.138771,
+                "Z": -20.348852
+              },
+              {
+                "X": 2.3314743,
+                "Y": -0.83348656,
+                "Z": -20.487839
+              },
+              {
+                "X": 2.1820924,
+                "Y": 6.114743,
+                "Z": -20.27468
+              }
+            ]
+          }
+        },
+        {
+          "Key": "42",
+          "Value": {
+            "Points": [
+              {
+                "X": 197.52951,
+                "Y": -5.0836897,
+                "Z": -12.522504
+              },
+              {
+                "X": 79.97069,
+                "Y": 1.769406,
+                "Z": -5.921347
+              },
+              {
+                "X": 126.20928,
+                "Y": -9.969097,
+                "Z": -6.1026373
+              },
+              {
+                "X": 45.80467,
+                "Y": -10.175097,
+                "Z": -5.9915805
+              }
+            ]
+          }
+        },
+        {
+          "Key": "43",
+          "Value": {
+            "Points": [
+              {
+                "X": 97.883575,
+                "Y": -1.6171404,
+                "Z": -24.784264
+              },
+              {
+                "X": 57.63196,
+                "Y": 2.0212002,
+                "Z": -28.019077
+              },
+              {
+                "X": -8.006171,
+                "Y": 6.2179866,
+                "Z": -33.2941
+              },
+              {
+                "X": -79.579315,
+                "Y": -1.1088661,
+                "Z": -18.790047
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45",
+          "Value": {
+            "Points": [
+              {
+                "X": -58.453594,
+                "Y": -24.057043,
+                "Z": -34.414425
+              },
+              {
+                "X": -56.888054,
+                "Y": 21.034025,
+                "Z": -35.909065
+              },
+              {
+                "X": -60.84539,
+                "Y": -21.925468,
+                "Z": 11.260538
+              },
+              {
+                "X": -62.455376,
+                "Y": 26.132666,
+                "Z": 0.3318734
+              }
+            ]
+          }
+        },
+        {
+          "Key": "46",
+          "Value": {
+            "Points": [
+              {
+                "X": -24.509182,
+                "Y": 0.07521814,
+                "Z": -6.4491076
+              },
+              {
+                "X": -17.8916,
+                "Y": -0.012638013,
+                "Z": -17.9367
+              },
+              {
+                "X": -17.239658,
+                "Y": 6.677145,
+                "Z": -17.335754
+              },
+              {
+                "X": -17.21418,
+                "Y": -6.643294,
+                "Z": -17.374763
+              }
+            ]
+          }
+        },
+        {
+          "Key": "47",
+          "Value": {
+            "Points": [
+              {
+                "X": 2.3772688,
+                "Y": 18.942467,
+                "Z": -21.210938
+              },
+              {
+                "X": 2.3578486,
+                "Y": -19.137836,
+                "Z": -20.546057
+              },
+              {
+                "X": 2.3882492,
+                "Y": -6.7538257,
+                "Z": -20.61869
+              },
+              {
+                "X": 2.2925248,
+                "Y": -0.96506935,
+                "Z": -20.41975
+              }
+            ]
+          }
+        },
+        {
+          "Key": "48",
+          "Value": {
+            "Points": [
+              {
+                "X": 194.33144,
+                "Y": -0.1732114,
+                "Z": -13.525212
+              },
+              {
+                "X": 107.671776,
+                "Y": -6.8936934,
+                "Z": -5.921343
+              },
+              {
+                "X": 41.01715,
+                "Y": 10.075267,
+                "Z": -6.0375695
+              },
+              {
+                "X": 70.279526,
+                "Y": -5.534673,
+                "Z": -5.921324
+              }
+            ]
+          }
+        },
+        {
+          "Key": "49",
+          "Value": {
+            "Points": [
+              {
+                "X": -79.62748,
+                "Y": 5.395651,
+                "Z": -18.769789
+              },
+              {
+                "X": 39.58851,
+                "Y": 10.294943,
+                "Z": -29.469059
+              },
+              {
+                "X": -28.37581,
+                "Y": 0.24800956,
+                "Z": -34.99046
+              },
+              {
+                "X": 111.24287,
+                "Y": -6.958893,
+                "Z": -23.710545
+              }
+            ]
+          }
+        },
+        {
+          "Key": "51",
+          "Value": {
+            "Points": [
+              {
+                "X": -66.71369,
+                "Y": 28.3672,
+                "Z": -26.982782
+              },
+              {
+                "X": -60.814953,
+                "Y": 20.939413,
+                "Z": 11.309948
+              },
+              {
+                "X": -63.479755,
+                "Y": -31.18065,
+                "Z": -6.251922
+              },
+              {
+                "X": -49.062603,
+                "Y": -4.170731,
+                "Z": -43.39099
+              }
+            ]
+          }
+        },
+        {
+          "Key": "52",
+          "Value": {
+            "Points": [
+              {
+                "X": -23.67153,
+                "Y": 6.541207,
+                "Z": -6.240366
+              },
+              {
+                "X": -15.417142,
+                "Y": 12.774131,
+                "Z": -15.540424
+              },
+              {
+                "X": -17.29928,
+                "Y": 6.591557,
+                "Z": -17.295195
+              },
+              {
+                "X": -21.961676,
+                "Y": -0.06706733,
+                "Z": -12.634961
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "PartsIDsToNotAutoWeldQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Armor.Heavy"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          3,
+          1,
+          0
+        ],
+        "AutoDescription": " NONE( Part.Decorator.ID.Armor.Heavy )"
+      },
+      "bEnableKinematicKinematicHitEvents_Server": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ChonkMortar_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/Art/SK_ChonkMortar_01.2"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_ChonkMortar_01'",
+        "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/Art/SK_ChonkMortar_01.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "MinionIgnoreSelf",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Minion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "HitScan",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "bSimulatePhysics": true
+      },
+      "ComponentTags": [
+        "ChonkSkeletalMeshStyleComponent"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimShockEnd_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "ChonkSkeletalMeshStyleComponent",
+          "BoneNames": [
+            "Armor_02_L_01",
+            "Armor_02_R_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_ChonkMortar_01_ShockEnd_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/Animation/A_ChonkMortar_01_ShockEnd_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalStyleSequence",
+    "Name": "AnimShockPrepare_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalStyleSequence'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_ChonkPlatform_Mortar_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/ChonkPlatform/CS_ChonkPlatform_Mortar.2"
+    },
+    "Properties": {
+      "AnimSequenceTracks": [
+        {
+          "SkeletalMeshComponentTag": "ChonkSkeletalMeshStyleComponent",
+          "BoneNames": [
+            "Armor_02_L_01",
+            "Armor_02_R_01"
+          ],
+          "ClientAlwaysDisabledBones": [],
+          "ServerAlwaysDisabledBones": [],
+          "EaseInBlend": {
+            "BlendMode": "EAlphaBlendOption::Linear",
+            "BlendTime": 0.0,
+            "CustomCurve": null
+          },
+          "MaterialCurveNames": [],
+          "AnimSequence": {
+            "ObjectName": "AnimSequence'A_ChonkMortar_01_ShockPrepare_01'",
+            "ObjectPath": "/Game/Pioneer/Enemies/ChonkMortar/Animation/A_ChonkMortar_01_ShockPrepare_01.0"
+          },
+          "PartToChannelDisabling": [],
+          "bDisableConstraintsWhilePlayingAnimation": false
+        }
+      ],
+      "AudioSourcePointComponent": {
+        "ComponentName": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+        "SanitizedComponentName": "SkeletalMeshStyleComponent"
+      }
+    }
+  }
+]

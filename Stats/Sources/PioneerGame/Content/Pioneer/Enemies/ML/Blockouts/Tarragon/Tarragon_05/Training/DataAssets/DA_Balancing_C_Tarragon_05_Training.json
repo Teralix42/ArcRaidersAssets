@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_Tarragon_05_Training",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/ML/Blockouts/Tarragon/Tarragon_05/Training/DataAssets/DA_Balancing_C_Tarragon_05_Training",
+    "Properties": {
+      "EntryName": "C_Tarragon_05_Training"
+    }
+  }
+]

@@ -1,0 +1,1380 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Sniper'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Sniper.0"
+      },
+      "ActiveAlertnessStates": 7,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Weapon"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+      },
+      "SocketName": "Muzzle",
+      "TargetAngle": 1.0,
+      "NumTracesAtPlayerDistance": [
+        {
+          "Key": "ETraceDistance::Medium",
+          "Value": "ETracesAmount::Low"
+        },
+        {
+          "Key": "ETraceDistance::Far",
+          "Value": "ETracesAmount::Low"
+        }
+      ],
+      "LengthChangeSpeed": 10000.0,
+      "TraceChannelType": "ETraceTypeQuery::TraceTypeQuery7"
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Sniper_Idle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Sniper/Sniper_Idle.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 4.5,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Sniper_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Sniper/Sniper_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 4.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 4.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'Sniper_Combat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/Sniper/Sniper_Combat.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 1.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "TargetChangedSound": {
+        "ObjectName": "SoundCue'Sniper_TargetChange'",
+        "ObjectPath": "/Game/Pioneer/Audio/Drones/Sniper/Sniper_TargetChange.0"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Sniper_Skinned_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MovingPartAudioStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MovingPartAudioStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Medium",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Medium_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserFlareStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LaserFlareStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Sniper_Skinned_C'Default__CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Medium_C",
+    "Name": "BP_DamageStyleDriver_Medium_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.BP_DamageStyleDriver_Medium_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Medium_C'Default__BP_DamageStyleDriver_Medium_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.1"
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Light"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Sniper_PrepareToFire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_Sniper_PrepareToFire.0"
+                },
+                "bPlayForEachPart": true,
+                "bPlayForMultipleSubsequentSameState": true,
+                "bStopIfEffectStateChanges": true,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_Sniper_Skinned_C'Default__CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.7"
+    }
+  },
+  {
+    "Type": "CS_Sniper_Skinned_C",
+    "Name": "Default__CS_Sniper_Skinned_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.CS_Sniper_Skinned_C'",
+    "Package": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -94.71375,
+          "Y": -70.75745,
+          "Z": -0.71421754
+        },
+        "Max": {
+          "X": 172.55145,
+          "Y": 70.94818,
+          "Z": 172.53932
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_Sniper_Skinned_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.6"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "LaserFlareStyleDriver",
+    "Name": "LaserFlareStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "LaserObjects": [
+        {
+          "ObjectName": "TargetingLaserObject'CS_Sniper_Skinned_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_Forward",
+    "Name": "LaserFlareTargeting_Forward_1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_Forward'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_Sniper_Skinned_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.27"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 4,
+          "PartDisplayName": "Head"
+        }
+      ],
+      "_DefaultTraceLength": 18000.0
+    }
+  },
+  {
+    "Type": "MovingPartAudioStyleDriver",
+    "Name": "MovingPartAudioStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovingPartAudioStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "PartEffects": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Head )"
+          },
+          "bIsConstraint": false,
+          "bTrackLinearState": false,
+          "bCalculateLinearAcceleration": false,
+          "bTrackAngularState": true,
+          "bCalculateAngularAcceleration": false,
+          "Sound": {
+            "ObjectName": "SoundCue'TurretEmplacement_Movement'",
+            "ObjectPath": "/Game/Pioneer/Audio/Gadgets/TurretEmplacement/TurretEmplacement_Movement.0"
+          },
+          "LinearSpeedInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          },
+          "AngularSpeedInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          },
+          "LinearAccelerationInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          },
+          "AngularAccelerationInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "Parts": [
+            {
+              "AssosiatedCapabilityParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.ID.Weapon"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": {
+                            "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+                            "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+                          }
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "Barrel",
+                    "PartID": 5,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+                  }
+                },
+                "PartList": []
+              },
+              "EffectLocationSocketName": "Muzzle"
+            }
+          ],
+          "NiagaraSystemSettings": {
+            "NiagaraSystem": {
+              "AssetPathName": "/Game/Pioneer/Effects/Systems/Enemies/Drone/NS_Muzzleflash_SniperDrone.NS_Muzzleflash_SniperDrone",
+              "SubPathString": ""
+            },
+            "bCastShadow": false,
+            "bCanBePredicted": true,
+            "NiagaraDataChannelAsset": null
+          }
+        }
+      ],
+      "MuzzleAudioDefinitions": [
+        {
+          "StylePartList": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Weapon"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+              }
+            },
+            "PartList": [
+              {
+                "SocketSelection": {
+                  "SocketName": "None"
+                },
+                "StyleProxy": {
+                  "Proxy": {
+                    "RelativeTransform": {
+                      "Rotation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0,
+                        "W": 1.0,
+                        "IsNormalized": true,
+                        "Size": 1.0,
+                        "SizeSquared": 1.0
+                      },
+                      "Translation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "Scale3D": {
+                        "X": 1.0,
+                        "Y": 1.0,
+                        "Z": 1.0
+                      }
+                    },
+                    "ComponentName": "None",
+                    "ComponentDisplayName": "None",
+                    "PropertyOuter": {
+                      "PropertyActorClass": {
+                        "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+                        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+                      }
+                    }
+                  },
+                  "PartID": -1,
+                  "AttachName": "None"
+                },
+                "PartName": "Barrel",
+                "PartID": 5,
+                "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+              }
+            ]
+          },
+          "WeaponAudioClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_WAC_SR_HeavySniper_01_T3_C'",
+            "ObjectPath": "/Game/Pioneer/Audio/Weapons/WeaponSynthAssets/WeaponAudioComponents/SniperRifle/BP_WAC_SR_HeavySniper_01_T3.0"
+          },
+          "bSharedLoopAcrossParts": false,
+          "SharedLoopLocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDriveIntensityFromFiringParts": false,
+          "IntensityParameterName": "FiringIntensity",
+          "bDriveFireRateFromFiringParts": false,
+          "FireRatePerExtraFiringPart": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_Sniper_Skinned_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.13"
+      },
+      "VariableGUID": "73F8F439-4E300D08-8A0BA6A7-C4C41524",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LaserFlareStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LaserFlareStyleDriver'CS_Sniper_Skinned_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.9"
+      },
+      "VariableGUID": "E6938B30-4B59FC87-23ACC7A7-A2710E92",
+      "InternalVariableName": "LaserFlareStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Medium_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Medium.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Medium_C'CS_Sniper_Skinned_C:BP_DamageStyleDriver_Medium_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.3"
+      },
+      "VariableGUID": "5A354898-4A9EFF3E-50B2088E-DAAFA6E9",
+      "InternalVariableName": "BP_DamageStyleDriver_Medium"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_Sniper_Skinned_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.5"
+      },
+      "VariableGUID": "02151616-448C5346-5A1056B2-E9C104BC",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_Sniper_Skinned_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.0"
+      },
+      "VariableGUID": "8B33F111-470B6936-8C4BCBBB-790A2A21",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_Sniper_Skinned_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.1"
+      },
+      "VariableGUID": "59254B43-44A004CF-5BEDFBAD-C7971B3C",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_Sniper_Skinned_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.12"
+      },
+      "VariableGUID": "9B9ED621-44C89E6F-B90D379E-06D620A5",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_Sniper_Skinned_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.8"
+      },
+      "VariableGUID": "B3761AE3-41D2BD58-07703AAD-73E1FB92",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_Sniper_Skinned_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.4"
+      },
+      "VariableGUID": "931E2718-42F76668-4B158AB6-957A4380",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MovingPartAudioStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MovingPartAudioStyleDriver'CS_Sniper_Skinned_C:MovingPartAudioStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.11"
+      },
+      "VariableGUID": "26966633-497EB55E-BAAC74AF-E0B362D6",
+      "InternalVariableName": "MovingPartAudioStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_Sniper_Skinned_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_Sniper_Skinned_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.26"
+      },
+      "VariableGUID": "FE9EF552-41DB4CC0-C6AB22B5-ABAB1BE9",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.22"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.15"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.19"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.22"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_Sniper_Skinned_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.14"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "DebrisImpactImpulseScale": 250.0,
+      "ScavengeImpactScalar": -0.5,
+      "DebrisLinearDamping": 1.0,
+      "DebrisAngularDamping": 1.0,
+      "DismembermentSetup": {
+        "ObjectName": "DismembermentSetup'DA_Sniper_Dismemberment'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/DataAssets/DA_Sniper_Dismemberment.0"
+      },
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_Sniper'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CSSC_Sniper.0"
+      },
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 7
+      },
+      "SocketGroups": [
+        {
+          "Key": "5",
+          "Value": {
+            "SocketGroupList": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketList": [
+                    "Muzzle"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "SocketIDs": [
+        {
+          "Key": "4",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Laser",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Head"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Items": [
+              {
+                "Key": "Muzzle",
+                "Value": {
+                  "SocketID": 0,
+                  "PartName": "Barrel"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": -38.079937,
+                "Y": -45.608967,
+                "Z": 30.283688
+              },
+              {
+                "X": -37.954735,
+                "Y": 45.9438,
+                "Z": 30.289469
+              },
+              {
+                "X": 39.273067,
+                "Y": 44.988914,
+                "Z": 30.096731
+              },
+              {
+                "X": 39.2731,
+                "Y": -44.798084,
+                "Z": 30.096745
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -28.111597,
+                "Y": -0.19078158,
+                "Z": -2.605442
+              },
+              {
+                "X": 42.920685,
+                "Y": 6.2402,
+                "Z": -2.605443
+              },
+              {
+                "X": 25.157146,
+                "Y": -4.4388,
+                "Z": 28.277822
+              },
+              {
+                "X": -3.0926893,
+                "Y": -0.19075108,
+                "Z": 14.540067
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": -61.05987,
+                "Y": -3.9870079,
+                "Z": -10.667266
+              },
+              {
+                "X": 4.445516,
+                "Y": -22.233698,
+                "Z": -0.51465636
+              },
+              {
+                "X": -33.69377,
+                "Y": -4.050861,
+                "Z": 3.6368668
+              },
+              {
+                "X": -24.600376,
+                "Y": -22.233688,
+                "Z": 3.9635417
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "Points": [
+              {
+                "X": 1.3692744,
+                "Y": -0.14143625,
+                "Z": -0.68346137
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "Points": [
+              {
+                "X": -31.119513,
+                "Y": 12.9656925,
+                "Z": -16.785194
+              },
+              {
+                "X": 40.376553,
+                "Y": -13.657546,
+                "Z": 10.145968
+              },
+              {
+                "X": 12.62595,
+                "Y": 40.271606,
+                "Z": -12.426699
+              },
+              {
+                "X": -13.432561,
+                "Y": -45.709602,
+                "Z": -9.705386
+              }
+            ]
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "Points": [
+              {
+                "X": 106.881065,
+                "Y": -3.3716629,
+                "Z": -3.2069905
+              },
+              {
+                "X": 5.765057,
+                "Y": 3.9123693,
+                "Z": -2.9947848
+              },
+              {
+                "X": 62.22289,
+                "Y": 3.1455247,
+                "Z": -3.4586544
+              },
+              {
+                "X": 32.610188,
+                "Y": -3.8879158,
+                "Z": -2.9970267
+              }
+            ]
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "Points": [
+              {
+                "X": 1.5473511,
+                "Y": -13.4342,
+                "Z": -24.384718
+              },
+              {
+                "X": -19.434246,
+                "Y": 1.5977145,
+                "Z": -24.384726
+              },
+              {
+                "X": -23.967861,
+                "Y": -3.737303,
+                "Z": -6.4324927
+              },
+              {
+                "X": -0.19237383,
+                "Y": 7.6090474,
+                "Z": -24.384722
+              }
+            ]
+          }
+        }
+      ],
+      "bIsKinematic": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Sniper_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Art/SK_Sniper_01_A.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Sniper_01_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/Art/SK_Sniper_01_A.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "bNotifyRigidBodyCollision": false,
+        "CollisionProfileName": "Minion",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_Sniper_Skinned_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.9"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 4,
+        "PartDisplayName": "Head"
+      },
+      "AttachSocket": "Muzzle",
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Weapon"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_Sniper_Skinned_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.2"
+          }
+        },
+        "PartList": [
+          {
+            "Key": "5",
+            "Value": "Barrel"
+          }
+        ]
+      },
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_Forward'CS_Sniper_Skinned_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0.LaserFlareTargeting_Forward_1'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Sniper/CS_Sniper_Skinned.10"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Flare_TargetingLaser_Gatlinger'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_Flare_TargetingLaser_Gatlinger.0"
+      }
+    }
+  }
+]

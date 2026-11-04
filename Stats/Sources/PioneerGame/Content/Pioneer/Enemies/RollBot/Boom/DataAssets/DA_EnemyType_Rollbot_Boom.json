@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Rollbot_Boom",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_EnemyType_Rollbot_Boom",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/RollBot/Boom/C_Rollbot_Boom.C_Rollbot_Boom_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -1780443771,
+      "EnemyTag": {
+        "TagName": "Enemy.HeavyRollbot.Boom"
+      },
+      "AirStrikeSpawnEffect": {
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SmokeTrail_OrbitalStrike_Heavy_C'",
+          "ObjectPath": "/Game/Pioneer/Effects/Blueprints/Enemies/BP_SmokeTrail_OrbitalStrike_Heavy.0"
+        },
+        "EffectDuration": 2.0
+      },
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Rollbot_Boom'",
+        "ObjectPath": "/Game/Pioneer/Enemies/RollBot/Boom/DataAssets/DA_Persistence_Enemy_Rollbot_Boom.0"
+      },
+      "Tags": [
+        "Online.Release.1.17"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

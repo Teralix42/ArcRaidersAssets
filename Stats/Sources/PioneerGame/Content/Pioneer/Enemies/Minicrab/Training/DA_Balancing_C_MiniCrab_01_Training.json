@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "BalancingEntryDataAsset",
+    "Name": "DA_Balancing_C_MiniCrab_01_Training",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BalancingEntryDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Minicrab/Training/DA_Balancing_C_MiniCrab_01_Training",
+    "Properties": {
+      "EntryName": "C_MiniCrab_01_Training"
+    }
+  }
+]

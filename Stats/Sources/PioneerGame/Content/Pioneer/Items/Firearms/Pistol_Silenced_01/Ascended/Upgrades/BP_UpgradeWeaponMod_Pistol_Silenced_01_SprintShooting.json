@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting",
+    "SuperStruct": {
+      "ObjectName": "Class'NonItemWeaponMod'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C:ModifyWeaponAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.2"
+      }
+    ],
+    "FuncMap": {
+      "ModifyWeaponAttributes": {
+        "ObjectName": "Function'BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C:ModifyWeaponAttributes'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C'Default__BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C",
+    "Name": "Default__BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting",
+    "Properties": {
+      "ModData": {
+        "bHasGeneratedBakedModifiers": true,
+        "BakedModifiersDelta": {
+          "BlockSprintOverride": {
+            "bOverridden": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ModifyWeaponAttributes",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'NonItemWeaponMod:ModifyWeaponAttributes'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Stats",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 464,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "Class'WeaponModifiers'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  }
+]

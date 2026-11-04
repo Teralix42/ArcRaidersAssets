@@ -1,0 +1,654 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WItem_IncendiarySpread_Ascended_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_PhysicsFireSpread_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.0"
+    },
+    "Properties": {
+      "ComponentTemplates": [
+        {
+          "ObjectName": "StaticMeshComponent'BP_WItem_IncendiarySpread_Ascended_C:NODE_AddStaticMeshComponent-1'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.10"
+        }
+      ],
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_WItem_IncendiarySpread_Ascended_C:Timeline_0_0_Template'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.12"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WItem_IncendiarySpread_Ascended_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.9"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:ExecuteUbergraph_BP_WItem_IncendiarySpread_Ascended'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.4"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:Timeline_0_0__FinishedFunc'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.5"
+      },
+      {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:Timeline_0_0__UpdateFunc'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.6"
+      },
+      {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:EffectBegin'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.3"
+      },
+      {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:ExecuteUbergraph_BP_WItem_IncendiarySpread_Ascended'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Timeline_0_0_Scale_DC054E984449710DFAEEBBB8DA40D35C",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0_0__Direction_DC054E984449710DFAEEBBB8DA40D35C",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_WItem_IncendiarySpread_Ascended": {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:ExecuteUbergraph_BP_WItem_IncendiarySpread_Ascended'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.4"
+      },
+      "EffectBegin": {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:EffectBegin'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.3"
+      },
+      "Timeline_0_0__UpdateFunc": {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:Timeline_0_0__UpdateFunc'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.6"
+      },
+      "Timeline_0_0__FinishedFunc": {
+        "ObjectName": "Function'BP_WItem_IncendiarySpread_Ascended_C:Timeline_0_0__FinishedFunc'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WItem_IncendiarySpread_Ascended_C'Default__BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WItem_IncendiarySpread_Ascended_C",
+    "Name": "Default__BP_WItem_IncendiarySpread_Ascended_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.BP_WItem_IncendiarySpread_Ascended_C'",
+    "Package": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended",
+    "Template": {
+      "ObjectName": "BP_WItem_PhysicsFireSpread_Base_C'Default__BP_WItem_PhysicsFireSpread_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "Timeline_0_0_Scale_DC054E984449710DFAEEBBB8DA40D35C": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "MaxParticles": 6,
+      "Lifetime": 4.0,
+      "StaticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_IncendiarySpread_Ascended_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.11"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_IncendiarySpread_Ascended_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.11"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_WItem_IncendiarySpread_Ascended_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.11"
+      }
+    }
+  },
+  {
+    "Type": "CurveVector",
+    "Name": "CurveVector_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveVector'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "Properties": {
+      "FloatCurves": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": -0.3036,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.25,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "FloatCurves[1]": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": -0.3036,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.25,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "FloatCurves[2]": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": -0.3036,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.25,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    },
+    "FloatCurves": [
+      {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": -0.3036,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.25,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": -0.3036,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.25,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": -0.3036,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.25,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      }
+    ]
+  },
+  {
+    "Type": "Function",
+    "Name": "EffectBegin",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'PhysicsSpreadEffectWorldItem:EffectBegin'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Location",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_WItem_IncendiarySpread_Ascended",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "Class'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "Struct": {
+          "ObjectName": "Class'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshActor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0_0__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0_0__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WItem_IncendiarySpread_Ascended_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WItem_IncendiarySpread_Ascended_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.7"
+      },
+      "VariableGUID": "EB6DC55C-4C811D85-09FE948B-A19C25AE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WItem_IncendiarySpread_Ascended_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "NODE_AddStaticMeshComponent-1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "/Engine/BasicShapes/Plane.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_FX_Scorchmark_VTBrush'",
+          "ObjectPath": "/Game/Pioneer/Effects/Materials/VT/M_FX_Scorchmark_VTBrush.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "bVisibleInReflectionCaptures": false,
+      "bVisibleInRealTimeSkyCaptures": false,
+      "bVisibleInRayTracing": false,
+      "bRenderInMainPass": false,
+      "bRenderInDepthPass": false,
+      "bReceivesDecals": false,
+      "CastShadow": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "RuntimeVirtualTextures": [
+        {
+          "ObjectName": "RuntimeVirtualTexture'VT_World_02'",
+          "ObjectPath": "/Game/Pioneer/Maps/World_02/VirtualTexture/VT_World_02.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AIVisibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AudioOcclusion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AITraceProjectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerTraceProjectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "RelativeScale3D": {
+        "X": 25.0,
+        "Y": 25.0,
+        "Z": 25.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WItem_IncendiarySpread_Ascended_C'Default__BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_WItem_PhysicsFireSpread_Base_C:Mesh'",
+      "ObjectPath": "/Game/Pioneer/Core/Gameplay/Damage/BP_WItem_PhysicsFireSpread_Base.5"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_0_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WItem_IncendiarySpread_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.0"
+    },
+    "Properties": {
+      "VectorTracks": [
+        {
+          "CurveVector": {
+            "ObjectName": "CurveVector'BP_WItem_IncendiarySpread_Ascended_C:CurveVector_0'",
+            "ObjectPath": "/Game/Pioneer/Items/Shared/Damage/BP_WItem_IncendiarySpread_Ascended.2"
+          },
+          "PropertyName": "Timeline_0_0_Scale_DC054E984449710DFAEEBBB8DA40D35C",
+          "TrackName": "Scale",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "DC054E98-4449710D-FAEEBBB8-DA40D35C",
+      "VariableName": "Timeline_0_0",
+      "DirectionPropertyName": "Timeline_0_0__Direction_DC054E984449710DFAEEBBB8DA40D35C",
+      "UpdateFunctionName": "Timeline_0_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0_0__FinishedFunc"
+    }
+  }
+]

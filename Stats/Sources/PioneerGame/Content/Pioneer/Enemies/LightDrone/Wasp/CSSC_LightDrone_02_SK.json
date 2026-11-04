@@ -1,0 +1,363 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_LightDrone_02_SK",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/LightDrone/Wasp/CSSC_LightDrone_02_SK",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Weapon_R_01_Muzzle_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Weapon_L_01_Muzzle_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Weapon_L_01_ShellEject_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Weapon_R_01_ShellEject_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Event.Base",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Armor_Side_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Armor_Side_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Group.Weakpoint"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Weapon_LightRifle_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Weapon_LightRifle_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Core_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        },
+        {
+          "Key": "Weapon_LightRifle_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Weapon_LightRifle_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Sturdy"
+          }
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_Side_L_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Armor_Side_R_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Core_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Weapon_LightRifle_L_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        },
+        {
+          "Key": "Weapon_LightRifle_R_01",
+          "Value": "EPartResistanceGroup::Sturdy"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Thruster_L_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_L_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_01_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Thruster_R_02_Socket",
+          "Value": []
+        },
+        {
+          "Key": "Weapon_R_01_Muzzle_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Weapon_L_01_Muzzle_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Weapon_L_01_ShellEject_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Weapon_R_01_ShellEject_Socket",
+          "Value": [
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Event.Base",
+            "Part.Decorator.ID.Frame"
+          ]
+        },
+        {
+          "Key": "Armor_Side_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Armor_Side_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Core_01",
+          "Value": [
+            "Part.Decorator.ID.Core",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Front",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Weapon_LightRifle_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        },
+        {
+          "Key": "Weapon_LightRifle_R_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ID.Weapon.Rifle",
+            "Part.Decorator.Group.Indestructible",
+            "Part.Decorator.ResistanceGroup.Sturdy"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,413 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_SnitchBot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CSSC_SnitchBot",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Simulated",
+            "Part.Decorator.Group.Vital",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ID.Spawner",
+            "Part.Decorator.ID.Weapon"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "LargeFlap_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "LargeFlap_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "LargeFlap_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "LargeFlap_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light"
+          ]
+        },
+        {
+          "Key": "SubFrame_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "SubFrame_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "SubFrame_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts"
+          ]
+        },
+        {
+          "Key": "ScannerRoot",
+          "Value": [
+            "Part.Decorator.ID.Radar",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Frame_Thruster_L",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Frame_Thruster_Re",
+          "Value": [
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Frame_Thruster_R",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Thruster_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.EffectSource"
+          ]
+        },
+        {
+          "Key": "Thruster_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.EffectSource"
+          ]
+        },
+        {
+          "Key": "Thruster_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.EffectSource"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "LargeFlap_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LargeFlap_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LargeFlap_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "LargeFlap_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Armor"
+          }
+        },
+        {
+          "Key": "Frame_Thruster_L",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Frame_Thruster_Re",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Frame_Thruster_R",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "SubFrame_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "SubFrame_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "SubFrame_03",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "LargeFlap_L_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LargeFlap_L_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LargeFlap_R_01",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "LargeFlap_R_02",
+          "Value": "EPartResistanceGroup::Armor"
+        },
+        {
+          "Key": "SubFrame_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "SubFrame_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "SubFrame_03",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "ScannerRoot",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Frame_Thruster_L",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Frame_Thruster_Re",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Frame_Thruster_R",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_03",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Simulated",
+            "Part.Decorator.Group.Vital",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ID.Spawner",
+            "Part.Decorator.ID.Weapon"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "LargeFlap_L_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LargeFlap_L_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LargeFlap_R_01",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "LargeFlap_R_02",
+          "Value": [
+            "Part.Decorator.ID.Armor.Light",
+            "Part.Decorator.ResistanceGroup.Armor"
+          ]
+        },
+        {
+          "Key": "SubFrame_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "SubFrame_02",
+          "Value": [
+            "Part.Decorator.HealthGroup.SubParts",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "SubFrame_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.HealthGroup.SubParts",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "ScannerRoot",
+          "Value": [
+            "Part.Decorator.ID.Radar",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Frame_Thruster_L",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Frame_Thruster_Re",
+          "Value": [
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Frame_Thruster_R",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_03",
+          "Value": [
+            "Part.Decorator.Group.Relative.Rear",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.EffectSource",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.EffectSource",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.EffectSource",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        }
+      ]
+    }
+  }
+]

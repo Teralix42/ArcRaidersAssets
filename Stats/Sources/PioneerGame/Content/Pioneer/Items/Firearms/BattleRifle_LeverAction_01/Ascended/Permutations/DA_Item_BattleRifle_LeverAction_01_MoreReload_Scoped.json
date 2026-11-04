@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "ItemDataAsset",
+    "Name": "DA_Item_BattleRifle_LeverAction_01_MoreReload_Scoped",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemDataAsset'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/DA_Item_BattleRifle_LeverAction_01_MoreReload_Scoped",
+    "Properties": {
+      "bIsUpgradedVariation": true,
+      "BaseQualityLevel": 3,
+      "ItemActorClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/BP_WeaponActor_BattleRifle_LeverAction_01.BP_WeaponActor_BattleRifle_LeverAction_01_C",
+        "SubPathString": ""
+      },
+      "Classifications": [
+        "Item.Classification.Rifle"
+      ],
+      "bEnablesZoom": true,
+      "bEnablesPrediction": true,
+      "DefaultPickupMesh": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/SM_BattleRifle_LeverAction_01_A.SM_BattleRifle_LeverAction_01_A",
+        "SubPathString": ""
+      },
+      "Weight": 10.0,
+      "DialogueObjectTag": {
+        "TagName": "DialogueBucketParameter.Item.Weapon.Renegade"
+      },
+      "ItemCategory": "EItemCategory::Rifle",
+      "Purpose": "EItemPurpose::Firearm",
+      "UnequipTime": 0.6,
+      "UnequipTimeToItems": 0.25,
+      "EquipTime": 1.1,
+      "DisplayTags": [
+        "UI.Crosshair.Scope.Sniper.Renegade"
+      ],
+      "PickupEffects": {
+        "ObjectName": "EffectDataAsset'DA_PickupWeapon_AssaultRifle'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_PickupWeapon_AssaultRifle.0"
+      },
+      "DropEffects": {
+        "ObjectName": "EffectDataAsset'DA_DropItem'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Items/DA_DropItem.0"
+      },
+      "ItemAnimationContainer": {
+        "ObjectName": "WeaponItemAnimationContainer'DA_ItemAnimationContainer_BattleRifle_LeverAction_01_Scoped'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/DA_ItemAnimationContainer_BattleRifle_LeverAction_01_Scoped.0"
+      },
+      "WeaponVisualsOverride": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Scoped/DA_WeaponVisuals_BattleRifle_LeverAction_01_Ascended_Scoped_A.DA_WeaponVisuals_BattleRifle_LeverAction_01_Ascended_Scoped_A",
+        "SubPathString": ""
+      },
+      "WeaponQualityVisual": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/DA_QualityVisual_BattleRifle_LeverAction_01.DA_QualityVisual_BattleRifle_LeverAction_01",
+        "SubPathString": ""
+      },
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_BattleRifle_LeverAction_01_MoreReload_Scoped'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/DA_Persistence_BattleRifle_LeverAction_01_MoreReload_Scoped.0"
+      },
+      "Tags": [
+        "Item.Flag.Upgraded",
+        "Online.Release.2.0"
+      ],
+      "QuestTags": [
+        "Quest.Groups.Items.AllWeapons",
+        "Quest.Groups.Items.MediumAmmoWeapon",
+        "Quest.Groups.Items.SpecificWeapon.Renegade"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing",
+      "ItemClass": {
+        "AssetPathName": "/Game/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/BP_Item_BattleRifle_LeverAction_01_MoreReload_Scoped.BP_Item_BattleRifle_LeverAction_01_MoreReload_Scoped_C",
+        "SubPathString": ""
+      },
+      "InventoryItemTypeTags": [
+        "Inventory.ItemType.Weapon.Firearm"
+      ]
+    }
+  }
+]

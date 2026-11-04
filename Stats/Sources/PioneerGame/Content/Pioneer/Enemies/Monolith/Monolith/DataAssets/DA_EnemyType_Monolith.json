@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "EnemyTypeDataAsset",
+    "Name": "DA_EnemyType_Monolith",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnemyTypeDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_EnemyType_Monolith",
+    "Properties": {
+      "EnemyTypeClass": {
+        "AssetPathName": "/Game/Pioneer/Enemies/Monolith/Monolith/C_Monolith.C_Monolith_C",
+        "SubPathString": ""
+      },
+      "EnemyTypeId": -400146311,
+      "EnemyTag": {
+        "TagName": "Enemy.Monolith.Monolith"
+      },
+      "ExcludeActorSpawnFlags": 3,
+      "bCanFly": false,
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Monolith'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_Persistence_Enemy_Monolith.0"
+      },
+      "Tags": [
+        "Online.Release.1.26"
+      ],
+      "DevelopmentAvailability": "EDevelopmentAvailability::UserFacing"
+    }
+  }
+]

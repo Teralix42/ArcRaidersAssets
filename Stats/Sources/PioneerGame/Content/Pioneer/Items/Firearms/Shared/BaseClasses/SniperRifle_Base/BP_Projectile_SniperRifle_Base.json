@@ -1,0 +1,200 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Projectile_SniperRifle_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Projectile_SniperRifle_Base_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Projectile_SniperRifle_Base_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Projectile_SniperRifle_Base_C'Default__BP_Projectile_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Projectile_SniperRifle_Base_C",
+    "Name": "Default__BP_Projectile_SniperRifle_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.BP_Projectile_SniperRifle_Base_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base",
+    "Template": {
+      "ObjectName": "BP_ModifiedProjectileBase_C'Default__BP_ModifiedProjectileBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.1"
+    },
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_SniperRifle_Base_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.8"
+      },
+      "ProjectileMovement": {
+        "ObjectName": "ProjectileMovementComponent'Default__BP_Projectile_SniperRifle_Base_C:ProjectileMovement'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.4"
+      },
+      "NewTrailEffect": {
+        "ObjectName": "NiagaraSystem'NS_BulletTrail_Ribbon_Default'",
+        "ObjectPath": "/Game/Pioneer/Effects/Systems/Weapons/BulletTrails/NS_BulletTrail_Ribbon_Default.22"
+      },
+      "PredictionComponent": {
+        "ObjectName": "PredictedProjectileComponent'Default__BP_Projectile_SniperRifle_Base_C:PredictionComponent'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.3"
+      },
+      "ProjectileRadius": 10.0,
+      "DetonationEffectPreset": {
+        "ObjectName": "EffectDataAsset'DA_Impacts_Sniper'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Impacts/DA_Impacts_Sniper.0"
+      },
+      "ImpactForce": "EForceMagnitude::Medium",
+      "RadialImpactForce": "EForceMagnitude::None",
+      "RadialForceRadius": "EForceMagnitude::None",
+      "BulletFlyby": {
+        "ObjectName": "SoundCue'ProjectileFlyBy_Sniper'",
+        "ObjectPath": "/Game/Pioneer/Audio/Weapons/Projectiles/Flybys/ProjectileFlyBy_Sniper.0"
+      },
+      "NetCullDistanceSquared": 2.5E+09,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Projectile_SniperRifle_Base_C:Mesh'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.8"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.0"
+    }
+  },
+  {
+    "Type": "PredictedProjectileComponent",
+    "Name": "PredictionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PredictedProjectileComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_SniperRifle_Base_C'Default__BP_Projectile_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.1"
+    },
+    "Template": {
+      "ObjectName": "PredictedProjectileComponent'Default__BP_ModifiedProjectileBase_C:PredictionComponent'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.4"
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileMovement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_SniperRifle_Base_C'Default__BP_Projectile_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.1"
+    },
+    "Template": {
+      "ObjectName": "ProjectileMovementComponent'Default__BP_ModifiedProjectileBase_C:ProjectileMovement'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.5"
+    },
+    "Properties": {
+      "InitialSpeed": 35000.0,
+      "ProjectileGravityScale": 1.2
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Projectile_SniperRifle_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Projectile_SniperRifle_Base_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.5"
+      },
+      "VariableGUID": "9485CE3B-47589B49-E40178B1-7CF7F0F9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Projectile_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Projectile_SniperRifle_Base_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Projectile_SniperRifle_Base_C'Default__BP_Projectile_SniperRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/SniperRifle_Base/BP_Projectile_SniperRifle_Base.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_ModifiedProjectileBase_C:Mesh'",
+      "ObjectPath": "/Game/Pioneer/Items/Projectiles/BP_ModifiedProjectileBase.9"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'projectile_bullet_BigCollision'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/Shared/Blockout/projectile_meshes/projectile_bullet_BigCollision.1"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "bEnableGravity": false
+      }
+    }
+  }
+]

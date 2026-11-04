@@ -1,0 +1,314 @@
+[
+  {
+    "Type": "ConstructableSkeletalMeshStyleTagConfig",
+    "Name": "CSSC_Pinger",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableSkeletalMeshStyleTagConfig'",
+    "Package": "/Game/Pioneer/Enemies/Pinger/DataAssets/CSSC_Pinger",
+    "Properties": {
+      "BoneNameToPartTagsMap": [
+        {
+          "Key": "Laser",
+          "Value": []
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Simulated",
+            "Part.Decorator.Group.Vital",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ID.Spawner",
+            "Part.Decorator.ID.Weapon"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Head"
+          ]
+        },
+        {
+          "Key": "Ring_C_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "ScannerRoot",
+          "Value": [
+            "Part.Decorator.ID.Radar",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Thruster"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right"
+          ]
+        }
+      ],
+      "BoneNameToPartResistanceTagMap": [
+        {
+          "Key": "Thruster_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_Virtual_L_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_Virtual_L_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_Virtual_R_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Thruster_Virtual_R_02",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Fragile"
+          }
+        },
+        {
+          "Key": "Head_01",
+          "Value": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          }
+        }
+      ],
+      "BoneNameToPartResistanceGroup": [
+        {
+          "Key": "Frame_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Head_01",
+          "Value": "EPartResistanceGroup::Critical"
+        },
+        {
+          "Key": "Ring_C_01",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "ScannerRoot",
+          "Value": "EPartResistanceGroup::Normal"
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_Virtual_L_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_Virtual_L_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_Virtual_R_01",
+          "Value": "EPartResistanceGroup::Fragile"
+        },
+        {
+          "Key": "Thruster_Virtual_R_02",
+          "Value": "EPartResistanceGroup::Fragile"
+        }
+      ],
+      "MergedBoneNameToPartTagsMap": [
+        {
+          "Key": "Laser",
+          "Value": []
+        },
+        {
+          "Key": "Frame_01",
+          "Value": [
+            "Part.Decorator.Group.Scavenge",
+            "Part.Decorator.Group.Simulated",
+            "Part.Decorator.Group.Vital",
+            "Part.Decorator.ID.Frame",
+            "Part.Decorator.ID.Spawner",
+            "Part.Decorator.ID.Weapon"
+          ]
+        },
+        {
+          "Key": "Head_01",
+          "Value": [
+            "Part.Decorator.Group.Critical",
+            "Part.Decorator.Group.Weakpoint",
+            "Part.Decorator.ID.Head",
+            "Part.Decorator.ResistanceGroup.Critical"
+          ]
+        },
+        {
+          "Key": "Ring_C_01",
+          "Value": [
+            "Part.Decorator.HealthGroup.Base"
+          ]
+        },
+        {
+          "Key": "ScannerRoot",
+          "Value": [
+            "Part.Decorator.ID.Radar",
+            "Part.Decorator.Group.Indestructible"
+          ]
+        },
+        {
+          "Key": "Thruster_L_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_L_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_L_01",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_L_02",
+          "Value": [
+            "Part.Decorator.Group.Relative.Left",
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_R_01",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        },
+        {
+          "Key": "Thruster_Virtual_R_02",
+          "Value": [
+            "Part.Decorator.ID.Thruster",
+            "Part.Decorator.Group.Relative.Right",
+            "Part.Decorator.ResistanceGroup.Fragile"
+          ]
+        }
+      ]
+    }
+  }
+]

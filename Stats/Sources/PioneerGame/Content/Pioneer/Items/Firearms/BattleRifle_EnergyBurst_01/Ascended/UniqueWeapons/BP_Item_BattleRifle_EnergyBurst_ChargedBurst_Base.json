@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/UniqueWeapons/BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base",
+    "SuperStruct": {
+      "ObjectName": "Class'ChargedBurstWeapon'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C'Default__BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/UniqueWeapons/BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C",
+    "Name": "Default__BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/UniqueWeapons/BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base.BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Ascended/UniqueWeapons/BP_Item_BattleRifle_EnergyBurst_ChargedBurst_Base",
+    "Properties": {
+      "MinBurstSize": 1,
+      "ChargeTimePerExtraShot": 0.4,
+      "FirstChargeDelaySec": 0.4,
+      "VisibleTraceEveryNthProjectile": 1,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_EnergyAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/EnergyAmmo/DA_Item_EnergyAmmo.0"
+      },
+      "bOneAmmoReloadsFullClip": true,
+      "WeaponType": "EWeaponType::BattleRifle",
+      "BasePhysicalDamage": 25.0,
+      "BaseFirePower": 5000000.0,
+      "BaseClipSize": 10.0,
+      "BaseReloadTime": 3.5,
+      "BaseFireRate": 700.0,
+      "BaseBurnRate": 0.0009,
+      "MeleeBash": {
+        "bHasWeaponMelee": true,
+        "Metrics": {
+          "ObjectName": "MeleeMetricsDataAsset'DA_FirearmMeleeWeapon_Metrics'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/DA_FirearmMeleeWeapon_Metrics.0"
+        },
+        "OnHitEffect": {
+          "ObjectName": "EffectDataAsset'DA_BasicMeleeWeapon_Hit'",
+          "ObjectPath": "/Game/Pioneer/Items/Shared/Effects/DA_BasicMeleeWeapon_Hit.0"
+        },
+        "WorldImpactEffects": {
+          "ObjectName": "NiagaraSystem'NS_Impact_Melee_EnvDefault'",
+          "ObjectPath": "/Game/Pioneer/Effects/Systems/Materials/Impact/Melee/NS_Impact_Melee_EnvDefault.53"
+        }
+      },
+      "AiArmorDamageMultiplier": 2.5,
+      "AiArmorPropagationMultiplier": 1.0,
+      "BurstSize": 4,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_BattleRifle_EnergyBurst_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/BP_Projectile_BattleRifle_EnergyBurst_01.0"
+      },
+      "bPartialReload": true,
+      "PartialReloadDuration": 3.5,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": -0.5,
+          "PartialTime": 0.95,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 2.55,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 3.0,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_BattleRifle_EnergyBurst_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/DA_RecoilProfile_BattleRifle_EnergyBurst_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_BattleRifle_EnergyBurst_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/DA_DispersionState_BattleRifle_EnergyBurst_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_BattleRifle_EnergyBurst_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/Curve_DamageFalloff_BattleRifle_EnergyBurst_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 0.8,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'BattleRifleEnergyBurstCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'BattleRifleEnergyBurstCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_BattleRifle_EnergyBurst_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/BP_WeaponQualitySet_BattleRifle_EnergyBurst_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 25.0,
+        "FireRate": 9.44,
+        "Range": 76.39,
+        "Stability": 88.0,
+        "Agility": 45.8,
+        "Stealth": 16.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Stock_Default_01'",
+            "ObjectPath": "/Game/Pioneer/Items/WeaponMod/Stock_Default_01/DA_Visual_WeaponMod_Stock_Default_01.0"
+          },
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "BaseCooldownTime": 0.7,
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_BattleRifle_EnergyBurst_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/DA_Item_BattleRifle_EnergyBurst_01.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Armor_HeavyBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Armor/HeavyBody/BP_Item_Armor_HeavyBody",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_ArmorBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Armor_HeavyBody_C'Default__BP_Item_Armor_HeavyBody_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/BP_Item_Armor_HeavyBody.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Armor_HeavyBody_C",
+    "Name": "Default__BP_Item_Armor_HeavyBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Armor/HeavyBody/BP_Item_Armor_HeavyBody.BP_Item_Armor_HeavyBody_C'",
+    "Package": "/Game/Pioneer/Items/Armor/HeavyBody/BP_Item_Armor_HeavyBody",
+    "Template": {
+      "ObjectName": "BP_Item_ArmorBase_C'Default__BP_Item_ArmorBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase.1"
+    },
+    "Properties": {
+      "VisualArmorType": "EArmorType::Heavy",
+      "MaxArmorPlates": 1,
+      "ArmorPerPlate": 80.0,
+      "DamageMitigationPerPlate": 0.525,
+      "BaseArmorValue": 80.0,
+      "DurabilityLossFromArmorDamage": 0.15,
+      "bAllowMobileRepair": true,
+      "ArmorZones": [
+        "EArmorZone::Body",
+        "EArmorZone::Head",
+        "EArmorZone::Legs"
+      ],
+      "Part": {
+        "AssetPathName": "/Game/Pioneer/Characters/Backpacks/Alpha/Skins/Base/DA_CP_Backpack_Alpha_HeavyArmor.DA_CP_Backpack_Alpha_HeavyArmor",
+        "SubPathString": ""
+      },
+      "ArmorQualitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ArmorQualitySet_HeavyBody_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.0"
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Armor_HeavyBody'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/HeavyBody/DA_Item_Armor_HeavyBody.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_AssaultRifle_Pneumatic_01_AntiShield",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_Pneumatic_01_AntiShield",
+    "Properties": {
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_AssaultRifle_Pneumatic_01_AntiShield_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Pneumatic_01/Ascended/Upgrades/BP_UpgradeWeaponMod_AssaultRifle_Pneumatic_01_AntiShield.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_ANTISHIELD",
+        "SourceString": "Anti-Shield",
+        "LocalizedString": "Anti-Shield"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_ANTISHIELD",
+        "SourceString": "Redistributes damage to prioritize breaking shields faster.",
+        "LocalizedString": "Redistributes damage to prioritize breaking shields faster."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_AntiShieldRounds.T_UI_Icon_Upgrade_AntiShieldRounds",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_SHIELDDAMAGE_POSITIVE",
+            "SourceString": "{0}% Increased Damage vs Raider Shields",
+            "LocalizedString": "{0}% Increased Damage vs Raider Shields"
+          },
+          "ModifierValue": 100.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        },
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_DAMAGEFLAT_NEGATIVE",
+            "SourceString": "-{0} Base Damage",
+            "LocalizedString": "-{0} Base Damage"
+          },
+          "ModifierValue": 2.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Negative"
+        }
+      ]
+    }
+  }
+]

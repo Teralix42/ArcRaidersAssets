@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Armor_LightBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Armor/LightBody/BP_Item_Armor_LightBody",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_ArmorBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Armor_LightBody_C'Default__BP_Item_Armor_LightBody_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/BP_Item_Armor_LightBody.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Armor_LightBody_C",
+    "Name": "Default__BP_Item_Armor_LightBody_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Armor/LightBody/BP_Item_Armor_LightBody.BP_Item_Armor_LightBody_C'",
+    "Package": "/Game/Pioneer/Items/Armor/LightBody/BP_Item_Armor_LightBody",
+    "Template": {
+      "ObjectName": "BP_Item_ArmorBase_C'Default__BP_Item_ArmorBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/TemplateDefaults/Armor/BP_Item_ArmorBase.1"
+    },
+    "Properties": {
+      "VisualArmorType": "EArmorType::Light",
+      "MaxArmorPlates": 1,
+      "ArmorPerPlate": 40.0,
+      "DamageMitigationPerPlate": 0.4,
+      "BaseArmorValue": 40.0,
+      "bAllowMobileRepair": true,
+      "ArmorZones": [
+        "EArmorZone::Body",
+        "EArmorZone::Head",
+        "EArmorZone::Legs"
+      ],
+      "Part": {
+        "AssetPathName": "/Game/Pioneer/Characters/Backpacks/Alpha/Skins/Base/DA_CP_Backpack_Alpha_LightArmor.DA_CP_Backpack_Alpha_LightArmor",
+        "SubPathString": ""
+      },
+      "ArmorQualitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ArmorQualitySet_LightBody_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/BP_ArmorQualitySet_LightBody.0"
+      },
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Armor_LightBody'",
+        "ObjectPath": "/Game/Pioneer/Items/Armor/LightBody/DA_Item_Armor_LightBody.0"
+      }
+    }
+  }
+]

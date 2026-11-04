@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AssaultRifle_Bullpup_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_Item_AssaultRifle_Bullpup_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AssaultRifle_Bullpup_01_C'Default__BP_Item_AssaultRifle_Bullpup_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_Item_AssaultRifle_Bullpup_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AssaultRifle_Bullpup_01_C",
+    "Name": "Default__BP_Item_AssaultRifle_Bullpup_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_Item_AssaultRifle_Bullpup_01.BP_Item_AssaultRifle_Bullpup_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_Item_AssaultRifle_Bullpup_01",
+    "Template": {
+      "ObjectName": "BP_WeaponItem_RifleBase_C'Default__BP_WeaponItem_RifleBase_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BP_WeaponItem_RifleBase.1"
+    },
+    "Properties": {
+      "CriticalDamageMultiplier": 1.5,
+      "AmmoType": {
+        "ObjectName": "ItemDataAsset'DA_Item_MediumAmmo'",
+        "ObjectPath": "/Game/Pioneer/Items/Projectiles/MediumAmmo/DA_Item_MediumAmmo.0"
+      },
+      "GamepadTriggerDepth": 0.3,
+      "BasePhysicalDamage": 10.0,
+      "BaseFirePower": 70000.0,
+      "BaseClipSize": 25.0,
+      "BaseReloadTime": 2.75,
+      "ReloadGraceTime": 0.2,
+      "BaseFireRate": 550.0,
+      "BaseBurnRate": 0.001056,
+      "AiArmorDamageMultiplier": 0.8,
+      "FiringMode": "EFiringMode::Auto",
+      "BurstSize": 1,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_Bullpup_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_Projectile_AssaultRifle_Bullpup_01.0"
+      },
+      "bPartialReload": true,
+      "PartialReloadDuration": 2.57333,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": -0.3,
+          "PartialTime": 0.2,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": -0.2,
+          "PartialTime": 1.45,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": 0.0,
+          "PartialTime": 1.9,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "PartialReloadAnimationScale": 1.14,
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_AssaultRifle_Bullpup_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_RecoilProfile_AssaultRifle_Bullpup_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_AssaultRifle_Bullpup_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_DispersionState_AssaultRifle_Bullpup_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_AssaultRifle_Bullpup_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/Curve_DamageFalloff_AssaultRifle_Bullpup_01.0"
+      },
+      "WeaponFireGameplayCueMagnitude": 0.15,
+      "WeaponCameraShakes": [
+        {
+          "ObjectName": "Class'AssaultRifleCameraShakeRotation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'AssaultRifleCameraShakeTranslation'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        {
+          "ObjectName": "Class'AssaultRifleCameraShakePunch'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      ],
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_AssaultRifle_Bullpup_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_WeaponQualitySet_AssaultRifle_Bullpup_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 10.0,
+        "FireRate": 36.67,
+        "Range": 55.94,
+        "Stability": 67.9,
+        "Agility": 50.0,
+        "Stealth": 14.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_MagazineMedium'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_MagazineMedium.0"
+          },
+          "DefaultVisual": {
+            "ObjectName": "WeaponModVisualizationAsset'DA_Visual_WeaponMod_Mag_Medium_AR_01'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Magazines/Mag_Medium_AR_01/DA_Visual_WeaponMod_Mag_Medium_AR_01.0"
+          },
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_AssaultRifle_Bullpup_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_Item_AssaultRifle_Bullpup_01.0"
+      },
+      "BaseCameraZoomTime": 0.6
+    }
+  }
+]

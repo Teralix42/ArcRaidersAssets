@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemUpgradeNodeData",
+    "Name": "DA_Upgrade_AssaultRifle_LowTier_01_MoreReload",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemUpgradeNodeData'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_LowTier_01_MoreReload",
+    "Properties": {
+      "Children": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_AssaultRifle_LowTier_01_DrumMag'",
+          "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Ascended/Upgrades/DA_Upgrade_AssaultRifle_LowTier_01_DrumMag.0"
+        }
+      ],
+      "WeaponMod": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UpgradeWeaponMod_AssaultRifle_LowTier_01_MoreReload_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Ascended/Upgrades/BP_UpgradeWeaponMod_AssaultRifle_LowTier_01_MoreReload.0"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemNames_AscendedUpgrades.ST_ItemNames_AscendedUpgrades",
+        "Key": "ST_ITEMNAME_ACSENDEDUPGRADE_MORERELOAD",
+        "SourceString": "More Reload",
+        "LocalizedString": "More Reload"
+      },
+      "Description": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_ItemDescriptions_AscendedUpgrades.ST_ItemDescriptions_AscendedUpgrades",
+        "Key": "ST_ITEMDESC_ACSENDEDUPGRADE_MORERELOAD",
+        "SourceString": "Increases the number of bullets loaded at a time, reducing reload time.",
+        "LocalizedString": "Increases the number of bullets loaded at a time, reducing reload time."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Icons/Ascended_upgrades/T_UI_Icon_Upgrade_MoreBulletsReload.T_UI_Icon_Upgrade_MoreBulletsReload",
+        "SubPathString": ""
+      },
+      "ItemEffectData": [
+        {
+          "bUseStaticTitle": false,
+          "StaticTitle": {
+            "CultureInvariantString": null
+          },
+          "TextFormat": {
+            "TableId": "/Game/Pioneer/UI/Localization/ST_ItemStats_Modifiers.ST_ItemStats_Modifiers",
+            "Key": "ID_ITEMSTATS_MODIFIERS_BULLETSLOADED_POSITIVE",
+            "SourceString": "+{0} Bullets Loaded at a time",
+            "LocalizedString": "+{0} Bullets Loaded at a time"
+          },
+          "ModifierValue": 2.0,
+          "bAlwaysShowSign": false,
+          "EffectType": "EInventoryItemEffectType::Positive"
+        }
+      ]
+    }
+  }
+]

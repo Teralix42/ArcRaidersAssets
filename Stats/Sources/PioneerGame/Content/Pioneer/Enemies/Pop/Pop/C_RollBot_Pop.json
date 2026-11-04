@@ -1,0 +1,1372 @@
+[
+  {
+    "Type": "AIInvestigationComponent",
+    "Name": "InvestigationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIInvestigationComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "AIInvestigationComponent'Default__C_Pop_SharedBase_C:InvestigationComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.0"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "AITargetComponent",
+    "Name": "AITarget_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AITargetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_RollBot_Pop_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'C_Pop_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'C_RollBot_Pop_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.28"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'C_RollBot_Pop_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.17"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "AITarget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AITargetComponent'",
+          "ObjectPath": "/Script/EmbarkAI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ConstructableAnimationService",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ConstructableAnimationService'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Shield Upper",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Rifle Left",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Rifle Right",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "C_RollBot_Pop_C",
+    "Name": "Default__C_RollBot_Pop_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.C_RollBot_Pop_C'",
+    "Package": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop",
+    "Template": {
+      "ObjectName": "C_Pop_SharedBase_C'Default__C_Pop_SharedBase_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.2"
+    },
+    "Properties": {
+      "HealthService": {
+        "ObjectName": "HealthService'Default__C_RollBot_Pop_C:HealthService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.16"
+      },
+      "TargetingService": {
+        "ObjectName": "ConstructableTargetingServiceComponent'Default__C_RollBot_Pop_C:TargetingService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.11"
+      },
+      "CollisionService": {
+        "ObjectName": "ConstructableCollisionService'Default__C_RollBot_Pop_C:CollisionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.7"
+      },
+      "CapabilityService": {
+        "ObjectName": "PioneerConstructableCapabilityService'Default__C_RollBot_Pop_C:CapabilityService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.20"
+      },
+      "PerceptionService": {
+        "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_RollBot_Pop_C:PerceptionService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.12"
+      },
+      "HealthGroupService": {
+        "ObjectName": "HealthGroupService'Default__C_RollBot_Pop_C:HealthGroupService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.15"
+      },
+      "SkeletalReplicationService": {
+        "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_RollBot_Pop_C:SkeletalReplicationService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.9"
+      },
+      "DebrisService": {
+        "ObjectName": "DebrisService'Default__C_RollBot_Pop_C:DebrisService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.13"
+      },
+      "AIStateService": {
+        "ObjectName": "PioneerConstructableAIStateService'Default__C_RollBot_Pop_C:AIStateService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.19"
+      },
+      "TimerService": {
+        "ObjectName": "PioneerConstructableTimerService'Default__C_RollBot_Pop_C:TimerService'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.21"
+      },
+      "Style": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Pop_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.10"
+      },
+      "PioneerPingInfoComponent": {
+        "ObjectName": "PioneerPingInfoComponent'Default__C_RollBot_Pop_C:PioneerPingInfoComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.22"
+      },
+      "SpawnSizeComponent": {
+        "ObjectName": "SpawnSizeComponent'Default__C_RollBot_Pop_C:SpawnSizeComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.29"
+      },
+      "ReplicationSettings": {
+        "ObjectName": "ReplicationSettingsComponent'Default__C_RollBot_Pop_C:ReplicationSettings'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.23"
+      },
+      "InvestigationComponent": {
+        "ObjectName": "AIInvestigationComponent'Default__C_RollBot_Pop_C:InvestigationComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.0"
+      },
+      "ItemContainerComponent": {
+        "ObjectName": "ConstructableItemContainerComponent'Default__C_RollBot_Pop_C:ItemContainerComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.8"
+      },
+      "AimAssistTarget": {
+        "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_RollBot_Pop_C:AimAssistTarget'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.5"
+      },
+      "AITemplateData": {
+        "ObjectName": "AITemplateDataAsset'DA_RollBot_Pop_AITemplate'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_RollBot_Pop_AITemplate.0"
+      },
+      "EnemyTypeDataAsset": {
+        "ObjectName": "EnemyTypeDataAsset'DA_EnemyType_RollBot_Pop'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyType_RollBot_Pop.0"
+      },
+      "QuestGroupTags": [
+        "Quest.Groups.Enemies.AllARC",
+        "Quest.Groups.Enemies.Ground",
+        "Quest.Groups.Enemies.Tick&Fireball&Pop"
+      ],
+      "ScriptInputComponent": {
+        "ObjectName": "InputComponent'Default__C_RollBot_Pop_C:ScriptInputComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.18"
+      },
+      "bCanSelfDamage": false,
+      "SpawnBudgetCost": 12,
+      "ThreatLevel": 3,
+      "ImpactForceMultiplier": 5.0,
+      "PayloadForceMultiplier": 5.0,
+      "CachedNavProps": {
+        "bHasNavData": true,
+        "NavMeshClass": {
+          "ObjectName": "Class'EmbarkConstructableRecastNavMesh_XS'",
+          "ObjectPath": "/Script/Angelscript"
+        },
+        "AgentRadius": 50.0,
+        "AgentHeight": 100.0
+      },
+      "StateInterpolatorComponent": {
+        "ObjectName": "StateInterpolatorComponent'Default__C_RollBot_Pop_C:StateInterpolatorComponent'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.30"
+      },
+      "AbilitySystem": {
+        "ObjectName": "ConstructableAbilitySystemComponent'Default__C_RollBot_Pop_C:AbilitySystem'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.4"
+      },
+      "NetCullDistanceSquared": 100000000.0,
+      "RootComponent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Pop_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.10"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAbilitySystemComponent'Default__C_Pop_SharedBase_C:AbilitySystem'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.3"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAimAssistTargetComponent",
+    "Name": "AimAssistTarget",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAimAssistTargetComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableAimAssistTargetComponent'Default__C_Pop_SharedBase_C:AimAssistTarget'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.4"
+    },
+    "Properties": {
+      "SetupData": [
+        {
+          "ObjectName": "ConstructablePartAASetupDataAsset'DA_AimAssistPartSetup_Frame'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/AimAssist/DA_AimAssistPartSetup_Frame.0"
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableAnimationService",
+    "Name": "ConstructableAnimationService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableAnimationService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
+    },
+    "Properties": {
+      "AnimationDefinition": [
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::WhileTagIsSet",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.Rollbot.Unfold"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.Rollbot.Unfold )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": false,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "UnfoldWeapons",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::WhileTagIsSet",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Animation.Constructable.Rollbot.Fold"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Animation.Constructable.Rollbot.Fold )"
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::InCombat",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "FoldWeapons",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        },
+        {
+          "PlayTriggerType": "EConstructableAnimationServicePlayTriggerType::AlertnessStateChange",
+          "ActivationTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "bTriggerOutOfActivationTagBackwardAnimation": true,
+          "bTriggerOutOfActivationTagStopAnimation": false,
+          "AlertnessStateToTriggerFor": "EAIAlertness::Alert",
+          "ActiveDuringAlertnessStatesMask": 4,
+          "bTriggerOutOfAlertnessStateBackwardAnimation": true,
+          "bTriggerOutOfAlertnessStateStopAnimation": false,
+          "CapabilityTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ActiveCapabilityState": "ECapabilityState::Preparing",
+          "ActiveDuringCapabilityStatesMask": 8,
+          "bPlayBackwardAnimOnLeaveState": true,
+          "bPlayBackwardOnSeparateState": false,
+          "DeactivateCapabilityState": "ECapabilityState::CoolingDown",
+          "bFinishBackwardAnimBeforeLeavingState": true,
+          "TriggerConditions": [
+            {
+              "TriggerConditionType": "EConstructableAnimationTriggerConditionType::FromAlertnessStateCondition",
+              "FromAlertnessState": "EAIAlertness::Idle"
+            }
+          ],
+          "bResetAnimationWhenRetriggered": false,
+          "bSyncTimestampsToClient": false,
+          "AnimationComponentTag": "AlertedModeAnim",
+          "BodyAnimation": {
+            "AnimationIdentifier": "None",
+            "PlayMode": "EConstructableAnimationPlayMode::AIDeltaAdditive",
+            "bMirrorXZPlane": false,
+            "PlaybackSpeed": 1.0,
+            "EarlyFinishEndOffsetSeconds": 0.1,
+            "bSkipHeightResetOnFinish": false
+          },
+          "bAutomaticallyStartAnimation": false
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableCollisionService",
+    "Name": "CollisionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableCollisionService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableCollisionService'Default__C_Pop_SharedBase_C:CollisionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.5"
+    },
+    "Properties": {
+      "PartCollisionConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Armor.Heavy"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Armor.Heavy )"
+          },
+          "Config": {
+            "SlidingDotThreshold": 0.9800000190734863,
+            "SlidingRollingThresholdTimeSecs": 0.10000000149011612,
+            "MinTimeBetweenCollisionCues": 0.30000001192092896,
+            "ImpactBypassFactor": 2.5,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            }
+          }
+        }
+      ],
+      "CollisionTypeThresholds": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": 0.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Small",
+          "Value": 200.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Medium",
+          "Value": 400.0
+        },
+        {
+          "Key": "EConstructableCollisionType::Heavy",
+          "Value": 900.0
+        },
+        {
+          "Key": "EConstructableCollisionType::VeryHeavy",
+          "Value": 1800.0
+        }
+      ],
+      "CollisionEffects": [
+        {
+          "Key": "EConstructableCollisionType::VerySmall",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_VerySmall_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_VerySmall.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_VerySmall_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_VerySmall.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Small",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Small_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Small.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Small_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Small.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Medium",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Medium_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Medium.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Medium_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Medium.0"
+            },
+            "bSelfDamage": false,
+            "bCreateShockwave": false,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 10000000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::Heavy",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_Heavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_Heavy.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_Heavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_Heavy.0"
+            },
+            "bSelfDamage": true,
+            "bCreateShockwave": true,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 100000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 500.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        },
+        {
+          "Key": "EConstructableCollisionType::VeryHeavy",
+          "Value": {
+            "Effect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_HeavyDroneCollision_VeryHeavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GE_HeavyDroneCollision_VeryHeavy.0"
+            },
+            "TargetType": {
+              "ObjectName": "BlueprintGeneratedClass'GETT_HeavyDroneCollision_VeryHeavy_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Shared/CollisionEffects/GETT_HeavyDroneCollision_VeryHeavy.0"
+            },
+            "bSelfDamage": true,
+            "bCreateShockwave": true,
+            "Shockwave": {
+              "ObjectTypeHelper": "EForceApplicationObjectTypeHelper::PhysicsAndPlayer",
+              "Force": 200000.0,
+              "ForceMagnitude": "EForceMagnitude::Medium",
+              "Radius": 1000.0,
+              "ForceMagnitudeRadius": "EForceMagnitude::Medium",
+              "FalloffType": "ERadialImpulseFalloff::RIF_Linear"
+            },
+            "bDebug": true
+          }
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableItemContainerComponent",
+    "Name": "ItemContainerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableItemContainerComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableItemContainerComponent'Default__C_Pop_SharedBase_C:ItemContainerComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.6"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_RollBot_Pop_C:Style'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.10"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructablePartReplicationServiceComponent",
+    "Name": "SkeletalReplicationService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructablePartReplicationServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructablePartReplicationServiceComponent'Default__C_Pop_SharedBase_C:SkeletalReplicationService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.7"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableStyleAssemblerComponent",
+    "Name": "Style",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleAssemblerComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableStyleAssemblerComponent'Default__C_Pop_SharedBase_C:Style'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.8"
+    },
+    "Properties": {
+      "StyleAssembly": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Pop_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.2"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableTargetingServiceComponent",
+    "Name": "TargetingService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableTargetingServiceComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableTargetingServiceComponent'Default__C_Pop_SharedBase_C:TargetingService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.9"
+    },
+    "Properties": {
+      "PartTargetingConfigs": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Head"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Part.Decorator.ID.Head )"
+          },
+          "Config": {
+            "OrientationInterpolationFilter": {
+              "OrientationFilterType": "EOrientationFilterType::Lerp"
+            },
+            "OrientationInterpolationSpeed": 5.0,
+            "MaxRotationSpeedDegPerSec": 1440.0,
+            "HasReachedTargetAcceptanceThreshold": 0.0001,
+            "PredictionResponsivenessUNorm": 1.0,
+            "ProjectileSpeedCmPerSec": 1000000.0,
+            "bDirectlyUpdatePartOrientations": true,
+            "bPreferLobbingProjectiles": false,
+            "bUsePartLocalUpForAim": false,
+            "bScaleChaseSpeedWithDistanceFromGoal": false,
+            "ChaseMinScaleDistance": 200.0,
+            "ChaseMaxScaleDistance": 5000.0,
+            "ChaseMaxSpeedMultiplier": 10.0,
+            "bUsePartRotationSpeedDamping": false,
+            "RotationSpeedDampingPartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+              "EditorCurveData": {
+                "Keys": [
+                  {
+                    "InterpMode": "RCIM_Linear",
+                    "TangentMode": "RCTM_Auto",
+                    "TangentWeightMode": "RCTWM_WeightedNone",
+                    "Time": 0.0,
+                    "Value": 1.0,
+                    "ArriveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangent": 0.0,
+                    "LeaveTangentWeight": 0.0
+                  }
+                ],
+                "DefaultValue": 3.4028235E+38,
+                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+              },
+              "ExternalCurve": null
+            }
+          }
+        }
+      ],
+      "DefaultPartTargetingConfig": {
+        "OrientationInterpolationFilter": {
+          "OrientationFilterType": "EOrientationFilterType::Instant"
+        },
+        "MaxRotationSpeedDegPerSec": 1440.0,
+        "ProjectileSpeedCmPerSec": 100000.0,
+        "PartDestroyedCountToRotationSpeedMultiplierCurve": {
+          "EditorCurveData": {}
+        }
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ConstructableVisualisiblePerceptionComponent",
+    "Name": "PerceptionService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableVisualisiblePerceptionComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ConstructableVisualisiblePerceptionComponent'Default__C_Pop_SharedBase_C:PerceptionService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.10"
+    },
+    "Properties": {
+      "ServiceConfig": {
+        "ObjectName": "ConstructablePerceptionServiceConfig'DA_RollBot_Pop_Perception'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_RollBot_Pop_Perception.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "DebrisService",
+    "Name": "DebrisService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "DebrisService'Default__C_Pop_SharedBase_C:DebrisService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.11"
+    },
+    "Properties": {
+      "LootType": {
+        "TagName": "Loot.Enemy.Pop"
+      },
+      "ScavengeableDebrisConfiguration": {
+        "ObjectName": "PartScavengeSetup'DA_RollBot_Pop_PartScavenge'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/DataAssets/DA_RollBot_Pop_PartScavenge.0"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "GroundPhysicsMovementComponent",
+    "Name": "GroundPhysicsMovementComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'GroundPhysicsMovementComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
+    },
+    "Template": {
+      "ObjectName": "GroundPhysicsMovementComponent'C_Pop_SharedBase_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.12"
+    },
+    "Properties": {
+      "NetStateClass": {
+        "ObjectName": "Class'SurfaceTrackNetState'",
+        "ObjectPath": "/Script/Angelscript"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthGroupService",
+    "Name": "HealthGroupService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthGroupService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "HealthGroupService'Default__C_Pop_SharedBase_C:HealthGroupService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.13"
+    },
+    "Properties": {
+      "BaseGroup": {
+        "RequiredTags": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Rollbot.Root"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "Root Part",
+          "AutoDescription": " ANY( Part.Decorator.ID.Rollbot.Root )"
+        }
+      },
+      "SubGroups": [
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 1000.0,
+          "DestructionMaxLevel": 0.5,
+          "RadialForce": 0.0,
+          "RadialForceRadius": 0.0,
+          "AdditionalGameplayEffects": []
+        },
+        {
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Weapon"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Weapon )"
+          },
+          "ParentGroupTag": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "DestructionDamage": 3000.0,
+          "DestructionMaxLevel": 1.0,
+          "RadialForce": 0.0,
+          "RadialForceRadius": 0.0,
+          "AdditionalGameplayEffects": []
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "HealthService",
+    "Name": "HealthService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HealthService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "HealthService'Default__C_Pop_SharedBase_C:HealthService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.14"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StuckDetectionService'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StuckDetectionService'C_RollBot_Pop_C:StuckDetectionService_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.31"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_Pop_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.1"
+            },
+            "SCSVariableName": "StuckDetectionService",
+            "AssociatedGuid": "DB82C1A5-43E0D87E-3DFCC397-95206DCA"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'GroundPhysicsMovementComponent'",
+            "ObjectPath": "/Script/Angelscript"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "GroundPhysicsMovementComponent'C_RollBot_Pop_C:GroundPhysicsMovementComponent_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.14"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'C_Pop_SharedBase_C'",
+              "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.1"
+            },
+            "SCSVariableName": "GroundPhysicsMovementComponent",
+            "AssociatedGuid": "AB3CBBAA-4DE91C85-11429A8C-FCAB0590"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "InputComponent",
+    "Name": "ScriptInputComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InputComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "InputComponent'Default__C_Pop_SharedBase_C:ScriptInputComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.16"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableAIStateService",
+    "Name": "AIStateService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableAIStateService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableAIStateService'Default__C_Pop_SharedBase_C:AIStateService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.17"
+    },
+    "Properties": {
+      "SightRangeStrengthScale": 0.85
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableCapabilityService",
+    "Name": "CapabilityService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableCapabilityService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableCapabilityService'Default__C_Pop_SharedBase_C:CapabilityService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.18"
+    },
+    "Properties": {
+      "CapabilityDefinitions": [
+        {
+          "Groups": [
+            "Part.Capability.Explode"
+          ],
+          "RequiredTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Frame"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Frame )"
+          },
+          "GrantedAbilityType": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Pop_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/Capabilities/GA_Pop_SelfDestruct.0"
+          },
+          "StateMachine": {
+            "ObjectName": "SMBlueprintGeneratedClass'CSM_Pop_SelfDestruct_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/Capabilities/CSM_Pop_SelfDestruct.7"
+          },
+          "RequiredIntactnessUNorm": 1.0,
+          "bRequireTargetToStart": true,
+          "OptionalName": "Explode",
+          "UtilityField": "None",
+          "TargetFilterAsset": null,
+          "TargetFilter": {
+            "bUseMostRelevantAITarget": true,
+            "bTargetEnemies": true,
+            "TargetingType": "EAITargetFilterTargetType::SingleTarget",
+            "ClusterSelection": "EAITargetFilterClusterSelection::ClusteredWithMostMembers",
+            "ClusteringMaxDistance": 1000.0,
+            "ClusterMinimumMembers": 1,
+            "Validations": [],
+            "Rejection": [],
+            "CustomSort": []
+          },
+          "bCreatePerMatchingPart": false,
+          "TargetSwitchMode": "ECapabilityTargetSwitchMode::AlwaysSwitchNeverCancel",
+          "NoSightTargetLocationMode": "EPerceivedTargetLocationMode::LastKnownLocation",
+          "PreparingGameplayTags": [],
+          "CoolingDownGameplayTags": [],
+          "BlockingTags": [],
+          "bDoNotRemoveCoolingDownTag": false,
+          "bStunnable": true
+        }
+      ]
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerConstructableTimerService",
+    "Name": "TimerService",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerConstructableTimerService'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerConstructableTimerService'Default__C_Pop_SharedBase_C:TimerService'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.21"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "PioneerPingInfoComponent",
+    "Name": "PioneerPingInfoComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PioneerPingInfoComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "PioneerPingInfoComponent'Default__C_Pop_SharedBase_C:PioneerPingInfoComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.22"
+    },
+    "Properties": {
+      "PingInfoDataAsset": {
+        "ObjectName": "PingInfoDataAsset'DA_PingInfo_Pop'",
+        "ObjectPath": "/Game/Pioneer/Core/Gameplay/Ping/DA_PingInfo_Pop.0"
+      },
+      "bResetPositionOnTick": false,
+      "bSkipPingAttachment": false
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "ReplicationSettingsComponent",
+    "Name": "ReplicationSettings",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ReplicationSettingsComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "ReplicationSettingsComponent'Default__C_Pop_SharedBase_C:ReplicationSettings'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.24"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Pop_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'C_RollBot_Pop_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.24"
+      },
+      "VariableGUID": "B41B5A80-440E6FC2-75E0AB97-059BE53E",
+      "InternalVariableName": "DefaultSceneRoot"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Pop_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ConstructableAnimationService'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ConstructableAnimationService'C_RollBot_Pop_C:ConstructableAnimationService_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.6"
+      },
+      "VariableGUID": "BFAA4ADC-4411A057-33DD09B3-C754AC6B",
+      "InternalVariableName": "ConstructableAnimationService"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'C_RollBot_Pop_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AITargetComponent'",
+        "ObjectPath": "/Script/EmbarkAI"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AITargetComponent'C_RollBot_Pop_C:AITarget_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.1"
+      },
+      "ParentComponentOrVariableName": "Style",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "34EC5275-4B23087E-D4AFC08C-B2766028",
+      "InternalVariableName": "AITarget"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Pop_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.26"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Pop_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.27"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Pop_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.26"
+        },
+        {
+          "ObjectName": "SCS_Node'C_RollBot_Pop_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.27"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'C_RollBot_Pop_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.25"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "SpawnSizeComponent",
+    "Name": "SpawnSizeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpawnSizeComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "SpawnSizeComponent'Default__C_Pop_SharedBase_C:SpawnSizeComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.35"
+    },
+    "Properties": {
+      "StyleAssemblyClass": {
+        "ObjectName": "BlueprintGeneratedClass'CS_Pop_SK_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/CS_Pop_SK.2"
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StateInterpolatorComponent",
+    "Name": "StateInterpolatorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StateInterpolatorComponent'",
+    "Outer": {
+      "ObjectName": "C_RollBot_Pop_C'Default__C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.3"
+    },
+    "Template": {
+      "ObjectName": "StateInterpolatorComponent'Default__C_Pop_SharedBase_C:StateInterpolatorComponent'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.36"
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  },
+  {
+    "Type": "StuckDetectionService",
+    "Name": "StuckDetectionService_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StuckDetectionService'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'C_RollBot_Pop_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.2"
+    },
+    "Template": {
+      "ObjectName": "StuckDetectionService'C_Pop_SharedBase_C:StuckDetectionService_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/C_Pop_SharedBase.37"
+    },
+    "Properties": {
+      "DestroyedPartsToMinDistanceMultiplier": {
+        "EditorCurveData": {}
+      }
+    },
+    "ExtractionWarning": "Partial property decoding: this package failed strict parsing with the available mappings."
+  }
+]

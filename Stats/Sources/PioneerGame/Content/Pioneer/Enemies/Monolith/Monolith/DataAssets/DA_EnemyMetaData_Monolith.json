@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "UIEnemyMetaDataItem",
+    "Name": "UIEnemyMetaDataItem_40",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIEnemyMetaDataItem'",
+    "Outer": {
+      "ObjectName": "UIMetaDataAsset'DA_EnemyMetaData_Monolith'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_EnemyMetaData_Monolith.1"
+    },
+    "Properties": {
+      "PersistenceDataAsset": {
+        "ObjectName": "PersistenceDataAsset'DA_Persistence_Enemy_Monolith'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_Persistence_Enemy_Monolith.0"
+      },
+      "EnemyIcon": {
+        "ObjectName": "Texture2D'T_UI_Ping_Enemy_Monolith'",
+        "ObjectPath": "/Game/Pioneer/UI/Assets/Enemies/T_UI_Ping_Enemy_Monolith.0"
+      },
+      "EnemyImage": {
+        "AssetPathName": "/Game/Pioneer/UI/Assets/Images/ARC/T_UI_ARC_Monolith.T_UI_ARC_Monolith",
+        "SubPathString": ""
+      },
+      "EnemyName": {
+        "TableId": "/Game/Pioneer/UI/Localization/ST_Enemy.ST_Enemy",
+        "Key": "ID_ENEMY_MONOLITH_NAME",
+        "SourceString": "ARC Turbine",
+        "LocalizedString": "ARC Turbine"
+      }
+    }
+  },
+  {
+    "Type": "UIMetaDataAsset",
+    "Name": "DA_EnemyMetaData_Monolith",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UIMetaDataAsset'",
+    "Package": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_EnemyMetaData_Monolith",
+    "Properties": {
+      "Items": [
+        {
+          "ObjectName": "UIEnemyMetaDataItem'DA_EnemyMetaData_Monolith:UIEnemyMetaDataItem_40'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Monolith/Monolith/DataAssets/DA_EnemyMetaData_Monolith.0"
+        }
+      ]
+    }
+  }
+]

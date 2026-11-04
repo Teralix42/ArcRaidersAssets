@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WeaponQualitySet_BattleRifle_EnergyBurst_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/BP_WeaponQualitySet_BattleRifle_EnergyBurst_01",
+    "SuperStruct": {
+      "ObjectName": "Class'WeaponQualitySet'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Weapon Quality",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WeaponQualitySet_BattleRifle_EnergyBurst_01_C'Default__BP_WeaponQualitySet_BattleRifle_EnergyBurst_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/BP_WeaponQualitySet_BattleRifle_EnergyBurst_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WeaponQualitySet_BattleRifle_EnergyBurst_01_C",
+    "Name": "Default__BP_WeaponQualitySet_BattleRifle_EnergyBurst_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/BP_WeaponQualitySet_BattleRifle_EnergyBurst_01.BP_WeaponQualitySet_BattleRifle_EnergyBurst_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/BattleRifle_EnergyBurst_01/BP_WeaponQualitySet_BattleRifle_EnergyBurst_01",
+    "Properties": {
+      "Weapon Quality": 3
+    }
+  }
+]

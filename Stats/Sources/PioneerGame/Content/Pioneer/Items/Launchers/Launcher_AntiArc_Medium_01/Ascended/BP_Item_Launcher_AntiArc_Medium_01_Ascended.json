@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_Launcher_AntiArc_Medium_01_Ascended_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/BP_Item_Launcher_AntiArc_Medium_01_Ascended",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_Launcher_AntiArc_Medium_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Item_Launcher_AntiArc_Medium_01.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_Launcher_AntiArc_Medium_01_Ascended_C'Default__BP_Item_Launcher_AntiArc_Medium_01_Ascended_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/BP_Item_Launcher_AntiArc_Medium_01_Ascended.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_Launcher_AntiArc_Medium_01_Ascended_C",
+    "Name": "Default__BP_Item_Launcher_AntiArc_Medium_01_Ascended_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/BP_Item_Launcher_AntiArc_Medium_01_Ascended.BP_Item_Launcher_AntiArc_Medium_01_Ascended_C'",
+    "Package": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/BP_Item_Launcher_AntiArc_Medium_01_Ascended",
+    "Template": {
+      "ObjectName": "BP_Item_Launcher_AntiArc_Medium_01_C'Default__BP_Item_Launcher_AntiArc_Medium_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/BP_Item_Launcher_AntiArc_Medium_01.1"
+    },
+    "Properties": {
+      "PartialReloadDuration": 5.0,
+      "PartialReloadSteps": [
+        {
+          "EntryTime": -0.1,
+          "PartialTime": 0.85,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": -0.3,
+          "PartialTime": 2.5,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": -1
+        },
+        {
+          "EntryTime": -0.2,
+          "PartialTime": 3.3,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": -0.3,
+          "PartialTime": 4.3,
+          "bResizes": false,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        },
+        {
+          "EntryTime": 0.15,
+          "PartialTime": 4.55,
+          "bResizes": true,
+          "ResizeWeight": 1.0,
+          "VisualSetupIndex": 0
+        }
+      ],
+      "PartialReloadVisualSetup": [
+        {
+          "VisualActions": [
+            {
+              "Name": "weapon_mag",
+              "Type": "EFPartialReloadVisualStepActionType::Hide",
+              "Value": 100.0
+            }
+          ]
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_Launcher_AntiArc_Medium_01_Ascended'",
+        "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/DA_Item_Launcher_AntiArc_Medium_01_Ascended.0"
+      },
+      "AppliedItemUpgrades": [
+        {
+          "ObjectName": "ItemUpgradeNodeData'DA_Upgrade_Launcher_AntiArc_Medium_01_Ascended'",
+          "ObjectPath": "/Game/Pioneer/Items/Launchers/Launcher_AntiArc_Medium_01/Ascended/Upgrades/DA_Upgrade_Launcher_AntiArc_Medium_01_Ascended.0"
+        }
+      ]
+    }
+  }
+]

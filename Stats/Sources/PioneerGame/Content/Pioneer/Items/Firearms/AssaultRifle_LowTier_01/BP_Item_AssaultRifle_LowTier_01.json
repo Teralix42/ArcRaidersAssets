@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Item_AssaultRifle_LowTier_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_Item_AssaultRifle_LowTier_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Item_AssaultRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base.0"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Item_AssaultRifle_LowTier_01_C'Default__BP_Item_AssaultRifle_LowTier_01_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_Item_AssaultRifle_LowTier_01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Item_AssaultRifle_LowTier_01_C",
+    "Name": "Default__BP_Item_AssaultRifle_LowTier_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_Item_AssaultRifle_LowTier_01.BP_Item_AssaultRifle_LowTier_01_C'",
+    "Package": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_Item_AssaultRifle_LowTier_01",
+    "Template": {
+      "ObjectName": "BP_Item_AssaultRifle_Base_C'Default__BP_Item_AssaultRifle_Base_C'",
+      "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base.1"
+    },
+    "Properties": {
+      "CriticalDamageMultiplier": 2.0,
+      "GamepadTriggerDepth": 0.4,
+      "BasePhysicalDamage": 9.0,
+      "BaseClipSize": 16.0,
+      "BaseFireRate": 500.0,
+      "BaseBurnRate": 0.001945,
+      "ProjectileOverride": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Projectile_AssaultRifle_LowTier_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_Projectile_AssaultRifle_LowTier_01.0"
+      },
+      "bLoopingReloads": true,
+      "LoopingReloadEntryTime": 0.8,
+      "LoopingReloadExitTime": 0.2,
+      "LoopingReloadBaseAmount": 2,
+      "RecoilProfile": {
+        "ObjectName": "RecoilProfileDataAsset'DA_RecoilProfile_AssaultRifle_LowTier_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/DA_RecoilProfile_AssaultRifle_LowTier_01.0"
+      },
+      "DispersionProfile": {
+        "ObjectName": "DispersionStateDataAsset'DA_DispersionState_AssaultRifle_LowTier_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/DA_DispersionState_AssaultRifle_LowTier_01.0"
+      },
+      "DamageFalloff": {
+        "ObjectName": "CurveFloat'Curve_DamageFalloff_AssaultRifle_LowTier_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/Curve_DamageFalloff_AssaultRifle_LowTier_01.0"
+      },
+      "FixedWeaponQuailitySet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WeaponQualitySet_AssaultRifle_LowTier_01_C'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/BP_WeaponQualitySet_AssaultRifle_LowTier_01.0"
+      },
+      "BaseVisualStats": {
+        "Damage": 9.0,
+        "FireRate": 33.333,
+        "Range": 56.061,
+        "Stability": 78.166,
+        "Agility": 54.183,
+        "Stealth": 14.0
+      },
+      "ModSlots": [
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Muzzle'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Muzzle.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_UnderBarrel'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_UnderBarrel.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        },
+        {
+          "ModSlotAsset": {
+            "ObjectName": "ModSlotAsset'DA_ModSlot_Firearm_Stock'",
+            "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/ModSlots/DA_ModSlot_Firearm_Stock.0"
+          },
+          "DefaultVisual": null,
+          "UnlocksAtQuality": 0
+        }
+      ],
+      "ItemDataAsset": {
+        "ObjectName": "ItemDataAsset'DA_Item_AssaultRifle_LowTier_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/AssaultRifle_LowTier_01/DA_Item_AssaultRifle_LowTier_01.0"
+      },
+      "BaseCameraZoomTime": 0.6
+    }
+  }
+]

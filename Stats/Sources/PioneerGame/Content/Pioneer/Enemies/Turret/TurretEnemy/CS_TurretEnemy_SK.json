@@ -1,0 +1,1527 @@
+[
+  {
+    "Type": "AIScannerStyleDriver",
+    "Name": "AIScannerStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIScannerStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "EffectDataAsset": {
+        "ObjectName": "EffectDataAsset'DA_VisionCone_Turret'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/VisionCone/DA_VisionCone_Turret.0"
+      },
+      "ActiveAlertnessStates": 3,
+      "PartQuery": {
+        "TagDictionary": [
+          {
+            "TagName": "Part.Decorator.ID.Eye"
+          }
+        ],
+        "QueryTokenStream": [
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "AutoDescription": " ALL( Part.Decorator.ID.Eye )"
+      },
+      "bUseLineTrace": false,
+      "TargetAngle": 19.0
+    }
+  },
+  {
+    "Type": "AIStateStyleDriver",
+    "Name": "AIStateStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AIStateStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "AlertnessStateSettings": [
+        {
+          "Key": "EAIAlertness::Idle",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'TurretSmall_IntoIdle'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/TurretSmall/TurretSmall_IntoIdle.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'TurretSmall_IdleRepeat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/TurretSmall/TurretSmall_IdleRepeat.0"
+            },
+            "StateOscillationFrequency": 4.5,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 0.5,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::Alert",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'TurretSmall_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/TurretSmall/TurretSmall_Alerted.0"
+            },
+            "RepeatingAlertnessStateSound": {
+              "ObjectName": "SoundCue'TurretSmall_Alerted'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/TurretSmall/TurretSmall_Alerted.0"
+            },
+            "StateOscillationFrequency": 4.0,
+            "bOscillateLightInState": true,
+            "StateLightFactor": 4.0,
+            "LightOscillationRange": {
+              "X": 0.1,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        },
+        {
+          "Key": "EAIAlertness::InCombat",
+          "Value": {
+            "OnEnterAlertnessStateSound": {
+              "ObjectName": "SoundCue'TurretSmall_IntoCombat'",
+              "ObjectPath": "/Game/Pioneer/Audio/Drones/TurretSmall/TurretSmall_IntoCombat.0"
+            },
+            "RepeatingAlertnessStateSound": null,
+            "StateOscillationFrequency": 1.0,
+            "bOscillateLightInState": false,
+            "StateLightFactor": 1.0,
+            "LightOscillationRange": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "OnEnterStateEffect": null,
+            "OnEnterStateEffectAttachPartTag": {
+              "TagName": "None"
+            },
+            "AdditionalStateEffects": []
+          }
+        }
+      ],
+      "LightIntensity": 2.0,
+      "bLightOnlyAtNight": false
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_TurretEnemy_SK_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ConstructableStyleAssembly'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "HideDecalIfOnSurfaceStyleDriver_Metal",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'HideDecalIfOnSurfaceStyleDriver_Metal'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMeshStyle_SM_Turret_01_GroundPlanes_A",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshStyleComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshStyleComponent'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PartStunStyleDriver_Default",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CapabilityStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapabilityStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIStateStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIStateStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIScannerStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIScannerStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MovingPartAudioStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MovingPartAudioStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DamageStyleDriver_Small",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DebrisStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DebrisStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LaserFlareStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LaserFlareStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MuzzleStyleDriver",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MuzzleStyleDriver'",
+          "ObjectPath": "/Script/Angelscript"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_TurretEnemy_SK_C'Default__CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageStyleDriver_Small_C",
+    "Name": "BP_DamageStyleDriver_Small_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.BP_DamageStyleDriver_Small_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Template": {
+      "ObjectName": "BP_DamageStyleDriver_Small_C'Default__BP_DamageStyleDriver_Small_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.1"
+    },
+    "Properties": {
+      "DestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_LightDrone'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_LightDrone.0"
+      },
+      "DestroyedEffectRadius": 0.0,
+      "DefaultPartDestroyedEffect": {
+        "ObjectName": "EffectDataAsset'DA_PartDestruction_XS'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Parts/DA_PartDestruction_XS.0"
+      },
+      "PartDestroyedEffectRadius": 0.0,
+      "LoopingPartDestroyedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Thruster.Shell"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedFire_XS'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedFire_XS.0"
+          }
+        }
+      ],
+      "PartOverrideDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ResistanceGroup.WeakPoint"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_CoreDamage'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ResistanceGroup.Critical"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_CoreDamage'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_CoreDamage.0"
+          }
+        }
+      ],
+      "LoopingPartDamagedEffects": [
+        {
+          "Key": {
+            "TagName": "Part.Decorator.ID.Frame"
+          },
+          "Value": {
+            "ObjectName": "EffectDataAsset'DA_DamagedSmoke_XS'",
+            "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Damage/DA_DamagedSmoke_XS.0"
+          }
+        }
+      ],
+      "LoopingPartDamagedEffectRange": {
+        "X": 0.4,
+        "Y": 0.9
+      }
+    }
+  },
+  {
+    "Type": "BP_PartStatusEffectStyleDriver_Default_C",
+    "Name": "BP_PartStunStyleDriver_Default_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.BP_PartStatusEffectStyleDriver_Default_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Template": {
+      "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'Default__BP_PartStatusEffectStyleDriver_Default_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.1"
+    }
+  },
+  {
+    "Type": "CapabilityStyleDriver",
+    "Name": "CapabilityStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapabilityStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "CapabilityEffects": [
+        {
+          "AbilityTags": [
+            "Ability.FireWeapon.Projectile.Bullet.Light"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_TurretSmall_CommitFire'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/Capabilities/DA_TurretSmall_CommitFire.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [
+            {
+              "Key": "ECapabilityState::Preparing",
+              "Value": {
+                "TagName": "DialogueIntent.Targeted"
+              }
+            }
+          ],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        },
+        {
+          "AbilityTags": [
+            "Ability.Explode"
+          ],
+          "StateEffectMap": [
+            {
+              "Key": "ECapabilityState::Active",
+              "Value": {
+                "Effect": {
+                  "ObjectName": "EffectDataAsset'DA_Explosion_Constructable_Small'",
+                  "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Explosions/DA_Explosion_Constructable_Small.0"
+                },
+                "bPlayForEachPart": false,
+                "bPlayForMultipleSubsequentSameState": false,
+                "bStopIfEffectStateChanges": false,
+                "bStopExplicitState": false,
+                "StopExplicitState": "ECapabilityState::Idle",
+                "bAttachToPart": false,
+                "AttachSocketName": "None"
+              }
+            }
+          ],
+          "ResultEffectMap": [],
+          "DialogueStateMap": [],
+          "DialogueResultMap": [],
+          "AnimationMap": [],
+          "MaterialParameters": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConstructableStyleProxyCollectionComponent",
+    "Name": "ProxyCollection",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ConstructableStyleProxyCollectionComponent'",
+    "Outer": {
+      "ObjectName": "CS_TurretEnemy_SK_C'Default__CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.7"
+    }
+  },
+  {
+    "Type": "CS_TurretEnemy_SK_C",
+    "Name": "Default__CS_TurretEnemy_SK_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.CS_TurretEnemy_SK_C'",
+    "Package": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK",
+    "Properties": {
+      "AutoAcquiredExtent": {
+        "Min": {
+          "X": -146.544,
+          "Y": -127.43681,
+          "Z": -19.998755
+        },
+        "Max": {
+          "X": 126.67706,
+          "Y": 113.650406,
+          "Z": 107.04002
+        },
+        "IsValid": 1
+      },
+      "ProxyCollectionComponent": {
+        "ObjectName": "ConstructableStyleProxyCollectionComponent'Default__CS_TurretEnemy_SK_C:ProxyCollection'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.6"
+      }
+    }
+  },
+  {
+    "Type": "DebrisStyleDriver",
+    "Name": "DebrisStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DebrisStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "DefaultContinuousScavengeableFX": {
+        "ObjectName": "EffectDataAsset'DA_EnemyDebrisSmoke_M'",
+        "ObjectPath": "/Game/Pioneer/Effects/DataAssets/Enemies/DA_EnemyDebrisSmoke_M.0"
+      }
+    }
+  },
+  {
+    "Type": "HideDecalIfOnSurfaceStyleDriver_Metal",
+    "Name": "HideDecalIfOnSurfaceStyleDriver_Metal_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HideDecalIfOnSurfaceStyleDriver_Metal'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "InvisibleMaterial": {
+        "ObjectName": "Material'M_Invisible'",
+        "ObjectPath": "/Game/Pioneer/MaterialLibrary/Effects/M_Invisible.0"
+      }
+    }
+  },
+  {
+    "Type": "LaserFlareStyleDriver",
+    "Name": "LaserFlareStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "LaserObjects": [
+        {
+          "ObjectName": "TargetingLaserObject'CS_TurretEnemy_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LaserFlareTargeting_AIDispersion",
+    "Name": "LaserFlareTargeting_AIDispersion_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'LaserFlareTargeting_AIDispersion'",
+    "Outer": {
+      "ObjectName": "TargetingLaserObject'CS_TurretEnemy_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.31"
+    },
+    "Properties": {
+      "ForwardPartList": [
+        {
+          "PartID": 2,
+          "PartDisplayName": "Arm_01"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MovingPartAudioStyleDriver",
+    "Name": "MovingPartAudioStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovingPartAudioStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "PartEffects": [
+        {
+          "RequiredPartTags": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Part.Decorator.ID.Turret"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+          },
+          "bIsConstraint": false,
+          "bTrackLinearState": false,
+          "bCalculateLinearAcceleration": false,
+          "bTrackAngularState": true,
+          "bCalculateAngularAcceleration": false,
+          "Sound": {
+            "ObjectName": "SoundCue'TurretEmplacement_Movement'",
+            "ObjectPath": "/Game/Pioneer/Audio/Gadgets/TurretEmplacement/TurretEmplacement_Movement.0"
+          },
+          "LinearSpeedInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          },
+          "AngularSpeedInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          },
+          "LinearAccelerationInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          },
+          "AngularAccelerationInterpolationAttackReleaseTime": {
+            "X": 0.3,
+            "Y": 0.3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MuzzleStyleDriver",
+    "Name": "MuzzleStyleDriver_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MuzzleStyleDriver'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "EffectDefinitions": [
+        {
+          "Parts": [
+            {
+              "AssosiatedCapabilityParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.ID.Turret"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": null
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "Arm_01",
+                    "PartID": 2,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationParts": {
+                "PartQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Part.Decorator.Muzzle"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL( Part.Decorator.Muzzle )"
+                },
+                "PropertyOuterContainer": {
+                  "PropertyActorClass": {
+                    "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+                    "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+                  }
+                },
+                "PartList": [
+                  {
+                    "SocketSelection": {
+                      "SocketName": "None"
+                    },
+                    "StyleProxy": {
+                      "Proxy": {
+                        "RelativeTransform": {
+                          "Rotation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0,
+                            "W": 1.0,
+                            "IsNormalized": true,
+                            "Size": 1.0,
+                            "SizeSquared": 1.0
+                          },
+                          "Translation": {
+                            "X": 0.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                          },
+                          "Scale3D": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 1.0
+                          }
+                        },
+                        "ComponentName": "None",
+                        "ComponentDisplayName": "None",
+                        "PropertyOuter": {
+                          "PropertyActorClass": null
+                        }
+                      },
+                      "PartID": -1,
+                      "AttachName": "None"
+                    },
+                    "PartName": "MuzzleProxy",
+                    "PartID": 4,
+                    "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+                  }
+                ]
+              },
+              "EffectLocationSocketName": "None"
+            }
+          ],
+          "NiagaraSystemSettings": {
+            "NiagaraSystem": {
+              "AssetPathName": "/Game/Pioneer/Effects/Systems/Weapons/Muzzleflashes/Generic/NS_Muzzleflash_Drone_Turret.NS_Muzzleflash_Drone_Turret",
+              "SubPathString": ""
+            },
+            "bCastShadow": false,
+            "bCanBePredicted": true,
+            "NiagaraDataChannelAsset": null
+          }
+        }
+      ],
+      "MuzzleAudioDefinitions": [
+        {
+          "StylePartList": {
+            "PartQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [
+                {
+                  "TagName": "Part.Decorator.ID.Turret"
+                }
+              ],
+              "QueryTokenStream": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "UserDescription": "",
+              "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+            },
+            "PropertyOuterContainer": {
+              "PropertyActorClass": {
+                "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+                "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+              }
+            },
+            "PartList": [
+              {
+                "SocketSelection": {
+                  "SocketName": "None"
+                },
+                "StyleProxy": {
+                  "Proxy": {
+                    "RelativeTransform": {
+                      "Rotation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0,
+                        "W": 1.0,
+                        "IsNormalized": true,
+                        "Size": 1.0,
+                        "SizeSquared": 1.0
+                      },
+                      "Translation": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                      },
+                      "Scale3D": {
+                        "X": 1.0,
+                        "Y": 1.0,
+                        "Z": 1.0
+                      }
+                    },
+                    "ComponentName": "None",
+                    "ComponentDisplayName": "None",
+                    "PropertyOuter": {
+                      "PropertyActorClass": null
+                    }
+                  },
+                  "PartID": -1,
+                  "AttachName": "None"
+                },
+                "PartName": "Arm_01",
+                "PartID": 2,
+                "TransformType": "EConstructablePartTransformSelectionType::PartPivot"
+              }
+            ]
+          },
+          "WeaponAudioClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_WeaponAudio_ARC_Turret_Small_C'",
+            "ObjectPath": "/Game/Pioneer/Audio/Weapons/WeaponSynthAssets/WeaponAudioComponents/ARC/BP_WeaponAudio_ARC_Turret_Small.0"
+          },
+          "bSharedLoopAcrossParts": false,
+          "SharedLoopLocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDriveIntensityFromFiringParts": false,
+          "IntensityParameterName": "FiringIntensity",
+          "bDriveFireRateFromFiringParts": false,
+          "FireRatePerExtraFiringPart": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'CS_TurretEnemy_SK_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.14"
+      },
+      "VariableGUID": "E254D663-4B888E7F-8B98FEA3-05C6895A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshStyleComponent'CS_TurretEnemy_SK_C:SkeletalMeshStyleComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.29"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.17"
+        }
+      ],
+      "VariableGUID": "38C8BEC6-4D27AF59-D28CDEB7-C60586B8",
+      "InternalVariableName": "SkeletalMeshStyleComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshStyleComponent'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshStyleComponent'CS_TurretEnemy_SK_C:StaticMeshStyle_SM_Turret_01_GroundPlanes_A_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.30"
+      },
+      "AttachToName": "Body_01",
+      "VariableGUID": "85CD0280-4CAD6EBF-521B2FB6-A1F6AEC2",
+      "InternalVariableName": "StaticMeshStyle_SM_Turret_01_GroundPlanes_A"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PartStatusEffectStyleDriver_Default_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/StunStyleDrivers/BP_PartStatusEffectStyleDriver_Default.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PartStatusEffectStyleDriver_Default_C'CS_TurretEnemy_SK_C:BP_PartStunStyleDriver_Default_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.4"
+      },
+      "VariableGUID": "DCA9FE23-4CE68A0C-403AE7AD-CED8BFD2",
+      "InternalVariableName": "BP_PartStunStyleDriver_Default"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'HideDecalIfOnSurfaceStyleDriver_Metal'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "HideDecalIfOnSurfaceStyleDriver_Metal'CS_TurretEnemy_SK_C:HideDecalIfOnSurfaceStyleDriver_Metal_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.9"
+      },
+      "VariableGUID": "A494548D-4AAAB07F-EDA4058C-63ECABBF",
+      "InternalVariableName": "HideDecalIfOnSurfaceStyleDriver_Metal"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MuzzleStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MuzzleStyleDriver'CS_TurretEnemy_SK_C:MuzzleStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.13"
+      },
+      "VariableGUID": "0FDDD2A8-4FE85F7E-E19CF894-AC395E24",
+      "InternalVariableName": "MuzzleStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LaserFlareStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LaserFlareStyleDriver'CS_TurretEnemy_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.10"
+      },
+      "VariableGUID": "CAE2D1EA-45DC1E24-D6ADE49D-296EDDA3",
+      "InternalVariableName": "LaserFlareStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DebrisStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DebrisStyleDriver'CS_TurretEnemy_SK_C:DebrisStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.8"
+      },
+      "VariableGUID": "106CFBB1-4D1FF6F7-3B3F8D90-73B6CC33",
+      "InternalVariableName": "DebrisStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageStyleDriver_Small_C'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/StyleDrivers/DamageStyleDrivers/BP_DamageStyleDriver_Small.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DamageStyleDriver_Small_C'CS_TurretEnemy_SK_C:BP_DamageStyleDriver_Small_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.3"
+      },
+      "VariableGUID": "A877E8C4-43D9730B-920485AE-8BE3F511",
+      "InternalVariableName": "BP_DamageStyleDriver_Small"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MovingPartAudioStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MovingPartAudioStyleDriver'CS_TurretEnemy_SK_C:MovingPartAudioStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.12"
+      },
+      "VariableGUID": "20879892-4196485A-AA06C5A3-902B7A70",
+      "InternalVariableName": "MovingPartAudioStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIScannerStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIScannerStyleDriver'CS_TurretEnemy_SK_C:AIScannerStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.0"
+      },
+      "VariableGUID": "4EF096AE-41ED9EFE-579F1CBC-49E2589B",
+      "InternalVariableName": "AIScannerStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIStateStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIStateStyleDriver'CS_TurretEnemy_SK_C:AIStateStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.1"
+      },
+      "VariableGUID": "0CFEF751-4BE131D6-1A5E34BA-0BBE2015",
+      "InternalVariableName": "AIStateStyleDriver"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'CS_TurretEnemy_SK_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.28"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapabilityStyleDriver'",
+        "ObjectPath": "/Script/Angelscript"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapabilityStyleDriver'CS_TurretEnemy_SK_C:CapabilityStyleDriver_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.5"
+      },
+      "VariableGUID": "6E70AA6E-4D906470-6488FB82-A77898D0",
+      "InternalVariableName": "CapabilityStyleDriver"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.19"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.20"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.21"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.22"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.23"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.24"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.25"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.26"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.27"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.18"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.16"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.17"
+        },
+        {
+          "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.19"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'CS_TurretEnemy_SK_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.15"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshStyleComponent",
+    "Name": "SkeletalMeshStyleComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "bApplyDebrisImpactForcesToBigParts": true,
+      "CSSC_File": {
+        "ObjectName": "ConstructableSkeletalMeshStyleTagConfig'CSSC_TurretEnemy'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CSSC_TurretEnemy.0"
+      },
+      "VirtualPartBones": [
+        "Laser",
+        "MuzzleProxy"
+      ],
+      "PartIDRange": {
+        "BasePartID": 0,
+        "NrIDs": 5
+      },
+      "PartIdToSurfacePoints": [
+        {
+          "Key": "0",
+          "Value": {
+            "Points": [
+              {
+                "X": -13.8958845,
+                "Y": 27.70412,
+                "Z": 11.324883
+              },
+              {
+                "X": -37.352215,
+                "Y": -55.23154,
+                "Z": 11.377577
+              },
+              {
+                "X": -1.9452342,
+                "Y": -11.951465,
+                "Z": -18.406956
+              },
+              {
+                "X": 33.588215,
+                "Y": -44.481144,
+                "Z": 11.357289
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "Points": [
+              {
+                "X": -16.631048,
+                "Y": -13.044873,
+                "Z": -2.0768583
+              },
+              {
+                "X": 12.179993,
+                "Y": -13.044845,
+                "Z": 57.811897
+              },
+              {
+                "X": -4.8191385,
+                "Y": 12.562356,
+                "Z": -2.0768588
+              },
+              {
+                "X": 36.445156,
+                "Y": -23.003706,
+                "Z": 8.853812
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "Points": [
+              {
+                "X": 22.801111,
+                "Y": 32.113533,
+                "Z": 21.63313
+              },
+              {
+                "X": -13.614688,
+                "Y": 34.677013,
+                "Z": -11.291233
+              },
+              {
+                "X": 67.71275,
+                "Y": 10.176059,
+                "Z": 0.6295804
+              },
+              {
+                "X": -14.047969,
+                "Y": 2.1247036,
+                "Z": -11.291235
+              }
+            ]
+          }
+        }
+      ],
+      "bAutoWeldKinematics": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Turret_01_Body_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/Art/SK/SK_Turret_01_Body_A.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Turret_01_Body_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/Art/SK/SK_Turret_01_Body_A.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel1",
+        "CollisionProfileName": "Minion",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "ContextualActionCandidate",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Climbable",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshStyleComponent",
+    "Name": "StaticMeshStyle_SM_Turret_01_GroundPlanes_A_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshStyleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+    },
+    "Properties": {
+      "DebrisTTL": 180.0,
+      "bSimulatePhysicsWhenTurnedIntoDebris": false,
+      "PartTags": [
+        "Part.Decorator.ID.GroundMounting"
+      ],
+      "PartIDRange": {
+        "BasePartID": 5,
+        "NrIDs": 1
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Turret_01_GroundPlanes_A'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/Art/SK/SM_Turret_01_GroundPlanes_A.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AIVisibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AudioOcclusion",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "AITraceProjectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerTraceProjectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -21.0
+      }
+    }
+  },
+  {
+    "Type": "TargetingLaserObject",
+    "Name": "TargetingLaserObject_0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetingLaserObject'",
+    "Outer": {
+      "ObjectName": "LaserFlareStyleDriver'CS_TurretEnemy_SK_C:LaserFlareStyleDriver_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.10"
+    },
+    "Properties": {
+      "LaserOriginLocation": {
+        "PartID": 3,
+        "PartDisplayName": "Laser"
+      },
+      "CapabilityPartList": {
+        "PartQuery": {
+          "TagDictionary": [
+            {
+              "TagName": "Part.Decorator.ID.Turret"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "AutoDescription": " ALL( Part.Decorator.ID.Turret )"
+        },
+        "PropertyOuterContainer": {
+          "PropertyActorClass": {
+            "ObjectName": "BlueprintGeneratedClass'CS_TurretEnemy_SK_C'",
+            "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.2"
+          }
+        },
+        "PartList": [
+          {
+            "Key": "2",
+            "Value": "Arm_01"
+          }
+        ]
+      },
+      "TargetingSystem": {
+        "ObjectName": "LaserFlareTargeting_AIDispersion'CS_TurretEnemy_SK_C:LaserFlareStyleDriver_GEN_VARIABLE.TargetingLaserObject_0.LaserFlareTargeting_AIDispersion_0'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Turret/TurretEnemy/CS_TurretEnemy_SK.11"
+      },
+      "Effect": {
+        "ObjectName": "EffectDataAsset'DA_Flare_TargetingLaser_Turret'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Shared/DA_Flare_TargetingLaser_Turret.0"
+      }
+    }
+  }
+]

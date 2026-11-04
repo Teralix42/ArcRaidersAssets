@@ -1,10 +1,10 @@
 # Weapons
 
-[Combat stats](../README.md) · [Shields](../Shields/) · [Mechanics](Mechanics.md) · [JSON](weapons.json)
+[Combat stats](../README.md) · [Shields](../Shields/) · [Mechanics](Mechanics.md)
 
 ### Damage against Raiders
 
-Body damage is the 1× reference per projectile at level I or in the unlevelled config, before falloff and shields. The headshot column shows the weapon’s critical multiplier. Launchers list their non-ARC impact damage.
+Body damage is the 1× reference per projectile at level I or in the unlevelled config, before falloff and shields. The headshot column shows the weapon’s critical multiplier. Launchers list their non-ARC impact damage. Dolabra’s value is its configured hit-normalized damage.
 
 | Weapon | Ammo | Body damage (1×) | Headshot × | RPM | Mag |
 | --- | --- | --- | --- | --- | --- |
@@ -35,16 +35,4 @@ Body damage is the 1× reference per projectile at level I or in the unlevelled 
 | [Venator](Venator.md) | Medium | 8 | 2 | 225 | 10 |
 | [Vulcano](Vulcano.md) | Shotgun | 5.5 | 1 | 126 | 6 |
 
-Click a weapon for all levels, Amplified configs, falloff and damage against ARC machines. ARC weak points use a separate multiplier. A dash marks a missing value. [ARC damage model](../ARC/Damage_Model.md)
-
-### Amplified headshot changes
-
-| Weapon | Amplified config | Headshot × |
-| --- | --- | --- |
-| [Anvil](Anvil.md) | Anvil Splitter | 1.5 |
-| [Anvil](Anvil.md) | X-Rounds | 2.25 |
-| [Burletta](Burletta.md) | Full-Auto, Full-Auto + Sprint Shooting | 1.5 |
-| [Hairpin](Hairpin.md) | Semi-Auto, Semi-Auto + Sprint Shooting | 2 |
-| [Kettle](Kettle.md) | Anti-Shield + Full-Auto, Full-Auto | 2 |
-
-Other Amplified configs keep the standard headshot multiplier.
+Each weapon page shows changes from Level I, individual Amplified upgrades, falloff, and damage against ARC machines. ARC weak points use a separate multiplier. A dash in this table marks a missing or inapplicable value. [ARC damage model](../ARC/Damage_Model.md)

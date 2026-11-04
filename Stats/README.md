@@ -2,11 +2,11 @@
 
 ### ARC machines
 
-Frame and part HP, armor, weak points, and damage resistance for 26 machines. Part tables include resistance groups and health rules. [ARC stats](ARC/)
+Frame and part HP, armor, weak points, and damage resistance for 26 machines. Machine pages include part health rules, resistance groups, outgoing damage where configured, and source files. [ARC stats](ARC/)
 
 ### Damage against Raiders
 
-- **[Weapons](Weapons/README.md#damage-against-raiders)** — Body damage, headshot multipliers, fire rate, and magazine size. Each weapon page has upgrade stats, Amplified configs, falloff curves, and damage against ARC.
+- **[Weapons](Weapons/README.md#damage-against-raiders)** — Body damage, headshot multipliers, fire rate, and magazine size. Each weapon page has level changes, Amplified upgrades, falloff curves, and damage against ARC.
 - **[Shields](Shields/)** — Shield strength, damage reduction, and run and sprint speed.
 
 ### Gadgets and consumables
@@ -17,4 +17,4 @@ Frame and part HP, armor, weak points, and damage resistance for 26 machines. Pa
 | Firefly Burner | Ignites on impact. The thrown burner has a 0.4 s ignition delay and a 3 s explosion timer. [Game config](Sources/PioneerGame/Content/Pioneer/Items/Throwable/FireflyPart_01/BP_WItem_Salvage_Hornetflamethrower_Part.json) |
 | Adrenaline Shot | Usable at full stamina. Effect stacks are capped at one. [Item](Sources/PioneerGame/Content/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/BP_Item_AdrenalinShot.json) · [Effect](Sources/PioneerGame/Content/Pioneer/Items/_GENERATED_/SimpleConsumable/AdrenalinShot/GE_AdrenalinShot.json) |
 
-Extracted game configs and recovered damage rules. [Game files](Sources/)
+The stats pages summarize the 2.4 Steam assets. [Extracted game files](Sources/PioneerGame/)

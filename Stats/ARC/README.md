@@ -1,6 +1,6 @@
 # ARC stats
 
-[Combat stats](../README.md) · [Stat renders](Renders/) · [Stats models](Models/) · [Damage model](Damage_Model.md) · [JSON](arc_parts.json)
+[Combat stats](../README.md) · [Stat renders](Renders/) · [Stats models](Models/) · [Damage model](Damage_Model.md)
 
 Frame and part HP, armor, weak points, and damage multipliers for 26 ARC machines. Each machine page includes the rules used to assign part HP. [Damage model](Damage_Model.md)
 

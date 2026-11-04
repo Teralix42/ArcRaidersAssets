@@ -1,10 +1,21 @@
 # Tick
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 10 HP. **Internal class:** `C_TickBot`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/DA_Balancing_C_TickBot.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/DA_EnemyType_Tick.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_TickBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/C_TickBot.json)
+- [DA_EnemyMetaData_TickBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/DA_EnemyMetaData_TickBot.json)
+- [CS_TickBot_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Tick.blend) · Native textures and inspector are packed into the file.
 
@@ -56,9 +67,18 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 No explicit WeakPoint/Critical resistance assignment was recovered for this profile. This does not imply invulnerability.
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Leg | Blunt | 5 |
+| ID.Frame | Blunt | 2 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -76,12 +96,12 @@ These records also include sockets, bones, and proxy components; they are not al
 | 5 | Group.Indestructible | 10000 |  |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/Tick/C_TickBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/C_TickBot.json)
-- [Content/Pioneer/Enemies/Tick/DA_Balancing_C_TickBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/DA_Balancing_C_TickBot.json)
-- [Content/Pioneer/Enemies/Tick/DA_EnemyMetaData_TickBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/DA_EnemyMetaData_TickBot.json)
-- [Content/Pioneer/Enemies/Tick/DA_EnemyType_Tick.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/DA_EnemyType_Tick.json)
-- [Content/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/TickBot/CS_TickBot_01.json)
+**Destruction groups**
+
+| Part query | Destruction damage | Max level | Game file |
+| --- | --- | --- | --- |
+| ANY(ID.Core) | 100 | 0 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/Tick/C_TickBot.json) |
 
 </details>

@@ -1,10 +1,21 @@
 # Rocketeer
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 1100 HP. **Internal class:** `C_HeavyDrone_Missile`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_Balancing_C_HeavyDrone_Missile.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyType_HeavyDroneMissile.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CSSC_HeavyDroneMissile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Art/SK/CSSC_HeavyDroneMissile.json)
+- [C_HeavyDrone_Missile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.json)
+- [DA_EnemyMetaData_HeavyDroneMissile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyMetaData_HeavyDroneMissile.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Rocketeer.blend) · Native textures and inspector are packed into the file.
 
@@ -70,9 +81,17 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | --- | --- | --- | --- |
 | Core_01 | 2600 | Critical | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Weapon.Missile | Explosive | 90 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -131,14 +150,3 @@ These records also include sockets, bones, and proxy components; they are not al
 | 5 | ID.Weapon.Missile | 2000 | HeavyDrone_01_Missile_Weapon_Body_01 |
 | 6 | ALL(Group.Indestructible, NONE(ID.Weapon.Missile)) | 2000 | HeavyDrone_01_Missile_Weapon_Arm_C_01, HeavyDrone_01_Missile_Weapon_Arm_L_01_A, HeavyDrone_01_Missile_Weapon_Launcher_L_01, HeavyDrone_01_Missile_Weapon_Arm_R_01_A, HeavyDrone_01_Missile_Weapon_Launcher_R_01 |
 | 7 | Group.Critical | 2600 | Core_01, Eye_01 |
-
-<details>
-<summary>Actual game source files</summary>
-
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Art/SK/CSSC_HeavyDroneMissile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/Art/SK/CSSC_HeavyDroneMissile.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/C_HeavyDrone_Missile.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_Balancing_C_HeavyDrone_Missile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_Balancing_C_HeavyDrone_Missile.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyMetaData_HeavyDroneMissile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyMetaData_HeavyDroneMissile.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyType_HeavyDroneMissile.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneMissile/DataAssets/DA_EnemyType_HeavyDroneMissile.json)
-
-</details>

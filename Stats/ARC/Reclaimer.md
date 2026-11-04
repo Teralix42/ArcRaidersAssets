@@ -1,10 +1,23 @@
 # ARC Reclaimer
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 830 HP. **Internal class:** `C_Courier`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/DataAssets/DA_Balancing_C_Courier.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/DataAssets/DA_EnemyType_Courier.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CSSC_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/Art/CSSC_Courier.json)
+- [CS_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/CS_Courier.json)
+- [C_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/C_Courier.json)
+- [GA_ShoveOffFrigate.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate.json)
+- [DA_EnemyMetaData_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/DataAssets/DA_EnemyMetaData_Courier.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Reclaimer.blend) · Native textures and inspector are packed into the file.
 
@@ -58,7 +71,7 @@ No explicit WeakPoint/Critical resistance assignment was recovered for this prof
 
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -82,14 +95,12 @@ These records also include sockets, bones, and proxy components; they are not al
 | 2 | ANY(ID.Armor.Heavy) | 10000 | Hatch_01 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/Courier/Art/CSSC_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/Art/CSSC_Courier.json)
-- [Content/Pioneer/Enemies/Courier/CS_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/CS_Courier.json)
-- [Content/Pioneer/Enemies/Courier/C_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/C_Courier.json)
-- [Content/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate.json)
-- [Content/Pioneer/Enemies/Courier/DataAssets/DA_Balancing_C_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/DataAssets/DA_Balancing_C_Courier.json)
-- [Content/Pioneer/Enemies/Courier/DataAssets/DA_EnemyMetaData_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/DataAssets/DA_EnemyMetaData_Courier.json)
-- [Content/Pioneer/Enemies/Courier/DataAssets/DA_EnemyType_Courier.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/DataAssets/DA_EnemyType_Courier.json)
+**Damage triggers**
+
+| Trigger part | Condition | Effect |
+| --- | --- | --- |
+| Main | Part break | [GA_ShoveOffFrigate_C](../Sources/PioneerGame/Content/Pioneer/Enemies/Courier/Capabilities/GA_ShoveOffFrigate.json) |
 
 </details>

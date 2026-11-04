@@ -1,10 +1,21 @@
 # Hydra
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 1050 HP. **Internal class:** `C_Kebab_Gatling`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_Balancing_C_Kebab_Gatling.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_EnemyType_Kebab_Gatling.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CSSC_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/Art/CSSC_Kebab_Gatling.json)
+- [C_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.json)
+- [DA_EnemyMetaData_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_EnemyMetaData_Kebab_Gatling.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Hydra.blend) · Native textures and inspector are packed into the file.
 
@@ -72,9 +83,17 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | Weakpoint_02 | 800 | WeakPoint | 1.5 |
 | Weakpoint_03 | 800 | WeakPoint | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Segment | Blunt | 1.5 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -119,12 +138,20 @@ These records also include sockets, bones, and proxy components; they are not al
 | 5 | ANY(ID.DummyRoot, Group.Indestructible) | 9999 | DummyFrame, CenterAxis_01, Head_01 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/Kebab/Gatling/Art/CSSC_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/Art/CSSC_Kebab_Gatling.json)
-- [Content/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/C_Kebab_Gatling.json)
-- [Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_Balancing_C_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_Balancing_C_Kebab_Gatling.json)
-- [Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_EnemyMetaData_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_EnemyMetaData_Kebab_Gatling.json)
-- [Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_EnemyType_Kebab_Gatling.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Kebab/Gatling/DataAssets/DA_EnemyType_Kebab_Gatling.json)
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| Turret_01, Turret_02, Turret_03 | 1% HP | Frame_01 |
+
+**Stun propagation**
+
+| Source part query | Destination part query |
+| --- | --- |
+| ID.Segment.Top | ID.Segment.Top |
+| ID.Segment.Middle | ID.Segment.Middle |
+| ID.Segment.Bottom | ID.Segment.Bottom |
 
 </details>

@@ -1,10 +1,21 @@
 # Pop
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 20 HP. **Internal class:** `C_RollBot_Pop`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_Balancing_C_RollBot_Pop.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyType_RollBot_Pop.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.json)
+- [CSSC_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/CSSC_RollBot_Pop.json)
+- [DA_EnemyMetaData_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyMetaData_RollBot_Pop.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Pop.blend) · Native textures and inspector are packed into the file.
 
@@ -60,7 +71,7 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -80,13 +91,18 @@ These records also include sockets, bones, and proxy components; they are not al
 | 3 | ANY(ID.Arm) | 20 |  |
 | 4 | ID.Head | 20 | Hull_01 |
 
-<details>
-<summary>Actual game source files</summary>
+### Self-destruct
 
-- [Content/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.json)
-- [Content/Pioneer/Enemies/Pop/Pop/DataAssets/CSSC_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/CSSC_RollBot_Pop.json)
-- [Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_Balancing_C_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_Balancing_C_RollBot_Pop.json)
-- [Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyMetaData_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyMetaData_RollBot_Pop.json)
-- [Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyType_RollBot_Pop.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/DataAssets/DA_EnemyType_RollBot_Pop.json)
+The shared explosion effect sets **60 explosive damage** before falloff within a **3 m** targeting radius. [Effect](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Shared/Capabilities/GE_SharedPopSelfDestruct_Damage.json) · [Targeting](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Shared/Capabilities/GETT_SharedPopSelfDestruct.json) · [Radial curve](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Shared/Capabilities/Curve_SharedPop_Damage.json)
+
+<details>
+<summary>Destruction and stun rules</summary>
+
+**Destruction groups**
+
+| Part query | Destruction damage | Max level | Game file |
+| --- | --- | --- | --- |
+| ID.Frame | 1000 | 0.5 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.json) |
+| ID.Weapon | 3000 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/Pop/Pop/C_RollBot_Pop.json) |
 
 </details>

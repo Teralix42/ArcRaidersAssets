@@ -2,12 +2,12 @@
 
 [Combat stats](../README.md) · [Damage against Raiders](../Weapons/README.md#damage-against-raiders)
 
-All three Raider shields cover the head, body, and legs. Run and sprint speed are shown as a percentage of normal speed.
+All three shields cover the head, body and legs and support mobile repair. Movement speeds are percentages of normal run and sprint speed.
 
-| Shield | Shield strength | Damage reduction | Run and sprint speed |
-| --- | --- | --- | --- |
-| Light Shield | 40 | 40% | 100% |
-| Medium Shield | 70 | 42.5% | 95% |
-| Heavy Shield | 90 | 52.5% | 90% |
+| Shield | Strength | Damage reduction | Run and sprint speed | Game files |
+| --- | --- | --- | --- | --- |
+| Light Shield | 40 | 40% | 100% | [Item](../Sources/PioneerGame/Content/Pioneer/Items/Armor/LightBody/BP_Item_Armor_LightBody.json) · [Movement](../Sources/PioneerGame/Content/Pioneer/Items/Armor/LightBody/BP_ArmorQualitySet_LightBody.json) |
+| Medium Shield | 70 | 42.5% | 95% | [Item](../Sources/PioneerGame/Content/Pioneer/Items/Armor/MediumBody/BP_Item_Armor_MediumBody.json) · [Movement](../Sources/PioneerGame/Content/Pioneer/Items/Armor/MediumBody/BP_ArmorQualitySet_MediumBody.json) |
+| Heavy Shield | 90 | 52.5% | 90% | [Item](../Sources/PioneerGame/Content/Pioneer/Items/Armor/HeavyBody/BP_Item_Armor_HeavyBody.json) · [Movement](../Sources/PioneerGame/Content/Pioneer/Items/Armor/HeavyBody/BP_ArmorQualitySet_HeavyBody.json) |
 
-[JSON](shields.json) · [Game files](../Sources/PioneerGame/Content/Pioneer/Items/Armor/)
+The Heavy Shield’s configured durability loss per armor damage is 0.15. [Heavy Shield item](../Sources/PioneerGame/Content/Pioneer/Items/Armor/HeavyBody/BP_Item_Armor_HeavyBody.json)

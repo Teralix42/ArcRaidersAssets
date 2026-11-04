@@ -1,10 +1,21 @@
 # Vaporizer
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 1500 HP. **Internal class:** `C_HeavyDrone_Laser`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_Balancing_C_HeavyDrone_Laser.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyType_HeavyDrone_Laser.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_HeavyDrone_Laser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/C_HeavyDrone_Laser.json)
+- [CSSC_HeavyDroneLaser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/CSSC_HeavyDroneLaser.json)
+- [DA_EnemyMetaData_HeavyDroneLaser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyMetaData_HeavyDroneLaser.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Vaporizer.blend) · Native textures and inspector are packed into the file.
 
@@ -70,9 +81,17 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | --- | --- | --- | --- |
 | Core | 1340 | Critical | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Weapon.Laser | Thermal | 2 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -154,12 +173,24 @@ These records also include sockets, bones, and proxy components; they are not al
 | 10 | Group.Critical | 1340 | Core, Eye |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/C_HeavyDrone_Laser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/C_HeavyDrone_Laser.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/CSSC_HeavyDroneLaser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/CSSC_HeavyDroneLaser.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_Balancing_C_HeavyDrone_Laser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_Balancing_C_HeavyDrone_Laser.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyMetaData_HeavyDroneLaser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyMetaData_HeavyDroneLaser.json)
-- [Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyType_HeavyDrone_Laser.json](../Sources/PioneerGame/Content/Pioneer/Enemies/HeavyDrone/HeavyDroneLaser/DataAssets/DA_EnemyType_HeavyDrone_Laser.json)
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| ThrusterPart_L_01, ThrusterPart_L_02 | 1% HP | ThrusterRoot_L_01 |
+| ThrusterPart_R_01, ThrusterPart_R_02 | 1% HP | ThrusterRoot_R_01 |
+| ThrusterPart_L_03, ThrusterPart_L_04 | 1% HP | ThrusterRoot_L_02 |
+| ThrusterPart_R_03, ThrusterPart_R_04 | 1% HP | ThrusterRoot_R_02 |
+
+**Stun propagation**
+
+| Source part query | Destination part query |
+| --- | --- |
+| ALL(Group.Relative.Front, Group.Relative.Left, Part.HealthGroup.Thruster) | ALL(Group.Relative.Front, Group.Relative.Left, ID.Thruster) |
+| ALL(Group.Relative.Front, Part.HealthGroup.Thruster, Group.Relative.Right) | ALL(Group.Relative.Front, ID.Thruster, Group.Relative.Right) |
+| ALL(Part.HealthGroup.Thruster, Group.Relative.Rear, Group.Relative.Left) | ALL(ID.Thruster, Group.Relative.Rear, Group.Relative.Left) |
+| ALL(Part.HealthGroup.Thruster, Group.Relative.Rear, Group.Relative.Right) | ALL(ID.Thruster, Group.Relative.Rear, Group.Relative.Right) |
 
 </details>

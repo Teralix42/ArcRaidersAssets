@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GETT_SharedPopSelfDestruct_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Pioneer/Enemies/Pop/Shared/Capabilities/GETT_SharedPopSelfDestruct",
+    "SuperStruct": {
+      "ObjectName": "Class'PioneerSphereTargetType'",
+      "ObjectPath": "/Script/Angelscript"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GETT_SharedPopSelfDestruct_C'Default__GETT_SharedPopSelfDestruct_C'",
+      "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/Capabilities/GETT_SharedPopSelfDestruct.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GETT_SharedPopSelfDestruct_C",
+    "Name": "Default__GETT_SharedPopSelfDestruct_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Pioneer/Enemies/Pop/Shared/Capabilities/GETT_SharedPopSelfDestruct.GETT_SharedPopSelfDestruct_C'",
+    "Package": "/Game/Pioneer/Enemies/Pop/Shared/Capabilities/GETT_SharedPopSelfDestruct",
+    "Properties": {
+      "Radius": 300.0,
+      "DamageFalloffCurve": {
+        "ObjectName": "CurveFloat'Curve_SharedPop_Damage'",
+        "ObjectPath": "/Game/Pioneer/Enemies/Pop/Shared/Capabilities/Curve_SharedPop_Damage.0"
+      }
+    }
+  }
+]

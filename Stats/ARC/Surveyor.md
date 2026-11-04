@@ -1,10 +1,21 @@
 # ARC Surveyor
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 257 HP. **Internal class:** `C_RollBot_01_Blockout_Normal`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_Balancing_C_RollBot_01_Blockout_Normal.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyType_RollBot.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_RollBot_01_Blockout_Normal.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.json)
+- [CSSC_Rollbot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/CSSC_Rollbot.json)
+- [DA_EnemyMetaData_RollBot_Normal.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyMetaData_RollBot_Normal.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Surveyor.blend) · Native textures and inspector are packed into the file.
 
@@ -66,7 +77,7 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -122,12 +133,13 @@ These records also include sockets, bones, and proxy components; they are not al
 | 6 | ANY(ID.Antenna) | 100 | Antenna_A, Antenna_B |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.json)
-- [Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/CSSC_Rollbot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/CSSC_Rollbot.json)
-- [Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_Balancing_C_RollBot_01_Blockout_Normal.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_Balancing_C_RollBot_01_Blockout_Normal.json)
-- [Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyMetaData_RollBot_Normal.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyMetaData_RollBot_Normal.json)
-- [Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyType_RollBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/DataAssets/DA_EnemyType_RollBot.json)
+**Destruction groups**
+
+| Part query | Destruction damage | Max level | Game file |
+| --- | --- | --- | --- |
+| ALL(ID.Weapon, Group.Relative.Left) | 3000 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.json) |
+| ALL(ID.Weapon, Group.Relative.Right) | 3000 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/RollBot/Rollbot_Normal_Version/C_RollBot_01_Blockout_Normal.json) |
 
 </details>

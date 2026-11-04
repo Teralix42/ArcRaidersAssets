@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "WeaponAnimations",
+    "Name": "DA_WeaponAnimations_Special_Railgun_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WeaponAnimations'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_WeaponAnimations_Special_Railgun_01",
+    "Properties": {
+      "CharacterWeaponAnimations": {
+        "GunDownPose": {
+          "ObjectName": "AnimSequence'HM_Wep_P_Railgun_GunDown_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_P_Railgun_GunDown_00.0"
+        },
+        "GunUpPose": {
+          "ObjectName": "AnimSequence'HM_Wep_P_Railgun_GunUp_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_P_Railgun_GunUp_00.0"
+        },
+        "LeftHandWeaponGrip": {
+          "ObjectName": "AnimSequence'HM_Wep_P_Railgun_GunUp_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_P_Railgun_GunUp_00.0"
+        },
+        "RightHandWeaponGrip": {
+          "ObjectName": "AnimSequence'HM_Wep_P_Railgun_GunUp_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_P_Railgun_GunUp_00.0"
+        },
+        "WeaponGripGunDown": {
+          "ObjectName": "AnimSequence'HM_Wep_A_Railgun_GunDownGrip_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_GunDownGrip_00.0"
+        },
+        "WeaponGripGunDownBlendMask": {
+          "ObjectName": "BoneWeightsAsset'BWA_HM_Fingers'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/BoneWeightsAssets/BWA_HM_Fingers.0"
+        },
+        "bUseGunDownGripAsRestGrip": false,
+        "GunUpToGunDown": {
+          "ObjectName": "AnimSequence'HM_Wep_A_Railgun_GunUpToGunDown_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_GunUpToGunDown_00.1"
+        },
+        "GunDownToADS": {
+          "ObjectName": "AnimSequence'HM_Wep_A_Railgun_GunDownToADS_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_GunDownToADS_00.1"
+        },
+        "ADSToGunUp": {
+          "ObjectName": "AnimSequence'HM_Wep_A_Railgun_ADSToGunUp_00'",
+          "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_ADSToGunUp_00.1"
+        },
+        "Reload": {
+          "BaseReload": {
+            "AnimSequence": {
+              "ObjectName": "AnimSequence'HM_Wep_A_Railgun_Reload_00'",
+              "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_Reload_00.6"
+            },
+            "BlendOutPoint": 3.3
+          },
+          "PreferedSpeedScaleRange": {
+            "X": 1.1,
+            "Y": 1.1
+          }
+        },
+        "SpawnIn": [
+          {
+            "ObjectName": "AnimSequence'HM_SpawnIn_A_Railgun_SoloWorldSpawn_00'",
+            "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_SpawnIn_A_Railgun_SoloWorldSpawn_00.5"
+          },
+          {
+            "ObjectName": "AnimSequence'HM_SpawnIn_A_AR_SoloWorldSpawnGeneric_00'",
+            "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_SpawnIn_A_AR_SoloWorldSpawnGeneric_00.5"
+          }
+        ],
+        "Fire": [
+          {
+            "ObjectName": "AnimSequence'HM_Wep_A_BAR_SingleFire_00'",
+            "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_BAR_SingleFire_00.0"
+          }
+        ],
+        "bUseCustomADSFire": true,
+        "ADSFire": [
+          {
+            "ObjectName": "AnimSequence'HM_Wep_A_Railgun_ADSSingleFire_00'",
+            "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_ADSSingleFire_00.0"
+          }
+        ],
+        "FireEnd": {
+          "BlendOutPoint": 2.0
+        },
+        "FireActions": [
+          {
+            "AnimSequence": {
+              "ObjectName": "AnimSequence'HM_Wep_A_Railgun_FireAction_00'",
+              "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_FireAction_00.2"
+            },
+            "BlendOutPoint": 2.0
+          }
+        ],
+        "ADSFireEnd": {
+          "BlendOutPoint": 2.0
+        },
+        "ADSFireActions": [
+          {
+            "AnimSequence": {
+              "ObjectName": "AnimSequence'HM_Wep_A_Railgun_FireAction_00'",
+              "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_FireAction_00.2"
+            },
+            "BlendOutPoint": 2.0
+          }
+        ],
+        "bUseCustomOneHandedFireAction": true,
+        "OneHandedFireActions": [
+          {
+            "AnimSequence": {
+              "ObjectName": "AnimSequence'HM_Wep_A_Railgun_FireActionOneHand_00'",
+              "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_FireActionOneHand_00.2"
+            },
+            "BlendOutPoint": 1.5
+          }
+        ],
+        "ADSOneHandedFireActions": [
+          {
+            "AnimSequence": {
+              "ObjectName": "AnimSequence'HM_Wep_A_Railgun_FireAction_00'",
+              "ObjectPath": "/Game/Pioneer/Characters/Avatar/Animations/AnimationDatabase/NewBaseWep/HM_Wep_A_Railgun_FireAction_00.2"
+            },
+            "BlendOutPoint": 2.0
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,10 +1,21 @@
 # Bully
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 3000 HP. **Internal class:** `C_Tarragon_01`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/DataAssets/DA_Balancing_C_Tarragon_01.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyType_Tarragon_01.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CSSM_Tarragon_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/CSSM_Tarragon_01.json)
+- [C_Tarragon_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/C_Tarragon_01.json)
+- [DA_EnemyMetaData_Tarragon.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyMetaData_Tarragon.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Bully.blend) · Native textures and inspector are packed into the file.
 
@@ -68,9 +79,18 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | Weakpoint_01_L_02 | 400 | WeakPoint | 1.5 |
 | Weakpoint_01_R_02 | 400 | WeakPoint | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Frame | Blunt | 85 |
+| ID.Weapon.Shotgun | Blunt | 15 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -96,8 +116,8 @@ These records also include sockets, bones, and proxy components; they are not al
 | Inside_03 | 400 | Fragile | 1.2 | 17 |
 | Inside_04 | 400 | Fragile | 1.2 | 17 |
 | Neck_01 | 10000 | Normal | 1 | 6 |
-| NeckPivot_01 | 1e+08 | Normal | 1 | 7 |
-| HeadPivot | 1e+07 | Normal | 1 | 4 |
+| NeckPivot_01 | 99999999 | Normal | 1 | 7 |
+| HeadPivot | 10000000 | Normal | 1 | 4 |
 | Head_01 | 1600 | Normal | 1 | 3 |
 | Eye_01 | 9999 | Fragile | 1.2 | 12 |
 | Flap_01_C_01 | 48 | Armor | 0.4 | 9 |
@@ -147,10 +167,10 @@ These records also include sockets, bones, and proxy components; they are not al
 | 1 | ALL(ID.Leg, Group.Relative.Upper) | 500 | UpperLeg_01_L, UpperLeg_01_R, UpperLeg_02_L, UpperLeg_02_R |
 | 2 | ALL(ID.Leg, Group.Relative.Lower) | 400 | LowerLeg_01_L, LowerLeg_01_R, LowerLeg_02_L, LowerLeg_02_R |
 | 3 | ID.Head | 1600 | Head_01 |
-| 4 | ID.HeadPivot | 1e+07 | HeadPivot |
+| 4 | ID.HeadPivot | 10000000 | HeadPivot |
 | 5 | ID.Foot | 1000 | Foot_L_01, Foot_R_01, Foot_L_02, Foot_R_02 |
 | 6 | ID.Neck | 10000 | Neck_01 |
-| 7 | ID.NeckPivot | 1e+08 | NeckPivot_01 |
+| 7 | ID.NeckPivot | 99999999 | NeckPivot_01 |
 | 8 | ID.Armor.Light | 48 | Armor_03_L, Armor_03_R, Armor_05, Armor_06_L, Armor_06_R, LowerLeg_01_Armor_01_L, UpperLeg_01_Armor_01_L, LowerLeg_01_Armor_01_R, UpperLeg_01_Armor_01_R, LowerLeg_02_Armor_01_L, UpperLeg_02_Armor_01_L, LowerLeg_02_Armor_01_R, UpperLeg_02_Armor_01_R |
 | 9 | ID.Armor.Head | 48 | Flap_01_C_01, Flap_01_C_02, Flap_02_L, Flap_02_R, HeadArmor_01_L, HeadArmor_01_R, RocketLauncherLock |
 | 10 | ID.Armor.Heavy | 90 | Armor_01_L, Armor_01_R, Armor_02_L, Armor_02_R, Armor_04 |
@@ -163,12 +183,36 @@ These records also include sockets, bones, and proxy components; they are not al
 | 17 | ID.Interior | 400 | Inside_01_L, Inside_01_R, Inside_02_L, Inside_02_R, Inside_03, Inside_04 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/Tarragon/CSSM_Tarragon_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/CSSM_Tarragon_01.json)
-- [Content/Pioneer/Enemies/Tarragon/C_Tarragon_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/C_Tarragon_01.json)
-- [Content/Pioneer/Enemies/Tarragon/DataAssets/DA_Balancing_C_Tarragon_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/DataAssets/DA_Balancing_C_Tarragon_01.json)
-- [Content/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyMetaData_Tarragon.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyMetaData_Tarragon.json)
-- [Content/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyType_Tarragon_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Tarragon/DataAssets/DA_EnemyType_Tarragon_01.json)
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| Weakpoint_01_L_01 | 1% HP | LowerLeg_01_L |
+| Weakpoint_01_L_02 | 1% HP | LowerLeg_02_L |
+| Weakpoint_01_R_01 | 1% HP | LowerLeg_01_R |
+| Weakpoint_01_R_02 | 1% HP | LowerLeg_02_R |
+
+**Damage triggers**
+
+| Trigger part | Condition | Effect |
+| --- | --- | --- |
+| Head_01 | Part break | Enraged |
+
+**Stun propagation**
+
+| Source part query | Destination part query |
+| --- | --- |
+| ALL(ID.Leg, Group.Relative.Front, Group.Relative.Left, Group.Relative.Upper) | ALL(ID.Leg, Group.Relative.Front, Group.Relative.Left, Group.Relative.Lower) |
+| ALL(ID.Leg, Group.Relative.Front, Group.Relative.Right, Group.Relative.Upper) | ALL(ID.Leg, Group.Relative.Front, Group.Relative.Right, Group.Relative.Lower) |
+| ALL(ID.Leg, Group.Relative.Left, Group.Relative.Rear, Group.Relative.Upper) | ALL(ID.Leg, Group.Relative.Left, Group.Relative.Rear, Group.Relative.Lower) |
+| ALL(ID.Leg, Group.Relative.Rear, Group.Relative.Right, Group.Relative.Upper) | ALL(ID.Leg, Group.Relative.Rear, Group.Relative.Right, Group.Relative.Lower) |
+| ALL(ID.Leg, Group.Relative.Front, Group.Relative.Left, Group.Relative.Lower) | ALL(ID.Leg, Group.Relative.Front, Group.Relative.Left, Group.Relative.Upper) |
+| ALL(ID.Leg, Group.Relative.Front, Group.Relative.Right, Group.Relative.Lower) | ALL(ID.Leg, Group.Relative.Front, Group.Relative.Right, Group.Relative.Upper) |
+| ALL(ID.Leg, Group.Relative.Left, Group.Relative.Rear, Group.Relative.Lower) | ALL(ID.Leg, Group.Relative.Left, Group.Relative.Rear, Group.Relative.Upper) |
+| ALL(ID.Leg, Group.Relative.Rear, Group.Relative.Right, Group.Relative.Lower) | ALL(ID.Leg, Group.Relative.Rear, Group.Relative.Right, Group.Relative.Upper) |
+| ANY(ID.Head, ID.Weapon.Shotgun, ID.Weapon.Grenade) | ANY(ID.Weapon.Shotgun, ID.Weapon.Grenade, ID.Head) |
+| ID.Frame | ID.Head |
 
 </details>

@@ -1,10 +1,22 @@
 # Hornet
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 200 HP. **Internal class:** `C_LightDrone_Elite`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_Balancing_C_LightDrone_Elite.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyType_LightDroneElite.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CS_LightDrone_Elite_SK.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/CS_LightDrone_Elite_SK.json)
+- [C_LightDrone_Elite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.json)
+- [CSSC_LightDroneElite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/CSSC_LightDroneElite.json)
+- [DA_EnemyMetaData_LightDroneElite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyMetaData_LightDroneElite.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Hornet.blend) · Native textures and inspector are packed into the file.
 
@@ -70,9 +82,18 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | --- | --- | --- | --- |
 | Core_01 | 1300 | Critical | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Frame | Blunt | 30 |
+| ID.Weapon.Rifle | Blunt | 25 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -111,15 +132,3 @@ These records also include sockets, bones, and proxy components; they are not al
 | 5 | ID.Frame | 200 | Frame_01 |
 | 6 | ID.Thruster | 30 | Thruster_L_01, Thruster_L_02, Thruster_R_01, Thruster_R_02 |
 | 7 | ID.Weapon.Rifle | 1000 | weapon_Hornet_01 |
-
-<details>
-<summary>Actual game source files</summary>
-
-- [Content/Pioneer/Enemies/EliteDrone/Hornet/CS_LightDrone_Elite_SK.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/CS_LightDrone_Elite_SK.json)
-- [Content/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/C_LightDrone_Elite.json)
-- [Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/CSSC_LightDroneElite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/CSSC_LightDroneElite.json)
-- [Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_Balancing_C_LightDrone_Elite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_Balancing_C_LightDrone_Elite.json)
-- [Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyMetaData_LightDroneElite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyMetaData_LightDroneElite.json)
-- [Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyType_LightDroneElite.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Hornet/DataAssets/DA_EnemyType_LightDroneElite.json)
-
-</details>

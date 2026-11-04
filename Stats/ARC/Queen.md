@@ -1,10 +1,22 @@
 # Queen
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 23100 HP. **Internal class:** `C_Peppermint`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_Balancing_C_Peppermint.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyType_Peppermint.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CS_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.json)
+- [C_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/C_Peppermint.json)
+- [CSSC_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/CSSC_Peppermint.json)
+- [DA_EnemyMetaData_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyMetaData_Peppermint.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Queen.blend) · Native textures and inspector are packed into the file.
 
@@ -76,9 +88,18 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | LowerLeg_01_Weakpoint_01_R_02 | 6000 | WeakPoint | 1.5 |
 | LowerLeg_01_Weakpoint_01_R_03 | 6000 | WeakPoint | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| [Part.Decorator.ID.Weapon.Shockwave] [Part.Decorator.ID.Weapon.Laser]  | Thermal | 5 |
+| ID.Weapon.Blast | Explosive | 100 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -213,13 +234,13 @@ These records also include sockets, bones, and proxy components; they are not al
 | 12 | ANY(ID.Foot, ID.Ankle) | 400 | FootGroundContact_01_L_01, FootGroundContact_01_L_02, FootGroundContact_01_L_03, FootGroundContact_01_R_01, FootGroundContact_01_R_02, FootGroundContact_01_R_03, Ankle_01_L_01, Foot_01_L_01, Ankle_01_L_02, Foot_01_L_02, Ankle_01_L_03, Foot_01_L_03, Ankle_01_R_01, Foot_01_R_01, Ankle_01_R_02, Foot_01_R_02, Ankle_01_R_03, Foot_01_R_03 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/CS_Peppermint.json)
-- [Content/Pioneer/Enemies/MintType/Peppermint/C_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/C_Peppermint.json)
-- [Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/CSSC_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/CSSC_Peppermint.json)
-- [Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_Balancing_C_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_Balancing_C_Peppermint.json)
-- [Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyMetaData_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyMetaData_Peppermint.json)
-- [Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyType_Peppermint.json](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/DataAssets/DA_EnemyType_Peppermint.json)
+**Destruction groups**
+
+| Part query | Destruction damage | Max level | Game file |
+| --- | --- | --- | --- |
+| ID.Leg | 10000 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/C_Peppermint.json) |
+| ID.Head | 10000 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/MintType/Peppermint/C_Peppermint.json) |
 
 </details>

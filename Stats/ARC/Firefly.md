@@ -1,10 +1,23 @@
 # Firefly
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 200 HP. **Internal class:** `C_EliteDrone_Flamethrower`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_Balancing_C_EliteDrone_Flamethrower.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyType_EliteDrone_Flamethrower.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CS_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.json)
+- [C_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.json)
+- [GA_EliteDrone_Flamethrower_Explosion.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/Capabilities/GA_EliteDrone_Flamethrower_Explosion.json)
+- [CSSC_EliteDrone_FlameThrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/CSSC_EliteDrone_FlameThrower.json)
+- [DA_EnemyMetaData_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyMetaData_EliteDrone_Flamethrower.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Firefly.blend) · Native textures and inspector are packed into the file.
 
@@ -70,9 +83,18 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | --- | --- | --- | --- |
 | Core | 167 | Critical | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Frame | Blunt | 30 |
+| ID.Weapon.Rifle | Blunt | 25 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -120,14 +142,19 @@ These records also include sockets, bones, and proxy components; they are not al
 | 9 | ANY(ID.Core) | 167 | Core |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/CS_EliteDrone_Flamethrower.json)
-- [Content/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/C_EliteDrone_Flamethrower.json)
-- [Content/Pioneer/Enemies/EliteDrone/Flamethrower/Capabilities/GA_EliteDrone_Flamethrower_Explosion.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/Capabilities/GA_EliteDrone_Flamethrower_Explosion.json)
-- [Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/CSSC_EliteDrone_FlameThrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/CSSC_EliteDrone_FlameThrower.json)
-- [Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_Balancing_C_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_Balancing_C_EliteDrone_Flamethrower.json)
-- [Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyMetaData_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyMetaData_EliteDrone_Flamethrower.json)
-- [Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyType_EliteDrone_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/DataAssets/DA_EnemyType_EliteDrone_Flamethrower.json)
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| ShieldLower_01 | 1% HP | ShieldWing_L, ShieldWing_R |
+
+**Damage triggers**
+
+| Trigger part | Condition | Effect |
+| --- | --- | --- |
+| Frame | Part break | [GA_EliteDrone_Flamethrower_Explosion_C](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/Capabilities/GA_EliteDrone_Flamethrower_Explosion.json) |
+| Core | 50% HP threshold | [GA_EliteDrone_Flamethrower_Explosion_C](../Sources/PioneerGame/Content/Pioneer/Enemies/EliteDrone/Flamethrower/Capabilities/GA_EliteDrone_Flamethrower_Explosion.json) |
 
 </details>

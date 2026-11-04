@@ -1,10 +1,21 @@
 # Leaper
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 1100 HP. **Internal class:** `C_BullCrab_01`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/DA_Balancing_C_BullCrab_01.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/DA_EnemyType_BullCrab.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CSSC_BullCrab_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/CSSC_BullCrab_01.json)
+- [C_BullCrab_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/C_BullCrab_01.json)
+- [DA_EnemyMetaData_BullCrab.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/DA_EnemyMetaData_BullCrab.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Leaper.blend) · Native textures and inspector are packed into the file.
 
@@ -68,9 +79,19 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 No explicit WeakPoint/Critical resistance assignment was recovered for this profile. This does not imply invulnerability.
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| Group.Indestructible | Thermal | 0.5 |
+| ID.Frame | Thermal | 0.5 |
+| ID.Core | Blunt | 85 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -156,12 +177,12 @@ These records also include sockets, bones, and proxy components; they are not al
 | 9 | HealthGroup.SubParts | 24 | Jaw_01_L_01, Jaw_01_L_02, Jaw_01_R_01, Jaw_01_R_02, Cylinder_01_L_01, Cylinder_01_L_02, Cylinder_01_L_03, Cylinder_01_L_04, Cylinder_01_R_01, Cylinder_01_R_02, Cylinder_01_R_03, Cylinder_01_R_04 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/Bullcrab/CSSC_BullCrab_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/CSSC_BullCrab_01.json)
-- [Content/Pioneer/Enemies/Bullcrab/C_BullCrab_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/C_BullCrab_01.json)
-- [Content/Pioneer/Enemies/Bullcrab/DA_Balancing_C_BullCrab_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/DA_Balancing_C_BullCrab_01.json)
-- [Content/Pioneer/Enemies/Bullcrab/DA_EnemyMetaData_BullCrab.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/DA_EnemyMetaData_BullCrab.json)
-- [Content/Pioneer/Enemies/Bullcrab/DA_EnemyType_BullCrab.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/DA_EnemyType_BullCrab.json)
+**Destruction groups**
+
+| Part query | Destruction damage | Max level | Game file |
+| --- | --- | --- | --- |
+| ID.Core | 1000 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/Bullcrab/C_BullCrab_01.json) |
 
 </details>

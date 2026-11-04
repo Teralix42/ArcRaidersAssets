@@ -1,10 +1,21 @@
 # Spotter
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 80 HP. **Internal class:** `C_Pinger`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/DA_Balancing_C_Pinger.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyType_Pinger.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/C_Pinger.json)
+- [CSSC_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/CSSC_Pinger.json)
+- [DA_EnemyMetaData_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyMetaData_Pinger.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Spotter.blend) · Native textures and inspector are packed into the file.
 
@@ -60,7 +71,7 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -86,14 +97,3 @@ These records also include sockets, bones, and proxy components; they are not al
 | 1 | ID.Radar | 180 | ScannerRoot |
 | 2 | ID.Head | 120 | Head_01 |
 | 3 | ANY(HealthGroup.Base) | 120 | Ring_C_01 |
-
-<details>
-<summary>Actual game source files</summary>
-
-- [Content/Pioneer/Enemies/Pinger/C_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/C_Pinger.json)
-- [Content/Pioneer/Enemies/Pinger/DataAssets/CSSC_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/CSSC_Pinger.json)
-- [Content/Pioneer/Enemies/Pinger/DataAssets/DA_Balancing_C_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/DA_Balancing_C_Pinger.json)
-- [Content/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyMetaData_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyMetaData_Pinger.json)
-- [Content/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyType_Pinger.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Pinger/DataAssets/DA_EnemyType_Pinger.json)
-
-</details>

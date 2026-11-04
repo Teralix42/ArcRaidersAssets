@@ -1,0 +1,1417 @@
+[
+  {
+    "Type": "WeaponItemAnimationContainer",
+    "Name": "DA_ItemAnimationContainer_Special_Railgun_01_Scoped",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WeaponItemAnimationContainer'",
+    "Package": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_ItemAnimationContainer_Special_Railgun_01_Scoped",
+    "Properties": {
+      "ArchetypeAnimations": {
+        "ObjectName": "WeaponAnimations'DA_WeaponAnimations_SniperRifle_Archetype'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Animation/DA_WeaponAnimations_SniperRifle_Archetype.0"
+      },
+      "WeaponAnimations": {
+        "ObjectName": "WeaponAnimations'DA_WeaponAnimations_Special_Railgun_01'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Special_Railgun_01/DA_WeaponAnimations_Special_Railgun_01.0"
+      },
+      "AnimatedWeaponInfo": {
+        "AssemblyTransforms": {
+          "MagTransform": {
+            "Translation": {
+              "X": -16.767494,
+              "Y": 1.4901161E-06,
+              "Z": 0.97932464
+            }
+          }
+        },
+        "WeaponLagSettings": {
+          "WeaponLagYawDefault": {
+            "Smoothness": 0.35,
+            "MaxInputDelta": -3.0,
+            "InputDeltaDeadZoneSize": 0.2
+          },
+          "WeaponLagRollDefault": {
+            "Smoothness": 0.5,
+            "MaxInputDelta": -10.0,
+            "InputDeltaDeadZoneSize": 0.2
+          },
+          "WeaponLagYawZoom": {
+            "Smoothness": 0.35,
+            "MaxInputDelta": -0.66,
+            "InputDeltaDeadZoneSize": 0.2
+          },
+          "WeaponLagPitchZoom": {
+            "MaxInputDelta": -0.7
+          },
+          "WeaponLagRollZoom": {
+            "Smoothness": 0.5,
+            "InputDeltaDeadZoneSize": 0.2
+          }
+        }
+      },
+      "FiringAnimationAlpha": 1.0,
+      "bHasFiringAction": true,
+      "AnimationTag": {
+        "TagName": "Animation.Item.Weapon.Firearm.RailGun.Scoped"
+      },
+      "CombatLocomotionStyle": "ELocoStyle::PureStrafe",
+      "WeaponSwagSettings": {
+        "TransFrequency": 2.5,
+        "TransDamping": 0.95,
+        "TransResponse": 0.75,
+        "WeightScale": 0.2,
+        "TranslationAlpha": 0.6,
+        "RotFrequency": 5.0,
+        "RotDamping": 0.8,
+        "RotResponse": 1.5,
+        "RotationAlpha": 0.9
+      },
+      "ArchetypeLocoStateAsset": {
+        "ObjectName": "AnimationLocoStateDataAsset'DA_AnimationLocoState_TwoHandedRifle_Archetype'",
+        "ObjectPath": "/Game/Pioneer/Items/Firearms/Shared/Animation/DA_AnimationLocoState_TwoHandedRifle_Archetype.0"
+      },
+      "WeaponLocoStates": [
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.Default"
+          },
+          "Value": {
+            "Name": "BothHands, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunDown",
+            "BlendSettings": {
+              "BlendTime": 0.5,
+              "BlendOption": "EAlphaBlendOption::Sinusoidal",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ArmsAndWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.Sprint"
+          },
+          "Value": {
+            "Name": "BothHands, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunDown",
+            "BlendSettings": {
+              "BlendTime": 0.5,
+              "BlendOption": "EAlphaBlendOption::Sinusoidal",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ArmsAndWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.GunUp"
+          },
+          "Value": {
+            "Name": "BothHands, MeshSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunUp",
+            "BlendSettings": {
+              "BlendTime": 0.5,
+              "BlendOption": "EAlphaBlendOption::Sinusoidal",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::Upperbody",
+            "BlendMode": "EAnimLayerPoseBlendMode::MeshSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.RootWarping"
+          },
+          "Value": {
+            "Name": "RightHand, SpecificBlendMask: UpperBodyRightArmWeapon, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::RightHand",
+            "DesiredWeaponReadiness": "EWeaponReadiness::KeepPrevious",
+            "BlendSettings": {
+              "BlendTime": 0.2,
+              "BlendOption": "EAlphaBlendOption::Linear",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": true,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": true,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::UpperBodyRightArmWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.InEquippingFlow"
+          },
+          "Value": {
+            "Name": "RightHand, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::RightHand",
+            "DesiredWeaponReadiness": "EWeaponReadiness::KeepPrevious",
+            "BlendSettings": {
+              "BlendTime": 0.2,
+              "BlendOption": "EAlphaBlendOption::Linear",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::RightArmWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.Reload"
+          },
+          "Value": {
+            "Name": "BothHands, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::KeepPrevious",
+            "BlendSettings": {
+              "BlendTime": 0.3,
+              "BlendOption": "EAlphaBlendOption::Cubic",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ArmsAndWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.GunUp.ADS"
+          },
+          "Value": {
+            "Name": "BothHands, SpecificBlendMask: UpperBody, MeshSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunUp",
+            "BlendSettings": {
+              "BlendTime": 0.3,
+              "BlendOption": "EAlphaBlendOption::Sinusoidal",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": true,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::Upperbody",
+            "BlendMode": "EAnimLayerPoseBlendMode::MeshSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.GunDown"
+          },
+          "Value": {
+            "Name": "BothHands, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunDown",
+            "BlendSettings": {
+              "BlendTime": 0.7,
+              "BlendOption": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ArmsAndWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.GunDown.Crouch"
+          },
+          "Value": {
+            "Name": "BothHands, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunDown",
+            "BlendSettings": {
+              "BlendTime": 0.5,
+              "BlendOption": "EAlphaBlendOption::Sinusoidal",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": -0.25881904,
+                "Z": 0.0,
+                "W": 0.9659258,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.99999994
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ArmsAndWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.OneHandedGadget"
+          },
+          "Value": {
+            "Name": "LeftHand, SpecificBlendMask: LeftArmWeapon, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::LeftHand",
+            "DesiredWeaponReadiness": "EWeaponReadiness::KeepPrevious",
+            "BlendSettings": {
+              "BlendTime": 0.6,
+              "BlendOption": "EAlphaBlendOption::QuadraticInOut",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": true,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": true,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::LeftArmWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.RootWarping.OneHandedVault"
+          },
+          "Value": {
+            "Name": "RightHand, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::RightHand",
+            "DesiredWeaponReadiness": "EWeaponReadiness::KeepPrevious",
+            "BlendSettings": {
+              "BlendTime": 0.2,
+              "BlendOption": "EAlphaBlendOption::Linear",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::RightArmWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.RootWarping.TwoHandedVault"
+          },
+          "Value": {
+            "Name": "Sling, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::Sling",
+            "DesiredWeaponReadiness": "EWeaponReadiness::KeepPrevious",
+            "BlendSettings": {
+              "BlendTime": 0.2,
+              "BlendOption": "EAlphaBlendOption::Linear",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ZeroWeight",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.GunUp.Crouch.Moving"
+          },
+          "Value": {
+            "Name": "BothHands, MeshSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunUp",
+            "BlendSettings": {
+              "BlendTime": 0.5,
+              "BlendOption": "EAlphaBlendOption::Sinusoidal",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 4.0061714E-18,
+                "Y": 4.814825E-35,
+                "Z": -0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 3.0,
+                "Z": -5.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::Upperbody",
+            "BlendMode": "EAnimLayerPoseBlendMode::MeshSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.GunDown.InAir"
+          },
+          "Value": {
+            "Name": "RightHand, SpecificBlendMask: ZeroWeight, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::RightHand",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunDown",
+            "BlendSettings": {
+              "BlendTime": 1.0,
+              "BlendOption": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": true,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -20.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": true,
+            "bKeepPreviousBlendMode": true,
+            "BlendMask": "EBlendMask::ZeroWeight",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.GunDown.IntoSprint"
+          },
+          "Value": {
+            "Name": "BothHands, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::BothHands",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunDown",
+            "BlendSettings": {
+              "BlendTime": 0.4,
+              "BlendOption": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ArmsAndWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.HoldInteract"
+          },
+          "Value": {
+            "Name": "Sling, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::Sling",
+            "DesiredWeaponReadiness": "EWeaponReadiness::GunDown",
+            "BlendSettings": {
+              "BlendTime": 0.2,
+              "BlendOption": "EAlphaBlendOption::Linear",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::ZeroWeight",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.HoldInteract.Loot"
+          },
+          "Value": {
+            "Name": "RightHand, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::RightHand",
+            "DesiredWeaponReadiness": "EWeaponReadiness::RestPose",
+            "BlendSettings": {
+              "BlendTime": 0.4,
+              "BlendOption": "EAlphaBlendOption::Cubic",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": false,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::RightArmWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Animation.WeaponLocoState.RootWarping.DodgeRoll"
+          },
+          "Value": {
+            "Name": "RightHand, SpecificBlendMask: UpperBodyRightArmWeapon, LocalSpace",
+            "WeaponBodyPosition": "EWeaponBodyPosition::RightHand",
+            "DesiredWeaponReadiness": "EWeaponReadiness::KeepPrevious",
+            "BlendSettings": {
+              "BlendTime": 0.2,
+              "BlendOption": "EAlphaBlendOption::Linear",
+              "CustomCurve": null
+            },
+            "bWeaponFollowHand": false,
+            "WeaponOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "WeaponOffsetCharacterSpace": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "bUseSpecificBlendMask": true,
+            "bKeepPreviousBlendMode": false,
+            "BlendMask": "EBlendMask::UpperBodyRightArmWeapon",
+            "BlendMode": "EAnimLayerPoseBlendMode::LocalSpace",
+            "WeaponPoseAlpha": 1.0
+          }
+        }
+      ],
+      "IKOffsets": [
+        {
+          "Key": "EGripType::Combat",
+          "Value": {
+            "LeftHandOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RightHandOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "ItemOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        },
+        {
+          "Key": "EGripType::Relaxed",
+          "Value": {
+            "LeftHandOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RightHandOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "ItemOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        },
+        {
+          "Key": "EGripType::Standby",
+          "Value": {
+            "LeftHandOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RightHandOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "ItemOffset": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

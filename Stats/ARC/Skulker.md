@@ -1,10 +1,22 @@
 # Skulker
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 230 HP. **Internal class:** `C_Meerkat`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_Balancing_C_Meerkat.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyType_Meerkat.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CS_Meerkat_SK.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.json)
+- [C_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.json)
+- [CSSC_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/CSSC_Meerkat.json)
+- [DA_EnemyMetaData_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyMetaData_Meerkat.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Skulker.blend) · Native textures and inspector are packed into the file.
 
@@ -62,9 +74,17 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 No explicit WeakPoint/Critical resistance assignment was recovered for this profile. This does not imply invulnerability.
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Weapon.GatlingGun | Blunt | 12 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -104,13 +124,27 @@ These records also include sockets, bones, and proxy components; they are not al
 | 6 | ID.Armor.Light | 13 | Hatch_R_01, LegArmor_L_01, LegArmor_L_02, LegArmor_R_01, LegArmor_R_02 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/CS_Meerkat_SK.json)
-- [Content/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.json)
-- [Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/CSSC_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/CSSC_Meerkat.json)
-- [Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_Balancing_C_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_Balancing_C_Meerkat.json)
-- [Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyMetaData_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyMetaData_Meerkat.json)
-- [Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyType_Meerkat.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/DataAssets/DA_EnemyType_Meerkat.json)
+**Destruction groups**
+
+| Part query | Destruction damage | Max level | Game file |
+| --- | --- | --- | --- |
+| ANY(ID.Arm) | 50 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/Meerkat/Meerkat/C_Meerkat.json) |
+
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| Thruster_R_01 | 1% HP | LegArmor_R_01 |
+| Thruster_L_01 | 1% HP | LegArmor_L_01 |
+| Thruster_R_02 | 1% HP | LegArmor_R_02 |
+| Thruster_L_02 | 1% HP | LegArmor_L_02 |
+
+**Stun propagation**
+
+| Source part query | Destination part query |
+| --- | --- |
+| ID.Frame | ALL(ID.Wheel, Group.Relative.Middle) |
 
 </details>

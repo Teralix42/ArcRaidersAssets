@@ -1,10 +1,21 @@
 # Snitch
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 158 HP. **Internal class:** `C_SnitchBot_01`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_Balancing_C_SnitchBot_01.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_EnemyType_SnitchDrone.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_SnitchBot_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.json)
+- [DA_EnemyMetaData_SnitchBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_EnemyMetaData_SnitchBot.json)
+- [CSSC_SnitchBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CSSC_SnitchBot.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Snitch.blend) · Native textures and inspector are packed into the file.
 
@@ -60,7 +71,7 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -92,12 +103,14 @@ These records also include sockets, bones, and proxy components; they are not al
 | 4 | HealthGroup.SubParts | 48 | SubFrame_01, SubFrame_02, SubFrame_03 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/C_SnitchBot_01.json)
-- [Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_Balancing_C_SnitchBot_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_Balancing_C_SnitchBot_01.json)
-- [Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_EnemyMetaData_SnitchBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_EnemyMetaData_SnitchBot.json)
-- [Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_EnemyType_SnitchDrone.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/DataAssets/DA_EnemyType_SnitchDrone.json)
-- [Content/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CSSC_SnitchBot.json](../Sources/PioneerGame/Content/Pioneer/Enemies/SnitchBot/Snitch_02/SnitchBot_Skeleton/CSSC_SnitchBot.json)
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| SubFrame_02 | 1% HP | SubFrame_02, Frame_Thruster_R, Thruster_02 |
+| SubFrame_01 | 1% HP | SubFrame_01, Frame_Thruster_L, Thruster_01 |
+| SubFrame_03 | 1% HP | SubFrame_03, Frame_Thruster_Re, Thruster_03 |
 
 </details>

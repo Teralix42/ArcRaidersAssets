@@ -1,10 +1,21 @@
 # Sentinel
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 300 HP. **Internal class:** `C_Sniper`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/DataAssets/DA_Balancing_C_Sniper.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyType_Sniper.json)
+
+<details>
+<summary>More game files</summary>
+
+- [CSSC_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/CSSC_Sniper.json)
+- [C_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/C_Sniper.json)
+- [DA_EnemyMetaData_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyMetaData_Sniper.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Sentinel.blend) · Native textures and inspector are packed into the file.
 
@@ -58,9 +69,17 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | --- | --- | --- | --- |
 | Weakpoint | 225 | WeakPoint | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Weapon | Blunt | 80 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -81,14 +100,3 @@ These records also include sockets, bones, and proxy components; they are not al
 | 0 | ID.Weapon | 300 | Barrel |
 | 1 | ANY(ID.Frame, ID.Head, ID.Arm, Group.Indestructible) | 300 | Body, ArmPivot, Arm, HeadOrienter, Head |
 | 2 | Group.Weakpoint | 225 | Weakpoint |
-
-<details>
-<summary>Actual game source files</summary>
-
-- [Content/Pioneer/Enemies/Sniper/CSSC_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/CSSC_Sniper.json)
-- [Content/Pioneer/Enemies/Sniper/C_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/C_Sniper.json)
-- [Content/Pioneer/Enemies/Sniper/DataAssets/DA_Balancing_C_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/DataAssets/DA_Balancing_C_Sniper.json)
-- [Content/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyMetaData_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyMetaData_Sniper.json)
-- [Content/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyType_Sniper.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Sniper/DataAssets/DA_EnemyType_Sniper.json)
-
-</details>

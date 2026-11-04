@@ -1,10 +1,21 @@
 # Bastion
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 2050 HP. **Internal class:** `C_Chonk`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/DataAssets/DA_Balancing_C_Chonk.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyType_Chonk.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_Chonk.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/C_Chonk.json)
+- [CSSM_Chonk_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/Chonk_01/CSSM_Chonk_01.json)
+- [DA_EnemyMetaData_Chonk.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyMetaData_Chonk.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Bastion.blend) · Native textures and inspector are packed into the file.
 
@@ -71,16 +82,25 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | Weakpoint_01_R_02 | 180 | WeakPoint | 1.5 |
 | Weakpoint_01_R_03 | 180 | WeakPoint | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Frame | Thermal | 0.5 |
+| ID.Turret | Blunt | 6.5 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
 | Muzzle | — | — | — |  |
 | Sensor | — | — | — |  |
 | Body_01 | 2050 | Normal | 1 | 0 |
-| HeadPivot | 1e+07 | Normal | 1 | 11 |
+| HeadPivot | 10000000 | Normal | 1 | 11 |
 | Head_01 | 10000 | Normal | 1 | 6 |
 | Core | 5000 | Critical | 1.5 | 12 |
 | Head_01_Armor_01_L_01 | 500 | Armor | 0.4 | 4 |
@@ -147,17 +167,29 @@ These records also include sockets, bones, and proxy components; they are not al
 | 8 | ID.Arm.Front | 10000 | Weapon_Pivot_01 |
 | 9 | ANY(ID.Joint) | 180 | Weakpoint_01_L_01, Weakpoint_01_L_02, Weakpoint_01_L_03, Weakpoint_01_R_01, Weakpoint_01_R_02, Weakpoint_01_R_03 |
 | 10 | HealthGroup.Base | 250 | Insides_01_L_01, Insides_01_R_01 |
-| 11 | ANY(ID.HeadPivot) | 1e+07 | HeadPivot |
+| 11 | ANY(ID.HeadPivot) | 10000000 | HeadPivot |
 | 12 | ID.Core | 5000 | Core |
 | 13 | HealthGroup.SubParts.01 | 10000 | Insides_02 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/Chonk/C_Chonk.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/C_Chonk.json)
-- [Content/Pioneer/Enemies/Chonk/Chonk_01/CSSM_Chonk_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/Chonk_01/CSSM_Chonk_01.json)
-- [Content/Pioneer/Enemies/Chonk/DataAssets/DA_Balancing_C_Chonk.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/DataAssets/DA_Balancing_C_Chonk.json)
-- [Content/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyMetaData_Chonk.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyMetaData_Chonk.json)
-- [Content/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyType_Chonk.json](../Sources/PioneerGame/Content/Pioneer/Enemies/Chonk/DataAssets/DA_EnemyType_Chonk.json)
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| Weakpoint_01_L_01 | 1% HP | LowerLeg_01_L_01 |
+| Weakpoint_01_L_02 | 1% HP | LowerLeg_01_L_02 |
+| Weakpoint_01_L_03 | 1% HP | LowerLeg_01_L_03 |
+| Weakpoint_01_R_01 | 1% HP | LowerLeg_01_R_01 |
+| Weakpoint_01_R_02 | 1% HP | LowerLeg_01_R_02 |
+| Weakpoint_01_R_03 | 1% HP | LowerLeg_01_R_03 |
+| Weakpoint_02 | 1% HP | Insides_02 |
+
+**Stun propagation**
+
+| Source part query | Destination part query |
+| --- | --- |
+| ANY(ID.Head) | ANY(ID.Turret) |
 
 </details>

@@ -1,10 +1,22 @@
 # Fireball
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 20 HP. **Internal class:** `C_RollBot_Flamethrower`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/DA_Balancing_C_RollBot_Flamethrower.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyType_RollBot_Flamethrower.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.json)
+- [GA_RollbotFlamethrower_Explosion.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.json)
+- [CSSC_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/CSSC_RollBot_Flamethrower.json)
+- [DA_EnemyMetaData_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyMetaData_RollBot_Flamethrower.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Fireball.blend) · Native textures and inspector are packed into the file.
 
@@ -66,7 +78,7 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
@@ -92,13 +104,19 @@ These records also include sockets, bones, and proxy components; they are not al
 | 3 | ID.Rollbot.Root | 1000 | DummyParent_Root |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.json)
-- [Content/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.json)
-- [Content/Pioneer/Enemies/FireBall/DataAssets/CSSC_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/CSSC_RollBot_Flamethrower.json)
-- [Content/Pioneer/Enemies/FireBall/DataAssets/DA_Balancing_C_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/DA_Balancing_C_RollBot_Flamethrower.json)
-- [Content/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyMetaData_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyMetaData_RollBot_Flamethrower.json)
-- [Content/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyType_RollBot_Flamethrower.json](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/DataAssets/DA_EnemyType_RollBot_Flamethrower.json)
+**Destruction groups**
+
+| Part query | Destruction damage | Max level | Game file |
+| --- | --- | --- | --- |
+| ID.Frame | 1000 | 0.5 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.json) |
+| ID.Weapon | 3000 | 1 | [Actor config](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/C_RollBot_Flamethrower.json) |
+
+**Damage triggers**
+
+| Trigger part | Condition | Effect |
+| --- | --- | --- |
+| DummyParent_Root | 1% HP threshold | [GA_RollbotFlamethrower_Explosion_C](../Sources/PioneerGame/Content/Pioneer/Enemies/FireBall/Capabilities/GA_RollbotFlamethrower_Explosion.json) |
 
 </details>

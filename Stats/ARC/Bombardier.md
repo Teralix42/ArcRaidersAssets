@@ -1,10 +1,21 @@
 # Bombardier
 
-[ARC stats](README.md) · [Machine-readable data](arc_parts.json) · [Damage model](Damage_Model.md)
+[ARC stats](README.md) · [Damage model](Damage_Model.md)
 
 **Configured frame rule:** 2670 HP. **Internal class:** `C_ChonkPlatform_Mortar`.
 
-Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and damage propagation are separate. `—` means unknown or unassigned.
+Frame HP is assigned separately from part HP. A dash marks an unknown or unassigned value.
+
+[Balancing and part HP](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_Balancing_C_ChonkPlatform_Mortar.json) · [Enemy type](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_EnemyType_ChonkPlatform_Mortar.json)
+
+<details>
+<summary>More game files</summary>
+
+- [C_ChonkPlatform_Mortar.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/C_ChonkPlatform_Mortar.json)
+- [CSSM_ChonkMortar_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/CSSM_ChonkMortar_01.json)
+- [DA_EnemyMetaData_ChonkMortar.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_EnemyMetaData_ChonkMortar.json)
+
+</details>
 
 [Interactive Blender inspection model](Models/Bombardier.blend) · Native textures and inspector are packed into the file.
 
@@ -71,16 +82,25 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 | Weakpoint_01_R_02 | 180 | WeakPoint | 1.5 |
 | Weakpoint_01_R_03 | 180 | WeakPoint | 1.5 |
 
+### Outgoing damage rules
+
+Configured values keyed by the part or attack tag. Attack timing and the final damage against a Raider depend on the attack and target.
+
+| Tag | Damage type | Configured damage |
+| --- | --- | --- |
+| ID.Turret | Blunt | 90 |
+| ID.Core | Blunt | 55 |
+
 ### Every named part
 
-These records also include sockets, bones, and proxy components; they are not all independent damageable hitboxes. The weapon’s separate ARC armor and weak-point multipliers still apply where indicated in JSON.
+This list includes mesh records such as sockets and proxies. See the [damage model](Damage_Model.md) for how weapon multipliers apply to each resistance group.
 
 | Part | Configured HP | Resistance group | Physical damage × | Health rules |
 | --- | --- | --- | --- | --- |
 | Muzzle | — | — | — |  |
 | Sensor | — | — | — |  |
 | Body_01 | 2670 | Normal | 1 | 0 |
-| HeadPivot | 1e+07 | Normal | 1 | 9 |
+| HeadPivot | 10000000 | Normal | 1 | 9 |
 | Head_01 | 10000 | Normal | 1 | 4 |
 | Armor_01_L_01 | 250 | Normal | 1 | 8 |
 | Armor_01_R_01 | 250 | Normal | 1 | 8 |
@@ -146,19 +166,31 @@ These records also include sockets, bones, and proxy components; they are not al
 | 6 | ID.Arm.Front | 10000 | Weapon_Pivot_01 |
 | 7 | ANY(ID.Joint) | 180 | Weakpoint_01_L_01, Weakpoint_01_L_02, Weakpoint_01_L_03, Weakpoint_01_R_01, Weakpoint_01_R_02, Weakpoint_01_R_03 |
 | 8 | HealthGroup.Base | 250 | Armor_01_L_01, Armor_01_R_01, Armor_02_L_01, Armor_02_R_01, Armor_03_L_01, Armor_03_R_01, Armor_04_L_01, Armor_04_R_01 |
-| 9 | ANY(ID.HeadPivot) | 1e+07 | HeadPivot |
+| 9 | ANY(ID.HeadPivot) | 10000000 | HeadPivot |
 | 10 | ID.Core | 5000 | Core_01 |
 | 11 | HealthGroup.SubParts.01 | 150 | Insides_01 |
 | 12 | HealthGroup.Legs | 150 | LowerLeg_01_Armor_01_L_01, UpperLeg_01_Armor_01_L_01, LowerLeg_01_Armor_01_L_02, UpperLeg_01_Armor_01_L_02, LowerLeg_01_Armor_01_L_03, UpperLeg_01_Armor_01_L_03, LowerLeg_01_Armor_01_R_01, UpperLeg_01_Armor_01_R_01, LowerLeg_01_Armor_01_R_02, UpperLeg_01_Armor_01_R_02, LowerLeg_01_Armor_01_R_03, UpperLeg_01_Armor_01_R_03 |
 | 13 | HealthGroup.SubParts.02 | 150 | Insides_02_C_01 |
 
 <details>
-<summary>Actual game source files</summary>
+<summary>Destruction and stun rules</summary>
 
-- [Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/C_ChonkPlatform_Mortar.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/C_ChonkPlatform_Mortar.json)
-- [Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/CSSM_ChonkMortar_01.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/CSSM_ChonkMortar_01.json)
-- [Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_Balancing_C_ChonkPlatform_Mortar.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_Balancing_C_ChonkPlatform_Mortar.json)
-- [Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_EnemyMetaData_ChonkMortar.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_EnemyMetaData_ChonkMortar.json)
-- [Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_EnemyType_ChonkPlatform_Mortar.json](../Sources/PioneerGame/Content/Pioneer/Enemies/ChonkMortar/ChonkPlatform/DataAssets/DA_EnemyType_ChonkPlatform_Mortar.json)
+**Chain destruction**
+
+| Trigger part | Configured threshold | Parts destroyed |
+| --- | --- | --- |
+| Weakpoint_01_L_01 | 1% HP | LowerLeg_01_L_01 |
+| Weakpoint_01_L_02 | 1% HP | LowerLeg_01_L_02 |
+| Weakpoint_01_L_03 | 1% HP | LowerLeg_01_L_03 |
+| Weakpoint_01_R_01 | 1% HP | LowerLeg_01_R_01 |
+| Weakpoint_01_R_02 | 1% HP | LowerLeg_01_R_02 |
+| Weakpoint_01_R_03 | 1% HP | LowerLeg_01_R_03 |
+| Weakpoint_02 | 1% HP | Insides_01 |
+
+**Stun propagation**
+
+| Source part query | Destination part query |
+| --- | --- |
+| ANY(ID.Head) | ID.Turret |
 
 </details>

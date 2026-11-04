@@ -11,34 +11,50 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 <a href="Renders/Bombardier/01_Original_Materials_B.png"><img src="Renders/Bombardier/01_Original_Materials_B.png" width="48%" alt="Bombardier: Original Materials"></a>
 <a href="Renders/Bombardier/03_Part_Health_B.png"><img src="Renders/Bombardier/03_Part_Health_B.png" width="48%" alt="Bombardier: Part Health"></a>
 
-### Layers and views
-
-| Layer | Visible structure |
-| --- | --- |
-| A | Core + limb structure |
-| B | Full model |
-
 <details>
-<summary>All six views, including inner layers</summary>
+<summary>All stat renders</summary>
 
+**Original materials**
 
-**A: Core + limb structure**
+<p align="center">
+  <a href="Renders/Bombardier/01_Original_Materials_A.png"><img src="Renders/Bombardier/01_Original_Materials_A.png" width="47%" alt="Bombardier original materials"></a>
+  <a href="Renders/Bombardier/01_Original_Materials_B.png"><img src="Renders/Bombardier/01_Original_Materials_B.png" width="47%" alt="Bombardier original materials"></a>
+</p>
 
-<a href="Renders/Bombardier/01_Original_Materials_A.png"><img src="Renders/Bombardier/01_Original_Materials_A.png" width="32%" alt="Original Materials, layer A"></a>
-<a href="Renders/Bombardier/02_Part_Type_A.png"><img src="Renders/Bombardier/02_Part_Type_A.png" width="32%" alt="Part Type, layer A"></a>
-<a href="Renders/Bombardier/03_Part_Health_A.png"><img src="Renders/Bombardier/03_Part_Health_A.png" width="32%" alt="Part Health, layer A"></a>
-<a href="Renders/Bombardier/04_Break_Off_A.png"><img src="Renders/Bombardier/04_Break_Off_A.png" width="32%" alt="Break Off, layer A"></a>
-<a href="Renders/Bombardier/05_Scavenge_Interaction_A.png"><img src="Renders/Bombardier/05_Scavenge_Interaction_A.png" width="32%" alt="Scavenge Interaction, layer A"></a>
-<a href="Renders/Bombardier/06_Damage_Targets_A.png"><img src="Renders/Bombardier/06_Damage_Targets_A.png" width="32%" alt="Damage Targets, layer A"></a>
+**Part type**
 
-**B: Full model**
+<p align="center">
+  <a href="Renders/Bombardier/02_Part_Type_A.png"><img src="Renders/Bombardier/02_Part_Type_A.png" width="47%" alt="Bombardier part type"></a>
+  <a href="Renders/Bombardier/02_Part_Type_B.png"><img src="Renders/Bombardier/02_Part_Type_B.png" width="47%" alt="Bombardier part type"></a>
+</p>
 
-<a href="Renders/Bombardier/01_Original_Materials_B.png"><img src="Renders/Bombardier/01_Original_Materials_B.png" width="32%" alt="Original Materials, layer B"></a>
-<a href="Renders/Bombardier/02_Part_Type_B.png"><img src="Renders/Bombardier/02_Part_Type_B.png" width="32%" alt="Part Type, layer B"></a>
-<a href="Renders/Bombardier/03_Part_Health_B.png"><img src="Renders/Bombardier/03_Part_Health_B.png" width="32%" alt="Part Health, layer B"></a>
-<a href="Renders/Bombardier/04_Break_Off_B.png"><img src="Renders/Bombardier/04_Break_Off_B.png" width="32%" alt="Break Off, layer B"></a>
-<a href="Renders/Bombardier/05_Scavenge_Interaction_B.png"><img src="Renders/Bombardier/05_Scavenge_Interaction_B.png" width="32%" alt="Scavenge Interaction, layer B"></a>
-<a href="Renders/Bombardier/06_Damage_Targets_B.png"><img src="Renders/Bombardier/06_Damage_Targets_B.png" width="32%" alt="Damage Targets, layer B"></a>
+**Part health**
+
+<p align="center">
+  <a href="Renders/Bombardier/03_Part_Health_A.png"><img src="Renders/Bombardier/03_Part_Health_A.png" width="47%" alt="Bombardier part health"></a>
+  <a href="Renders/Bombardier/03_Part_Health_B.png"><img src="Renders/Bombardier/03_Part_Health_B.png" width="47%" alt="Bombardier part health"></a>
+</p>
+
+**Break-off parts**
+
+<p align="center">
+  <a href="Renders/Bombardier/04_Break_Off_A.png"><img src="Renders/Bombardier/04_Break_Off_A.png" width="47%" alt="Bombardier break-off parts"></a>
+  <a href="Renders/Bombardier/04_Break_Off_B.png"><img src="Renders/Bombardier/04_Break_Off_B.png" width="47%" alt="Bombardier break-off parts"></a>
+</p>
+
+**Scavenging**
+
+<p align="center">
+  <a href="Renders/Bombardier/05_Scavenge_Interaction_A.png"><img src="Renders/Bombardier/05_Scavenge_Interaction_A.png" width="47%" alt="Bombardier scavenging"></a>
+  <a href="Renders/Bombardier/05_Scavenge_Interaction_B.png"><img src="Renders/Bombardier/05_Scavenge_Interaction_B.png" width="47%" alt="Bombardier scavenging"></a>
+</p>
+
+**Damage targets**
+
+<p align="center">
+  <a href="Renders/Bombardier/06_Damage_Targets_A.png"><img src="Renders/Bombardier/06_Damage_Targets_A.png" width="47%" alt="Bombardier damage targets"></a>
+  <a href="Renders/Bombardier/06_Damage_Targets_B.png"><img src="Renders/Bombardier/06_Damage_Targets_B.png" width="47%" alt="Bombardier damage targets"></a>
+</p>
 
 </details>
 

@@ -86,12 +86,14 @@ The old Ninja Ripper method is outdated. Use **[FModel](https://fmodel.app/)** w
 3. Add the AES key from **[Mappings/AES.txt](Mappings/AES.txt)** and use the latest **[mapping (`.usmap`) file](Mappings/)**.
 4. Browse and export the assets you need.
 
-The 2.4 Steam store update uses changelist `1438640`. Use the [CL1438640 mapping from ARC Data Raiders](https://github.com/ARC-Data-Raiders/DataRaiders/blob/main/Unpacking/ArcRaiders_2.3.0_UE5.7.4_CL1438640.usmap).
+Steam 2.3 and 2.4 both use changelist `1438640`. [Silarious’s mapping for both builds](Mappings/ArcRaiders_2.3.0_UE5.7.4_CL1438640.usmap) · [ARC Data Raiders upload](https://github.com/ARC-Data-Raiders/DataRaiders/blob/main/Unpacking/ArcRaiders_2.3.0_UE5.7.4_CL1438640.usmap)
 
 For more help, assets, and an automatic model texturer visit the [Blend Raiders Discord](https://discord.gg/8xZHEudWN2) or the [community archive](https://drive.google.com/drive/folders/1BSm-QteBKxMn7CyHkg72xkPnjQRQJnJP?usp=sharing).
 
 ### Credits
 
-Maintained by **[Teralix42](https://github.com/Teralix42)**. This archive builds on work from **[AstroVal0](https://github.com/astroval0)** and **[Silarious](https://watch.silarious.online)**. The `Objects/` collection is now my own reconstruction and material work; please credit Teralix42 when using them.
+Maintained by **[Teralix42](https://github.com/Teralix42)**. This archive builds on work from **[AstroVal0](https://github.com/astroval0)** and **[Silarious](https://watch.silarious.online)**. The `Objects/` collection is my own reconstruction and material work. Please credit Teralix42 when using it.
+
+Mappings are provided in part by the [Blend Raiders](https://discord.gg/8xZHEudWN2) and [FModel](https://fmodel.app/) communities.
 
 *Unofficial fan-maintained resource. ARC Raiders and its game assets belong to Embark Studios. This archive is not affiliated with or endorsed by Embark Studios.*

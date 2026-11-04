@@ -11,34 +11,50 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 <a href="Renders/Fireball/01_Original_Materials_B.png"><img src="Renders/Fireball/01_Original_Materials_B.png" width="48%" alt="Fireball: Original Materials"></a>
 <a href="Renders/Fireball/03_Part_Health_B.png"><img src="Renders/Fireball/03_Part_Health_B.png" width="48%" alt="Fireball: Part Health"></a>
 
-### Layers and views
-
-| Layer | Visible structure |
-| --- | --- |
-| A | Without armor |
-| B | Full model |
-
 <details>
-<summary>All six views, including inner layers</summary>
+<summary>All stat renders</summary>
 
+**Original materials**
 
-**A: Without armor**
+<p align="center">
+  <a href="Renders/Fireball/01_Original_Materials_A.png"><img src="Renders/Fireball/01_Original_Materials_A.png" width="47%" alt="Fireball original materials"></a>
+  <a href="Renders/Fireball/01_Original_Materials_B.png"><img src="Renders/Fireball/01_Original_Materials_B.png" width="47%" alt="Fireball original materials"></a>
+</p>
 
-<a href="Renders/Fireball/01_Original_Materials_A.png"><img src="Renders/Fireball/01_Original_Materials_A.png" width="32%" alt="Original Materials, layer A"></a>
-<a href="Renders/Fireball/02_Part_Type_A.png"><img src="Renders/Fireball/02_Part_Type_A.png" width="32%" alt="Part Type, layer A"></a>
-<a href="Renders/Fireball/03_Part_Health_A.png"><img src="Renders/Fireball/03_Part_Health_A.png" width="32%" alt="Part Health, layer A"></a>
-<a href="Renders/Fireball/04_Break_Off_A.png"><img src="Renders/Fireball/04_Break_Off_A.png" width="32%" alt="Break Off, layer A"></a>
-<a href="Renders/Fireball/05_Scavenge_Interaction_A.png"><img src="Renders/Fireball/05_Scavenge_Interaction_A.png" width="32%" alt="Scavenge Interaction, layer A"></a>
-<a href="Renders/Fireball/06_Damage_Targets_A.png"><img src="Renders/Fireball/06_Damage_Targets_A.png" width="32%" alt="Damage Targets, layer A"></a>
+**Part type**
 
-**B: Full model**
+<p align="center">
+  <a href="Renders/Fireball/02_Part_Type_A.png"><img src="Renders/Fireball/02_Part_Type_A.png" width="47%" alt="Fireball part type"></a>
+  <a href="Renders/Fireball/02_Part_Type_B.png"><img src="Renders/Fireball/02_Part_Type_B.png" width="47%" alt="Fireball part type"></a>
+</p>
 
-<a href="Renders/Fireball/01_Original_Materials_B.png"><img src="Renders/Fireball/01_Original_Materials_B.png" width="32%" alt="Original Materials, layer B"></a>
-<a href="Renders/Fireball/02_Part_Type_B.png"><img src="Renders/Fireball/02_Part_Type_B.png" width="32%" alt="Part Type, layer B"></a>
-<a href="Renders/Fireball/03_Part_Health_B.png"><img src="Renders/Fireball/03_Part_Health_B.png" width="32%" alt="Part Health, layer B"></a>
-<a href="Renders/Fireball/04_Break_Off_B.png"><img src="Renders/Fireball/04_Break_Off_B.png" width="32%" alt="Break Off, layer B"></a>
-<a href="Renders/Fireball/05_Scavenge_Interaction_B.png"><img src="Renders/Fireball/05_Scavenge_Interaction_B.png" width="32%" alt="Scavenge Interaction, layer B"></a>
-<a href="Renders/Fireball/06_Damage_Targets_B.png"><img src="Renders/Fireball/06_Damage_Targets_B.png" width="32%" alt="Damage Targets, layer B"></a>
+**Part health**
+
+<p align="center">
+  <a href="Renders/Fireball/03_Part_Health_A.png"><img src="Renders/Fireball/03_Part_Health_A.png" width="47%" alt="Fireball part health"></a>
+  <a href="Renders/Fireball/03_Part_Health_B.png"><img src="Renders/Fireball/03_Part_Health_B.png" width="47%" alt="Fireball part health"></a>
+</p>
+
+**Break-off parts**
+
+<p align="center">
+  <a href="Renders/Fireball/04_Break_Off_A.png"><img src="Renders/Fireball/04_Break_Off_A.png" width="47%" alt="Fireball break-off parts"></a>
+  <a href="Renders/Fireball/04_Break_Off_B.png"><img src="Renders/Fireball/04_Break_Off_B.png" width="47%" alt="Fireball break-off parts"></a>
+</p>
+
+**Scavenging**
+
+<p align="center">
+  <a href="Renders/Fireball/05_Scavenge_Interaction_A.png"><img src="Renders/Fireball/05_Scavenge_Interaction_A.png" width="47%" alt="Fireball scavenging"></a>
+  <a href="Renders/Fireball/05_Scavenge_Interaction_B.png"><img src="Renders/Fireball/05_Scavenge_Interaction_B.png" width="47%" alt="Fireball scavenging"></a>
+</p>
+
+**Damage targets**
+
+<p align="center">
+  <a href="Renders/Fireball/06_Damage_Targets_A.png"><img src="Renders/Fireball/06_Damage_Targets_A.png" width="47%" alt="Fireball damage targets"></a>
+  <a href="Renders/Fireball/06_Damage_Targets_B.png"><img src="Renders/Fireball/06_Damage_Targets_B.png" width="47%" alt="Fireball damage targets"></a>
+</p>
 
 </details>
 

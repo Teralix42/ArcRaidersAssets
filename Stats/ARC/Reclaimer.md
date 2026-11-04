@@ -11,24 +11,44 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 <a href="Renders/Reclaimer/01_Original_Materials_A.png"><img src="Renders/Reclaimer/01_Original_Materials_A.png" width="48%" alt="ARC Reclaimer: Original Materials"></a>
 <a href="Renders/Reclaimer/03_Part_Health_A.png"><img src="Renders/Reclaimer/03_Part_Health_A.png" width="48%" alt="ARC Reclaimer: Part Health"></a>
 
-### Layers and views
-
-| Layer | Visible structure |
-| --- | --- |
-| A | Full model |
-
 <details>
-<summary>All six views, including inner layers</summary>
+<summary>All stat renders</summary>
 
+**Original materials**
 
-**A: Full model**
+<p align="center">
+  <a href="Renders/Reclaimer/01_Original_Materials_A.png"><img src="Renders/Reclaimer/01_Original_Materials_A.png" width="48%" alt="Reclaimer original materials"></a>
+</p>
 
-<a href="Renders/Reclaimer/01_Original_Materials_A.png"><img src="Renders/Reclaimer/01_Original_Materials_A.png" width="32%" alt="Original Materials, layer A"></a>
-<a href="Renders/Reclaimer/02_Part_Type_A.png"><img src="Renders/Reclaimer/02_Part_Type_A.png" width="32%" alt="Part Type, layer A"></a>
-<a href="Renders/Reclaimer/03_Part_Health_A.png"><img src="Renders/Reclaimer/03_Part_Health_A.png" width="32%" alt="Part Health, layer A"></a>
-<a href="Renders/Reclaimer/04_Break_Off_A.png"><img src="Renders/Reclaimer/04_Break_Off_A.png" width="32%" alt="Break Off, layer A"></a>
-<a href="Renders/Reclaimer/05_Scavenge_Interaction_A.png"><img src="Renders/Reclaimer/05_Scavenge_Interaction_A.png" width="32%" alt="Scavenge Interaction, layer A"></a>
-<a href="Renders/Reclaimer/06_Damage_Targets_A.png"><img src="Renders/Reclaimer/06_Damage_Targets_A.png" width="32%" alt="Damage Targets, layer A"></a>
+**Part type**
+
+<p align="center">
+  <a href="Renders/Reclaimer/02_Part_Type_A.png"><img src="Renders/Reclaimer/02_Part_Type_A.png" width="48%" alt="Reclaimer part type"></a>
+</p>
+
+**Part health**
+
+<p align="center">
+  <a href="Renders/Reclaimer/03_Part_Health_A.png"><img src="Renders/Reclaimer/03_Part_Health_A.png" width="48%" alt="Reclaimer part health"></a>
+</p>
+
+**Break-off parts**
+
+<p align="center">
+  <a href="Renders/Reclaimer/04_Break_Off_A.png"><img src="Renders/Reclaimer/04_Break_Off_A.png" width="48%" alt="Reclaimer break-off parts"></a>
+</p>
+
+**Scavenging**
+
+<p align="center">
+  <a href="Renders/Reclaimer/05_Scavenge_Interaction_A.png"><img src="Renders/Reclaimer/05_Scavenge_Interaction_A.png" width="48%" alt="Reclaimer scavenging"></a>
+</p>
+
+**Damage targets**
+
+<p align="center">
+  <a href="Renders/Reclaimer/06_Damage_Targets_A.png"><img src="Renders/Reclaimer/06_Damage_Targets_A.png" width="48%" alt="Reclaimer damage targets"></a>
+</p>
 
 </details>
 

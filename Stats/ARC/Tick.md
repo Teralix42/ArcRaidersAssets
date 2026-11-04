@@ -11,24 +11,44 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 <a href="Renders/Tick/01_Original_Materials_A.png"><img src="Renders/Tick/01_Original_Materials_A.png" width="48%" alt="Tick: Original Materials"></a>
 <a href="Renders/Tick/03_Part_Health_A.png"><img src="Renders/Tick/03_Part_Health_A.png" width="48%" alt="Tick: Part Health"></a>
 
-### Layers and views
-
-| Layer | Visible structure |
-| --- | --- |
-| A | Full model |
-
 <details>
-<summary>All six views, including inner layers</summary>
+<summary>All stat renders</summary>
 
+**Original materials**
 
-**A: Full model**
+<p align="center">
+  <a href="Renders/Tick/01_Original_Materials_A.png"><img src="Renders/Tick/01_Original_Materials_A.png" width="48%" alt="Tick original materials"></a>
+</p>
 
-<a href="Renders/Tick/01_Original_Materials_A.png"><img src="Renders/Tick/01_Original_Materials_A.png" width="32%" alt="Original Materials, layer A"></a>
-<a href="Renders/Tick/02_Part_Type_A.png"><img src="Renders/Tick/02_Part_Type_A.png" width="32%" alt="Part Type, layer A"></a>
-<a href="Renders/Tick/03_Part_Health_A.png"><img src="Renders/Tick/03_Part_Health_A.png" width="32%" alt="Part Health, layer A"></a>
-<a href="Renders/Tick/04_Break_Off_A.png"><img src="Renders/Tick/04_Break_Off_A.png" width="32%" alt="Break Off, layer A"></a>
-<a href="Renders/Tick/05_Scavenge_Interaction_A.png"><img src="Renders/Tick/05_Scavenge_Interaction_A.png" width="32%" alt="Scavenge Interaction, layer A"></a>
-<a href="Renders/Tick/06_Damage_Targets_A.png"><img src="Renders/Tick/06_Damage_Targets_A.png" width="32%" alt="Damage Targets, layer A"></a>
+**Part type**
+
+<p align="center">
+  <a href="Renders/Tick/02_Part_Type_A.png"><img src="Renders/Tick/02_Part_Type_A.png" width="48%" alt="Tick part type"></a>
+</p>
+
+**Part health**
+
+<p align="center">
+  <a href="Renders/Tick/03_Part_Health_A.png"><img src="Renders/Tick/03_Part_Health_A.png" width="48%" alt="Tick part health"></a>
+</p>
+
+**Break-off parts**
+
+<p align="center">
+  <a href="Renders/Tick/04_Break_Off_A.png"><img src="Renders/Tick/04_Break_Off_A.png" width="48%" alt="Tick break-off parts"></a>
+</p>
+
+**Scavenging**
+
+<p align="center">
+  <a href="Renders/Tick/05_Scavenge_Interaction_A.png"><img src="Renders/Tick/05_Scavenge_Interaction_A.png" width="48%" alt="Tick scavenging"></a>
+</p>
+
+**Damage targets**
+
+<p align="center">
+  <a href="Renders/Tick/06_Damage_Targets_A.png"><img src="Renders/Tick/06_Damage_Targets_A.png" width="48%" alt="Tick damage targets"></a>
+</p>
 
 </details>
 

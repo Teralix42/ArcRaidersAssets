@@ -11,24 +11,44 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 <a href="Renders/Pop/01_Original_Materials_A.png"><img src="Renders/Pop/01_Original_Materials_A.png" width="48%" alt="Pop: Original Materials"></a>
 <a href="Renders/Pop/03_Part_Health_A.png"><img src="Renders/Pop/03_Part_Health_A.png" width="48%" alt="Pop: Part Health"></a>
 
-### Layers and views
-
-| Layer | Visible structure |
-| --- | --- |
-| A | Full model |
-
 <details>
-<summary>All six views, including inner layers</summary>
+<summary>All stat renders</summary>
 
+**Original materials**
 
-**A: Full model**
+<p align="center">
+  <a href="Renders/Pop/01_Original_Materials_A.png"><img src="Renders/Pop/01_Original_Materials_A.png" width="48%" alt="Pop original materials"></a>
+</p>
 
-<a href="Renders/Pop/01_Original_Materials_A.png"><img src="Renders/Pop/01_Original_Materials_A.png" width="32%" alt="Original Materials, layer A"></a>
-<a href="Renders/Pop/02_Part_Type_A.png"><img src="Renders/Pop/02_Part_Type_A.png" width="32%" alt="Part Type, layer A"></a>
-<a href="Renders/Pop/03_Part_Health_A.png"><img src="Renders/Pop/03_Part_Health_A.png" width="32%" alt="Part Health, layer A"></a>
-<a href="Renders/Pop/04_Break_Off_A.png"><img src="Renders/Pop/04_Break_Off_A.png" width="32%" alt="Break Off, layer A"></a>
-<a href="Renders/Pop/05_Scavenge_Interaction_A.png"><img src="Renders/Pop/05_Scavenge_Interaction_A.png" width="32%" alt="Scavenge Interaction, layer A"></a>
-<a href="Renders/Pop/06_Damage_Targets_A.png"><img src="Renders/Pop/06_Damage_Targets_A.png" width="32%" alt="Damage Targets, layer A"></a>
+**Part type**
+
+<p align="center">
+  <a href="Renders/Pop/02_Part_Type_A.png"><img src="Renders/Pop/02_Part_Type_A.png" width="48%" alt="Pop part type"></a>
+</p>
+
+**Part health**
+
+<p align="center">
+  <a href="Renders/Pop/03_Part_Health_A.png"><img src="Renders/Pop/03_Part_Health_A.png" width="48%" alt="Pop part health"></a>
+</p>
+
+**Break-off parts**
+
+<p align="center">
+  <a href="Renders/Pop/04_Break_Off_A.png"><img src="Renders/Pop/04_Break_Off_A.png" width="48%" alt="Pop break-off parts"></a>
+</p>
+
+**Scavenging**
+
+<p align="center">
+  <a href="Renders/Pop/05_Scavenge_Interaction_A.png"><img src="Renders/Pop/05_Scavenge_Interaction_A.png" width="48%" alt="Pop scavenging"></a>
+</p>
+
+**Damage targets**
+
+<p align="center">
+  <a href="Renders/Pop/06_Damage_Targets_A.png"><img src="Renders/Pop/06_Damage_Targets_A.png" width="48%" alt="Pop damage targets"></a>
+</p>
 
 </details>
 

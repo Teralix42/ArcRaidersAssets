@@ -11,44 +11,56 @@ Frame HP is a balancing rule, not the sum of every limb or plate. Part rules and
 <a href="Renders/Vaporizer/01_Original_Materials_C.png"><img src="Renders/Vaporizer/01_Original_Materials_C.png" width="48%" alt="Vaporizer: Original Materials"></a>
 <a href="Renders/Vaporizer/03_Part_Health_C.png"><img src="Renders/Vaporizer/03_Part_Health_C.png" width="48%" alt="Vaporizer: Part Health"></a>
 
-### Layers and views
-
-| Layer | Visible structure |
-| --- | --- |
-| A | Core + limb structure |
-| B | Without armor |
-| C | Full model |
-
 <details>
-<summary>All six views, including inner layers</summary>
+<summary>All stat renders</summary>
 
+**Original materials**
 
-**A: Core + limb structure**
+<p align="center">
+  <a href="Renders/Vaporizer/01_Original_Materials_A.png"><img src="Renders/Vaporizer/01_Original_Materials_A.png" width="31%" alt="Vaporizer original materials"></a>
+  <a href="Renders/Vaporizer/01_Original_Materials_B.png"><img src="Renders/Vaporizer/01_Original_Materials_B.png" width="31%" alt="Vaporizer original materials"></a>
+  <a href="Renders/Vaporizer/01_Original_Materials_C.png"><img src="Renders/Vaporizer/01_Original_Materials_C.png" width="31%" alt="Vaporizer original materials"></a>
+</p>
 
-<a href="Renders/Vaporizer/01_Original_Materials_A.png"><img src="Renders/Vaporizer/01_Original_Materials_A.png" width="32%" alt="Original Materials, layer A"></a>
-<a href="Renders/Vaporizer/02_Part_Type_A.png"><img src="Renders/Vaporizer/02_Part_Type_A.png" width="32%" alt="Part Type, layer A"></a>
-<a href="Renders/Vaporizer/03_Part_Health_A.png"><img src="Renders/Vaporizer/03_Part_Health_A.png" width="32%" alt="Part Health, layer A"></a>
-<a href="Renders/Vaporizer/04_Break_Off_A.png"><img src="Renders/Vaporizer/04_Break_Off_A.png" width="32%" alt="Break Off, layer A"></a>
-<a href="Renders/Vaporizer/05_Scavenge_Interaction_A.png"><img src="Renders/Vaporizer/05_Scavenge_Interaction_A.png" width="32%" alt="Scavenge Interaction, layer A"></a>
-<a href="Renders/Vaporizer/06_Damage_Targets_A.png"><img src="Renders/Vaporizer/06_Damage_Targets_A.png" width="32%" alt="Damage Targets, layer A"></a>
+**Part type**
 
-**B: Without armor**
+<p align="center">
+  <a href="Renders/Vaporizer/02_Part_Type_A.png"><img src="Renders/Vaporizer/02_Part_Type_A.png" width="31%" alt="Vaporizer part type"></a>
+  <a href="Renders/Vaporizer/02_Part_Type_B.png"><img src="Renders/Vaporizer/02_Part_Type_B.png" width="31%" alt="Vaporizer part type"></a>
+  <a href="Renders/Vaporizer/02_Part_Type_C.png"><img src="Renders/Vaporizer/02_Part_Type_C.png" width="31%" alt="Vaporizer part type"></a>
+</p>
 
-<a href="Renders/Vaporizer/01_Original_Materials_B.png"><img src="Renders/Vaporizer/01_Original_Materials_B.png" width="32%" alt="Original Materials, layer B"></a>
-<a href="Renders/Vaporizer/02_Part_Type_B.png"><img src="Renders/Vaporizer/02_Part_Type_B.png" width="32%" alt="Part Type, layer B"></a>
-<a href="Renders/Vaporizer/03_Part_Health_B.png"><img src="Renders/Vaporizer/03_Part_Health_B.png" width="32%" alt="Part Health, layer B"></a>
-<a href="Renders/Vaporizer/04_Break_Off_B.png"><img src="Renders/Vaporizer/04_Break_Off_B.png" width="32%" alt="Break Off, layer B"></a>
-<a href="Renders/Vaporizer/05_Scavenge_Interaction_B.png"><img src="Renders/Vaporizer/05_Scavenge_Interaction_B.png" width="32%" alt="Scavenge Interaction, layer B"></a>
-<a href="Renders/Vaporizer/06_Damage_Targets_B.png"><img src="Renders/Vaporizer/06_Damage_Targets_B.png" width="32%" alt="Damage Targets, layer B"></a>
+**Part health**
 
-**C: Full model**
+<p align="center">
+  <a href="Renders/Vaporizer/03_Part_Health_A.png"><img src="Renders/Vaporizer/03_Part_Health_A.png" width="31%" alt="Vaporizer part health"></a>
+  <a href="Renders/Vaporizer/03_Part_Health_B.png"><img src="Renders/Vaporizer/03_Part_Health_B.png" width="31%" alt="Vaporizer part health"></a>
+  <a href="Renders/Vaporizer/03_Part_Health_C.png"><img src="Renders/Vaporizer/03_Part_Health_C.png" width="31%" alt="Vaporizer part health"></a>
+</p>
 
-<a href="Renders/Vaporizer/01_Original_Materials_C.png"><img src="Renders/Vaporizer/01_Original_Materials_C.png" width="32%" alt="Original Materials, layer C"></a>
-<a href="Renders/Vaporizer/02_Part_Type_C.png"><img src="Renders/Vaporizer/02_Part_Type_C.png" width="32%" alt="Part Type, layer C"></a>
-<a href="Renders/Vaporizer/03_Part_Health_C.png"><img src="Renders/Vaporizer/03_Part_Health_C.png" width="32%" alt="Part Health, layer C"></a>
-<a href="Renders/Vaporizer/04_Break_Off_C.png"><img src="Renders/Vaporizer/04_Break_Off_C.png" width="32%" alt="Break Off, layer C"></a>
-<a href="Renders/Vaporizer/05_Scavenge_Interaction_C.png"><img src="Renders/Vaporizer/05_Scavenge_Interaction_C.png" width="32%" alt="Scavenge Interaction, layer C"></a>
-<a href="Renders/Vaporizer/06_Damage_Targets_C.png"><img src="Renders/Vaporizer/06_Damage_Targets_C.png" width="32%" alt="Damage Targets, layer C"></a>
+**Break-off parts**
+
+<p align="center">
+  <a href="Renders/Vaporizer/04_Break_Off_A.png"><img src="Renders/Vaporizer/04_Break_Off_A.png" width="31%" alt="Vaporizer break-off parts"></a>
+  <a href="Renders/Vaporizer/04_Break_Off_B.png"><img src="Renders/Vaporizer/04_Break_Off_B.png" width="31%" alt="Vaporizer break-off parts"></a>
+  <a href="Renders/Vaporizer/04_Break_Off_C.png"><img src="Renders/Vaporizer/04_Break_Off_C.png" width="31%" alt="Vaporizer break-off parts"></a>
+</p>
+
+**Scavenging**
+
+<p align="center">
+  <a href="Renders/Vaporizer/05_Scavenge_Interaction_A.png"><img src="Renders/Vaporizer/05_Scavenge_Interaction_A.png" width="31%" alt="Vaporizer scavenging"></a>
+  <a href="Renders/Vaporizer/05_Scavenge_Interaction_B.png"><img src="Renders/Vaporizer/05_Scavenge_Interaction_B.png" width="31%" alt="Vaporizer scavenging"></a>
+  <a href="Renders/Vaporizer/05_Scavenge_Interaction_C.png"><img src="Renders/Vaporizer/05_Scavenge_Interaction_C.png" width="31%" alt="Vaporizer scavenging"></a>
+</p>
+
+**Damage targets**
+
+<p align="center">
+  <a href="Renders/Vaporizer/06_Damage_Targets_A.png"><img src="Renders/Vaporizer/06_Damage_Targets_A.png" width="31%" alt="Vaporizer damage targets"></a>
+  <a href="Renders/Vaporizer/06_Damage_Targets_B.png"><img src="Renders/Vaporizer/06_Damage_Targets_B.png" width="31%" alt="Vaporizer damage targets"></a>
+  <a href="Renders/Vaporizer/06_Damage_Targets_C.png"><img src="Renders/Vaporizer/06_Damage_Targets_C.png" width="31%" alt="Vaporizer damage targets"></a>
+</p>
 
 </details>
 

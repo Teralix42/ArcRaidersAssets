@@ -6,8 +6,6 @@
 
 Body damage is the 1× reference per projectile at level I or in the unlevelled config, before falloff and shields. The headshot column shows the weapon’s critical multiplier. Launchers list their non-ARC impact damage.
 
-Upgrades can change how fast a gun shoots without changing the damage per shot. The Anvil goes from **40 to 70 RPM** between I and IV and keeps its **40 body damage** at every standard level. [Anvil](Anvil.md)
-
 | Weapon | Ammo | Body damage (1×) | Headshot × | RPM | Mag |
 | --- | --- | --- | --- | --- | --- |
 | [Anvil](Anvil.md) | Heavy | 40 | 2.5 | 40 | 6 |

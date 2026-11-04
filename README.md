@@ -30,13 +30,14 @@
 
 ### Combat stats
 
-- **ARC machines.** Frame and part HP, armor and weak points for 26 machines. The Rocketeer has **1,100 frame HP** and **345 HP per thruster**. [ARC stats](Stats/ARC/)
-- **Damage against Raiders.** A standard Anvil does **40 body damage** or **100 headshot damage** before falloff and shields. [Weapons](Stats/Weapons/README.md#damage-against-raiders) · [Shields](Stats/Shields/)
+- **[ARC machine stats](Stats/ARC/)** — Frame and part HP, armor, weak points, and damage resistance for 26 machines.
+- **[Weapon stats](Stats/Weapons/)** — Body damage and headshot multipliers against Raiders, ARC damage, falloff, and Amplified configs.
+- **[Shield stats](Stats/Shields/)** — Shield strength, damage reduction, and movement speed for Raiders.
 
 <p align="center">
-  <a href="Stats/ARC/Renders/Rocketeer/03_Part_Health_B.png"><img src="Stats/ARC/Renders/Rocketeer/03_Part_Health_B.png" width="50%" alt="Rocketeer part health with the armor hidden and all four thrusters shown in red"></a>
+  <a href="Stats/ARC/Renders/Bastion/03_Part_Health_C.png"><img src="Stats/ARC/Renders/Bastion/03_Part_Health_C.png" width="31%" alt="Bastion part health, layer C"></a><img src="Renders/Previews/Gap.svg" width="2%" height="1" alt=""><a href="Stats/ARC/Renders/Rocketeer/02_Part_Type_C.png"><img src="Stats/ARC/Renders/Rocketeer/02_Part_Type_C.png" width="31%" alt="Rocketeer part type, layer C"></a><img src="Renders/Previews/Gap.svg" width="2%" height="1" alt=""><a href="Stats/ARC/Renders/Leaper/01_Original_Materials_A.png"><img src="Stats/ARC/Renders/Leaper/01_Original_Materials_A.png" width="31%" alt="Leaper original materials, layer A"></a>
   <br>
-  <sub>Rocketeer part health with the armor hidden. <a href="Stats/ARC/Rocketeer.md">All Rocketeer layers and stats</a></sub>
+  <sub><a href="Stats/ARC/Bastion.md">Bastion</a> &nbsp;·&nbsp; <a href="Stats/ARC/Rocketeer.md">Rocketeer</a> &nbsp;·&nbsp; <a href="Stats/ARC/Leaper.md">Leaper</a></sub>
 </p>
 
 ### Renders

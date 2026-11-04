@@ -2,7 +2,7 @@
 
 [Combat stats](../README.md) · [Damage against Raiders](../Weapons/README.md#damage-against-raiders)
 
-All three Raider shields cover the head, body and legs. Heavy has twice the strength of Light and reduces more damage, at the cost of **10% run and sprint speed**.
+All three Raider shields cover the head, body, and legs. Run and sprint speed are shown as a percentage of normal speed.
 
 | Shield | Shield strength | Damage reduction | Run and sprint speed |
 | --- | --- | --- | --- |

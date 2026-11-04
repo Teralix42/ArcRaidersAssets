@@ -2,11 +2,11 @@
 
 ### ARC machines
 
-Frame health, armor and weak points for 26 ARC machines. Open a machine to see what each part can take, how it resists damage, and what it looks like with the outer layers stripped away. [ARC stats](ARC/)
+Frame and part HP, armor, weak points, and damage resistance for 26 machines. Part tables include resistance groups and health rules. [ARC stats](ARC/)
 
 ### Damage against Raiders
 
-- **[Weapons](Weapons/README.md#damage-against-raiders)** — Compare body damage and headshot multipliers, then open a weapon for each level, Amplified config and damage falloff curve.
-- **[Shields](Shields/)** — Compare how much damage each shield reduces and how it affects running and sprinting.
+- **[Weapons](Weapons/README.md#damage-against-raiders)** — Body damage, headshot multipliers, fire rate, and magazine size. Each weapon page has upgrade stats, Amplified configs, falloff curves, and damage against ARC.
+- **[Shields](Shields/)** — Shield strength, damage reduction, and run and sprint speed.
 
-The numbers come from game configs and recovered damage rules. The original package JSONs and script evidence are here too. [Game files](Sources/)
+Extracted game configs and recovered damage rules. [Game files](Sources/)

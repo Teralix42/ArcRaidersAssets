@@ -2,9 +2,7 @@
 
 [Combat stats](../README.md) · [Stat renders](Renders/) · [Stats models](Models/) · [Damage model](Damage_Model.md) · [JSON](arc_parts.json)
 
-Health, armor and weak points for 26 ARC machines. Frame HP comes from the machine's frame rule. Thrusters, armor plates and other parts can have their own HP and pass damage along to the frame.
-
-A Wasp has **30 HP per thruster**. Each thruster is marked Fragile and takes **1.2×** base physical damage. Armor starts at **0.4×**, with a separate modifier for each weapon. [Wasp](Wasp.md) · [Damage model](Damage_Model.md)
+Frame and part HP, armor, weak points, and damage multipliers for 26 ARC machines. Each machine page includes the rules used to assign part HP. [Damage model](Damage_Model.md)
 
 | ARC | Frame HP | Stats model |
 | --- | --- | --- |
@@ -37,6 +35,4 @@ A Wasp has **30 HP per thruster**. Each thruster is marked Fragile and takes **1
 
 ### Renders and Blender models
 
-Open a machine for its part health, break-off, scavenging and damage target views. Layer A shows the innermost structure. The last layer shows the full machine. Start with the **Part Health** view to see the HP colors, then use the table for exact values. [Rocketeer layers](Rocketeer.md#layers-and-views)
-
-The Blender files have packed textures. Run `RUN ARC Inspector.py` to use the ARC Inspector sidebar and click through the parts and layers.
+The renders show part health, part types, break-off parts, scavenging, and damage targets. Blender files have packed textures and the ARC Inspector sidebar. Run `RUN ARC Inspector.py` to open it.

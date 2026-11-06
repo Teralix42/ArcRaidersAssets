@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_LowTier_01/BP_Item_SMG_LowTier_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_LowTier_01/DA_Item_SMG_LowTier_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_LowTier_01/BP_WeaponQualitySet_SMG_LowTier_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_LowTier_01/BP_Projectile_SMG_LowTier_01.json) · [BP_Item_SMG_Base](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shared/BaseClasses/SMG_Base/BP_Item_SMG_Base.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,7 +16,8 @@
 | Headshot multiplier | 1.75× |
 | ARC armor multiplier | 0.2× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 680 |
+| Configured fire rate (RPM) | 680 |
+| RPM interval (s) | 0.0882 |
 | Magazine | 20 |
 | Reload stat (s) | 3 |
 | Firing mode | Full-auto |

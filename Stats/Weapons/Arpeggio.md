@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Burst_01/BP_Item_AssaultRifle_Burst_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Burst_01/DA_Item_AssaultRifle_Burst_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Burst_01/BP_WeaponQualitySet_AssaultRifle_Burst_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Burst_01/BP_Projectile_AssaultRifle_Burst_01.json) · [BP_Item_AssaultRifle_Base](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shared/BaseClasses/AssaultRifle_Base/BP_Item_AssaultRifle_Base.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,7 +16,8 @@
 | Headshot multiplier | 2× |
 | ARC armor multiplier | 1× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 1100 |
+| Configured fire rate (RPM) | 1100 |
+| RPM interval (s) | 0.0545 |
 | Magazine | 24 |
 | Reload stat (s) | 4 |
 | Cooldown (s) | 0.5 |

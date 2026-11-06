@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_Item_Shotgun_SemiAuto_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/DA_Item_Shotgun_SemiAuto_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_WeaponQualitySet_Shotgun_SemiAuto_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shotgun_SemiAuto_01/BP_Projectile_Shotgun_SemiAuto_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 1× |
 | ARC armor multiplier | 0.5× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 126 |
+| Configured fire rate (RPM) | 126 |
+| RPM interval (s) | 0.4762 |
 | Magazine | 6 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3.5 |
 | Firing mode | Semi-auto |
 | Projectiles per shot | 9 |
@@ -28,11 +32,11 @@
 
 All deltas are relative to Level I. A dash means unchanged.
 
-| Level | Fire rate (RPM) | Reload stat (s) | Durability burn rate |
-| --- | --- | --- | --- |
-| II | +14 | −0.5 | −0.000556 |
-| III | +28 | −1 | −0.001113 |
-| IV | +42 | −1.5 | −0.001669 |
+| Level | Configured fire rate (RPM) | Reload stat (s) | Durability burn rate | RPM interval (s) |
+| --- | --- | --- | --- | --- |
+| II | +14 | −0.5 | −0.000556 | −0.0476 |
+| III | +28 | −1 | −0.001113 | −0.0866 |
+| IV | +42 | −1.5 | −0.001669 | −0.119 |
 
 ### Direct physical damage to ARC
 

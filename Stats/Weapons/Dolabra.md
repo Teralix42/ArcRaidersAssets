@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Item_Shotgun_Energy_Adjustable_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/DA_Item_Shotgun_Energy_Adjustable_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shotgun_Energy_Adjustable_01/BP_Projectile_Shotgun_Energy_Adjustable_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Standard
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 1× |
 | ARC armor multiplier | 1.5× |
 | ARC weak-point multiplier | 1.5× |
-| Fire rate (RPM) | 55 |
+| Configured fire rate (RPM) | 55 |
+| RPM interval (s) | 1.0909 |
 | Magazine | 8 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3.25 |
 | Firing mode | Semi-auto |
 | Projectiles per shot | 19 |
@@ -26,7 +30,7 @@
 ### Firing, reload and impact details
 
 - Hits required for full damage **2**
-- Damage is hit-normalized. Multiplying the listed damage by every projectile would overstate a full spread.
+- The hit-processing profile uses `HitsForFullDamage = 2` with 19 trace rays.
 
 ### Damage falloff
 

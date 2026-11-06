@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_Item_AssaultRifle_Bullpup_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/DA_Item_AssaultRifle_Bullpup_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_WeaponQualitySet_AssaultRifle_Bullpup_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/AssaultRifle_Bullpup_01/BP_Projectile_AssaultRifle_Bullpup_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,7 +16,8 @@
 | Headshot multiplier | 1.5× |
 | ARC armor multiplier | 0.8× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 550 |
+| Configured fire rate (RPM) | 550 |
+| RPM interval (s) | 0.1091 |
 | Magazine | 25 |
 | Reload stat (s) | 3.75 |
 | Firing mode | Full-auto |

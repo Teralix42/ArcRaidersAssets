@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/LMG_Medium_01/BP_Item_LMG_Medium_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/LMG_Medium_01/DA_Item_LMG_Medium_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/LMG_Medium_01/BP_WeaponQualitySet_LMG_Medium_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/LMG_Medium_01/BP_Projectile_LMG_Medium_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,7 +16,8 @@
 | Headshot multiplier | 2× |
 | ARC armor multiplier | 1× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 800 |
+| Configured fire rate (RPM) | 800 |
+| RPM interval (s) | 0.075 |
 | Magazine | 60 |
 | Reload stat (s) | 8 |
 | Firing mode | Full-auto |

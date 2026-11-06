@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Item_Special_BeamRifle_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/DA_Item_Special_BeamRifle_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/BP_Projectile_Special_BeamRifle_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Standard
 
 | Stat | Value |
@@ -14,7 +16,8 @@
 | Headshot multiplier | 2× |
 | ARC armor multiplier | 2.5× |
 | ARC weak-point multiplier | 1.5× |
-| Fire rate (RPM) | 500 |
+| Configured fire rate (RPM) | 500 |
+| RPM interval (s) | 0.12 |
 | Magazine | 50 |
 | Reload stat (s) | 3 |
 | Firing mode | Full-auto |
@@ -30,17 +33,14 @@
 
 ### Amplified
 
-Amplified default uses the standard weapon as its baseline. Changes include Durability burn rate **−0.000149**.
-
-[Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/DA_Upgrade_Special_BeamRifle_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/BP_Item_Special_BeamRifle_01_Ascended.json)
-
-Changes are relative to the Amplified default. Where an upgrade has a prerequisite, its row includes the prerequisite’s changes.
+Default changes are relative to Standard; upgrade changes are relative to the Amplified default. Prerequisite changes are included where required.
 
 | Upgrade | Stat changes | What it does | Game files |
 | --- | --- | --- | --- |
+| Default | Durability burn rate **−0.000149** | Amplified baseline. | [Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/DA_Upgrade_Special_BeamRifle_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/BP_Item_Special_BeamRifle_01_Ascended.json) |
 | Anti-Weak Point | ARC armor multiplier **−1.5×**, ARC weak-point multiplier **+1×** | Deals increased damage to ARC weak points, but deals less damage to ARC armor plating. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/DA_Upgrade_Special_BeamRifle_01_AntiWeakPoint.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Special_BeamRifle_01_AntiWeakPoint.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Permutations/BP_Item_Special_BeamRifle_01_AntiWeakPoint.json) |
 | Bigger Mag | Magazine **+30** | Increases the magazine capacity. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/DA_Upgrade_Special_BeamRifle_01_BiggerMag.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Special_BeamRifle_01_BiggerMag.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Permutations/BP_Item_Special_BeamRifle_01_BiggerMag.json) |
-| Ramping Damage | — | Gradually increases the Equalizer's damage while its laser remains in contact with a valid target. Charge-to-damage curve (0 → 0.8, 1 → 1.5) [Curve](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/Curve_DamagePerConsecutiveShot_Special_BeamRifle_01_RampingDamage.json). | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/DA_Upgrade_Special_BeamRifle_01_RampingDamage.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Permutations/BP_Item_Special_BeamRifle_01_RampingDamage.json) |
+| Ramping Damage | Damage per tick at zero ramp **−1.6 (8 → 6.4)**, Damage per tick at full ramp **+4 (8 → 12)** | Gradually increases the Equalizer's damage while its laser remains in contact with a valid target. Charge-to-damage curve (0 → 0.8, 1 → 1.5) [Curve](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/Curve_DamagePerConsecutiveShot_Special_BeamRifle_01_RampingDamage.json). | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Upgrades/DA_Upgrade_Special_BeamRifle_01_RampingDamage.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_BeamRifle_01/Ascended/Permutations/BP_Item_Special_BeamRifle_01_RampingDamage.json) |
 
 **Mutually exclusive:** Ramping Damage, Anti-Weak Point.
 

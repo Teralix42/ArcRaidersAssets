@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Item_HandCannon_SingleAction_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/DA_Item_HandCannon_SingleAction_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_WeaponQualitySet_HandCannon_SingleAction_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/BP_Projectile_HandCannon_SingleAction_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 2.5× |
 | ARC armor multiplier | 1.5× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 40 |
+| Configured fire rate (RPM) | 40 |
+| RPM interval (s) | 1.5 |
 | Magazine | 6 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 2.5 |
 | Firing mode | Semi-auto |
 | Projectiles per shot | 1 |
@@ -31,22 +35,19 @@
 
 All deltas are relative to Level I. A dash means unchanged.
 
-| Level | Fire rate (RPM) | Durability burn rate | Handling modifiers |
-| --- | --- | --- | --- |
-| II | +10 | −0.000533 | −0.25 dispersion recovery speed |
-| III | +20 | −0.001067 | −0.5 dispersion recovery speed |
-| IV | +30 | −0.0016 | −0.75 dispersion recovery speed |
+| Level | Configured fire rate (RPM) | Durability burn rate | Handling modifiers | RPM interval (s) |
+| --- | --- | --- | --- | --- |
+| II | +10 | −0.000533 | −0.25 dispersion recovery speed | −0.3 |
+| III | +20 | −0.001067 | −0.5 dispersion recovery speed | −0.5 |
+| IV | +30 | −0.0016 | −0.75 dispersion recovery speed | −0.6429 |
 
 ### Amplified
 
-Amplified default uses Level IV. Changes include Durability burn rate **−0.001866**.
-
-[Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/DA_Upgrade_HandCannon_SingleAction_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/BP_Item_HandCannon_SingleAction_01_Ascended.json)
-
-Changes are relative to the Amplified default. Where an upgrade has a prerequisite, its row includes the prerequisite’s changes.
+Default changes are relative to Level IV; upgrade changes are relative to the Amplified default. Prerequisite changes are included where required.
 
 | Upgrade | Stat changes | What it does | Game files |
 | --- | --- | --- | --- |
+| Default | Durability burn rate **−0.001866** | Amplified baseline. | [Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/DA_Upgrade_HandCannon_SingleAction_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/BP_Item_HandCannon_SingleAction_01_Ascended.json) |
 | Anvil Splitter | Body damage / projectile **−28**, Headshot multiplier **−1×**, Projectiles per shot **+3**, Damage if all projectiles hit **+8**, −30% base dispersion, −90% dispersion recovery speed, +0.4 ADS dispersion scale, −100% max movement dispersion | Replaces the Anvil's bullets with rounds that split into four weaker projectiles. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/DA_Upgrade_HandCannon_SingleAction_01_ProjectileSplitter.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/BP_UpgradeWeaponMod_HandCannon_SingleAction_01_ProjectileSplitter.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Permutations/BP_Item_HandCannon_SingleAction_01_ProjectileSplitter.json) |
 | X-Rounds | Body damage / projectile **+5**, Headshot multiplier **−0.25×**, ARC armor multiplier **+0.5×**, Damage if all projectiles hit **+5**, +30% vertical recoil, +30% horizontal recoil, −50% projectile speed | Adds an explosive compound to the projectile, dealing slightly increased damage to Raiders and significantly increased damage to ARC Armor plating. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/DA_Upgrade_HandCannon_SingleAction_01_XRounds.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Upgrades/BP_UpgradeWeaponMod_HandCannon_SingleAction_01_XRounds.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_SingleAction_01/Ascended/Permutations/BP_Item_HandCannon_SingleAction_01_XRounds.json) |
 

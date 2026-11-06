@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/BP_Item_BattleRifle_LeverAction_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/DA_Item_BattleRifle_LeverAction_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/BP_WeaponQualitySet_BattleRifle_LeverAction_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/BP_Projectile_BattleRifle_LeverAction_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 2.25× |
 | ARC armor multiplier | 0.8× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 45 |
+| Configured fire rate (RPM) | 45 |
+| RPM interval (s) | 1.3333 |
 | Magazine | 8 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3.5 |
 | Firing mode | Semi-auto |
 | ARC armor propagation multiplier | 0.4× |
@@ -29,24 +33,21 @@
 
 All deltas are relative to Level I. A dash means unchanged.
 
-| Level | Fire rate (RPM) | Durability burn rate | Handling modifiers |
-| --- | --- | --- | --- |
-| II | +15 | −0.000372 | −16.666667% dispersion recovery speed |
-| III | +30 | −0.000744 | −33.333333% dispersion recovery speed |
-| IV | +45 | −0.001116 | −50% dispersion recovery speed |
+| Level | Configured fire rate (RPM) | Durability burn rate | Handling modifiers | RPM interval (s) |
+| --- | --- | --- | --- | --- |
+| II | +15 | −0.000372 | −16.666667% dispersion recovery speed | −0.3333 |
+| III | +30 | −0.000744 | −33.333333% dispersion recovery speed | −0.5333 |
+| IV | +45 | −0.001116 | −50% dispersion recovery speed | −0.6667 |
 
 ### Amplified
 
-Amplified default uses Level IV. Changes include Durability burn rate **−0.001301**.
-
-[Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_LeverAction_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/BP_Item_BattleRifle_LeverAction_01_Ascended.json)
-
-Changes are relative to the Amplified default. Where an upgrade has a prerequisite, its row includes the prerequisite’s changes.
+Default changes are relative to Level IV; upgrade changes are relative to the Amplified default. Prerequisite changes are included where required.
 
 | Upgrade | Stat changes | What it does | Game files |
 | --- | --- | --- | --- |
+| Default | Durability burn rate **−0.001301** | Amplified baseline. | [Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_LeverAction_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/BP_Item_BattleRifle_LeverAction_01_Ascended.json) |
 | More Reload | Rounds loaded per reload loop **+1** | Increases the number of bullets loaded at a time, reducing reload time. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_LeverAction_01_MoreReload.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/BP_UpgradeWeaponMod_BattleRifle_LeverAction_01_MoreReload.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/BP_Item_BattleRifle_LeverAction_01_MoreReload.json) |
-| Scoped | Zoom modifier fraction **0.5** (game setting), Base zoom time **+0.2 s**, UI range score **+6.057**, UI stability score **−2.935** | Adds a scope to the weapon, allowing it to be fired from a scoped view. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_LeverAction_01_Scoped.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/BP_UpgradeWeaponMod_BattleRifle_LeverAction_01_Scoped.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/BP_Item_BattleRifle_LeverAction_01_Scoped.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/DA_Item_BattleRifle_LeverAction_01_Scoped.json) · [Animation config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/DA_ItemAnimationContainer_BattleRifle_LeverAction_01_Scoped.json) |
+| Scoped | Zoom modifier fraction **0.5** (game setting), Base zoom time **+0.2 s**, UI range score **+6.057**, UI stability score **−2.935**, Scoped view **enabled** | Adds a scope to the weapon, allowing it to be fired from a scoped view. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/DA_Upgrade_BattleRifle_LeverAction_01_Scoped.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Upgrades/BP_UpgradeWeaponMod_BattleRifle_LeverAction_01_Scoped.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/BP_Item_BattleRifle_LeverAction_01_Scoped.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/DA_Item_BattleRifle_LeverAction_01_Scoped.json) · [Animation config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_LeverAction_01/Ascended/Permutations/DA_ItemAnimationContainer_BattleRifle_LeverAction_01_Scoped.json) |
 
 ### Direct physical damage to ARC
 

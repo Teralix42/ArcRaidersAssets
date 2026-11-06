@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/BP_Item_Pistol_Silenced_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/DA_Item_Pistol_Silenced_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/BP_WeaponQualitySet_Pistol_Silenced_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/BP_Projectile_Pistol_Silenced_01.json) · [BP_Item_Pistol_Base](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shared/BaseClasses/Pistol_Base/BP_Item_Pistol_Base.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 2.5× |
 | ARC armor multiplier | 0.2× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 55.5 |
+| Configured fire rate (RPM) | 55.5 |
+| RPM interval (s) | 1.0811 |
 | Magazine | 8 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3 |
 | Firing mode | Semi-auto |
 | ARC armor propagation multiplier | 0.1× |
@@ -26,26 +30,23 @@
 
 All deltas are relative to Level I. A dash means unchanged.
 
-| Level | Fire rate (RPM) | Reload stat (s) | Durability burn rate |
-| --- | --- | --- | --- |
-| II | +4.5 | −0.5 | −0.000367 |
-| III | +9 | −1 | −0.000735 |
-| IV | +13.5 | −1.5 | −0.001102 |
+| Level | Configured fire rate (RPM) | Reload stat (s) | Durability burn rate | RPM interval (s) |
+| --- | --- | --- | --- | --- |
+| II | +4.5 | −0.5 | −0.000367 | −0.0811 |
+| III | +9 | −1 | −0.000735 | −0.1508 |
+| IV | +13.5 | −1.5 | −0.001102 | −0.2115 |
 
 ### Amplified
 
-Amplified default uses Level IV. Changes include Durability burn rate **−0.001285**.
-
-[Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/BP_Item_Pistol_Silenced_01_Ascended.json)
-
-Changes are relative to the Amplified default. Where an upgrade has a prerequisite, its row includes the prerequisite’s changes.
+Default changes are relative to Level IV; upgrade changes are relative to the Amplified default. Prerequisite changes are included where required.
 
 | Upgrade | Stat changes | What it does | Game files |
 | --- | --- | --- | --- |
-| Incendiary Rounds | — | Adds an incendiary compound to the projectile, setting targets on fire when hit. 0.5 thermal damage every 0.1 s for 2 s, up to 1 stack. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_IncendiaryRounds.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_IncendiaryRounds.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/BP_Projectile_Pistol_Silenced_Incendiary.json) · [Burning effect](../Sources/PioneerGame/Content/Pioneer/Core/Gameplay/StatusEffects/GE_Burning_Small.json) |
-| Semi-Auto | Headshot multiplier **−0.5×**, +0.4 dispersion gained per shot, +10 max firing dispersion, Fire rate 159 or 172.5 RPM (operation order unverified) | Makes the weapon semi-automatic. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_SemiAuto.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SemiAuto.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_SemiAuto.json) |
+| Default | Durability burn rate **−0.001285**, Input-buffer window **+0.19 s (0.01 → 0.2 s)** | Amplified baseline. | [Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/BP_Item_Pistol_Silenced_01_Ascended.json) |
+| Incendiary Rounds | Burn **+0.5 thermal / 0.1 s tick**, **2 s** duration, **1** stack maximum | Adds an incendiary compound to the projectile, setting targets on fire when hit. 0.5 thermal damage every 0.1 s for 2 s, up to 1 stack. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_IncendiaryRounds.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_IncendiaryRounds.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/BP_Projectile_Pistol_Silenced_Incendiary.json) · [Burning effect](../Sources/PioneerGame/Content/Pioneer/Core/Gameplay/StatusEffects/GE_Burning_Small.json) |
+| Semi-Auto | Headshot multiplier **−0.5×**, +0.4 dispersion gained per shot, +10 max firing dispersion, Fire-rate percentage modifier **+150%** | Makes the weapon semi-automatic. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_SemiAuto.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SemiAuto.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_SemiAuto.json) |
 | Tracker Rounds | +5 tracking duration (s) | Replaces the bullets with tracker rounds that briefly reveal the position of targets they hit. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_TrackerRounds.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_TrackerRounds.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_TrackerRounds.json) |
-| Sprint Shooting (requires Semi-Auto) | Headshot multiplier **−0.5×**, +0.4 dispersion gained per shot, +10 max firing dispersion, Fire rate 159 or 172.5 RPM (operation order unverified) | Ergonomic fittings that allow the weapon to be comfortably fired while sprinting. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_SprintShooting.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_SemiAuto_SprintShooting.json) |
+| Sprint Shooting (requires Semi-Auto) | Headshot multiplier **−0.5×**, +0.4 dispersion gained per shot, +10 max firing dispersion, Firing while sprinting **enabled**, Fire-rate percentage modifier **+150%** | Ergonomic fittings that allow the weapon to be comfortably fired while sprinting. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/DA_Upgrade_Pistol_Silenced_01_SprintShooting.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_Silenced_01_SprintShooting.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_Silenced_01/Ascended/Permutations/BP_Item_Pistol_Silenced_01_SemiAuto_SprintShooting.json) |
 
 **Mutually exclusive:** Semi-Auto, Tracker Rounds, Incendiary Rounds.
 

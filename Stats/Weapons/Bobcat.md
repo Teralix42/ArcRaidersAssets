@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_01/BP_Item_SMG_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_01/DA_Item_SMG_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_01/BP_WeaponQualitySet_SMG_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_01/BP_Projectile_SMG_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,7 +16,8 @@
 | Headshot multiplier | 2× |
 | ARC armor multiplier | 0.2× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 1000 |
+| Configured fire rate (RPM) | 1000 |
+| RPM interval (s) | 0.06 |
 | Magazine | 20 |
 | Reload stat (s) | 3.5 |
 | Firing mode | Full-auto |

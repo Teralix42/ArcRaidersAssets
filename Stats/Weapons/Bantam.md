@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/BP_Item_HandCannon_DoubleAction_Snubnose_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/DA_Item_HandCannon_DoubleAction_Snubnose_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/BP_WeaponQualitySet_HandCannon_DoubleAction_Snubnose_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/HandCannon_DoubleAction_Snubnose_01/BP_Projectile_HandCannon_DoubleAction_Snubnose_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,13 @@
 | Headshot multiplier | 1.5× |
 | ARC armor multiplier | 1.5× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 300 |
+| Configured fire rate (RPM) | 300 |
+| RPM interval (s) | 0.2 |
 | Magazine | 8 |
+| Hipfire trigger delay (s) | 0.06 |
+| ADS trigger delay (s) | 0.2 |
+| ADS settling delay (s) | 0.25 |
+| Input-buffer window (s) | 0.15 |
 | Reload stat (s) | 3.4 |
 | Firing mode | Semi-auto |
 | ARC armor propagation multiplier | 1× |

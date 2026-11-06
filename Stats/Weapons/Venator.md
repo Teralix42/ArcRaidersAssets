@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_HighPower_01/BP_Item_Pistol_HighPower_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_HighPower_01/DA_Item_Pistol_HighPower_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_HighPower_01/BP_WeaponQualitySet_Pistol_HighPower_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_HighPower_01/BP_Projectile_Pistol_HighPower_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 2× |
 | ARC armor multiplier | 0.8× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 225 |
+| Configured fire rate (RPM) | 225 |
+| RPM interval (s) | 0.2667 |
 | Magazine | 10 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3.5 |
 | Firing mode | Semi-auto |
 | Projectiles per shot | 2 |
@@ -28,11 +32,11 @@
 
 All deltas are relative to Level I. A dash means unchanged.
 
-| Level | Fire rate (RPM) | Reload stat (s) | Durability burn rate |
-| --- | --- | --- | --- |
-| II | +30 | −0.5 | −0.000138 |
-| III | +60 | −1 | −0.000276 |
-| IV | +90 | −1.5 | −0.000413 |
+| Level | Configured fire rate (RPM) | Reload stat (s) | Durability burn rate | RPM interval (s) |
+| --- | --- | --- | --- | --- |
+| II | +30 | −0.5 | −0.000138 | −0.0314 |
+| III | +60 | −1 | −0.000276 | −0.0561 |
+| IV | +90 | −1.5 | −0.000413 | −0.0762 |
 
 ### Direct physical damage to ARC
 

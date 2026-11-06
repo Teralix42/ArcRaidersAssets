@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Item_BattleRifle_SemiAuto_Light_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/DA_Item_BattleRifle_SemiAuto_Light_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_WeaponQualitySet_BattleRifle_SemiAuto_Light_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_SemiAuto_Light_01/BP_Projectile_BattleRifle_SemiAuto_Light_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 1.8× |
 | ARC armor multiplier | 0.4× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 175 |
+| Configured fire rate (RPM) | 175 |
+| RPM interval (s) | 0.3429 |
 | Magazine | 10 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3.13 |
 | Firing mode | Semi-auto |
 | ARC armor propagation multiplier | 0.2× |
@@ -26,11 +30,11 @@
 
 All deltas are relative to Level I. A dash means unchanged.
 
-| Level | Fire rate (RPM) | Magazine | Reload stat (s) | Durability burn rate |
-| --- | --- | --- | --- | --- |
-| II | +15 | +2 | −0.33 | −0.0001 |
-| III | +30 | +4 | −0.66 | −0.0002 |
-| IV | +45 | +6 | −0.99 | −0.0003 |
+| Level | Configured fire rate (RPM) | Magazine | Reload stat (s) | Durability burn rate | RPM interval (s) |
+| --- | --- | --- | --- | --- | --- |
+| II | +15 | +2 | −0.33 | −0.0001 | −0.0271 |
+| III | +30 | +4 | −0.66 | −0.0002 | −0.0502 |
+| IV | +45 | +6 | −0.99 | −0.0003 | −0.0701 |
 
 ### Direct physical damage to ARC
 

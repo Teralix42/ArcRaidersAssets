@@ -6,7 +6,7 @@
 
 Body damage is the 1× reference per projectile at level I or in the unlevelled config, before falloff and shields. The headshot column shows the weapon’s critical multiplier. Launchers list their non-ARC impact damage. Dolabra’s value is its configured hit-normalized damage.
 
-| Weapon | Ammo | Body damage (1×) | Headshot × | RPM | Mag |
+| Weapon | Ammo | Body damage (1×) | Headshot × | Configured RPM | Mag |
 | --- | --- | --- | --- | --- | --- |
 | [Anvil](Anvil.md) | Heavy | 40 | 2.5 | 40 | 6 |
 | [Aphelion](Aphelion.md) | Energy | 25 | 2 | 700 | 10 |
@@ -35,4 +35,4 @@ Body damage is the 1× reference per projectile at level I or in the unlevelled 
 | [Venator](Venator.md) | Medium | 8 | 2 | 225 | 10 |
 | [Vulcano](Vulcano.md) | Shotgun | 5.5 | 1 | 126 | 6 |
 
-Each weapon page shows changes from Level I, individual Amplified upgrades, falloff, and damage against ARC machines. ARC weak points use a separate multiplier. A dash in this table marks a missing or inapplicable value. [ARC damage model](../ARC/Damage_Model.md)
+Each weapon page shows Level I stats, level and Amplified deltas, firing timers, falloff, and damage against ARC machines. [Timing fields](Mechanics.md#firing-and-reload-timers). ARC weak points use a separate multiplier. A dash in this table marks a missing or inapplicable value. [ARC damage model](../ARC/Damage_Model.md)

@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Item_BattleRifle_BreachAction_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/DA_Item_BattleRifle_BreachAction_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_WeaponQualitySet_BattleRifle_BreachAction_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/BattleRifle_BreachAction_01/BP_Projectile_BattleRifle_BreachAction_01.json) · [BP_Item_BattleRifle_Base](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Shared/BaseClasses/BattleRifle_Base/BP_Item_BattleRifle_Base.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,11 @@
 | Headshot multiplier | 2.5× |
 | ARC armor multiplier | 1.5× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 50 |
+| Configured fire rate (RPM) | 50 |
+| RPM interval (s) | 1.2 |
 | Magazine | 1 |
+| Input-buffer window (s) | 0.01 |
+| Automatic-reload start delay (s) | 0 |
 | Reload stat (s) | 2.875 |
 | Firing mode | Semi-auto |
 | ARC armor propagation multiplier | 1× |

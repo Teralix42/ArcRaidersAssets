@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/BP_Item_Pistol_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/DA_Item_Pistol_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/BP_WeaponQualitySet_Pistol_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/BP_Projectile_Pistol_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,8 +16,10 @@
 | Headshot multiplier | 2.5× |
 | ARC armor multiplier | 0.2× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 500 |
+| Configured fire rate (RPM) | 500 |
+| RPM interval (s) | 0.12 |
 | Magazine | 12 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3 |
 | Cooldown (s) | 0 |
 | Firing mode | Semi-auto |
@@ -35,18 +39,15 @@ All deltas are relative to Level I. A dash means unchanged.
 
 ### Amplified
 
-Amplified default uses Level IV. Changes include Durability burn rate **−0.000536**.
-
-[Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/BP_Item_Pistol_01_Ascended.json)
-
-Changes are relative to the Amplified default. Where an upgrade has a prerequisite, its row includes the prerequisite’s changes.
+Default changes are relative to Level IV; upgrade changes are relative to the Amplified default. Prerequisite changes are included where required.
 
 | Upgrade | Stat changes | What it does | Game files |
 | --- | --- | --- | --- |
-| Burst Fire | Fire rate (RPM) **+400**, Cooldown (s) **+0.25**, Firing mode **Burst**, Shots per burst **+2** | Makes the weapon fire in a burst. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Burst.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_Burst.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst.json) |
-| Full-Auto | Body damage / projectile **−2**, Headshot multiplier **−1×**, Fire rate (RPM) **+300**, Firing mode **Full-auto**, +100% vertical recoil, +50% horizontal recoil, +50% base dispersion, +200% max firing dispersion, +200% dispersion recovery speed, −50% ADS dispersion scale | Makes the weapon fully automatic, at the cost of accuracy and stability. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_FullAuto.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_FullAuto.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_FullAuto.json) |
-| Sprint Shooting | — | Ergonomic fittings that allow the weapon to be comfortably fired while sprinting. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_SprintShooting.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_SprintShooting.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_SprintShooting.json) |
-| Increased Burst (requires Burst Fire) | Fire rate (RPM) **+600**, Magazine **+3**, Cooldown (s) **+0.25**, Firing mode **Burst**, Shots per burst **+4** | Increases the number of projectiles fired within a burst. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_IncreasedBurst.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_IncreasedBurst.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst_IncreasedBurst.json) |
+| Default | Durability burn rate **−0.000536** | Amplified baseline. | [Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/BP_Item_Pistol_01_Ascended.json) |
+| Burst Fire | Configured fire rate (RPM) **+400**, Cooldown (s) **+0.25**, Firing mode **Burst**, Shots per burst **+2**, RPM interval **−0.0533 s (0.12 → 0.0667 s)** | Makes the weapon fire in a burst. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_Burst.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_Burst.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst.json) |
+| Full-Auto | Body damage / projectile **−2**, Headshot multiplier **−1×**, Configured fire rate (RPM) **+300**, Firing mode **Full-auto**, +100% vertical recoil, +50% horizontal recoil, +50% base dispersion, +200% max firing dispersion, +200% dispersion recovery speed, −50% ADS dispersion scale, RPM interval **−0.045 s (0.12 → 0.075 s)** | Makes the weapon fully automatic, at the cost of accuracy and stability. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_FullAuto.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_FullAuto.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_FullAuto.json) |
+| Sprint Shooting | Firing while sprinting **enabled** | Ergonomic fittings that allow the weapon to be comfortably fired while sprinting. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_SprintShooting.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_SprintShooting.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_SprintShooting.json) |
+| Increased Burst (requires Burst Fire) | Configured fire rate (RPM) **+600**, Magazine **+3**, Cooldown (s) **+0.25**, Firing mode **Burst**, Shots per burst **+4**, RPM interval **−0.0655 s (0.12 → 0.0545 s)** | Increases the number of projectiles fired within a burst. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/DA_Upgrade_Pistol_01_IncreasedBurst.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Pistol_01_IncreasedBurst.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Pistol_01/Ascended/Permutations/BP_Item_Pistol_01_Burst_IncreasedBurst.json) |
 
 **Mutually exclusive:** Burst Fire, Full-Auto.
 

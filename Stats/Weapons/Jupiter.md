@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/BP_Item_Special_Railgun_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/DA_Item_Special_Railgun_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/BP_WeaponQualitySet_Special_Railgun_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/BP_Projectile_Special_Railgun_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Standard
 
 | Stat | Value |
@@ -14,10 +16,11 @@
 | Headshot multiplier | 2× |
 | ARC armor multiplier | 3× |
 | ARC weak-point multiplier | 1.3× |
-| Fire rate (RPM) | 45 |
+| Configured fire rate (RPM) | 45 |
 | Magazine | 5 |
+| Input-buffer window (s) | 0.01 |
 | Reload stat (s) | 3 |
-| Cooldown (s) | 2 |
+| Fire-action gate (s) | 2 |
 | Firing mode | Bolt-action |
 | ARC armor propagation multiplier | 0.4× |
 | Durability burn rate | 0.0045 |
@@ -29,21 +32,18 @@
 - Damage multiplier per penetrated hit **0.75**
 - Extra hipfire windup (s) **0.2**
 - Skip extra hipfire windup in combat
-- Standard and Amplified share the reload animation and timing config. [Shared reload animation](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/DA_WeaponAnimations_Special_Railgun_01.json)
+- Magazine reload uses the shared animation. Ergonomic Bolt changes the fire-action gate shown in the upgrade table. [Shared reload animation](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/DA_WeaponAnimations_Special_Railgun_01.json)
 
 ### Amplified
 
-Amplified default uses the standard weapon as its baseline. Changes include Durability burn rate **−0.00225**.
-
-[Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/BP_Item_Special_Railgun_01_Ascended.json)
-
-Changes are relative to the Amplified default. Where an upgrade has a prerequisite, its row includes the prerequisite’s changes.
+Default changes are relative to Standard; upgrade changes are relative to the Amplified default. Prerequisite changes are included where required.
 
 | Upgrade | Stat changes | What it does | Game files |
 | --- | --- | --- | --- |
+| Default | Durability burn rate **−0.00225** | Amplified baseline. | [Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/BP_Item_Special_Railgun_01_Ascended.json) |
 | Bigger Mag | Magazine **+5** | Increases the magazine capacity. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_BiggerMag.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Special_Railgun_01_BiggerMag.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/BP_Item_Special_Railgun_01_BiggerMag.json) |
-| Scoped | Zoom modifier fraction **0.5** (game setting), UI range score **+4.904** | Adds a scope to the weapon, allowing it to be fired from a scoped view. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_Scoped.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/BP_Item_Special_Railgun_01_Scoped.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_Item_Special_Railgun_01_Scoped.json) · [Animation config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_ItemAnimationContainer_Special_Railgun_01_Scoped.json) |
-| Ergonomic Bolt | UI fire rate score **+3** | Ergonomic bolt that allows the user to perform the bolt-action while scoped. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_StraightBolt.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Special_Railgun_01_StraightBolt.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/BP_Item_Special_Railgun_01_StraightBolt.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_Item_Special_Railgun_01_StraightBolt.json) · [Animation config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_ItemAnimationContainer_Special_Railgun_01_StraightBolt.json) |
+| Scoped | Zoom modifier fraction **0.5** (game setting), UI range score **+4.904**, Scoped view **enabled** | Adds a scope to the weapon, allowing it to be fired from a scoped view. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_Scoped.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/BP_Item_Special_Railgun_01_Scoped.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_Item_Special_Railgun_01_Scoped.json) · [Animation config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_ItemAnimationContainer_Special_Railgun_01_Scoped.json) |
+| Ergonomic Bolt | UI fire rate score **+3**, Fire-action gate **−0.6667 s (2 → 1.3333 s)**, Firing mode **BoltAction → Single** | Allows bolt cycling while scoped and selects the Single firing path. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/DA_Upgrade_Special_Railgun_01_StraightBolt.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Upgrades/BP_UpgradeWeaponMod_Special_Railgun_01_StraightBolt.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/BP_Item_Special_Railgun_01_StraightBolt.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_Item_Special_Railgun_01_StraightBolt.json) · [Animation config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/Special_Railgun_01/Ascended/Permutations/DA_ItemAnimationContainer_Special_Railgun_01_StraightBolt.json) |
 
 ### Direct physical damage to ARC
 

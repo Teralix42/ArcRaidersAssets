@@ -6,6 +6,8 @@
 
 [Weapon blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/BP_Item_SMG_Medium_01.json) · [Item config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/DA_Item_SMG_Medium_01.json) · [Level modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/BP_WeaponQualitySet_SMG_Medium_01.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/BP_Projectile_SMG_Medium_01.json)
 
+[Timing fields and game-code formulas](Mechanics.md#firing-and-reload-timers).
+
 ### Level I
 
 | Stat | Value |
@@ -14,7 +16,8 @@
 | Headshot multiplier | 1.75× |
 | ARC armor multiplier | 0.8× |
 | ARC weak-point multiplier | 1× |
-| Fire rate (RPM) | 850 |
+| Configured fire rate (RPM) | 850 |
+| RPM interval (s) | 0.0706 |
 | Magazine | 18 |
 | Reload stat (s) | 4 |
 | Firing mode | Full-auto |
@@ -34,17 +37,14 @@ All deltas are relative to Level I. A dash means unchanged.
 
 ### Amplified
 
-Amplified default uses Level IV. Changes include Durability burn rate **−0.000446**.
-
-[Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Item_SMG_Medium_01_Ascended.json)
-
-Changes are relative to the Amplified default. Where an upgrade has a prerequisite, its row includes the prerequisite’s changes.
+Default changes are relative to Level IV; upgrade changes are relative to the Amplified default. Prerequisite changes are included where required.
 
 | Upgrade | Stat changes | What it does | Game files |
 | --- | --- | --- | --- |
-| Carbine Conversion | Fire rate (RPM) **−85**, −20% base dispersion, −20% dispersion gained per shot, −28.571429% max firing dispersion, −50% ADS recoil gain, +0.2 equip time (s), +0.2 unequip time (s) | Repurposes the Canto as a carbine, greatly improving stability and accuracy at the cost of agility. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_Carbine.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_SMG_Medium_01_Carbine.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_Carbine.json) |
-| Incendiary Rounds | — | Adds an incendiary compound to the projectile, setting targets on fire when hit. 0.5 thermal damage every 0.1 s for 2 s, up to 1 stack. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_IncendiaryRounds.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_IncendiaryRounds.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Projectile_SMG_Medium_Incendiary.json) · [Burning effect](../Sources/PioneerGame/Content/Pioneer/Core/Gameplay/StatusEffects/GE_Burning_Small.json) |
-| Sprint Shooting | — | Ergonomic fittings that allow the weapon to be comfortably fired while sprinting. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_SprintShooting.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_SMG_Medium_01_SprintShooting.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_SprintShooting.json) |
+| Default | Durability burn rate **−0.000446** | Amplified baseline. | [Amplified Durability](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_Ascended.json) · [Amplified blueprint](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Item_SMG_Medium_01_Ascended.json) |
+| Carbine Conversion | Configured fire rate (RPM) **−85**, −20% base dispersion, −20% dispersion gained per shot, −28.571429% max firing dispersion, −50% ADS recoil gain, +0.2 equip time (s), +0.2 unequip time (s), RPM interval **+0.0078 s (0.0706 → 0.0784 s)** | Repurposes the Canto as a carbine, greatly improving stability and accuracy at the cost of agility. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_Carbine.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_SMG_Medium_01_Carbine.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_Carbine.json) |
+| Incendiary Rounds | Burn **+0.5 thermal / 0.1 s tick**, **2 s** duration, **1** stack maximum | Adds an incendiary compound to the projectile, setting targets on fire when hit. 0.5 thermal damage every 0.1 s for 2 s, up to 1 stack. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_IncendiaryRounds.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_IncendiaryRounds.json) · [Projectile](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/BP_Projectile_SMG_Medium_Incendiary.json) · [Burning effect](../Sources/PioneerGame/Content/Pioneer/Core/Gameplay/StatusEffects/GE_Burning_Small.json) |
+| Sprint Shooting | Firing while sprinting **enabled** | Ergonomic fittings that allow the weapon to be comfortably fired while sprinting. | [Upgrade](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/DA_Upgrade_SMG_Medium_01_SprintShooting.json) · [Modifiers](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Upgrades/BP_UpgradeWeaponMod_SMG_Medium_01_SprintShooting.json) · [Weapon config](../Sources/PioneerGame/Content/Pioneer/Items/Firearms/SMG_Medium_01/Ascended/Permutations/BP_Item_SMG_Medium_01_SprintShooting.json) |
 
 **Mutually exclusive:** Carbine Conversion, Sprint Shooting.
 
